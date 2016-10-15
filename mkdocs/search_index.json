@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/",
-            "text": "Welcome to UModeler\n\n\nUModeler is the modeling tool for Unity.\nUModeler allows you to make meshes for real assets as well as prototype levels without leaving Unity Editor.\n\n\n\n\nKey Features\n\n\n\n\nPlug-in so creating and editing meshes are possible within Unity Editor.\n\n\nExcellent around 50 tools to manipulate geometry.\n\n\nThe simple polygon is the basic topology so convexhull polygon, oncave polygon and polygon with holes as a polygon edit unit are available. It means that even non-modelers as well as modelers can manipulate meshes without many efforts.\n\n\nSolid automatic triangulation with no additional vertices.\n\n\nPolygons can be made with various drawing tools as drawing a picture.\n\n\nMany additional functions such as User-defined shortcuts, Stable undo/redo, Quick tool finder, Advanced gizmo, Easy attributes editor and Powerful snapping etc.\n\n\n\n\nTools\n\n\nTools in UModeler are categorized into 8 groups.\n\n\n\n\nTransform : \nTranslate\n/\nRotate\n/\nScale\n vertices, edges, polygons and objects, \nMagnet\n\n\nSelection : \nAll/None\n, \nIsolated\n, \nLoop\n, \nRing\n, \nInvert\n and \nGrow\n\n\nDrawing : \nPolyline\n, \nCurve\n, \nRectangle\n, \nDisc\n and \nStair Profile\n\n\nPrimitives : \nBox\n, \nRoom\n, \nStair\n, \nCylinder\n, \nCone\n, \nSphere\n and \nCapsule\n\n\nEdit : \nRemove\n, \nCopy\n, \nFill\n, \nFlip\n, \nSeparate\n, \nMerge\n, \nRemove Doubles\n and \nCollapse\n.\n\n\nAdvanced Edit : \nExtrude\n, \nInset\n, \nBoolean\n, \nMirror\n, \nSlice\n, \nLoop Slice\n, \nBridge\n, \nFollow\n and \nBevel\n\n\nSurface : \nMaterial\n, \nUV\n, \nColor\n and \nSmoothing Group\n\n\nMisc : \nCenter Pivot\n, \nResetXForm\n, \nPivot\n and \nCollider",
+            "text": "Welcome to UModeler\n\n\nUModeler is the modeling tool for Unity.\nUModeler allows you to make meshes for real assets as well as prototype levels without leaving Unity Editor.\n\n\n\n\nKey Features\n\n\n\n\nPlug-in. Creating and editing meshes on Unity Editor.\n\n\nExcellent around 50 tools to manipulate geometry.\n\n\nThe simple polygon is the basic topology so convexhull polygon, concave polygon and polygon with holes as a polygon edit unit are available. It means that even non-modelers as well as modelers can manipulate meshes without many efforts.\n\n\nSolid automatic triangulation with no additional vertices.\n\n\nPolygons can be made with various drawing tools as drawing a picture.\n\n\nMany additional functions such as User-defined shortcuts, Stable undo/redo, Quick tool finder, Advanced gizmo, Easy attributes editor and Powerful snapping etc.\n\n\n\n\nTools\n\n\nTools in UModeler are categorized into 8 groups.\n\n\n\n\nTransform : \nTranslate\n/\nRotate\n/\nScale\n vertices, edges, polygons and objects, \nMagnet\n\n\nSelection : \nAll/None\n, \nIsolated\n, \nLoop\n, \nRing\n, \nInvert\n and \nGrow\n\n\nDrawing : \nPolyline\n, \nCurve\n, \nRectangle\n, \nDisc\n and \nStair Profile\n\n\nPrimitives : \nBox\n, \nRoom\n, \nStair\n, \nCylinder\n, \nCone\n, \nSphere\n and \nCapsule\n\n\nEdit : \nRemove\n, \nCopy\n, \nFill\n, \nFlip\n, \nSeparate\n, \nMerge\n, \nRemove Doubles\n and \nCollapse\n.\n\n\nAdvanced Edit : \nExtrude\n, \nInset\n, \nBoolean\n, \nMirror\n, \nSlice\n, \nLoop Slice\n, \nBridge\n, \nFollow\n and \nBevel\n\n\nSurface : \nMaterial\n, \nUV\n, \nColor\n and \nSmoothing Group\n\n\nMisc : \nCenter Pivot\n, \nResetXForm\n, \nPivot\n and \nCollider",
             "title": "Home"
         },
         {
@@ -12,7 +12,7 @@
         },
         {
             "location": "/#key-features",
-            "text": "Plug-in so creating and editing meshes are possible within Unity Editor.  Excellent around 50 tools to manipulate geometry.  The simple polygon is the basic topology so convexhull polygon, oncave polygon and polygon with holes as a polygon edit unit are available. It means that even non-modelers as well as modelers can manipulate meshes without many efforts.  Solid automatic triangulation with no additional vertices.  Polygons can be made with various drawing tools as drawing a picture.  Many additional functions such as User-defined shortcuts, Stable undo/redo, Quick tool finder, Advanced gizmo, Easy attributes editor and Powerful snapping etc.",
+            "text": "Plug-in. Creating and editing meshes on Unity Editor.  Excellent around 50 tools to manipulate geometry.  The simple polygon is the basic topology so convexhull polygon, concave polygon and polygon with holes as a polygon edit unit are available. It means that even non-modelers as well as modelers can manipulate meshes without many efforts.  Solid automatic triangulation with no additional vertices.  Polygons can be made with various drawing tools as drawing a picture.  Many additional functions such as User-defined shortcuts, Stable undo/redo, Quick tool finder, Advanced gizmo, Easy attributes editor and Powerful snapping etc.",
             "title": "Key Features"
         },
         {
@@ -21,29 +21,234 @@
             "title": "Tools"
         },
         {
-            "location": "/about/",
-            "text": "Welcome to MkDocs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
-            "title": "About"
+            "location": "/tools/transform/vertex_edge_polygon/",
+            "text": "",
+            "title": "Vertex/Edge/Polyon"
         },
         {
-            "location": "/about/#welcome-to-mkdocs",
-            "text": "For full documentation visit  mkdocs.org .",
-            "title": "Welcome to MkDocs"
+            "location": "/tools/transform/object/",
+            "text": "",
+            "title": "Object"
         },
         {
-            "location": "/about/#commands",
-            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.",
-            "title": "Commands"
+            "location": "/tools/transform/magnet/",
+            "text": "",
+            "title": "Magnet"
         },
         {
-            "location": "/about/#project-layout",
-            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
-            "title": "Project layout"
+            "location": "/tools/selection/all_none/",
+            "text": "",
+            "title": "All/None"
         },
         {
-            "location": "/tools/",
-            "text": "First Header\n\n\nSecond Header\n\n\nThird Header\n\n\n\n\n\n\n\n\n\n\nContent Cell\n\n\nContent Cell\n\n\nContent Cell\n\n\n\n\n\n\nContent Cell\n\n\nContent Cell\n\n\nContent Cell\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFirst Header\n\n\nSecond Header\n\n\nThird Header\n\n\n\n\n\n\n\n\n\n\nContent Cell\n\n\nContent Cell\n\n\nContent Cell\n\n\n\n\n\n\nContent Cell\n\n\nContent Cell\n\n\nContent Cell\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFirst Header\n\n\nSecond Header\n\n\nThird Header\n\n\n\n\n\n\n\n\n\n\nLeft\n\n\nCenter\n\n\nRight\n\n\n\n\n\n\nLeft\n\n\nCenter\n\n\nRight\n\n\n\n\n\n\n\n\nFenced code blocks are like Stardard\nMarkdown\u2019s regular code blocks, except that\nthey\u2019re not indented and instead rely on\nstart and end fence lines to delimit the\ncode block.\n\n\n\n\ndef fn():\n    pass",
-            "title": "Tools"
+            "location": "/tools/selection/isolated/",
+            "text": "",
+            "title": "Isolated"
+        },
+        {
+            "location": "/tools/selection/loop/",
+            "text": "",
+            "title": "Loop"
+        },
+        {
+            "location": "/tools/selection/ring/",
+            "text": "",
+            "title": "Ring"
+        },
+        {
+            "location": "/tools/selection/invert/",
+            "text": "",
+            "title": "Invert"
+        },
+        {
+            "location": "/tools/selection/grow/",
+            "text": "",
+            "title": "Grow"
+        },
+        {
+            "location": "/tools/drawing/polyline/",
+            "text": "",
+            "title": "Polyline"
+        },
+        {
+            "location": "/tools/drawing/curve/",
+            "text": "",
+            "title": "Curve"
+        },
+        {
+            "location": "/tools/drawing/rectangle/",
+            "text": "",
+            "title": "Rectangle"
+        },
+        {
+            "location": "/tools/drawing/disc/",
+            "text": "",
+            "title": "Disc"
+        },
+        {
+            "location": "/tools/drawing/stair_profile/",
+            "text": "",
+            "title": "Stair Profile"
+        },
+        {
+            "location": "/tools/primitives/box/",
+            "text": "",
+            "title": "Box"
+        },
+        {
+            "location": "/tools/primitives/room/",
+            "text": "",
+            "title": "Room"
+        },
+        {
+            "location": "/tools/primitives/stair/",
+            "text": "",
+            "title": "Stair"
+        },
+        {
+            "location": "/tools/primitives/cylinder/",
+            "text": "",
+            "title": "Cylilnder"
+        },
+        {
+            "location": "/tools/primitives/cone/",
+            "text": "",
+            "title": "Cone"
+        },
+        {
+            "location": "/tools/primitives/sphere/",
+            "text": "",
+            "title": "Sphere"
+        },
+        {
+            "location": "/tools/primitives/capsule/",
+            "text": "",
+            "title": "Capsule"
+        },
+        {
+            "location": "/tools/edit/remove/",
+            "text": "",
+            "title": "Remove"
+        },
+        {
+            "location": "/tools/edit/copy/",
+            "text": "",
+            "title": "Copy"
+        },
+        {
+            "location": "/tools/edit/fill/",
+            "text": "",
+            "title": "Fill"
+        },
+        {
+            "location": "/tools/edit/flip/",
+            "text": "",
+            "title": "Flip"
+        },
+        {
+            "location": "/tools/edit/separate/",
+            "text": "",
+            "title": "Separate"
+        },
+        {
+            "location": "/tools/edit/merge/",
+            "text": "",
+            "title": "Merge"
+        },
+        {
+            "location": "/tools/edit/remove_doubles/",
+            "text": "",
+            "title": "Remove Doubles"
+        },
+        {
+            "location": "/tools/edit/collapse/",
+            "text": "",
+            "title": "Collapse"
+        },
+        {
+            "location": "/tools/advanced_edit/extrude/",
+            "text": "",
+            "title": "Extrude"
+        },
+        {
+            "location": "/tools/advanced_edit/inset/",
+            "text": "",
+            "title": "Inset"
+        },
+        {
+            "location": "/tools/advanced_edit/boolean/",
+            "text": "",
+            "title": "Boolean"
+        },
+        {
+            "location": "/tools/advanced_edit/mirror/",
+            "text": "",
+            "title": "Mirror"
+        },
+        {
+            "location": "/tools/advanced_edit/slice/",
+            "text": "",
+            "title": "Slice"
+        },
+        {
+            "location": "/tools/advanced_edit/loop_slice/",
+            "text": "",
+            "title": "Loop Slice"
+        },
+        {
+            "location": "/tools/advanced_edit/bridge/",
+            "text": "",
+            "title": "Bridge"
+        },
+        {
+            "location": "/tools/advanced_edit/follow/",
+            "text": "",
+            "title": "Follow"
+        },
+        {
+            "location": "/tools/advanced_edit/bevel/",
+            "text": "",
+            "title": "Bevel"
+        },
+        {
+            "location": "/tools/surface/material/",
+            "text": "",
+            "title": "Material"
+        },
+        {
+            "location": "/tools/surface/uv/",
+            "text": "",
+            "title": "UV"
+        },
+        {
+            "location": "/tools/surface/color/",
+            "text": "",
+            "title": "Color"
+        },
+        {
+            "location": "/tools/surface/smoothing_group/",
+            "text": "",
+            "title": "Smoothing Group"
+        },
+        {
+            "location": "/tools/misc/center_pivot/",
+            "text": "",
+            "title": "Center Pivot"
+        },
+        {
+            "location": "/tools/misc/reset_x_form/",
+            "text": "",
+            "title": "ResetXForm"
+        },
+        {
+            "location": "/tools/misc/pivot/",
+            "text": "",
+            "title": "Pivot"
+        },
+        {
+            "location": "/tools/misc/collider/",
+            "text": "",
+            "title": "Collider"
         }
     ]
 }
