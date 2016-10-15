@@ -2,23 +2,23 @@
     "docs": [
         {
             "location": "/",
-            "text": "Welcome to UModeler\n\n\nCommands\n\n\nProject layout",
+            "text": "Welcome to UModeler\n\n\nUModeler is the modeling tool for Unity.\nUModeler allows you to make meshes for real assets as well as prototype levels without leaving Unity Editor.\n\n\n\n\nKey Features\n\n\n\n\nPlug-in so creating and editing meshes are possible within Unity Editor.\n\n\nExcellent around 50 tools to manipulate geometry.\n\n\nThe simple polygon is the basic topology so convexhull polygon, oncave polygon and polygon with holes as a polygon edit unit are available. It means that even non-modelers as well as modelers can manipulate meshes without many efforts.\n\n\nSolid automatic triangulation with no additional vertices.\n\n\nPolygons can be made with various drawing tools as drawing a picture.\n\n\nMany additional functions such as User-defined shortcuts, Stable undo/redo, Quick tool finder, Advanced gizmo, Easy attributes editor and Powerful snapping etc.\n\n\n\n\nTools\n\n\nTools in UModeler are categorized into 8 groups.\n\n\n\n\nTransform : \nTranslate\n/\nRotate\n/\nScale\n vertices, edges, polygons and objects, \nMagnet\n\n\nSelection : \nAll/None\n, \nIsolated\n, \nLoop\n, \nRing\n, \nInvert\n and \nGrow\n\n\nDrawing : \nPolyline\n, \nCurve\n, \nRectangle\n, \nDisc\n and \nStair Profile\n\n\nPrimitives : \nBox\n, \nRoom\n, \nStair\n, \nCylinder\n, \nCone\n, \nSphere\n and \nCapsule\n\n\nEdit : \nRemove\n, \nCopy\n, \nFill\n, \nFlip\n, \nSeparate\n, \nMerge\n, \nRemove Doubles\n and \nCollapse\n.\n\n\nAdvanced Edit : \nExtrude\n, \nInset\n, \nBoolean\n, \nMirror\n, \nSlice\n, \nLoop Slice\n, \nBridge\n, \nFollow\n and \nBevel\n\n\nSurface : \nMaterial\n, \nUV\n, \nColor\n and \nSmoothing Group\n\n\nMisc : \nCenter Pivot\n, \nResetXForm\n, \nPivot\n and \nCollider",
             "title": "Home"
         },
         {
             "location": "/#welcome-to-umodeler",
-            "text": "",
+            "text": "UModeler is the modeling tool for Unity.\nUModeler allows you to make meshes for real assets as well as prototype levels without leaving Unity Editor.",
             "title": "Welcome to UModeler"
         },
         {
-            "location": "/#commands",
-            "text": "",
-            "title": "Commands"
+            "location": "/#key-features",
+            "text": "Plug-in so creating and editing meshes are possible within Unity Editor.  Excellent around 50 tools to manipulate geometry.  The simple polygon is the basic topology so convexhull polygon, oncave polygon and polygon with holes as a polygon edit unit are available. It means that even non-modelers as well as modelers can manipulate meshes without many efforts.  Solid automatic triangulation with no additional vertices.  Polygons can be made with various drawing tools as drawing a picture.  Many additional functions such as User-defined shortcuts, Stable undo/redo, Quick tool finder, Advanced gizmo, Easy attributes editor and Powerful snapping etc.",
+            "title": "Key Features"
         },
         {
-            "location": "/#project-layout",
-            "text": "",
-            "title": "Project layout"
+            "location": "/#tools",
+            "text": "Tools in UModeler are categorized into 8 groups.   Transform :  Translate / Rotate / Scale  vertices, edges, polygons and objects,  Magnet  Selection :  All/None ,  Isolated ,  Loop ,  Ring ,  Invert  and  Grow  Drawing :  Polyline ,  Curve ,  Rectangle ,  Disc  and  Stair Profile  Primitives :  Box ,  Room ,  Stair ,  Cylinder ,  Cone ,  Sphere  and  Capsule  Edit :  Remove ,  Copy ,  Fill ,  Flip ,  Separate ,  Merge ,  Remove Doubles  and  Collapse .  Advanced Edit :  Extrude ,  Inset ,  Boolean ,  Mirror ,  Slice ,  Loop Slice ,  Bridge ,  Follow  and  Bevel  Surface :  Material ,  UV ,  Color  and  Smoothing Group  Misc :  Center Pivot ,  ResetXForm ,  Pivot  and  Collider",
+            "title": "Tools"
         },
         {
             "location": "/about/",
