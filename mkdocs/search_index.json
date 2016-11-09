@@ -22,7 +22,7 @@
         },
         {
             "location": "/contact/",
-            "text": "If you want more latest news about UModeler, please visit links below.\n\n\nFacebook\n\n\nTwitter\n\n\nE-Mail : contact.support@tripolygon.com",
+            "text": "If you want more latest news or have questions about UModeler, please visit links below or send an e-mail.\n\n\nFacebook\n\n\nTwitter\n\n\nE-Mail",
             "title": "Contact"
         },
         {
@@ -141,9 +141,9 @@
             "title": "Copy"
         },
         {
-            "location": "/tools/edit/fill/",
+            "location": "/tools/edit/bridge/",
             "text": "",
-            "title": "Fill"
+            "title": "Bridge"
         },
         {
             "location": "/tools/edit/flip/",
@@ -197,13 +197,13 @@
         },
         {
             "location": "/tools/advanced_edit/loop_slice/",
-            "text": "",
+            "text": "Loop Slice",
             "title": "Loop Slice"
         },
         {
-            "location": "/tools/advanced_edit/bridge/",
+            "location": "/tools/advanced_edit/loop_slice/#loop-slice",
             "text": "",
-            "title": "Bridge"
+            "title": "Loop Slice"
         },
         {
             "location": "/tools/advanced_edit/follow/",
