@@ -23,7 +23,7 @@ Key Features
 ============
 
  SketchUp Style Modeling
-	Any polygons can be drawn easily and you can turn them 3D shapes into intuitive ways.
+	Any polygons can be drawn easily and you can turn them into 3D shapes in intuitive ways.
 
  Blender Style Modeling
 	If you want to create complicated shapes like buildings, vehicles, props, etc, you can do it with the advanced tools like extrude, inset, boolean, bevel, slice, loop slice, mirror, follow tool, etc.
@@ -47,6 +47,6 @@ Basic and Pro
 
 .. raw:: html
 
-	<iframe width="640" height="360" class="youtube-preview" src="https://www.youtube.com/embed/BdYuO5gbdXA" allowfullscreen></iframe>
+	<iframe width="640" height="360" class="youtube-preview" src="https://www.youtube.com/embed/ZJXHkNmXNDg" allowfullscreen></iframe>
 
 

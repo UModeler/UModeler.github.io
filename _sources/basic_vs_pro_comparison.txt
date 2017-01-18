@@ -3,12 +3,12 @@ Basic and Pro Comparison
 ************************
 
  UModeler Basic
-	Basic version includes the core features enough to create simple meshes and levels.
+	The basic version includes the core features enough to create simple meshes and levels.
 	This is free.
 	
  UModeler Pro
-	Pro version has lots of advanced tools such as bevel, boolean, mirror, slice, loop slice, follow and much more.
-	With Pro version you can make complicated shapes which can be used for real assets without leaving Unity.
+	The Pro version has lots of advanced tools such as bevel, boolean, mirror, slice, loop slice, follow, and much more.
+	With Pro version, you can make complicated shapes for real assets without leaving Unity.
 	This is a paid extension.
 
 See the below table to check what functions are available in the both versions.
@@ -18,8 +18,6 @@ See the below table to check what functions are available in the both versions.
 +======================+=======+=======+
 |Select/Transform      |   O   |   O   |
 |(Vertex,Edge,Polygon) |       |       |
-+----------------------+-------+-------+
-|Magnet                |       |   O   |
 +----------------------+-------+-------+
 |All/None Selection    |       |   O   |
 +----------------------+-------+-------+
@@ -41,7 +39,9 @@ See the below table to check what functions are available in the both versions.
 +----------------------+-------+-------+
 |Disc                  |   O   |   O   |
 +----------------------+-------+-------+
-|Stair Profile         |   O   |   O   |
+|Stair Profile         |       |   O   |
++----------------------+-------+-------+
+|Parallel              |       |   O   |
 +----------------------+-------+-------+
 |Box                   |       |   O   |
 +----------------------+-------+-------+
@@ -118,4 +118,6 @@ See the below table to check what functions are available in the both versions.
 |Collider              |   O   |   O   |
 +----------------------+-------+-------+
 |Export to Obj         |       |   O   |
++----------------------+-------+-------+
+|Backface              |   O   |   O   |
 +----------------------+-------+-------+
