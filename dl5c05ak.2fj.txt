@@ -1,0 +1,60 @@
+﻿Merge remote-tracking branch 'origin/master'
+
+# Conflicts:
+#	searchindex.js
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 1 and 1 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# All conflicts fixed but you are still merging.
+#
+# Changes to be committed:
+#	modified:   .buildinfo
+#	new file:   _sources/basic_vs_pro_comparison.rst.txt
+#	new file:   _sources/contact.rst.txt
+#	new file:   _sources/index.rst.txt
+#	new file:   _sources/interface_controls.rst.txt
+#	new file:   _sources/tools.rst.txt
+#	new file:   _sources/tutorials.rst.txt
+#	new file:   _sources/user_interface.rst.txt
+#	new file:   _sources/windows.rst.txt
+#	modified:   _static/basic.css
+#	modified:   _static/comment-bright.png
+#	modified:   _static/comment-close.png
+#	modified:   _static/comment.png
+#	modified:   _static/down-pressed.png
+#	modified:   _static/down.png
+#	modified:   _static/file.png
+#	new file:   _static/jquery-3.1.0.js
+#	modified:   _static/jquery.js
+#	modified:   _static/minus.png
+#	modified:   _static/plus.png
+#	modified:   _static/searchtools.js
+#	modified:   _static/up-pressed.png
+#	modified:   _static/up.png
+#	modified:   basic_vs_pro_comparison.html
+#	modified:   contact.html
+#	modified:   genindex.html
+#	modified:   index.html
+#	modified:   interface_controls.html
+#	modified:   search.html
+#	modified:   searchindex.js
+#	modified:   tools.html
+#	modified:   tutorials.html
+#	modified:   user_interface.html
+#	modified:   windows.html
+#
+# Changes not staged for commit:
+#	deleted:    tutorials/simple_hou1212se/introduction.html
+#
+
