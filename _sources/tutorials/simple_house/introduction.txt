@@ -1,6 +1,8 @@
-*************
-Introduction
-*************
+***********************
+Building a Simple House
+***********************
+
+ .. figure:: /images/tutorials/simple_house/simple_house.jpg
 
 .. toctree::
 

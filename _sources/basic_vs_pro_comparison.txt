@@ -95,6 +95,8 @@ See the below table to check what functions are available in the both versions.
 +-------------------------+-------+-------+
 |Loop Slice               |       |   O   |
 +-------------------------+-------+-------+
+|Clip                     |       |   O   |
++-------------------------+-------+-------+
 |Follow                   |       |   O   |
 +-------------------------+-------+-------+
 |Bevel                    |       |   O   |
