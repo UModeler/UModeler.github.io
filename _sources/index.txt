@@ -10,7 +10,11 @@ UModeler
  Tools <tools.rst>
  Contact <contact.rst>
  
-.. figure:: /images/umodeler-bg.png
+.. raw:: html
+
+	<iframe width="640" height="360" class="youtube-preview" src="https://www.youtube.com/embed/ZJXHkNmXNDg" allowfullscreen></iframe>
+
+	
 
 Introduction
 ============
@@ -43,10 +47,3 @@ Basic and Pro
  .. note::
 
 	  If you want to know the difference more between Basic and Pro, see :doc:`basic_vs_pro_comparison`.
-	
-
-.. raw:: html
-
-	<iframe width="640" height="360" class="youtube-preview" src="https://www.youtube.com/embed/ZJXHkNmXNDg" allowfullscreen></iframe>
-
-
