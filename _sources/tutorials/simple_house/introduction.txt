@@ -13,3 +13,7 @@ Building a Simple House
 	Roof window <roof_window.rst>
 	Door <door.rst>
 	Texture mapping <texture_mapping.rst>
+	
+.. raw:: html
+
+	<iframe width="540" height="300" class="youtube-preview" src="https://www.youtube.com/embed/ZJXHkNmXNDg" allowfullscreen></iframe>	

@@ -12,7 +12,7 @@ UModeler
  
 .. raw:: html
 
-	<iframe width="640" height="360" class="youtube-preview" src="https://www.youtube.com/embed/ZJXHkNmXNDg" allowfullscreen></iframe>
+	<iframe width="540" height="300" class="youtube-preview" src="https://www.youtube.com/embed/ZJXHkNmXNDg" allowfullscreen></iframe>
 
 	
 
