@@ -73,6 +73,7 @@ Roof
   
  20. The sides of the roof also need to be pulled by 1m as you did in step 18 and 19.
   .. figure:: /images/tutorials/simple_house/roof_19.jpg
+  .. figure:: /images/tutorials/simple_house/roof_20.jpg
   
  21. Finally the roof has been done.
-  .. figure:: /images/tutorials/simple_house/roof_20.jpg
+  .. figure:: /images/tutorials/simple_house/roof_21.jpg  
