@@ -42,7 +42,7 @@ Basic and Pro
  UModeler Pro
 	The Pro version has lots of advanced tools such as bevel, boolean, mirror, slice, loop slice, follow, and much more.
 	With Pro version, you can make complicated shapes for real assets without leaving Unity.
-	This is a paid extension.
+	This is a paid plugin.
 	
  .. note::
 
