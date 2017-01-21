@@ -65,7 +65,7 @@ See the below table to check what functions are available in the both versions.
 +-------------------------+-------+-------+
 |Eraser                   |   O   |   O   |
 +-------------------------+-------+-------+
-|Copy                     |       |   O   |
+|Copy                     |   O   |   O   |
 +-------------------------+-------+-------+
 |Bridge Fill              |   O   |   O   |
 +-------------------------+-------+-------+
@@ -85,7 +85,7 @@ See the below table to check what functions are available in the both versions.
 +-------------------------+-------+-------+
 |Extrude                  |   O   |   O   |
 +-------------------------+-------+-------+
-|Extrude Edge             |       |   O   |
+|Extrude Edge             |   O   |   O   |
 +-------------------------+-------+-------+
 |Extrude Multiple         |       |   O   |
 +-------------------------+-------+-------+
