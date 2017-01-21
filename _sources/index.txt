@@ -1,5 +1,7 @@
 UModeler
-===================
+=========
+
+`Korean Site <https://umodeler.tistory.com/1>`__
 
 .. toctree::
  :hidden:
@@ -14,14 +16,12 @@ UModeler
 
 	<iframe width="540" height="300" class="youtube-preview" src="https://www.youtube.com/embed/ZJXHkNmXNDg" allowfullscreen></iframe>
 
-	
-
 Introduction
 ============
 
 ​UModeler is a modeling tool in Unity which makes it easier to create various geometric models from prototype levels to complex static meshes, without the external DCC tools.​
 Those geometric figures made with UModeler can also be used for collision, navigation mesh, trigger zone etc.​
-This will help you a lot in creating great game worlds.
+This will help you a lot in creating great game worlds.  
 
 Key Features
 ============
