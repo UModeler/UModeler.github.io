@@ -4,18 +4,18 @@ Basic and Pro Comparison
 
  UModeler Basic
 	The basic version includes the core features enough to create simple meshes and levels.
-	This is free.
 
  UModeler Pro
 	The Pro version has lots of advanced tools such as bevel, boolean, mirror, slice, loop slice, follow, and much more.
 	With Pro version, you can make complicated shapes for real assets without leaving Unity.
-	This is a paid extension.
 
 See the below table to check what functions are available in the both versions.
 
 +-------------------------+-------+-------+
 |                         | Basic |  Pro  |
 +=========================+=======+=======+
+|Payment                  |Free   |Paid   |
++-------------------------+-------+-------+
 |Select/Transform         |   O   |   O   |
 |(Vertex,Edge,Polygon)    |       |       |
 +-------------------------+-------+-------+
