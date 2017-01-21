@@ -5,7 +5,7 @@ Basic and Pro Comparison
  UModeler Basic
 	The basic version includes the core features enough to create simple meshes and levels.
 	This is free.
-	
+
  UModeler Pro
 	The Pro version has lots of advanced tools such as bevel, boolean, mirror, slice, loop slice, follow, and much more.
 	With Pro version, you can make complicated shapes for real assets without leaving Unity.
@@ -18,6 +18,12 @@ See the below table to check what functions are available in the both versions.
 +=========================+=======+=======+
 |Select/Transform         |   O   |   O   |
 |(Vertex,Edge,Polygon)    |       |       |
++-------------------------+-------+-------+
+|Pivot                    |       |   O   |
++-------------------------+-------+-------+
+|Cursor (3D cursor)       |       |   O   |
++-------------------------+-------+-------+
+|Snap (to vertex)         |       |   O   |
 +-------------------------+-------+-------+
 |All/None Selection       |       |   O   |
 +-------------------------+-------+-------+
@@ -114,8 +120,6 @@ See the below table to check what functions are available in the both versions.
 |Center Pivot             |   O   |   O   |
 +-------------------------+-------+-------+
 |Reset X Form             |   O   |   O   |
-+-------------------------+-------+-------+
-|Pivot                    |       |   O   |
 +-------------------------+-------+-------+
 |Collider                 |   O   |   O   |
 +-------------------------+-------+-------+

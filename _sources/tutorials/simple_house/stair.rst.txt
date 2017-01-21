@@ -1,6 +1,6 @@
-*************
+*******
 Stair
-*************
+*******
 
 We'll make a stair on the front wall.
 
