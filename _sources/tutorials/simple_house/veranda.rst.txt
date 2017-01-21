@@ -3,7 +3,8 @@ Veranda
 *************
 
  1.With Parallel tool under Drawing group, draw a parallel line from the bottom edge of the side wall.
- It should be 1.65m apart from the bottom edge. You can enter 1.65m in Distance property in the inspector.  
+ It should be 1.65m apart from the bottom edge. You can enter 1.65m in Distance property in the inspector.
+ 
   .. figure:: /images/tutorials/simple_house/veranda_0.jpg
 
  2.One more edge which is 1.5m apart from the bottom edge should be added likewise with Parallel tool.
@@ -102,7 +103,7 @@ Veranda
  
   .. figure:: /images/tutorials/simple_house/veranda_25.jpg
   
- 25.Remove all edges execpt the rectangles created with Clone Tool as below.
+ 25.Remove all edges on the plank execpt the rectangles created with Clone Tool as below.
   
   .. figure:: /images/tutorials/simple_house/veranda_26.jpg
   .. figure:: /images/tutorials/simple_house/veranda_27.jpg

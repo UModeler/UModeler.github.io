@@ -2,6 +2,3 @@
 Tools
 *****************
 
-.. toctree::
- :hidden:
-
