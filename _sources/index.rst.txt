@@ -10,7 +10,6 @@ UModeler
  Tutorials <tutorials.rst> 
  Basic vs Pro Comparison <basic_vs_pro_comparison.rst>
  Tools <tools.rst>
- Contact <contact.rst>
  
 .. raw:: html
 
@@ -19,8 +18,8 @@ UModeler
 Introduction
 ============
 
-​UModeler is a modeling tool in Unity which makes it easier to create various geometric models from prototype levels to complex static meshes, without the external DCC tools.​
-Those geometric figures made with UModeler can also be used for collision, navigation mesh, trigger zone etc.​
+​UModeler is a modeling tool on Unity3D which makes it easier to create various geometric models from prototype levels to complex static meshes, without the external DCC tools.​
+Those geometric figures made with UModeler can also be used for rendering, collision, navigation mesh, trigger zone etc.​
 This will help you a lot in creating great game worlds.  
 
 Key Features
@@ -47,3 +46,12 @@ Basic and Pro
  .. note::
 
 	  If you want to know the difference more between Basic and Pro, see :doc:`basic_vs_pro_comparison`.
+	  
+Contact
+========
+E-Mail
+ `contact.support@tripolygon.com <mailto:contact.support@tripolygon.com>`__
+Facebook
+ `www.facebook.com/umodeler <http://www.facebook.com/umodeler>`__
+Twitter
+ `www.twitter.com/umodeler <http://www.twitter.com/umodeler>`__
