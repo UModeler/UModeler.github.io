@@ -32,6 +32,8 @@ Key Features
  Blender Style Modeling
 	If you want to create complicated shapes like buildings, vehicles, props, etc, you can do it with the advanced tools like extrude, inset, boolean, bevel, slice, loop slice, mirror, follow tool, etc.
 	
+  .. figure:: /images/tripolygon_UModeler_bg_image.png
+ 
 Basic and Pro
 =============
 
