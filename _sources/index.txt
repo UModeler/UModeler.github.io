@@ -26,10 +26,10 @@ This will help you a lot in creating great game worlds.
 Key Features
 ============
 
- SketchUp Style Modeling
+ For Beginners
 	Any polygons can be drawn easily and you can turn them into 3D shapes in intuitive ways.
 
- Blender Style Modeling
+ For Experts
 	If you want to create complicated shapes like buildings, vehicles, props, etc, you can do it with the advanced tools like extrude, inset, boolean, bevel, slice, loop slice, mirror, follow tool, etc.
 	
   .. figure:: /images/tripolygon_UModeler_bg_image.png
