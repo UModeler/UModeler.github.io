@@ -12,6 +12,7 @@ Building a Simple House
 	Stair <stair.rst>
 	Roof window <roof_window.rst>
 	Door <door.rst>
+	Windows <windows.rst>
 	Texture mapping <texture_mapping.rst>
 	
 .. raw:: html
