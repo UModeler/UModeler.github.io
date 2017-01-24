@@ -10,7 +10,6 @@ UModeler
  Tutorials <tutorials.rst> 
  Basic vs Pro Comparison <basic_vs_pro_comparison.rst>
  Tools <tools.rst>
- Contact <contact.rst>
  
 .. raw:: html
 
