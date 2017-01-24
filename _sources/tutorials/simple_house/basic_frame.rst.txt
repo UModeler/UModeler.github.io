@@ -5,14 +5,14 @@ Basic Frame
  1. To begin with, create a game object with a UModeler component by choosing [Tools] - [UModeler Pro] - [Create Modeler Object].
   .. figure:: /images/tutorials/simple_house/tool_menu.png
 
- Or you can add a UModeler component in a game object which is already created.
+ Or, you can add a UModeler component in a game object which is already created.
 
- Once UModeler component is added to a game object, you can see the UModeler menu on the inspector window.
+ Once the UModeler component is added to a game object, you can see the UModeler menu on the inspector window.
  You may be familiarized with some buttons below. Even if not, don't worry because you'll get used to them after you finish this tutorial.
   .. figure:: /images/umodeler_pro_menu.png
 
- 2. Choose Box button in the menu panel. And drag a mouse holding LMB anywhere on the floor to draw a rectangle.
- When a rectangle is made(The size doesn't matter this time), release your finger from LMB and raise a mouse cursor.
+ 2. Choose Box button in the menu panel and drag a mouse holding LMB anywhere on the floor to draw a rectangle.
+ When a rectangle is made(the size doesn't matter this time), release your finger from LMB and raise the mouse cursor.
  When a box is made, Click LMB.
   .. figure:: /images/tutorials/simple_house/basic_frame_0.jpg
   .. figure:: /images/tutorials/simple_house/basic_frame_1.jpg
@@ -22,7 +22,7 @@ Basic Frame
   .. figure:: /images/tutorials/simple_house/basic_frame_2.jpg
 
  4. Now we'll make a roof. Choose the Polyline button under Drawing group.
- If it's hard for you to find the button, Press Enter key so that Search edit box under Tools in the inspector is enabled.
+ If it's hard for you to find the button, press Enter key so that Search edit box under Tools in the inspector is enabled.
  Enter "Polyl" there. Then only Polyline button will get displayed as follows. Press Enter button again so that the Polyline tool will be selected.
   .. figure :: /images/tutorials/simple_house/basic_frame_3.jpg
 
