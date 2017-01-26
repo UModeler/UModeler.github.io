@@ -6,10 +6,7 @@ UModeler
 .. toctree::
  :hidden:
    
- User Interface <user_interface.rst>
- Tutorials <tutorials.rst> 
  Basic vs Pro Comparison <basic_vs_pro_comparison.rst>
- Tools <tools.rst>
  
 .. raw:: html
 
@@ -29,7 +26,7 @@ Key Features
   Any polygons can be drawn easily and you can turn them into 3D shapes in intuitive ways.
 
  For Experts
-  If you want to create complicated shapes like buildings, vehicles, props, etc, you can do it with the advanced tools like extrude, inset, boolean, bevel, slice, loop slice, mirror, follow tool, etc.
+  If you want to create complicated shapes like buildings, vehicles, props, etc, you can do it with the advanced tools like push pull, inset, boolean, bevel, cut, loop slice, mirror, follow tool, etc.
 	
   .. figure:: /images/tripolygon_UModeler_bg_image.png
  
@@ -40,7 +37,7 @@ Basic and Pro
 	The basic version includes the core features enough to create simple meshes and levels.
 	
  UModeler Pro
-	The Pro version has lots of advanced tools such as bevel, boolean, mirror, slice, loop slice, follow, and much more.
+	The Pro version has lots of advanced tools such as bevel, boolean, mirror, cut, loop slice, follow, and much more.
 	With Pro version, you can make complicated shapes for real assets without leaving Unity.
 	
  .. note::

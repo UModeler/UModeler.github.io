@@ -6,7 +6,7 @@ Basic and Pro Comparison
 	The basic version includes the core features enough to create simple meshes and levels.
 
  UModeler Pro
-	The Pro version has lots of advanced tools such as bevel, boolean, mirror, slice, loop slice, follow, and much more.
+	The Pro version has lots of advanced tools such as bevel, boolean, mirror, cut, loop slice, follow, and much more.
 	With Pro version, you can make complicated shapes for real assets without leaving Unity.
 
 See the below table to check what functions are available in the both versions.
@@ -27,25 +27,25 @@ See the below table to check what functions are available in the both versions.
 +-------------------------+-------+-------+
 |All/None Selection       |       |   O   |
 +-------------------------+-------+-------+
-|Isolated Selection       |       |   O   |
+|Island Selection         |       |   O   |
 +-------------------------+-------+-------+
 |Loop Selection           |       |   O   |
 +-------------------------+-------+-------+
-|Ring Selection           |       |   O   |
+|Hoop Selection           |       |   O   |
 +-------------------------+-------+-------+
 |Invert Selection         |       |   O   |
 +-------------------------+-------+-------+
-|Grow Selection           |       |   O   |
+|Increase Selection       |       |   O   |
 +-------------------------+-------+-------+
-|Polyline                 |   O   |   O   |
+|Line                     |   O   |   O   |
 +-------------------------+-------+-------+
-|Curve                    |       |   O   |
+|Arc                      |       |   O   |
 +-------------------------+-------+-------+
 |Rectangle                |   O   |   O   |
 +-------------------------+-------+-------+
-|Disc                     |       |   O   |
+|Disk                     |       |   O   |
 +-------------------------+-------+-------+
-|Stair Profile            |       |   O   |
+|Side Stair               |       |   O   |
 +-------------------------+-------+-------+
 |Parallel                 |       |   O   |
 +-------------------------+-------+-------+
@@ -71,23 +71,23 @@ See the below table to check what functions are available in the both versions.
 +-------------------------+-------+-------+
 |Bridge                   |       |   O   |
 +-------------------------+-------+-------+
-|Flip                     |   O   |   O   |
+|Invert Face              |   O   |   O   |
 +-------------------------+-------+-------+
-|Separate                 |   O   |   O   |
+|Detach                   |   O   |   O   |
 +-------------------------+-------+-------+
-|Merge                    |   O   |   O   |
+|Combine                  |   O   |   O   |
 +-------------------------+-------+-------+
-|Merge Vertex/Edge        |       |   O   |
+|Combine Vertex/Edge      |       |   O   |
 +-------------------------+-------+-------+
 |Remove doubles           |       |   O   |
 +-------------------------+-------+-------+
 |Collapse                 |       |   O   |
 +-------------------------+-------+-------+
-|Extrude                  |   O   |   O   |
+|Push Pull                |   O   |   O   |
 +-------------------------+-------+-------+
 |Extrude Edge             |       |   O   |
 +-------------------------+-------+-------+
-|Extrude Multiple         |       |   O   |
+|Push Pull Multiple       |       |   O   |
 +-------------------------+-------+-------+
 |Inset                    |   O   |   O   |
 +-------------------------+-------+-------+
@@ -97,7 +97,7 @@ See the below table to check what functions are available in the both versions.
 +-------------------------+-------+-------+
 |Mirror                   |       |   O   |
 +-------------------------+-------+-------+
-|Slice                    |       |   O   |
+|Cut                      |       |   O   |
 +-------------------------+-------+-------+
 |Loop Slice               |       |   O   |
 +-------------------------+-------+-------+
@@ -117,7 +117,7 @@ See the below table to check what functions are available in the both versions.
 +-------------------------+-------+-------+
 |Smoothing Group          |       |   O   |
 +-------------------------+-------+-------+
-|Center Pivot             |   O   |   O   |
+|Pivot To Center          |   O   |   O   |
 +-------------------------+-------+-------+
 |Reset X Form             |   O   |   O   |
 +-------------------------+-------+-------+
