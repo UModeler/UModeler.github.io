@@ -15,7 +15,7 @@ UModeler
 Introduction
 ============
 
-​UModeler is a modeling tool on Unity3D which makes it easier to create various geometric models from prototype levels to complex static meshes, without the external DCC tools.​
+​UModeler is a modeling tool on Unity3D which makes it easier to create various geometric models from prototype levels to complex static meshes in Unity3D.​
 Those geometric figures made with UModeler can also be used for rendering, collision, navigation mesh, trigger zone etc.​
 This will help you a lot in creating great game worlds.  
 
