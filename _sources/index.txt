@@ -1,5 +1,3 @@
-`Korean Site <https://umodeler.tistory.com/1>`__
-
 UModeler
 =========
 
