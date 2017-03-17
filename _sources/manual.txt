@@ -1,4 +1,10 @@
 Manual
 =========
 
- `UModeler Manual <https://docs.google.com/document/d/1We1SKcGhpbmmDRwmXj6BG8AKJtTSlzm-qY7wVpn7q28/edit?usp=sharing>`__
+	`UModeler Manual <https://docs.google.com/document/d/1We1SKcGhpbmmDRwmXj6BG8AKJtTSlzm-qY7wVpn7q28/edit?usp=sharing>`__
+	
+.. raw:: html
+
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/0Vi2CELnnzk" frameborder="0" allowfullscreen></iframe>
+	
+ 

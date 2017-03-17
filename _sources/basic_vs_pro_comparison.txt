@@ -31,7 +31,7 @@ See the below table to check what functions are available in the both versions.
 +-------------------------+-------+-------+
 |Loop Selection           |       |   O   |
 +-------------------------+-------+-------+
-|Hoop Selection           |       |   O   |
+|Ring Selection           |       |   O   |
 +-------------------------+-------+-------+
 |Invert Selection         |       |   O   |
 +-------------------------+-------+-------+
@@ -119,11 +119,11 @@ See the below table to check what functions are available in the both versions.
 +-------------------------+-------+-------+
 |Pivot To Center          |   O   |   O   |
 +-------------------------+-------+-------+
-|Reset X Form             |   O   |   O   |
+|Freeze X Form            |   O   |   O   |
 +-------------------------+-------+-------+
 |Collider                 |   O   |   O   |
 +-------------------------+-------+-------+
-|Export to Obj            |       |   O   |
+|Export to Obj            |   O   |   O   |
 +-------------------------+-------+-------+
 |Backface                 |   O   |   O   |
 +-------------------------+-------+-------+
