@@ -28,7 +28,7 @@ Key Features
  For Experts
   If you want to create complicated shapes like buildings, vehicles, props, etc, you can do it with the advanced tools like push pull, inset, boolean, bevel, cut, loop slice, mirror, follow tool, etc.
 	
-  .. figure:: /images/tripolygon_UModeler_bg_image.png
+  .. figure:: /images/UModeler_Pro_Buildings.png
  
 Basic and Pro
 =============
@@ -40,7 +40,7 @@ Basic and Pro
  UModeler Pro
 	The Pro version has lots of advanced tools such as bevel, boolean, mirror, cut, loop slice, follow, and much more.
 	With Pro version, you can make complicated shapes for real assets without leaving Unity.
-	This will be published soon.
+	This will be published soon.	
 	
  .. note::
 
