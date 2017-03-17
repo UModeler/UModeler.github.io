@@ -14,7 +14,8 @@ See the below table to check what functions are available in the both versions.
 +-------------------------+-------+-------+
 |                         | Basic |  Pro  |
 +=========================+=======+=======+
-|Payment                  |Free   |Paid   |
+|Payment                  |For    |Paid   |
+|                         |free   |       |
 +-------------------------+-------+-------+
 |Select/Transform         |   O   |   O   |
 |(Vertex,Edge,Polygon)    |       |       |
