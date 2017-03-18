@@ -1,6 +1,8 @@
 Contact
 ========
 
+.. figure:: /images/4.png
+
 E-Mail
  `contact.support@tripolygon.com <mailto:contact.support@tripolygon.com>`__
 Facebook
