@@ -8,6 +8,7 @@ UModeler
  Manual <manual.rst>
  Contact <contact.rst>
  
+.. figure:: /images/7.png
 .. raw:: html
 
 	<iframe width="540" height="300" class="youtube-preview" src="https://www.youtube.com/embed/ZJXHkNmXNDg" allowfullscreen></iframe>
@@ -28,7 +29,7 @@ Key Features
  For Experts
   If you want to create complicated shapes like buildings, vehicles, props, etc, you can do it with the advanced tools like push pull, inset, boolean, bevel, cut, loop slice, mirror, follow tool, etc.
 	
-  .. figure:: /images/UModeler_Pro_Buildings.png
+  .. figure:: /images/3.png
  
 Basic and Pro
 =============
