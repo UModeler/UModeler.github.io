@@ -4,14 +4,16 @@ Basic and Pro Comparison
 
 .. figure:: /images/2.png
 
+
 UModeler Basic
 	The basic version includes the core features enough to create simple meshes and levels.			
-	Download on `Unity Asset Store <https://www.assetstore.unity3d.com/#!/content/80869>`__
+	This is available at `Unity Asset Store <https://www.assetstore.unity3d.com/#!/content/80869>`__
 	
 UModeler Pro
 	The Pro version has lots of advanced tools such as bevel, boolean, mirror, cut, loop slice, follow, and much more.
 	With Pro version, you can make complicated shapes for real assets without leaving Unity.
-	This will be published soon.	
+	This is available at `Unity Asset Store <https://www.assetstore.unity3d.com/#!/content/80868>`__
+	
 
 See the below table to check what functions are available in the both versions.
 
