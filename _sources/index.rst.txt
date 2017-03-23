@@ -11,7 +11,7 @@ UModeler
 .. figure:: /images/10.png
 .. raw:: html
 
-	<iframe width="540" height="300" class="youtube-preview" src="https://www.youtube.com/embed/ZJXHkNmXNDg" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/wyp1CkGueDE" frameborder="0" allowfullscreen></iframe>
 
 Introduction
 ============
