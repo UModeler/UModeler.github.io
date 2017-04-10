@@ -7,6 +7,8 @@ UModeler
  Basic vs Pro Comparison <basic_vs_pro_comparison.rst>
  Manual <manual.rst>
  Contact <contact.rst>
+ Release Notes (Pro) <umodeler_pro_releasenotes.rst>
+ Release Notes (Basic) <umodeler_basic_releasenotes.rst> 
  
 .. figure:: /images/10.png
 .. raw:: html
