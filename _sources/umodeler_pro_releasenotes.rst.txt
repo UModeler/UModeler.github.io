@@ -9,6 +9,6 @@ Release Notes (Pro)
  - Added .prefab export.
  - Fixed a bug in .obj exporter so that material information will be exported well.
  - Windows Material has been changed so that Standard shadow is used.
- - Maped the window material used in the building in Demo.unity to the window, where a proper texture wasn’t assigned, in the modern building
+ - Assigned the window material used in the building in Demo.unity to the window, where a proper texture wasn’t assigned, in the modern building
  - Fixed a bug about not visible gizmo when the other object get selected from the modeler object on the Hierarchy window.
  - Fixed “Convert from Mesh” bug so that a mesh with several materials can be converted to UModeler object well.
