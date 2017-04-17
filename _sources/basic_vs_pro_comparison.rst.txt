@@ -104,7 +104,7 @@ See the below table to check what functions are available in the both versions.
 +-------------------------+-------+-------+
 |Mirror                   |       |   O   |
 +-------------------------+-------+-------+
-|Shear                    |       |   O   |
+|Cut                      |       |   O   |
 +-------------------------+-------+-------+
 |Loop Slice               |       |   O   |
 +-------------------------+-------+-------+
