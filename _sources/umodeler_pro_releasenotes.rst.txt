@@ -2,6 +2,13 @@
 Release Notes (Pro)
 %%%%%%%%%%%%%%%%%%%%
 
+1.0.2 (Due on 04/20/2017)
+======================================
+ - Obj Exporter has been fixed fixed so that duplicated vertices, edges and polygons are avoided.
+ - Remove Doubles Tool - The default value of the Distance property has been changed from 0.0001 to 1.0.
+ - Push/Pull tool - DrawMargins property has been renamed to DrawEdges.
+ - ShearTool has been renamed to CutTool.
+
 1.0.1 (04/11/2017)
 ======================================
 
