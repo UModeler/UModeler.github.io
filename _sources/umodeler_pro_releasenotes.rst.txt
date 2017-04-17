@@ -2,7 +2,7 @@
 Release Notes (Pro)
 %%%%%%%%%%%%%%%%%%%%
 
-1.01 (04/11/2017)
+1.0.1 (04/11/2017)
 ======================================
 
  - Fixed a bug about the 3D cursor, which didn’t work as having the selected elements rotated or scaled around 3D cursor.
