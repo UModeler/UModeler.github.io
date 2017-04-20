@@ -2,11 +2,11 @@
 Release Notes (Basic)
 %%%%%%%%%%%%%%%%%%%%%%
 
-1.0.4 (Due on 04/19/2017)
+1.0.4 (04/19/2017)
 =====================================
 
  - Fixed obj exporter to avoid duplicated vertices
- - Push/Pull - DrawMargins should be renamed to DrawEdges
+ - Push/Pull - DrawMargins property should be renamed to DrawEdges
  
 1.0.3 (04/11/2017)
 =====================================
