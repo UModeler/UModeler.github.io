@@ -4,7 +4,7 @@ Release Notes (Pro)
 
 1.0.2 (04/19/2017)
 ======================================
- - Obj Exporter has been fixed fixed so that duplicated positions, uv coordinates and normals are handled.
+ - Obj Exporter has been fixed so that duplicated positions, uv coordinates and normals are handled.
  - Remove Doubles Tool - The default value of the Distance property has been changed from 0.0001 to 1.0.
  - Push/Pull tool - DrawMargins property has been renamed to DrawEdges.
  - ShearTool has been renamed to CutTool.
