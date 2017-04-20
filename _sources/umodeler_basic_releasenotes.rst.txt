@@ -2,6 +2,8 @@
 Release Notes (Basic)
 %%%%%%%%%%%%%%%%%%%%%%
 
+You can get UModeler Basic `here <https://www.assetstore.unity3d.com/#!/content/80869>`__
+
 1.0.4 (04/19/2017)
 =====================================
 

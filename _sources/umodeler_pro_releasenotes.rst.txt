@@ -2,6 +2,8 @@
 Release Notes (Pro)
 %%%%%%%%%%%%%%%%%%%%
 
+You can get UModeler Pro `here <https://www.assetstore.unity3d.com/#!/content/80868>`__
+
 1.0.2 (04/19/2017)
 ======================================
  - Obj Exporter has been fixed so that duplicated positions, uv coordinates and normals are handled.
