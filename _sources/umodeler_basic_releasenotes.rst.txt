@@ -4,7 +4,7 @@ Release Notes (Basic)
 
 You can get UModeler Basic `here <https://www.assetstore.unity3d.com/#!/content/80869>`__
 
-1.0.5 (Due on 04/25/2017)
+1.0.5 (04/26/2017)
 ======================================
  - Fix - Export tool : Fixed x-axis flipped coordinates bug as exporting to .OBJ file.
 

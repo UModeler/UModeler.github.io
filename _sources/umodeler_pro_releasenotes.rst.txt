@@ -4,7 +4,7 @@ Release Notes (Pro)
 
 You can get UModeler Pro `here <https://www.assetstore.unity3d.com/#!/content/80868>`__
 
-1.0.3 (Due on 04/25/2017)
+1.0.3 (04/26/2017)
 ======================================
  - Feature - Combine Tool : Added "Combine Vertex" button in the inspector to enable to merge vertices without leaving Combine tool. 
  
