@@ -78,7 +78,7 @@ See the below table to check what functions are available in the both versions.
 +-------------------------+-------+-------+
 |Bridge                   |       |   O   |
 +-------------------------+-------+-------+
-|Invert Face              |   O   |   O   |
+|Invert Face              |       |   O   |
 +-------------------------+-------+-------+
 |Detach                   |   O   |   O   |
 +-------------------------+-------+-------+
