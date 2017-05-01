@@ -4,6 +4,15 @@ Release Notes (Pro)
 
 You can get UModeler Pro `here <https://www.assetstore.unity3d.com/#!/content/80868>`__
 
+1.0.4 (Due on 05/05/2017)
+======================================
+ - Fix - Preferece for key setting : Wrong positions of UIs in Preference for setting up keys on Unity 5.6
+ - Fix - Transform tool : Flickering gizmos in Vertex/Edge/Polygon tools when more 2 views are open.
+ - Fix - Display : Incorrect vertex cubes' size bug.
+ - Fix - Combine Tool : A bug about not working the merge of co-planar polygons.
+ - Improvement - Transform Tool : Makes the way of changing gizmo same as the way of Unity.
+ - Improvement - Rectangle Tool : Adds Corner Segment property in Rectangle tool to enable to change how many edges are placed in a rounded corner.
+
 1.0.3 (04/26/2017)
 ======================================
  - Feature - Combine Tool : Added "Combine Vertex" button in the inspector to enable to merge vertices without leaving Combine tool. 
