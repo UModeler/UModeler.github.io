@@ -10,8 +10,8 @@ You can get UModeler Pro `here <https://www.assetstore.unity3d.com/#!/content/80
  - Fix - Transform tool : Flickering gizmos in Vertex/Edge/Polygon tools when more 2 views are open.
  - Fix - Display : Incorrect vertex cubes' size bug.
  - Fix - Combine Tool : A bug about not working the merge of co-planar polygons.
- - Improvement - Transform Tool : Makes the way of changing gizmo same as the way of Unity.
- - Improvement - Rectangle Tool : Adds Corner Segment property in Rectangle tool to enable to change how many edges are placed in a rounded corner.
+ - Improvement - Transform Tool : Made the way of changing gizmo same as the way of Unity.
+ - Improvement - Rectangle Tool : Added Corner Segment property in Rectangle tool to enable to change how many edges are placed in a rounded corner.
 
 1.0.3 (04/26/2017)
 ======================================
