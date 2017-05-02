@@ -16,6 +16,8 @@ You can get UModeler Pro `here <https://www.assetstore.unity3d.com/#!/content/80
  .. figure:: /images/UModeler_Gizmo_Switch.gif
  
  - Improvement - Rectangle Tool : Added Corner Segment property in Rectangle tool to enable to change how many edges are placed in a rounded corner.
+ 
+ .. figure:: /images/UModeler_Rectangle_Corner_Length_Segment.gif
 
 1.0.3 (04/26/2017)
 ======================================
