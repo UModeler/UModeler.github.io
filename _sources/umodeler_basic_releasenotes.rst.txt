@@ -4,6 +4,16 @@ Release Notes (Basic)
 
 You can get UModeler Basic `here <https://www.assetstore.unity3d.com/#!/content/80869>`__
 
+1.0.6 (Due on 05/05/2017)
+======================================
+ - Fix - Preferece for key setting : Wrong positions of UIs in Preference for setting up keys on Unity 5.6
+ - Fix - Transform tool : Flickering gizmos in Vertex/Edge/Polygon tools when more 2 views are open.
+ - Fix - Display : Incorrect vertex cubes' size bug.
+ - Fix - Gizmo : A bug about getting a gizmo locked when UModeler object exits.
+ - Improvement - Transform Tool : Made the way of changing gizmo same as the way of Unity. The gizmo can be switched to another by clicking on the cursor icons as well as pressing W,E and R.
+ 
+ .. figure:: /images/UModeler_Basic_Gizmo_Switch.gif
+ 
 1.0.5 (04/26/2017)
 ======================================
  - Fix - Export tool : Fixed x-axis flipped coordinates bug as exporting to .OBJ file.
