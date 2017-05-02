@@ -10,7 +10,10 @@ UModeler
  Release Notes (Pro) <umodeler_pro_releasenotes.rst>
  Release Notes (Basic) <umodeler_basic_releasenotes.rst> 
  
-.. figure:: /images/10.png
+.. raw:: html
+
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/yntkVTjy8hc" frameborder="0" allowfullscreen></iframe>
+	
 .. raw:: html
 
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/wyp1CkGueDE" frameborder="0" allowfullscreen></iframe>
