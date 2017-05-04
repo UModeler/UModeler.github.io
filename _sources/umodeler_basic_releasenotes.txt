@@ -4,7 +4,7 @@ Release Notes (Basic)
 
 You can get UModeler Basic `here <https://www.assetstore.unity3d.com/#!/content/80869>`__
 
-1.0.6 (Due on 05/05/2017)
+1.0.6 (05/03/2017)
 ======================================
  - Fix - Preferece for key setting : Wrong positions of UIs in Preference for setting up keys on Unity 5.6
  - Fix - Transform tool : Flickering gizmos in Vertex/Edge/Polygon tools when more 2 views are open.
