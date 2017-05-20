@@ -4,10 +4,9 @@ UModeler
 .. toctree::
  :hidden:
    
- Basic vs Pro Comparison <basic_vs_pro_comparison.rst>
  Manual <manual.rst>
  Contact <contact.rst>
- Release Notes (Pro) <umodeler_pro_releasenotes.rst>
+ Release Notes <umodeler_releasenotes.rst>
  Release Notes (Basic) <umodeler_basic_releasenotes.rst> 
  
 .. raw:: html
@@ -35,19 +34,3 @@ Key Features
   If you want to create complicated shapes like buildings, vehicles, props, etc, you can do it with the advanced tools like push pull, inset, boolean, bevel, cut, loop slice, mirror, follow tool, etc.
 	
   .. figure:: /images/3.png
- 
-Basic and Pro
-=============
-
- UModeler Basic
-	The basic version includes the core features enough to create simple meshes and levels.			
-	This is available at `Unity Asset Store <https://www.assetstore.unity3d.com/#!/content/80869>`__
-	
- UModeler Pro
-	The Pro version has lots of advanced tools such as bevel, boolean, mirror, cut, loop slice, follow, and much more.
-	With Pro version, you can make complicated shapes for real assets without leaving Unity.
-	This is available at `Unity Asset Store <https://www.assetstore.unity3d.com/#!/content/80868>`__
-	
- .. note::
-
-	  If you want to know the difference more between Basic and Pro, see :doc:`basic_vs_pro_comparison`.

@@ -1,8 +1,8 @@
 %%%%%%%%%%%%%%%%%%%%
-Release Notes (Pro)
+Release Notes
 %%%%%%%%%%%%%%%%%%%%
 
-You can get UModeler Pro `here <https://www.assetstore.unity3d.com/#!/content/80868>`__
+You can get UModeler `here <https://www.assetstore.unity3d.com/#!/content/80868>`__
 
 1.0.4 (05/02/2017)
 ======================================
