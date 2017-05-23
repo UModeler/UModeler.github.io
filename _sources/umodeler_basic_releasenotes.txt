@@ -2,7 +2,7 @@
 Release Notes (Basic)
 %%%%%%%%%%%%%%%%%%%%%%
 
-You can get UModeler Basic `here <https://www.assetstore.unity3d.com/#!/content/80869>`__
+Deprecated so it's not available anymore as of 05/24/2017
 
 1.0.6 (05/03/2017)
 ======================================

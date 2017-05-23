@@ -88,10 +88,11 @@
 <li class="toctree-l1"><a class="reference internal" href="manual.html">Manual</a></li>
 <li class="toctree-l1"><a class="reference internal" href="contact.html">Contact</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Release Notes</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#id1">1.0.4 (05/02/2017)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id2">1.0.3 (04/26/2017)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id3">1.0.2 (04/19/2017)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id4">1.0.1 (04/11/2017)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id1">1.0.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id2">1.0.4 (05/02/2017)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">1.0.3 (04/26/2017)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id4">1.0.2 (04/19/2017)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id5">1.0.1 (04/11/2017)</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="umodeler_basic_releasenotes.html">Release Notes (Basic)</a></li>
@@ -129,7 +130,7 @@
       <li class="wy-breadcrumbs-aside">
         
           
-            <a href="_sources/umodeler_releasenotes.rst.txt" rel="nofollow"> View page source</a>
+            <a href="_sources/umodeler_releasenotes.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -143,7 +144,39 @@
 <h1>Release Notes<a class="headerlink" href="#release-notes" title="Permalink to this headline">¶</a></h1>
 <p>You can get UModeler <a class="reference external" href="https://www.assetstore.unity3d.com/#!/content/80868">here</a></p>
 <div class="section" id="id1">
-<h2>1.0.4 (05/02/2017)<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<h2>1.0.5<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><div class="figure">
+<img alt="_images/UModeler_1.0.5_ScreenShot.png" src="_images/UModeler_1.0.5_ScreenShot.png" />
+</div>
+<p>## Improvements &amp; Features</p>
+<ul class="simple">
+<li>Improved the About dialog box.</li>
+<li>Added a button for object mode to the inspector</li>
+<li>Added two buttons for creating new object and new collider object to the UModeler inspector</li>
+<li>Added painting polygons in a material ID by holding SHIFT + LMB drag in Material tool</li>
+<li>Added painting polygons in a color by holding SHIFT + LMB drag in Material tool.</li>
+<li>Added Input viewer next to Status box to the scene view.</li>
+<li>Improved the way of displaying and setting materials in Material tool</li>
+</ul>
+<p>## Fixes &amp; Tweaks</p>
+<ul class="simple">
+<li>Fixed getting slow and unresponsive happening after a UModeler prefab is loaded, the GUI gets slow and unresponsive</li>
+<li>Scaled up and straightened up the status text on scene view</li>
+<li>Made Vertices/Edges/Polygons selected when LMB is up after dragging to avoid a lag.</li>
+<li>Made a system child object called __Modeler_Specific__ invisible.</li>
+<li>Made selection of several polygons by CTRL + LMB drag in Material tool.</li>
+<li>Fixed a bug about getting gizmos hided when multiple UModeler objects are selected</li>
+<li>Hided mesh filter component and materials in the inspector</li>
+<li>Pro has been left out so that UModeler Pro became just UModeler.</li>
+<li>Excluded UModeler component in game build</li>
+<li>Enabled to get shortcut input possible in the inspector.</li>
+<li>Removed Resources folder and moved all data there to UModeler folder reorganizing the folder structure.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="id2">
+<h2>1.0.4 (05/02/2017)<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
 <blockquote>
 <div><ul class="simple">
 <li>Fix - Preferece for key setting : Wrong positions of UIs in Preference for setting up keys on Unity 5.6</li>
@@ -164,8 +197,8 @@
 </div>
 </div></blockquote>
 </div>
-<div class="section" id="id2">
-<h2>1.0.3 (04/26/2017)<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id3">
+<h2>1.0.3 (04/26/2017)<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
 <blockquote>
 <div><ul class="simple">
 <li>Feature - Combine Tool : Added &#8220;Combine Vertex&#8221; button in the inspector to enable to merge vertices without leaving Combine tool.</li>
@@ -190,8 +223,8 @@
 </ul>
 </div></blockquote>
 </div>
-<div class="section" id="id3">
-<h2>1.0.2 (04/19/2017)<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id4">
+<h2>1.0.2 (04/19/2017)<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
 <blockquote>
 <div><ul class="simple">
 <li>Obj Exporter has been fixed so that duplicated positions, uv coordinates and normals are handled.</li>
@@ -201,8 +234,8 @@
 </ul>
 </div></blockquote>
 </div>
-<div class="section" id="id4">
-<h2>1.0.1 (04/11/2017)<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id5">
+<h2>1.0.1 (04/11/2017)<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
 <blockquote>
 <div><ul class="simple">
 <li>Fixed a bug about the 3D cursor, which didn’t work as having the selected elements rotated or scaled around 3D cursor.</li>

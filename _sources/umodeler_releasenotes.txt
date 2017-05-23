@@ -4,6 +4,35 @@ Release Notes
 
 You can get UModeler `here <https://www.assetstore.unity3d.com/#!/content/80868>`__
 
+1.0.5
+======================================
+
+ .. figure:: /images/UModeler_1.0.5_ScreenShot.png
+
+ ## Improvements & Features
+
+ - Improved the About dialog box.
+ - Added a button for object mode to the inspector
+ - Added two buttons for creating new object and new collider object to the UModeler inspector
+ - Added painting polygons in a material ID by holding SHIFT + LMB drag in Material tool
+ - Added painting polygons in a color by holding SHIFT + LMB drag in Material tool.
+ - Added Input viewer next to Status box to the scene view.
+ - Improved the way of displaying and setting materials in Material tool
+
+ ## Fixes & Tweaks
+
+ - Fixed getting slow and unresponsive happening after a UModeler prefab is loaded, the GUI gets slow and unresponsive
+ - Scaled up and straightened up the status text on scene view
+ - Made Vertices/Edges/Polygons selected when LMB is up after dragging to avoid a lag.
+ - Made a system child object called __Modeler_Specific__ invisible.
+ - Made selection of several polygons by CTRL + LMB drag in Material tool.
+ - Fixed a bug about getting gizmos hided when multiple UModeler objects are selected
+ - Hided mesh filter component and materials in the inspector
+ - Pro has been left out so that UModeler Pro became just UModeler.
+ - Excluded UModeler component in game build
+ - Enabled to get shortcut input possible in the inspector.
+ - Removed Resources folder and moved all data there to UModeler folder reorganizing the folder structure.
+
 1.0.4 (05/02/2017)
 ======================================
  - Fix - Preferece for key setting : Wrong positions of UIs in Preference for setting up keys on Unity 5.6
