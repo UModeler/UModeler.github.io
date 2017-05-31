@@ -4,7 +4,7 @@ Release Notes
 
 You can get UModeler `here <https://www.assetstore.unity3d.com/#!/content/80868>`__
 
-1.0.6 
+1.0.6 (05/30/2017)
 ======================================
 
  Please read `this document <https://docs.google.com/document/d/1C_M8YwejCqEgie0QEt1s147jvfXKwL7cyApMXWn7bWs/edit?usp=sharing>`__ before upgrading to 1.0.5 or 1.0.6
