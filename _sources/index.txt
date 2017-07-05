@@ -1,3 +1,7 @@
+.. raw:: html
+
+    <iframe src="https://api.assetstore.unity3d.com/affiliate/embed/package/80868/widget-wide-light" style="width:600px; height:130px; border:0px;"></iframe>
+	
 UModeler
 =========
 
@@ -7,7 +11,7 @@ UModeler
  Manual <manual.rst>
  Contact <contact.rst>
  Release Notes <umodeler_releasenotes.rst>
- Release Notes (Basic) <umodeler_basic_releasenotes.rst> 
+ Release Notes (Basic) <umodeler_basic_releasenotes.rst>  
  
 .. raw:: html
 

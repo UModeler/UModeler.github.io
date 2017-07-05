@@ -2,15 +2,7 @@
 Release Notes (Basic)
 %%%%%%%%%%%%%%%%%%%%%%
 
-Deprecated (05/24/2017)
-======================================
-I inform you that UModeler Basic isn't available on the asset store as of 05/24/2017 because I realized that maintenance for UModeler both basic and pro at the same time needed more efforts and time than I had thought.
-
-So UModeler Pro won't need to have Pro suffix. Therefore UModeler Pro will be renamed to UModeler from 1.0.5 version.
-
-I'll be able to concentrate more on working on only one version so it'll make UModeler more powerful and easier to use.
-
-I would like to thank you for interests in UModeler basic until now.
+Deprecated so it's not available anymore as of 05/24/2017
 
 1.0.6 (05/03/2017)
 ======================================
