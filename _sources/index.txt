@@ -1,40 +1,109 @@
-.. raw:: html
+.. _bpy.types:
+.. _bpy.ops:
 
-    <iframe src="https://api.assetstore.unity3d.com/affiliate/embed/package/80868/widget-wide-light" style="width:600px; height:130px; border:0px;"></iframe>
-	
-UModeler
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  UModeler Reference Manual
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+.. only:: latex or epub or singlehtml
+
+   .. toctree::
+      :maxdepth: 1
+
+      GettingStarted/index.rst
+      Interface/index.rst
+      Move/index.rst
+      Selection/index.rst
+      Drawing/index.rst
+      PrimitiveShapes/index.rst
+      Add/index.rst
+      Remove/index.rst
+      Tweak/index.rst
+      Surface/index.rst
+      Misc/index.rst
+      UVEditor/index.rst
+      Settings/index.rst
+
+Welcome to the UModeler Manual!
+
+This is the manual for 3D Modeling tool working on Unity Editor.
+
+You can get it from `Unity Asset Store <https://assetstore.unity.com/packages/tools/modeling/umodeler-80868>`__.
+
+.. only:: builder_html
+
+Getting Started
+===============
+
+- :doc:`/GettingStarted/about`
+- :doc:`/GettingStarted/installing`
+- :doc:`/GettingStarted/help`
+
+Sections
 =========
 
-.. toctree::
- :hidden:
-   
- Manual <manual.rst>
- Contact <contact.rst>
- Release Notes <umodeler_releasenotes.rst>
- Release Notes (Basic) <umodeler_basic_releasenotes.rst>  
- 
-.. raw:: html
+.. The image ratio is: width: 350px; height: 350/4 + (2x5) ~= 98px
 
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/yntkVTjy8hc" frameborder="0" allowfullscreen></iframe>
-	
-.. raw:: html
+.. only:: builder_html and (not singlehtml)
 
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/wyp1CkGueDE" frameborder="0" allowfullscreen></iframe>
+   .. container:: tocdescr
 
-Introduction
-============
+      .. container:: descr
 
-​UModeler is a modeling tool on Unity3D which makes it easier to create various geometric models from prototype levels to complex static meshes in Unity3D.​
-Those geometric figures made with UModeler can also be used for rendering, collision, navigation mesh, trigger zone etc.​
-This will help you a lot in creating great game worlds.  
+         :doc:`/Interface/index`
+            An introduction to UModeler's menu system, basic window system, input controls and tools.
 
-Key Features
-============
+      .. container:: descr
 
- For Beginners
-  Any polygons can be drawn easily and you can turn them into 3D shapes in intuitive ways.
+         :doc:`/Move/index`
+            All tools related to moving vertices/edges/polygons/object.			
 
- For Experts
-  If you want to create complicated shapes like buildings, vehicles, props, etc, you can do it with the advanced tools like push pull, inset, boolean, bevel, cut, loop slice, mirror, follow tool, etc.
-	
-  .. figure:: /images/3.png
+      .. container:: descr
+
+         :doc:`/Selection/index`
+			The various supported tools to help you select many elements at once as you want 
+
+      .. container:: descr
+
+         :doc:`/Drawing/index`
+            2D polygons drawing tools in easy and intuive ways.
+
+      .. container:: descr
+
+         :doc:`/PrimitiveShapes/index`
+            Procecural 3D Primitive Shapes, such as Box, Room, Stair, Cylinder, Cone, Sphere and Capsule. 
+
+      .. container:: descr
+
+         :doc:`/Add/index`
+			Various and Powerful ways of adding elements to a shape.
+
+      .. container:: descr
+
+         :doc:`/Remove/index`
+			Easy and Convinent ways of removing elements from a shape.
+
+      .. container:: descr
+
+         :doc:`/Tweak/index`
+			Making a small change in a shape.
+                
+      .. container:: descr
+
+         :doc:`/Surface/index`
+            Tools for decorating surfaces of a shape by assigning Materials, UVs, Colors and Smoothing group IDs etc to each vertex or polygon.
+
+      .. container:: descr
+
+         :doc:`/Misc/index`
+            Miscellaneous Tools.
+			
+      .. container:: descr
+
+         :doc:`/UVEditor/index`
+			Separate editor window to edit UVs using various tools, such as unwrapping, transforming UVs, alightment, flip/rotate, sew etc.
+
+      .. container:: descr
+
+         :doc:`/Settings/index`
+            UModeler's Settings.     
