@@ -7,6 +7,7 @@ Overview
  |  • Click on ``Open UVEditor`` in ``Surface`` group on the UModeler inspector.
  |
  .. figure:: /images/UVEditor_Overview.png 
+    :scale: 55 %
 
     UVEditor with a UV map
 
@@ -44,6 +45,7 @@ Getting Started
 ==================
 
  .. figure:: /images/UVEditor_GettingStarted.gif
+    :scale: 55 %
  
     Unwrapping the selected polygons and basic demo to show how to edit UVs
 

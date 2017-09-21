@@ -37,7 +37,7 @@ Axis
 .. figure:: /images/UModeler_UVEditor_PlaneViewProjection.gif
      :scale: 55 %
   
-     Unwrapping the selectiong in the ``View`` direction and ``Normal`` direction.
+     Unwrapping the selected polygons in the ``View`` direction and ``Normal`` direction.
 
 Cube Projection
 =================

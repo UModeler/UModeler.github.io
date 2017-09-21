@@ -12,7 +12,7 @@ UV Editor
     A pillar made using UModeler and UVs unwrapped and edited with UVEditor 
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
 
    overview.rst
    uvsettings.rst
