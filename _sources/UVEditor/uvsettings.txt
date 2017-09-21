@@ -7,7 +7,7 @@ Settings
     Settings on the inspector
 
 Enable Snap
-   If this is on, UV transformation will be affectad by Grid Snap Size and Rotation Snap Size specified below.
+   If this is on, UV transform will be affectad by ``Grid Snap Size`` and ``Rotation Snap Size`` specified below.
 Grid Snap Size
    This defines how many size the UVs move whenever they are dragged or translated by the gizmo.
 Rotation Snap Size
@@ -23,4 +23,4 @@ Show Texture
 Current Tex
    A material list of the selected object.	
 Use Cross Cursor
-   Displays Cross Cursor, which is used as a pivot of transformation, and makes you to drag it to move.
+   Displays ``Cross Cursor``, which is used as a pivot of transformation, and makes you to drag it to move.

@@ -98,8 +98,12 @@
 <li class="toctree-l2"><a class="reference internal" href="uvsettings.html">Settings</a></li>
 <li class="toctree-l2"><a class="reference internal" href="uvtransform.html">Transform</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Unwrap</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#plane-view">Plane/View</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#cube">Cube</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#common-properties">Common Properties</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#plane-view-projection">Plane/View Projection</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#properties">Properties</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#cube-projection">Cube Projection</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#cancel">Cancel</a></li>
 </ul>
 </li>
@@ -160,14 +164,61 @@
             
   <div class="section" id="unwrap">
 <h1>Unwrap<a class="headerlink" href="#unwrap" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="plane-view">
-<h2>Plane/View<a class="headerlink" href="#plane-view" title="Permalink to this headline">¶</a></h2>
+<p>Begin by selecting all polygons to be unwrapped in the 3D view. With our polyons selected, it is now time to unwrap them. In the UVEditor inspector, select <code class="docutils literal"><span class="pre">Unwrap</span> <span class="pre">&gt;</span> <span class="pre">Plane/View</span></code> or <code class="docutils literal"><span class="pre">Unwrap</span> <span class="pre">&gt;</span> <span class="pre">Cube</span></code> and click on <code class="docutils literal"><span class="pre">Unwrap</span></code> button.</p>
+<div class="section" id="common-properties">
+<h2>Common Properties<a class="headerlink" href="#common-properties" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt>Separate All</dt>
+<dd>If on, each polygon will be a UV island. If not, each connected polygon group will be a UV Island.</dd>
+<dt>Padding</dt>
+<dd>Turn on padding.</dd>
+<dt>Padding Size</dt>
+<dd>The space between UV Islands.</dd>
+<dt>Unwrap</dt>
+<dd>Unwrap the selected polygon in 3D Scene view.</dd>
+</dl>
 </div>
-<div class="section" id="cube">
-<h2>Cube<a class="headerlink" href="#cube" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="plane-view-projection">
+<h2>Plane/View Projection<a class="headerlink" href="#plane-view-projection" title="Permalink to this headline">¶</a></h2>
+<p><code class="docutils literal"><span class="pre">Plane/View</span></code> mapping projects a mesh in a selected direction below.</p>
+<div class="section" id="properties">
+<h3>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt>Axis</dt>
+<dd><p class="first">Select which axis is used for projection.</p>
+<dl class="last docutils">
+<dt>Normal</dt>
+<dd>The normal direction of the connected polygons.</dd>
+<dt>View</dt>
+<dd>Camera viewing direction.</dd>
+<dt>X</dt>
+<dd>X-Axis</dd>
+<dt>Y</dt>
+<dd>Y-Axis</dd>
+<dt>Z</dt>
+<dd>Z-Axis</dd>
+</dl>
+</dd>
+</dl>
+<div class="figure" id="id1">
+<a class="reference internal image-reference" href="../_images/UModeler_UVEditor_PlaneViewProjection.gif"><img alt="../_images/UModeler_UVEditor_PlaneViewProjection.gif" src="../_images/UModeler_UVEditor_PlaneViewProjection.gif" style="width: 1296.3500000000001px; height: 773.85px;" /></a>
+<p class="caption"><span class="caption-text">Unwrapping the selectiong in the <code class="docutils literal"><span class="pre">View</span></code> direction and <code class="docutils literal"><span class="pre">Normal</span> <span class="pre">direction</span></code>.</span></p>
+</div>
+</div>
+</div>
+<div class="section" id="cube-projection">
+<h2>Cube Projection<a class="headerlink" href="#cube-projection" title="Permalink to this headline">¶</a></h2>
+<p><code class="docutils literal"><span class="pre">Cube</span></code> mapping projects a mesh onto six separate planes, creating six UV islands.</p>
+<blockquote>
+<div><div class="figure" id="id2">
+<a class="reference internal image-reference" href="../_images/UModeler_UVEditor_CubeProjection.gif"><img alt="../_images/UModeler_UVEditor_CubeProjection.gif" src="../_images/UModeler_UVEditor_CubeProjection.gif" style="width: 1296.3500000000001px; height: 773.85px;" /></a>
+<p class="caption"><span class="caption-text">Unfolding the selected polygons using <code class="docutils literal"><span class="pre">Cube</span></code> unwrapping adjusting the properties.</span></p>
+</div>
+</div></blockquote>
 </div>
 <div class="section" id="cancel">
 <h2>Cancel<a class="headerlink" href="#cancel" title="Permalink to this headline">¶</a></h2>
+<p>The selected polygons will be removed from UV Islands and the UVs of them will be reset to have UVs created automatically.</p>
 </div>
 </div>
 

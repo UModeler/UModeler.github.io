@@ -100,7 +100,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#pivot">Pivot</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#snap">Snap</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#separate-transfoming">Separate Transfoming</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#shared-edge">Shared Edge</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#overlapped-edge">Overlapped Edge</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="unwrap.html">Unwrap</a></li>
@@ -200,13 +200,13 @@
 <h2>Pivot<a class="headerlink" href="#pivot" title="Permalink to this headline">¶</a></h2>
 <blockquote>
 <div><div class="line-block">
-<div class="line">The default pivot position for rotating and scaling is the center of the selected elements. If you want to change the pivot location, use <cite>Cross Cursor</cite>, which can be enabled in <cite>Settings</cite> on the inspector. The location of the <cite>Cross Cursor</cite> will be the pivot when you transform elements while it is visible on the working area.</div>
+<div class="line">The default pivot position for rotating and scaling is the center of the selected elements. If you want to change the pivot location, use <code class="docutils literal"><span class="pre">Cross</span> <span class="pre">Cursor</span></code>, which can be enabled in <cite>Settings</cite> on the inspector. The location of the <code class="docutils literal"><span class="pre">Cross</span> <span class="pre">Cursor</span></code> will be the pivot when you transform elements while it is visible on the working area.</div>
 <div class="line"><br /></div>
 </div>
 <blockquote>
 <div><div class="figure" id="id3">
 <a class="reference internal image-reference" href="../_images/UModeler_UVEditor_UsingCrossCursor.gif"><img alt="../_images/UModeler_UVEditor_UsingCrossCursor.gif" src="../_images/UModeler_UVEditor_UsingCrossCursor.gif" style="width: 514.25px; height: 368.50000000000006px;" /></a>
-<p class="caption"><span class="caption-text">Using <cite>Cross Cursor</cite> while scaling and rotatin</span></p>
+<p class="caption"><span class="caption-text">Using <code class="docutils literal"><span class="pre">Cross</span> <span class="pre">Cursor</span></code> while scaling and rotatin</span></p>
 </div>
 </div></blockquote>
 </div></blockquote>
@@ -215,7 +215,7 @@
 <h2>Snap<a class="headerlink" href="#snap" title="Permalink to this headline">¶</a></h2>
 <blockquote>
 <div><div class="line-block">
-<div class="line">With <cite>Snap</cite> enabled you can move or rotate the selected elements by a specified unit. These <cite>snap</cite> parameters can be set in <cite>Settings</cite> on the inspector.</div>
+<div class="line">With <code class="docutils literal"><span class="pre">Snap</span></code> enabled you can move or rotate the selected elements by a specified unit. These <code class="docutils literal"><span class="pre">Snap</span></code> parameters can be set in <code class="docutils literal"><span class="pre">Settings</span></code> on the inspector.</div>
 <div class="line"><br /></div>
 </div>
 <blockquote>
@@ -230,7 +230,7 @@
 <h2>Separate Transfoming<a class="headerlink" href="#separate-transfoming" title="Permalink to this headline">¶</a></h2>
 <blockquote>
 <div><div class="line-block">
-<div class="line">Usually transforming polygons affects the adjacent polygons. It means that all shared UVs will be transformed together. However holding <code class="docutils literal"><span class="pre">SHIFT</span></code> will make you transform elements separately. Even though several UVs occupied one position, only one UV will be affected.</div>
+<div class="line">Usually transforming polygons affects the adjacent polygons. It means that all Overlapped UVs will be transformed together. However holding <code class="docutils literal"><span class="pre">SHIFT</span></code> will make you transform elements separately. Even though several UVs occupied the same position, only one UV will be affected.</div>
 </div>
 <blockquote>
 <div><div class="figure" id="id5">
@@ -244,16 +244,16 @@
 </div></blockquote>
 </div></blockquote>
 </div>
-<div class="section" id="shared-edge">
-<h2>Shared Edge<a class="headerlink" href="#shared-edge" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="overlapped-edge">
+<h2>Overlapped Edge<a class="headerlink" href="#overlapped-edge" title="Permalink to this headline">¶</a></h2>
 <blockquote>
 <div><div class="line-block">
-<div class="line">An edge in uv space can occupy the same area of the other edge in 3D space so it will be helpful to display the shared edges of the selected edges to edit UVs. Therefore UV editor displays the shared edges as green edges.</div>
+<div class="line">An edge in uv space can be overlapped the other edge in 3D space so it will be helpful to display the overlapped edges of the selected edges to make it easiser to edit UVs. Therefore The overlapped edges are displayed as green edges.</div>
 </div>
 <blockquote>
 <div><div class="figure" id="id7">
 <a class="reference internal image-reference" href="../_images/UModeler_UVEditor_SharedEdges.gif"><img alt="../_images/UModeler_UVEditor_SharedEdges.gif" src="../_images/UModeler_UVEditor_SharedEdges.gif" style="width: 746.35px; height: 368.50000000000006px;" /></a>
-<p class="caption"><span class="caption-text">Green edges are shared edges of the selected edges.</span></p>
+<p class="caption"><span class="caption-text">Overlapped edges are represented in green.</span></p>
 </div>
 </div></blockquote>
 </div></blockquote>

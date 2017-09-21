@@ -30,17 +30,17 @@ Transform
  
 Pivot
 =======
- | The default pivot position for rotating and scaling is the center of the selected elements. If you want to change the pivot location, use `Cross Cursor`, which can be enabled in `Settings` on the inspector. The location of the `Cross Cursor` will be the pivot when you transform elements while it is visible on the working area.
+ | The default pivot position for rotating and scaling is the center of the selected elements. If you want to change the pivot location, use ``Cross Cursor``, which can be enabled in `Settings` on the inspector. The location of the ``Cross Cursor`` will be the pivot when you transform elements while it is visible on the working area.
  |
 
   .. figure:: /images/UModeler_UVEditor_UsingCrossCursor.gif
      :scale: 55 % 
 
-     Using `Cross Cursor` while scaling and rotatin	
+     Using ``Cross Cursor`` while scaling and rotatin	
 
 Snap
 ========
- | With `Snap` enabled you can move or rotate the selected elements by a specified unit. These `snap` parameters can be set in `Settings` on the inspector.
+ | With ``Snap`` enabled you can move or rotate the selected elements by a specified unit. These ``Snap`` parameters can be set in ``Settings`` on the inspector.
  |
  
   .. figure:: /images/UModeler_UVEditor_Snapping.gif
@@ -50,7 +50,7 @@ Snap
  
 Separate Transfoming
 =====================
- | Usually transforming polygons affects the adjacent polygons. It means that all shared UVs will be transformed together. However holding ``SHIFT`` will make you transform elements separately. Even though several UVs occupied one position, only one UV will be affected.
+ | Usually transforming polygons affects the adjacent polygons. It means that all Overlapped UVs will be transformed together. However holding ``SHIFT`` will make you transform elements separately. Even though several UVs occupied the same position, only one UV will be affected.
  
   .. figure:: /images/UModeler_UVEditor_NotHoldingShift.gif
      :scale: 55 % 
@@ -62,12 +62,12 @@ Separate Transfoming
 
      Transfoming elements holding ``SHIFT``
  
-Shared Edge
+Overlapped Edge
 ==============
- | An edge in uv space can occupy the same area of the other edge in 3D space so it will be helpful to display the shared edges of the selected edges to edit UVs. Therefore UV editor displays the shared edges as green edges.
+ | An edge in uv space can be overlapped the other edge in 3D space so it will be helpful to display the overlapped edges of the selected edges to make it easiser to edit UVs. Therefore The overlapped edges are displayed as green edges.
  
    .. figure:: /images/UModeler_UVEditor_SharedEdges.gif
      :scale: 55 % 
 
-     Green edges are shared edges of the selected edges.
+     Overlapped edges are represented in green.
  
