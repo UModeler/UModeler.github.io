@@ -37,7 +37,7 @@ Axis
 .. figure:: /images/UModeler_UVEditor_PlaneViewProjection.gif
      :scale: 55 %
   
-     Unwrapping the selectiong in the ``View`` direction and ``Normal direction``.
+     Unwrapping the selectiong in the ``View`` direction and ``Normal`` direction.
 
 Cube Projection
 =================
@@ -50,4 +50,4 @@ Cube Projection
 
 Cancel
 ========
-The selected polygons will be removed from UV Islands and the UVs of them will be reset to have UVs created automatically.
+``Cancel`` will remove the selected polygons from UV Islands and the UVs of them will be reset to have UVs created automatically.
