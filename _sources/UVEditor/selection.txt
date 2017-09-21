@@ -4,8 +4,8 @@ Selection
 
 .. note::
 
-   Please note that several elements should be selected before using Invert, Loop and Shared selections.
-   In case of All/None selection elements done't need to be selected.
+   Please note at least one element should be selected before using Invert, Loop and Shared selections.
+   In case of All/None selection any elements done't need to be selected.
   
 All/None Selection
 ===================
