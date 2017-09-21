@@ -45,4 +45,4 @@ Selects the corresponding edges which are overlapped in 3D space. It means that 
   .. figure:: /images/UModeler_UVEditor_SharedSelection.gif
      :scale: 55 %
   
-     Overlapped Selection demo.
+     Shared Selection demo.
