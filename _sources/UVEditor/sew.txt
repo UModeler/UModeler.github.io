@@ -4,7 +4,7 @@ Sew
 
 .. note::
 
- Sew and Move/Sew tool will work with the following conditions.	
+ Sew and Move/Sew tools will work with the following conditions.	
   1. Two groups of edges are selected.
   2. One group of edges are selected and the correspoinding overlapped edges exist.
   
@@ -23,4 +23,4 @@ Move/Sew
  .. figure:: /images/UModeler_UVEditor_SewTools.gif
     :scale: 55 %
   
-    Demos of Sew and Move/Sew Tools 
+    Demo of Sew and Move/Sew Tools 
