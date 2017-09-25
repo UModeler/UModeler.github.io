@@ -4,7 +4,7 @@ Sew
 
 .. note::
 
- Sew and Move/Sew tools will work with the following conditions.	
+ Sew and Move/Sew tools will work with one of the following conditions.	
   1. Two groups of edges are selected.
   2. One group of edges are selected and the correspoinding overlapped edges exist.
   
