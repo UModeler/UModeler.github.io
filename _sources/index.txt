@@ -1,28 +1,25 @@
-.. _bpy.types:
-.. _bpy.ops:
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
   UModeler Reference Manual
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 .. only:: latex or epub or singlehtml
 
-   .. toctree::
-      :maxdepth: 1
+ .. toctree::
+    :maxdepth: 1
 
-      GettingStarted/index.rst
-      Interface/index.rst
-      Move/index.rst
-      Selection/index.rst
-      Drawing/index.rst
-      PrimitiveShapes/index.rst
-      Add/index.rst
-      Remove/index.rst
-      Tweak/index.rst
-      Surface/index.rst
-      Misc/index.rst
-      UVEditor/index.rst
-      Settings/index.rst
+    GettingStarted/index.rst
+    Interface/index.rst
+    Move/index.rst
+    Selection/index.rst
+    Drawing/index.rst
+    PrimitiveShapes/index.rst
+    Add/index.rst
+    Remove/index.rst
+    Tweak/index.rst
+    Surface/index.rst
+    Misc/index.rst
+    Settings/index.rst   
+    UVEditor/index.rst
 
 Welcome to the UModeler Manual!
 
@@ -100,10 +97,10 @@ Sections
 			
       .. container:: descr
 
-         :doc:`/UVEditor/index`
-			Separate editor window to edit UVs using various tools, such as unwrapping, transforming UVs, alightment, flip/rotate, sew etc.
-
+         :doc:`/Settings/index`
+            UModeler's Settings.
+			
       .. container:: descr
 
-         :doc:`/Settings/index`
-            UModeler's Settings.     
+         :doc:`/UVEditor/index`
+			Separate editor window to edit UVs using various tools, such as unwrapping, transforming UVs, alightment, flip/rotate, sew etc.
