@@ -19,8 +19,6 @@ UV Editor
    uvtransform.rst
    unwrap.rst
    selection.rst
-   flip.rst
-   rotate.rst
-   alignment.rst
+   fliprotatealignment.rst
    sew.rst
    breakmerge.rst
