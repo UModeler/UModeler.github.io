@@ -31,7 +31,7 @@ Center
 Rotate
 =================
 
-The ``Rotate`` tool rotate the selected elements by +90 degrees or -90 degrees around a center of the selected elements or ``Cross Cursor``
+The ``Rotate`` tools rotate the selected elements by +90 degrees or -90 degrees around a center of the selected elements or ``Cross Cursor``
 
 +90
  Rotates counterclockwise
@@ -50,22 +50,22 @@ Alignment
 By selecting several elements you can align them within bounds, either vertically or horizontally.
 
 Top
- Alignes with a top line of the boundary.
+ Aligns with a top line of the boundary.
 
 Bottom
- Alignes with a bottom line of the boundary.
+ Aligns with a bottom line of the boundary.
 
 Left
- Alignes with a left line of the boundary.
+ Aligns with a left line of the boundary.
 
 Right
- Alignes with a right line of the boundary.
+ Aligns with a right line of the boundary.
 
 V(ertical) Center
- Alignes with a vertical center line of the boundary. 
+ Aligns with a vertical center line of the boundary. 
 
 H(oritontal) Center
- Alignes with a horizontal center line of the boundary. 
+ Aligns with a horizontal center line of the boundary. 
  
 
  .. figure:: /images/UModeler_UVEditor_AlignmentTools.gif

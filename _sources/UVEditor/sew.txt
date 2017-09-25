@@ -1,14 +1,26 @@
 ******
 Sew
 ******
+
+.. note::
+
+ Sew and Move/Sew tool will work with the following conditions.	
+  1. Two groups of edges are selected.
+  2. One group of edges are selected and the correspoinding overlapped edges exist.
   
 Sew
 =====
 
- | Attaches UVs along the selected borders, but does not move them together.
+ | Attaches UVs along the selected borders, but does not move them together. 
+ 
 
-Move Sew
+Move/Sew
 =========
 
- | Move and Sew UV Edges combines separate UV islands along their selected border edges by moving one selected UV island (the smaller one) to the other selected UV island and merging the selected edges together so that one UV island results. 
- | Move and Sew UV Edges is useful for quickly joining together separate UV islands.
+ | Move/Sew combines separate UV islands along their selected border edges by moving the first selected UV island to the other selected UV island and merging the selected edges together so that one UV island results. 
+ | Move/Sew UV Edges is useful for quickly joining together separate UV islands.
+ |
+ .. figure:: /images/UModeler_UVEditor_SewTools.gif
+    :scale: 55 %
+  
+    Demos of Sew and Move/Sew Tools 
