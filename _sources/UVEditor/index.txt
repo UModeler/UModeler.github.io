@@ -8,7 +8,8 @@ UV Editor
  |
 
  .. figure:: /images/UModeler_UVEditor.png
- 
+    :scale: 55 % 
+	
     A pillar made using UModeler and UVs unwrapped and edited with UVEditor 
 
 .. toctree::
