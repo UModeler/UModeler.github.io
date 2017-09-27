@@ -87,8 +87,17 @@
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Selection Tools</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#all-none-tool">All/None Tool</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#isolated-tool">Isolated Tool</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#loop-tool">Loop Tool</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#ring-tool">Ring Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#loop-tool">Loop Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#edge-loops">Edge Loops</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#quad-loops">Quad Loops</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#hole-selection">Hole Selection</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#ring-tool">Ring Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#edge-rings">Edge Rings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#quad-rings">Quad Rings</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="#invert-tool">Invert Tool</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#increase-tool">Increase Tool</a></li>
 </ul>
@@ -147,29 +156,84 @@
             
   <div class="section" id="selection-tools">
 <h1>Selection Tools<a class="headerlink" href="#selection-tools" title="Permalink to this headline">¶</a></h1>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Selection tools responds immediately to clicking on a button of each tool.</p>
+</div>
 <div class="section" id="all-none-tool">
 <h2>All/None Tool<a class="headerlink" href="#all-none-tool" title="Permalink to this headline">¶</a></h2>
+<p>If there are any selected elements, they will be unselected. Otherwise, all elements will be selected.</p>
+<div class="figure" id="id1">
+<a class="reference internal image-reference" href="_images/UModeler_AllNoneSelection.gif"><img alt="_images/UModeler_AllNoneSelection.gif" src="_images/UModeler_AllNoneSelection.gif" style="width: 567.9px; height: 375.3px;" /></a>
+<p class="caption"><span class="caption-text">All/None Selection Demo</span></p>
 </div>
+</div>
+<hr class="docutils" />
 <div class="section" id="isolated-tool">
 <h2>Isolated Tool<a class="headerlink" href="#isolated-tool" title="Permalink to this headline">¶</a></h2>
+<p>Selects geometry connected to already selected elements. This is often useful when a mesh has disconnected, overlapping parts</p>
+<div class="figure" id="id2">
+<a class="reference internal image-reference" href="_images/UModeler_IsolatedSelection.gif"><img alt="_images/UModeler_IsolatedSelection.gif" src="_images/UModeler_IsolatedSelection.gif" style="width: 560.4px; height: 343.6px;" /></a>
+<p class="caption"><span class="caption-text">Isolated Selection Demo</span></p>
 </div>
+</div>
+<hr class="docutils" />
 <div class="section" id="loop-tool">
 <h2>Loop Tool<a class="headerlink" href="#loop-tool" title="Permalink to this headline">¶</a></h2>
-<p>Selects a loop of edges that are connected in a line end to end.
-Selects a loop of polygons that are connected in a line end to end.</p>
+<div class="section" id="edge-loops">
+<h3>Edge Loops<a class="headerlink" href="#edge-loops" title="Permalink to this headline">¶</a></h3>
+<p>Selects a loop of edges that are connected in a line end to end.</p>
 </div>
+<div class="section" id="quad-loops">
+<h3>Quad Loops<a class="headerlink" href="#quad-loops" title="Permalink to this headline">¶</a></h3>
+<p>Serial quad polygons across a mesh will be selected in a direction of the first two selected quad.</p>
+<div class="figure" id="id3">
+<a class="reference internal image-reference" href="_images/UModeler_LoopSelection.gif"><img alt="_images/UModeler_LoopSelection.gif" src="_images/UModeler_LoopSelection.gif" style="width: 560.4px; height: 343.6px;" /></a>
+<p class="caption"><span class="caption-text">Edge Loops and Quad Loops</span></p>
+</div>
+</div>
+<div class="section" id="hole-selection">
+<h3>Hole Selection<a class="headerlink" href="#hole-selection" title="Permalink to this headline">¶</a></h3>
+<p>If the selected edge is a part of a hole, all the edges of the holes will be selected.</p>
+<div class="figure" id="id4">
+<a class="reference internal image-reference" href="_images/UModeler_HoleSelection.gif"><img alt="_images/UModeler_HoleSelection.gif" src="_images/UModeler_HoleSelection.gif" style="width: 596.4px; height: 361.6px;" /></a>
+<p class="caption"><span class="caption-text">Hole edge selection.</span></p>
+</div>
+</div>
+</div>
+<hr class="docutils" />
 <div class="section" id="ring-tool">
 <h2>Ring Tool<a class="headerlink" href="#ring-tool" title="Permalink to this headline">¶</a></h2>
-<p>Selects a sequence of edges that are not connected, but on opposite sides to each other continuing along a face loop
-This tool lets you select several polygons across a mesh without having to select each polygon individually.</p>
+<div class="section" id="edge-rings">
+<h3>Edge Rings<a class="headerlink" href="#edge-rings" title="Permalink to this headline">¶</a></h3>
+<p>Selects a sequence of edges that are not connected, but on opposite sides to each other continuing along a face loop</p>
 </div>
+<div class="section" id="quad-rings">
+<h3>Quad Rings<a class="headerlink" href="#quad-rings" title="Permalink to this headline">¶</a></h3>
+<p>Lets you select several polygons across a mesh without having to select each polygon individually.</p>
+<div class="figure" id="id5">
+<a class="reference internal image-reference" href="_images/UModeler_RingSelection.gif"><img alt="_images/UModeler_RingSelection.gif" src="_images/UModeler_RingSelection.gif" style="width: 596.4px; height: 361.6px;" /></a>
+<p class="caption"><span class="caption-text">Edge Rings and Quad Rings</span></p>
+</div>
+</div>
+</div>
+<hr class="docutils" />
 <div class="section" id="invert-tool">
 <h2>Invert Tool<a class="headerlink" href="#invert-tool" title="Permalink to this headline">¶</a></h2>
 <p>The selection will be inverted. It means the selected ones will get deselected and the deselected ones will get selected.</p>
+<div class="figure" id="id6">
+<a class="reference internal image-reference" href="_images/UModeler_InvertSelection.gif"><img alt="_images/UModeler_InvertSelection.gif" src="_images/UModeler_InvertSelection.gif" style="width: 596.4px; height: 361.6px;" /></a>
+<p class="caption"><span class="caption-text">Edge Rings and Quad Rings</span></p>
 </div>
+</div>
+<hr class="docutils" />
 <div class="section" id="increase-tool">
 <h2>Increase Tool<a class="headerlink" href="#increase-tool" title="Permalink to this headline">¶</a></h2>
-<p>Some vertices/edges/polygons should be selected.</p>
+<p>Expands the current selection outwards in all directions from the current selected elements.</p>
+<div class="figure" id="id7">
+<a class="reference internal image-reference" href="_images/UModeler_IncreaseSelection.gif"><img alt="_images/UModeler_IncreaseSelection.gif" src="_images/UModeler_IncreaseSelection.gif" style="width: 596.4px; height: 361.6px;" /></a>
+<p class="caption"><span class="caption-text">Edge Rings and Quad Rings</span></p>
+</div>
 </div>
 </div>
 
