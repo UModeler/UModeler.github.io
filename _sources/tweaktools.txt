@@ -12,6 +12,8 @@ Flips the selected polygons.
 
    Selects several polygons and flips them.
    
+----------------------------------------------------------------------------------------------------------------
+   
 Flatten Tool
 ==============
 
