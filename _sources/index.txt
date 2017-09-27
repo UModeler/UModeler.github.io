@@ -20,9 +20,9 @@
     PrimitiveShapes/index.rst
     Add/index.rst
     Remove/index.rst
-    Tweak/index.rst
+    tweaktools.rst
     Surface/index.rst
-    Misc/index.rst
+    misctools.rst
     UVEditor/index.rst
 
 Welcome to the UModeler Manual!
@@ -84,7 +84,7 @@ Sections
 
       .. container:: descr
 
-         :doc:`/Tweak/index`
+         :doc:`tweaktools`
 			Making a small change in a shape.
 
       .. container:: descr
@@ -94,7 +94,7 @@ Sections
 
       .. container:: descr
 
-         :doc:`/Misc/index`
+         :doc:`misctools`
             Miscellaneous Tools.
 
       .. container:: descr
