@@ -9,6 +9,8 @@ UModeler is a ultimate and intuitive modeling extension that is available on Uni
 
 Moreover UModeler has also adopted useful features of popular DCC tools like Max and Blender etc to empower you to create complicated and rich mesh assets as well as game levels easily and quickly without any help of the external DCC tools.
 
+----------------------------------------------------------------------------------------------------------------------
+
 Layout
 ========
 
@@ -45,6 +47,8 @@ Gizmos
 
 Coordinate Frame
  | Selecting a coordinate frame of both ``Global`` and ``Local``.
+ 
+----------------------------------------------------------------------------------------------------------------------
 
 User Interface
 ================
@@ -76,5 +80,3 @@ User Interface
 +---------------------------------------+----------------------------------------------------------+
 
 ``LMB`` - Left Mouse Button ``CTRL`` - Control Key
-
-

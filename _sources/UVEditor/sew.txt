@@ -20,6 +20,7 @@ Move/Sew
  | Move/Sew combines separate UV islands along their selected border edges by moving the first selected UV island to the other selected UV island and merging the selected edges together so that one UV island results. 
  | This tool is useful for quickly joining together separate UV islands.
  |
+ 
  .. figure:: /images/UModeler_UVEditor_SewTools.gif
     :scale: 55 %
   

@@ -6,6 +6,7 @@ Overview
  |  • Select ``Tools > UModeler > Open UVEditor`` in the upper menu or 
  |  • Click on ``Open UVEditor`` in ``Surface`` group on the UModeler inspector.
  |
+ 
  .. figure:: /images/UVEditor_Overview.png 
     :scale: 55 %
 
@@ -18,7 +19,7 @@ Overview
  |  • Inspector - Various tools and settings necessary to unwrap and edit.
  
 Automatic UV and Manual UV
-=========================
+============================
  | The polygons created in UModeler basically have UVs, which have tiling charactericstic, generated automatically based on position and normal of each vertex. From UModeler 2.0 those UVs can be unwrapped and edited manually using UVEditor. Both types of UVs can exist in one mesh at the same time. 
  
 Keyboard

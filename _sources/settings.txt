@@ -50,3 +50,14 @@ Grid Size
  
 Rotation Snap Size
  Many used rotation snap sizes
+ 
+----------------------------------------------------------------------------------------------------------------------
+ 
+Shortcut
+===========
+You can set shortcuts of UModeler in Unity Preferences window to which you can go through ``Edit > Preferences`` as follows. 
+
+.. figure:: /images/UModeler_Shortcuts.png
+   :scale: 55 %
+	
+   UModeler Shortcut settings.

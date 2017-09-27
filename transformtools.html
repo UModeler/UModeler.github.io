@@ -34,7 +34,7 @@
               href="genindex.html"/>
         <link rel="search" title="Search" href="search.html"/>
     <link rel="top" title="UModeler 2.0 Manual  documentation" href="index.html"/>
-        <link rel="next" title="Selection Tools" href="Selection/index.html"/>
+        <link rel="next" title="Selection Tools" href="selectiontools.html"/>
         <link rel="prev" title="Settings" href="settings.html"/> 
 
   
@@ -84,14 +84,23 @@
 <li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
 <li class="toctree-l1"><a class="reference internal" href="settings.html">Settings</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Transform Tools</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#elements">Elements</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#transform">Transform</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#d-cursor">3D Cursor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#pivot">Pivot</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#snap">Snap</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#vertex-edge-polygon">Vertex / Edge / Polygon</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#properties">Properties</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="Selection/index.html">Selection Tools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#object">Object</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#d-cursor">3D Cursor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#pivot">Pivot</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id1">Properties</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#snap">Snap</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id2">Properties</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="selectiontools.html">Selection Tools</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Drawing/index.html">Drawing Tools</a></li>
 <li class="toctree-l1"><a class="reference internal" href="PrimitiveShapes/index.html">Primitive Shapes Tools</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Add/index.html">Add tools</a></li>
@@ -146,30 +155,90 @@
             
   <div class="section" id="transform-tools">
 <h1>Transform Tools<a class="headerlink" href="#transform-tools" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="elements">
-<h2>Elements<a class="headerlink" href="#elements" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="vertex-edge-polygon">
+<h2>Vertex / Edge / Polygon<a class="headerlink" href="#vertex-edge-polygon" title="Permalink to this headline">¶</a></h2>
+<p>There are 4 types of elements you can select and transform.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Vertex - A point containing position, uv and color.</li>
+<li>Edge - Two connected vertices.</li>
+<li>Polygon - A simple polygon that can have holes.</li>
+</ul>
+</div></blockquote>
+<p>To begin to transform elements, you have to select them at first. Which type of elements is tranformed depends on what tool is selected in the inspector.</p>
+<div class="figure" id="id3">
+<a class="reference internal image-reference" href="_images/UModeler_TransformTool.gif"><img alt="_images/UModeler_TransformTool.gif" src="_images/UModeler_TransformTool.gif" style="width: 658.9000000000001px; height: 487.85px;" /></a>
+<p class="caption"><span class="caption-text">Selecting and transforming elements.</span></p>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<div class="last line-block">
+<div class="line">1. You can add a new selection holding <code class="docutils literal"><span class="pre">CTRL</span></code> and pressing <code class="docutils literal"><span class="pre">LMB</span></code> on an element.</div>
+<div class="line">2. Pressing <code class="docutils literal"><span class="pre">W</span></code> <code class="docutils literal"><span class="pre">E</span></code> or <code class="docutils literal"><span class="pre">R</span></code> changes the current gizmo like Unity.</div>
+<div class="line">3. Dragging a mouse from an element causes moving the element</div>
+</div>
+</div>
+<p>If you hold <code class="docutils literal"><span class="pre">SHIFT</span></code> when moving a gizmo, the selected elements are transformed separately from the adjacent polygons.</p>
+<div class="figure" id="id4">
+<a class="reference internal image-reference" href="_images/UModeler_TransformHoldingShift.gif"><img alt="_images/UModeler_TransformHoldingShift.gif" src="_images/UModeler_TransformHoldingShift.gif" style="width: 654.5px; height: 487.3px;" /></a>
+<p class="caption"><span class="caption-text">Transforming elements holding <code class="docutils literal"><span class="pre">SHIFT</span></code>.</span></p>
+</div>
+<div class="section" id="properties">
+<h3>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
-<dt>Vertex</dt>
-<dd>Vertex</dd>
-<dt>Edge</dt>
-<dd>Edge</dd>
-<dt>Polygon</dt>
-<dd>Polygon</dd>
-<dt>Object</dt>
-<dd>Object</dd>
+<dt>Distance</dt>
+<dd>How distant the selected elements move. This is only available as translation gizmo is enabled.</dd>
+<dt>Snap To Polygon</dt>
+<dd>An edge is snapped to a close polygon within a specific distance. This is only available as the edge is being translated.</dd>
+<dt>Snap To Vertex</dt>
+<dd>A vertex is snapped to the other close vertex within a specific distance. This is only available as the vertex is being translated.</dd>
+<dt>Cursor As Pivot</dt>
+<dd>Rotates the selected elements around the 3D cursor.</dd>
+<dt>Move To Cursor</dt>
+<dd>Moves the current selected elements to the 3D cursor position.</dd>
 </dl>
 </div>
-<div class="section" id="transform">
-<h2>Transform<a class="headerlink" href="#transform" title="Permalink to this headline">¶</a></h2>
 </div>
+<hr class="docutils" />
+<div class="section" id="object">
+<h2>Object<a class="headerlink" href="#object" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>Object mode. You can select other objects.</div></blockquote>
+</div>
+<hr class="docutils" />
 <div class="section" id="d-cursor">
 <h2>3D Cursor<a class="headerlink" href="#d-cursor" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>Sets a position of 3D cursor, which is used for a pivot of transfoming.</div></blockquote>
 </div>
+<hr class="docutils" />
 <div class="section" id="pivot">
 <h2>Pivot<a class="headerlink" href="#pivot" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>Sets a position of a pivot of the object.</div></blockquote>
+<div class="section" id="id1">
+<h3>Properties<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt>Candidate Set</dt>
+<dd><div class="first last line-block">
+<div class="line">• Bound Box - Position set coming from the bound box.</div>
+<div class="line">• Polygon - Position set coming from the vertices from the polygons.</div>
 </div>
+</dd>
+</dl>
+</div>
+</div>
+<hr class="docutils" />
 <div class="section" id="snap">
 <h2>Snap<a class="headerlink" href="#snap" title="Permalink to this headline">¶</a></h2>
+<p>Moves a polygon to the specific position. This tool can be used to set a profile polygon for Follow tool.</p>
+<div class="section" id="id2">
+<h3>Properties<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt>Flip</dt>
+<dd>Flips the polygon horizontally.</dd>
+</dl>
+</div>
 </div>
 </div>
 
@@ -180,7 +249,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="Selection/index.html" class="btn btn-neutral float-right" title="Selection Tools" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="selectiontools.html" class="btn btn-neutral float-right" title="Selection Tools" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="settings.html" class="btn btn-neutral" title="Settings" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>

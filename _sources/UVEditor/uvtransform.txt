@@ -63,7 +63,7 @@ Separate Transfoming
      Transfoming elements holding ``SHIFT``
  
 Overlapped Edge
-==============
+=================
  | An edge in uv space can be overlapped the other edge in 3D space so it will be helpful to display the overlapped edges of the selected edges to make it easiser to edit UVs. Therefore The overlapped edges are displayed as green edges.
  
    .. figure:: /images/UModeler_UVEditor_SharedEdges.gif
