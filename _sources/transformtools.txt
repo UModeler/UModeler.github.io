@@ -1,9 +1,9 @@
 ################
-Transform Tools
+Transform tools
 ################
 
-Vertex / Edge / Polygon
-=========================
+Vertex / Edge / Polygon tool
+=============================
 
 There are 4 types of elements you can select and transform.
 
@@ -51,20 +51,20 @@ Move To Cursor
 
 ----------------------------------------------------------------------------------------------------------------------
 
-Object
-==========
+Object tool
+============
  Object mode. You can select other objects.
  
 ----------------------------------------------------------------------------------------------------------------------
  
-3D Cursor
-==========
+3D Cursor tool
+===============
  Sets a position of 3D cursor, which is used for a pivot of transfoming.
 
 ----------------------------------------------------------------------------------------------------------------------
  
-Pivot
-==========
+Pivot tool
+============
  Sets a position of a pivot of the object. 
  
 Properties
@@ -76,10 +76,10 @@ Candidate Set
 
 ----------------------------------------------------------------------------------------------------------------------
  
-Snap
+Snap tool
 ==========
 
-Moves a polygon to the specific position. This tool can be used to set a profile polygon for Follow tool. 
+Moves a polygon to the specific position. This tool can be used to set a profile polygon for ``Follow`` tool. 
 
 Properties
 -----------

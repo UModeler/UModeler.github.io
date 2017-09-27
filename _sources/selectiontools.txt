@@ -2,5 +2,29 @@
 Selection Tools
 ################
 
-.. toctree::  
- 
+All/None Tool
+==============
+
+Isolated Tool
+==============
+
+Loop Tool
+==============
+
+Selects a loop of edges that are connected in a line end to end.
+Selects a loop of polygons that are connected in a line end to end.
+
+Ring Tool
+==============
+
+Selects a sequence of edges that are not connected, but on opposite sides to each other continuing along a face loop
+This tool lets you select several polygons across a mesh without having to select each polygon individually.
+
+Invert Tool
+==============
+	
+The selection will be inverted. It means the selected ones will get deselected and the deselected ones will get selected.
+
+Increase Tool
+==============
+Some vertices/edges/polygons should be selected.
