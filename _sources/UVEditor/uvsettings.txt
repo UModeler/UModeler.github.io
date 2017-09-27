@@ -2,9 +2,10 @@
 Settings
 *************
   
- .. figure:: /images/UVEditor_Setting.png 
-
-    Settings on the inspector
+.. figure:: /images/UVEditor_Setting.png 
+   :scale: 80 %
+   
+   Settings on the inspector
 
 Enable Snap
    If this is on, UV transform will be affectad by ``Grid Snap Size`` and ``Rotation Snap Size`` specified below.

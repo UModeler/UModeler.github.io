@@ -2,15 +2,20 @@
   UModeler Reference Manual
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+.. figure:: /images/UModeler_Overview.png
+   :scale: 55 %
+	
+   UModeler on Unity
+
 .. only:: latex or epub or singlehtml
 
  .. toctree::
     :maxdepth: 1
 
-    Overview/index.rst
-    Settings/index.rst	
-    Transform/index.rst
-    Selection/index.rst
+    overview.rst
+    settings.rst
+    transformtools.rst
+    selectiontools.rst
     Drawing/index.rst
     PrimitiveShapes/index.rst
     Add/index.rst
@@ -39,22 +44,22 @@ Sections
 
       .. container:: descr
 
-         :doc:`/Overview/index`
+         :doc:`overview`
             An overview of UModeler and an introduction of menu, input controls and tools.
 			
       .. container:: descr
 
-         :doc:`/Settings/index`
+         :doc:`settings`
             UModeler's Settings.			
 
       .. container:: descr
 
-         :doc:`/Transform/index`
+         :doc:`transformtools`
             All tools related to transforming vertices/edges/polygons/object.
 
       .. container:: descr
 
-         :doc:`/Selection/index`
+         :doc:`selectiontools`
 			The various supported tools to help you select many elements at once as you want
 
       .. container:: descr
