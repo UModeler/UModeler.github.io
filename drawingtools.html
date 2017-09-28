@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Tweak Tools &mdash; UModeler 2.0 Manual  documentation</title>
+  <title>Drawing Tools &mdash; UModeler 2.0 Manual  documentation</title>
   
 
   
@@ -34,8 +34,8 @@
               href="genindex.html"/>
         <link rel="search" title="Search" href="search.html"/>
     <link rel="top" title="UModeler 2.0 Manual  documentation" href="index.html"/>
-        <link rel="next" title="Surface Tools" href="surfacetools.html"/>
-        <link rel="prev" title="Remove Tools" href="removetools.html"/> 
+        <link rel="next" title="Primitive Shapes Tools" href="primitiveshapetools.html"/>
+        <link rel="prev" title="Selection Tools" href="selectiontools.html"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -86,18 +86,34 @@
 <li class="toctree-l1"><a class="reference internal" href="menu.html">Menu</a></li>
 <li class="toctree-l1"><a class="reference internal" href="transformtools.html">Transform Tools</a></li>
 <li class="toctree-l1"><a class="reference internal" href="selectiontools.html">Selection Tools</a></li>
-<li class="toctree-l1"><a class="reference internal" href="drawingtools.html">Drawing Tools</a></li>
-<li class="toctree-l1"><a class="reference internal" href="primitiveshapetools.html">Primitive Shapes Tools</a></li>
-<li class="toctree-l1"><a class="reference internal" href="addtools.html">Add tools</a></li>
-<li class="toctree-l1"><a class="reference internal" href="removetools.html">Remove Tools</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Tweak Tools</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#invert-face-tool">Invert Face Tool</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#flatten-tool">Flatten Tool</a><ul>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Drawing Tools</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#line-tool">Line Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#arc-tool">Arc Tool</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#properties">Properties</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="#rectangle-tool">Rectangle Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id1">Properties</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="#disk-tool">Disk Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id2">Properties</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#side-stair-tool">Side Stair Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id3">Properties</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#parallel-tool">Parallel Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id4">Properties</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="primitiveshapetools.html">Primitive Shapes Tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="addtools.html">Add tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="removetools.html">Remove Tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tweaktools.html">Tweak Tools</a></li>
 <li class="toctree-l1"><a class="reference internal" href="surfacetools.html">Surface Tools</a></li>
 <li class="toctree-l1"><a class="reference internal" href="misctools.html">Misc Tools</a></li>
 <li class="toctree-l1"><a class="reference internal" href="UVEditor/index.html">UV Editor</a></li>
@@ -131,11 +147,11 @@
   <ul class="wy-breadcrumbs">
     <li><a href="index.html">Docs</a> &raquo;</li>
       
-    <li>Tweak Tools</li>
+    <li>Drawing Tools</li>
       <li class="wy-breadcrumbs-aside">
         
           
-            <a href="_sources/tweaktools.txt" rel="nofollow"> View page source</a>
+            <a href="_sources/drawingtools.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -145,41 +161,64 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="tweak-tools">
-<h1>Tweak Tools<a class="headerlink" href="#tweak-tools" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="invert-face-tool">
-<h2>Invert Face Tool<a class="headerlink" href="#invert-face-tool" title="Permalink to this headline">¶</a></h2>
-<p>Flips the selected polygons.</p>
-<div class="figure" id="id1">
-<a class="reference internal image-reference" href="_images/UModeler_InvertFace.gif"><img alt="_images/UModeler_InvertFace.gif" src="_images/UModeler_InvertFace.gif" style="width: 596.4px; height: 361.6px;" /></a>
-<p class="caption"><span class="caption-text">Selects several polygons and flips them.</span></p>
+  <div class="section" id="drawing-tools">
+<h1>Drawing Tools<a class="headerlink" href="#drawing-tools" title="Permalink to this headline">¶</a></h1>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<div class="last line-block">
+<div class="line">1. Pressing <code class="docutils literal"><span class="pre">SPACE</span></code> confirms the current action. On the other hand <code class="docutils literal"><span class="pre">ESC</span></code> cancels it.</div>
+<div class="line">2. You can adjust a shape by chaning the properties before confirming.</div>
+</div>
+</div>
+<div class="section" id="line-tool">
+<h2>Line Tool<a class="headerlink" href="#line-tool" title="Permalink to this headline">¶</a></h2>
+<p>You can draw edges on a surface or on a floor in a row. The mouse cursor will be snapped to a vertex, a center of edge, a center of polygon etc when the cursor gets close enough to them.</p>
+</div>
+<hr class="docutils" />
+<div class="section" id="arc-tool">
+<h2>Arc Tool<a class="headerlink" href="#arc-tool" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="properties">
+<h3>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h3>
+<p>Segment</p>
+<p>Close</p>
 </div>
 </div>
 <hr class="docutils" />
-<div class="section" id="flatten-tool">
-<h2>Flatten Tool<a class="headerlink" href="#flatten-tool" title="Permalink to this headline">¶</a></h2>
-<p>Flattens the selected polygons so that all the selected polygons will be aligned with the last polygon’s plane.</p>
-<p>This tool is useful when you merges coplanar polygons using <code class="docutils literal"><span class="pre">Combine</span> <span class="pre">Tool</span></code>.</p>
-<div class="section" id="properties">
-<h3>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h3>
-<dl class="docutils">
-<dt>Projection Dir</dt>
-<dd><ul class="first last simple">
-<li>Up - Y direction</li>
-<li>Right - X direction</li>
-<li>Forward - Z direction</li>
-<li>Last Polygon - The normal direction of the last selected polygon.</li>
-</ul>
-</dd>
-</dl>
-<div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">In order to change properties you should select <code class="docutils literal"><span class="pre">Flatten</span> <span class="pre">Tool</span></code> without any selected elements.</p>
+<div class="section" id="rectangle-tool">
+<h2>Rectangle Tool<a class="headerlink" href="#rectangle-tool" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id1">
+<h3>Properties<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<p>Width</p>
+<p>Depth</p>
+<p>Corner Length</p>
+<p>Corner Segment</p>
 </div>
-<div class="figure" id="id2">
-<a class="reference internal image-reference" href="_images/UModeler_FlattenTool.gif"><img alt="_images/UModeler_FlattenTool.gif" src="_images/UModeler_FlattenTool.gif" style="width: 596.4px; height: 361.6px;" /></a>
-<p class="caption"><span class="caption-text">Flattens a few polygons and combines them using <code class="docutils literal"><span class="pre">Combine</span> <span class="pre">Tool</span></code>.</span></p>
 </div>
+<hr class="docutils" />
+<div class="section" id="disk-tool">
+<h2>Disk Tool<a class="headerlink" href="#disk-tool" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id2">
+<h3>Properties<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<p>Segment</p>
+<p>Radius</p>
+<p>Angle Snap</p>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="side-stair-tool">
+<h2>Side Stair Tool<a class="headerlink" href="#side-stair-tool" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id3">
+<h3>Properties<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<p>Rise</p>
+<p>Flip</p>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="parallel-tool">
+<h2>Parallel Tool<a class="headerlink" href="#parallel-tool" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id4">
+<h3>Properties<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<p>Distance</p>
 </div>
 </div>
 </div>
@@ -191,10 +230,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="surfacetools.html" class="btn btn-neutral float-right" title="Surface Tools" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="primitiveshapetools.html" class="btn btn-neutral float-right" title="Primitive Shapes Tools" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="removetools.html" class="btn btn-neutral" title="Remove Tools" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="selectiontools.html" class="btn btn-neutral" title="Selection Tools" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

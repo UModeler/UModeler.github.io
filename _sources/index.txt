@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
-  UModeler Reference Manual
+ UModeler Reference Manual
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 .. figure:: /images/UModeler_Overview.png
@@ -11,19 +11,20 @@
 
  .. toctree::
     :maxdepth: 1
-
-    overview.rst
-    settings.rst
-    transformtools.rst
-    selectiontools.rst
-    Drawing/index.rst
-    PrimitiveShapes/index.rst
-    Add/index.rst
-    Remove/index.rst
-    tweaktools.rst
-    Surface/index.rst
-    misctools.rst
-    UVEditor/index.rst
+   
+    overview
+    settings
+    menu
+    transformtools
+    selectiontools
+    drawingtools
+    primitiveshapetools
+    addtools
+    removetools
+    tweaktools
+    surfacetools
+    misctools
+    UVEditor/index
 
 Welcome to the UModeler Manual!
 
@@ -51,6 +52,11 @@ Sections
 
          :doc:`settings`
             UModeler's Settings.			
+			
+      .. container:: descr
+
+         :doc:`menu`
+            UModeler's Menu.
 
       .. container:: descr
 
@@ -64,22 +70,22 @@ Sections
 
       .. container:: descr
 
-         :doc:`/Drawing/index`
+         :doc:`drawingtools`
             2D polygons drawing tools in easy and intuive ways.
 
       .. container:: descr
 
-         :doc:`/PrimitiveShapes/index`
+         :doc:`primitiveshapetools`
             Procecural 3D Primitive Shapes, such as Box, Room, Stair, Cylinder, Cone, Sphere and Capsule.
 
       .. container:: descr
 
-         :doc:`/Add/index`
+         :doc:`addtools`
 			Various and Powerful ways of adding elements to a shape.
 
       .. container:: descr
 
-         :doc:`/Remove/index`
+         :doc:`removetools`
 			Easy and Convinent ways of removing elements from a shape.
 
       .. container:: descr
@@ -89,7 +95,7 @@ Sections
 
       .. container:: descr
 
-         :doc:`/Surface/index`
+         :doc:`surfacetools`
             Tools for decorating surfaces of a shape by assigning Materials, UVs, Colors and Smoothing group IDs etc to each vertex or polygon.
 
       .. container:: descr

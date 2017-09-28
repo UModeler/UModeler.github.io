@@ -1,5 +1,5 @@
 ################
-Transform tools
+Transform Tools
 ################
 
 Vertex / Edge / Polygon tool

@@ -24,30 +24,30 @@ Bakes rotate, scale or both of them.
 Properties
 -----------
 Bake All
- Bake all
- 
+ Bake both Rotation and Scale.
+
 Bake Rotation
- Bake rotation
+ Applys the object rotation to every polygon and sets it to (0,0,0)
 
 Bake Scale
- Bake Scale 
- 
+ Applys the object scale to every polygon and sets it to (1,1,1)
+
 -----------------------------------------------------------------------------------
 
 Export Tool
 ==============
 
-Exports the mesh to .obj or .prefab.
+Exports the UModeler mesh to .obj or .prefab.
 
 Properties
 ------------
 Export to .obj
- Export to .obj
+ Exports the UModeler mesh to .obj
 
-Export to .prefab 
- Export to .prefab 
- 
------------------------------------------------------------------------------------ 
+Export to .prefab
+ Exports the UModeler mesh to .prefab
+
+-----------------------------------------------------------------------------------
 
 Pivot To Center Tool
 =======================
@@ -72,6 +72,6 @@ Properties
 -------------
 Turn on
  backfaces on
- 
+
 Turun off
  backfaces off
