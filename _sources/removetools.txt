@@ -45,7 +45,7 @@ Properties
 Cut Tool
 ===================
 
-Cuts a mesh into two along a line drawn by dragging a mouse.
+Cuts a mesh into two along a line drawn by dragging a mouse. Pressing ``SPACE`` while dragging will change the direction of cutting.
 
 .. figure:: /images/UModeler_CutTool.gif
    :scale: 55 %
