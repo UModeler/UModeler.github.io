@@ -162,12 +162,29 @@
 <h1>Remove Tools<a class="headerlink" href="#remove-tools" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="eraser-tool">
 <h2>Eraser Tool<a class="headerlink" href="#eraser-tool" title="Permalink to this headline">¶</a></h2>
+<p>There are two modes of deleting elements. One is called <code class="docutils literal"><span class="pre">Immediate</span> <span class="pre">Mode</span></code> and the other is called <code class="docutils literal"><span class="pre">Edit</span> <span class="pre">Mode</span></code>.</p>
+<blockquote>
+<div><ul class="simple">
+<li><code class="docutils literal"><span class="pre">Immediate</span> <span class="pre">Mode</span></code> - Select elements at first and then click on <code class="docutils literal"><span class="pre">Eraser</span></code> button to remove elements.</li>
+<li><code class="docutils literal"><span class="pre">Edit</span> <span class="pre">Mode</span></code> - Select <code class="docutils literal"><span class="pre">Eraser</span></code> tool first with no selected elements and then click on an edge which you want to remove.</li>
+</ul>
+</div></blockquote>
+<p>When you try to erase an edge shared by two coplanar polygons, only the edge will be removed and the two shared polygons will be merged. Otherwise, the two polygons will be removed, too.</p>
+<p>In a case of a vertex, all the polygons sharing the vertex will be removed. If it is a polygon, only the polygon will be taken away.</p>
+<div class="figure" id="id3">
+<a class="reference internal image-reference" href="_images/UModeler_EraserToolImmediateMode.gif"><img alt="_images/UModeler_EraserToolImmediateMode.gif" src="_images/UModeler_EraserToolImmediateMode.gif" style="width: 760.0px; height: 484.5px;" /></a>
+<p class="caption"><span class="caption-text">Eraser Tool, Immediate Mode, Demo</span></p>
+</div>
+<div class="figure" id="id4">
+<a class="reference internal image-reference" href="_images/UModeler_EraserToolEditMode.gif"><img alt="_images/UModeler_EraserToolEditMode.gif" src="_images/UModeler_EraserToolEditMode.gif" style="width: 760.0px; height: 484.5px;" /></a>
+<p class="caption"><span class="caption-text">Eraser Tool, Edit Mode, Demo</span></p>
+</div>
 </div>
 <hr class="docutils" />
 <div class="section" id="detach-tool">
 <h2>Detach Tool<a class="headerlink" href="#detach-tool" title="Permalink to this headline">¶</a></h2>
 <p>Detachs the selected polygons from the current game object to get them into the new game object.</p>
-<div class="figure" id="id3">
+<div class="figure" id="id5">
 <a class="reference internal image-reference" href="_images/UModeler_DetachTool.gif"><img alt="_images/UModeler_DetachTool.gif" src="_images/UModeler_DetachTool.gif" style="width: 855.0px; height: 618.4499999999999px;" /></a>
 <p class="caption"><span class="caption-text">Detaches the selected polygons and creates a new game object, which has the detached polygons.</span></p>
 </div>
@@ -183,7 +200,7 @@
 <div class="line">However, if you click on <code class="docutils literal"><span class="pre">Combine</span></code> button with some vertices selected, the combine action will happen immediately.</div>
 </div>
 </div>
-<div class="figure" id="id4">
+<div class="figure" id="id6">
 <a class="reference internal image-reference" href="_images/UModeler_CombineVertexTool.gif"><img alt="_images/UModeler_CombineVertexTool.gif" src="_images/UModeler_CombineVertexTool.gif" style="width: 760.0px; height: 484.5px;" /></a>
 <p class="caption"><span class="caption-text">Merges the selected vertices.</span></p>
 </div>
@@ -208,7 +225,7 @@
 <div class="section" id="combine-polygon-tool">
 <h2>Combine Polygon Tool<a class="headerlink" href="#combine-polygon-tool" title="Permalink to this headline">¶</a></h2>
 <p>Merges adjacent and coplanar polygons into a polygon by selecting several polygons and clicking on <code class="docutils literal"><span class="pre">Combine</span></code> button.</p>
-<div class="figure" id="id5">
+<div class="figure" id="id7">
 <a class="reference internal image-reference" href="_images/UModeler_CombinePolygonTool.gif"><img alt="_images/UModeler_CombinePolygonTool.gif" src="_images/UModeler_CombinePolygonTool.gif" style="width: 855.0px; height: 618.4499999999999px;" /></a>
 <p class="caption"><span class="caption-text">Combines the selected polygons.</span></p>
 </div>
@@ -217,7 +234,7 @@
 <div class="section" id="combine-object-tool">
 <h2>Combine Object Tool<a class="headerlink" href="#combine-object-tool" title="Permalink to this headline">¶</a></h2>
 <p>Combines the selected game objects with UModeler component to be an object by selecting several game objects and clicking on <code class="docutils literal"><span class="pre">Combine</span></code> button.</p>
-<div class="figure" id="id6">
+<div class="figure" id="id8">
 <a class="reference internal image-reference" href="_images/UModeler_CombineObjectTool.gif"><img alt="_images/UModeler_CombineObjectTool.gif" src="_images/UModeler_CombineObjectTool.gif" style="width: 855.0px; height: 618.4499999999999px;" /></a>
 <p class="caption"><span class="caption-text">Merges the selected objects.</span></p>
 </div>
@@ -226,7 +243,7 @@
 <div class="section" id="remove-double-tool">
 <h2>Remove Double Tool<a class="headerlink" href="#remove-double-tool" title="Permalink to this headline">¶</a></h2>
 <p>Lets you merge automatically all the selected vertices within the specific distance.</p>
-<div class="figure" id="id7">
+<div class="figure" id="id9">
 <a class="reference internal image-reference" href="_images/UModeler_RemoveDoublesTool.gif"><img alt="_images/UModeler_RemoveDoublesTool.gif" src="_images/UModeler_RemoveDoublesTool.gif" style="width: 855.0px; height: 618.4499999999999px;" /></a>
 <p class="caption"><span class="caption-text">RemoveDoubles Tool Demo</span></p>
 </div>
@@ -242,7 +259,7 @@
 <div class="section" id="collpase-tool">
 <h2>Collpase Tool<a class="headerlink" href="#collpase-tool" title="Permalink to this headline">¶</a></h2>
 <p>Merges each edge island or vertex island into one vertex. This makes as many remaining vertices as islands of selection. (i.e. groups of linked selected vertices).</p>
-<div class="figure" id="id8">
+<div class="figure" id="id10">
 <a class="reference internal image-reference" href="_images/UModeler_CollapseTool.gif"><img alt="_images/UModeler_CollapseTool.gif" src="_images/UModeler_CollapseTool.gif" style="width: 855.0px; height: 618.4499999999999px;" /></a>
 <p class="caption"><span class="caption-text">Collapse Tool Demo</span></p>
 </div>
@@ -251,7 +268,7 @@
 <div class="section" id="cut-tool">
 <h2>Cut Tool<a class="headerlink" href="#cut-tool" title="Permalink to this headline">¶</a></h2>
 <p>Cuts a mesh into two along a line drawn by dragging a mouse. Pressing <code class="docutils literal"><span class="pre">SPACE</span></code> while dragging will change the direction of cutting.</p>
-<div class="figure" id="id9">
+<div class="figure" id="id11">
 <a class="reference internal image-reference" href="_images/UModeler_CutTool.gif"><img alt="_images/UModeler_CutTool.gif" src="_images/UModeler_CutTool.gif" style="width: 950.0px; height: 625.1px;" /></a>
 <p class="caption"><span class="caption-text">Cut Tool Demo</span></p>
 </div>
@@ -272,7 +289,7 @@ Both - Simply cuts a mesh and leaves all polygons.</dd>
 <div class="section" id="clip-tool">
 <h2>Clip Tool<a class="headerlink" href="#clip-tool" title="Permalink to this headline">¶</a></h2>
 <p>Cuts away the parts of the selected polygons under the clip polygon. Clip polygon has to be selected after pressing <code class="docutils literal"><span class="pre">Clip</span></code> button.</p>
-<div class="figure" id="id10">
+<div class="figure" id="id12">
 <a class="reference internal image-reference" href="_images/UModeler_ClipTool.gif"><img alt="_images/UModeler_ClipTool.gif" src="_images/UModeler_ClipTool.gif" style="width: 855.0px; height: 618.4499999999999px;" /></a>
 <p class="caption"><span class="caption-text">Clip Tool Demo</span></p>
 </div>
