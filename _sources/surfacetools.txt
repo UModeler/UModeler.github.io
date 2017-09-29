@@ -48,8 +48,8 @@ Sets UV parameters such as ``Shift``, ``Scale`` and ``Rotation`` etc to each pol
 Properties
 ---------------
 Mode
- * Absolute : The properties are set to the selected polygons directly
- * Relative : The properties are added to the selected polygons.
+ * ``Absolute`` : The properties are set to the selected polygons directly
+ * ``Relative`` : The properties are added to the selected polygons.
  
 Shift
  Shift of UVs
@@ -61,8 +61,8 @@ Rotation
  Rotation of UVs
  
 Tiling
- * X : Changes texture tiling on selected surfaces in the X direction.
- * Y : Changes texture tiling on selected surfaces in the Y direction.
+ * ``X`` : Changes texture tiling on selected surfaces in the X direction.
+ * ``Y`` : Changes texture tiling on selected surfaces in the Y direction.
  
 Fix UVs according to Tiling
  Based on Tiling properties the UVs of the selected polygons are fixed.

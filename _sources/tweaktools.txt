@@ -25,10 +25,10 @@ Properties
 ------------
 
 Projection Dir  
-  * Up - Y direction
-  * Right - X direction
-  * Forward - Z direction
-  * Last Polygon - The normal direction of the last selected polygon.
+  * ``Up`` - Y direction
+  * ``Right`` - X direction
+  * ``Forward`` - Z direction
+  * ``Last Polygon`` - The normal direction of the last selected polygon.
   
 .. note::
 

@@ -71,8 +71,8 @@ Properties
 -----------
 
 Candidate Set
- | • Bound Box - Position set coming from the bound box.
- | • Polygon - Position set coming from the vertices from the polygons.
+ * ``Bound Box`` - Position set coming from the bound box.
+ * ``Polygon`` - Position set coming from the vertices from the polygons.
 
 ----------------------------------------------------------------------------------------------------------------------
  

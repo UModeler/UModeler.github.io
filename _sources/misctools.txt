@@ -46,6 +46,9 @@ Export to .obj
 
 Export to .prefab
  Exports the UModeler mesh to .prefab
+ 
+Export to .asset
+ Exports the UModeler mesh to .asset
 
 -----------------------------------------------------------------------------------
 

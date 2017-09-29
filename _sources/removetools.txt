@@ -56,9 +56,9 @@ Properties
 ---------------
 
 Combine Type
- * First - Places the remaining vertex at the location of the first one selected.
- * Last - Places the remaining vertex at the location of the last one selected.
- * Center - Places the remaining vertex at the center of the selected vertices.
+ * ``First`` - Places the remaining vertex at the location of the first one selected.
+ * ``Last`` - Places the remaining vertex at the location of the last one selected.
+ * ``Center`` - Places the remaining vertex at the center of the selected vertices.
  
 Collapse
  It may let alive more than one vertex. In fact, you will have as many remaining vertices as you had islands of selection (i.e. groups of linked selected vertices). The remaining vertices will be positioned at the center of their respective islands.
@@ -136,8 +136,8 @@ Properties
 ---------------
 
 Type
- * Single - Removes the polygons below the custom plane.
- * Both - Simply cuts a mesh and leaves all polygons.
+ * ``Single`` - Removes the polygons below the custom plane.
+ * ``Both`` - Simply cuts a mesh and leaves all polygons.
  
 Fill Facet
  Fills facets with polygons.
