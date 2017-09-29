@@ -5,9 +5,9 @@ Remove Tools
 Eraser Tool
 ========================
 
-There are two modes of deleting elements. One is called ``Immediate Mode`` and the other is called ``Edit Mode``.
+There are two modes of deleting elements. One is ``Immediate Mode`` and the other is ``Edit Mode``.
 
- * ``Immediate Mode`` - Select elements at first and then click on ``Eraser`` button to remove elements.
+ * ``Immediate Mode`` - Select elements at first and then click on ``Eraser`` button to remove them.
  * ``Edit Mode`` - Select ``Eraser`` tool first with no selected elements and then click on an edge which you want to remove.
  
 When you try to erase an edge shared by two coplanar polygons, only the edge will be removed and the two shared polygons will be merged. Otherwise, the two polygons will be removed, too.
@@ -136,8 +136,8 @@ Properties
 ---------------
 
 Type
- Single - Removes the polygons below the custom plane.
- Both - Simply cuts a mesh and leaves all polygons.
+ * Single - Removes the polygons below the custom plane.
+ * Both - Simply cuts a mesh and leaves all polygons.* 
  
 Fill Facet
  Fills facets with polygons.
