@@ -35,7 +35,7 @@ Axis
       Z-Axis
 
 .. figure:: /images/UModeler_UVEditor_PlaneViewProjection.gif
-     :scale: 55 %
+     :scale: 95 %
   
      Unwrapping the selected polygons in the ``View`` direction and ``Normal`` direction.
 
@@ -44,7 +44,7 @@ Cube Projection
 ``Cube`` mapping projects a mesh onto six separate planes, creating six UV islands. 
 
   .. figure:: /images/UModeler_UVEditor_CubeProjection.gif
-     :scale: 55 %
+     :scale: 95 %
   
      Unfolding the selected polygons using ``Cube`` unwrapping adjusting the properties.
 

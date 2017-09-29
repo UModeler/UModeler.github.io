@@ -8,7 +8,7 @@ Overview
  |
  
  .. figure:: /images/UVEditor_Overview.png 
-    :scale: 55 %
+    :scale: 95 %
 
     UVEditor with a UV map
 
@@ -46,7 +46,7 @@ Getting Started
 ==================
 
  .. figure:: /images/UVEditor_GettingStarted.gif
-    :scale: 55 %
+    :scale: 95 %
  
     Unwrapping the selected polygons and basic demo to show how to edit UVs
 

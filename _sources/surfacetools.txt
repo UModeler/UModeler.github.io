@@ -79,7 +79,7 @@ Open UVEditor
 Opens UVEditor to unwrap polygons and edit those UVs.
 
 .. figure:: /images/UModeler_UVEditorWnd.jpg
-   :scale: 50 %
+   :scale: 95 %
 	
    UV Editor Window
 
@@ -91,7 +91,7 @@ Color Tool
 Sets colors to the polygons. Pressing or Dragging ``LMB`` holding ``SHIFT`` will paint a polygon below the mouse cursor in the selected color.
 
 .. figure:: /images/UModeler_ColorTool.gif
-   :scale: 90 %
+   :scale: 95 %
 	
    Color Tool Demo
 
@@ -117,7 +117,7 @@ Smoothing Group Tool
  Manages smoothing groups for smooth shading.
  
 .. figure:: /images/UModeler_SmoothingGroupTool.gif
-   :scale: 90 %
+   :scale: 95 %
 	
    Smoothing Group Tool Demo 
 

@@ -24,7 +24,7 @@ Center
  Mirrors elements along the center position.
  
  .. figure:: /images/UModeler_UVEditor_FlipTools.gif
-    :scale: 55 %
+    :scale: 95 %
   
     Flip tools demo.
  
@@ -40,7 +40,7 @@ The ``Rotate`` tools rotate the selected elements by +90 degrees or -90 degrees 
  Rotates clockwise
 
  .. figure:: /images/UModeler_UVEditor_RotateTools.gif
-    :scale: 55 %
+    :scale: 95 %
   
     Rotate tools demo.
 
@@ -69,7 +69,7 @@ H(oritontal) Center
  
 
  .. figure:: /images/UModeler_UVEditor_AlignmentTools.gif
-    :scale: 55 %
+    :scale: 95 %
   
     Alignment tools demo.  
  

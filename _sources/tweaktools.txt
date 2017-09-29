@@ -8,7 +8,7 @@ Invert Face Tool
 Flips the selected polygons.
 
 .. figure:: /images/UModeler_InvertFace.gif
-   :scale: 40 %
+   :scale: 95 %
 
    Selects several polygons and flips them.
    
@@ -36,6 +36,6 @@ Projection Dir
    
    
 .. figure:: /images/UModeler_FlattenTool.gif
-   :scale: 40 %
+   :scale: 95 %
 
    Flattens a few polygons and combines them using ``Combine Tool``.

@@ -22,6 +22,6 @@ Move/Sew
  |
  
  .. figure:: /images/UModeler_UVEditor_SewTools.gif
-    :scale: 55 %
+    :scale: 95 %
   
     Demo of Sew and Move/Sew Tools 

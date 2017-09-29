@@ -3,7 +3,7 @@ Settings
 *************
   
 .. figure:: /images/UVEditor_Setting.png 
-   :scale: 80 %
+   :scale: 95 %
    
    Settings on the inspector
 
