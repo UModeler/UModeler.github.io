@@ -188,7 +188,7 @@ Clone Tool
 
 Clones the selected polygons along the line drawn by dragging a mouse. Pressing ``SPACE`` confirms the clone action and ``ESC`` cancels it.
 
-.. figure:: /images/UModeler_ClonePolygonTool.gif
+.. figure:: /images/UModeler_CloneSinglePolygonTool.gif
    :scale: 95 %
 	
    Clones a polygon
