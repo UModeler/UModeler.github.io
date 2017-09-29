@@ -29,6 +29,8 @@ Properties
 Inset Tool
 ===================
 
+This tool creates a slightly smaller or bigger polygon of the selected one.
+
 Properties
 ---------------
 
@@ -37,16 +39,60 @@ Properties
 Boolean Tool
 ===================
 
+This tool creates a single game object out of two game objects by applying one of the three boolean operations. The steps for a boolean operation is as follows.
+
+1. Select two game objects with UModeler component.
+2. Select Boolean tool
+3. Choose one of Union, Subtract and Intersection in the inspector.
+
+.. figure:: /images/UModeler_BooleanTool.gif
+   :scale: 95 %
+   
+   Boolean Tool Demo.
+
 Properties
 ---------------
+Union
+ Boolean Union
+ 
+Subtract
+ Boolean Subtract
+
+Intersection
+ Boolean Intersection
 
 ------------------------------------------------------------------------------------------------------
 
 Mirror Tool
 ===================
 
+Mirrors a mesh along its local X,Y or Z Axes. When the mirror mode is enabled, every change will be reflected to the other side each time the mesh is modified.
+
+.. figure:: /images/UModeler_MirrorTool.gif
+   :scale: 95 %
+   
+   Mirror Tool Demo.
+
 Properties
 ---------------
+
+Axis
+ Plane mirror axis
+ 
+Invert
+ Inverts the direction of the plane mirror.
+ 
+Distance
+ The distance of the plane mirror
+ 
+Leave Boundary
+ Leaves a boundary after finishing the mirror mode.
+ 
+Start
+ Starts the mirror mode.
+ 
+Done
+ Finishes the mirror mode.
 
 ------------------------------------------------------------------------------------------------------
 
@@ -55,8 +101,8 @@ Loop Slice Tool
 
 ``Loop Slice`` splits a loop of faces by inserting a new edge loop intersecting the chosen edge. The tool is interactive and has two steps:
 
- 1. `Pre-visualizing the Cut` : After the tool is activated, move the cursor over a desired edge. The cut to be made is marked with a orange colored lines as you move the mouse over the various edges. Rolling ``Wheel`` up or down will increase or decrease the ``Split Number``. The to-be-created edge loop stops at the poles (tris and n-gons) where the existing face loop terminates.  
- 2. `Sliding the new Edge Loop` : Once an edge is chosen via ``LMB``, you can move the mouse holding ``LMB`` to determine where the new edge loop will be placed. Releasing ``LMB`` will confirms this action.
+ 1. ``Pre-visualizing the Cut`` - After the tool is activated, move the cursor over a desired edge. The cut to be made is marked with a orange colored lines as you move the mouse over the various edges. Rolling ``Wheel`` up or down will increase or decrease the ``Split Number``. The to-be-created edge loop stops at the poles (tris and n-gons) where the existing face loop terminates.  
+ 2. ``Sliding the new Edge Loop`` - Once an edge is chosen via ``LMB``, you can move the mouse holding ``LMB`` to determine where the new edge loop will be placed. Releasing ``LMB`` will confirms this action.
 
 .. figure:: /images/UModeler_LoopSliceTool.gif
    :scale: 95 %

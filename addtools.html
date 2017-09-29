@@ -204,6 +204,7 @@
 <hr class="docutils" />
 <div class="section" id="inset-tool">
 <h2>Inset Tool<a class="headerlink" href="#inset-tool" title="Permalink to this headline">¶</a></h2>
+<p>This tool creates a slightly smaller or bigger polygon of the selected one.</p>
 <div class="section" id="id3">
 <h3>Properties<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
 </div>
@@ -211,15 +212,52 @@
 <hr class="docutils" />
 <div class="section" id="boolean-tool">
 <h2>Boolean Tool<a class="headerlink" href="#boolean-tool" title="Permalink to this headline">¶</a></h2>
+<p>This tool creates a single game object out of two game objects by applying one of the three boolean operations. The steps for a boolean operation is as follows.</p>
+<ol class="arabic simple">
+<li>Select two game objects with UModeler component.</li>
+<li>Select Boolean tool</li>
+<li>Choose one of Union, Subtract and Intersection in the inspector.</li>
+</ol>
+<div class="figure" id="id9">
+<a class="reference internal image-reference" href="_images/UModeler_BooleanTool.gif"><img alt="_images/UModeler_BooleanTool.gif" src="_images/UModeler_BooleanTool.gif" style="width: 760.0px; height: 465.5px;" /></a>
+<p class="caption"><span class="caption-text">Boolean Tool Demo.</span></p>
+</div>
 <div class="section" id="id4">
 <h3>Properties<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt>Union</dt>
+<dd>Boolean Union</dd>
+<dt>Subtract</dt>
+<dd>Boolean Subtract</dd>
+<dt>Intersection</dt>
+<dd>Boolean Intersection</dd>
+</dl>
 </div>
 </div>
 <hr class="docutils" />
 <div class="section" id="mirror-tool">
 <h2>Mirror Tool<a class="headerlink" href="#mirror-tool" title="Permalink to this headline">¶</a></h2>
+<p>Mirrors a mesh along its local X,Y or Z Axes. When the mirror mode is enabled, every change will be reflected to the other side each time the mesh is modified.</p>
+<div class="figure" id="id10">
+<a class="reference internal image-reference" href="_images/UModeler_MirrorTool.gif"><img alt="_images/UModeler_MirrorTool.gif" src="_images/UModeler_MirrorTool.gif" style="width: 760.0px; height: 484.5px;" /></a>
+<p class="caption"><span class="caption-text">Mirror Tool Demo.</span></p>
+</div>
 <div class="section" id="id5">
 <h3>Properties<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt>Axis</dt>
+<dd>Plane mirror axis</dd>
+<dt>Invert</dt>
+<dd>Inverts the direction of the plane mirror.</dd>
+<dt>Distance</dt>
+<dd>The distance of the plane mirror</dd>
+<dt>Leave Boundary</dt>
+<dd>Leaves a boundary after finishing the mirror mode.</dd>
+<dt>Start</dt>
+<dd>Starts the mirror mode.</dd>
+<dt>Done</dt>
+<dd>Finishes the mirror mode.</dd>
+</dl>
 </div>
 </div>
 <hr class="docutils" />
@@ -228,11 +266,11 @@
 <p><code class="docutils literal"><span class="pre">Loop</span> <span class="pre">Slice</span></code> splits a loop of faces by inserting a new edge loop intersecting the chosen edge. The tool is interactive and has two steps:</p>
 <blockquote>
 <div><ol class="arabic simple">
-<li><cite>Pre-visualizing the Cut</cite> : After the tool is activated, move the cursor over a desired edge. The cut to be made is marked with a orange colored lines as you move the mouse over the various edges. Rolling <code class="docutils literal"><span class="pre">Wheel</span></code> up or down will increase or decrease the <code class="docutils literal"><span class="pre">Split</span> <span class="pre">Number</span></code>. The to-be-created edge loop stops at the poles (tris and n-gons) where the existing face loop terminates.</li>
-<li><cite>Sliding the new Edge Loop</cite> : Once an edge is chosen via <code class="docutils literal"><span class="pre">LMB</span></code>, you can move the mouse holding <code class="docutils literal"><span class="pre">LMB</span></code> to determine where the new edge loop will be placed. Releasing <code class="docutils literal"><span class="pre">LMB</span></code> will confirms this action.</li>
+<li><code class="docutils literal"><span class="pre">Pre-visualizing</span> <span class="pre">the</span> <span class="pre">Cut</span></code> - After the tool is activated, move the cursor over a desired edge. The cut to be made is marked with a orange colored lines as you move the mouse over the various edges. Rolling <code class="docutils literal"><span class="pre">Wheel</span></code> up or down will increase or decrease the <code class="docutils literal"><span class="pre">Split</span> <span class="pre">Number</span></code>. The to-be-created edge loop stops at the poles (tris and n-gons) where the existing face loop terminates.</li>
+<li><code class="docutils literal"><span class="pre">Sliding</span> <span class="pre">the</span> <span class="pre">new</span> <span class="pre">Edge</span> <span class="pre">Loop</span></code> - Once an edge is chosen via <code class="docutils literal"><span class="pre">LMB</span></code>, you can move the mouse holding <code class="docutils literal"><span class="pre">LMB</span></code> to determine where the new edge loop will be placed. Releasing <code class="docutils literal"><span class="pre">LMB</span></code> will confirms this action.</li>
 </ol>
 </div></blockquote>
-<div class="figure" id="id9">
+<div class="figure" id="id11">
 <a class="reference internal image-reference" href="_images/UModeler_LoopSliceTool.gif"><img alt="_images/UModeler_LoopSliceTool.gif" src="_images/UModeler_LoopSliceTool.gif" style="width: 760.0px; height: 484.5px;" /></a>
 <p class="caption"><span class="caption-text">LoopSlice Tool Demo.</span></p>
 </div>
@@ -257,7 +295,7 @@
 <li>Click on <code class="docutils literal"><span class="pre">Follow</span> <span class="pre">tool</span></code>.</li>
 </ol>
 </div></blockquote>
-<div class="figure" id="id10">
+<div class="figure" id="id12">
 <a class="reference internal image-reference" href="_images/UModeler_FollowTool.gif"><img alt="_images/UModeler_FollowTool.gif" src="_images/UModeler_FollowTool.gif" style="width: 760.0px; height: 484.5px;" /></a>
 <p class="caption"><span class="caption-text">Follow Tool Demo.</span></p>
 </div>
@@ -267,7 +305,7 @@
 <h2>Bevel Tool<a class="headerlink" href="#bevel-tool" title="Permalink to this headline">¶</a></h2>
 <p>The bevel tool allows you to create chamfered or rounded corners to geometry. A bevel is an effect that smooths out edges and corners.</p>
 <p>V ertices, Edges or Polygons have to be selected before selecting <code class="docutils literal"><span class="pre">Bevel</span></code> tool and then change the properties described below in the inspector.</p>
-<div class="figure" id="id11">
+<div class="figure" id="id13">
 <a class="reference internal image-reference" href="_images/UModeler_BevelTool.gif"><img alt="_images/UModeler_BevelTool.gif" src="_images/UModeler_BevelTool.gif" style="width: 760.0px; height: 484.5px;" /></a>
 <p class="caption"><span class="caption-text">Bevel Tool Demo.</span></p>
 </div>
@@ -298,7 +336,7 @@ Values less than 0.5 gives concave bevel and values more than 0.5 gives convex b
 <li>More than two polygons are selected.</li>
 </ol>
 </div></blockquote>
-<div class="figure" id="id12">
+<div class="figure" id="id14">
 <a class="reference internal image-reference" href="_images/UModeler_BridgeTool.gif"><img alt="_images/UModeler_BridgeTool.gif" src="_images/UModeler_BridgeTool.gif" style="width: 760.0px; height: 486.4px;" /></a>
 <p class="caption"><span class="caption-text">Bridge Tool Demo</span></p>
 </div>
@@ -307,11 +345,11 @@ Values less than 0.5 gives concave bevel and values more than 0.5 gives convex b
 <div class="section" id="clone-tool">
 <h2>Clone Tool<a class="headerlink" href="#clone-tool" title="Permalink to this headline">¶</a></h2>
 <p>Clones the selected polygons along the line drawn by dragging a mouse. Pressing <code class="docutils literal"><span class="pre">SPACE</span></code> confirms the clone action and <code class="docutils literal"><span class="pre">ESC</span></code> cancels it.</p>
-<div class="figure" id="id13">
+<div class="figure" id="id15">
 <a class="reference internal image-reference" href="_images/UModeler_ClonePolygonTool.gif"><img alt="_images/UModeler_ClonePolygonTool.gif" src="_images/UModeler_ClonePolygonTool.gif" style="width: 760.0px; height: 484.5px;" /></a>
 <p class="caption"><span class="caption-text">Clones a polygon</span></p>
 </div>
-<div class="figure" id="id14">
+<div class="figure" id="id16">
 <a class="reference internal image-reference" href="_images/UModeler_CloneObjectTool.gif"><img alt="_images/UModeler_CloneObjectTool.gif" src="_images/UModeler_CloneObjectTool.gif" style="width: 760.0px; height: 484.5px;" /></a>
 <p class="caption"><span class="caption-text">Clones a set of polygons</span></p>
 </div>
@@ -335,7 +373,7 @@ Values less than 0.5 gives concave bevel and values more than 0.5 gives convex b
 <div class="section" id="copy-tool">
 <h2>Copy Tool<a class="headerlink" href="#copy-tool" title="Permalink to this headline">¶</a></h2>
 <p>Copies the selected elements. The copied polygons&#8217; center cubes will have pink color, which means that they will move separately by a gizmo.</p>
-<div class="figure" id="id15">
+<div class="figure" id="id17">
 <a class="reference internal image-reference" href="_images/UModeler_CopyTool.gif"><img alt="_images/UModeler_CopyTool.gif" src="_images/UModeler_CopyTool.gif" style="width: 760.0px; height: 484.5px;" /></a>
 <p class="caption"><span class="caption-text">Copy Tool Demo</span></p>
 </div>
