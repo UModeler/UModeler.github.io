@@ -30,7 +30,7 @@ Add UModeler To Select Objects
 Adds ``UModeler`` component to all the selected game objects with a ``Mesh Filter`` component to make the mesh editable.
 
 .. figure:: /images/UModeler_AddUModelerToSelectedObjects.gif
-   :scale: 50 %
+   :scale: 45 %
 	
    Adds ``UModeler`` components to the selected objects.
 
