@@ -137,7 +137,7 @@ Properties
 
 Type
  * Single - Removes the polygons below the custom plane.
- * Both - Simply cuts a mesh and leaves all polygons.* 
+ * Both - Simply cuts a mesh and leaves all polygons.
  
 Fill Facet
  Fills facets with polygons.
