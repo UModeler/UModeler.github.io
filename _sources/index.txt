@@ -2,7 +2,7 @@
  UModeler Reference Manual
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-.. figure:: /images/UModeler_Overview.png
+.. figure:: /images/UModeler_ManualTitle.jpg
    :scale: 55 %
 	
    UModeler on Unity
