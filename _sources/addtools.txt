@@ -2,6 +2,10 @@
 Add Tools
 ############
 
+.. note::
+
+   `PushPull Tools` are :doc:`here </pushpulltools>`
+
 Extrude Edge Tool
 ===================
 

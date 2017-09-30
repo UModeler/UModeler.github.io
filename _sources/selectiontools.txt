@@ -11,7 +11,7 @@ All/None Tool
 
 If there are any selected elements, they will be unselected. Otherwise, all elements will be selected.
 
-.. figure:: /images/UModeler_AllNoneSelection_v2.gif
+.. figure:: /images/UModeler_AllNoneSelectionTool.gif
    :scale: 95 %
 
    All/None Selection Demo
@@ -43,7 +43,7 @@ Quad Loops
 
 Serial quad polygons across a mesh will be selected in a direction of the first two selected quad.
 
-.. figure:: /images/UModeler_LoopSelection_v2.gif
+.. figure:: /images/UModeler_LoopSelectionTool.gif
    :scale: 95 %
 
    Edge Loops and Quad Loops
@@ -73,7 +73,7 @@ Quad Rings
 
 Lets you select several polygons across a mesh without having to select each polygon individually.
 
-.. figure:: /images/UModeler_RingSelection_v2.gif
+.. figure:: /images/UModeler_RingSelectionTool.gif
    :scale: 95 %
 
    Edge Rings and Quad Rings
