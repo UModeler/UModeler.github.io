@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Add tools &mdash; UModeler 2.0 Manual  documentation</title>
+  <title>Add Tools &mdash; UModeler 2.0 Manual  documentation</title>
   
 
   
@@ -88,7 +88,7 @@
 <li class="toctree-l1"><a class="reference internal" href="selectiontools.html">Selection Tools</a></li>
 <li class="toctree-l1"><a class="reference internal" href="drawingtools.html">Drawing Tools</a></li>
 <li class="toctree-l1"><a class="reference internal" href="primitiveshapetools.html">Primitive Shapes Tools</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Add tools</a><ul>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Add Tools</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#pushpull-tool">PushPull Tool</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#properties">Properties</a></li>
 </ul>
@@ -165,7 +165,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="index.html">Docs</a> &raquo;</li>
       
-    <li>Add tools</li>
+    <li>Add Tools</li>
       <li class="wy-breadcrumbs-aside">
         
           
@@ -180,7 +180,7 @@
            <div itemprop="articleBody">
             
   <div class="section" id="add-tools">
-<h1>Add tools<a class="headerlink" href="#add-tools" title="Permalink to this headline">¶</a></h1>
+<h1>Add Tools<a class="headerlink" href="#add-tools" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="pushpull-tool">
 <h2>PushPull Tool<a class="headerlink" href="#pushpull-tool" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="properties">
@@ -205,20 +205,43 @@
 <div class="section" id="inset-tool">
 <h2>Inset Tool<a class="headerlink" href="#inset-tool" title="Permalink to this headline">¶</a></h2>
 <p>This tool creates a slightly smaller or bigger polygon of the selected one.</p>
+<p>Move the cursor over a desired polygon and start to drag a mouse. Then you&#8217;ll see that the polygon outline will be bigger or smaller. Release <code class="docutils literal"><span class="pre">LMB</span></code> to be done. Try to change the properties in the inspector if necessary. And press <code class="docutils literal"><span class="pre">SPACE</span></code> to confirm.</p>
+<dl class="docutils">
+<dt>Multiple Inset</dt>
+<dd>If several polygons are already selected when <code class="docutils literal"><span class="pre">Inset</span> <span class="pre">Tool</span></code> is activated, <code class="docutils literal"><span class="pre">Inset</span></code> will be applied to them at once.</dd>
+<dt>Repeat the previous</dt>
+<dd><code class="docutils literal"><span class="pre">SHIFT</span> <span class="pre">+</span> <span class="pre">LMB</span></code> on a desired polygon repeats the previous inset.</dd>
+</dl>
+<div class="figure" id="id9">
+<a class="reference internal image-reference" href="_images/UModeler_InsetTool.gif"><img alt="_images/UModeler_InsetTool.gif" src="_images/UModeler_InsetTool.gif" style="width: 760.0px; height: 486.4px;" /></a>
+<p class="caption"><span class="caption-text">Inset Tool Demo.</span></p>
+</div>
 <div class="section" id="id3">
 <h3>Properties<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt>Thickness</dt>
+<dd>How smaller or bigger the polygon is. This is a distance between the starting point and the current point.</dd>
+<dt>Type (for <code class="docutils literal"><span class="pre">Multiple</span> <span class="pre">Inset</span></code>)</dt>
+<dd><ul class="first last simple">
+<li><code class="docutils literal"><span class="pre">Individual</span></code> -  Each selected face is inset on its own.</li>
+<li><code class="docutils literal"><span class="pre">Group</span></code> - <code class="docutils literal"><span class="pre">Inset</span> <span class="pre">Tool</span></code> operates on the region around selected faces</li>
+</ul>
+</dd>
+<dt>Bridge Edges</dt>
+<dd>Links corresponding edges between the original polygon and the inset polygon.</dd>
+</dl>
 </div>
 </div>
 <hr class="docutils" />
 <div class="section" id="boolean-tool">
 <h2>Boolean Tool<a class="headerlink" href="#boolean-tool" title="Permalink to this headline">¶</a></h2>
-<p>This tool creates a single game object out of two game objects by applying one of the three boolean operations. The steps for a boolean operation is as follows.</p>
+<p>This tool creates a single game object out of two game objects by applying one of the three boolean operations. The steps is as follows.</p>
 <ol class="arabic simple">
 <li>Select two game objects with UModeler component.</li>
 <li>Select Boolean tool</li>
 <li>Choose one of Union, Subtract and Intersection in the inspector.</li>
 </ol>
-<div class="figure" id="id9">
+<div class="figure" id="id10">
 <a class="reference internal image-reference" href="_images/UModeler_BooleanTool.gif"><img alt="_images/UModeler_BooleanTool.gif" src="_images/UModeler_BooleanTool.gif" style="width: 760.0px; height: 465.5px;" /></a>
 <p class="caption"><span class="caption-text">Boolean Tool Demo.</span></p>
 </div>
@@ -238,7 +261,7 @@
 <div class="section" id="mirror-tool">
 <h2>Mirror Tool<a class="headerlink" href="#mirror-tool" title="Permalink to this headline">¶</a></h2>
 <p>Mirrors a mesh along its local X,Y or Z Axes. When the mirror mode is enabled, every change will be reflected to the other side each time the mesh is modified.</p>
-<div class="figure" id="id10">
+<div class="figure" id="id11">
 <a class="reference internal image-reference" href="_images/UModeler_MirrorTool.gif"><img alt="_images/UModeler_MirrorTool.gif" src="_images/UModeler_MirrorTool.gif" style="width: 760.0px; height: 484.5px;" /></a>
 <p class="caption"><span class="caption-text">Mirror Tool Demo.</span></p>
 </div>
@@ -270,7 +293,7 @@
 <li><code class="docutils literal"><span class="pre">Sliding</span> <span class="pre">the</span> <span class="pre">new</span> <span class="pre">Edge</span> <span class="pre">Loop</span></code> - Once an edge is chosen via <code class="docutils literal"><span class="pre">LMB</span></code>, you can move the mouse holding <code class="docutils literal"><span class="pre">LMB</span></code> to determine where the new edge loop will be placed. Releasing <code class="docutils literal"><span class="pre">LMB</span></code> will confirms this action.</li>
 </ol>
 </div></blockquote>
-<div class="figure" id="id11">
+<div class="figure" id="id12">
 <a class="reference internal image-reference" href="_images/UModeler_LoopSliceTool.gif"><img alt="_images/UModeler_LoopSliceTool.gif" src="_images/UModeler_LoopSliceTool.gif" style="width: 760.0px; height: 484.5px;" /></a>
 <p class="caption"><span class="caption-text">LoopSlice Tool Demo.</span></p>
 </div>
@@ -295,7 +318,7 @@
 <li>Click on <code class="docutils literal"><span class="pre">Follow</span> <span class="pre">tool</span></code>.</li>
 </ol>
 </div></blockquote>
-<div class="figure" id="id12">
+<div class="figure" id="id13">
 <a class="reference internal image-reference" href="_images/UModeler_FollowTool.gif"><img alt="_images/UModeler_FollowTool.gif" src="_images/UModeler_FollowTool.gif" style="width: 760.0px; height: 484.5px;" /></a>
 <p class="caption"><span class="caption-text">Follow Tool Demo.</span></p>
 </div>
@@ -305,7 +328,7 @@
 <h2>Bevel Tool<a class="headerlink" href="#bevel-tool" title="Permalink to this headline">¶</a></h2>
 <p>The bevel tool allows you to create chamfered or rounded corners to geometry. A bevel is an effect that smooths out edges and corners.</p>
 <p>V ertices, Edges or Polygons have to be selected before selecting <code class="docutils literal"><span class="pre">Bevel</span></code> tool and then change the properties described below in the inspector.</p>
-<div class="figure" id="id13">
+<div class="figure" id="id14">
 <a class="reference internal image-reference" href="_images/UModeler_BevelTool.gif"><img alt="_images/UModeler_BevelTool.gif" src="_images/UModeler_BevelTool.gif" style="width: 760.0px; height: 484.5px;" /></a>
 <p class="caption"><span class="caption-text">Bevel Tool Demo.</span></p>
 </div>
@@ -336,7 +359,7 @@ Values less than 0.5 gives concave bevel and values more than 0.5 gives convex b
 <li>More than two polygons are selected.</li>
 </ol>
 </div></blockquote>
-<div class="figure" id="id14">
+<div class="figure" id="id15">
 <a class="reference internal image-reference" href="_images/UModeler_BridgeTool.gif"><img alt="_images/UModeler_BridgeTool.gif" src="_images/UModeler_BridgeTool.gif" style="width: 760.0px; height: 486.4px;" /></a>
 <p class="caption"><span class="caption-text">Bridge Tool Demo</span></p>
 </div>
@@ -345,11 +368,11 @@ Values less than 0.5 gives concave bevel and values more than 0.5 gives convex b
 <div class="section" id="clone-tool">
 <h2>Clone Tool<a class="headerlink" href="#clone-tool" title="Permalink to this headline">¶</a></h2>
 <p>Clones the selected polygons along the line drawn by dragging a mouse. Pressing <code class="docutils literal"><span class="pre">SPACE</span></code> confirms the clone action and <code class="docutils literal"><span class="pre">ESC</span></code> cancels it.</p>
-<div class="figure" id="id15">
+<div class="figure" id="id16">
 <a class="reference internal image-reference" href="_images/UModeler_CloneSinglePolygonTool.gif"><img alt="_images/UModeler_CloneSinglePolygonTool.gif" src="_images/UModeler_CloneSinglePolygonTool.gif" style="width: 760.0px; height: 484.5px;" /></a>
 <p class="caption"><span class="caption-text">Clones a polygon</span></p>
 </div>
-<div class="figure" id="id16">
+<div class="figure" id="id17">
 <a class="reference internal image-reference" href="_images/UModeler_CloneObjectTool.gif"><img alt="_images/UModeler_CloneObjectTool.gif" src="_images/UModeler_CloneObjectTool.gif" style="width: 760.0px; height: 484.5px;" /></a>
 <p class="caption"><span class="caption-text">Clones a set of polygons</span></p>
 </div>
@@ -373,7 +396,7 @@ Values less than 0.5 gives concave bevel and values more than 0.5 gives convex b
 <div class="section" id="copy-tool">
 <h2>Copy Tool<a class="headerlink" href="#copy-tool" title="Permalink to this headline">¶</a></h2>
 <p>Copies the selected elements. The copied polygons&#8217; center cubes will have pink color, which means that they will move separately by a gizmo.</p>
-<div class="figure" id="id17">
+<div class="figure" id="id18">
 <a class="reference internal image-reference" href="_images/UModeler_CopyTool.gif"><img alt="_images/UModeler_CopyTool.gif" src="_images/UModeler_CopyTool.gif" style="width: 760.0px; height: 484.5px;" /></a>
 <p class="caption"><span class="caption-text">Copy Tool Demo</span></p>
 </div>

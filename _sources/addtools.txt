@@ -1,5 +1,5 @@
 ############
-Add tools
+Add Tools
 ############
 
 PushPull Tool
@@ -29,17 +29,39 @@ Properties
 Inset Tool
 ===================
 
-This tool creates a slightly smaller or bigger polygon of the selected one.
+This tool creates a slightly smaller or bigger polygon of the selected one. 
+
+Move the cursor over a desired polygon and start to drag a mouse. Then you'll see that the polygon outline will be bigger or smaller. Release ``LMB`` to be done. Try to change the properties in the inspector if necessary. And press ``SPACE`` to confirm.
+
+Multiple Inset
+ If several polygons are already selected when ``Inset Tool`` is activated, ``Inset`` will be applied to them at once. 
+ 
+Repeat the previous
+ ``SHIFT + LMB`` on a desired polygon repeats the previous inset.
+ 
+.. figure:: /images/UModeler_InsetTool.gif
+   :scale: 95 %
+
+   Inset Tool Demo. 
 
 Properties
 ---------------
+Thickness
+ How smaller or bigger the polygon is. This is a distance between the starting point and the current point.
+
+Type (for ``Multiple Inset``)
+ * ``Individual`` -  Each selected face is inset on its own.
+ * ``Group`` - ``Inset Tool`` operates on the region around selected faces
+
+Bridge Edges
+ Links corresponding edges between the original polygon and the inset polygon.
 
 ------------------------------------------------------------------------------------------------------
 
 Boolean Tool
 ===================
 
-This tool creates a single game object out of two game objects by applying one of the three boolean operations. The steps for a boolean operation is as follows.
+This tool creates a single game object out of two game objects by applying one of the three boolean operations. The steps is as follows.
 
 1. Select two game objects with UModeler component.
 2. Select Boolean tool
@@ -47,14 +69,14 @@ This tool creates a single game object out of two game objects by applying one o
 
 .. figure:: /images/UModeler_BooleanTool.gif
    :scale: 95 %
-   
+
    Boolean Tool Demo.
 
 Properties
 ---------------
 Union
  Boolean Union
- 
+
 Subtract
  Boolean Subtract
 
@@ -70,7 +92,7 @@ Mirrors a mesh along its local X,Y or Z Axes. When the mirror mode is enabled, e
 
 .. figure:: /images/UModeler_MirrorTool.gif
    :scale: 95 %
-   
+
    Mirror Tool Demo.
 
 Properties
@@ -78,19 +100,19 @@ Properties
 
 Axis
  Plane mirror axis
- 
+
 Invert
  Inverts the direction of the plane mirror.
- 
+
 Distance
  The distance of the plane mirror
- 
+
 Leave Boundary
  Leaves a boundary after finishing the mirror mode.
- 
+
 Start
  Starts the mirror mode.
- 
+
 Done
  Finishes the mirror mode.
 
@@ -101,14 +123,14 @@ Loop Slice Tool
 
 ``Loop Slice`` splits a loop of faces by inserting a new edge loop intersecting the chosen edge. The tool is interactive and has two steps:
 
- 1. ``Pre-visualizing the Cut`` - After the tool is activated, move the cursor over a desired edge. The cut to be made is marked with a orange colored lines as you move the mouse over the various edges. Rolling ``Wheel`` up or down will increase or decrease the ``Split Number``. The to-be-created edge loop stops at the poles (tris and n-gons) where the existing face loop terminates.  
+ 1. ``Pre-visualizing the Cut`` - After the tool is activated, move the cursor over a desired edge. The cut to be made is marked with a orange colored lines as you move the mouse over the various edges. Rolling ``Wheel`` up or down will increase or decrease the ``Split Number``. The to-be-created edge loop stops at the poles (tris and n-gons) where the existing face loop terminates.
  2. ``Sliding the new Edge Loop`` - Once an edge is chosen via ``LMB``, you can move the mouse holding ``LMB`` to determine where the new edge loop will be placed. Releasing ``LMB`` will confirms this action.
 
 .. figure:: /images/UModeler_LoopSliceTool.gif
    :scale: 95 %
-   
+
    LoopSlice Tool Demo.
-   
+
 Properties
 ---------------
 
@@ -127,10 +149,10 @@ Extrudes a profile polygon along a path polygon. The steps to use this tool are 
  3. Select the profile polygon.
  4. Select the path polygon.
  5. Click on ``Follow tool``.
- 
+
 .. figure:: /images/UModeler_FollowTool.gif
    :scale: 95 %
-   
+
    Follow Tool Demo.
 
 ------------------------------------------------------------------------------------------------------
@@ -138,13 +160,13 @@ Extrudes a profile polygon along a path polygon. The steps to use this tool are 
 Bevel Tool
 =======================
 
-The bevel tool allows you to create chamfered or rounded corners to geometry. A bevel is an effect that smooths out edges and corners. 
+The bevel tool allows you to create chamfered or rounded corners to geometry. A bevel is an effect that smooths out edges and corners.
 
 V ertices, Edges or Polygons have to be selected before selecting ``Bevel`` tool and then change the properties described below in the inspector.
 
 .. figure:: /images/UModeler_BevelTool.gif
    :scale: 95 %
-   
+
    Bevel Tool Demo.
 
 
@@ -153,14 +175,14 @@ Properties
 
 Width
  The width of the bevel polygon.
- 
+
 Segments
  The number of segments. The greater the number of segments, the smoother the bevel.
- 
+
 Profile
  The side view of the bevel edge. This is between 0 and 1. 0.5 is completely flat.
  Values less than 0.5 gives concave bevel and values more than 0.5 gives convex bevel.
- 
+
 Clamp Overlap
  When selected, the bevel amount isn’t allowed to go larger than an amount that causes overlapping collisions with other geometry.
 
@@ -174,11 +196,11 @@ Makes space surrounded by the selected elements in following cases. Thge
  1. More than three vertices are selected.
  2. Two unconnected edges are selected.
  3. More than two connected edges are selected.
- 4. More than two polygons are selected. 
- 
+ 4. More than two polygons are selected.
+
 .. figure:: /images/UModeler_BridgeTool.gif
    :scale: 95 %
-	
+
    Bridge Tool Demo
 
 ------------------------------------------------------------------------------------------------------
@@ -190,23 +212,23 @@ Clones the selected polygons along the line drawn by dragging a mouse. Pressing 
 
 .. figure:: /images/UModeler_CloneSinglePolygonTool.gif
    :scale: 95 %
-	
+
    Clones a polygon
 
 .. figure:: /images/UModeler_CloneObjectTool.gif
    :scale: 95 %
-	
-   Clones a set of polygons 
+
+   Clones a set of polygons
 
 Properties
 ---------------
 
 Number
  The number of clones
- 
+
 Distance
  The distance of an edge where the clones will be placed.
- 
+
 Arrangement
  * ``Divide`` - Creates clones arranged evenly between the starting point and the end point of the edge.
  * ``Multiply`` - Makes clones along the edge. The distance between the clones is the value of Distance property in Properties.
@@ -220,5 +242,5 @@ Copies the selected elements. The copied polygons' center cubes will have pink c
 
 .. figure:: /images/UModeler_CopyTool.gif
    :scale: 95 %
-	
+
    Copy Tool Demo
