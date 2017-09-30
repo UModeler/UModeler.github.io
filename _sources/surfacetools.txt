@@ -36,7 +36,7 @@ UV Tool
 
 Sets UV parameters such as ``Shift``, ``Scale`` and ``Rotation`` etc to each polygon.
 
-.. figure:: /images/UModeler_UVTool.gif
+.. figure:: /images/UModeler_UVTool_v2.gif
    :scale: 90 %
 	
    UV Tool Demo
@@ -90,7 +90,7 @@ Color Tool
 
 Sets colors to the polygons. Pressing or Dragging ``LMB`` holding ``SHIFT`` will paint a polygon below the mouse cursor in the selected color.
 
-.. figure:: /images/UModeler_ColorTool.gif
+.. figure:: /images/UModeler_ColorTool_v2.gif
    :scale: 95 %
 	
    Color Tool Demo
@@ -116,7 +116,7 @@ Smoothing Group Tool
 ======================
  Manages smoothing groups for smooth shading.
  
-.. figure:: /images/UModeler_SmoothingGroupTool.gif
+.. figure:: /images/UModeler_SmoothingGroupTool_v2.gif
    :scale: 95 %
 	
    Smoothing Group Tool Demo 

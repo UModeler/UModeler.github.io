@@ -19,6 +19,7 @@
     selectiontools
     drawingtools
     primitiveshapetools
+    pushpulltools
     addtools
     removetools
     tweaktools
@@ -78,6 +79,11 @@ Sections
          :doc:`primitiveshapetools`
             Procecural 3D Primitive Shapes, such as Box, Room, Stair, Cylinder, Cone, Sphere and Capsule.
 
+      .. container:: descr
+
+         :doc:`pushpulltools`
+			Push/Pull tools' category is ``Add`` but they have lots of powerful functions so are dealt with separately.
+			
       .. container:: descr
 
          :doc:`addtools`

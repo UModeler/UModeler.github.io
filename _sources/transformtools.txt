@@ -13,8 +13,8 @@ There are 4 types of elements you can select and transform.
  
 To begin to transform elements, you have to select them at first. Which type of elements is tranformed depends on what tool is selected in the inspector. 
 
-.. figure:: /images/UModeler_TransformTool.gif
-   :scale: 55 %
+.. figure:: /images/UModeler_TransformTool_v2.gif
+   :scale: 95 %
 	
    Selecting and transforming elements.
 
@@ -26,8 +26,8 @@ To begin to transform elements, you have to select them at first. Which type of 
    
 If you hold ``SHIFT`` when moving a gizmo, the selected elements are transformed separately from the adjacent polygons.
 
-.. figure:: /images/UModeler_TransformHoldingShift.gif
-   :scale: 55 %
+.. figure:: /images/UModeler_TransformHoldingShift_v2.gif
+   :scale: 95 %
 	
    Transforming elements holding ``SHIFT``.
    

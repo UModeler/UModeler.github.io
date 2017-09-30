@@ -2,28 +2,12 @@
 Add Tools
 ############
 
-PushPull Tool
-===================
-
-Properties
----------------
-
-------------------------------------------------------------------------------------------------------
-
-Multi PushPull Tool
-======================
-
-Properties
----------------
-
-------------------------------------------------------------------------------------------------------
-
 Extrude Edge Tool
 ===================
 
 Fills gaps between the original edges and the corresponding transformed edges with polygons. The edges are transformed using ``Translate``, ``Rotate`` or ``Scale`` gizmo.
 
-You can also select new edges in this tool for continuous edge extrusion.
+You can also select new edges within this tool for continuous edge extrusion.
 
 .. figure:: /images/UModeler_EdgeExtrudeTool.gif
    :scale: 95 %
@@ -157,7 +141,7 @@ Loop Slice Tool
  1. ``Pre-visualizing the Cut`` - After the tool is activated, move the cursor over a desired edge. The cut to be made is marked with a orange colored lines as you move the mouse over the various edges. Rolling ``Wheel`` up or down will increase or decrease the ``Split Number``. The to-be-created edge loop stops at the poles (tris and n-gons) where the existing face loop terminates.
  2. ``Sliding the new Edge Loop`` - Once an edge is chosen via ``LMB``, you can move the mouse holding ``LMB`` to determine where the new edge loop will be placed. Releasing ``LMB`` will confirms this action.
 
-.. figure:: /images/UModeler_LoopSliceTool.gif
+.. figure:: /images/UModeler_LoopSliceTool_v2.gif
    :scale: 95 %
 
    LoopSlice Tool Demo.
@@ -176,12 +160,12 @@ Follow Tool
 Extrudes a profile polygon along a path polygon. The steps to use this tool are as follows.
 
  1. Draw a profile polygon.
- 2. Move the profile polygon near the starting point of a path polygon. Using ``Snap tool`` will help this.
+ 2. Move the profile polygon near the starting point of a path polygon. Using ``Snap Tool`` will help this.
  3. Select the profile polygon.
  4. Select the path polygon.
- 5. Click on ``Follow tool``.
+ 5. Click on ``Follow Tool``.
 
-.. figure:: /images/UModeler_FollowTool.gif
+.. figure:: /images/UModeler_FollowTool_v2.gif
    :scale: 95 %
 
    Follow Tool Demo.
@@ -229,7 +213,7 @@ Fills space surrounded by the selected elements in following cases. The steps ar
  3. More than two connected edges are selected.
  4. More than two polygons are selected.
 
-.. figure:: /images/UModeler_BridgeTool.gif
+.. figure:: /images/UModeler_BridgeTool_v2.gif
    :scale: 95 %
 
    Bridge Tool Demo
@@ -246,7 +230,7 @@ Clones the selected polygons along the line drawn by dragging a mouse. Pressing 
 
    Clones a polygon
 
-.. figure:: /images/UModeler_CloneObjectTool.gif
+.. figure:: /images/UModeler_CloneObjectTool_v2.gif
    :scale: 95 %
 
    Clones a set of polygons
