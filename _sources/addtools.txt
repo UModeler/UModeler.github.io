@@ -21,8 +21,39 @@ Properties
 Extrude Edge Tool
 ===================
 
+Fills gaps between the original edges and the corresponding transformed edges with polygons. The edges are transformed using ``Translate``, ``Rotate`` or ``Scale`` gizmo.
+
+You can also select new edges in this tool for continuous edge extrusion.
+
+.. figure:: /images/UModeler_EdgeExtrudeTool.gif
+   :scale: 95 %
+
+   Extrude Edge Tool Demo.
+
+.. figure:: /images/UModeler_EdgeExtrudeTool_SnapToPolygon.gif
+   :scale: 95 %
+
+   ``Snap To Polygon`` property example and shows a new edge is selected without exiting the tool.
+
 Properties
 ---------------
+Distance
+ The extruded distance.
+ 
+Snap to Polygon
+ An edge is snapped to a closest polygon within a specific distance.
+ 
+Snap to Vertex
+ Unused.
+
+Use 3D Cursor as Pivot
+ Unused.
+
+Both Sides
+ Creates both sided polygons.
+
+Invert
+ Flips the last created polygons.
 
 ------------------------------------------------------------------------------------------------------
 
@@ -191,7 +222,7 @@ Clamp Overlap
 Bridge Tool
 ===================
 
-Makes space surrounded by the selected elements in following cases. Thge
+Fills space surrounded by the selected elements in following cases. The steps are as follows.
 
  1. More than three vertices are selected.
  2. Two unconnected edges are selected.
