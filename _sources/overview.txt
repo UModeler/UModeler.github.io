@@ -14,7 +14,7 @@ Moreover UModeler has also adopted useful features of popular DCC tools like Max
 Layout
 ========
 
-.. figure:: /images/UModeler_Layout.png
+.. figure:: /images/UModeler_Layout.jpg
    :scale: 95 %
 	
    UModeler Layout
