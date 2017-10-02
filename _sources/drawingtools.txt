@@ -7,7 +7,7 @@ Drawing Tools
  1. Pressing ``SPACE`` confirms the current action. On the other hand ``ESC`` cancels it.
  2. You can adjust a shape by chaning the properties before confirming.
  3. The mouse cursor will be snapped to a vertex, a center of edge, a center of polygon etc when the cursor gets close enough to them.
-   
+  
 
 Line Tool
 ==========
@@ -24,13 +24,13 @@ Steps
 
 Interface
 ------------
-LMB
+``LMB``
  Places a point
  
-SPACE
+``SPACE``
  Confirms the drawn edges.
  
-ESC
+``ESC``
  Cancels the previous point.
  
 .. figure:: /images/UModeler_LineTool.gif
@@ -56,13 +56,13 @@ Steps
 
 Interface
 ------------
-LMB drag
+``LMB Drag``
  Sets the first and second points.
 
-SPACE
+``SPACE``
  Completes drawing an arc.
  
-ESC
+``ESC``
  Cancels drawing an arc.
 
 
@@ -95,13 +95,13 @@ Steps
 
 Interface
 -----------
-LMB Drag
+``LMB Drag``
  Draws a rectangle.
  
-SPACE
+``SPACE``
  Confirms the rectangle.
  
-ESC
+``ESC``
  Cancels the rectangle.
 
 Properties
@@ -136,6 +136,17 @@ Steps
 3. You can type more precise radius and the number of segment in ``Radius`` and ``Segment`` fields in Properties.
 4. Press ``SPACE`` to complete or Press ``ESC`` to cancel.
 
+Interface
+---------------
+``LMB Drag``
+ Draws a disk
+ 
+``SPACE``
+ Completes drawing a disk
+ 
+``ESC``
+ Cancels drawing a disk
+
 Properties
 ------------
 Segment 
@@ -160,13 +171,13 @@ You can draw a stair profile on a plane.
 
 Interface
 ------------
-LMB Drag
+``LMB Drag``
  Draws a stair profile
  
-SPACE
+``SPACE``
  Confirmation
  
-ESC
+``ESC``
  Cancellation
 
 Properties
@@ -199,16 +210,16 @@ Steps
 
 Interface
 ------------
-LMB Drag
+``LMB Drag``
  Copies and moves the edge in a parallel direction.
  
-SHIFT + LMB
+``SHIFT + LMB``
  Duplicates the previous Parallel action.
  
-SPACE
+``SPACE``
  Confirmation
  
-ESC
+``ESC``
  Cancellation
 
 Properties
