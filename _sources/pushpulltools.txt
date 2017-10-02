@@ -49,7 +49,7 @@ Border Check
  
 .. note::
 
- Please note that ``Border Check`` property needs many pre-calculations so it may affect the performance. Therefore, If ``PushPull`` tool gets slows, please check this propertiy is on and turn it off.
+ Please note that ``Border Check`` property needs many pre-calculations so it may affect the performance. Therefore, if you feel any lag as starting push/pull, please turn this property off and try again.
  
 Continuous
  If off, the boundary edges between the existing side polygons and the new side polygons will be left. 
