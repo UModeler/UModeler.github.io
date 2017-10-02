@@ -46,11 +46,6 @@ Merges all the selected vertices in one unique one. The location of the survivin
 
  | If you select ``Combine`` tool with no selected vertices, you will enter ``Combine Vertex`` mode. In this mode you can selected vertices and set up some options and combine them.
  | However, if you click on ``Combine`` button with some vertices selected, the combine action will happen immediately.
-
-.. figure:: /images/UModeler_CombineVertexTool.gif
-   :scale: 95 %
-   
-   Merges the selected vertices.
    
 Properties
 ---------------
@@ -65,6 +60,11 @@ Collapse
  
 Combine Vertices
  Click on this button to combine the selected vertices.
+ 
+.. figure:: /images/UModeler_CombineVertexTool.gif
+   :scale: 95 %
+   
+   Merges the selected vertices. 
 
 ------------------------------------------------------------------------------------------------------
 
@@ -97,16 +97,16 @@ Remove Double Tool
 
 Lets you merge automatically all the selected vertices within the specific distance.
 
-.. figure:: /images/UModeler_RemoveDoublesTool.gif
-   :scale: 95 %
-	
-   RemoveDoubles Tool Demo
-
 Properties
 ---------------
 
 Distance
  Minimum distance to be merged.
+ 
+.. figure:: /images/UModeler_RemoveDoublesTool.gif
+   :scale: 95 %
+	
+   RemoveDoubles Tool Demo 
 
 ------------------------------------------------------------------------------------------------------
 
@@ -127,10 +127,11 @@ Cut Tool
 
 Cuts a mesh into two along a line drawn by dragging a mouse. Pressing ``SPACE`` while dragging will change the direction of cutting.
 
-.. figure:: /images/UModeler_CutTool.gif
-   :scale: 95 %
-	
-   Cut Tool Demo
+Interface
+----------------   
+
+``LMB Drag``
+ Rotates the custom plane.   
 
 Properties
 ---------------
@@ -144,13 +145,18 @@ Fill Facet
  
 Select Above
  After cutting a mesh, selects all polygons above the custom plane.
+ 
+.. figure:: /images/UModeler_CutTool.gif
+   :scale: 95 %
+	
+   Cut Tool Demo
 
 ------------------------------------------------------------------------------------------------------
 
 Clip Tool
 ===================
 
-Cuts away the parts of the selected polygons under the clip polygon. Clip polygon has to be selected after pressing ``Clip`` button.
+Cuts away the parts of the selected polygons under the ``Clip polygon``, which has to be selected after pressing ``Clip`` button.
 
 .. figure:: /images/UModeler_ClipTool.gif
    :scale: 95 %

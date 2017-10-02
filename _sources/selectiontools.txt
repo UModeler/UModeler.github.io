@@ -11,17 +11,25 @@ All/None Tool
 
 If there are any selected elements, they will be unselected. Otherwise, all elements will be selected.
 
+Steps
+-------
+1. Click on ``All/None tool`` button.
+
 .. figure:: /images/UModeler_AllNoneSelectionTool.gif
    :scale: 95 %
 
-   All/None Selection Demo
-   
+   All/None Selection Demo 
+
 -------------------------------------------------------------------------------------------------------------------------   
 
 Isolated Tool
 ==============
 
 Selects geometry connected to already selected elements. This is often useful when a mesh has disconnected, overlapping parts
+
+Steps
+--------
+1. Select ``Isloated`` tool with any elements selected.
 
 .. figure:: /images/UModeler_IsolatedSelection_v2.gif
    :scale: 95 %
@@ -53,6 +61,11 @@ Hole Selection
 
 If the selected edge is a part of a hole, all the edges of the holes will be selected.
 
+Steps
+---------
+1. Select an edge if wants ``Edge Loops`` or ``Hole Selection``. Select two serise quad polygons if you want ``Quad Loops``.
+2. Select ``Loop`` tool.
+
 .. figure:: /images/UModeler_HoleSelection_v2.gif
    :scale: 95 %
 
@@ -73,17 +86,27 @@ Quad Rings
 
 Lets you select several polygons across a mesh without having to select each polygon individually.
 
+Steps
+------------
+1. If you want ``Edge Rings`` selects an edge using Edge tool. If you want ``Quad Rings`` selects two series quad polygons.
+2. Selects ``Ring`` tool.
+
 .. figure:: /images/UModeler_RingSelectionTool.gif
    :scale: 95 %
 
-   Edge Rings and Quad Rings
+   Edge Rings and Quad Rings 
 
 -------------------------------------------------------------------------------------------------------------------------
 
 Invert Tool
 ==============
-	
+
 The selection will be inverted. It means the selected ones will get deselected and the deselected ones will get selected.
+
+Steps
+--------
+1. Select vertices, edges or a polygons.
+2. Select ``Invert`` tool.
 
 .. figure:: /images/UModeler_InvertSelection_v2.gif
    :scale: 95 %
@@ -97,6 +120,11 @@ Increase Tool
 ==============
 
 Expands the current selection outwards in all directions from the current selected elements.
+
+Steps
+--------
+1. Select vertices, edges or a polygons.
+2. Select ``Increase`` tool.
 
 .. figure:: /images/UModeler_IncreaseSelection_v2.gif
    :scale: 95 %

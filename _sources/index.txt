@@ -26,6 +26,7 @@
     surfacetools
     misctools
     UVEditor/index
+    releasenotes
 
 Welcome to the UModeler Manual!
 
@@ -113,3 +114,8 @@ Sections
 
          :doc:`/UVEditor/index`
 			Separate editor window to edit UVs using various tools, such as unwrapping, transforming UVs, alightment, flip/rotate, sew etc.
+			
+      .. container:: descr
+
+         :doc:`releasenotes`
+			Release Notes

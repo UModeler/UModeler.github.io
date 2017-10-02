@@ -91,36 +91,57 @@
 <li class="toctree-l1"><a class="reference internal" href="pushpulltools.html">Push/Pull Tools</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Add Tools</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#extrude-edge-tool">Extrude Edge Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#steps">Steps</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#properties">Properties</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#inset-tool">Inset Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#steps-single-inset">Steps - Single Inset</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#steps-multiple-inset">Steps - Multiple Inset</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#interface">Interface</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id1">Properties</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#boolean-tool">Boolean Tool</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id2">Properties</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="#mirror-tool">Mirror Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id2">Steps</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id3">Properties</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#loop-slice-tool">Loop Slice Tool</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#mirror-tool">Mirror Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#steps-start-mirror-mode">Steps - Start Mirror Mode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#steps-comfirm">Steps - Comfirm</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id4">Properties</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#follow-tool">Follow Tool</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#bevel-tool">Bevel Tool</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id5">Properties</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="#bridge-tool">Bridge Tool</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#clone-tool">Clone Tool</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#loop-slice-tool">Loop Slice Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id5">Steps</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#inteface">Inteface</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id6">Properties</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#copy-tool">Copy Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#follow-tool">Follow Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id7">Steps</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#bevel-tool">Bevel Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id8">Steps</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id9">Properties</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#bridge-tool">Bridge Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id10">Steps</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#clone-tool">Clone Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id11">Steps</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id12">Interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id13">Properties</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#copy-tool">Copy Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id14">Steps</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="removetools.html">Remove Tools</a></li>
@@ -128,6 +149,7 @@
 <li class="toctree-l1"><a class="reference internal" href="surfacetools.html">Surface Tools</a></li>
 <li class="toctree-l1"><a class="reference internal" href="misctools.html">Misc Tools</a></li>
 <li class="toctree-l1"><a class="reference internal" href="UVEditor/index.html">UV Editor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="releasenotes.html">Release Notes</a></li>
 </ul>
 
             
@@ -182,13 +204,13 @@
 <h2>Extrude Edge Tool<a class="headerlink" href="#extrude-edge-tool" title="Permalink to this headline">¶</a></h2>
 <p>Fills gaps between the original edges and the corresponding transformed edges with polygons. The edges are transformed using <code class="docutils literal"><span class="pre">Translate</span></code>, <code class="docutils literal"><span class="pre">Rotate</span></code> or <code class="docutils literal"><span class="pre">Scale</span></code> gizmo.</p>
 <p>You can also select new edges within this tool for continuous edge extrusion.</p>
-<div class="figure" id="id7">
-<a class="reference internal image-reference" href="_images/UModeler_EdgeExtrudeTool.gif"><img alt="_images/UModeler_EdgeExtrudeTool.gif" src="_images/UModeler_EdgeExtrudeTool.gif" style="width: 760.0px; height: 486.4px;" /></a>
-<p class="caption"><span class="caption-text">Extrude Edge Tool Demo.</span></p>
-</div>
-<div class="figure" id="id8">
-<a class="reference internal image-reference" href="_images/UModeler_EdgeExtrudeTool_SnapToPolygon.gif"><img alt="_images/UModeler_EdgeExtrudeTool_SnapToPolygon.gif" src="_images/UModeler_EdgeExtrudeTool_SnapToPolygon.gif" style="width: 760.0px; height: 486.4px;" /></a>
-<p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Snap</span> <span class="pre">To</span> <span class="pre">Polygon</span></code> property example and shows a new edge is selected without exiting the tool.</span></p>
+<div class="section" id="steps">
+<h3>Steps<a class="headerlink" href="#steps" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Select <code class="docutils literal"><span class="pre">Extrude</span> <span class="pre">Edge</span></code> tool.</li>
+<li>Select several edges if there are no selected elements.</li>
+<li>Move the translation gizmo by dragging to create polygons between the first edges and the new edges.</li>
+</ol>
 </div>
 <div class="section" id="properties">
 <h3>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h3>
@@ -206,6 +228,14 @@
 <dt>Invert</dt>
 <dd>Flips the last created polygons.</dd>
 </dl>
+<div class="figure" id="id15">
+<a class="reference internal image-reference" href="_images/UModeler_EdgeExtrudeTool.gif"><img alt="_images/UModeler_EdgeExtrudeTool.gif" src="_images/UModeler_EdgeExtrudeTool.gif" style="width: 760.0px; height: 486.4px;" /></a>
+<p class="caption"><span class="caption-text">Extrude Edge Tool Demo.</span></p>
+</div>
+<div class="figure" id="id16">
+<a class="reference internal image-reference" href="_images/UModeler_EdgeExtrudeTool_SnapToPolygon.gif"><img alt="_images/UModeler_EdgeExtrudeTool_SnapToPolygon.gif" src="_images/UModeler_EdgeExtrudeTool_SnapToPolygon.gif" style="width: 760.0px; height: 486.4px;" /></a>
+<p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Snap</span> <span class="pre">To</span> <span class="pre">Polygon</span></code> property example and shows a new edge is selected without exiting the tool.</span></p>
+</div>
 </div>
 </div>
 <hr class="docutils" />
@@ -219,9 +249,38 @@
 <dt>Repeat the previous</dt>
 <dd><code class="docutils literal"><span class="pre">SHIFT</span> <span class="pre">+</span> <span class="pre">LMB</span></code> on a desired polygon repeats the previous inset.</dd>
 </dl>
-<div class="figure" id="id9">
-<a class="reference internal image-reference" href="_images/UModeler_InsetTool.gif"><img alt="_images/UModeler_InsetTool.gif" src="_images/UModeler_InsetTool.gif" style="width: 760.0px; height: 486.4px;" /></a>
-<p class="caption"><span class="caption-text">Inset Tool Demo.</span></p>
+<div class="section" id="steps-single-inset">
+<h3>Steps - Single Inset<a class="headerlink" href="#steps-single-inset" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Select <code class="docutils literal"><span class="pre">Inset</span></code> tool with no selection.</li>
+<li>Click on a polygon you want to apply Inset to.</li>
+<li>Drag the cursor to define thickness.</li>
+<li>Release <code class="docutils literal"><span class="pre">LMB</span></code></li>
+<li>Adjust <code class="docutils literal"><span class="pre">Thickness</span></code> properties if necessary</li>
+<li>Press <code class="docutils literal"><span class="pre">SPACE</span></code> or start another inset action to confirm.</li>
+</ol>
+</div>
+<div class="section" id="steps-multiple-inset">
+<h3>Steps - Multiple Inset<a class="headerlink" href="#steps-multiple-inset" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Select <code class="docutils literal"><span class="pre">Inset</span></code> tool with some polygons selected using <code class="docutils literal"><span class="pre">Polygon</span></code> tool.</li>
+<li>Start to drag the mouse from a polygon or adjust <code class="docutils literal"><span class="pre">Thickness</span></code> property directly.</li>
+<li>If necessary, adjust <code class="docutils literal"><span class="pre">Thickness</span></code> property in <code class="docutils literal"><span class="pre">Properties</span></code> to give the precise value.</li>
+<li>Press <code class="docutils literal"><span class="pre">SPACE</span></code> to complete or Press <code class="docutils literal"><span class="pre">ESC</span></code> to cancel.</li>
+</ol>
+</div>
+<div class="section" id="interface">
+<h3>Interface<a class="headerlink" href="#interface" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt><code class="docutils literal"><span class="pre">LMB</span> <span class="pre">Drag</span></code></dt>
+<dd>Creates an inset of the selected polygon.</dd>
+<dt><code class="docutils literal"><span class="pre">SHIFT</span> <span class="pre">+</span> <span class="pre">LMB</span></code></dt>
+<dd>Duplicates the previous inset.</dd>
+<dt><code class="docutils literal"><span class="pre">SPACE</span></code></dt>
+<dd>Confirms the current inset.</dd>
+<dt><code class="docutils literal"><span class="pre">ESC</span></code></dt>
+<dd>Cancels the current inset or exit Inset tool.</dd>
+</dl>
 </div>
 <div class="section" id="id1">
 <h3>Properties<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
@@ -237,23 +296,26 @@
 <dt>Bridge Edges</dt>
 <dd>Links corresponding edges between the original polygon and the inset polygon.</dd>
 </dl>
+<div class="figure" id="id17">
+<a class="reference internal image-reference" href="_images/UModeler_InsetTool.gif"><img alt="_images/UModeler_InsetTool.gif" src="_images/UModeler_InsetTool.gif" style="width: 760.0px; height: 486.4px;" /></a>
+<p class="caption"><span class="caption-text">Inset Tool Demo.</span></p>
+</div>
 </div>
 </div>
 <hr class="docutils" />
 <div class="section" id="boolean-tool">
 <h2>Boolean Tool<a class="headerlink" href="#boolean-tool" title="Permalink to this headline">¶</a></h2>
-<p>This tool creates a single game object out of two game objects by applying one of the three boolean operations. The steps is as follows.</p>
+<p>This tool creates a single game object out of two game objects by applying one of the three boolean operations.</p>
+<div class="section" id="id2">
+<h3>Steps<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
 <li>Select two game objects with UModeler component.</li>
 <li>Select Boolean tool</li>
 <li>Choose one of Union, Subtract and Intersection in the inspector.</li>
 </ol>
-<div class="figure" id="id10">
-<a class="reference internal image-reference" href="_images/UModeler_BooleanTool.gif"><img alt="_images/UModeler_BooleanTool.gif" src="_images/UModeler_BooleanTool.gif" style="width: 760.0px; height: 465.5px;" /></a>
-<p class="caption"><span class="caption-text">Boolean Tool Demo.</span></p>
 </div>
-<div class="section" id="id2">
-<h3>Properties<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id3">
+<h3>Properties<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt>Union</dt>
 <dd>Boolean Union</dd>
@@ -262,18 +324,33 @@
 <dt>Intersection</dt>
 <dd>Boolean Intersection</dd>
 </dl>
+<div class="figure" id="id18">
+<a class="reference internal image-reference" href="_images/UModeler_BooleanTool.gif"><img alt="_images/UModeler_BooleanTool.gif" src="_images/UModeler_BooleanTool.gif" style="width: 760.0px; height: 465.5px;" /></a>
+<p class="caption"><span class="caption-text">Boolean Tool Demo.</span></p>
+</div>
 </div>
 </div>
 <hr class="docutils" />
 <div class="section" id="mirror-tool">
 <h2>Mirror Tool<a class="headerlink" href="#mirror-tool" title="Permalink to this headline">¶</a></h2>
 <p>Mirrors a mesh along its local X,Y or Z Axes. When the mirror mode is enabled, every change will be reflected to the other side each time the mesh is modified.</p>
-<div class="figure" id="id11">
-<a class="reference internal image-reference" href="_images/UModeler_MirrorTool.gif"><img alt="_images/UModeler_MirrorTool.gif" src="_images/UModeler_MirrorTool.gif" style="width: 760.0px; height: 484.5px;" /></a>
-<p class="caption"><span class="caption-text">Mirror Tool Demo.</span></p>
+<div class="section" id="steps-start-mirror-mode">
+<h3>Steps - Start Mirror Mode<a class="headerlink" href="#steps-start-mirror-mode" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Select <code class="docutils literal"><span class="pre">Mirror</span></code> tool.</li>
+<li>Adjust <code class="docutils literal"><span class="pre">Axis</span></code>, <code class="docutils literal"><span class="pre">Distance</span></code> and <code class="docutils literal"><span class="pre">Invert</span></code> properties to set the plane mirror.</li>
+<li>Click on <code class="docutils literal"><span class="pre">Start</span></code> button.</li>
+</ol>
 </div>
-<div class="section" id="id3">
-<h3>Properties<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="steps-comfirm">
+<h3>Steps - Comfirm<a class="headerlink" href="#steps-comfirm" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Select <code class="docutils literal"><span class="pre">Mirror</span></code> tool.</li>
+<li>If you want to leave a boundary between the original part and the mirrored part, check <code class="docutils literal"><span class="pre">Leave</span> <span class="pre">Boundary</span></code> property.</li>
+</ol>
+</div>
+<div class="section" id="id4">
+<h3>Properties<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt>Axis</dt>
 <dd>Plane mirror axis</dd>
@@ -288,34 +365,53 @@
 <dt>Done</dt>
 <dd>Finishes the mirror mode.</dd>
 </dl>
+<div class="figure" id="id19">
+<a class="reference internal image-reference" href="_images/UModeler_MirrorTool.gif"><img alt="_images/UModeler_MirrorTool.gif" src="_images/UModeler_MirrorTool.gif" style="width: 760.0px; height: 484.5px;" /></a>
+<p class="caption"><span class="caption-text">Mirror Tool Demo.</span></p>
+</div>
 </div>
 </div>
 <hr class="docutils" />
 <div class="section" id="loop-slice-tool">
 <h2>Loop Slice Tool<a class="headerlink" href="#loop-slice-tool" title="Permalink to this headline">¶</a></h2>
-<p><code class="docutils literal"><span class="pre">Loop</span> <span class="pre">Slice</span></code> splits a loop of faces by inserting a new edge loop intersecting the chosen edge. The tool is interactive and has two steps:</p>
-<blockquote>
-<div><ol class="arabic simple">
-<li><code class="docutils literal"><span class="pre">Pre-visualizing</span> <span class="pre">the</span> <span class="pre">Cut</span></code> - After the tool is activated, move the cursor over a desired edge. The cut to be made is marked with a orange colored lines as you move the mouse over the various edges. Rolling <code class="docutils literal"><span class="pre">Wheel</span></code> up or down will increase or decrease the <code class="docutils literal"><span class="pre">Split</span> <span class="pre">Number</span></code>. The to-be-created edge loop stops at the poles (tris and n-gons) where the existing face loop terminates.</li>
-<li><code class="docutils literal"><span class="pre">Sliding</span> <span class="pre">the</span> <span class="pre">new</span> <span class="pre">Edge</span> <span class="pre">Loop</span></code> - Once an edge is chosen via <code class="docutils literal"><span class="pre">LMB</span></code>, you can move the mouse holding <code class="docutils literal"><span class="pre">LMB</span></code> to determine where the new edge loop will be placed. Releasing <code class="docutils literal"><span class="pre">LMB</span></code> will confirms this action.</li>
+<p><code class="docutils literal"><span class="pre">Loop</span> <span class="pre">Slice</span></code> splits a loop of faces by inserting a new edge loop intersecting the chosen edge.</p>
+<div class="section" id="id5">
+<h3>Steps<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Select <code class="docutils literal"><span class="pre">Loop</span> <span class="pre">Slice</span></code> tool.</li>
+<li>Move the cursor over a desired edge</li>
+<li>Scroll <code class="docutils literal"><span class="pre">Wheel</span></code> of the mouse to increase or decrease the number of edge loops.</li>
+<li>Drag the mouse to changes the offset of the edge loops.</li>
+<li>Release <code class="docutils literal"><span class="pre">LMB</span></code> to finish.</li>
 </ol>
-</div></blockquote>
-<div class="figure" id="id12">
-<a class="reference internal image-reference" href="_images/UModeler_LoopSliceTool_v2.gif"><img alt="_images/UModeler_LoopSliceTool_v2.gif" src="_images/UModeler_LoopSliceTool_v2.gif" style="width: 760.0px; height: 486.4px;" /></a>
-<p class="caption"><span class="caption-text">LoopSlice Tool Demo.</span></p>
 </div>
-<div class="section" id="id4">
-<h3>Properties<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="inteface">
+<h3>Inteface<a class="headerlink" href="#inteface" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt><code class="docutils literal"><span class="pre">LMB</span> <span class="pre">Drag</span></code></dt>
+<dd>Moves the edge loops.</dd>
+<dt><code class="docutils literal"><span class="pre">Scroll</span> <span class="pre">Wheel</span></code></dt>
+<dd>Increases  or decreases the number of edge loop.</dd>
+</dl>
+</div>
+<div class="section" id="id6">
+<h3>Properties<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt>Split Number</dt>
 <dd>The number of the edge loop.</dd>
 </dl>
+<div class="figure" id="id20">
+<a class="reference internal image-reference" href="_images/UModeler_LoopSliceTool_v2.gif"><img alt="_images/UModeler_LoopSliceTool_v2.gif" src="_images/UModeler_LoopSliceTool_v2.gif" style="width: 760.0px; height: 486.4px;" /></a>
+<p class="caption"><span class="caption-text">LoopSlice Tool Demo.</span></p>
+</div>
 </div>
 </div>
 <hr class="docutils" />
 <div class="section" id="follow-tool">
 <h2>Follow Tool<a class="headerlink" href="#follow-tool" title="Permalink to this headline">¶</a></h2>
 <p>Extrudes a profile polygon along a path polygon. The steps to use this tool are as follows.</p>
+<div class="section" id="id7">
+<h3>Steps<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
 <blockquote>
 <div><ol class="arabic simple">
 <li>Draw a profile polygon.</li>
@@ -325,22 +421,26 @@
 <li>Click on <code class="docutils literal"><span class="pre">Follow</span> <span class="pre">Tool</span></code>.</li>
 </ol>
 </div></blockquote>
-<div class="figure" id="id13">
+<div class="figure" id="id21">
 <a class="reference internal image-reference" href="_images/UModeler_FollowTool_v2.gif"><img alt="_images/UModeler_FollowTool_v2.gif" src="_images/UModeler_FollowTool_v2.gif" style="width: 760.0px; height: 486.4px;" /></a>
 <p class="caption"><span class="caption-text">Follow Tool Demo.</span></p>
+</div>
 </div>
 </div>
 <hr class="docutils" />
 <div class="section" id="bevel-tool">
 <h2>Bevel Tool<a class="headerlink" href="#bevel-tool" title="Permalink to this headline">¶</a></h2>
 <p>The bevel tool allows you to create chamfered or rounded corners to geometry. A bevel is an effect that smooths out edges and corners.</p>
-<p>V ertices, Edges or Polygons have to be selected before selecting <code class="docutils literal"><span class="pre">Bevel</span></code> tool and then change the properties described below in the inspector.</p>
-<div class="figure" id="id14">
-<a class="reference internal image-reference" href="_images/UModeler_BevelTool.gif"><img alt="_images/UModeler_BevelTool.gif" src="_images/UModeler_BevelTool.gif" style="width: 760.0px; height: 484.5px;" /></a>
-<p class="caption"><span class="caption-text">Bevel Tool Demo.</span></p>
+<p>Vertices, Edges or Polygons have to be selected before selecting <code class="docutils literal"><span class="pre">Bevel</span></code> tool and then change the properties described below in the inspector.</p>
+<div class="section" id="id8">
+<h3>Steps<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Select Vertex(s), edge(s) or polygon(s) with <code class="docutils literal"><span class="pre">Vertex</span></code> tool, <code class="docutils literal"><span class="pre">Edge</span></code> tool, or <code class="docutils literal"><span class="pre">Polygon</span></code> tool.</li>
+<li>Adjust <code class="docutils literal"><span class="pre">Width</span></code>, <code class="docutils literal"><span class="pre">Segments</span></code> or <code class="docutils literal"><span class="pre">Profile</span></code> value in Properties.</li>
+</ol>
 </div>
-<div class="section" id="id5">
-<h3>Properties<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id9">
+<h3>Properties<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt>Width</dt>
 <dd>The width of the bevel polygon.</dd>
@@ -352,6 +452,10 @@ Values less than 0.5 gives concave bevel and values more than 0.5 gives convex b
 <dt>Clamp Overlap</dt>
 <dd>When selected, the bevel amount isn’t allowed to go larger than an amount that causes overlapping collisions with other geometry.</dd>
 </dl>
+<div class="figure" id="id22">
+<a class="reference internal image-reference" href="_images/UModeler_BevelTool.gif"><img alt="_images/UModeler_BevelTool.gif" src="_images/UModeler_BevelTool.gif" style="width: 760.0px; height: 484.5px;" /></a>
+<p class="caption"><span class="caption-text">Bevel Tool Demo.</span></p>
+</div>
 </div>
 </div>
 <hr class="docutils" />
@@ -366,25 +470,40 @@ Values less than 0.5 gives concave bevel and values more than 0.5 gives convex b
 <li>More than two polygons are selected.</li>
 </ol>
 </div></blockquote>
-<div class="figure" id="id15">
+<div class="section" id="id10">
+<h3>Steps<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Select vertices/edges/polygons using <code class="docutils literal"><span class="pre">Vertex</span></code> tool, <code class="docutils literal"><span class="pre">Edge</span></code> tool or <code class="docutils literal"><span class="pre">Polygon</span></code> tool.</li>
+<li>Select Bridge tool.</li>
+</ol>
+<div class="figure" id="id23">
 <a class="reference internal image-reference" href="_images/UModeler_BridgeTool_v2.gif"><img alt="_images/UModeler_BridgeTool_v2.gif" src="_images/UModeler_BridgeTool_v2.gif" style="width: 760.0px; height: 486.4px;" /></a>
 <p class="caption"><span class="caption-text">Bridge Tool Demo</span></p>
+</div>
 </div>
 </div>
 <hr class="docutils" />
 <div class="section" id="clone-tool">
 <h2>Clone Tool<a class="headerlink" href="#clone-tool" title="Permalink to this headline">¶</a></h2>
 <p>Clones the selected polygons along the line drawn by dragging a mouse. Pressing <code class="docutils literal"><span class="pre">SPACE</span></code> confirms the clone action and <code class="docutils literal"><span class="pre">ESC</span></code> cancels it.</p>
-<div class="figure" id="id16">
-<a class="reference internal image-reference" href="_images/UModeler_CloneSinglePolygonTool.gif"><img alt="_images/UModeler_CloneSinglePolygonTool.gif" src="_images/UModeler_CloneSinglePolygonTool.gif" style="width: 760.0px; height: 484.5px;" /></a>
-<p class="caption"><span class="caption-text">Clones a polygon</span></p>
+<div class="section" id="id11">
+<h3>Steps<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Enter Clone tool.</li>
+<li>Point a polygon you want to clone by putting the mouse over it if polygons are not selected when this tool is activated.</li>
+<li>Drag the mouse to draw a line. You can make sure that the cloned polygons will be aligned with the line.</li>
+<li>Adjust <code class="docutils literal"><span class="pre">Number</span></code>, <code class="docutils literal"><span class="pre">Distance</span></code> and <code class="docutils literal"><span class="pre">Arrangement</span></code> in <code class="docutils literal"><span class="pre">Properties</span></code>.</li>
+</ol>
 </div>
-<div class="figure" id="id17">
-<a class="reference internal image-reference" href="_images/UModeler_CloneObjectTool_v2.gif"><img alt="_images/UModeler_CloneObjectTool_v2.gif" src="_images/UModeler_CloneObjectTool_v2.gif" style="width: 760.0px; height: 486.4px;" /></a>
-<p class="caption"><span class="caption-text">Clones a set of polygons</span></p>
+<div class="section" id="id12">
+<h3>Interface<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt><code class="docutils literal"><span class="pre">LMB</span> <span class="pre">Drag</span></code></dt>
+<dd>Draws an edge where the clones will be placed.</dd>
+</dl>
 </div>
-<div class="section" id="id6">
-<h3>Properties<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id13">
+<h3>Properties<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt>Number</dt>
 <dd>The number of clones</dd>
@@ -397,15 +516,30 @@ Values less than 0.5 gives concave bevel and values more than 0.5 gives convex b
 </ul>
 </dd>
 </dl>
+<div class="figure" id="id24">
+<a class="reference internal image-reference" href="_images/UModeler_CloneSinglePolygonTool.gif"><img alt="_images/UModeler_CloneSinglePolygonTool.gif" src="_images/UModeler_CloneSinglePolygonTool.gif" style="width: 760.0px; height: 484.5px;" /></a>
+<p class="caption"><span class="caption-text">Clones a polygon</span></p>
+</div>
+<div class="figure" id="id25">
+<a class="reference internal image-reference" href="_images/UModeler_CloneObjectTool_v2.gif"><img alt="_images/UModeler_CloneObjectTool_v2.gif" src="_images/UModeler_CloneObjectTool_v2.gif" style="width: 760.0px; height: 486.4px;" /></a>
+<p class="caption"><span class="caption-text">Clones a set of polygons</span></p>
+</div>
 </div>
 </div>
 <hr class="docutils" />
 <div class="section" id="copy-tool">
 <h2>Copy Tool<a class="headerlink" href="#copy-tool" title="Permalink to this headline">¶</a></h2>
 <p>Copies the selected elements. The copied polygons&#8217; center cubes will have pink color, which means that they will move separately by a gizmo.</p>
-<div class="figure" id="id18">
+<div class="section" id="id14">
+<h3>Steps<a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Select several polygons with <code class="docutils literal"><span class="pre">Polygon</span></code> tool.</li>
+<li>Select <code class="docutils literal"><span class="pre">Copy</span></code> tool.</li>
+</ol>
+<div class="figure" id="id26">
 <a class="reference internal image-reference" href="_images/UModeler_CopyTool.gif"><img alt="_images/UModeler_CopyTool.gif" src="_images/UModeler_CopyTool.gif" style="width: 760.0px; height: 484.5px;" /></a>
 <p class="caption"><span class="caption-text">Copy Tool Demo</span></p>
+</div>
 </div>
 </div>
 </div>

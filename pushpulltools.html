@@ -89,12 +89,16 @@
 <li class="toctree-l1"><a class="reference internal" href="drawingtools.html">Drawing Tools</a></li>
 <li class="toctree-l1"><a class="reference internal" href="primitiveshapetools.html">Primitive Shapes Tools</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Push/Pull Tools</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#single-pushpull-tool">Single PushPull Tool</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#pushpull-tool">PushPull Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#steps">Steps</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#interface">Interface</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#properties">Properties</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#multi-pushpull-tool">Multi PushPull Tool</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id1">Properties</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id1">Steps</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id2">Interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id3">Properties</a></li>
 </ul>
 </li>
 </ul>
@@ -105,6 +109,7 @@
 <li class="toctree-l1"><a class="reference internal" href="surfacetools.html">Surface Tools</a></li>
 <li class="toctree-l1"><a class="reference internal" href="misctools.html">Misc Tools</a></li>
 <li class="toctree-l1"><a class="reference internal" href="UVEditor/index.html">UV Editor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="releasenotes.html">Release Notes</a></li>
 </ul>
 
             
@@ -151,19 +156,67 @@
             
   <div class="section" id="push-pull-tools">
 <h1>Push/Pull Tools<a class="headerlink" href="#push-pull-tools" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="single-pushpull-tool">
-<h2>Single PushPull Tool<a class="headerlink" href="#single-pushpull-tool" title="Permalink to this headline">¶</a></h2>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<div class="last line-block">
+<div class="line">If you want a uniform size of height in <code class="docutils literal"><span class="pre">PushPull</span></code> tool, enable <code class="docutils literal"><span class="pre">Snap</span></code> in <code class="docutils literal"><span class="pre">Settings</span> <span class="pre">&gt;</span> <span class="pre">Snap</span></code></div>
+</div>
+</div>
+<div class="section" id="pushpull-tool">
+<h2>PushPull Tool<a class="headerlink" href="#pushpull-tool" title="Permalink to this headline">¶</a></h2>
 <p>Extrudes a polygon in a normal direction of it. You can push/pull any type of polygon, including circular, rectangular, and abstract polygons.</p>
+<div class="section" id="steps">
+<h3>Steps<a class="headerlink" href="#steps" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Go to <code class="docutils literal"><span class="pre">PushPull</span></code> tool with no selection</li>
+<li>Move the mouse cursor to a polygon you want to extrude</li>
+<li>Start to drag from the polygon in a normal direction of it.</li>
+<li>Release <code class="docutils literal"><span class="pre">LMB</span></code> when you finish the extrusion.</li>
+<li>If you need the precise height, fill <code class="docutils literal"><span class="pre">Height</span></code> field out in <code class="docutils literal"><span class="pre">Properties</span></code>.</li>
+<li>Press <code class="docutils literal"><span class="pre">SPACE</span></code> to confirm or press <code class="docutils literal"><span class="pre">ESC</span></code> to cancel.</li>
+</ol>
+</div>
+<div class="section" id="interface">
+<h3>Interface<a class="headerlink" href="#interface" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt><code class="docutils literal"><span class="pre">LMB</span> <span class="pre">Drag</span></code></dt>
+<dd>Pushes or pulls a polygon in a normal direction of the polygon.</dd>
+<dt><code class="docutils literal"><span class="pre">CTRL</span> <span class="pre">+</span> <span class="pre">LMB</span> <span class="pre">Drag</span></code></dt>
+<dd>Pushes or pulls a polygon at a time so that its height will be aligned to the other parallel polygon where the mouse points.</dd>
+<dt><code class="docutils literal"><span class="pre">SHIFT</span> <span class="pre">+</span> <span class="pre">LMB</span></code></dt>
+<dd>Repeats the previous extrusion to double the size of the extrusion or create a separate but identical extrusion.</dd>
+<dt><code class="docutils literal"><span class="pre">SPACE</span></code></dt>
+<dd>Confirms <code class="docutils literal"><span class="pre">Push/Pull</span></code>.</dd>
+<dt><code class="docutils literal"><span class="pre">ESC</span></code></dt>
+<dd>Cancels <code class="docutils literal"><span class="pre">Push/Pull</span></code> or exit <code class="docutils literal"><span class="pre">Push/Pull</span></code>.</dd>
+</dl>
+</div>
 <div class="section" id="properties">
 <h3>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt>Height</dt>
 <dd>Precise height.</dd>
 <dt>Border Check</dt>
-<dd>If this is enabled, the ray cast will run and it checks if the new created polygons while pushing or pulling will be beyond the other polygons. This can be used to cut a 3d shape, too..</dd>
+<dd>If this is enabled, the ray cast will run and it checks if the new created polygons while pushing or pulling will be beyond the other polygons. This can be used to cut a 3d shape, too.</dd>
 <dt>Continuous</dt>
-<dd>Continuous</dd>
+<dd>If off, the boundary edges between the existing side polygons and the new side polygons will be left.</dd>
 </dl>
+<div class="figure" id="id4">
+<a class="reference internal image-reference" href="images/UModeler_PushPullToolBasic.gif"><img alt="images/UModeler_PushPullToolBasic.gif" src="images/UModeler_PushPullToolBasic.gif" /></a>
+<p class="caption"><span class="caption-text">Basic PushPull Tool Demo - <code class="docutils literal"><span class="pre">Height</span></code> and <code class="docutils literal"><span class="pre">Continuous</span></code> properties</span></p>
+</div>
+<div class="figure" id="id5">
+<a class="reference internal image-reference" href="images/UModeler_PushPullToolBoundaryCheck.gif"><img alt="images/UModeler_PushPullToolBoundaryCheck.gif" src="images/UModeler_PushPullToolBoundaryCheck.gif" /></a>
+<p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Boundary</span> <span class="pre">Check</span></code> property Demo</span></p>
+</div>
+<div class="figure" id="id6">
+<a class="reference internal image-reference" href="images/UModeler_PushPullToolDuplicateThePrev.gif"><img alt="images/UModeler_PushPullToolDuplicateThePrev.gif" src="images/UModeler_PushPullToolDuplicateThePrev.gif" /></a>
+<p class="caption"><span class="caption-text">Duplicate the previous extrusion by <code class="docutils literal"><span class="pre">SHIFT</span> <span class="pre">+</span> <span class="pre">LMB</span></code>.</span></p>
+</div>
+<div class="figure" id="id7">
+<a class="reference internal image-reference" href="images/UModeler_PushPullToolHeightAlignment.gif"><img alt="images/UModeler_PushPullToolHeightAlignment.gif" src="images/UModeler_PushPullToolHeightAlignment.gif" /></a>
+<p class="caption"><span class="caption-text">Height Aligntment <code class="docutils literal"><span class="pre">CTRL</span> <span class="pre">+</span> <span class="pre">LMB</span> <span class="pre">Drag</span></code></span></p>
+</div>
 </div>
 </div>
 <hr class="docutils" />
@@ -171,7 +224,25 @@
 <h2>Multi PushPull Tool<a class="headerlink" href="#multi-pushpull-tool" title="Permalink to this headline">¶</a></h2>
 <p>Multiple polygons are pushed or pulled along a helper line</p>
 <div class="section" id="id1">
-<h3>Properties<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<h3>Steps<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Go to <code class="docutils literal"><span class="pre">Multi</span> <span class="pre">PushPull</span></code> tool with some polygons selected.</li>
+<li>Click <code class="docutils literal"><span class="pre">LMB</span></code> on any point on the Helper Line.</li>
+<li>Drag the mouse along the line.</li>
+<li>If necessary, adjust Distance property.</li>
+</ol>
+</div>
+<div class="section" id="id2">
+<h3>Interface<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt><code class="docutils literal"><span class="pre">LMB</span> <span class="pre">Drag</span></code></dt>
+<dd>It should start on a helper line and the mouse should be dragged along the helper line.</dd>
+<dt><code class="docutils literal"><span class="pre">ESC</span></code></dt>
+<dd>Exits this tool.</dd>
+</dl>
+</div>
+<div class="section" id="id3">
+<h3>Properties<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt>Distance</dt>
 <dd>How long the selected polygons are extruded</dd>
@@ -185,8 +256,12 @@
 </ul>
 </dd>
 <dt>Continuous</dt>
-<dd>Leaves edges of the extruded polygons at starting points after Push Pull</dd>
+<dd>If off, the boundary edges between the existing side polygons and the new side polygons will be left.</dd>
 </dl>
+<div class="figure" id="id8">
+<a class="reference internal image-reference" href="images/UModeler_MultiPushPullTool.Tool"><img alt="images/UModeler_MultiPushPullTool.Tool" src="images/UModeler_MultiPushPullTool.Tool" /></a>
+<p class="caption"><span class="caption-text">Multi PushPull Tool Demo.</span></p>
+</div>
 </div>
 </div>
 </div>
