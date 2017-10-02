@@ -12,6 +12,25 @@ Line Tool
 
 You can draw edges on a surface or on a floor in a row. The mouse cursor will be snapped to a vertex, a center of edge, a center of polygon etc when the cursor gets close enough to them.
 
+Steps
+-------
+1. Select Line tool under Drawing
+2. Click ``LMB`` on where you want to start to draw.
+3. Click ``LMB`` to place another point to draw an edge.
+4. You can draw successive edges by putting points until pressing ``SPACE``.
+5. If you want to go back to the previous point, Press ``ESC``.
+
+Interface
+------------
+LMB
+ Places a point
+ 
+SPACE
+ Confirms the drawn edges.
+ 
+ESC
+ Cancels the previous point.
+
 ---------------------------------------------------------------------------------------------
 
 Arc Tool

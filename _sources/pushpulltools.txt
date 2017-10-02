@@ -49,7 +49,7 @@ Border Check
  
 .. note::
 
- Please note that ``Border Check`` property needs many pre-calculations so it may affect the performance. Therefore, if you feel any lag as starting push/pull, please turn this property off and try again.
+ Please note that ``Border Check`` property needs many pre-calculations so it may affect the performance. Therefore, if you feel any lag at the beginning of push/pull, please turn this property off and try again.
  
 Continuous
  If off, the boundary edges between the existing side polygons and the new side polygons will be left. 

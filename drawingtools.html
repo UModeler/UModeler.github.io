@@ -87,7 +87,11 @@
 <li class="toctree-l1"><a class="reference internal" href="transformtools.html">Transform Tools</a></li>
 <li class="toctree-l1"><a class="reference internal" href="selectiontools.html">Selection Tools</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Drawing Tools</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#line-tool">Line Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#line-tool">Line Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#steps">Steps</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#interface">Interface</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="#arc-tool">Arc Tool</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#properties">Properties</a></li>
 </ul>
@@ -175,6 +179,27 @@
 <div class="section" id="line-tool">
 <h2>Line Tool<a class="headerlink" href="#line-tool" title="Permalink to this headline">¶</a></h2>
 <p>You can draw edges on a surface or on a floor in a row. The mouse cursor will be snapped to a vertex, a center of edge, a center of polygon etc when the cursor gets close enough to them.</p>
+<div class="section" id="steps">
+<h3>Steps<a class="headerlink" href="#steps" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Select Line tool under Drawing</li>
+<li>Click <code class="docutils literal"><span class="pre">LMB</span></code> on where you want to start to draw.</li>
+<li>Click <code class="docutils literal"><span class="pre">LMB</span></code> to place another point to draw an edge.</li>
+<li>You can draw successive edges by putting points until pressing <code class="docutils literal"><span class="pre">SPACE</span></code>.</li>
+<li>If you want to go back to the previous point, Press <code class="docutils literal"><span class="pre">ESC</span></code>.</li>
+</ol>
+</div>
+<div class="section" id="interface">
+<h3>Interface<a class="headerlink" href="#interface" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt>LMB</dt>
+<dd>Places a point</dd>
+<dt>SPACE</dt>
+<dd>Confirms the drawn edges.</dd>
+<dt>ESC</dt>
+<dd>Cancels the previous point.</dd>
+</dl>
+</div>
 </div>
 <hr class="docutils" />
 <div class="section" id="arc-tool">
