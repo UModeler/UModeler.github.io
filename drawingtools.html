@@ -100,23 +100,24 @@
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#rectangle-tool">Rectangle Tool</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#id3">Steps</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id4">Properties</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id4">Interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id5">Properties</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#disk-tool">Disk Tool</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id5">Steps</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id6">Properties</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id6">Steps</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id7">Properties</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#side-stair-tool">Side Stair Tool</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id7">Interface</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id8">Properties</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id8">Interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id9">Properties</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#parallel-tool">Parallel Tool</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id9">Steps</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id10">Interface</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id11">Properties</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id10">Steps</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id11">Interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id12">Properties</a></li>
 </ul>
 </li>
 </ul>
@@ -178,14 +179,15 @@
 <h1>Drawing Tools<a class="headerlink" href="#drawing-tools" title="Permalink to this headline">¶</a></h1>
 <div class="admonition tip">
 <p class="first admonition-title">Tip</p>
-<div class="last line-block">
-<div class="line">1. Pressing <code class="docutils literal"><span class="pre">SPACE</span></code> confirms the current action. On the other hand <code class="docutils literal"><span class="pre">ESC</span></code> cancels it.</div>
-<div class="line">2. You can adjust a shape by chaning the properties before confirming.</div>
-</div>
+<ol class="last arabic simple">
+<li>Pressing <code class="docutils literal"><span class="pre">SPACE</span></code> confirms the current action. On the other hand <code class="docutils literal"><span class="pre">ESC</span></code> cancels it.</li>
+<li>You can adjust a shape by chaning the properties before confirming.</li>
+<li>The mouse cursor will be snapped to a vertex, a center of edge, a center of polygon etc when the cursor gets close enough to them.</li>
+</ol>
 </div>
 <div class="section" id="line-tool">
 <h2>Line Tool<a class="headerlink" href="#line-tool" title="Permalink to this headline">¶</a></h2>
-<p>You can draw edges on a surface or on a floor in a row. The mouse cursor will be snapped to a vertex, a center of edge, a center of polygon etc when the cursor gets close enough to them.</p>
+<p>You can draw edges on a surface or on a floor in a row to sketch or cut a polygon</p>
 <div class="section" id="steps">
 <h3>Steps<a class="headerlink" href="#steps" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
@@ -206,12 +208,16 @@
 <dt>ESC</dt>
 <dd>Cancels the previous point.</dd>
 </dl>
+<div class="figure" id="id13">
+<a class="reference internal image-reference" href="_images/UModeler_LineTool.gif"><img alt="_images/UModeler_LineTool.gif" src="_images/UModeler_LineTool.gif" style="width: 760.0px; height: 491.15px;" /></a>
+<p class="caption"><span class="caption-text">Line Tool Demo</span></p>
+</div>
 </div>
 </div>
 <hr class="docutils" />
 <div class="section" id="arc-tool">
 <h2>Arc Tool<a class="headerlink" href="#arc-tool" title="Permalink to this headline">¶</a></h2>
-<p>Draws an arc by setting three points on a plane.</p>
+<p>Draws an arc by placing three points on a plane.</p>
 <div class="section" id="id1">
 <h3>Steps<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
@@ -242,6 +248,10 @@
 <dt>Close</dt>
 <dd>When Close property is enabled, the first and last vertices will be connected to create a closed form.</dd>
 </dl>
+<div class="figure" id="id14">
+<a class="reference internal image-reference" href="_images/UModeler_ArcTool.gif"><img alt="_images/UModeler_ArcTool.gif" src="_images/UModeler_ArcTool.gif" style="width: 760.0px; height: 491.15px;" /></a>
+<p class="caption"><span class="caption-text">Arc Tool Demo</span></p>
+</div>
 </div>
 </div>
 <hr class="docutils" />
@@ -259,7 +269,18 @@
 </ol>
 </div>
 <div class="section" id="id4">
-<h3>Properties<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<h3>Interface<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt>LMB Drag</dt>
+<dd>Draws a rectangle.</dd>
+<dt>SPACE</dt>
+<dd>Confirms the rectangle.</dd>
+<dt>ESC</dt>
+<dd>Cancels the rectangle.</dd>
+</dl>
+</div>
+<div class="section" id="id5">
+<h3>Properties<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt>Width</dt>
 <dd>The width of the rectangle.</dd>
@@ -270,15 +291,18 @@
 <dt>Corner Segment</dt>
 <dd>The segment number of the corner.</dd>
 </dl>
+<div class="figure" id="id15">
+<a class="reference internal image-reference" href="_images/UModeler_RectangleTool.gif"><img alt="_images/UModeler_RectangleTool.gif" src="_images/UModeler_RectangleTool.gif" style="width: 760.0px; height: 491.15px;" /></a>
+<p class="caption"><span class="caption-text">Rectangle Tool Demo</span></p>
+</div>
 </div>
 </div>
 <hr class="docutils" />
 <div class="section" id="disk-tool">
 <h2>Disk Tool<a class="headerlink" href="#disk-tool" title="Permalink to this headline">¶</a></h2>
-<blockquote>
-<div>Draws a disk by setting a center and a radius.</div></blockquote>
-<div class="section" id="id5">
-<h3>Steps<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<p>Draws a disk by setting a center and a radius.</p>
+<div class="section" id="id6">
+<h3>Steps<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
 <li>Select <code class="docutils literal"><span class="pre">Disk</span></code> tool</li>
 <li>Drag the mouse to draw a disk by setting a center and a radius of a disk.</li>
@@ -286,24 +310,28 @@
 <li>Press <code class="docutils literal"><span class="pre">SPACE</span></code> to complete or Press <code class="docutils literal"><span class="pre">ESC</span></code> to cancel.</li>
 </ol>
 </div>
-<div class="section" id="id6">
-<h3>Properties<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id7">
+<h3>Properties<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt>Segment</dt>
 <dd>The number of edges/segments</dd>
 <dt>Radius</dt>
 <dd>Radius of a disk</dd>
 <dt>Angle Snap</dt>
-<dd>When you drag the mouse with this property on, the disk’s direction will snap to every 90 degree.</dd>
+<dd>When you drag the mouse with this property on, the disk’s direction will snap to every 90 degree time.</dd>
 </dl>
+<div class="figure" id="id16">
+<a class="reference internal image-reference" href="_images/UModeler_DiskTool.gif"><img alt="_images/UModeler_DiskTool.gif" src="_images/UModeler_DiskTool.gif" style="width: 760.0px; height: 491.15px;" /></a>
+<p class="caption"><span class="caption-text">Disk Tool Demo</span></p>
+</div>
 </div>
 </div>
 <hr class="docutils" />
 <div class="section" id="side-stair-tool">
 <h2>Side Stair Tool<a class="headerlink" href="#side-stair-tool" title="Permalink to this headline">¶</a></h2>
-<p>You can draw a stair profile on a plane with this tool.</p>
-<div class="section" id="id7">
-<h3>Interface<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<p>You can draw a stair profile on a plane.</p>
+<div class="section" id="id8">
+<h3>Interface<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt>LMB Drag</dt>
 <dd>Draws a stair profile</dd>
@@ -313,22 +341,26 @@
 <dd>Cancellation</dd>
 </dl>
 </div>
-<div class="section" id="id8">
-<h3>Properties<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id9">
+<h3>Properties<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt>Rise</dt>
 <dd>Distance between two treads.</dd>
 <dt>Flip</dt>
 <dd>Flips the drawn stair profile.</dd>
 </dl>
+<div class="figure" id="id17">
+<a class="reference internal image-reference" href="_images/UModeler_SideStairTool.gif"><img alt="_images/UModeler_SideStairTool.gif" src="_images/UModeler_SideStairTool.gif" style="width: 760.0px; height: 491.15px;" /></a>
+<p class="caption"><span class="caption-text">Side Stair Tool Demo</span></p>
+</div>
 </div>
 </div>
 <hr class="docutils" />
 <div class="section" id="parallel-tool">
 <h2>Parallel Tool<a class="headerlink" href="#parallel-tool" title="Permalink to this headline">¶</a></h2>
-<p>The closest edge of the polygon where the mouse cursor points gets copied and the copied edge will be moved parallel to the original edge following the mouse.</p>
-<div class="section" id="id9">
-<h3>Steps<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
+<p>The closest edge from the mouse gets copied and it will be moved parallel to the original edge following the mouse.</p>
+<div class="section" id="id10">
+<h3>Steps<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
 <li>Select <code class="docutils literal"><span class="pre">Parallel</span></code> tool</li>
 <li>Move the mouse cursor to any point nearby the edge you want to copy and move.</li>
@@ -338,8 +370,8 @@
 <li>Press <code class="docutils literal"><span class="pre">SPACE</span></code> to confirm what you did or Press <code class="docutils literal"><span class="pre">ESC</span></code> to cancel it.</li>
 </ol>
 </div>
-<div class="section" id="id10">
-<h3>Interface<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id11">
+<h3>Interface<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt>LMB Drag</dt>
 <dd>Copies and moves the edge in a parallel direction.</dd>
@@ -351,12 +383,16 @@
 <dd>Cancellation</dd>
 </dl>
 </div>
-<div class="section" id="id11">
-<h3>Properties<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id12">
+<h3>Properties<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt>Distance</dt>
 <dd>Distance from the original edge.</dd>
 </dl>
+<div class="figure" id="id18">
+<a class="reference internal image-reference" href="_images/UModeler_ParallelTool.gif"><img alt="_images/UModeler_ParallelTool.gif" src="_images/UModeler_ParallelTool.gif" style="width: 760.0px; height: 491.15px;" /></a>
+<p class="caption"><span class="caption-text">Parallel Tool Demo</span></p>
+</div>
 </div>
 </div>
 </div>

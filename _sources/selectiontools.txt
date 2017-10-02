@@ -63,7 +63,7 @@ If the selected edge is a part of a hole, all the edges of the holes will be sel
 
 Steps
 ---------
-1. Select an edge if wants ``Edge Loops`` or ``Hole Selection``. Select two serise quad polygons if you want ``Quad Loops``.
+1. Select an edge if you want ``Edge Loops`` or ``Hole Selection``. Select two serise quad polygons if you want ``Quad Loops``.
 2. Select ``Loop`` tool.
 
 .. figure:: /images/UModeler_HoleSelection_v2.gif

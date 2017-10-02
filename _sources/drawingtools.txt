@@ -4,13 +4,15 @@ Drawing Tools
 
 .. tip::
 
-   | 1. Pressing ``SPACE`` confirms the current action. On the other hand ``ESC`` cancels it.
-   | 2. You can adjust a shape by chaning the properties before confirming.
+ 1. Pressing ``SPACE`` confirms the current action. On the other hand ``ESC`` cancels it.
+ 2. You can adjust a shape by chaning the properties before confirming.
+ 3. The mouse cursor will be snapped to a vertex, a center of edge, a center of polygon etc when the cursor gets close enough to them.
+   
 
 Line Tool
 ==========
 
-You can draw edges on a surface or on a floor in a row. The mouse cursor will be snapped to a vertex, a center of edge, a center of polygon etc when the cursor gets close enough to them.
+You can draw edges on a surface or on a floor in a row to sketch or cut a polygon
 
 Steps
 -------
@@ -30,13 +32,18 @@ SPACE
  
 ESC
  Cancels the previous point.
+ 
+.. figure:: /images/UModeler_LineTool.gif
+   :scale: 95 %
+
+   Line Tool Demo
 
 ---------------------------------------------------------------------------------------------
 
 Arc Tool
 ==========
 
-Draws an arc by setting three points on a plane.
+Draws an arc by placing three points on a plane.
 
 Steps
 -------
@@ -66,6 +73,11 @@ Segment
 
 Close
  When Close property is enabled, the first and last vertices will be connected to create a closed form.
+ 
+.. figure:: /images/UModeler_ArcTool.gif
+   :scale: 95 %
+
+   Arc Tool Demo
 
 ---------------------------------------------------------------------------------------------
 
@@ -81,6 +93,17 @@ Steps
 4. If necessary, adjust ``Width``, ``Height`` or ``Corner Length`` properties.
 5. Press ``SPACE`` to confirm the rectangle. If you want to cancel the rectangle, Press ``ESC``.
 
+Interface
+-----------
+LMB Drag
+ Draws a rectangle.
+ 
+SPACE
+ Confirms the rectangle.
+ 
+ESC
+ Cancels the rectangle.
+
 Properties
 ------------
 Width
@@ -94,12 +117,17 @@ Corner Length
 
 Corner Segment
  The segment number of the corner.
+ 
+.. figure:: /images/UModeler_RectangleTool.gif
+   :scale: 95 %
+
+   Rectangle Tool Demo 
 
 ---------------------------------------------------------------------------------------------
 
 Disk Tool
 ===========
- Draws a disk by setting a center and a radius.
+Draws a disk by setting a center and a radius.
 
 Steps
 -----------
@@ -117,13 +145,18 @@ Radius
  Radius of a disk
 
 Angle Snap
- When you drag the mouse with this property on, the disk’s direction will snap to every 90 degree.
+ When you drag the mouse with this property on, the disk’s direction will snap to every 90 degree time.
+ 
+.. figure:: /images/UModeler_DiskTool.gif
+   :scale: 95 %
+
+   Disk Tool Demo  
 
 ---------------------------------------------------------------------------------------------
 
 Side Stair Tool
 =================	
-You can draw a stair profile on a plane with this tool.
+You can draw a stair profile on a plane.
 
 Interface
 ------------
@@ -143,12 +176,17 @@ Rise
 
 Flip
  Flips the drawn stair profile.
+ 
+.. figure:: /images/UModeler_SideStairTool.gif
+   :scale: 95 %
+
+   Side Stair Tool Demo   
 
 ---------------------------------------------------------------------------------------------
 
 Parallel Tool
 ===============
-The closest edge of the polygon where the mouse cursor points gets copied and the copied edge will be moved parallel to the original edge following the mouse.
+The closest edge from the mouse gets copied and it will be moved parallel to the original edge following the mouse.
 
 Steps
 --------
@@ -177,3 +215,8 @@ Properties
 ------------
 Distance
  Distance from the original edge.
+ 
+.. figure:: /images/UModeler_ParallelTool.gif
+   :scale: 95 %
+
+   Parallel Tool Demo   
