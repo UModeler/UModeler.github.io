@@ -84,7 +84,7 @@ Multiple polygons are pushed or pulled along a helper line
 Steps
 ---------------
 1. Go to ``Multi PushPull`` tool.
-2. If no selected polygons, select several polygons. You can see the ``Help Line`` in yellow.
+2. If no selected polygons, select several polygons. Then you can see the ``Help Line`` in yellow.
 3. Click ``LMB`` on any point on the ``Helper Line``.
 4. Drag the mouse along the line.
 5. If necessary, adjust ``Distance`` property.
