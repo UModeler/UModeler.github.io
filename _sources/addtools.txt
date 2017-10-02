@@ -309,7 +309,7 @@ Steps
 1. Enter Clone tool.
 2. Point a polygon you want to clone by putting the mouse over it if polygons are not selected when this tool is activated. 
 3. Drag the mouse to draw a line. You can make sure that the cloned polygons will be aligned with the line.
-4. Adjust ``Number``, ``Distance`` and ``Arrangement`` in ``Properties``.
+4. Adjust ``Number``, ``Distance`` and ``Arrangement`` in ``Properties`` if necessary.
 
 Interface
 ---------------   

@@ -79,10 +79,11 @@ Multiple polygons are pushed or pulled along a helper line
 
 Steps
 ---------------
-1. Go to ``Multi PushPull`` tool with some polygons selected.
-2. Click ``LMB`` on any point on the Helper Line.
-3. Drag the mouse along the line.
-4. If necessary, adjust Distance property.
+1. Go to ``Multi PushPull`` tool.
+2. If no selected polygons, select several polygons. You can see the ``Help Line`` in yellow.
+3. Click ``LMB`` on any point on the ``Helper Line``.
+4. Drag the mouse along the line.
+5. If necessary, adjust ``Distance`` property.
  
 Interface
 ---------------
@@ -108,7 +109,7 @@ Pushpull Type
 Continuous
  If off, the boundary edges between the existing side polygons and the new side polygons will be left.
  
-.. figure:: /images/UModeler_MultiPushPullTool.Tool
+.. figure:: /images/UModeler_MultiPushPullTool.gif
   :scale: 95 %
    
   Multi PushPull Tool Demo.
