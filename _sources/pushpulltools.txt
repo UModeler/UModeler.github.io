@@ -4,7 +4,7 @@ Push/Pull Tools
 
 .. tip::
 
-   | If you want a uniform size of height in ``PushPull`` tool, enable ``Snap`` in ``Settings > Snap``
+ If you want a uniform size of height in ``PushPull`` tool, enable ``Snap`` in ``Settings > Snap``
 
 PushPull Tool
 =====================
@@ -46,6 +46,10 @@ Height
 
 Border Check
  If this is enabled, the ray cast will run and it checks if the new created polygons while pushing or pulling will be beyond the other polygons. This can be used to cut a 3d shape, too.
+ 
+.. note::
+
+ Please note that ``Border Check`` property needs many pre-calculations so it may affect the performance. Therefore, If ``PushPull`` tool gets slows, please check this propertiy is on and turn it off.
  
 Continuous
  If off, the boundary edges between the existing side polygons and the new side polygons will be left. 

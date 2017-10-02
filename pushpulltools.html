@@ -158,9 +158,7 @@
 <h1>Push/Pull Tools<a class="headerlink" href="#push-pull-tools" title="Permalink to this headline">¶</a></h1>
 <div class="admonition tip">
 <p class="first admonition-title">Tip</p>
-<div class="last line-block">
-<div class="line">If you want a uniform size of height in <code class="docutils literal"><span class="pre">PushPull</span></code> tool, enable <code class="docutils literal"><span class="pre">Snap</span></code> in <code class="docutils literal"><span class="pre">Settings</span> <span class="pre">&gt;</span> <span class="pre">Snap</span></code></div>
-</div>
+<p class="last">If you want a uniform size of height in <code class="docutils literal"><span class="pre">PushPull</span></code> tool, enable <code class="docutils literal"><span class="pre">Snap</span></code> in <code class="docutils literal"><span class="pre">Settings</span> <span class="pre">&gt;</span> <span class="pre">Snap</span></code></p>
 </div>
 <div class="section" id="pushpull-tool">
 <h2>PushPull Tool<a class="headerlink" href="#pushpull-tool" title="Permalink to this headline">¶</a></h2>
@@ -198,6 +196,12 @@
 <dd>Precise height.</dd>
 <dt>Border Check</dt>
 <dd>If this is enabled, the ray cast will run and it checks if the new created polygons while pushing or pulling will be beyond the other polygons. This can be used to cut a 3d shape, too.</dd>
+</dl>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Please note that <code class="docutils literal"><span class="pre">Border</span> <span class="pre">Check</span></code> property needs many pre-calculations so it may affect the performance. Therefore, If <code class="docutils literal"><span class="pre">PushPull</span></code> tool gets slows, please check this propertiy is on and turn it off.</p>
+</div>
+<dl class="docutils">
 <dt>Continuous</dt>
 <dd>If off, the boundary edges between the existing side polygons and the new side polygons will be left.</dd>
 </dl>
