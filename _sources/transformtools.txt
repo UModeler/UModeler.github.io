@@ -48,6 +48,11 @@ Move To Cursor
    :scale: 95 %
 	
    Transforming elements holding ``SHIFT``.   
+   
+.. figure:: /images/UModeler_TransformTool_SnapEdgeToPolygon.gif
+   :scale: 95 %
+	
+   ``Snap To Polygon`` property Demo.
 
 ----------------------------------------------------------------------------------------------------------------------
 

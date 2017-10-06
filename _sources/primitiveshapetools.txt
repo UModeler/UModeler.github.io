@@ -56,7 +56,7 @@ Glue
 
    Box Tool Demo - Basic and ``Width``, ``Depth``, ``Height`` and ``Border Check`` properties
    
-.. figure:: /images/UModeler_BoxTool2.gif
+.. figure:: /images/UModeler_BoxTool2.gifz
    :scale: 95 %
 
    Box Tool Demo - ``Glue`` property and enabled `Snap`
