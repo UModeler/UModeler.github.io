@@ -14,39 +14,50 @@ Moreover UModeler has also adopted useful features of popular DCC tools like Max
 Layout
 ========
 
-.. figure:: /images/UModeler_Layout.jpg
+.. figure:: /images/UModeler_Layout.png
    :scale: 95 %
 	
    UModeler Layout
-   
-Working Area
- | Editing meshes.
- 
-Header
- | UModeler Inspector Header.
- | ``UModeler Ver 2.xx`` - Opens the About dialog box.
- | ``Close`` - Disables UModeler for the current object.
- 
-Settings
- | Settings regarding ``Display``, ``Gizmo`` and ``Snap``.
- 
-Search EditBox
- | Search for a specific tool. This edit box can be activated by pressing ``ENTER`` in the scene view or inspector.
- 
-Tools and Properties
- | A set of Tools and Properties
- 
-Status HUD
- | Information of UModeler mesh
- 
-Menu  
- | A few extra functions for UModeler
- 
-Gizmos
- | Selecting a gizmo among ``Translate``, ``Rotate`` and ``Scale``. 
 
-Coordinate Frame
- | Selecting a coordinate frame of both ``Global`` and ``Local``.
+``[1]`` Working Area
+ Editing meshes. 
+ 
+``[2]`` UModeler Inspector
+
+ .. figure:: /images/UModeler_Inspector_HeaderSettings.jpg
+    :scale: 45 %
+
+    UModeler Inspector - ``Header`` and ``Settings`` 
+
+ Header 
+  | ``UModeler Ver 2.xx`` - Opens the About dialog box.  
+  | ``Close`` - Disables UModeler for the current object.
+ 
+ Settings
+  Settings regarding ``Display``, ``Gizmo`` and ``Snap``. 
+  
+ .. figure:: /images/UModeler_Inspector_Tools.jpg
+    :scale: 45 %
+
+    UModeler Inspector - ``Search EditBox`` and ``Tools``   
+
+ Search EditBox
+  Search for a specific tool. This edit box can be activated by pressing ``ENTER`` in the scene view or inspector.  
+
+ Tools and Properties
+  A set of Tools and Properties
+ 
+``[3]`` Status HUD
+ Information of UModeler mesh
+
+``[4]`` Input Viewer
+ Viewing which keyboard and mouse buttons are pressed.
+ 
+``[5]`` Gizmos
+ Selecting a gizmo among ``Translate``, ``Rotate`` and ``Scale``. 
+
+``[6]`` Coordinate Frame
+ Selecting a coordinate frame of both ``Global`` and ``Local``.
  
 ----------------------------------------------------------------------------------------------------------------------
 
