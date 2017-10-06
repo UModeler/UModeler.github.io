@@ -191,6 +191,7 @@
 <li>Pressing <code class="docutils literal"><span class="pre">SPACE</span></code> confirms the current action. On the other hand <code class="docutils literal"><span class="pre">ESC</span></code> cancels it.</li>
 <li>You can adjust a shape by chaning the properties before confirming.</li>
 <li>The mouse cursor will be snapped to a vertex, a center of edge, a center of polygon etc when the cursor gets close enough to them.</li>
+<li><code class="docutils literal"><span class="pre">Glue</span></code> and <code class="docutils literal"><span class="pre">Border</span> <span class="pre">Check</span></code> Properties are common in the most primitive shape tools. See the demo of <code class="docutils literal"><span class="pre">Box</span> <span class="pre">Tool</span></code> to find out how they work.</li>
 </ol>
 </div>
 <div class="section" id="box-tool">
@@ -203,7 +204,7 @@
 <li>Draw a rectangle on a plane by dragging the mouse.</li>
 <li>Release <code class="docutils literal"><span class="pre">LMB</span></code> and move the mouse up in a normal to raise the height.</li>
 <li>Click <code class="docutils literal"><span class="pre">LMB</span></code> to stop raising.</li>
-<li>If necessary, type the precise size in <code class="docutils literal"><span class="pre">Width</span></code>, <code class="docutils literal"><span class="pre">Depth</span></code> and Height fields in Properties.</li>
+<li>If necessary, type the precise size in <code class="docutils literal"><span class="pre">Width</span></code>, <code class="docutils literal"><span class="pre">Depth</span></code> and <code class="docutils literal"><span class="pre">Height</span></code> fields in Properties.</li>
 <li>Press <code class="docutils literal"><span class="pre">SPACE</span></code> to complete or Press <code class="docutils literal"><span class="pre">ESC</span></code> to cancel.</li>
 </ol>
 </div>
@@ -227,11 +228,19 @@
 <dd>Depth of a box</dd>
 <dt>Heigh</dt>
 <dd>Height of a box</dd>
-<dt>Border Test</dt>
+<dt>Border Check</dt>
 <dd>If on, the ray cast will run and it checks if the created box is beyond the opposite polygons.</dd>
 <dt>Glue</dt>
 <dd>The box with this property enabled will be glued to the polygon where it started to be created. It means that the hidden part of the floor polygon by the created box is removed.</dd>
 </dl>
+<div class="figure" id="id20">
+<a class="reference internal image-reference" href="_images/UModeler_BoxTool.gif"><img alt="_images/UModeler_BoxTool.gif" src="_images/UModeler_BoxTool.gif" style="width: 760.0px; height: 493.04999999999995px;" /></a>
+<p class="caption"><span class="caption-text">Box Tool Demo - Basic and <code class="docutils literal"><span class="pre">Width</span></code>, <code class="docutils literal"><span class="pre">Depth</span></code>, <code class="docutils literal"><span class="pre">Height</span></code> and <code class="docutils literal"><span class="pre">Border</span> <span class="pre">Check</span></code> properties</span></p>
+</div>
+<div class="figure" id="id21">
+<a class="reference internal image-reference" href="_images/UModeler_BoxTool2.gif"><img alt="_images/UModeler_BoxTool2.gif" src="_images/UModeler_BoxTool2.gif" style="width: 760.0px; height: 493.04999999999995px;" /></a>
+<p class="caption"><span class="caption-text">Box Tool Demo - <code class="docutils literal"><span class="pre">Glue</span></code> property and enabled <cite>Snap</cite></span></p>
+</div>
 </div>
 </div>
 <hr class="docutils" />
@@ -271,11 +280,15 @@
 <dd>Height of a room</dd>
 <dt>Thickness</dt>
 <dd>The distance between outer box and inner flipped box.</dd>
-<dt>Border Test</dt>
+<dt>Border Check</dt>
 <dd>If this is enabled, the ray cast will run and it checks if the created room is beyond the other polygons.</dd>
 <dt>Glue</dt>
 <dd>The room with this property enabled will be glued to the polygon where it started to be created. It means that the hidden part of the floor polygon by the created room is removed.</dd>
 </dl>
+<div class="figure" id="id22">
+<a class="reference internal image-reference" href="_images/UModeler_RoomTool.gif"><img alt="_images/UModeler_RoomTool.gif" src="_images/UModeler_RoomTool.gif" style="width: 1208.3999999999999px; height: 784.6999999999999px;" /></a>
+<p class="caption"><span class="caption-text">Room Tool Demo</span></p>
+</div>
 </div>
 </div>
 <hr class="docutils" />
@@ -319,11 +332,19 @@
 <dd>Rotates the stair by 90 degrees.</dd>
 <dt>Reverse</dt>
 <dd>Reverses the front and back.</dd>
-<dt>Border Test</dt>
+<dt>Border Check</dt>
 <dd>If this is enabled, the ray cast will run and it checks if the created stair is beyond the other polygons.</dd>
 <dt>Glue</dt>
 <dd>The stair with this property enabled will be glued to the polygon where it started to be created. It means that the hidden part of the floor polygon by the created stair is removed.</dd>
 </dl>
+<div class="figure" id="id23">
+<a class="reference internal image-reference" href="_images/UModeler_StairTool.gif"><img alt="_images/UModeler_StairTool.gif" src="_images/UModeler_StairTool.gif" style="width: 760.0px; height: 493.04999999999995px;" /></a>
+<p class="caption"><span class="caption-text">Stair Tool Demo</span></p>
+</div>
+<div class="figure" id="id24">
+<a class="reference internal image-reference" href="_images/UModeler_StairTool2.gif"><img alt="_images/UModeler_StairTool2.gif" src="_images/UModeler_StairTool2.gif" style="width: 760.0px; height: 493.04999999999995px;" /></a>
+<p class="caption"><span class="caption-text">Stair Tool Demo - Constructing a stair on a mesh</span></p>
+</div>
 </div>
 </div>
 <hr class="docutils" />
@@ -363,11 +384,15 @@
 <dd>A height of a cylinder</dd>
 <dt>Angle Snap</dt>
 <dd>When you drag the mouse with this property on, the disk’s direction will snap to every 90 degree.</dd>
-<dt>Border Test</dt>
+<dt>Border Check</dt>
 <dd>If this is enabled, the ray cast will run and it checks if the created cylinder is beyond the other polygons.</dd>
 <dt>Glue</dt>
 <dd>The cylinder with this property enabled will be glued to the polygon where it started to be created. It means that the hidden part of the floor polygon by the created cylinder is removed.</dd>
 </dl>
+<div class="figure" id="id25">
+<a class="reference internal image-reference" href="_images/UModeler_CylinderTool.gif"><img alt="_images/UModeler_CylinderTool.gif" src="_images/UModeler_CylinderTool.gif" style="width: 760.0px; height: 493.04999999999995px;" /></a>
+<p class="caption"><span class="caption-text">Cylinder Tool Demo</span></p>
+</div>
 </div>
 </div>
 <hr class="docutils" />
@@ -407,11 +432,15 @@ Cancels creating a cone.</p>
 <dd>A height of a cone</dd>
 <dt>Angle Snap</dt>
 <dd>When you drag the mouse with this property on, the disk’s direction will snap to every 90 degree.</dd>
-<dt>Border Test</dt>
+<dt>Border Check</dt>
 <dd>If this is enabled, the ray cast will run and it checks if the created cone is beyond the other polygons.</dd>
 <dt>Glue</dt>
 <dd>The cone with this property enabled will be glued to the polygon where it started to be created. It means that the hidden part of the floor polygon by the created cone is removed.</dd>
 </dl>
+<div class="figure" id="id26">
+<a class="reference internal image-reference" href="_images/UModeler_ConeTool.gif"><img alt="_images/UModeler_ConeTool.gif" src="_images/UModeler_ConeTool.gif" style="width: 760.0px; height: 493.04999999999995px;" /></a>
+<p class="caption"><span class="caption-text">Cone Tool Demo</span></p>
+</div>
 </div>
 </div>
 <hr class="docutils" />
@@ -448,6 +477,10 @@ Cancels creating a cone.</p>
 <dt>Angle Snap</dt>
 <dd>When you drag the mouse with this property on, the sphere’s forward direction will snap to every 90 degree time.</dd>
 </dl>
+<div class="figure" id="id27">
+<a class="reference internal image-reference" href="_images/UModeler_SphereTool.gif"><img alt="_images/UModeler_SphereTool.gif" src="_images/UModeler_SphereTool.gif" style="width: 760.0px; height: 493.04999999999995px;" /></a>
+<p class="caption"><span class="caption-text">Sphere Tool Demo</span></p>
+</div>
 </div>
 </div>
 <hr class="docutils" />
@@ -476,11 +509,15 @@ Cancels creating a cone.</p>
 <dd>A height of a cone</dd>
 <dt>Angle Snap</dt>
 <dd>When you drag the mouse with this property on, the capsule’s forward direction will snap to every 90 degree.</dd>
-<dt>Border Test</dt>
+<dt>Border Check</dt>
 <dd>If this is enabled, the ray cast will run and it checks if the created capsule is beyond the other polygons.</dd>
 <dt>Glue</dt>
 <dd>This property in Capsule tool isn’t used.</dd>
 </dl>
+<div class="figure" id="id28">
+<a class="reference internal image-reference" href="_images/UModeler_CapsuleTool.gif"><img alt="_images/UModeler_CapsuleTool.gif" src="_images/UModeler_CapsuleTool.gif" style="width: 760.0px; height: 493.04999999999995px;" /></a>
+<p class="caption"><span class="caption-text">Capsule Tool Demo</span></p>
+</div>
 </div>
 </div>
 </div>

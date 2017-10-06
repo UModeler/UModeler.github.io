@@ -151,13 +151,13 @@ Mirrors a mesh along its local X,Y or Z Axes. When the mirror mode is enabled, e
    
 Steps - Start Mirror Mode
 --------------------------------
-1. Select ``Mirror`` tool.
+1. Select ``MirrorTool``.
 2. Adjust ``Axis``, ``Distance`` and ``Invert`` properties to set the plane mirror.
 3. Click on ``Start`` button.
 
 Steps - Comfirm
 --------------------------------
-1. Select ``Mirror`` tool.
+1. Select ``MirrorTool``.
 2. If you want to leave a boundary between the original part and the mirrored part, check ``Leave Boundary`` property.
 
 Properties
@@ -195,7 +195,7 @@ Loop Slice Tool
    
 Steps
 -------------
-1. Select ``Loop Slice`` tool.
+1. Select ``Loop SliceTool``.
 2. Move the cursor over a desired edge
 3. Scroll ``Wheel`` of the mouse to increase or decrease the number of edge loops.
 4. Drag the mouse to changes the offset of the edge loops.
@@ -247,11 +247,11 @@ Bevel Tool
 
 The bevel tool allows you to create chamfered or rounded corners to geometry. A bevel is an effect that smooths out edges and corners.
 
-Vertices, Edges or Polygons have to be selected before selecting ``Bevel`` tool and then change the properties described below in the inspector.
+Vertices, Edges or Polygons have to be selected before selecting ``BevelTool`` and then change the properties described below in the inspector.
    
 Steps
 --------
-1. Select Vertex(s), edge(s) or polygon(s) with ``Vertex`` tool, ``Edge`` tool, or ``Polygon`` tool.
+1. Select Vertex(s), edge(s) or polygon(s) with ``VertexTool``, ``EdgeTool``, or ``PolygonTool``.
 2. Adjust ``Width``, ``Segments`` or ``Profile`` value in Properties.
 
 Properties
@@ -289,7 +289,7 @@ Fills space surrounded by the selected elements in following cases. The steps ar
    
 Steps
 ---------
-1. Select vertices/edges/polygons using ``Vertex`` tool, ``Edge`` tool or ``Polygon`` tool.
+1. Select vertices/edges/polygons using ``VertexTool``, ``EdgeTool`` or ``PolygonTool``.
 2. Select Bridge tool.
 
 .. figure:: /images/UModeler_BridgeTool_v2.gif
@@ -349,8 +349,8 @@ Copies the selected elements. The copied polygons' center cubes will have pink c
    
 Steps
 ---------
-1. Select several polygons with ``Polygon`` tool.
-2. Select ``Copy`` tool.
+1. Select several polygons with ``PolygonTool``.
+2. Select ``CopyTool``.
    
 .. figure:: /images/UModeler_CopyTool.gif
    :scale: 95 %

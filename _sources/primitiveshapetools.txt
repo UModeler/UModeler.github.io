@@ -7,6 +7,7 @@ Primitive Shapes Tools
  1. Pressing ``SPACE`` confirms the current action. On the other hand ``ESC`` cancels it.
  2. You can adjust a shape by chaning the properties before confirming.
  3. The mouse cursor will be snapped to a vertex, a center of edge, a center of polygon etc when the cursor gets close enough to them.
+ 4. ``Glue`` and ``Border Check`` Properties are common in the most primitive shape tools. See the demo of ``Box Tool`` to find out how they work.
 
 Box Tool
 ===================
@@ -19,7 +20,7 @@ Steps
 2. Draw a rectangle on a plane by dragging the mouse.
 3. Release ``LMB`` and move the mouse up in a normal to raise the height.
 4. Click ``LMB`` to stop raising.
-5. If necessary, type the precise size in ``Width``, ``Depth`` and Height fields in Properties.
+5. If necessary, type the precise size in ``Width``, ``Depth`` and ``Height`` fields in Properties.
 6. Press ``SPACE`` to complete or Press ``ESC`` to cancel.
 
 Interface
@@ -44,11 +45,21 @@ Depth
 Heigh
  Height of a box
  
-Border Test
+Border Check
  If on, the ray cast will run and it checks if the created box is beyond the opposite polygons.
  
 Glue
  The box with this property enabled will be glued to the polygon where it started to be created. It means that the hidden part of the floor polygon by the created box is removed.
+ 
+.. figure:: /images/UModeler_BoxTool.gif
+   :scale: 95 %
+
+   Box Tool Demo - Basic and ``Width``, ``Depth``, ``Height`` and ``Border Check`` properties
+   
+.. figure:: /images/UModeler_BoxTool2.gif
+   :scale: 95 %
+
+   Box Tool Demo - ``Glue`` property and enabled `Snap`
 
 ------------------------------------------------------------------------------------------------------
 
@@ -90,11 +101,16 @@ Heigh
 Thickness
  The distance between outer box and inner flipped box.
 
-Border Test
+Border Check
  If this is enabled, the ray cast will run and it checks if the created room is beyond the other polygons.
  
 Glue
  The room with this property enabled will be glued to the polygon where it started to be created. It means that the hidden part of the floor polygon by the created room is removed.
+ 
+.. figure:: /images/UModeler_RoomTool.gif
+   :scale: 95 %
+
+   Room Tool Demo
 
 ------------------------------------------------------------------------------------------------------
 
@@ -143,11 +159,21 @@ Wide Step
 Reverse
  Reverses the front and back.
  
-Border Test
+Border Check
  If this is enabled, the ray cast will run and it checks if the created stair is beyond the other polygons.
  
 Glue
  The stair with this property enabled will be glued to the polygon where it started to be created. It means that the hidden part of the floor polygon by the created stair is removed.
+ 
+.. figure:: /images/UModeler_StairTool.gif
+   :scale: 95 %
+
+   Stair Tool Demo
+   
+.. figure:: /images/UModeler_StairTool2.gif
+   :scale: 95 %
+
+   Stair Tool Demo - Constructing a stair on a mesh
 
 ------------------------------------------------------------------------------------------------------
 
@@ -189,12 +215,16 @@ Height
 Angle Snap
  When you drag the mouse with this property on, the disk’s direction will snap to every 90 degree.
 
-Border Test
+Border Check
  If this is enabled, the ray cast will run and it checks if the created cylinder is beyond the other polygons.
  
 Glue
  The cylinder with this property enabled will be glued to the polygon where it started to be created. It means that the hidden part of the floor polygon by the created cylinder is removed.
 
+.. figure:: /images/UModeler_CylinderTool.gif
+   :scale: 95 %
+
+   Cylinder Tool Demo 
 
 ------------------------------------------------------------------------------------------------------
 
@@ -237,11 +267,16 @@ Height
 Angle Snap
  When you drag the mouse with this property on, the disk’s direction will snap to every 90 degree.
 
-Border Test
+Border Check
  If this is enabled, the ray cast will run and it checks if the created cone is beyond the other polygons.
 
 Glue
  The cone with this property enabled will be glued to the polygon where it started to be created. It means that the hidden part of the floor polygon by the created cone is removed.
+ 
+.. figure:: /images/UModeler_ConeTool.gif
+   :scale: 95 %
+
+   Cone Tool Demo  
 
 ------------------------------------------------------------------------------------------------------
 
@@ -277,6 +312,11 @@ Radius
 
 Angle Snap
  When you drag the mouse with this property on, the sphere’s forward direction will snap to every 90 degree time.
+ 
+.. figure:: /images/UModeler_SphereTool.gif
+   :scale: 95 %
+
+   Sphere Tool Demo
 
 ------------------------------------------------------------------------------------------------------
 
@@ -308,8 +348,13 @@ Height
 Angle Snap
  When you drag the mouse with this property on, the capsule’s forward direction will snap to every 90 degree.
 
-Border Test
+Border Check
  If this is enabled, the ray cast will run and it checks if the created capsule is beyond the other polygons.
 
 Glue
  This property in Capsule tool isn’t used.
+ 
+.. figure:: /images/UModeler_CapsuleTool.gif
+   :scale: 95 %
+
+   Capsule Tool Demo 
