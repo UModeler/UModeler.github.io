@@ -32,7 +32,7 @@ Welcome to the UModeler Manual!
 
 This is the manual for 3D Modeling tool working on Unity Editor.
 
-You can get it from `Unity Asset Store <https://assetstore.unity.com/packages/tools/modeling/umodeler-80868>`__.
+You can get UModeler from `Unity Asset Store <https://assetstore.unity.com/packages/tools/modeling/umodeler-80868>`__.
 
 .. only:: builder_html
 
