@@ -9,7 +9,7 @@ Adds and assigns materials to the polygons.
 
 Steps
 --------------------
-1. Select ``Material`` tool.
+1. Select ``Material Tool``.
 2. Select polygons where you want to assign a material if no polygon is selected.
 3. If ``Materials`` doesn’t have a material you want, add a new material by clicking ``Add Material`` button to open the material box and select one. 
 4. Click ``LMB`` holding ``SHIFT`` over a polygon to which you want to assign the current material.
@@ -60,7 +60,7 @@ Sets UV parameters such as ``Shift``, ``Scale`` and ``Rotation`` etc to each pol
  
 Steps
 ---------------
-1. Select ``UV`` tool.
+1. Select ``UV Tool``.
 2. Select polygons like you did in Polygon tool if no polygon is selected.
 3. Adjust ``Shift``, ``Scale`` and ``Rotation`` properties in Properties.
 
@@ -122,8 +122,8 @@ Sets colors to the polygons. Pressing or Dragging ``LMB`` holding ``SHIFT`` will
 
 Steps
 ---------
-1. Go to ``Color`` tool
-2. Select polygons like you did in ``Polygon`` tool if no polygon is selected.
+1. Go to ``Color Tool``
+2. Select polygons like you did in ``Polygon Tool`` if no polygon is selected.
 3. Click ``LMB`` on Color bar in Properties
 4. Choose a color which you want. 
 

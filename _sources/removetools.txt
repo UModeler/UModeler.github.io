@@ -8,7 +8,7 @@ Eraser Tool
 There are two modes of deleting elements. One is ``Immediate Mode`` and the other is ``Edit Mode``.
 
  * ``Immediate Mode`` - Select elements at first and then click on ``Eraser`` button to remove them.
- * ``Edit Mode`` - Select ``Eraser`` tool first with no selected elements and then click on an edge which you want to remove.
+ * ``Edit Mode`` - Select ``Eraser Tool`` first with no selected elements and then click on an edge which you want to remove.
  
 When you try to erase an edge shared by two coplanar polygons, only the edge will be removed and the two shared polygons will be merged. Otherwise, the two polygons will be removed, too.
 
@@ -44,7 +44,7 @@ Merges all the selected vertices in one unique one. The location of the survivin
 
 .. note::
 
- | If you select ``Combine`` tool with no selected vertices, you will enter ``Combine Vertex`` mode. In this mode you can selected vertices and set up some options and combine them.
+ | If you select ``Combine Tool`` with no selected vertices, you will enter ``Combine Vertex`` mode. In this mode you can selected vertices and set up some options and combine them.
  | However, if you click on ``Combine`` button with some vertices selected, the combine action will happen immediately.
    
 Properties

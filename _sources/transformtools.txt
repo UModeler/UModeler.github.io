@@ -84,7 +84,7 @@ Candidate Set
 Snap tool
 ==========
 
-Moves a polygon to the specific position. This tool can be used to set a profile polygon for ``Follow`` tool. 
+Moves a polygon to the specific position. This tool can be used to set a profile polygon for ``Follow Tool``. 
 
 Properties
 -----------

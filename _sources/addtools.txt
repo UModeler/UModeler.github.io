@@ -15,7 +15,7 @@ You can also select new edges within this tool for continuous edge extrusion.
    
 Steps
 ---------------
-1. Select ``Extrude Edge`` tool.
+1. Select ``Extrude Edge Tool``.
 2. Select several edges if there are no selected elements.
 3. Move the translation gizmo by dragging to create polygons between the first edges and the new edges.   
 
@@ -66,7 +66,7 @@ Repeat the previous
    
 Steps - Single Inset
 ----------------------
-1. Select ``Inset`` tool with no selection.
+1. Select ``Inset Tool`` with no selection.
 2. Click on a polygon you want to apply Inset to.
 3. Drag the cursor to define thickness.
 4. Release ``LMB``
@@ -75,7 +75,7 @@ Steps - Single Inset
 
 Steps - Multiple Inset
 ----------------------
-1. Select ``Inset`` tool with some polygons selected using ``Polygon`` tool.
+1. Select ``Inset Tool`` with some polygons selected using ``Polygon Tool``.
 2. Start to drag the mouse from a polygon or adjust ``Thickness`` property directly.
 3. If necessary, adjust ``Thickness`` property in ``Properties`` to give the precise value.
 4. Press ``SPACE`` to complete or Press ``ESC`` to cancel.

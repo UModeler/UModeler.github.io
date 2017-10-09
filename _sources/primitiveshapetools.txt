@@ -16,7 +16,7 @@ You can create a box with this tool on a plane.
 
 Steps
 -------------
-1. Select ``Box`` tool
+1. Select ``Box Tool``
 2. Draw a rectangle on a plane by dragging the mouse.
 3. Release ``LMB`` and move the mouse up in a normal to raise the height.
 4. Click ``LMB`` to stop raising.
@@ -70,7 +70,7 @@ This is nearly same as the box tool except creating a flipped inner box.
 Steps
 -----------
 1. Select ``Room` tool
-2. Draw a rectangle on where you want like you use ``Rectangle`` tool by dragging the mouse.
+2. Draw a rectangle on where you want like you use ``Rectangle Tool`` by dragging the mouse.
 3. Release ``LMB`` and move the mouse up in a normal direction to raise the height.
 4. Click ``LMB`` to stop raising.
 5. If necessary, type the precise size in ``Width``, ``Depth``, ``Height`` or ``Thickness`` fields in Properties.
@@ -121,7 +121,7 @@ Creates stairs like you creates a box. The stair created with this tool has a un
 
 Steps
 --------
-1. Select ``Stair`` tool
+1. Select ``Stair Tool``
 2. Draw a rectangle by dragging the mouse.
 3. Release ``LMB`` and move the mouse up in a normal direction to raise the height.
 4. Click ``LMB`` to stop raising.
@@ -183,7 +183,7 @@ Creates a cylinder
 
 Steps
 ----------
-1. Select ``Cylinder`` tool
+1. Select ``Cylinder Tool``
 2. Drag the mouse to draw a disk.
 3. Release ``LMB`` and move the mouse cursor in a normal direction to raise the height.
 4. Click ``LMB`` to stop rasing.
@@ -235,7 +235,7 @@ Creates a cone
 
 Steps
 ------
-1. Select ``Cone`` tool
+1. Select ``Cone Tool``
 2. Drag the mouse to draw a disk.
 3. Release ``LMB`` and move the mouse cursor in a normal direction to raise the height.
 4. Click ``LMB`` to stop rasing.
@@ -286,7 +286,7 @@ Creates a sphere
 
 Steps
 --------
-1. Enter ``Sphere`` tool
+1. Enter ``Sphere Tool``
 2. Drag the mouse holding ``LMB`` to define a radius. The sphere will be created from the center of the bottom.
 4. You can type more precise values of ``Segment`` and ``Radius`` if necessary.
 5. Press ``SPACE`` to complete or Press ``ESC`` to cancel.
@@ -327,7 +327,7 @@ Creates a capsule
 
 Steps
 ------------
-1. Select ``Capsule`` tool
+1. Select ``Capsule Tool``
 2. Drag the mouse to draw a disk.
 3. Release ``LMB`` and move the mouse in a normal direction to raise up a capsule.
 4. Click ``LMB`` to stop.

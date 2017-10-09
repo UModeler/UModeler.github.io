@@ -4,7 +4,7 @@ Push/Pull Tools
 
 .. tip::
 
- If you want a uniform size of height in ``PushPull`` tool, enable ``Snap`` in ``Settings > Snap``
+ If you want a uniform size of height in ``PushPull Tool``, enable ``Snap`` in ``Settings > Snap``
 
 PushPull Tool
 =====================
@@ -13,7 +13,7 @@ Extrudes a polygon in a normal direction of it. You can push/pull any type of po
    
 Steps
 -----------
-1. Go to ``PushPull`` tool with no selection
+1. Go to ``PushPull Tool`` with no selection
 2. Move the mouse cursor to a polygon you want to extrude
 3. Start to drag from the polygon in a normal direction of it.
 4. Release ``LMB`` when you finish the extrusion.
@@ -83,7 +83,7 @@ Multiple polygons are pushed or pulled along a helper line
 
 Steps
 ---------------
-1. Go to ``Multi PushPull`` tool.
+1. Go to ``Multi PushPull Tool``.
 2. If no selected polygons, select several polygons. Then you can see the ``Help Line`` in yellow.
 3. Click ``LMB`` on any point on the ``Helper Line``.
 4. Drag the mouse along the line.

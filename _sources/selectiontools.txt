@@ -13,7 +13,7 @@ If there are any selected elements, they will be unselected. Otherwise, all elem
 
 Steps
 -------
-1. Click on ``All/None tool`` button.
+1. Click on ``All/None Tool`` button.
 
 .. figure:: /images/UModeler_AllNoneSelectionTool.gif
    :scale: 95 %
@@ -29,7 +29,7 @@ Selects geometry connected to already selected elements. This is often useful wh
 
 Steps
 --------
-1. Select ``Isloated`` tool with any elements selected.
+1. Select ``Isloated Tool`` with any elements selected.
 
 .. figure:: /images/UModeler_IsolatedSelection_v2.gif
    :scale: 95 %
@@ -64,7 +64,7 @@ If the selected edge is a part of a hole, all the edges of the holes will be sel
 Steps
 ---------
 1. Select an edge if you want ``Edge Loops`` or ``Hole Selection``. Select two serise quad polygons if you want ``Quad Loops``.
-2. Select ``Loop`` tool.
+2. Select ``Loop Tool``.
 
 .. figure:: /images/UModeler_HoleSelection_v2.gif
    :scale: 95 %
@@ -88,8 +88,8 @@ Lets you select several polygons across a mesh without having to select each pol
 
 Steps
 ------------
-1. If you want ``Edge Rings`` selects an edge using Edge tool. If you want ``Quad Rings`` selects two series quad polygons.
-2. Selects ``Ring`` tool.
+1. If you want ``Edge Rings`` select an edge using Edge tool. If you want ``Quad Rings`` select two series quad polygons.
+2. Select ``Ring Tool``.
 
 .. figure:: /images/UModeler_RingSelectionTool.gif
    :scale: 95 %
@@ -106,7 +106,7 @@ The selection will be inverted. It means the selected ones will get deselected a
 Steps
 --------
 1. Select vertices, edges or a polygons.
-2. Select ``Invert`` tool.
+2. Select ``Invert Tool``.
 
 .. figure:: /images/UModeler_InvertSelection_v2.gif
    :scale: 95 %
@@ -124,7 +124,7 @@ Expands the current selection outwards in all directions from the current select
 Steps
 --------
 1. Select vertices, edges or a polygons.
-2. Select ``Increase`` tool.
+2. Select ``Increase Tool``.
 
 .. figure:: /images/UModeler_IncreaseSelection_v2.gif
    :scale: 95 %

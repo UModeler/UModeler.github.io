@@ -16,7 +16,7 @@ You can draw edges on a surface or on a floor in a row to sketch or cut a polygo
 
 Steps
 -------
-1. Select ``Line`` tool under Drawing
+1. Select ``Line Tool`` under Drawing
 2. Click ``LMB`` on where you want to start to draw.
 3. Click ``LMB`` to place another point to draw an edge.
 4. You can draw successive edges by putting points until pressing ``SPACE``.
@@ -47,7 +47,7 @@ Draws an arc by placing three points on a plane.
 
 Steps
 -------
-1. Select ``Arc`` tool
+1. Select ``Arc Tool``
 2. Click on where you want to start to draw an arc
 3. Drag the mouse to set the second point.
 4. Release ``LMB`` and move the mouse cursor to set the third point of the arc.
@@ -87,7 +87,7 @@ Draws a rectangle by dragging the mouse to set two corners.
  
 Steps
 --------
-1. Go to ``Rectangle`` tool under Primitive Shapes.
+1. Go to ``Rectangle Tool`` under Primitive Shapes.
 2. Drag a mouse to set two corner points on any plane.
 3. Release ``LMB``.
 4. If necessary, adjust ``Width``, ``Height`` or ``Corner Length`` properties.
@@ -131,7 +131,7 @@ Draws a disk by setting a center and a radius.
 
 Steps
 -----------
-1. Select ``Disk`` tool
+1. Select ``Disk Tool``
 2. Drag the mouse to draw a disk by setting a center and a radius of a disk.
 3. You can type more precise radius and the number of segment in ``Radius`` and ``Segment`` fields in Properties.
 4. Press ``SPACE`` to complete or Press ``ESC`` to cancel.
@@ -201,7 +201,7 @@ The closest edge from the mouse gets copied and it will be moved parallel to the
 
 Steps
 --------
-1. Select ``Parallel`` tool
+1. Select ``Parallel Tool``
 2. Move the mouse cursor to any point nearby the edge you want to copy and move.
 3. Start to drag the mouse holding ``LMB`` in a normal direction of the original edge.
 4. Release ``LMB`` where you want to put the copied edge.
