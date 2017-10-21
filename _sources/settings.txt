@@ -39,6 +39,11 @@ Frame
 Snap
 ======
 
+.. figure:: /images/UModeler_GridSnapping.gif
+   :scale: 95 %
+   
+   Grid Snap Example
+
 Enable
  Enables snapping
 
