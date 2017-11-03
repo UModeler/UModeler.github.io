@@ -3,9 +3,15 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 .. figure:: /images/UModeler_Island3.jpg
-   :scale: 55 %
+   :scale: 55 %  
 	
    UModeler on Unity
+   
+.. raw:: html
+
+ <iframe src="https://api.assetstore.unity3d.com/affiliate/embed/package/80868/widget-wide-light?aid=1011l36n8" style="width:600px; height:130px; border:0px;"></iframe>
+
+| 
 
 .. only:: latex or epub or singlehtml
 
@@ -31,8 +37,6 @@
 Welcome to the UModeler Manual!
 
 This is the manual for 3D Modeling tool working on Unity Editor.
-
-You can get UModeler from `Unity Asset Store <https://www.assetstore.unity3d.com/#!/content/80868>`__.
 
 .. only:: builder_html
 
