@@ -9,7 +9,7 @@
    
 .. raw:: html
 
- <iframe src="https://api.assetstore.unity3d.com/affiliate/embed/package/80868/widget-wide-light?aid=1011l36n8" style="width:600px; height:130px; border:0px;"></iframe>
+ <iframe src="https://api.assetstore.unity3d.com/affiliate/embed/package/80868/widget-light?aid=1011l36n8" style="width:202px; height:260px; border:0px;"></iframe>
 
 | 
 
