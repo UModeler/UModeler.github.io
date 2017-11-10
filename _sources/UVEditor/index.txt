@@ -10,7 +10,7 @@ UV Editor
  .. figure:: /images/UModeler_UVEditor.png
     :scale: 95 % 
 	
-    A pillar made using UModeler and UVs unwrapped and edited with UVEditor 
+    Cart made using UModeler and UVs unwrapped and edited with UVEditor 
 
 .. toctree::
    :maxdepth: 2
