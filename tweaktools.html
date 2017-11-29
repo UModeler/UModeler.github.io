@@ -102,6 +102,16 @@
 <li class="toctree-l3"><a class="reference internal" href="#properties">Properties</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="#align-tool">Align Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#steps">Steps</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id1">Properties</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#flip-tool">Flip Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id2">Steps</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id3">Properties</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="surfacetools.html">Surface Tools</a></li>
@@ -157,7 +167,7 @@
 <div class="section" id="invert-face-tool">
 <h2>Invert Face Tool<a class="headerlink" href="#invert-face-tool" title="Permalink to this headline">¶</a></h2>
 <p>Flips the selected polygons.</p>
-<div class="figure" id="id1">
+<div class="figure" id="id4">
 <a class="reference internal image-reference" href="_images/UModeler_InvertFaceTool.gif"><img alt="_images/UModeler_InvertFaceTool.gif" src="_images/UModeler_InvertFaceTool.gif" style="width: 760.0px; height: 460.75px;" /></a>
 <p class="caption"><span class="caption-text">Selects several polygons and flips them.</span></p>
 </div>
@@ -183,9 +193,72 @@
 <p class="first admonition-title">Note</p>
 <p class="last">In order to change properties you should select <code class="docutils literal"><span class="pre">Flatten</span> <span class="pre">Tool</span></code> without any selected elements.</p>
 </div>
-<div class="figure" id="id2">
+<div class="figure" id="id5">
 <a class="reference internal image-reference" href="_images/UModeler_FlattenTool_v2.gif"><img alt="_images/UModeler_FlattenTool_v2.gif" src="_images/UModeler_FlattenTool_v2.gif" style="width: 760.0px; height: 460.75px;" /></a>
 <p class="caption"><span class="caption-text">Flattens a few polygons and combines them using <code class="docutils literal"><span class="pre">Combine</span> <span class="pre">Tool</span></code>.</span></p>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="align-tool">
+<h2>Align Tool<a class="headerlink" href="#align-tool" title="Permalink to this headline">¶</a></h2>
+<p>Aligns the vertices of the selected elements within bounds.</p>
+<div class="section" id="steps">
+<h3>Steps<a class="headerlink" href="#steps" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Select <code class="docutils literal"><span class="pre">Align</span> <span class="pre">Tool</span></code> with the selected elements, or Enter <code class="docutils literal"><span class="pre">Align</span> <span class="pre">Tool</span></code> and select vertices.</li>
+<li>Choose Axis and Location in Properties.</li>
+<li>Click on <code class="docutils literal"><span class="pre">Align</span></code> button.</li>
+</ol>
+</div>
+<div class="section" id="id1">
+<h3>Properties<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><dl class="docutils">
+<dt>Axis</dt>
+<dd>X, Y, or Z axis for alignment.</dd>
+<dt>Location</dt>
+<dd><ul class="first last simple">
+<li><code class="docutils literal"><span class="pre">Min</span></code> - Minimum location of the selected axis.</li>
+<li><code class="docutils literal"><span class="pre">Middle</span></code> - Middle location of the selected axis.</li>
+<li><code class="docutils literal"><span class="pre">Max</span></code> - Maximum location of the selected axis.</li>
+</ul>
+</dd>
+</dl>
+</div></blockquote>
+<div class="figure" id="id6">
+<a class="reference internal image-reference" href="_images/UModeler_AlignTool.gif"><img alt="_images/UModeler_AlignTool.gif" src="_images/UModeler_AlignTool.gif" style="width: 760.0px; height: 481.65px;" /></a>
+<p class="caption"><span class="caption-text">Align Tool Demo.</span></p>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="flip-tool">
+<h2>Flip Tool<a class="headerlink" href="#flip-tool" title="Permalink to this headline">¶</a></h2>
+<p>Flips the selected polygons along its local X-, Y- or Z-Axes across the mirror plane center. This tool behaves like the Mirror tool to some degree.</p>
+<div class="section" id="id2">
+<h3>Steps<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Select <code class="docutils literal"><span class="pre">Flip</span> <span class="pre">Tool</span></code> with the selected polygons.</li>
+<li>Adjust <code class="docutils literal"><span class="pre">Axis</span></code>, <code class="docutils literal"><span class="pre">Distance</span></code> and <code class="docutils literal"><span class="pre">Invert</span></code> properties to set the mirror plane.</li>
+<li>Click on <code class="docutils literal"><span class="pre">Flip</span></code> button.</li>
+</ol>
+</div>
+<div class="section" id="id3">
+<h3>Properties<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt>Axis</dt>
+<dd>Mirror plane axis</dd>
+<dt>Invert</dt>
+<dd>Inverts the direction of the mirror plane.</dd>
+<dt>Distance</dt>
+<dd>The distance of the mirror plane.</dd>
+<dt>Flip</dt>
+<dd>Flips the selected polygons.</dd>
+</dl>
+<div class="figure" id="id7">
+<a class="reference internal image-reference" href="_images/UModeler_FlipTool.gif"><img alt="_images/UModeler_FlipTool.gif" src="_images/UModeler_FlipTool.gif" style="width: 760.0px; height: 481.65px;" /></a>
+<p class="caption"><span class="caption-text">Flip Tool Demo.</span></p>
 </div>
 </div>
 </div>

@@ -2,7 +2,7 @@
 UModeler 1.0
 ############################
 
-1.0.6/1.0.5 (05/03/2017)
+1.0.6/1.0.5
 -----------------------------------
 
  .. figure:: /images/UModeler_1.0.5_ScreenShot.png
@@ -31,7 +31,7 @@ UModeler 1.0
  - Enabled to get shortcut input possible in the inspector.
  - Removed Resources folder and moved all data there to UModeler folder reorganizing the folder structure.
 
-1.0.4 (05/02/2017)
+1.0.4
 -----------------------------------
  - Fix - Preferece for key setting : Wrong positions of UIs in Preference for setting up keys on Unity 5.6
  - Fix - Transform tool : Flickering gizmos in Vertex/Edge/Polygon tools when more 2 views are open.
@@ -46,7 +46,7 @@ UModeler 1.0
  
  .. figure:: /images/UModeler_Rectangle_Corner_Length_Segment.gif
 
-1.0.3 (04/26/2017)
+1.0.3
 -----------------------------------
  - Feature - Combine Tool : Added "Combine Vertex" button in the inspector to enable to merge vertices without leaving Combine tool. 
  
@@ -62,14 +62,14 @@ UModeler 1.0
  
  - Fix - Export tool : Fixed x-axis flipped coordinates bug as exporting to .OBJ file.
 
-1.0.2 (04/19/2017)
+1.0.2
 -----------------------------------
  - Obj Exporter has been fixed so that duplicated positions, uv coordinates and normals are handled.
  - Remove Doubles Tool - The default value of the Distance property has been changed from 0.0001 to 1.0.
  - Push/Pull tool - DrawMargins property has been renamed to DrawEdges.
  - ShearTool has been renamed to CutTool.
 
-1.0.1 (04/11/2017)
+1.0.1
 -----------------------------------
  - Fixed a bug about the 3D cursor, which didn’t work as having the selected elements rotated or scaled around 3D cursor.
  - Added .prefab export.

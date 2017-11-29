@@ -143,7 +143,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#id13">Properties</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#copy-tool">Copy Tool</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#duplicate-tool-formerly-called-copy-tool">Duplicate Tool (Formerly called Copy Tool)</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#id14">Steps</a></li>
 </ul>
 </li>
@@ -342,8 +342,8 @@
 <div class="section" id="steps-start-mirror-mode">
 <h3>Steps - Start Mirror Mode<a class="headerlink" href="#steps-start-mirror-mode" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
-<li>Select <code class="docutils literal"><span class="pre">MirrorTool</span></code>.</li>
-<li>Adjust <code class="docutils literal"><span class="pre">Axis</span></code>, <code class="docutils literal"><span class="pre">Distance</span></code> and <code class="docutils literal"><span class="pre">Invert</span></code> properties to set the plane mirror.</li>
+<li>Select <code class="docutils literal"><span class="pre">Mirror</span> <span class="pre">Tool</span></code>.</li>
+<li>Adjust <code class="docutils literal"><span class="pre">Axis</span></code>, <code class="docutils literal"><span class="pre">Distance</span></code> and <code class="docutils literal"><span class="pre">Invert</span></code> properties to set the mirror plane.</li>
 <li>Click on <code class="docutils literal"><span class="pre">Start</span></code> button.</li>
 </ol>
 </div>
@@ -363,8 +363,17 @@
 <dd>Inverts the direction of the plane mirror.</dd>
 <dt>Distance</dt>
 <dd>The distance of the plane mirror</dd>
-<dt>Leave Boundary</dt>
-<dd>Leaves a boundary after finishing the mirror mode.</dd>
+<dt>Boundary</dt>
+<dd><dl class="first last docutils">
+<dt>How to deal with the boundary edges between the edited part and the mirrored part.</dt>
+<dd><ul class="first last simple">
+<li><code class="docutils literal"><span class="pre">Remove</span></code> : Removes the boundary edges.</li>
+<li><code class="docutils literal"><span class="pre">Remain</span></code> : Remains the boundary edges.</li>
+<li><code class="docutils literal"><span class="pre">Ignore</span></code> : Ignores the polygons across boundary edges as mirroring is done.</li>
+</ul>
+</dd>
+</dl>
+</dd>
 <dt>Start</dt>
 <dd>Starts the mirror mode.</dd>
 <dt>Done</dt>
@@ -532,18 +541,18 @@ Values less than 0.5 gives concave bevel and values more than 0.5 gives convex b
 </div>
 </div>
 <hr class="docutils" />
-<div class="section" id="copy-tool">
-<h2>Copy Tool<a class="headerlink" href="#copy-tool" title="Permalink to this headline">¶</a></h2>
-<p>Copies the selected elements. The copied polygons&#8217; center cubes will have pink color, which means that they will move separately by a gizmo.</p>
+<div class="section" id="duplicate-tool-formerly-called-copy-tool">
+<h2>Duplicate Tool (Formerly called Copy Tool)<a class="headerlink" href="#duplicate-tool-formerly-called-copy-tool" title="Permalink to this headline">¶</a></h2>
+<p>Duplicates the selected polygons. The duplicated polygons&#8217; center cubes will have pink color, which means that they will move separately by a gizmo.</p>
 <div class="section" id="id14">
 <h3>Steps<a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
-<li>Select several polygons with <code class="docutils literal"><span class="pre">PolygonTool</span></code>.</li>
-<li>Select <code class="docutils literal"><span class="pre">CopyTool</span></code>.</li>
+<li>Select several polygons with <code class="docutils literal"><span class="pre">Polygon</span> <span class="pre">Tool</span></code>.</li>
+<li>Select <code class="docutils literal"><span class="pre">Duplicate</span> <span class="pre">Tool</span></code>.</li>
 </ol>
 <div class="figure" id="id26">
 <a class="reference internal image-reference" href="_images/UModeler_CopyTool.gif"><img alt="_images/UModeler_CopyTool.gif" src="_images/UModeler_CopyTool.gif" style="width: 760.0px; height: 484.5px;" /></a>
-<p class="caption"><span class="caption-text">Copy Tool Demo</span></p>
+<p class="caption"><span class="caption-text">Duplicate Tool Demo</span></p>
 </div>
 </div>
 </div>

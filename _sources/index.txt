@@ -2,10 +2,10 @@
  UModeler Reference Manual
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-.. figure:: /images/UModeler_Island3.jpg
+.. figure:: /images/sm_UM_Screen08.png
    :scale: 55 %  
 	
-   UModeler on Unity
+   Village on the water modeled with only UModeler.
    
 .. raw:: html
 
@@ -36,7 +36,7 @@
 
 Welcome to the UModeler Manual!
 
-This is the manual for 3D Modeling tool working on Unity Editor.
+This is the manual of UModeler, which is the Unity extension for modeling and prototyping.
 
 .. only:: builder_html
 

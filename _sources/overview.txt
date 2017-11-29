@@ -64,6 +64,9 @@ Layout
 ``[6]`` Coordinate Frame
  Selecting a coordinate frame of both ``Global`` and ``Local``.
  
+``[7]`` UV Editor
+ The area for editing UVs.
+ 
 ----------------------------------------------------------------------------------------------------------------------
 
 User Interface

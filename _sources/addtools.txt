@@ -151,8 +151,8 @@ Mirrors a mesh along its local X,Y or Z Axes. When the mirror mode is enabled, e
    
 Steps - Start Mirror Mode
 --------------------------------
-1. Select ``MirrorTool``.
-2. Adjust ``Axis``, ``Distance`` and ``Invert`` properties to set the plane mirror.
+1. Select ``Mirror Tool``.
+2. Adjust ``Axis``, ``Distance`` and ``Invert`` properties to set the mirror plane.
 3. Click on ``Start`` button.
 
 Steps - Comfirm
@@ -172,8 +172,11 @@ Invert
 Distance
  The distance of the plane mirror
 
-Leave Boundary
- Leaves a boundary after finishing the mirror mode.
+Boundary
+ How to deal with the boundary edges between the edited part and the mirrored part.
+  * ``Remove`` : Removes the boundary edges.
+  * ``Remain`` : Remains the boundary edges.
+  * ``Ignore`` : Ignores the polygons across boundary edges as mirroring is done. 
 
 Start
  Starts the mirror mode.
@@ -342,17 +345,17 @@ Arrangement
 
 ------------------------------------------------------------------------------------------------------
 
-Copy Tool
+Duplicate Tool (Formerly called Copy Tool)
 ===================
 
-Copies the selected elements. The copied polygons' center cubes will have pink color, which means that they will move separately by a gizmo.
+Duplicates the selected polygons. The duplicated polygons' center cubes will have pink color, which means that they will move separately by a gizmo.
    
 Steps
 ---------
-1. Select several polygons with ``PolygonTool``.
-2. Select ``CopyTool``.
+1. Select several polygons with ``Polygon Tool``.
+2. Select ``Duplicate Tool``.
    
 .. figure:: /images/UModeler_CopyTool.gif
    :scale: 95 %
 
-   Copy Tool Demo   
+   Duplicate Tool Demo   

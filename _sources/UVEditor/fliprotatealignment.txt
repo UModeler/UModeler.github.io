@@ -72,5 +72,15 @@ H(oritontal) Center
     :scale: 95 %
   
     Alignment tools demo.  
+	
+Boundary
+ Aligns with a boundary box of the last selected polygon or uvisland.
+ 
+ .. figure:: /images/UModeler_UVEditor_AlignBoundary.gif
+    :scale: 95 %
+  
+    Boundary Alignment tool demo.
+ 
+ 
  
  
