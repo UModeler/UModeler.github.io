@@ -13,19 +13,19 @@ Opens ``About`` window.
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
-Create Modeler Object
+Create 
 ==========================
 Creates a game object with a ``UModeler`` component.
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
-Create Modeler Objec with  Collider
+Create with  Collider
 ========================================
 Creates a game object with a ``UModeler`` component and a ``Mesh Collider`` component.
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
-Add UModeler To Select Objects
+UModelerize
 ========================================
 Adds ``UModeler`` component to all the selected game objects with a ``Mesh Filter`` component to make the mesh editable.
 
@@ -36,7 +36,7 @@ Adds ``UModeler`` component to all the selected game objects with a ``Mesh Filte
 
 ---------------------------------------------------------------------------------------------------------------------------------
    
-Add UModeler Hierarchically
+UModelerize Hierarchically
 ========================================
 Adds ``UModeler`` component to all the selected game objects and all those child objects with a ``Mesh Filter`` component to make the mesh editable.
 

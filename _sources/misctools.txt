@@ -66,15 +66,20 @@ Adds a Mesh Collider component.
 
 -----------------------------------------------------------------------------------
 
-Backface Tool
-=================
+Local Settings Tool
+=====================
 
-Renders backfaces.
+Sets up local variables.
 
 Properties
 -------------
-Turn on
- backfaces on
+Backface
+ backfaces on/off
 
-Turun off
- backfaces off
+Generate Lightmap UVs
+ If it's on, Secondary UVs for lightmap will be generated every time UModeler mesh changes. 
+ 
+.. figure:: /images/UModeler_GenerateLightmapUVs.gif
+   :scale: 95 %
+	
+   ``Generate Light UVs`` Demo.
