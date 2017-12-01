@@ -1,3 +1,5 @@
+.. _uveditor_label:
+
 ############
 UV Editor
 ############

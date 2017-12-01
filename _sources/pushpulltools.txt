@@ -1,3 +1,5 @@
+.. _pushpull_tool_label:
+
 ################
 Push/Pull Tools
 ################

@@ -102,7 +102,14 @@
 <li class="toctree-l1"><a class="reference internal" href="misctools.html">Misc Tools</a></li>
 <li class="toctree-l1"><a class="reference internal" href="UVEditor/index.html">UV Editor</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="releasenotes.html">Release Notes</a><ul class="current">
-<li class="toctree-l2 current"><a class="current reference internal" href="#">UModeler 2.0</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">UModeler 2.0</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-0">Version 2.0</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#improvements-features">Improvements &amp; Features</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#fixes-tweaks">Fixes &amp; Tweaks</a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="releasenotes_UModeler_1.0.html">UModeler 1.0</a></li>
 <li class="toctree-l2"><a class="reference internal" href="releasenotes_UModelerBasic.html">UModeler Basic</a></li>
 </ul>
@@ -155,7 +162,47 @@
             
   <div class="section" id="umodeler-2-0">
 <h1>UModeler 2.0<a class="headerlink" href="#umodeler-2-0" title="Permalink to this headline">¶</a></h1>
-<p>Coming Soon!</p>
+<blockquote>
+<div><div class="figure">
+<img alt="_images/UModeler_Banner.png" src="_images/UModeler_Banner.png" />
+</div>
+</div></blockquote>
+<div class="section" id="version-2-0">
+<h2>Version 2.0<a class="headerlink" href="#version-2-0" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="improvements-features">
+<h3>Improvements &amp; Features<a class="headerlink" href="#improvements-features" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>UV Editor has been added. See <a class="reference internal" href="UVEditor/index.html#uveditor-label"><span class="std std-ref">UV Editor</span></a></li>
+<li><code class="docutils literal"><span class="pre">Properties</span></code> in the inspector is displayed under the group of the selected tool.</li>
+<li>Added the clone of the selected polygons.</li>
+<li><code class="docutils literal"><span class="pre">FreezeXForm</span> <span class="pre">Tool</span></code> - Renamed to <code class="docutils literal"><span class="pre">Bake</span> <span class="pre">Transform</span></code> and divided it into Scale and Rotation.</li>
+<li>Added generating Lightmap UVs in <code class="docutils literal"><span class="pre">Local</span> <span class="pre">Settings</span> <span class="pre">Tool</span></code> under <code class="docutils literal"><span class="pre">Misc</span></code> group in the inspector.</li>
+<li><code class="docutils literal"><span class="pre">Arrange</span> <span class="pre">UV</span> <span class="pre">Islands</span></code> menu item has been added in UModeler tool menu.</li>
+<li>Made a new UModeler game object created under the parent object when clicking on &#8220;Game Object&#8221; or &#8220;Collider Object&#8221; button.</li>
+<li><code class="docutils literal"><span class="pre">Grid</span> <span class="pre">Size</span></code> field has been added to <code class="docutils literal"><span class="pre">Settings/Snap</span></code> to make it possible to specify any grid size.</li>
+<li><code class="docutils literal"><span class="pre">Mirror</span> <span class="pre">Tool</span></code> - Now you can move the mirror plane by <code class="docutils literal"><span class="pre">LMB</span> <span class="pre">Drag</span></code> over the arrow of the mirror plane.</li>
+<li><code class="docutils literal"><span class="pre">Flip</span> <span class="pre">Tool</span></code> has been added in <code class="docutils literal"><span class="pre">Tweak</span></code> group.</li>
+<li><code class="docutils literal"><span class="pre">Align</span> <span class="pre">Tool</span></code> has been added in <code class="docutils literal"><span class="pre">Tweak</span></code> group.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="fixes-tweaks">
+<h3>Fixes &amp; Tweaks<a class="headerlink" href="#fixes-tweaks" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Tweak - <code class="docutils literal"><span class="pre">PushPull</span> <span class="pre">Tool</span></code> : Renamed <code class="docutils literal"><span class="pre">Draw</span> <span class="pre">Edges</span></code> property to <code class="docutils literal"><span class="pre">Continuous</span></code>.</li>
+<li>Tweak - <code class="docutils literal"><span class="pre">Multiple</span> <span class="pre">PushPull</span></code> button has been added. see <a class="reference internal" href="pushpulltools.html#pushpull-tool-label"><span class="std std-ref">Push/Pull Tools</span></a></li>
+<li>Tweak - <code class="docutils literal"><span class="pre">Cut</span> <span class="pre">Tool</span></code> : Made Cutting direction flipped by pressing <code class="docutils literal"><span class="pre">SPACE</span></code> while <code class="docutils literal"><span class="pre">LMB</span></code> Dragging</li>
+<li>Tweak - <code class="docutils literal"><span class="pre">Backface</span> <span class="pre">Tool</span></code> : Renamed to <code class="docutils literal"><span class="pre">Local</span> <span class="pre">Settings</span></code></li>
+<li>Tweak - <code class="docutils literal"><span class="pre">Copy</span> <span class="pre">Tool</span></code> : Renamed to <code class="docutils literal"><span class="pre">Duplicate</span> <span class="pre">Tool</span></code></li>
+<li>Tweak - <code class="docutils literal"><span class="pre">Game</span> <span class="pre">Object</span></code> and <code class="docutils literal"><span class="pre">Collider</span> <span class="pre">Object</span></code> buttons have been moved to <code class="docutils literal"><span class="pre">Misc</span></code> group.</li>
+<li>Bugfix - Not displaying triangulation result has been fixed.</li>
+<li>Bugfix - Spotty lightmap bug has been fixed.</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
 </div>
 
 
