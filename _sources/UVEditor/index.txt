@@ -17,7 +17,7 @@ UV Editor
 .. toctree::
    :maxdepth: 2
 
-   overview.rst
+   overview.rst   
    uvsettings.rst
    uvtransform.rst
    unwrap.rst

@@ -19,6 +19,7 @@
     :maxdepth: 1
    
     overview
+    gettingstarted
     settings
     menu
     transformtools
@@ -53,6 +54,11 @@ Sections
 
          :doc:`overview`
             An overview of UModeler and an introduction of menu, input controls and tools.
+			
+      .. container:: descr
+
+         :doc:`gettingstarted`
+            Tutorial videos and descriptions.
 			
       .. container:: descr
 
