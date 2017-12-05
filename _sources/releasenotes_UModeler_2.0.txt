@@ -21,6 +21,8 @@ Improvements & Features
  - ``Mirror Tool`` - Now you can move the mirror plane by ``LMB Drag`` over the arrow of the mirror plane.
  - ``Flip Tool`` has been added in ``Tweak`` group.
  - ``Align Tool`` has been added in ``Tweak`` group.
+ - ``UV Tool`` - Added moving UVs by pressing Up or Down arrow keys holding CTRL.
+ - ``Combine Tool`` - Pressing ``SPACE`` will combine the selected vertices in ``Combine Tool``.
 
 Fixes & Tweaks
 ----------------

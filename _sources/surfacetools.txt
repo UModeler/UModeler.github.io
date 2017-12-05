@@ -64,6 +64,15 @@ Steps
 2. Select polygons like you did in Polygon tool if no polygon is selected.
 3. Adjust ``Shift``, ``Scale`` and ``Rotation`` properties in Properties.
 
+Interface
+-----------
+
+``CTRL`` + ``UP ARROW``
+ Moves the UVs of the selected polygons up.
+ 
+``CTRL`` + ``DOWN ARROW``
+ Moves the UVs of the selected polygons down.
+
 Properties
 ---------------
 Mode
@@ -93,7 +102,12 @@ Reset UVs
 .. figure:: /images/UModeler_UVTool_v2.gif
    :scale: 90 %
 	
-   UV Tool Demo 
+   UV Tool Demo.
+   
+.. figure:: /images/UModeler_UVTool_ShiftingUVByPressingKeys.gif
+   :scale: 90 %
+
+   Moving the UVs of the selected elements up and down by pressing ``UP`` or ``DOWN`` arrows.
 
 ------------------------------------------------------------------------------------------------------
 

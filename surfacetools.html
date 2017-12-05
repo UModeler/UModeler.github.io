@@ -107,20 +107,21 @@
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#uv-tool">UV Tool</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#id1">Steps</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id2">Properties</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id2">Interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id3">Properties</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#open-uveditor">Open UVEditor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#color-tool">Color Tool</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id3">Steps</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id4">Interface</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id5">Properties</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id4">Steps</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id5">Interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id6">Properties</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#smoothing-group-tool">Smoothing Group Tool</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id6">Steps</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id7">Steps</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#steps-auto-smooth">Steps - Auto Smooth</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id7">Properties</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id8">Properties</a></li>
 </ul>
 </li>
 </ul>
@@ -211,7 +212,7 @@
 <dt>Materials</dt>
 <dd>Material array</dd>
 </dl>
-<div class="figure" id="id8">
+<div class="figure" id="id9">
 <a class="reference internal image-reference" href="_images/UModeler_MaterialTool.gif"><img alt="_images/UModeler_MaterialTool.gif" src="_images/UModeler_MaterialTool.gif" style="width: 720.0px; height: 402.3px;" /></a>
 <p class="caption"><span class="caption-text">Material Tool Demo</span></p>
 </div>
@@ -234,7 +235,16 @@
 </ol>
 </div>
 <div class="section" id="id2">
-<h3>Properties<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<h3>Interface<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt><code class="docutils literal"><span class="pre">CTRL</span></code> + <code class="docutils literal"><span class="pre">UP</span> <span class="pre">ARROW</span></code></dt>
+<dd>Moves the UVs of the selected polygons up.</dd>
+<dt><code class="docutils literal"><span class="pre">CTRL</span></code> + <code class="docutils literal"><span class="pre">DOWN</span> <span class="pre">ARROW</span></code></dt>
+<dd>Moves the UVs of the selected polygons down.</dd>
+</dl>
+</div>
+<div class="section" id="id3">
+<h3>Properties<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt>Mode</dt>
 <dd><ul class="first last simple">
@@ -260,9 +270,13 @@ The bigger Tiling properties are, the denser texture tiling is.</dd>
 <dt>Reset UVs</dt>
 <dd>Resets UV parameters of the selected polygons.</dd>
 </dl>
-<div class="figure" id="id9">
+<div class="figure" id="id10">
 <a class="reference internal image-reference" href="_images/UModeler_UVTool_v2.gif"><img alt="_images/UModeler_UVTool_v2.gif" src="_images/UModeler_UVTool_v2.gif" style="width: 720.0px; height: 401.40000000000003px;" /></a>
-<p class="caption"><span class="caption-text">UV Tool Demo</span></p>
+<p class="caption"><span class="caption-text">UV Tool Demo.</span></p>
+</div>
+<div class="figure" id="id11">
+<a class="reference internal image-reference" href="_images/UModeler_UVTool_ShiftingUVByPressingKeys.gif"><img alt="_images/UModeler_UVTool_ShiftingUVByPressingKeys.gif" src="_images/UModeler_UVTool_ShiftingUVByPressingKeys.gif" style="width: 576.0px; height: 371.7px;" /></a>
+<p class="caption"><span class="caption-text">Moving the UVs of the selected elements up and down by pressing <code class="docutils literal"><span class="pre">UP</span></code> or <code class="docutils literal"><span class="pre">DOWN</span></code> arrows.</span></p>
 </div>
 </div>
 </div>
@@ -270,7 +284,7 @@ The bigger Tiling properties are, the denser texture tiling is.</dd>
 <div class="section" id="open-uveditor">
 <h2>Open UVEditor<a class="headerlink" href="#open-uveditor" title="Permalink to this headline">¶</a></h2>
 <p>Opens UVEditor to unwrap polygons and edit those UVs.</p>
-<div class="figure" id="id10">
+<div class="figure" id="id12">
 <a class="reference internal image-reference" href="_images/UModeler_UVEditorWnd.jpg"><img alt="_images/UModeler_UVEditorWnd.jpg" src="_images/UModeler_UVEditorWnd.jpg" style="width: 1103.8999999999999px; height: 840.75px;" /></a>
 <p class="caption"><span class="caption-text">UV Editor Window</span></p>
 </div>
@@ -289,8 +303,8 @@ The bigger Tiling properties are, the denser texture tiling is.</dd>
 </div>
 </div>
 </div>
-<div class="section" id="id3">
-<h3>Steps<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id4">
+<h3>Steps<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
 <li>Go to <code class="docutils literal"><span class="pre">Color</span> <span class="pre">Tool</span></code></li>
 <li>Select polygons like you did in <code class="docutils literal"><span class="pre">Polygon</span> <span class="pre">Tool</span></code> if no polygon is selected.</li>
@@ -298,8 +312,8 @@ The bigger Tiling properties are, the denser texture tiling is.</dd>
 <li>Choose a color which you want.</li>
 </ol>
 </div>
-<div class="section" id="id4">
-<h3>Interface<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id5">
+<h3>Interface<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt>LMB</dt>
 <dd>Selects a polygon and pick a color of the color.</dd>
@@ -309,15 +323,15 @@ The bigger Tiling properties are, the denser texture tiling is.</dd>
 <dd>Selects several polygons in a rectangle.</dd>
 </dl>
 </div>
-<div class="section" id="id5">
-<h3>Properties<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id6">
+<h3>Properties<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt>Color</dt>
 <dd>Color</dd>
 <dt>Select Polygons</dt>
 <dd>Selects polygons with the color in <code class="docutils literal"><span class="pre">Color</span></code> property.</dd>
 </dl>
-<div class="figure" id="id11">
+<div class="figure" id="id13">
 <a class="reference internal image-reference" href="_images/UModeler_ColorTool_v2.gif"><img alt="_images/UModeler_ColorTool_v2.gif" src="_images/UModeler_ColorTool_v2.gif" style="width: 760.0px; height: 467.4px;" /></a>
 <p class="caption"><span class="caption-text">Color Tool Demo</span></p>
 </div>
@@ -327,8 +341,8 @@ The bigger Tiling properties are, the denser texture tiling is.</dd>
 <div class="section" id="smoothing-group-tool">
 <h2>Smoothing Group Tool<a class="headerlink" href="#smoothing-group-tool" title="Permalink to this headline">¶</a></h2>
 <p>Manages smoothing groups for smooth shading.</p>
-<div class="section" id="id6">
-<h3>Steps<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id7">
+<h3>Steps<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
 <li>Select Smoothing Group tool.</li>
 <li>Select polygons with which you want to make a new smoothing group.</li>
@@ -346,8 +360,8 @@ The bigger Tiling properties are, the denser texture tiling is.</dd>
 <li>Click on <code class="docutils literal"><span class="pre">Auto</span> <span class="pre">Smooth</span></code> button</li>
 </ol>
 </div>
-<div class="section" id="id7">
-<h3>Properties<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id8">
+<h3>Properties<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt>Group Name</dt>
 <dd>The current smoothing group name</dd>
@@ -372,7 +386,7 @@ The bigger Tiling properties are, the denser texture tiling is.</dd>
 <p class="last">Auto Smooth sets the smoothing groups based on the angle between faces. Any two adjacent faces are put in the same smoothing group if the angle between their normals is less than the value in <code class="docutils literal"><span class="pre">Angle</span></code> property.</p>
 </dd>
 </dl>
-<div class="figure" id="id12">
+<div class="figure" id="id14">
 <a class="reference internal image-reference" href="_images/UModeler_SmoothingGroupTool_v2.gif"><img alt="_images/UModeler_SmoothingGroupTool_v2.gif" src="_images/UModeler_SmoothingGroupTool_v2.gif" style="width: 760.0px; height: 467.4px;" /></a>
 <p class="caption"><span class="caption-text">Smoothing Group Tool Demo</span></p>
 </div>

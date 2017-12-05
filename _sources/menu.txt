@@ -5,7 +5,7 @@ Menu
 .. figure:: /images/menu.png
    :scale: 80 %
 
-   Menu
+   Menu items in ``Tools`` > ``UModeler``
 
 About
 ===============
@@ -27,7 +27,7 @@ Creates a game object with a ``UModeler`` component and a ``Mesh Collider`` comp
 
 UModelerize
 ========================================
-Adds ``UModeler`` component to all the selected game objects with a ``Mesh Filter`` component to make the mesh editable.
+Adds ``UModeler`` component to all the selected game objects with the ``Mesh Filter`` component to make the mesh editable.
 
 .. figure:: /images/UModeler_AddUModelerToSelectedObjects_v2.gif
    :scale: 95 %
@@ -39,6 +39,12 @@ Adds ``UModeler`` component to all the selected game objects with a ``Mesh Filte
 UModelerize Hierarchically
 ========================================
 Adds ``UModeler`` component to all the selected game objects and all those child objects with a ``Mesh Filter`` component to make the mesh editable.
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Refresh All
+========================================
+Updates all UModler objects in the scene to make the meshes in the MeshFilter component up to date.
 
 ---------------------------------------------------------------------------------------------------------------------------------
 

@@ -17,7 +17,7 @@ Layout
 .. figure:: /images/UModeler_Layout.png
    :scale: 95 %
 	
-   UModeler Layout
+   UModeler Layout   
 
 ``[1]`` Working Area
  Editing meshes. 
@@ -32,6 +32,11 @@ Layout
  Header 
   | ``UModeler Ver 2.xx`` - Opens the About dialog box.  
   | ``Close`` - Disables UModeler for the current object.
+ 
+ .. figure:: /images/UModeler_OpenCloseButtons.gif
+    :scale: 95 %
+
+    Closes and Opens UModeler component. With Closing state UModeler's behaviour and visualization are like the normal game object. You can open UModeler tool whenever you want to edit it.
  
  Settings
   Settings regarding ``Display``, ``Gizmo`` and ``Snap``. 

@@ -46,6 +46,12 @@ Merges all the selected vertices in one unique one. The location of the survivin
 
  | If you select ``Combine Tool`` with no selected vertices, you will enter ``Combine Vertex`` mode. In this mode you can selected vertices and set up some options and combine them.
  | However, if you click on ``Combine`` button with some vertices selected, the combine action will happen immediately.
+ 
+Interface
+-----------
+
+``SPACE``
+ Combines the selected vertices.
    
 Properties
 ---------------
