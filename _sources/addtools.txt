@@ -162,7 +162,6 @@ Steps - Comfirm
 
 Properties
 ---------------
-
 Axis
  Plane mirror axis
 

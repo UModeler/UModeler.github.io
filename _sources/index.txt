@@ -58,7 +58,7 @@ Sections
       .. container:: descr
 
          :doc:`gettingstarted`
-            Tutorial videos and descriptions.
+            descriptions and videos for beginners.
 			
       .. container:: descr
 
