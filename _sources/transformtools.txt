@@ -17,9 +17,9 @@ To begin to transform elements, you have to select them at first. Which type of 
 
    | 1. You can add a new selection holding ``CTRL`` and pressing ``LMB`` on an element.   
    | 2. Pressing ``W`` ``E`` or ``R`` changes the current gizmo like Unity. 
-   | 3. Dragging a mouse from an element causes moving the element
-   
-If you hold ``SHIFT`` when moving a gizmo, the selected elements are transformed separately from the adjacent polygons.
+   | 3. Dragging a mouse from an element causes moving the element   
+   | 4. If you hold ``SHIFT`` while dragging a gizmo, the selected elements are transformed separately from the adjacent polygons.
+   | 5. If you hold ``CTRL`` while dragging a tranlstion gizmo and moving to another vertex, the selected elements' selected axis's value will be snapped to the vertex. This is called ``1D snapping``
    
 Properties
 -----------
@@ -39,6 +39,9 @@ Cursor As Pivot
 Move To Cursor
  Moves the current selected elements to the 3D cursor position.
  
+Insert Vertex
+ Inserts a vertex to an adjacent edge to avoid T-junction.
+ 
 .. figure:: /images/UModeler_TransformTool_v2.gif
    :scale: 95 %
 	
@@ -51,8 +54,18 @@ Move To Cursor
    
 .. figure:: /images/UModeler_TransformTool_SnapEdgeToPolygon.gif
    :scale: 95 %
-	
+
    ``Snap To Polygon`` property Demo.
+   
+.. figure:: /images/UModeler_VertexTool_1dSnapping.gif
+   :scale: 95 %
+
+   1D Snapping holding ``CTRL``  
+   
+.. figure:: /images/UModeler_TransformTool_InsertVertexProperty.gif
+   :scale: 95 %
+
+   ``Insert Vertex`` property demo.
 
 ----------------------------------------------------------------------------------------------------------------------
 

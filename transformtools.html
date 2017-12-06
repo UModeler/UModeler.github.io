@@ -181,9 +181,10 @@
 <div class="line">1. You can add a new selection holding <code class="docutils literal"><span class="pre">CTRL</span></code> and pressing <code class="docutils literal"><span class="pre">LMB</span></code> on an element.</div>
 <div class="line">2. Pressing <code class="docutils literal"><span class="pre">W</span></code> <code class="docutils literal"><span class="pre">E</span></code> or <code class="docutils literal"><span class="pre">R</span></code> changes the current gizmo like Unity.</div>
 <div class="line">3. Dragging a mouse from an element causes moving the element</div>
+<div class="line">4. If you hold <code class="docutils literal"><span class="pre">SHIFT</span></code> while dragging a gizmo, the selected elements are transformed separately from the adjacent polygons.</div>
+<div class="line">5. If you hold <code class="docutils literal"><span class="pre">CTRL</span></code> while dragging a tranlstion gizmo and moving to another vertex, the selected elements&#8217; selected axis&#8217;s value will be snapped to the vertex. This is called <code class="docutils literal"><span class="pre">1D</span> <span class="pre">snapping</span></code></div>
 </div>
 </div>
-<p>If you hold <code class="docutils literal"><span class="pre">SHIFT</span></code> when moving a gizmo, the selected elements are transformed separately from the adjacent polygons.</p>
 <div class="section" id="properties">
 <h3>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
@@ -197,6 +198,8 @@
 <dd>Rotates the selected elements around the 3D cursor.</dd>
 <dt>Move To Cursor</dt>
 <dd>Moves the current selected elements to the 3D cursor position.</dd>
+<dt>Insert Vertex</dt>
+<dd>Inserts a vertex to an adjacent edge to avoid T-junction.</dd>
 </dl>
 <div class="figure" id="id3">
 <a class="reference internal image-reference" href="_images/UModeler_TransformTool_v2.gif"><img alt="_images/UModeler_TransformTool_v2.gif" src="_images/UModeler_TransformTool_v2.gif" style="width: 760.0px; height: 493.04999999999995px;" /></a>
@@ -209,6 +212,14 @@
 <div class="figure" id="id5">
 <a class="reference internal image-reference" href="_images/UModeler_TransformTool_SnapEdgeToPolygon.gif"><img alt="_images/UModeler_TransformTool_SnapEdgeToPolygon.gif" src="_images/UModeler_TransformTool_SnapEdgeToPolygon.gif" style="width: 760.0px; height: 493.04999999999995px;" /></a>
 <p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Snap</span> <span class="pre">To</span> <span class="pre">Polygon</span></code> property Demo.</span></p>
+</div>
+<div class="figure" id="id6">
+<a class="reference internal image-reference" href="_images/UModeler_VertexTool_1dSnapping.gif"><img alt="_images/UModeler_VertexTool_1dSnapping.gif" src="_images/UModeler_VertexTool_1dSnapping.gif" style="width: 665.0px; height: 435.09999999999997px;" /></a>
+<p class="caption"><span class="caption-text">1D Snapping holding <code class="docutils literal"><span class="pre">CTRL</span></code></span></p>
+</div>
+<div class="figure" id="id7">
+<a class="reference internal image-reference" href="_images/UModeler_TransformTool_InsertVertexProperty.gif"><img alt="_images/UModeler_TransformTool_InsertVertexProperty.gif" src="_images/UModeler_TransformTool_InsertVertexProperty.gif" style="width: 760.0px; height: 497.79999999999995px;" /></a>
+<p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Insert</span> <span class="pre">Vertex</span></code> property demo.</span></p>
 </div>
 </div>
 </div>

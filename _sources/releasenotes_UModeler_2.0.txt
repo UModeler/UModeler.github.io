@@ -23,6 +23,8 @@ Improvements & Features
  - ``Align Tool`` has been added in ``Tweak`` group.
  - ``UV Tool`` - Added moving UVs by pressing Up or Down arrow keys holding CTRL.
  - ``Combine Tool`` - Pressing ``SPACE`` will combine the selected vertices in ``Combine Tool``.
+ - ``Vertex/Edge/Polygon Tool`` - 1D Snapping has been added. It works by moving a cursor to another vertex holding ``CTRL`` while dragging the translation gizmo.
+ - ``Vertex/Edge/Polygon Tool`` - ``Insert Vertex`` property has been added.
 
 Fixes & Tweaks
 ----------------
