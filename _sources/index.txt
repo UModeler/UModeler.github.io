@@ -9,9 +9,9 @@
    
 .. raw:: html
 
- <iframe src="https://api.assetstore.unity3d.com/affiliate/embed/package/80868/widget?aid=1011l36n8" style="width:202px; height:260px; border:0px;"></iframe>
-
-| 
+ <a href="https://www.assetstore.unity3d.com/#!/content/80868?aid=1011l36n8">Asset Store</a> | <a href="http://umodeler.co">Website</a> 
+ 
+|
 
 .. only:: latex or epub or singlehtml
 
