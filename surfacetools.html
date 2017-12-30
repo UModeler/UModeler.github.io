@@ -112,16 +112,23 @@
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#open-uveditor">Open UVEditor</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#color-tool">Color Tool</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id4">Steps</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id5">Interface</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id6">Properties</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#vertex-color-tool">Vertex Color Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#steps-1">Steps - 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#steps-2">Steps - 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id4">Interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id5">Properties</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#polygon-color-tool">Polygon Color Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id6">Steps</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id7">Interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id8">Properties</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#smoothing-group-tool">Smoothing Group Tool</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id7">Steps</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id9">Steps</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#steps-auto-smooth">Steps - Auto Smooth</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id8">Properties</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id10">Properties</a></li>
 </ul>
 </li>
 </ul>
@@ -212,7 +219,7 @@
 <dt>Materials</dt>
 <dd>Material array</dd>
 </dl>
-<div class="figure" id="id9">
+<div class="figure" id="id11">
 <a class="reference internal image-reference" href="_images/UModeler_MaterialTool.gif"><img alt="_images/UModeler_MaterialTool.gif" src="_images/UModeler_MaterialTool.gif" style="width: 720.0px; height: 402.3px;" /></a>
 <p class="caption"><span class="caption-text">Material Tool Demo</span></p>
 </div>
@@ -270,11 +277,11 @@ The bigger Tiling properties are, the denser texture tiling is.</dd>
 <dt>Reset UVs</dt>
 <dd>Resets UV parameters of the selected polygons.</dd>
 </dl>
-<div class="figure" id="id10">
+<div class="figure" id="id12">
 <a class="reference internal image-reference" href="_images/UModeler_UVTool_v2.gif"><img alt="_images/UModeler_UVTool_v2.gif" src="_images/UModeler_UVTool_v2.gif" style="width: 720.0px; height: 401.40000000000003px;" /></a>
 <p class="caption"><span class="caption-text">UV Tool Demo.</span></p>
 </div>
-<div class="figure" id="id11">
+<div class="figure" id="id13">
 <a class="reference internal image-reference" href="_images/UModeler_UVTool_ShiftingUVByPressingKeys.gif"><img alt="_images/UModeler_UVTool_ShiftingUVByPressingKeys.gif" src="_images/UModeler_UVTool_ShiftingUVByPressingKeys.gif" style="width: 576.0px; height: 371.7px;" /></a>
 <p class="caption"><span class="caption-text">Moving the UVs of the selected elements up and down by pressing <code class="docutils literal"><span class="pre">UP</span></code> or <code class="docutils literal"><span class="pre">DOWN</span></code> arrows.</span></p>
 </div>
@@ -284,14 +291,76 @@ The bigger Tiling properties are, the denser texture tiling is.</dd>
 <div class="section" id="open-uveditor">
 <h2>Open UVEditor<a class="headerlink" href="#open-uveditor" title="Permalink to this headline">¶</a></h2>
 <p>Opens UVEditor to unwrap polygons and edit those UVs.</p>
-<div class="figure" id="id12">
+<div class="figure" id="id14">
 <a class="reference internal image-reference" href="_images/UModeler_UVEditorWnd.jpg"><img alt="_images/UModeler_UVEditorWnd.jpg" src="_images/UModeler_UVEditorWnd.jpg" style="width: 1103.8999999999999px; height: 840.75px;" /></a>
 <p class="caption"><span class="caption-text">UV Editor Window</span></p>
 </div>
 </div>
 <hr class="docutils" />
-<div class="section" id="color-tool">
-<h2>Color Tool<a class="headerlink" href="#color-tool" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="vertex-color-tool">
+<h2>Vertex Color Tool<a class="headerlink" href="#vertex-color-tool" title="Permalink to this headline">¶</a></h2>
+<p>Sets colors to the Vertices. Pressing or Dragging <code class="docutils literal"><span class="pre">LMB</span></code> holding <code class="docutils literal"><span class="pre">SHIFT</span></code> will paint a polygon below the mouse cursor in the selected color.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<div class="last line-block">
+<div class="line">A material with a shader supporting Vertex Color should be set to assign colors with Material Tool. Recommended materials for assigning colors(VC - Vertex Color) are as follows.</div>
+<div class="line-block">
+<div class="line">• UModelerPro_OnlyVC</div>
+<div class="line">• UModelerBasic_OnlyVC</div>
+</div>
+</div>
+</div>
+<div class="section" id="steps-1">
+<h3>Steps - 1<a class="headerlink" href="#steps-1" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Go to <code class="docutils literal"><span class="pre">Vertex</span> <span class="pre">Color</span> <span class="pre">Tool</span></code></li>
+<li>Select Vertices like you did in <code class="docutils literal"><span class="pre">Vertex</span> <span class="pre">Tool</span></code> if no vertex is selected.</li>
+<li>Click <code class="docutils literal"><span class="pre">LMB</span></code> on Color bar in Properties</li>
+<li>Choose a color which you want.</li>
+</ol>
+</div>
+<div class="section" id="steps-2">
+<h3>Steps - 2<a class="headerlink" href="#steps-2" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Go to <code class="docutils literal"><span class="pre">Vertex</span> <span class="pre">Color</span> <span class="pre">Tool</span></code></li>
+<li>Drag a mouse holding <code class="docutils literal"><span class="pre">SHIFT</span></code></li>
+</ol>
+</div>
+<div class="section" id="id4">
+<h3>Interface<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt><code class="docutils literal"><span class="pre">LMB</span></code></dt>
+<dd>Selects a vertex and pick a color of the color.</dd>
+<dt><code class="docutils literal"><span class="pre">Shift</span></code></dt>
+<dd>Makes the sphere brush visible.</dd>
+<dt><code class="docutils literal"><span class="pre">SHIFT</span> <span class="pre">+</span> <span class="pre">LMB</span></code></dt>
+<dd>Assigns the color in Color bar in Properties to vertices within the sphere brush.</dd>
+<dt><code class="docutils literal"><span class="pre">SHIFT</span> <span class="pre">+</span> <span class="pre">Scroll</span> <span class="pre">Wheel</span></code></dt>
+<dd>Increases the size of the brush.</dd>
+<dt><code class="docutils literal"><span class="pre">LMB</span> <span class="pre">Drag</span></code></dt>
+<dd>Selects several vertices in a rectangle.</dd>
+</dl>
+</div>
+<div class="section" id="id5">
+<h3>Properties<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt>Color</dt>
+<dd>Color</dd>
+<dt>Brush Radius</dt>
+<dd>The sphere brush radius</dd>
+<dt>Select Vertices</dt>
+<dd>Selects vertices with the color in <code class="docutils literal"><span class="pre">Color</span></code> property.</dd>
+</dl>
+<div class="figure" id="id15">
+<a class="reference internal image-reference" href="_images/UModeler_VertexColorTool.gif"><img alt="_images/UModeler_VertexColorTool.gif" src="_images/UModeler_VertexColorTool.gif" style="width: 760.0px; height: 485.45px;" /></a>
+<p class="caption"><span class="caption-text">Vertex Color Tool Demo</span></p>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="polygon-color-tool">
+<h2>Polygon Color Tool<a class="headerlink" href="#polygon-color-tool" title="Permalink to this headline">¶</a></h2>
+<p>(Formely called as <cite>Color Tool</cite>)</p>
 <p>Sets colors to the polygons. Pressing or Dragging <code class="docutils literal"><span class="pre">LMB</span></code> holding <code class="docutils literal"><span class="pre">SHIFT</span></code> will paint a polygon below the mouse cursor in the selected color.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
@@ -303,17 +372,17 @@ The bigger Tiling properties are, the denser texture tiling is.</dd>
 </div>
 </div>
 </div>
-<div class="section" id="id4">
-<h3>Steps<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id6">
+<h3>Steps<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
-<li>Go to <code class="docutils literal"><span class="pre">Color</span> <span class="pre">Tool</span></code></li>
+<li>Go to <code class="docutils literal"><span class="pre">Polygon</span> <span class="pre">Color</span> <span class="pre">Tool</span></code></li>
 <li>Select polygons like you did in <code class="docutils literal"><span class="pre">Polygon</span> <span class="pre">Tool</span></code> if no polygon is selected.</li>
 <li>Click <code class="docutils literal"><span class="pre">LMB</span></code> on Color bar in Properties</li>
 <li>Choose a color which you want.</li>
 </ol>
 </div>
-<div class="section" id="id5">
-<h3>Interface<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id7">
+<h3>Interface<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt>LMB</dt>
 <dd>Selects a polygon and pick a color of the color.</dd>
@@ -323,17 +392,17 @@ The bigger Tiling properties are, the denser texture tiling is.</dd>
 <dd>Selects several polygons in a rectangle.</dd>
 </dl>
 </div>
-<div class="section" id="id6">
-<h3>Properties<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id8">
+<h3>Properties<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt>Color</dt>
 <dd>Color</dd>
 <dt>Select Polygons</dt>
 <dd>Selects polygons with the color in <code class="docutils literal"><span class="pre">Color</span></code> property.</dd>
 </dl>
-<div class="figure" id="id13">
+<div class="figure" id="id16">
 <a class="reference internal image-reference" href="_images/UModeler_ColorTool_v2.gif"><img alt="_images/UModeler_ColorTool_v2.gif" src="_images/UModeler_ColorTool_v2.gif" style="width: 760.0px; height: 467.4px;" /></a>
-<p class="caption"><span class="caption-text">Color Tool Demo</span></p>
+<p class="caption"><span class="caption-text">Polygon Color Tool Demo</span></p>
 </div>
 </div>
 </div>
@@ -341,8 +410,8 @@ The bigger Tiling properties are, the denser texture tiling is.</dd>
 <div class="section" id="smoothing-group-tool">
 <h2>Smoothing Group Tool<a class="headerlink" href="#smoothing-group-tool" title="Permalink to this headline">¶</a></h2>
 <p>Manages smoothing groups for smooth shading.</p>
-<div class="section" id="id7">
-<h3>Steps<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id9">
+<h3>Steps<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
 <li>Select Smoothing Group tool.</li>
 <li>Select polygons with which you want to make a new smoothing group.</li>
@@ -360,8 +429,8 @@ The bigger Tiling properties are, the denser texture tiling is.</dd>
 <li>Click on <code class="docutils literal"><span class="pre">Auto</span> <span class="pre">Smooth</span></code> button</li>
 </ol>
 </div>
-<div class="section" id="id8">
-<h3>Properties<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id10">
+<h3>Properties<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt>Group Name</dt>
 <dd>The current smoothing group name</dd>
@@ -386,7 +455,7 @@ The bigger Tiling properties are, the denser texture tiling is.</dd>
 <p class="last">Auto Smooth sets the smoothing groups based on the angle between faces. Any two adjacent faces are put in the same smoothing group if the angle between their normals is less than the value in <code class="docutils literal"><span class="pre">Angle</span></code> property.</p>
 </dd>
 </dl>
-<div class="figure" id="id14">
+<div class="figure" id="id17">
 <a class="reference internal image-reference" href="_images/UModeler_SmoothingGroupTool_v2.gif"><img alt="_images/UModeler_SmoothingGroupTool_v2.gif" src="_images/UModeler_SmoothingGroupTool_v2.gif" style="width: 760.0px; height: 467.4px;" /></a>
 <p class="caption"><span class="caption-text">Smoothing Group Tool Demo</span></p>
 </div>
