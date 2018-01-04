@@ -6,9 +6,10 @@ UModeler 2.0
  
 Version 2.0.5
 ===============
- - UV Editor : PBRT material preview made with Surforge 
+ - UV Editor : PBR texture preview
  - UV Editor : Keeps width/height ratio of the polygon after unwrapping.
  - UV Editor : Keeps the orientation of the polygons after unwrapping.
+ - Supports the preview texture of Surforge.
  - ``Transform tool`` : Vertex splits when transforming a vertex holding ``SHIFT``.
  - ``Material tool`` : Improvement of displaying material preview in the list. The material with no texture is also displayed well.
  - ``Bevel Tool`` : Made the selected vertices/edges/polygons visible at the beginning of Beveling.
