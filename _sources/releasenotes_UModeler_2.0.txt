@@ -15,7 +15,7 @@ Version 2.0.5
  - ``Bevel Tool`` : Made the selected vertices/edges/polygons visible at the beginning of Beveling.
  - ``Vertex Color Tool`` has been added.
  - The Color tool has been renamed to ``Polygon Color tool``.
- - Grid Setup : ``0.0315``, ``0.625`` grid size have been added to Popular Grid Size 
+ - Grid Setup : ``0.0315``, ``0.0625`` grid size have been added to Popular Grid Size 
 
 Version 2.0.0
 ===============
