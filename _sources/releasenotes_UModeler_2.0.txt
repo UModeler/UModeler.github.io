@@ -7,13 +7,17 @@ UModeler 2.0
 Version 2.0.51
 ===============
  - Hotfix : Adding/Removing material in Material tool wreren't allowed.
+ - Hotfix : Individual edge transform holding ``SHIFT``.
  
 Version 2.0.5
 ===============
  - UV Editor : PBR texture preview
  - UV Editor : Keeps width/height ratio of the polygon after unwrapping.
  - UV Editor : Keeps the orientation of the polygons after unwrapping.
- - Supports the preview texture of Surforge.
+ - Supports the Surforge preview texture wrapped in UModeler.
+ - UV Editor : 1D snapping done by transforming elements holding ``CTRL``
+ - Transform tool : 1D snapping done by transforming elements holding ``CTRL``
+ - Transform tool : Exposure of ``Insert Vertex`` property.
  - ``Transform tool`` : Vertex splits when transforming a vertex holding ``SHIFT``.
  - ``Material tool`` : Improvement of displaying material preview in the list. The material with no texture is also displayed well.
  - ``Bevel Tool`` : Made the selected vertices/edges/polygons visible at the beginning of Beveling.
