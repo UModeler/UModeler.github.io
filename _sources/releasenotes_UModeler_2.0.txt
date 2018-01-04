@@ -6,7 +6,7 @@ UModeler 2.0
  
 Version 2.0.51
 ==================================================================================
-Now this version has been sumitted for review so it will be available soon.
+Now this version has been submitted for review so it will be available soon.
 
  - Hotfix : Adding/Removing material in Material tool wreren't allowed.
  - Hotfix : Individual edge transform holding ``SHIFT``.
