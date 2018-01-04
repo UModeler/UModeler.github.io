@@ -5,9 +5,12 @@ UModeler 2.0
  .. figure:: /images/UModeler_Banner.png
  
 Version 2.0.51
-===============
+==================================================================================
+Now this version has been sumitted for review so it will be available soon.
+
  - Hotfix : Adding/Removing material in Material tool wreren't allowed.
  - Hotfix : Individual edge transform holding ``SHIFT``.
+ - Hotfix : Incorrect triangle count. The displayed triangle number was twice than the real one.
  
 Version 2.0.5
 ===============
