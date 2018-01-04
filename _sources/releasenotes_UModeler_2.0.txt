@@ -3,13 +3,21 @@ UModeler 2.0
 ############################
 
  .. figure:: /images/UModeler_Banner.png
-
-Version 2.0
-===============
-
-Improvements & Features
---------------------------
  
+Version 2.0.5
+===============
+ - UV Editor : PBRT material preview made with Surforge 
+ - UV Editor : Keeps width/height ratio of the polygon after unwrapping.
+ - UV Editor : Keeps the orientation of the polygons after unwrapping.
+ - ``Transform tool`` : Vertex splits when transforming a vertex holding ``SHIFT``.
+ - ``Material tool`` : Improvement of displaying material preview in the list. The material with no texture is also displayed well.
+ - ``Bevel Tool`` : Made the selected vertices/edges/polygons visible at the beginning of Beveling.
+ - ``Vertex Color Tool`` has been added.
+ - The Color tool has been renamed to ``Polygon Color tool``.
+ - Grid Setup : ``0.0315``, ``0.625`` grid size have been added to Popular Grid Size 
+
+Version 2.0.0
+===============
  - UV Editor has been added. See :ref:`uveditor_label`
  - ``Properties`` in the inspector is displayed under the group of the selected tool.
  - Added the clone of the selected polygons.
@@ -25,10 +33,6 @@ Improvements & Features
  - ``Combine Tool`` - Pressing ``SPACE`` will combine the selected vertices in ``Combine Tool``.
  - ``Vertex/Edge/Polygon Tool`` - 1D Snapping has been added. It works by moving a cursor to another vertex holding ``CTRL`` while dragging the translation gizmo.
  - ``Vertex/Edge/Polygon Tool`` - ``Insert Vertex`` property has been added.
-
-Fixes & Tweaks
-----------------
-
  - Tweak - ``PushPull Tool`` : Renamed ``Draw Edges`` property to ``Continuous``.
  - Tweak - ``Multiple PushPull`` button has been added. see :ref:`pushpull_tool_label` 
  - Tweak - ``Cut Tool`` : Made Cutting direction flipped by pressing ``SPACE`` while ``LMB`` Dragging
