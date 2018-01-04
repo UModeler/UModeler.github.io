@@ -4,6 +4,10 @@ UModeler 2.0
 
  .. figure:: /images/UModeler_Banner.png
  
+Version 2.0.51
+===============
+ - Hotfix : Adding/Removing material in Material tool wreren't allowed.
+ 
 Version 2.0.5
 ===============
  - UV Editor : PBR texture preview
