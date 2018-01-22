@@ -4,6 +4,14 @@ UModeler 2.0
 
  .. figure:: /images/UModeler_Banner.png
  
+Version 2.0.6
+==================================================================================
+ - Feature : New snapping - Snap to X-axis or Y-axis of the current placed points. This makes drawing a rectangle and a right angle triangle etc possible using ``Line tool``
+ - Feature : Seamless Editing - UModeler objects in a scene can be edited seamlessly. (See :ref:`here <seamless-edit>`)
+ - Enhancement : Edge display - Disabled showing invisible parts' edges.
+ - Fix : Added recalculating tangents (See :ref:`here <recalculate-tangents>`)
+ - Fix : Z-fighting of the polygon selection
+
 Version 2.0.51
 ==================================================================================
  - Hotfix : Adding/Removing material in Material tool wreren't allowed.

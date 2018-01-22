@@ -77,7 +77,12 @@ Backface
  backfaces on/off
 
 Generate Lightmap UVs
- If it's on, Secondary UVs for lightmap will be generated every time UModeler mesh changes. 
+ If this is on, Secondary UVs for lightmap will be generated every time UModeler mesh changes. 
+
+.. _recalculate-tangents:
+ 
+Recalculate Tangents
+ If this is on, tagent vectors will be calculated every time UModeler mesh changes. If the materials in UModeler have normal textures, this should be on.
  
 .. figure:: /images/UModeler_GenerateLightmapUVs.gif
    :scale: 95 %

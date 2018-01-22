@@ -37,7 +37,12 @@ Interface
    :scale: 95 %
 
    Line Tool Demo
+   
+.. figure:: /images/UModeler_SnapToXY.gif
+   :scale: 95 %
 
+   Snap To X or Y axis line. The cursor color change to pink when it is snapped to X or Y axis of the former points. (Available from 2.0.6)
+   
 ---------------------------------------------------------------------------------------------
 
 Arc Tool

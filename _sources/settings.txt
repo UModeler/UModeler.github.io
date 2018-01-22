@@ -6,6 +6,24 @@ Settings
    :scale: 80 %
 	
    UModeler Settings
+   
+.. _seamless-edit:
+   
+Seamless Edit
+ Selects the UModeler object under the mouse cursor every time the mouse moves. The set affected by this mode is decided according to which category is chosen.
+ 
+ - ``Single`` : Only the selected object is a subject to be edited.
+ - ``All`` : All the UModeler objects in a scene are subjects to be edited.
+ - ``Group`` : All the UModeler objects under the identical root object are subjects to be edited.
+ 
+.. tip::
+
+   | You can disable ``Seamless Edit`` holding ``SHIFT`` while moving the mouse.
+   
+.. raw:: html
+
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/HygWp8NG6PY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>  
+`Seamless Edit Demo`
  
 Display
 ========
