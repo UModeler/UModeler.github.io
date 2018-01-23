@@ -88,3 +88,8 @@ Recalculate Tangents
    :scale: 95 %
 	
    ``Generate Light UVs`` Demo.
+   
+.. figure:: /images/UModeler_RecalculatingTangents.gif
+   :scale: 95 %
+	
+   ``Tangent Recalculataion`` Demo.
