@@ -345,7 +345,7 @@ Arrangement
 ------------------------------------------------------------------------------------------------------
 
 Duplicate Tool (Formerly called Copy Tool)
-===================
+==============================================
 
 Duplicates the selected polygons. The duplicated polygons' center cubes will have pink color, which means that they will move separately by a gizmo.
    

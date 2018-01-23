@@ -10,7 +10,7 @@ Version 2.0.6
  - Feature : Seamless Editing - UModeler objects in a scene can be edited seamlessly. (See :ref:`this <seamless-edit>`)
  - Enhancement : Edge display - Disabled showing invisible parts' edges.
  - Fix : Added recalculating tangents (See :ref:`this <recalculate-tangents>`)
- - Fix : Z-fighting of the polygon selection
+ - Fix : Z-fighting of the polygon selection mesh.
 
 Version 2.0.51
 ==================================================================================
