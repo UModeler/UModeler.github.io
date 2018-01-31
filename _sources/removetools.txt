@@ -28,7 +28,12 @@ In a case of a vertex, all the polygons sharing the vertex will be removed. If i
 
 Detach Tool
 ===================
-Detachs the selected polygons from the current game object to get them into the new game object.
+Detaches the selected polygons from the current game object to get them into the new game object.
+
+Steps
+---------
+ 1. Select polygons.
+ 2. Select ``Detach`` button.
 
 .. figure:: /images/UModeler_DetachTool.gif
    :scale: 95 %
@@ -103,6 +108,12 @@ Remove Double Tool
 
 Lets you merge automatically all the selected vertices within the specific distance.
 
+Steps
+--------
+ 1. Select vertices, edges or polygons.
+ 2. Go to ``Remove Double Tool``
+ 3. Adjust ``Distance`` property.
+
 Properties
 ---------------
 
@@ -120,6 +131,11 @@ Collpase Tool
 ===================
 
 Merges each edge island or vertex island into one vertex. This makes as many remaining vertices as islands of selection. (i.e. groups of linked selected vertices).
+
+Steps
+-------
+ 1. Select vertices or edges or polygons.
+ 2. Click on Collapse Tool button.
 
 .. figure:: /images/UModeler_CollapseTool.gif
    :scale: 95 %

@@ -282,12 +282,12 @@ Clamp Overlap
 Bridge Tool
 ===================
 
-Fills space surrounded by the selected elements in following cases. The steps are as follows.
+Fills space surrounded by the selected elements in following cases. The selection conditions to apply Bridge are as follows.
 
- 1. More than three vertices are selected.
- 2. Two unconnected edges are selected.
- 3. More than two connected edges are selected.
- 4. More than two polygons are selected.
+ - More than three vertices are selected.
+ - Two unconnected edges are selected.
+ - More than two connected edges are selected.
+ - More than two polygons are selected.
    
 Steps
 ---------

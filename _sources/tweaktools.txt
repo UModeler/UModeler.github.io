@@ -97,7 +97,7 @@ Distance
  The distance of the mirror plane.
 
 Flip
- Flips the selected polygons.
+ Flips the mirror plane.
  
 .. figure:: /images/UModeler_FlipTool.gif
    :scale: 95 %

@@ -98,7 +98,10 @@
 <li class="toctree-l1"><a class="reference internal" href="addtools.html">Add Tools</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Remove Tools</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#eraser-tool">Eraser Tool</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#detach-tool">Detach Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#detach-tool">Detach Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#steps">Steps</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="#combine-vertices-tool">Combine Vertices Tool</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#interface">Interface</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#properties">Properties</a></li>
@@ -107,13 +110,17 @@
 <li class="toctree-l2"><a class="reference internal" href="#combine-polygon-tool">Combine Polygon Tool</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#combine-object-tool">Combine Object Tool</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#remove-double-tool">Remove Double Tool</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id1">Properties</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id1">Steps</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id2">Properties</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#collpase-tool">Collpase Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#collpase-tool">Collpase Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id3">Steps</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="#cut-tool">Cut Tool</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id2">Interface</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id3">Properties</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id4">Interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id5">Properties</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#clip-tool">Clip Tool</a></li>
@@ -181,11 +188,11 @@
 </div></blockquote>
 <p>When you try to erase an edge shared by two coplanar polygons, only the edge will be removed and the two shared polygons will be merged. Otherwise, the two polygons will be removed, too.</p>
 <p>In a case of a vertex, all the polygons sharing the vertex will be removed. If it is a polygon, only the polygon will be taken away.</p>
-<div class="figure" id="id4">
+<div class="figure" id="id6">
 <a class="reference internal image-reference" href="_images/UModeler_EraserToolImmediateMode.gif"><img alt="_images/UModeler_EraserToolImmediateMode.gif" src="_images/UModeler_EraserToolImmediateMode.gif" style="width: 760.0px; height: 484.5px;" /></a>
 <p class="caption"><span class="caption-text">Eraser Tool, Immediate Mode, Demo</span></p>
 </div>
-<div class="figure" id="id5">
+<div class="figure" id="id7">
 <a class="reference internal image-reference" href="_images/UModeler_EraserToolEditMode.gif"><img alt="_images/UModeler_EraserToolEditMode.gif" src="_images/UModeler_EraserToolEditMode.gif" style="width: 760.0px; height: 484.5px;" /></a>
 <p class="caption"><span class="caption-text">Eraser Tool, Edit Mode, Demo</span></p>
 </div>
@@ -193,10 +200,19 @@
 <hr class="docutils" />
 <div class="section" id="detach-tool">
 <h2>Detach Tool<a class="headerlink" href="#detach-tool" title="Permalink to this headline">¶</a></h2>
-<p>Detachs the selected polygons from the current game object to get them into the new game object.</p>
-<div class="figure" id="id6">
+<p>Detaches the selected polygons from the current game object to get them into the new game object.</p>
+<div class="section" id="steps">
+<h3>Steps<a class="headerlink" href="#steps" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Select polygons.</li>
+<li>Select <code class="docutils literal"><span class="pre">Detach</span></code> button.</li>
+</ol>
+</div></blockquote>
+<div class="figure" id="id8">
 <a class="reference internal image-reference" href="_images/UModeler_DetachTool.gif"><img alt="_images/UModeler_DetachTool.gif" src="_images/UModeler_DetachTool.gif" style="width: 855.0px; height: 618.4499999999999px;" /></a>
 <p class="caption"><span class="caption-text">Detaches the selected polygons and creates a new game object, which has the detached polygons.</span></p>
+</div>
 </div>
 </div>
 <hr class="docutils" />
@@ -232,7 +248,7 @@
 <dt>Combine Vertices</dt>
 <dd>Click on this button to combine the selected vertices.</dd>
 </dl>
-<div class="figure" id="id7">
+<div class="figure" id="id9">
 <a class="reference internal image-reference" href="_images/UModeler_CombineVertexTool.gif"><img alt="_images/UModeler_CombineVertexTool.gif" src="_images/UModeler_CombineVertexTool.gif" style="width: 760.0px; height: 484.5px;" /></a>
 <p class="caption"><span class="caption-text">Merges the selected vertices.</span></p>
 </div>
@@ -242,7 +258,7 @@
 <div class="section" id="combine-polygon-tool">
 <h2>Combine Polygon Tool<a class="headerlink" href="#combine-polygon-tool" title="Permalink to this headline">¶</a></h2>
 <p>Merges adjacent and coplanar polygons into a polygon by selecting several polygons and clicking on <code class="docutils literal"><span class="pre">Combine</span></code> button.</p>
-<div class="figure" id="id8">
+<div class="figure" id="id10">
 <a class="reference internal image-reference" href="_images/UModeler_CombinePolygonTool.gif"><img alt="_images/UModeler_CombinePolygonTool.gif" src="_images/UModeler_CombinePolygonTool.gif" style="width: 855.0px; height: 618.4499999999999px;" /></a>
 <p class="caption"><span class="caption-text">Combines the selected polygons.</span></p>
 </div>
@@ -251,7 +267,7 @@
 <div class="section" id="combine-object-tool">
 <h2>Combine Object Tool<a class="headerlink" href="#combine-object-tool" title="Permalink to this headline">¶</a></h2>
 <p>Combines the selected game objects with UModeler component to be an object by selecting several game objects and clicking on <code class="docutils literal"><span class="pre">Combine</span></code> button.</p>
-<div class="figure" id="id9">
+<div class="figure" id="id11">
 <a class="reference internal image-reference" href="_images/UModeler_CombineObjectTool.gif"><img alt="_images/UModeler_CombineObjectTool.gif" src="_images/UModeler_CombineObjectTool.gif" style="width: 855.0px; height: 618.4499999999999px;" /></a>
 <p class="caption"><span class="caption-text">Merges the selected objects.</span></p>
 </div>
@@ -261,12 +277,22 @@
 <h2>Remove Double Tool<a class="headerlink" href="#remove-double-tool" title="Permalink to this headline">¶</a></h2>
 <p>Lets you merge automatically all the selected vertices within the specific distance.</p>
 <div class="section" id="id1">
-<h3>Properties<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<h3>Steps<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Select vertices, edges or polygons.</li>
+<li>Go to <code class="docutils literal"><span class="pre">Remove</span> <span class="pre">Double</span> <span class="pre">Tool</span></code></li>
+<li>Adjust <code class="docutils literal"><span class="pre">Distance</span></code> property.</li>
+</ol>
+</div></blockquote>
+</div>
+<div class="section" id="id2">
+<h3>Properties<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt>Distance</dt>
 <dd>Minimum distance to be merged.</dd>
 </dl>
-<div class="figure" id="id10">
+<div class="figure" id="id12">
 <a class="reference internal image-reference" href="_images/UModeler_RemoveDoublesTool.gif"><img alt="_images/UModeler_RemoveDoublesTool.gif" src="_images/UModeler_RemoveDoublesTool.gif" style="width: 855.0px; height: 618.4499999999999px;" /></a>
 <p class="caption"><span class="caption-text">RemoveDoubles Tool Demo</span></p>
 </div>
@@ -276,24 +302,33 @@
 <div class="section" id="collpase-tool">
 <h2>Collpase Tool<a class="headerlink" href="#collpase-tool" title="Permalink to this headline">¶</a></h2>
 <p>Merges each edge island or vertex island into one vertex. This makes as many remaining vertices as islands of selection. (i.e. groups of linked selected vertices).</p>
-<div class="figure" id="id11">
+<div class="section" id="id3">
+<h3>Steps<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Select vertices or edges or polygons.</li>
+<li>Click on Collapse Tool button.</li>
+</ol>
+</div></blockquote>
+<div class="figure" id="id13">
 <a class="reference internal image-reference" href="_images/UModeler_CollapseTool.gif"><img alt="_images/UModeler_CollapseTool.gif" src="_images/UModeler_CollapseTool.gif" style="width: 855.0px; height: 618.4499999999999px;" /></a>
 <p class="caption"><span class="caption-text">Collapse Tool Demo</span></p>
+</div>
 </div>
 </div>
 <hr class="docutils" />
 <div class="section" id="cut-tool">
 <h2>Cut Tool<a class="headerlink" href="#cut-tool" title="Permalink to this headline">¶</a></h2>
 <p>Cuts a mesh into two along a line drawn by dragging a mouse. Pressing <code class="docutils literal"><span class="pre">SPACE</span></code> while dragging will change the direction of cutting.</p>
-<div class="section" id="id2">
-<h3>Interface<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id4">
+<h3>Interface<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt><code class="docutils literal"><span class="pre">LMB</span> <span class="pre">Drag</span></code></dt>
 <dd>Rotates the custom plane.</dd>
 </dl>
 </div>
-<div class="section" id="id3">
-<h3>Properties<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id5">
+<h3>Properties<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt>Type</dt>
 <dd><ul class="first last simple">
@@ -306,7 +341,7 @@
 <dt>Select Above</dt>
 <dd>After cutting a mesh, selects all polygons above the custom plane.</dd>
 </dl>
-<div class="figure" id="id12">
+<div class="figure" id="id14">
 <a class="reference internal image-reference" href="_images/UModeler_CutTool.gif"><img alt="_images/UModeler_CutTool.gif" src="_images/UModeler_CutTool.gif" style="width: 760.0px; height: 484.5px;" /></a>
 <p class="caption"><span class="caption-text">Cut Tool Demo</span></p>
 </div>
@@ -316,7 +351,7 @@
 <div class="section" id="clip-tool">
 <h2>Clip Tool<a class="headerlink" href="#clip-tool" title="Permalink to this headline">¶</a></h2>
 <p>Cuts away the parts of the selected polygons under the <code class="docutils literal"><span class="pre">Clip</span> <span class="pre">polygon</span></code>, which has to be selected after pressing <code class="docutils literal"><span class="pre">Clip</span></code> button.</p>
-<div class="figure" id="id13">
+<div class="figure" id="id15">
 <a class="reference internal image-reference" href="_images/UModeler_ClipTool.gif"><img alt="_images/UModeler_ClipTool.gif" src="_images/UModeler_ClipTool.gif" style="width: 855.0px; height: 618.4499999999999px;" /></a>
 <p class="caption"><span class="caption-text">Clip Tool Demo</span></p>
 </div>

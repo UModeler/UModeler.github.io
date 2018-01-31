@@ -82,7 +82,7 @@ Generate Lightmap UVs
 .. _recalculate-tangents:
  
 Recalculate Tangents
- If this is on, tagent vectors will be calculated every time UModeler mesh changes. If the materials in UModeler have normal textures, this should be on.
+ If this is on, tangent vectors will be calculated every time UModeler mesh changes. If the materials in UModeler have normal textures, this should be on.
  
 .. figure:: /images/UModeler_GenerateLightmapUVs.gif
    :scale: 95 %

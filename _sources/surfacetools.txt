@@ -184,7 +184,7 @@ Select Vertices
 Polygon Color Tool 
 ===================
 
-(Formely called as `Color Tool`)
+(Formerly called as `Color Tool`)
 
 Sets colors to the polygons. Pressing or Dragging ``LMB`` holding ``SHIFT`` will paint a polygon below the mouse cursor in the selected color.
 
@@ -262,6 +262,9 @@ Add Group
  
 Remove Group
  Removes the current smoothing group.
+ 
+Rename Group
+ Renames the current smoothing group.
  
 Remove Empty
  Removes smoothing groups which have no polygons.
