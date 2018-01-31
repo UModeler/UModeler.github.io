@@ -155,7 +155,7 @@ Steps - Start Mirror Mode
 2. Adjust ``Axis``, ``Distance`` and ``Invert`` properties to set the mirror plane.
 3. Click on ``Start`` button.
 
-Steps - Comfirm
+Steps - Confirm
 --------------------------------
 1. Select ``MirrorTool``.
 2. If you want to leave a boundary between the original part and the mirrored part, check ``Leave Boundary`` property.
@@ -203,7 +203,7 @@ Steps
 4. Drag the mouse to changes the offset of the edge loops.
 5. Release ``LMB`` to finish.
 
-Inteface
+Interface
 -------------   
 ``LMB Drag``
  Moves the edge loops.

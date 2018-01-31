@@ -25,7 +25,7 @@ Steps
 Isolated Tool
 ==============
 
-Selects geometry connected to already selected elements. This is often useful when a mesh has disconnected, overlapping parts
+Selects geometry connected to already selected elements. This is often useful when a mesh has disconnected but overlapping parts
 
 Steps
 --------
@@ -41,12 +41,12 @@ Steps
 Loop Tool
 ==============
 
-Edge Loops
+Edge Loop
 ------------
 
 Selects a loop of edges that are connected in a line end to end.
 
-Quad Loops
+Quad Loop
 ------------
 
 Serial quad polygons across a mesh will be selected in a direction of the first two selected quad.
@@ -63,7 +63,7 @@ If the selected edge is a part of a hole, all the edges of the holes will be sel
 
 Steps
 ---------
-1. Select an edge if you want ``Edge Loops`` or ``Hole Selection``. Select two serise quad polygons if you want ``Quad Loops``.
+1. Select an edge if you want ``Edge Loops`` or ``Hole Selection``. Select two series quad polygons if you want ``Quad Loops``.
 2. Select ``Loop Tool``.
 
 .. figure:: /images/UModeler_HoleSelection_v2.gif
@@ -76,12 +76,12 @@ Steps
 Ring Tool
 ==============
 
-Edge Rings
+Edge Ring
 ------------
 
 Selects a sequence of edges that are not connected, but on opposite sides to each other continuing along a face loop
 
-Quad Rings
+Quad Ring
 ------------
 
 Lets you select several polygons across a mesh without having to select each polygon individually.

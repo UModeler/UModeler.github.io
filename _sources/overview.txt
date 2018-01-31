@@ -47,7 +47,7 @@ Layout
     UModeler Inspector - ``Search EditBox`` and ``Tools``   
 
  Search EditBox
-  Search for a specific tool. This edit box can be activated by pressing ``ENTER`` in the scene view or inspector.  
+  Searches for a specific tool. This edit box can be activated by pressing ``ENTER`` in the scene view or inspector.  
   
  .. figure:: /images/UModeler_SearchEditBox.gif
     :scale: 95 %

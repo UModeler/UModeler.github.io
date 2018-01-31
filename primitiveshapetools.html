@@ -102,37 +102,38 @@
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#room-tool">Room Tool</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#id1">Steps</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id4">Interface</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id5">Properties</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id2">Interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id3">Properties</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#stair-tool">Stair Tool</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id6">Steps</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id7">Interface</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id8">Properties</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id4">Steps</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id5">Interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id6">Properties</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#cylinder-tool">Cylinder Tool</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id9">Steps</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id10">Interface</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id11">Properties</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id7">Steps</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id8">Interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id9">Properties</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#cone-tool">Cone Tool</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id12">Steps</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id13">Interface</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id14">Properties</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id10">Steps</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id11">Interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id12">Properties</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#sphere-tool">Sphere Tool</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id15">Steps</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id16">Interface</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id17">Properties</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id13">Steps</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id14">Interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id15">Properties</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#capsule-tool">Capsule Tool</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id18">Steps</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id19">Properties</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id16">Steps</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id17">Interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id18">Properties</a></li>
 </ul>
 </li>
 </ul>
@@ -218,7 +219,7 @@
 <h3>Interface<a class="headerlink" href="#interface" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt><code class="docutils literal"><span class="pre">LMB</span> <span class="pre">Drag</span></code></dt>
-<dd>Starts and draws a bottom rectangle of a b/ox.</dd>
+<dd>Starts and draws a bottom rectangle of a box.</dd>
 <dt><code class="docutils literal"><span class="pre">SPACE</span></code></dt>
 <dd>Completes creating a box.</dd>
 <dt><code class="docutils literal"><span class="pre">ESC</span></code></dt>
@@ -232,18 +233,18 @@
 <dd>Width of a box</dd>
 <dt>Depth</dt>
 <dd>Depth of a box</dd>
-<dt>Heigh</dt>
+<dt>Height</dt>
 <dd>Height of a box</dd>
 <dt>Border Check</dt>
-<dd>If on, the ray cast will run and it checks if the created box is beyond the opposite polygons.</dd>
+<dd>If on, the ray cast will run and it checks if the created box is beyond the opposite polygons. It might cause a stop for a second at the beginning.</dd>
 <dt>Glue</dt>
 <dd>The box with this property enabled will be glued to the polygon where it started to be created. It means that the hidden part of the floor polygon by the created box is removed.</dd>
 </dl>
-<div class="figure" id="id20">
+<div class="figure" id="id19">
 <a class="reference internal image-reference" href="_images/UModeler_BoxTool.gif"><img alt="_images/UModeler_BoxTool.gif" src="_images/UModeler_BoxTool.gif" style="width: 760.0px; height: 493.04999999999995px;" /></a>
 <p class="caption"><span class="caption-text">Box Tool Demo - Basic and <code class="docutils literal"><span class="pre">Width</span></code>, <code class="docutils literal"><span class="pre">Depth</span></code>, <code class="docutils literal"><span class="pre">Height</span></code> and <code class="docutils literal"><span class="pre">Border</span> <span class="pre">Check</span></code> properties</span></p>
 </div>
-<div class="figure" id="id21">
+<div class="figure" id="id20">
 <a class="reference internal image-reference" href="_images/UModeler_BoxTool2.gif"><img alt="_images/UModeler_BoxTool2.gif" src="_images/UModeler_BoxTool2.gif" style="width: 760.0px; height: 493.04999999999995px;" /></a>
 <p class="caption"><span class="caption-text">Box Tool Demo - <code class="docutils literal"><span class="pre">Glue</span></code> property and enabled <cite>Snap</cite></span></p>
 </div>
@@ -256,7 +257,7 @@
 <div class="section" id="id1">
 <h3>Steps<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
-<li>Select <a href="#id2"><span class="problematic" id="id3">``</span></a>Room` tool</li>
+<li>Select <code class="docutils literal"><span class="pre">Room</span></code> tool</li>
 <li>Draw a rectangle on where you want like you use <code class="docutils literal"><span class="pre">Rectangle</span> <span class="pre">Tool</span></code> by dragging the mouse.</li>
 <li>Release <code class="docutils literal"><span class="pre">LMB</span></code> and move the mouse up in a normal direction to raise the height.</li>
 <li>Click <code class="docutils literal"><span class="pre">LMB</span></code> to stop raising.</li>
@@ -264,8 +265,8 @@
 <li>Press <code class="docutils literal"><span class="pre">SPACE</span></code> to complete or Press <code class="docutils literal"><span class="pre">ESC</span></code> to cancel.</li>
 </ol>
 </div>
-<div class="section" id="id4">
-<h3>Interface<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id2">
+<h3>Interface<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt><code class="docutils literal"><span class="pre">LMB</span> <span class="pre">Drag</span></code></dt>
 <dd>Starts and draws a bottom rectangle of a room.</dd>
@@ -275,8 +276,8 @@
 <dd>Cancels creating a room.</dd>
 </dl>
 </div>
-<div class="section" id="id5">
-<h3>Properties<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id3">
+<h3>Properties<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt>Width</dt>
 <dd>Width of a room</dd>
@@ -287,11 +288,11 @@
 <dt>Thickness</dt>
 <dd>The distance between outer box and inner flipped box.</dd>
 <dt>Border Check</dt>
-<dd>If this is enabled, the ray cast will run and it checks if the created room is beyond the other polygons.</dd>
+<dd>If this is enabled, the ray cast will run and it checks if the created room is beyond the other polygons. It might cause a stop for a second at the beginning.</dd>
 <dt>Glue</dt>
 <dd>The room with this property enabled will be glued to the polygon where it started to be created. It means that the hidden part of the floor polygon by the created room is removed.</dd>
 </dl>
-<div class="figure" id="id22">
+<div class="figure" id="id21">
 <a class="reference internal image-reference" href="_images/UModeler_RoomTool.gif"><img alt="_images/UModeler_RoomTool.gif" src="_images/UModeler_RoomTool.gif" style="width: 1208.3999999999999px; height: 784.6999999999999px;" /></a>
 <p class="caption"><span class="caption-text">Room Tool Demo</span></p>
 </div>
@@ -301,8 +302,8 @@
 <div class="section" id="stair-tool">
 <h2>Stair Tool<a class="headerlink" href="#stair-tool" title="Permalink to this headline">¶</a></h2>
 <p>Creates stairs like you creates a box. The stair created with this tool has a uniform rise no matter how high the stair is.</p>
-<div class="section" id="id6">
-<h3>Steps<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id4">
+<h3>Steps<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
 <li>Select <code class="docutils literal"><span class="pre">Stair</span> <span class="pre">Tool</span></code></li>
 <li>Draw a rectangle by dragging the mouse.</li>
@@ -312,8 +313,8 @@
 <li>Press <code class="docutils literal"><span class="pre">SPACE</span></code> to complete or Press <code class="docutils literal"><span class="pre">ESC</span></code> to cancel.</li>
 </ol>
 </div>
-<div class="section" id="id7">
-<h3>Interface<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id5">
+<h3>Interface<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt><code class="docutils literal"><span class="pre">LMB</span> <span class="pre">Drag</span></code></dt>
 <dd>Starts and draws a bottom rectangle of a stair</dd>
@@ -323,8 +324,8 @@
 <dd>Cancels creating a stair</dd>
 </dl>
 </div>
-<div class="section" id="id8">
-<h3>Properties<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id6">
+<h3>Properties<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt>Width</dt>
 <dd>The entire width of a stair</dd>
@@ -333,21 +334,21 @@
 <dt>Height</dt>
 <dd>The entire height of a stair.</dd>
 <dt>Rise</dt>
-<dd>Distance between two treads.</dd>
+<dd>Distance between two neighbor treads.</dd>
 <dt>Wide Step</dt>
 <dd>Rotates the stair by 90 degrees.</dd>
 <dt>Reverse</dt>
 <dd>Reverses the front and back.</dd>
 <dt>Border Check</dt>
-<dd>If this is enabled, the ray cast will run and it checks if the created stair is beyond the other polygons.</dd>
+<dd>If this is enabled, the ray cast will run and it checks if the created stair is beyond the other polygons. It might cause a stop for a second at the beginning.</dd>
 <dt>Glue</dt>
 <dd>The stair with this property enabled will be glued to the polygon where it started to be created. It means that the hidden part of the floor polygon by the created stair is removed.</dd>
 </dl>
-<div class="figure" id="id23">
+<div class="figure" id="id22">
 <a class="reference internal image-reference" href="_images/UModeler_StairTool.gif"><img alt="_images/UModeler_StairTool.gif" src="_images/UModeler_StairTool.gif" style="width: 760.0px; height: 493.04999999999995px;" /></a>
 <p class="caption"><span class="caption-text">Stair Tool Demo</span></p>
 </div>
-<div class="figure" id="id24">
+<div class="figure" id="id23">
 <a class="reference internal image-reference" href="_images/UModeler_StairTool2.gif"><img alt="_images/UModeler_StairTool2.gif" src="_images/UModeler_StairTool2.gif" style="width: 760.0px; height: 493.04999999999995px;" /></a>
 <p class="caption"><span class="caption-text">Stair Tool Demo - Constructing a stair on a mesh</span></p>
 </div>
@@ -357,19 +358,19 @@
 <div class="section" id="cylinder-tool">
 <h2>Cylinder Tool<a class="headerlink" href="#cylinder-tool" title="Permalink to this headline">¶</a></h2>
 <p>Creates a cylinder</p>
-<div class="section" id="id9">
-<h3>Steps<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id7">
+<h3>Steps<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
 <li>Select <code class="docutils literal"><span class="pre">Cylinder</span> <span class="pre">Tool</span></code></li>
 <li>Drag the mouse to draw a disk.</li>
 <li>Release <code class="docutils literal"><span class="pre">LMB</span></code> and move the mouse cursor in a normal direction to raise the height.</li>
-<li>Click <code class="docutils literal"><span class="pre">LMB</span></code> to stop rasing.</li>
+<li>Click <code class="docutils literal"><span class="pre">LMB</span></code> to stop raising.</li>
 <li>Type the count of edges in <code class="docutils literal"><span class="pre">Segment</span></code> field, radius in <code class="docutils literal"><span class="pre">Radius</span></code> field and height in <code class="docutils literal"><span class="pre">Height</span></code> field if necessary.</li>
 <li>Press <code class="docutils literal"><span class="pre">SPACE</span></code> to complete or Press <code class="docutils literal"><span class="pre">ESC</span></code> to cancel.</li>
 </ol>
 </div>
-<div class="section" id="id10">
-<h3>Interface<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id8">
+<h3>Interface<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt><code class="docutils literal"><span class="pre">LMB</span> <span class="pre">Drag</span></code></dt>
 <dd>Draws a disk.</dd>
@@ -379,8 +380,8 @@
 <dd>Cancels creating a cylinder.</dd>
 </dl>
 </div>
-<div class="section" id="id11">
-<h3>Properties<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id9">
+<h3>Properties<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt>Segment</dt>
 <dd>The count of side faces</dd>
@@ -391,11 +392,11 @@
 <dt>Angle Snap</dt>
 <dd>When you drag the mouse with this property on, the disk’s direction will snap to every 90 degree.</dd>
 <dt>Border Check</dt>
-<dd>If this is enabled, the ray cast will run and it checks if the created cylinder is beyond the other polygons.</dd>
+<dd>If this is enabled, the ray cast will run and it checks if the created cylinder is beyond the other polygons. It might cause a stop for a second at the beginning.</dd>
 <dt>Glue</dt>
 <dd>The cylinder with this property enabled will be glued to the polygon where it started to be created. It means that the hidden part of the floor polygon by the created cylinder is removed.</dd>
 </dl>
-<div class="figure" id="id25">
+<div class="figure" id="id24">
 <a class="reference internal image-reference" href="_images/UModeler_CylinderTool.gif"><img alt="_images/UModeler_CylinderTool.gif" src="_images/UModeler_CylinderTool.gif" style="width: 760.0px; height: 493.04999999999995px;" /></a>
 <p class="caption"><span class="caption-text">Cylinder Tool Demo</span></p>
 </div>
@@ -405,19 +406,19 @@
 <div class="section" id="cone-tool">
 <h2>Cone Tool<a class="headerlink" href="#cone-tool" title="Permalink to this headline">¶</a></h2>
 <p>Creates a cone</p>
-<div class="section" id="id12">
-<h3>Steps<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id10">
+<h3>Steps<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
 <li>Select <code class="docutils literal"><span class="pre">Cone</span> <span class="pre">Tool</span></code></li>
 <li>Drag the mouse to draw a disk.</li>
 <li>Release <code class="docutils literal"><span class="pre">LMB</span></code> and move the mouse cursor in a normal direction to raise the height.</li>
-<li>Click <code class="docutils literal"><span class="pre">LMB</span></code> to stop rasing.</li>
+<li>Click <code class="docutils literal"><span class="pre">LMB</span></code> to stop raising.</li>
 <li>Type the count of edges in <code class="docutils literal"><span class="pre">Segment</span></code> field, radius in <code class="docutils literal"><span class="pre">Radius</span></code> field and height in <code class="docutils literal"><span class="pre">Height</span></code> field if necessary.</li>
 <li>Press <code class="docutils literal"><span class="pre">SPACE</span></code> to complete or Press <code class="docutils literal"><span class="pre">ESC</span></code> to cancel.</li>
 </ol>
 </div>
-<div class="section" id="id13">
-<h3>Interface<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id11">
+<h3>Interface<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt><code class="docutils literal"><span class="pre">LMB</span> <span class="pre">Drag</span></code></dt>
 <dd>Draws a disk.</dd>
@@ -427,8 +428,8 @@
 <p><code class="docutils literal"><span class="pre">ESC</span></code>
 Cancels creating a cone.</p>
 </div>
-<div class="section" id="id14">
-<h3>Properties<a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id12">
+<h3>Properties<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt>Segment</dt>
 <dd>The count of side faces</dd>
@@ -439,11 +440,11 @@ Cancels creating a cone.</p>
 <dt>Angle Snap</dt>
 <dd>When you drag the mouse with this property on, the disk’s direction will snap to every 90 degree.</dd>
 <dt>Border Check</dt>
-<dd>If this is enabled, the ray cast will run and it checks if the created cone is beyond the other polygons.</dd>
+<dd>If this is enabled, the ray cast will run and it checks if the created cone is beyond the other polygons. It might cause a stop for a second at the beginning.</dd>
 <dt>Glue</dt>
 <dd>The cone with this property enabled will be glued to the polygon where it started to be created. It means that the hidden part of the floor polygon by the created cone is removed.</dd>
 </dl>
-<div class="figure" id="id26">
+<div class="figure" id="id25">
 <a class="reference internal image-reference" href="_images/UModeler_ConeTool.gif"><img alt="_images/UModeler_ConeTool.gif" src="_images/UModeler_ConeTool.gif" style="width: 760.0px; height: 493.04999999999995px;" /></a>
 <p class="caption"><span class="caption-text">Cone Tool Demo</span></p>
 </div>
@@ -453,8 +454,8 @@ Cancels creating a cone.</p>
 <div class="section" id="sphere-tool">
 <h2>Sphere Tool<a class="headerlink" href="#sphere-tool" title="Permalink to this headline">¶</a></h2>
 <p>Creates a sphere</p>
-<div class="section" id="id15">
-<h3>Steps<a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id13">
+<h3>Steps<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
 <li>Enter <code class="docutils literal"><span class="pre">Sphere</span> <span class="pre">Tool</span></code></li>
 </ol>
@@ -462,8 +463,8 @@ Cancels creating a cone.</p>
 4. You can type more precise values of <code class="docutils literal"><span class="pre">Segment</span></code> and <code class="docutils literal"><span class="pre">Radius</span></code> if necessary.
 5. Press <code class="docutils literal"><span class="pre">SPACE</span></code> to complete or Press <code class="docutils literal"><span class="pre">ESC</span></code> to cancel.</p>
 </div>
-<div class="section" id="id16">
-<h3>Interface<a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id14">
+<h3>Interface<a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt>LMB Drag</dt>
 <dd>Creates a sphere</dd>
@@ -473,8 +474,8 @@ Cancels creating a cone.</p>
 <dd>Cancels</dd>
 </dl>
 </div>
-<div class="section" id="id17">
-<h3>Properties<a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id15">
+<h3>Properties<a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt>Segment</dt>
 <dd>How many the sphere will be divided</dd>
@@ -483,7 +484,7 @@ Cancels creating a cone.</p>
 <dt>Angle Snap</dt>
 <dd>When you drag the mouse with this property on, the sphere’s forward direction will snap to every 90 degree time.</dd>
 </dl>
-<div class="figure" id="id27">
+<div class="figure" id="id26">
 <a class="reference internal image-reference" href="_images/UModeler_SphereTool.gif"><img alt="_images/UModeler_SphereTool.gif" src="_images/UModeler_SphereTool.gif" style="width: 760.0px; height: 493.04999999999995px;" /></a>
 <p class="caption"><span class="caption-text">Sphere Tool Demo</span></p>
 </div>
@@ -493,8 +494,8 @@ Cancels creating a cone.</p>
 <div class="section" id="capsule-tool">
 <h2>Capsule Tool<a class="headerlink" href="#capsule-tool" title="Permalink to this headline">¶</a></h2>
 <p>Creates a capsule</p>
-<div class="section" id="id18">
-<h3>Steps<a class="headerlink" href="#id18" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id16">
+<h3>Steps<a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
 <li>Select <code class="docutils literal"><span class="pre">Capsule</span> <span class="pre">Tool</span></code></li>
 <li>Drag the mouse to draw a disk.</li>
@@ -504,8 +505,19 @@ Cancels creating a cone.</p>
 <li>Press <code class="docutils literal"><span class="pre">SPACE</span></code> to complete or Press <code class="docutils literal"><span class="pre">ESC</span></code> to cancel.</li>
 </ol>
 </div>
-<div class="section" id="id19">
-<h3>Properties<a class="headerlink" href="#id19" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id17">
+<h3>Interface<a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt><code class="docutils literal"><span class="pre">LMB</span> <span class="pre">Drag</span></code></dt>
+<dd>Draws a disk.</dd>
+<dt><code class="docutils literal"><span class="pre">SPACE</span></code></dt>
+<dd>Completes creating a capsule.</dd>
+<dt><code class="docutils literal"><span class="pre">ESC</span></code></dt>
+<dd>Cancels creating a capsule.</dd>
+</dl>
+</div>
+<div class="section" id="id18">
+<h3>Properties<a class="headerlink" href="#id18" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt>Segment</dt>
 <dd>The count of side faces</dd>
@@ -516,11 +528,11 @@ Cancels creating a cone.</p>
 <dt>Angle Snap</dt>
 <dd>When you drag the mouse with this property on, the capsule’s forward direction will snap to every 90 degree.</dd>
 <dt>Border Check</dt>
-<dd>If this is enabled, the ray cast will run and it checks if the created capsule is beyond the other polygons.</dd>
+<dd>If this is enabled, the ray cast will run and it checks if the created capsule is beyond the other polygons. It might cause a stop for a second at the beginning.</dd>
 <dt>Glue</dt>
 <dd>This property in Capsule tool isn’t used.</dd>
 </dl>
-<div class="figure" id="id28">
+<div class="figure" id="id27">
 <a class="reference internal image-reference" href="_images/UModeler_CapsuleTool.gif"><img alt="_images/UModeler_CapsuleTool.gif" src="_images/UModeler_CapsuleTool.gif" style="width: 760.0px; height: 493.04999999999995px;" /></a>
 <p class="caption"><span class="caption-text">Capsule Tool Demo</span></p>
 </div>

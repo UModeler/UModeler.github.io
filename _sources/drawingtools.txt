@@ -157,7 +157,7 @@ Interface
 Properties
 ------------
 Segment 
- The number of edges/segments
+ The number of edges
 
 Radius
  Radius of a disk

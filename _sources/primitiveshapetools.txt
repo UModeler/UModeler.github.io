@@ -26,7 +26,7 @@ Steps
 Interface
 -----------
 ``LMB Drag``
- Starts and draws a bottom rectangle of a b/ox.
+ Starts and draws a bottom rectangle of a box.
  
 ``SPACE``
  Completes creating a box.
@@ -42,11 +42,11 @@ Width
 Depth
  Depth of a box
  
-Heigh
+Height
  Height of a box
  
 Border Check
- If on, the ray cast will run and it checks if the created box is beyond the opposite polygons.
+ If on, the ray cast will run and it checks if the created box is beyond the opposite polygons. It might cause a stop for a second at the beginning.
  
 Glue
  The box with this property enabled will be glued to the polygon where it started to be created. It means that the hidden part of the floor polygon by the created box is removed.
@@ -69,7 +69,7 @@ This is nearly same as the box tool except creating a flipped inner box.
 
 Steps
 -----------
-1. Select ``Room` tool
+1. Select ``Room`` tool
 2. Draw a rectangle on where you want like you use ``Rectangle Tool`` by dragging the mouse.
 3. Release ``LMB`` and move the mouse up in a normal direction to raise the height.
 4. Click ``LMB`` to stop raising.
@@ -102,7 +102,7 @@ Thickness
  The distance between outer box and inner flipped box.
 
 Border Check
- If this is enabled, the ray cast will run and it checks if the created room is beyond the other polygons.
+ If this is enabled, the ray cast will run and it checks if the created room is beyond the other polygons. It might cause a stop for a second at the beginning.
  
 Glue
  The room with this property enabled will be glued to the polygon where it started to be created. It means that the hidden part of the floor polygon by the created room is removed.
@@ -151,7 +151,7 @@ Height
  The entire height of a stair.
  
 Rise
- Distance between two treads.
+ Distance between two neighbor treads.
  
 Wide Step
  Rotates the stair by 90 degrees.
@@ -160,7 +160,7 @@ Reverse
  Reverses the front and back.
  
 Border Check
- If this is enabled, the ray cast will run and it checks if the created stair is beyond the other polygons.
+ If this is enabled, the ray cast will run and it checks if the created stair is beyond the other polygons. It might cause a stop for a second at the beginning.
  
 Glue
  The stair with this property enabled will be glued to the polygon where it started to be created. It means that the hidden part of the floor polygon by the created stair is removed.
@@ -186,7 +186,7 @@ Steps
 1. Select ``Cylinder Tool``
 2. Drag the mouse to draw a disk.
 3. Release ``LMB`` and move the mouse cursor in a normal direction to raise the height.
-4. Click ``LMB`` to stop rasing.
+4. Click ``LMB`` to stop raising.
 5. Type the count of edges in ``Segment`` field, radius in ``Radius`` field and height in ``Height`` field if necessary.
 6. Press ``SPACE`` to complete or Press ``ESC`` to cancel.
 
@@ -216,7 +216,7 @@ Angle Snap
  When you drag the mouse with this property on, the disk’s direction will snap to every 90 degree.
 
 Border Check
- If this is enabled, the ray cast will run and it checks if the created cylinder is beyond the other polygons.
+ If this is enabled, the ray cast will run and it checks if the created cylinder is beyond the other polygons. It might cause a stop for a second at the beginning.
  
 Glue
  The cylinder with this property enabled will be glued to the polygon where it started to be created. It means that the hidden part of the floor polygon by the created cylinder is removed.
@@ -238,7 +238,7 @@ Steps
 1. Select ``Cone Tool``
 2. Drag the mouse to draw a disk.
 3. Release ``LMB`` and move the mouse cursor in a normal direction to raise the height.
-4. Click ``LMB`` to stop rasing.
+4. Click ``LMB`` to stop raising.
 5. Type the count of edges in ``Segment`` field, radius in ``Radius`` field and height in ``Height`` field if necessary.
 6. Press ``SPACE`` to complete or Press ``ESC`` to cancel.
 
@@ -268,7 +268,7 @@ Angle Snap
  When you drag the mouse with this property on, the disk’s direction will snap to every 90 degree.
 
 Border Check
- If this is enabled, the ray cast will run and it checks if the created cone is beyond the other polygons.
+ If this is enabled, the ray cast will run and it checks if the created cone is beyond the other polygons. It might cause a stop for a second at the beginning.
 
 Glue
  The cone with this property enabled will be glued to the polygon where it started to be created. It means that the hidden part of the floor polygon by the created cone is removed.
@@ -334,6 +334,17 @@ Steps
 5. Type the count of edges in ``Segment`` field, radius in ``Radius`` field and height in ``Height`` field if necessary.
 6. Press ``SPACE`` to complete or Press ``ESC`` to cancel.
 
+Interface
+-------------
+``LMB Drag``
+ Draws a disk.
+ 
+``SPACE``
+ Completes creating a capsule.
+ 
+``ESC``
+ Cancels creating a capsule.
+
 Properties
 ---------------
 Segment
@@ -349,7 +360,7 @@ Angle Snap
  When you drag the mouse with this property on, the capsule’s forward direction will snap to every 90 degree.
 
 Border Check
- If this is enabled, the ray cast will run and it checks if the created capsule is beyond the other polygons.
+ If this is enabled, the ray cast will run and it checks if the created capsule is beyond the other polygons. It might cause a stop for a second at the beginning.
 
 Glue
  This property in Capsule tool isn’t used.

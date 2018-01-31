@@ -11,7 +11,7 @@ There are 4 types of elements you can select and transform.
  • Edge - Two connected vertices.
  • Polygon - A simple polygon that can have holes.
  
-To begin to transform elements, you have to select them at first. Which type of elements is tranformed depends on what tool is selected in the inspector. 
+To begin to transform elements, you have to select them at first. Which type of elements is transformed depends on what tool is selected in the inspector. 
 
 .. tip::
 
@@ -19,7 +19,7 @@ To begin to transform elements, you have to select them at first. Which type of 
    | 2. Pressing ``W`` ``E`` or ``R`` changes the current gizmo like Unity. 
    | 3. Dragging a mouse from an element causes moving the element   
    | 4. If you hold ``SHIFT`` while dragging a gizmo, the selected elements are transformed separately from the adjacent polygons.
-   | 5. If you hold ``CTRL`` while dragging a tranlstion gizmo and moving to another vertex, the selected elements' selected axis's value will be snapped to the vertex. This is called ``1D snapping``
+   | 5. If you hold ``CTRL`` while dragging a translation gizmo and moving to another vertex, the selected elements' selected axis's value will be snapped to the vertex. This is called ``1D snapping``
    
 Properties
 -----------
@@ -71,13 +71,13 @@ Insert Vertex
 
 Object tool
 ============
- Object mode. You can select other objects.
+ Object mode. You can select and transform an object.
  
 ----------------------------------------------------------------------------------------------------------------------
  
 3D Cursor tool
 ===============
- Sets a position of 3D cursor, which is used for a pivot of transfoming.
+ Sets a position of 3D cursor which is used as a pivot of transforming or target position etc.
 
 ----------------------------------------------------------------------------------------------------------------------
  

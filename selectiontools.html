@@ -101,15 +101,15 @@
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#loop-tool">Loop Tool</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#edge-loops">Edge Loops</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#quad-loops">Quad Loops</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#edge-loop">Edge Loop</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#quad-loop">Quad Loop</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#hole-selection">Hole Selection</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id2">Steps</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#ring-tool">Ring Tool</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#edge-rings">Edge Rings</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#quad-rings">Quad Rings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#edge-ring">Edge Ring</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#quad-ring">Quad Ring</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id3">Steps</a></li>
 </ul>
 </li>
@@ -200,7 +200,7 @@
 <hr class="docutils" />
 <div class="section" id="isolated-tool">
 <h2>Isolated Tool<a class="headerlink" href="#isolated-tool" title="Permalink to this headline">¶</a></h2>
-<p>Selects geometry connected to already selected elements. This is often useful when a mesh has disconnected, overlapping parts</p>
+<p>Selects geometry connected to already selected elements. This is often useful when a mesh has disconnected but overlapping parts</p>
 <div class="section" id="id1">
 <h3>Steps<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
@@ -215,12 +215,12 @@
 <hr class="docutils" />
 <div class="section" id="loop-tool">
 <h2>Loop Tool<a class="headerlink" href="#loop-tool" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="edge-loops">
-<h3>Edge Loops<a class="headerlink" href="#edge-loops" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="edge-loop">
+<h3>Edge Loop<a class="headerlink" href="#edge-loop" title="Permalink to this headline">¶</a></h3>
 <p>Selects a loop of edges that are connected in a line end to end.</p>
 </div>
-<div class="section" id="quad-loops">
-<h3>Quad Loops<a class="headerlink" href="#quad-loops" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="quad-loop">
+<h3>Quad Loop<a class="headerlink" href="#quad-loop" title="Permalink to this headline">¶</a></h3>
 <p>Serial quad polygons across a mesh will be selected in a direction of the first two selected quad.</p>
 <div class="figure" id="id8">
 <a class="reference internal image-reference" href="_images/UModeler_LoopSelectionTool.gif"><img alt="_images/UModeler_LoopSelectionTool.gif" src="_images/UModeler_LoopSelectionTool.gif" style="width: 760.0px; height: 492.09999999999997px;" /></a>
@@ -234,7 +234,7 @@
 <div class="section" id="id2">
 <h3>Steps<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
-<li>Select an edge if you want <code class="docutils literal"><span class="pre">Edge</span> <span class="pre">Loops</span></code> or <code class="docutils literal"><span class="pre">Hole</span> <span class="pre">Selection</span></code>. Select two serise quad polygons if you want <code class="docutils literal"><span class="pre">Quad</span> <span class="pre">Loops</span></code>.</li>
+<li>Select an edge if you want <code class="docutils literal"><span class="pre">Edge</span> <span class="pre">Loops</span></code> or <code class="docutils literal"><span class="pre">Hole</span> <span class="pre">Selection</span></code>. Select two series quad polygons if you want <code class="docutils literal"><span class="pre">Quad</span> <span class="pre">Loops</span></code>.</li>
 <li>Select <code class="docutils literal"><span class="pre">Loop</span> <span class="pre">Tool</span></code>.</li>
 </ol>
 <div class="figure" id="id9">
@@ -246,12 +246,12 @@
 <hr class="docutils" />
 <div class="section" id="ring-tool">
 <h2>Ring Tool<a class="headerlink" href="#ring-tool" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="edge-rings">
-<h3>Edge Rings<a class="headerlink" href="#edge-rings" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="edge-ring">
+<h3>Edge Ring<a class="headerlink" href="#edge-ring" title="Permalink to this headline">¶</a></h3>
 <p>Selects a sequence of edges that are not connected, but on opposite sides to each other continuing along a face loop</p>
 </div>
-<div class="section" id="quad-rings">
-<h3>Quad Rings<a class="headerlink" href="#quad-rings" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="quad-ring">
+<h3>Quad Ring<a class="headerlink" href="#quad-ring" title="Permalink to this headline">¶</a></h3>
 <p>Lets you select several polygons across a mesh without having to select each polygon individually.</p>
 </div>
 <div class="section" id="id3">
