@@ -77,13 +77,27 @@ Object tool
  
 3D Cursor tool
 ===============
- Sets a position of 3D cursor which is used as a pivot of transforming or target position etc.
+ Sets a position of 3D cursor, which is used as a pivot of transfoming or target position or anything, by clicking on a blue box or dragging a translation gizmo.
+ 
+.. note::
+
+   | The 3D Cursor can be enabled via ``Settings`` / ``Display`` / ``Cursor`` in the inspector.
+ 
+.. figure:: /images/UModeler_3DCursorTool.gif
+   :scale: 95 %
+   
+   ``3D Cursor Tool`` Demo
 
 ----------------------------------------------------------------------------------------------------------------------
  
 Pivot tool
 ============
- Sets a position of a pivot of the object. 
+ Sets a position of a pivot of the current object by clicking on a blue box or dragging a translation gizmo.
+ 
+.. figure:: /images/UModeler_pivottool.gif
+   :scale: 95 %
+   
+   ``Pivot Tool`` Demo
  
 Properties
 -----------
@@ -99,8 +113,24 @@ Snap tool
 
 Moves a polygon to the specific position. This tool can be used to set a profile polygon for ``Follow Tool``. 
 
+Interface
+----------- 
+``SPACE``
+ Flips the selected polygon horizontally.
+ 
+``LMB Down``
+ Selects a position.
+ 
+``ESC``
+ Goes back to the previous step or exits the Snap tool.
+
 Properties
 -----------
 
 Flip
  Flips the polygon horizontally. 
+ 
+ .. figure:: /images/UModeler_snaptool.gif
+   :scale: 95 %
+   
+   ``Snap Tool`` Demo

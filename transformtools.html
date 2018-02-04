@@ -102,6 +102,7 @@
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#snap-tool">Snap tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#interface">Interface</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id2">Properties</a></li>
 </ul>
 </li>
@@ -233,13 +234,27 @@
 <div class="section" id="d-cursor-tool">
 <h2>3D Cursor tool<a class="headerlink" href="#d-cursor-tool" title="Permalink to this headline">¶</a></h2>
 <blockquote>
-<div>Sets a position of 3D cursor which is used as a pivot of transforming or target position etc.</div></blockquote>
+<div>Sets a position of 3D cursor, which is used as a pivot of transfoming or target position or anything, by clicking on a blue box or dragging a translation gizmo.</div></blockquote>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<div class="last line-block">
+<div class="line">The 3D Cursor can be enabled via <code class="docutils literal"><span class="pre">Settings</span></code> / <code class="docutils literal"><span class="pre">Display</span></code> / <code class="docutils literal"><span class="pre">Cursor</span></code> in the inspector.</div>
+</div>
+</div>
+<div class="figure" id="id8">
+<a class="reference internal image-reference" href="_images/UModeler_3DCursorTool.gif"><img alt="_images/UModeler_3DCursorTool.gif" src="_images/UModeler_3DCursorTool.gif" style="width: 760.0px; height: 458.84999999999997px;" /></a>
+<p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">3D</span> <span class="pre">Cursor</span> <span class="pre">Tool</span></code> Demo</span></p>
+</div>
 </div>
 <hr class="docutils" />
 <div class="section" id="pivot-tool">
 <h2>Pivot tool<a class="headerlink" href="#pivot-tool" title="Permalink to this headline">¶</a></h2>
 <blockquote>
-<div>Sets a position of a pivot of the object.</div></blockquote>
+<div>Sets a position of a pivot of the current object by clicking on a blue box or dragging a translation gizmo.</div></blockquote>
+<div class="figure" id="id9">
+<a class="reference internal image-reference" href="_images/UModeler_pivottool.gif"><img alt="_images/UModeler_pivottool.gif" src="_images/UModeler_pivottool.gif" style="width: 760.0px; height: 459.79999999999995px;" /></a>
+<p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Pivot</span> <span class="pre">Tool</span></code> Demo</span></p>
+</div>
 <div class="section" id="id1">
 <h3>Properties<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
@@ -256,11 +271,27 @@
 <div class="section" id="snap-tool">
 <h2>Snap tool<a class="headerlink" href="#snap-tool" title="Permalink to this headline">¶</a></h2>
 <p>Moves a polygon to the specific position. This tool can be used to set a profile polygon for <code class="docutils literal"><span class="pre">Follow</span> <span class="pre">Tool</span></code>.</p>
+<div class="section" id="interface">
+<h3>Interface<a class="headerlink" href="#interface" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt><code class="docutils literal"><span class="pre">SPACE</span></code></dt>
+<dd>Flips the selected polygon horizontally.</dd>
+<dt><code class="docutils literal"><span class="pre">LMB</span> <span class="pre">Down</span></code></dt>
+<dd>Selects a position.</dd>
+<dt><code class="docutils literal"><span class="pre">ESC</span></code></dt>
+<dd>Goes back to the previous step or exits the Snap tool.</dd>
+</dl>
+</div>
 <div class="section" id="id2">
 <h3>Properties<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt>Flip</dt>
-<dd>Flips the polygon horizontally.</dd>
+<dd><p class="first">Flips the polygon horizontally.</p>
+<div class="last figure" id="id10">
+<a class="reference internal image-reference" href="_images/UModeler_snaptool.gif"><img alt="_images/UModeler_snaptool.gif" src="_images/UModeler_snaptool.gif" style="width: 760.0px; height: 459.79999999999995px;" /></a>
+<p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Snap</span> <span class="pre">Tool</span></code> Demo</span></p>
+</div>
+</dd>
 </dl>
 </div>
 </div>
