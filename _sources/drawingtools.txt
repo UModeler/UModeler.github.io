@@ -38,7 +38,7 @@ Interface
 
    Line Tool Demo
    
-.. _SnapToXY:   
+.. _SnapToXY:
 
 .. figure:: /images/UModeler_SnapToXY.gif
    :scale: 95 %

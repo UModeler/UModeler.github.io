@@ -4,6 +4,18 @@ UModeler 2.0
 
  .. figure:: /images/UModeler_Banner.png
  
+Version 2.0.7
+==================================================================================
+ - Feature : Advanced menu tooltips. 
+ - Feature : Added ``Help`` button at the top of tools in the Inspector to show Online Manual
+ - Feature : Added Color settings in Preferences. (See :ref:`this <AdvancedPreferences>`)
+ - Enhancement : Shortcut Settings in Preferences - Modifiers' list box has been replaced with 3 toggle boxes (``Shfit``, ``Ctrl`` and ``Alt``) (See :ref:`this <AdvancedPreferences>`)
+ - Documentation : 3D Cursor Tool (See :ref:`this <3DCursorTool>`)
+ - Documentation : Pivot Tool (See :ref:`this <PivotTool>`)
+ - Documentation : Snap Tool (See :ref:`this <SnapTool>`)
+ - Fix : Material Tool - Added codes to deal with null material.
+ - Fix : Error of invalid selected polygon display.
+ 
 Version 2.0.6
 ==================================================================================
  - Feature : New snapping - Snap to X-axis or Y-axis of the current placed points. This makes drawing a rectangle and a right angle triangle etc possible using ``Line tool`` (See :ref:`this <SnapToXY>`)

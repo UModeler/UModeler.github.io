@@ -23,6 +23,7 @@ Seamless Edit
 .. raw:: html
 
  <iframe width="560" height="315" src="https://www.youtube.com/embed/HygWp8NG6PY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>  
+
 `Seamless Edit Demo`
  
 Display
@@ -75,12 +76,15 @@ Rotation Snap Size
  Many used rotation snap sizes
  
 ----------------------------------------------------------------------------------------------------------------------
- 
-Shortcut
-===========
-You can set shortcuts of UModeler in Unity Preferences window to which you can go through ``Edit > Preferences`` as follows. 
 
-.. figure:: /images/UModeler_Shortcuts.png
+.. _AdvancedPreferences:
+ 
+Preferences
+===========
+
+You can set shortcuts and general settings of UModeler in Unity Preferences window to which you can go through ``Edit > Preferences`` as follows. 
+
+.. figure:: /images/UModeler_Preferences.png
    :scale: 55 %
 	
-   UModeler Shortcut settings.
+   UModeler Preferences.

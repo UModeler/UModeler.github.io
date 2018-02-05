@@ -74,6 +74,8 @@ Object tool
  Object mode. You can select and transform an object.
  
 ----------------------------------------------------------------------------------------------------------------------
+
+.. _3DCursorTool:
  
 3D Cursor tool
 ===============
@@ -89,7 +91,9 @@ Object tool
    ``3D Cursor Tool`` Demo
 
 ----------------------------------------------------------------------------------------------------------------------
- 
+
+.. _PivotTool:
+
 Pivot tool
 ============
  Sets a position of a pivot of the current object by clicking on a blue box or dragging a translation gizmo.
@@ -107,6 +111,8 @@ Candidate Set
  * ``Polygon`` - Position set coming from the vertices from the polygons.
 
 ----------------------------------------------------------------------------------------------------------------------
+
+.. _SnapTool:
  
 Snap tool
 ==========
