@@ -106,14 +106,18 @@
 <li class="toctree-l3"><a class="reference internal" href="#properties">Properties</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#export-tool">Export Tool</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#polygon-group-tool">Polygon Group Tool</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#id1">Properties</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#export-tool">Export Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id2">Properties</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#pivot-to-center-tool">Pivot To Center Tool</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#collider-tool">Collider Tool</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#local-settings-tool">Local Settings Tool</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id2">Properties</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id3">Properties</a></li>
 </ul>
 </li>
 </ul>
@@ -192,11 +196,40 @@
 </div>
 </div>
 <hr class="docutils" />
+<div class="section" id="polygon-group-tool">
+<h2>Polygon Group Tool<a class="headerlink" href="#polygon-group-tool" title="Permalink to this headline">¶</a></h2>
+<p>Groups the selected polygons into a single group. <code class="docutils literal"><span class="pre">Active</span> <span class="pre">Group</span></code> in the UModeler Status on the scene view displays the current polygon group. The newly created polygons will belong into the activated group.
+You can choose a group via either <code class="docutils literal"><span class="pre">Active</span> <span class="pre">Group</span></code> in the UModeler status or <code class="docutils literal"><span class="pre">Polygon</span> <span class="pre">Group</span> <span class="pre">Tool</span></code> in the inspector.</p>
+<div class="section" id="id1">
+<h3>Properties<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt>Group Name</dt>
+<dd>The current polygon group name</dd>
+<dt>Polygon Count</dt>
+<dd>The polygon count in the current polygon group.</dd>
+<dt>Add Group</dt>
+<dd>Adds a new polygon group from the current selected polygons.</dd>
+<dt>Remove Group</dt>
+<dd>Removes the current polygon group.</dd>
+<dt>Rename Group</dt>
+<dd>Renames the current polygon group.</dd>
+<dt>Remove Empty</dt>
+<dd>Removes polygon groups which have no polygons.</dd>
+<dt>Select Polygons</dt>
+<dd>Selects polygons in the current polygon group.</dd>
+<dt>Add Polygons</dt>
+<dd>Adds the selected polygons to the current polygon group.</dd>
+<dt>Remove Polygons</dt>
+<dd>Gets rid of the selected polygons from the current polygon group.</dd>
+</dl>
+</div>
+</div>
+<hr class="docutils" />
 <div class="section" id="export-tool">
 <h2>Export Tool<a class="headerlink" href="#export-tool" title="Permalink to this headline">¶</a></h2>
 <p>Exports the UModeler mesh to .obj or .prefab.</p>
-<div class="section" id="id1">
-<h3>Properties<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id2">
+<h3>Properties<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt>Export to .obj</dt>
 <dd>Exports the UModeler mesh to .obj</dd>
@@ -221,8 +254,8 @@
 <div class="section" id="local-settings-tool">
 <h2>Local Settings Tool<a class="headerlink" href="#local-settings-tool" title="Permalink to this headline">¶</a></h2>
 <p>Sets up local variables.</p>
-<div class="section" id="id2">
-<h3>Properties<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id3">
+<h3>Properties<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt>Backface</dt>
 <dd>backfaces on/off</dd>
@@ -233,11 +266,11 @@
 <dt>Recalculate Tangents</dt>
 <dd>If this is on, tangent vectors will be calculated every time UModeler mesh changes. If the materials in UModeler have normal textures, this should be on.</dd>
 </dl>
-<div class="figure" id="id3">
+<div class="figure" id="id4">
 <a class="reference internal image-reference" href="_images/UModeler_GenerateLightmapUVs.gif"><img alt="_images/UModeler_GenerateLightmapUVs.gif" src="_images/UModeler_GenerateLightmapUVs.gif" style="width: 760.0px; height: 484.5px;" /></a>
 <p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Generate</span> <span class="pre">Light</span> <span class="pre">UVs</span></code> Demo.</span></p>
 </div>
-<div class="figure" id="id4">
+<div class="figure" id="id5">
 <a class="reference internal image-reference" href="_images/UModeler_RecalculatingTangents.gif"><img alt="_images/UModeler_RecalculatingTangents.gif" src="_images/UModeler_RecalculatingTangents.gif" style="width: 760.0px; height: 516.8px;" /></a>
 <p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Tangent</span> <span class="pre">Recalculataion</span></code> Demo.</span></p>
 </div>

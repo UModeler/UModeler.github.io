@@ -288,8 +288,8 @@ Steps
 --------
 1. Enter ``Sphere Tool``
 2. Drag the mouse holding ``LMB`` to define a radius. The sphere will be created from the center of the bottom.
-4. You can type more precise values of ``Segment`` and ``Radius`` if necessary.
-5. Press ``SPACE`` to complete or Press ``ESC`` to cancel.
+3. You can type more precise values of ``Segment`` and ``Radius`` if necessary.
+4. Press ``SPACE`` to complete or Press ``ESC`` to cancel.
 
 Interface
 --------------
