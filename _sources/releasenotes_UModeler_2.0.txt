@@ -4,6 +4,14 @@ UModeler 2.0
 
  .. figure:: /images/UModeler_Banner.png
  
+Version 2.0.8
+==================================================================================
+ 
+ .. figure:: /images/UModeler_ProSkin.png
+ 
+ - Feature : Added a new tool - Polygon Group Tool. (See :ref:`this <polygongrouptool>`)
+ - Fix : Some incorrect colors on Pro skin.
+ 
 Version 2.0.7
 ==================================================================================
  - Feature : Advanced menu tooltips. 

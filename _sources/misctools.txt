@@ -34,6 +34,8 @@ Bake Scale
 
 -----------------------------------------------------------------------------------
 
+.. _polygongrouptool:
+
 Polygon Group Tool
 =======================
 Groups the selected polygons into a single group. ``Active Group`` in the UModeler Status on the scene view displays the current polygon group. The newly created polygons will belong into the activated group.
@@ -67,6 +69,11 @@ Add Polygons
  
 Remove Polygons
  Gets rid of the selected polygons from the current polygon group.
+ 
+.. figure:: /images/UModeler_PolygonGroupTool.gif
+   :scale: 95 %
+	
+   ``Polygon Group Tool`` Demo. 
 
 -----------------------------------------------------------------------------------
  
