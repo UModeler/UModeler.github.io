@@ -4,6 +4,15 @@ UModeler 2.0
 
  .. figure:: /images/UModeler_Banner.png
  
+Version 2.0.9
+==================================================================================
+ 
+ - Feature : Added "Triangulate" in the menu 
+ - Enhancement : Inset tool - Enabling an inset from a hole. 
+ - Enhancement : UModelerizing probuilder mesh. After converting, probuilder specific components are removed. 
+ - BugFix : Keeping Polygon mode after using Combine tool or Flatten tool. 
+ - BugFix : Spammed warning messages displayed while typing numbers in the inspector after transfoming/extruding. 
+ 
 Version 2.0.8
 ==================================================================================
  
