@@ -4,6 +4,14 @@ UModeler 2.0
 
  .. figure:: /images/UModeler_Banner.png
  
+Version 2.1.0
+==================================================================================
+ 
+ - Feature : Export/import button in the Preference window to export/import shortcuts and general settings as a xml format.
+ - Enhancement : Collider tool - Added Assign Mesh button to assign the current mesh to the mesh collider.
+ - BugFix : Ballooned gizmos when scale in transform component has been changed.
+ - BugFix : Not coming back to the previous mesh immediately after canceling action by pressing ESC
+ 
 Version 2.0.9
 ==================================================================================
  
