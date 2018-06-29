@@ -129,4 +129,4 @@ Steps
 .. figure:: /images/UModeler_IncreaseSelection_v2.gif
    :scale: 95 %
 
-   Edge Rings and Quad Rings
+   Increase selection tool demo.

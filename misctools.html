@@ -100,8 +100,7 @@
 <li class="toctree-l1"><a class="reference internal" href="tweaktools.html">Tweak Tools</a></li>
 <li class="toctree-l1"><a class="reference internal" href="surfacetools.html">Surface Tools</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Misc Tools</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#game-object-tool">Game Object Tool</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#collider-object-tool">Collider Object Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#new-umodeler-tool">New UModeler Tool</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#bake-transform-tool">Bake Transform Tool</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#properties">Properties</a></li>
 </ul>
@@ -115,9 +114,12 @@
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#pivot-to-center-tool">Pivot To Center Tool</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#collider-tool">Collider Tool</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#local-settings-tool">Local Settings Tool</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#collider-tool">Collider Tool</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#id3">Properties</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#local-settings-tool">Local Settings Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id4">Properties</a></li>
 </ul>
 </li>
 </ul>
@@ -170,14 +172,13 @@
             
   <div class="section" id="misc-tools">
 <h1>Misc Tools<a class="headerlink" href="#misc-tools" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="game-object-tool">
-<h2>Game Object Tool<a class="headerlink" href="#game-object-tool" title="Permalink to this headline">¶</a></h2>
-<p>Creates a game object with a UModeler component.</p>
-</div>
-<hr class="docutils" />
-<div class="section" id="collider-object-tool">
-<h2>Collider Object Tool<a class="headerlink" href="#collider-object-tool" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="new-umodeler-tool">
+<h2>New UModeler Tool<a class="headerlink" href="#new-umodeler-tool" title="Permalink to this headline">¶</a></h2>
 <p>Creates a game object with a UModeler component and Mesh Collider component.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">From version 2.1.1 <code class="docutils literal"><span class="pre">Game</span> <span class="pre">Object</span> <span class="pre">Tool</span></code> and <code class="docutils literal"><span class="pre">Collider</span> <span class="pre">Object</span> <span class="pre">Tool</span></code> have been replaced with <code class="docutils literal"><span class="pre">New</span> <span class="pre">UModeler</span> <span class="pre">Tool</span></code>.</p>
+</div>
 </div>
 <hr class="docutils" />
 <div class="section" id="bake-transform-tool">
@@ -203,6 +204,8 @@ You can choose a group via either <code class="docutils literal"><span class="pr
 <div class="section" id="id1">
 <h3>Properties<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
+<dt>Select Only Visible</dt>
+<dd>Selects only visible vertices/edges/polygons from a camera. Occluded elements from other polygons will not be selected. This is available only when the game object has MeshCollider component.</dd>
 <dt>Group Name</dt>
 <dd>The current polygon group name</dd>
 <dt>Polygon Count</dt>
@@ -222,7 +225,7 @@ You can choose a group via either <code class="docutils literal"><span class="pr
 <dt>Remove Polygons</dt>
 <dd>Gets rid of the selected polygons from the current polygon group.</dd>
 </dl>
-<div class="figure" id="id4">
+<div class="figure" id="id5">
 <a class="reference internal image-reference" href="_images/UModeler_PolygonGroupTool.gif"><img alt="_images/UModeler_PolygonGroupTool.gif" src="_images/UModeler_PolygonGroupTool.gif" style="width: 760.0px; height: 391.4px;" /></a>
 <p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Polygon</span> <span class="pre">Group</span> <span class="pre">Tool</span></code> Demo.</span></p>
 </div>
@@ -253,13 +256,24 @@ You can choose a group via either <code class="docutils literal"><span class="pr
 <div class="section" id="collider-tool">
 <h2>Collider Tool<a class="headerlink" href="#collider-tool" title="Permalink to this headline">¶</a></h2>
 <p>Adds a Mesh Collider component.</p>
+<div class="section" id="id3">
+<h3>Properties<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt>Add Collider</dt>
+<dd>Adds a MeshCollider component.</dd>
+<dt>Remove Collider</dt>
+<dd>Removes a MeshCollider component.</dd>
+<dt>Assign Mesh</dt>
+<dd>Assign a mesh created by UModeler to the current MeshCollider component.</dd>
+</dl>
+</div>
 </div>
 <hr class="docutils" />
 <div class="section" id="local-settings-tool">
 <h2>Local Settings Tool<a class="headerlink" href="#local-settings-tool" title="Permalink to this headline">¶</a></h2>
 <p>Sets up local variables.</p>
-<div class="section" id="id3">
-<h3>Properties<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id4">
+<h3>Properties<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt>Backface</dt>
 <dd>backfaces on/off</dd>
@@ -270,11 +284,11 @@ You can choose a group via either <code class="docutils literal"><span class="pr
 <dt>Recalculate Tangents</dt>
 <dd>If this is on, tangent vectors will be calculated every time UModeler mesh changes. If the materials in UModeler have normal textures, this should be on.</dd>
 </dl>
-<div class="figure" id="id5">
+<div class="figure" id="id6">
 <a class="reference internal image-reference" href="_images/UModeler_GenerateLightmapUVs.gif"><img alt="_images/UModeler_GenerateLightmapUVs.gif" src="_images/UModeler_GenerateLightmapUVs.gif" style="width: 760.0px; height: 484.5px;" /></a>
 <p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Generate</span> <span class="pre">Light</span> <span class="pre">UVs</span></code> Demo.</span></p>
 </div>
-<div class="figure" id="id6">
+<div class="figure" id="id7">
 <a class="reference internal image-reference" href="_images/UModeler_RecalculatingTangents.gif"><img alt="_images/UModeler_RecalculatingTangents.gif" src="_images/UModeler_RecalculatingTangents.gif" style="width: 760.0px; height: 516.8px;" /></a>
 <p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Tangent</span> <span class="pre">Recalculataion</span></code> Demo.</span></p>
 </div>

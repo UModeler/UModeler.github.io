@@ -182,13 +182,16 @@
 <div class="line">1. You can add a new selection holding <code class="docutils literal"><span class="pre">CTRL</span></code> and pressing <code class="docutils literal"><span class="pre">LMB</span></code> on an element.</div>
 <div class="line">2. Pressing <code class="docutils literal"><span class="pre">W</span></code> <code class="docutils literal"><span class="pre">E</span></code> or <code class="docutils literal"><span class="pre">R</span></code> changes the current gizmo like Unity.</div>
 <div class="line">3. Dragging a mouse from an element causes moving the element</div>
-<div class="line">4. If you hold <code class="docutils literal"><span class="pre">SHIFT</span></code> while dragging a gizmo, the selected elements are transformed separately from the adjacent polygons.</div>
+<div class="line">4. If you hold <code class="docutils literal"><span class="pre">SHIFT</span></code> while dragging a gizmo, the selected elements are extruded.</div>
 <div class="line">5. If you hold <code class="docutils literal"><span class="pre">CTRL</span></code> while dragging a translation gizmo and moving to another vertex, the selected elements&#8217; selected axis&#8217;s value will be snapped to the vertex. This is called <code class="docutils literal"><span class="pre">1D</span> <span class="pre">snapping</span></code></div>
+<div class="line">6. If you hold <code class="docutils literal"><span class="pre">SHIFT</span></code> + <code class="docutils literal"><span class="pre">CTRL</span></code> while dragging a gizmo, the selected elements are transformed separately from the adjacent polygons.</div>
 </div>
 </div>
 <div class="section" id="properties">
 <h3>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
+<dt>Select Only Visible</dt>
+<dd>If on, Selects only visible vertices/edges/polygons from a camera. Occluded elements from other polygons will not be selected. This is available only when the game object has MeshCollider component.</dd>
 <dt>Distance</dt>
 <dd>How distant the selected elements move. This is only available as translation gizmo is enabled.</dd>
 <dt>Snap To Polygon</dt>
@@ -207,18 +210,22 @@
 <p class="caption"><span class="caption-text">Selecting and transforming elements.</span></p>
 </div>
 <div class="figure" id="id4">
-<a class="reference internal image-reference" href="_images/UModeler_TransformHoldingShift_v2.gif"><img alt="_images/UModeler_TransformHoldingShift_v2.gif" src="_images/UModeler_TransformHoldingShift_v2.gif" style="width: 760.0px; height: 483.54999999999995px;" /></a>
-<p class="caption"><span class="caption-text">Transforming elements holding <code class="docutils literal"><span class="pre">SHIFT</span></code>.</span></p>
+<a class="reference internal image-reference" href="_images/UModeler_BasicExtrusion_In_TransformTool.gif"><img alt="_images/UModeler_BasicExtrusion_In_TransformTool.gif" src="_images/UModeler_BasicExtrusion_In_TransformTool.gif" style="width: 760.0px; height: 482.59999999999997px;" /></a>
+<p class="caption"><span class="caption-text">Extruding polygons and edges by moving a gizmo holding <code class="docutils literal"><span class="pre">SHIFT</span></code>.</span></p>
 </div>
 <div class="figure" id="id5">
+<a class="reference internal image-reference" href="_images/UModeler_TransformHoldingShift_v2.gif"><img alt="_images/UModeler_TransformHoldingShift_v2.gif" src="_images/UModeler_TransformHoldingShift_v2.gif" style="width: 760.0px; height: 483.54999999999995px;" /></a>
+<p class="caption"><span class="caption-text">Transforming elements holding <code class="docutils literal"><span class="pre">SHIFT</span></code> + <code class="docutils literal"><span class="pre">CTRL</span></code>.</span></p>
+</div>
+<div class="figure" id="id6">
 <a class="reference internal image-reference" href="_images/UModeler_TransformTool_SnapEdgeToPolygon.gif"><img alt="_images/UModeler_TransformTool_SnapEdgeToPolygon.gif" src="_images/UModeler_TransformTool_SnapEdgeToPolygon.gif" style="width: 760.0px; height: 493.04999999999995px;" /></a>
 <p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Snap</span> <span class="pre">To</span> <span class="pre">Polygon</span></code> property Demo.</span></p>
 </div>
-<div class="figure" id="id6">
+<div class="figure" id="id7">
 <a class="reference internal image-reference" href="_images/UModeler_VertexTool_1dSnapping.gif"><img alt="_images/UModeler_VertexTool_1dSnapping.gif" src="_images/UModeler_VertexTool_1dSnapping.gif" style="width: 665.0px; height: 435.09999999999997px;" /></a>
 <p class="caption"><span class="caption-text">1D Snapping holding <code class="docutils literal"><span class="pre">CTRL</span></code></span></p>
 </div>
-<div class="figure" id="id7">
+<div class="figure" id="id8">
 <a class="reference internal image-reference" href="_images/UModeler_TransformTool_InsertVertexProperty.gif"><img alt="_images/UModeler_TransformTool_InsertVertexProperty.gif" src="_images/UModeler_TransformTool_InsertVertexProperty.gif" style="width: 760.0px; height: 497.79999999999995px;" /></a>
 <p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Insert</span> <span class="pre">Vertex</span></code> property demo.</span></p>
 </div>
@@ -241,7 +248,7 @@
 <div class="line">The 3D Cursor can be enabled via <code class="docutils literal"><span class="pre">Settings</span></code> / <code class="docutils literal"><span class="pre">Display</span></code> / <code class="docutils literal"><span class="pre">Cursor</span></code> in the inspector.</div>
 </div>
 </div>
-<div class="figure" id="id8">
+<div class="figure" id="id9">
 <a class="reference internal image-reference" href="_images/UModeler_3DCursorTool.gif"><img alt="_images/UModeler_3DCursorTool.gif" src="_images/UModeler_3DCursorTool.gif" style="width: 760.0px; height: 458.84999999999997px;" /></a>
 <p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">3D</span> <span class="pre">Cursor</span> <span class="pre">Tool</span></code> Demo</span></p>
 </div>
@@ -251,7 +258,7 @@
 <span id="pivottool"></span><h2>Pivot tool<a class="headerlink" href="#pivot-tool" title="Permalink to this headline">¶</a></h2>
 <blockquote>
 <div>Sets a position of a pivot of the current object by clicking on a blue box or dragging a translation gizmo.</div></blockquote>
-<div class="figure" id="id9">
+<div class="figure" id="id10">
 <a class="reference internal image-reference" href="_images/UModeler_pivottool.gif"><img alt="_images/UModeler_pivottool.gif" src="_images/UModeler_pivottool.gif" style="width: 760.0px; height: 459.79999999999995px;" /></a>
 <p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Pivot</span> <span class="pre">Tool</span></code> Demo</span></p>
 </div>
@@ -287,7 +294,7 @@
 <dl class="docutils">
 <dt>Flip</dt>
 <dd><p class="first">Flips the polygon horizontally.</p>
-<div class="last figure" id="id10">
+<div class="last figure" id="id11">
 <a class="reference internal image-reference" href="_images/UModeler_snaptool.gif"><img alt="_images/UModeler_snaptool.gif" src="_images/UModeler_snaptool.gif" style="width: 760.0px; height: 459.79999999999995px;" /></a>
 <p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Snap</span> <span class="pre">Tool</span></code> Demo</span></p>
 </div>

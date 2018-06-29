@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>UV Editor &mdash; UModeler 2.0 Manual  documentation</title>
+  <title>Misc &mdash; UModeler 2.0 Manual  documentation</title>
   
 
   
@@ -36,8 +36,9 @@
               href="../genindex.html"/>
         <link rel="search" title="Search" href="../search.html"/>
     <link rel="top" title="UModeler 2.0 Manual  documentation" href="../index.html"/>
-        <link rel="next" title="Overview" href="overview.html"/>
-        <link rel="prev" title="Misc Tools" href="../misctools.html"/> 
+        <link rel="up" title="UV Editor" href="index.html"/>
+        <link rel="next" title="Release Notes" href="../releasenotes.html"/>
+        <link rel="prev" title="Break/Merge" href="breakmerge.html"/> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
@@ -100,7 +101,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../tweaktools.html">Tweak Tools</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../surfacetools.html">Surface Tools</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../misctools.html">Misc Tools</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">UV Editor</a><ul>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">UV Editor</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="overview.html">Overview</a></li>
 <li class="toctree-l2"><a class="reference internal" href="uvsettings.html">Settings</a></li>
 <li class="toctree-l2"><a class="reference internal" href="uvtransform.html">Transform</a></li>
@@ -109,7 +110,13 @@
 <li class="toctree-l2"><a class="reference internal" href="fliprotatealignment.html">Flip/Rotate/Aligntment</a></li>
 <li class="toctree-l2"><a class="reference internal" href="sew.html">Sew</a></li>
 <li class="toctree-l2"><a class="reference internal" href="breakmerge.html">Break/Merge</a></li>
-<li class="toctree-l2"><a class="reference internal" href="misc.html">Misc</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Misc</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#export">Export</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#properties">Properties</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../releasenotes.html">Release Notes</a></li>
@@ -143,11 +150,13 @@
   <ul class="wy-breadcrumbs">
     <li><a href="../index.html">Docs</a> &raquo;</li>
       
-    <li>UV Editor</li>
+          <li><a href="index.html">UV Editor</a> &raquo;</li>
+      
+    <li>Misc</li>
       <li class="wy-breadcrumbs-aside">
         
           
-            <a href="../_sources/UVEditor/index.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/UVEditor/misc.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -157,71 +166,36 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="uv-editor">
-<span id="uveditor-label"></span><h1>UV Editor<a class="headerlink" href="#uv-editor" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="misc">
+<h1>Misc<a class="headerlink" href="#misc" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="export">
+<h2>Export<a class="headerlink" href="#export" title="Permalink to this headline">¶</a></h2>
 <blockquote>
-<div><div class="line-block">
-<div class="line">Texture mapping is the process of projecting 3D positions of a mesh to 2D space and manipulating those projected positions.</div>
-<div class="line">UV Editor in UModeler supports many functions for the texture mapping.</div>
-<div class="line">This tool is available from UModeler 2.0</div>
-<div class="line"><br /></div>
+<div><p>Exports UV outlines to a .png formatted file to be used for an artist which is painting your UV texture.</p>
+<blockquote>
+<div><div class="figure" id="id1">
+<a class="reference internal image-reference" href="../_images/UModeler_UVExport.jpg"><img alt="../_images/UModeler_UVExport.jpg" src="../_images/UModeler_UVExport.jpg" style="width: 360.75px; height: 282.75px;" /></a>
+<p class="caption"><span class="caption-text">Original UV layout before exporting it to .png</span></p>
 </div>
-<div class="figure" id="id1">
-<a class="reference internal image-reference" href="../_images/UModeler_UVEditor.png"><img alt="../_images/UModeler_UVEditor.png" src="../_images/UModeler_UVEditor.png" style="width: 1824.0px; height: 1026.0px;" /></a>
-<p class="caption"><span class="caption-text">Cart made using UModeler and UVs unwrapped and edited with UVEditor</span></p>
+<div class="figure" id="id2">
+<a class="reference internal image-reference" href="../_images/UModeler_UVExport_Result.png"><img alt="../_images/UModeler_UVExport_Result.png" src="../_images/UModeler_UVExport_Result.png" style="width: 256.0px; height: 256.0px;" /></a>
+<p class="caption"><span class="caption-text">.PNG file exported from the upper UV layout.</span></p>
 </div>
 </div></blockquote>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="overview.html#automatic-uv-and-manual-uv">Automatic UV and Manual UV</a></li>
-<li class="toctree-l2"><a class="reference internal" href="overview.html#keyboard">Keyboard</a></li>
-<li class="toctree-l2"><a class="reference internal" href="overview.html#getting-started">Getting Started</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="uvsettings.html">Settings</a></li>
-<li class="toctree-l1"><a class="reference internal" href="uvtransform.html">Transform</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="uvtransform.html#pivot">Pivot</a></li>
-<li class="toctree-l2"><a class="reference internal" href="uvtransform.html#snap">Snap</a></li>
-<li class="toctree-l2"><a class="reference internal" href="uvtransform.html#separate-transfoming">Separate Transfoming</a></li>
-<li class="toctree-l2"><a class="reference internal" href="uvtransform.html#overlapped-edge">Overlapped Edge</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="unwrap.html">Unwrap</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="unwrap.html#common-properties">Common Properties</a></li>
-<li class="toctree-l2"><a class="reference internal" href="unwrap.html#plane-view-projection">Plane/View Projection</a></li>
-<li class="toctree-l2"><a class="reference internal" href="unwrap.html#cube-projection">Cube Projection</a></li>
-<li class="toctree-l2"><a class="reference internal" href="unwrap.html#cancel">Cancel</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="selection.html">Selection</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="selection.html#all-none-selection">All/None Selection</a></li>
-<li class="toctree-l2"><a class="reference internal" href="selection.html#invert-selection">Invert Selection</a></li>
-<li class="toctree-l2"><a class="reference internal" href="selection.html#loop-selection">Loop Selection</a></li>
-<li class="toctree-l2"><a class="reference internal" href="selection.html#shared-selection">Shared Selection</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="fliprotatealignment.html">Flip/Rotate/Aligntment</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="fliprotatealignment.html#flip">Flip</a></li>
-<li class="toctree-l2"><a class="reference internal" href="fliprotatealignment.html#rotate">Rotate</a></li>
-<li class="toctree-l2"><a class="reference internal" href="fliprotatealignment.html#alignment">Alignment</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="sew.html">Sew</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="sew.html#id1">Sew</a></li>
-<li class="toctree-l2"><a class="reference internal" href="sew.html#move-sew">Move/Sew</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="breakmerge.html">Break/Merge</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="breakmerge.html#collapse">Collapse</a></li>
-<li class="toctree-l2"><a class="reference internal" href="breakmerge.html#make-island">Make Island</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="misc.html">Misc</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="misc.html#export">Export</a></li>
-</ul>
-</li>
-</ul>
+</div></blockquote>
+<div class="section" id="properties">
+<h3>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt>Line Color</dt>
+<dd>The color of UV outlines.</dd>
+<dt>Transparent Background</dt>
+<dd>If enables, then the background will be transparent and Background Color will be ignored.</dd>
+<dt>Background Color</dt>
+<dd>This will be enabled only when Transparent Background is on.</dd>
+<dt>Resolution</dt>
+<dd>The size of the .png image file.</dd>
+</dl>
+</div>
 </div>
 </div>
 
@@ -232,10 +206,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="overview.html" class="btn btn-neutral float-right" title="Overview" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="../releasenotes.html" class="btn btn-neutral float-right" title="Release Notes" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="../misctools.html" class="btn btn-neutral" title="Misc Tools" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="breakmerge.html" class="btn btn-neutral" title="Break/Merge" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

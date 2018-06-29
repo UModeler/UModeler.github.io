@@ -27,6 +27,9 @@ LMB Drag
 
 Properties
 ---------------
+Select Only Visible
+ If on, Selects only visible vertices/edges/polygons from a camera. Occluded elements from other polygons will not be selected. This is available only when the game object has MeshCollider component.
+ 
 Apply
  Assigns the Mat ID to the selected polygons.
  
@@ -75,6 +78,9 @@ Interface
 
 Properties
 ---------------
+Select Only Visible
+ If on, Selects only visible vertices/edges/polygons from a camera. Occluded elements from other polygons will not be selected. This is available only when the game object has MeshCollider component.
+ 
 Mode
  * ``Absolute`` : The properties are set to the selected polygons directly
  * ``Relative`` : The properties are added to the selected polygons.
@@ -165,8 +171,11 @@ Interface
 
 Properties
 ---------------
+Select Only Visible
+ If on, Selects only visible vertices/edges/polygons from a camera. Occluded elements from other polygons will not be selected. This is available only when the game object has MeshCollider component.
+
 Color
- Color
+ Color which will be assigned to the selected vertices.
 
 Brush Radius
  The sphere brush radius
@@ -214,8 +223,11 @@ LMB Drag
 
 Properties
 ---------------
+Select Only Visible
+ Selects only visible vertices/edges/polygons from a camera. Occluded elements from other polygons will not be selected. This is available only when the game object has MeshCollider component.
+
 Color
- Color
+ Color which will be assigned to the selected polygons.
  
 Select Polygons
  Selects polygons with the color in ``Color`` property.
@@ -248,6 +260,9 @@ Steps - Auto Smooth
 
 Properties
 ---------------
+Select Only Visible
+ Selects only visible vertices/edges/polygons from a camera. Occluded elements from other polygons will not be selected. This is available only when the game object has MeshCollider component.
+
 Group Name
  The current smoothing group name
  

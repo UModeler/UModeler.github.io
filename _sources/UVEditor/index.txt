@@ -25,3 +25,4 @@ UV Editor
    fliprotatealignment.rst
    sew.rst
    breakmerge.rst
+   misc.rst   

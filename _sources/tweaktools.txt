@@ -57,6 +57,9 @@ Steps
 
 Properties
 ---------------
+Select Only Visible
+ If on, Selects only visible vertices/edges/polygons from a camera. Occluded elements from other polygons will not be selected. This is available only when the game object has MeshCollider component.
+ 
  Axis  
   X, Y, or Z axis for alignment.
   
@@ -86,7 +89,9 @@ Steps
 
 Properties
 ---------------
-
+Select Only Visible
+ Selects only visible vertices/edges/polygons from a camera. Occluded elements from other polygons will not be selected. This is available only when the game object has MeshCollider component.
+ 
 Axis
  Mirror plane axis
 

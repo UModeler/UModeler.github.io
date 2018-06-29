@@ -60,6 +60,8 @@ Interface
    
 Properties
 ---------------
+Select Only Visible
+ If on, Selects only visible vertices/edges/polygons from a camera. Occluded elements from other polygons will not be selected. This is available only when the game object has MeshCollider component.
 
 Combine Type
  * ``First`` - Places the remaining vertex at the location of the first one selected.

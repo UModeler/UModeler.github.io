@@ -13,13 +13,7 @@ Opens ``About`` window.
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
-Create 
-==========================
-Creates a game object with a ``UModeler`` component.
-
----------------------------------------------------------------------------------------------------------------------------------
-
-Create with  Collider
+New UModeler
 ========================================
 Creates a game object with a ``UModeler`` component and a ``Mesh Collider`` component.
 
@@ -45,6 +39,12 @@ Adds ``UModeler`` component to all the selected game objects and all those child
 Refresh All
 ========================================
 Updates all UModler objects in the scene to make the meshes in the MeshFilter component up to date.
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Triangulate
+=======================================
+All polygons of the selected UModeler objects will be divided into triangles.
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
