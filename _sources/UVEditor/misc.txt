@@ -1,11 +1,13 @@
 ******
 Misc
 ******
-  
+
 Export
 =======
 
  Exports UV outlines to a .png formatted file to be used for an artist which is painting your UV texture.
+
+.. _exportuvoutline:
  
   .. figure:: /images/UModeler_UVExport.jpg
     :scale: 25 %

@@ -7,14 +7,14 @@ UModeler 2.0
 Version 2.1.1
 ==================================================================================
  
- - Feature : Edge/Polygon Tranform - Added Extrusion fuctions holding ``SHIFT``.
- - Enhancement : Vertex/Edge/Polygon Selection - Added ``Select only visible`` property to selects non occluded elements from a camera.
+ - Feature : Edge/Polygon Tranform - Added Extrusion fuctions holding ``SHIFT``. (See :ref:`this <basicextrusionintransform>`)
+ - Enhancement : Vertex/Edge/Polygon Selection - Added ``Select only visible`` property to selects non occluded elements from a camera. (See :ref:`this <selectonlyvisibleintransform>`)
  - Enhancement : Multi PushPull - Changed a helper line to an arrow.
- - Enhancement : Multi PushPull - Added One step push/pull.
- - Enhancement : Multi PushPull - Added Vertex Normal type extrusion.
+ - Enhancement : Multi PushPull - Added One step push/pull. (See :ref:`this <onesteppushpull>`)
+ - Enhancement : Multi PushPull - Added Vertex Normal type extrusion. (See :ref:`this <vertexnormalpushpull>`)
  - Tweak : Multip PushPull - ``Individual`` in PushPull type has been renamed to ``Individual Polygon``
  - Tweak : Removed ``Game Object`` tool and Renamed ``Collider Object`` to ``New UModeler`` in Misc group. 
- - Feature : UVTool - Added ``Export`` tool to export uv outlines to .png file.
+ - Feature : UVTool - Added ``Export`` tool to export uv outlines to .png file. (See :ref:`this <exportuvoutline>`)
  
 Version 2.1.0
 ==================================================================================

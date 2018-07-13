@@ -25,6 +25,8 @@ To begin to transform elements, you have to select them at first. Which type of 
 Properties
 -----------
 
+.. _selectonlyvisibleintransform:
+
 Select Only Visible
  If on, Selects only visible vertices/edges/polygons from a camera. Occluded elements from other polygons will not be selected. This is available only when the game object has MeshCollider component.
 
@@ -50,7 +52,9 @@ Insert Vertex
    :scale: 95 %
 
    Selecting and transforming elements.
-   
+
+.. _basicextrusionintransform:
+
 .. figure:: /images/UModeler_BasicExtrusion_In_TransformTool.gif   
    :scale: 95 %
 

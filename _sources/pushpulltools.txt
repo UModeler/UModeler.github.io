@@ -136,12 +136,14 @@ One Step Pull
   :scale: 95 %
    
   Multi PushPull Tool Demo.
-  
+ 
+.. _vertexnormalpushpull:
 .. figure:: /images/UModeler_MultiplePushPull_3types.gif
   :scale: 95 %
    
   3 types of Multi PushPull action - ``Individual Polygon``, ``Vertex Normal`` and ``Average Normal`` 
-  
+
+.. _onesteppushpull:
 .. figure:: /images/UModeler_MultiPushPull_Onestepextrusion.gif
   :scale: 95 %
   
