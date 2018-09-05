@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Surface Tools &mdash; UModeler 2.0 Manual  documentation</title>
+  <title>Surface Group &mdash; UModeler 2.0 Manual  documentation</title>
   
 
   
@@ -36,8 +36,8 @@
               href="genindex.html"/>
         <link rel="search" title="Search" href="search.html"/>
     <link rel="top" title="UModeler 2.0 Manual  documentation" href="index.html"/>
-        <link rel="next" title="Misc Tools" href="misctools.html"/>
-        <link rel="prev" title="Tweak Tools" href="tweaktools.html"/> 
+        <link rel="next" title="Misc Group" href="misctools.html"/>
+        <link rel="prev" title="Tweak Group" href="tweaktools.html"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -90,15 +90,15 @@
 <li class="toctree-l1"><a class="reference internal" href="gettingstarted.html">Getting Started</a></li>
 <li class="toctree-l1"><a class="reference internal" href="settings.html">Settings</a></li>
 <li class="toctree-l1"><a class="reference internal" href="menu.html">Menu</a></li>
-<li class="toctree-l1"><a class="reference internal" href="transformtools.html">Transform Tools</a></li>
-<li class="toctree-l1"><a class="reference internal" href="selectiontools.html">Selection Tools</a></li>
-<li class="toctree-l1"><a class="reference internal" href="drawingtools.html">Drawing Tools</a></li>
-<li class="toctree-l1"><a class="reference internal" href="primitiveshapetools.html">Primitive Shapes Tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="transformtools.html">Elements Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="selectiontools.html">Selection Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="drawingtools.html">Drawing Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="primitiveshapetools.html">Primitive Shapes Group</a></li>
 <li class="toctree-l1"><a class="reference internal" href="pushpulltools.html">Push/Pull Tools</a></li>
-<li class="toctree-l1"><a class="reference internal" href="addtools.html">Add Tools</a></li>
-<li class="toctree-l1"><a class="reference internal" href="removetools.html">Remove Tools</a></li>
-<li class="toctree-l1"><a class="reference internal" href="tweaktools.html">Tweak Tools</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Surface Tools</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="addtools.html">Add Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="removetools.html">Remove Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tweaktools.html">Tweak Group</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Surface Group</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#material-tool">Material Tool</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#steps">Steps</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#interface">Interface</a></li>
@@ -133,7 +133,7 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="misctools.html">Misc Tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="misctools.html">Misc Group</a></li>
 <li class="toctree-l1"><a class="reference internal" href="UVEditor/index.html">UV Editor</a></li>
 <li class="toctree-l1"><a class="reference internal" href="releasenotes.html">Release Notes</a></li>
 </ul>
@@ -166,7 +166,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="index.html">Docs</a> &raquo;</li>
       
-    <li>Surface Tools</li>
+    <li>Surface Group</li>
       <li class="wy-breadcrumbs-aside">
         
           
@@ -180,8 +180,8 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="surface-tools">
-<h1>Surface Tools<a class="headerlink" href="#surface-tools" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="surface-group">
+<h1>Surface Group<a class="headerlink" href="#surface-group" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="material-tool">
 <h2>Material Tool<a class="headerlink" href="#material-tool" title="Permalink to this headline">¶</a></h2>
 <p>Adds and assigns materials to the polygons.</p>
@@ -278,6 +278,10 @@
 <dt>Fix UVs according to Tiling</dt>
 <dd>Based on Tiling properties the UVs of the selected polygons are fixed.
 The bigger Tiling properties are, the denser texture tiling is.</dd>
+</dl>
+<dl class="docutils">
+<dt>Open UVEditor</dt>
+<dd>Opens UV Editor window.</dd>
 <dt>Reset UVs</dt>
 <dd>Resets UV parameters of the selected polygons.</dd>
 </dl>
@@ -294,10 +298,10 @@ The bigger Tiling properties are, the denser texture tiling is.</dd>
 <hr class="docutils" />
 <div class="section" id="open-uveditor">
 <h2>Open UVEditor<a class="headerlink" href="#open-uveditor" title="Permalink to this headline">¶</a></h2>
-<p>Opens UVEditor to unwrap polygons and edit those UVs.</p>
-<div class="figure" id="id14">
-<a class="reference internal image-reference" href="_images/UModeler_UVEditorWnd.jpg"><img alt="_images/UModeler_UVEditorWnd.jpg" src="_images/UModeler_UVEditorWnd.jpg" style="width: 1103.8999999999999px; height: 840.75px;" /></a>
-<p class="caption"><span class="caption-text">UV Editor Window</span></p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Since version 2.2 <code class="docutils literal"><span class="pre">Open</span> <span class="pre">UVEditor</span></code> button has been moved into <code class="docutils literal"><span class="pre">UV</span> <span class="pre">Tool</span></code>.
+Click <a class="reference internal" href="#openuveditor"><span class="std std-ref">this</span></a> to move to the description.</p>
 </div>
 </div>
 <hr class="docutils" />
@@ -357,7 +361,7 @@ The bigger Tiling properties are, the denser texture tiling is.</dd>
 <dt>Select Vertices</dt>
 <dd>Selects vertices with the color in <code class="docutils literal"><span class="pre">Color</span></code> property.</dd>
 </dl>
-<div class="figure" id="id15">
+<div class="figure" id="id14">
 <a class="reference internal image-reference" href="_images/UModeler_VertexColorTool.gif"><img alt="_images/UModeler_VertexColorTool.gif" src="_images/UModeler_VertexColorTool.gif" style="width: 760.0px; height: 485.45px;" /></a>
 <p class="caption"><span class="caption-text">Vertex Color Tool Demo</span></p>
 </div>
@@ -408,7 +412,7 @@ The bigger Tiling properties are, the denser texture tiling is.</dd>
 <dt>Select Polygons</dt>
 <dd>Selects polygons with the color in <code class="docutils literal"><span class="pre">Color</span></code> property.</dd>
 </dl>
-<div class="figure" id="id16">
+<div class="figure" id="id15">
 <a class="reference internal image-reference" href="_images/UModeler_ColorTool_v2.gif"><img alt="_images/UModeler_ColorTool_v2.gif" src="_images/UModeler_ColorTool_v2.gif" style="width: 760.0px; height: 467.4px;" /></a>
 <p class="caption"><span class="caption-text">Polygon Color Tool Demo</span></p>
 </div>
@@ -467,7 +471,7 @@ The bigger Tiling properties are, the denser texture tiling is.</dd>
 <p class="last">Auto Smooth sets the smoothing groups based on the angle between faces. Any two adjacent faces are put in the same smoothing group if the angle between their normals is less than the value in <code class="docutils literal"><span class="pre">Angle</span></code> property.</p>
 </dd>
 </dl>
-<div class="figure" id="id17">
+<div class="figure" id="id16">
 <a class="reference internal image-reference" href="_images/UModeler_SmoothingGroupTool_v2.gif"><img alt="_images/UModeler_SmoothingGroupTool_v2.gif" src="_images/UModeler_SmoothingGroupTool_v2.gif" style="width: 760.0px; height: 467.4px;" /></a>
 <p class="caption"><span class="caption-text">Smoothing Group Tool Demo</span></p>
 </div>
@@ -482,10 +486,10 @@ The bigger Tiling properties are, the denser texture tiling is.</dd>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="misctools.html" class="btn btn-neutral float-right" title="Misc Tools" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="misctools.html" class="btn btn-neutral float-right" title="Misc Group" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="tweaktools.html" class="btn btn-neutral" title="Tweak Tools" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="tweaktools.html" class="btn btn-neutral" title="Tweak Group" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

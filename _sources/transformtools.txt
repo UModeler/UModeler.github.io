@@ -1,6 +1,10 @@
 ################
-Transform Tools
+Elements Group
 ################
+
+.. note::
+
+ Since version 2.2 ``Transform Group`` name has been renamed to ``Elements Group``.
 
 Vertex / Edge / Polygon tool
 =============================
@@ -39,8 +43,12 @@ Snap To Polygon
 Snap To Vertex
  A vertex is snapped to the other close vertex within a specific distance. This is only available as the vertex is being translated.
 
-Cursor As Pivot
+Cursor As Pivot 
  Rotates the selected elements around the 3D cursor.
+
+.. note::
+
+ Since version 2.2 ``Cursor As Pivot`` property has been removed. Instead 3D cursor is used as pivot while it is enabled.
 
 Move To Cursor
  Moves the current selected elements to the 3D cursor position.
@@ -88,68 +96,30 @@ Object tool
 
 ----------------------------------------------------------------------------------------------------------------------
 
-.. _3DCursorTool:
-
-3D Cursor tool
-===============
- Sets a position of 3D cursor, which is used as a pivot of transfoming or target position or anything, by clicking on a blue box or dragging a translation gizmo.
+3D Cursor Tool
+=========================================
 
 .. note::
 
-   | The 3D Cursor can be enabled via ``Settings`` / ``Display`` / ``Cursor`` in the inspector.
-
-.. figure:: /images/UModeler_3DCursorTool.gif
-   :scale: 95 %
-
-   ``3D Cursor Tool`` Demo
+ Since version 2.2 ``3D Cursor Tool`` has been replaced with a toggle called ``Use 3D Cursor`` in ``Settings``. 
+ Click :ref:`this <Use3DCursor>` to move to the description.
 
 ----------------------------------------------------------------------------------------------------------------------
 
-.. _PivotTool:
+Pivot Tool
+====================================
 
-Pivot tool
-============
- Sets a position of a pivot of the current object by clicking on a blue box or dragging a translation gizmo.
+.. note::
 
-.. figure:: /images/UModeler_pivottool.gif
-   :scale: 95 %
-
-   ``Pivot Tool`` Demo
-
-Properties
------------
-
-Candidate Set
- * ``Bound Box`` - Position set coming from the bound box.
- * ``Polygon`` - Position set coming from the vertices from the polygons.
+ Since version 2.2 ``Pivot Tool`` has moved to ``Tweak`` group.  
+ Click :ref:`this <PivotTool>` to move to new Pivot tool desc. 
 
 ----------------------------------------------------------------------------------------------------------------------
-
-.. _SnapTool:
 
 Snap tool
 ==========
 
-Moves a polygon to the specific position. This tool can be used to set a profile polygon for ``Follow Tool``.
+.. note::
 
-Interface
------------
-``SPACE``
- Flips the selected polygon horizontally.
-
-``LMB Down``
- Selects a position.
-
-``ESC``
- Goes back to the previous step or exits the Snap tool.
-
-Properties
------------
-
-Flip
- Flips the polygon horizontally.
-
- .. figure:: /images/UModeler_snaptool.gif
-   :scale: 95 %
-
-   ``Snap Tool`` Demo
+ Since version 2.2 ``Snap Tool`` has moved to ``Tweak Group`` and it has been renamed to ``Snap Move Tool``.
+ Click :ref:`this <SnapMoveTool>` to move to new Snap Move Tool desc. 

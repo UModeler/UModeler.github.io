@@ -1,5 +1,5 @@
 ############
-Misc Tools
+Misc Group
 ############
 
 New UModeler Tool
@@ -98,7 +98,9 @@ Export to .asset
 Pivot To Center Tool
 =======================
 
-Changes the pivot location to the bottom center.
+.. note::
+
+ Since Ver 2.2 ``Pivot To Center Tool`` has moved to ``Tweak Group``. Click :ref:`here <PivotToCenterTool>` to move to the desc.
 
 -----------------------------------------------------------------------------------
 

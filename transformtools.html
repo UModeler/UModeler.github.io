@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Transform Tools &mdash; UModeler 2.0 Manual  documentation</title>
+  <title>Elements Group &mdash; UModeler 2.0 Manual  documentation</title>
   
 
   
@@ -36,7 +36,7 @@
               href="genindex.html"/>
         <link rel="search" title="Search" href="search.html"/>
     <link rel="top" title="UModeler 2.0 Manual  documentation" href="index.html"/>
-        <link rel="next" title="Selection Tools" href="selectiontools.html"/>
+        <link rel="next" title="Selection Group" href="selectiontools.html"/>
         <link rel="prev" title="Menu" href="menu.html"/> 
 
   
@@ -90,33 +90,26 @@
 <li class="toctree-l1"><a class="reference internal" href="gettingstarted.html">Getting Started</a></li>
 <li class="toctree-l1"><a class="reference internal" href="settings.html">Settings</a></li>
 <li class="toctree-l1"><a class="reference internal" href="menu.html">Menu</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Transform Tools</a><ul>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Elements Group</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#vertex-edge-polygon-tool">Vertex / Edge / Polygon tool</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#properties">Properties</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#object-tool">Object tool</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#d-cursor-tool">3D Cursor tool</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#pivot-tool">Pivot tool</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id1">Properties</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#d-cursor-tool">3D Cursor Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#pivot-tool">Pivot Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#snap-tool">Snap tool</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#snap-tool">Snap tool</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#interface">Interface</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id2">Properties</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="selectiontools.html">Selection Tools</a></li>
-<li class="toctree-l1"><a class="reference internal" href="drawingtools.html">Drawing Tools</a></li>
-<li class="toctree-l1"><a class="reference internal" href="primitiveshapetools.html">Primitive Shapes Tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="selectiontools.html">Selection Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="drawingtools.html">Drawing Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="primitiveshapetools.html">Primitive Shapes Group</a></li>
 <li class="toctree-l1"><a class="reference internal" href="pushpulltools.html">Push/Pull Tools</a></li>
-<li class="toctree-l1"><a class="reference internal" href="addtools.html">Add Tools</a></li>
-<li class="toctree-l1"><a class="reference internal" href="removetools.html">Remove Tools</a></li>
-<li class="toctree-l1"><a class="reference internal" href="tweaktools.html">Tweak Tools</a></li>
-<li class="toctree-l1"><a class="reference internal" href="surfacetools.html">Surface Tools</a></li>
-<li class="toctree-l1"><a class="reference internal" href="misctools.html">Misc Tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="addtools.html">Add Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="removetools.html">Remove Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tweaktools.html">Tweak Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="surfacetools.html">Surface Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="misctools.html">Misc Group</a></li>
 <li class="toctree-l1"><a class="reference internal" href="UVEditor/index.html">UV Editor</a></li>
 <li class="toctree-l1"><a class="reference internal" href="releasenotes.html">Release Notes</a></li>
 </ul>
@@ -149,7 +142,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="index.html">Docs</a> &raquo;</li>
       
-    <li>Transform Tools</li>
+    <li>Elements Group</li>
       <li class="wy-breadcrumbs-aside">
         
           
@@ -163,8 +156,12 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="transform-tools">
-<h1>Transform Tools<a class="headerlink" href="#transform-tools" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="elements-group">
+<h1>Elements Group<a class="headerlink" href="#elements-group" title="Permalink to this headline">¶</a></h1>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Since version 2.2 <code class="docutils literal"><span class="pre">Transform</span> <span class="pre">Group</span></code> name has been renamed to <code class="docutils literal"><span class="pre">Elements</span> <span class="pre">Group</span></code>.</p>
+</div>
 <div class="section" id="vertex-edge-polygon-tool">
 <h2>Vertex / Edge / Polygon tool<a class="headerlink" href="#vertex-edge-polygon-tool" title="Permalink to this headline">¶</a></h2>
 <p>There are 4 types of elements you can select and transform.</p>
@@ -200,32 +197,38 @@
 <dd>A vertex is snapped to the other close vertex within a specific distance. This is only available as the vertex is being translated.</dd>
 <dt>Cursor As Pivot</dt>
 <dd>Rotates the selected elements around the 3D cursor.</dd>
+</dl>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Since version 2.2 <code class="docutils literal"><span class="pre">Cursor</span> <span class="pre">As</span> <span class="pre">Pivot</span></code> property has been removed. Instead 3D cursor is used as pivot while it is enabled.</p>
+</div>
+<dl class="docutils">
 <dt>Move To Cursor</dt>
 <dd>Moves the current selected elements to the 3D cursor position.</dd>
 <dt>Insert Vertex</dt>
 <dd>Inserts a vertex to an adjacent edge to avoid T-junction.</dd>
 </dl>
-<div class="figure" id="id3">
+<div class="figure" id="id1">
 <a class="reference internal image-reference" href="_images/UModeler_TransformTool_v2.gif"><img alt="_images/UModeler_TransformTool_v2.gif" src="_images/UModeler_TransformTool_v2.gif" style="width: 760.0px; height: 493.04999999999995px;" /></a>
 <p class="caption"><span class="caption-text">Selecting and transforming elements.</span></p>
 </div>
-<div class="figure" id="id4">
+<div class="figure" id="id2">
 <span id="basicextrusionintransform"></span><a class="reference internal image-reference" href="_images/UModeler_BasicExtrusion_In_TransformTool.gif"><img alt="_images/UModeler_BasicExtrusion_In_TransformTool.gif" src="_images/UModeler_BasicExtrusion_In_TransformTool.gif" style="width: 760.0px; height: 482.59999999999997px;" /></a>
 <p class="caption"><span class="caption-text">Extruding polygons and edges by moving a gizmo holding <code class="docutils literal"><span class="pre">SHIFT</span></code>.</span></p>
 </div>
-<div class="figure" id="id5">
+<div class="figure" id="id3">
 <a class="reference internal image-reference" href="_images/UModeler_TransformHoldingShift_v2.gif"><img alt="_images/UModeler_TransformHoldingShift_v2.gif" src="_images/UModeler_TransformHoldingShift_v2.gif" style="width: 760.0px; height: 483.54999999999995px;" /></a>
 <p class="caption"><span class="caption-text">Transforming elements holding <code class="docutils literal"><span class="pre">SHIFT</span></code> + <code class="docutils literal"><span class="pre">CTRL</span></code>.</span></p>
 </div>
-<div class="figure" id="id6">
+<div class="figure" id="id4">
 <a class="reference internal image-reference" href="_images/UModeler_TransformTool_SnapEdgeToPolygon.gif"><img alt="_images/UModeler_TransformTool_SnapEdgeToPolygon.gif" src="_images/UModeler_TransformTool_SnapEdgeToPolygon.gif" style="width: 760.0px; height: 493.04999999999995px;" /></a>
 <p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Snap</span> <span class="pre">To</span> <span class="pre">Polygon</span></code> property Demo.</span></p>
 </div>
-<div class="figure" id="id7">
+<div class="figure" id="id5">
 <a class="reference internal image-reference" href="_images/UModeler_VertexTool_1dSnapping.gif"><img alt="_images/UModeler_VertexTool_1dSnapping.gif" src="_images/UModeler_VertexTool_1dSnapping.gif" style="width: 665.0px; height: 435.09999999999997px;" /></a>
 <p class="caption"><span class="caption-text">1D Snapping holding <code class="docutils literal"><span class="pre">CTRL</span></code></span></p>
 </div>
-<div class="figure" id="id8">
+<div class="figure" id="id6">
 <a class="reference internal image-reference" href="_images/UModeler_TransformTool_InsertVertexProperty.gif"><img alt="_images/UModeler_TransformTool_InsertVertexProperty.gif" src="_images/UModeler_TransformTool_InsertVertexProperty.gif" style="width: 760.0px; height: 497.79999999999995px;" /></a>
 <p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Insert</span> <span class="pre">Vertex</span></code> property demo.</span></p>
 </div>
@@ -236,70 +239,32 @@
 <h2>Object tool<a class="headerlink" href="#object-tool" title="Permalink to this headline">¶</a></h2>
 <blockquote>
 <div>Object mode. You can select and transform an object.</div></blockquote>
-<hr class="docutils" />
 </div>
+<hr class="docutils" />
 <div class="section" id="d-cursor-tool">
-<span id="dcursortool"></span><h2>3D Cursor tool<a class="headerlink" href="#d-cursor-tool" title="Permalink to this headline">¶</a></h2>
-<blockquote>
-<div>Sets a position of 3D cursor, which is used as a pivot of transfoming or target position or anything, by clicking on a blue box or dragging a translation gizmo.</div></blockquote>
+<h2>3D Cursor Tool<a class="headerlink" href="#d-cursor-tool" title="Permalink to this headline">¶</a></h2>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<div class="last line-block">
-<div class="line">The 3D Cursor can be enabled via <code class="docutils literal"><span class="pre">Settings</span></code> / <code class="docutils literal"><span class="pre">Display</span></code> / <code class="docutils literal"><span class="pre">Cursor</span></code> in the inspector.</div>
+<p class="last">Since version 2.2 <code class="docutils literal"><span class="pre">3D</span> <span class="pre">Cursor</span> <span class="pre">Tool</span></code> has been replaced with a toggle called <code class="docutils literal"><span class="pre">Use</span> <span class="pre">3D</span> <span class="pre">Cursor</span></code> in <code class="docutils literal"><span class="pre">Settings</span></code>.
+Click <a class="reference internal" href="settings.html#use3dcursor"><span class="std std-ref">this</span></a> to move to the description.</p>
 </div>
-</div>
-<div class="figure" id="id9">
-<a class="reference internal image-reference" href="_images/UModeler_3DCursorTool.gif"><img alt="_images/UModeler_3DCursorTool.gif" src="_images/UModeler_3DCursorTool.gif" style="width: 760.0px; height: 458.84999999999997px;" /></a>
-<p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">3D</span> <span class="pre">Cursor</span> <span class="pre">Tool</span></code> Demo</span></p>
 </div>
 <hr class="docutils" />
-</div>
 <div class="section" id="pivot-tool">
-<span id="pivottool"></span><h2>Pivot tool<a class="headerlink" href="#pivot-tool" title="Permalink to this headline">¶</a></h2>
-<blockquote>
-<div>Sets a position of a pivot of the current object by clicking on a blue box or dragging a translation gizmo.</div></blockquote>
-<div class="figure" id="id10">
-<a class="reference internal image-reference" href="_images/UModeler_pivottool.gif"><img alt="_images/UModeler_pivottool.gif" src="_images/UModeler_pivottool.gif" style="width: 760.0px; height: 459.79999999999995px;" /></a>
-<p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Pivot</span> <span class="pre">Tool</span></code> Demo</span></p>
+<h2>Pivot Tool<a class="headerlink" href="#pivot-tool" title="Permalink to this headline">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Since version 2.2 <code class="docutils literal"><span class="pre">Pivot</span> <span class="pre">Tool</span></code> has moved to <code class="docutils literal"><span class="pre">Tweak</span></code> group.
+Click <a class="reference internal" href="tweaktools.html#pivottool"><span class="std std-ref">this</span></a> to move to new Pivot tool desc.</p>
 </div>
-<div class="section" id="id1">
-<h3>Properties<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
-<dl class="docutils">
-<dt>Candidate Set</dt>
-<dd><ul class="first last simple">
-<li><code class="docutils literal"><span class="pre">Bound</span> <span class="pre">Box</span></code> - Position set coming from the bound box.</li>
-<li><code class="docutils literal"><span class="pre">Polygon</span></code> - Position set coming from the vertices from the polygons.</li>
-</ul>
-</dd>
-</dl>
+</div>
 <hr class="docutils" />
-</div>
-</div>
 <div class="section" id="snap-tool">
-<span id="snaptool"></span><h2>Snap tool<a class="headerlink" href="#snap-tool" title="Permalink to this headline">¶</a></h2>
-<p>Moves a polygon to the specific position. This tool can be used to set a profile polygon for <code class="docutils literal"><span class="pre">Follow</span> <span class="pre">Tool</span></code>.</p>
-<div class="section" id="interface">
-<h3>Interface<a class="headerlink" href="#interface" title="Permalink to this headline">¶</a></h3>
-<dl class="docutils">
-<dt><code class="docutils literal"><span class="pre">SPACE</span></code></dt>
-<dd>Flips the selected polygon horizontally.</dd>
-<dt><code class="docutils literal"><span class="pre">LMB</span> <span class="pre">Down</span></code></dt>
-<dd>Selects a position.</dd>
-<dt><code class="docutils literal"><span class="pre">ESC</span></code></dt>
-<dd>Goes back to the previous step or exits the Snap tool.</dd>
-</dl>
-</div>
-<div class="section" id="id2">
-<h3>Properties<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
-<dl class="docutils">
-<dt>Flip</dt>
-<dd><p class="first">Flips the polygon horizontally.</p>
-<div class="last figure" id="id11">
-<a class="reference internal image-reference" href="_images/UModeler_snaptool.gif"><img alt="_images/UModeler_snaptool.gif" src="_images/UModeler_snaptool.gif" style="width: 760.0px; height: 459.79999999999995px;" /></a>
-<p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Snap</span> <span class="pre">Tool</span></code> Demo</span></p>
-</div>
-</dd>
-</dl>
+<h2>Snap tool<a class="headerlink" href="#snap-tool" title="Permalink to this headline">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Since version 2.2 <code class="docutils literal"><span class="pre">Snap</span> <span class="pre">Tool</span></code> has moved to <code class="docutils literal"><span class="pre">Tweak</span> <span class="pre">Group</span></code> and it has been renamed to <code class="docutils literal"><span class="pre">Snap</span> <span class="pre">Move</span> <span class="pre">Tool</span></code>.
+Click <a class="reference internal" href="tweaktools.html#snapmovetool"><span class="std std-ref">this</span></a> to move to new Snap Move Tool desc.</p>
 </div>
 </div>
 </div>
@@ -311,7 +276,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="selectiontools.html" class="btn btn-neutral float-right" title="Selection Tools" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="selectiontools.html" class="btn btn-neutral float-right" title="Selection Group" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="menu.html" class="btn btn-neutral" title="Menu" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>

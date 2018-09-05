@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Tweak Tools &mdash; UModeler 2.0 Manual  documentation</title>
+  <title>Tweak Group &mdash; UModeler 2.0 Manual  documentation</title>
   
 
   
@@ -36,8 +36,8 @@
               href="genindex.html"/>
         <link rel="search" title="Search" href="search.html"/>
     <link rel="top" title="UModeler 2.0 Manual  documentation" href="index.html"/>
-        <link rel="next" title="Surface Tools" href="surfacetools.html"/>
-        <link rel="prev" title="Remove Tools" href="removetools.html"/> 
+        <link rel="next" title="Surface Group" href="surfacetools.html"/>
+        <link rel="prev" title="Remove Group" href="removetools.html"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -90,15 +90,15 @@
 <li class="toctree-l1"><a class="reference internal" href="gettingstarted.html">Getting Started</a></li>
 <li class="toctree-l1"><a class="reference internal" href="settings.html">Settings</a></li>
 <li class="toctree-l1"><a class="reference internal" href="menu.html">Menu</a></li>
-<li class="toctree-l1"><a class="reference internal" href="transformtools.html">Transform Tools</a></li>
-<li class="toctree-l1"><a class="reference internal" href="selectiontools.html">Selection Tools</a></li>
-<li class="toctree-l1"><a class="reference internal" href="drawingtools.html">Drawing Tools</a></li>
-<li class="toctree-l1"><a class="reference internal" href="primitiveshapetools.html">Primitive Shapes Tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="transformtools.html">Elements Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="selectiontools.html">Selection Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="drawingtools.html">Drawing Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="primitiveshapetools.html">Primitive Shapes Group</a></li>
 <li class="toctree-l1"><a class="reference internal" href="pushpulltools.html">Push/Pull Tools</a></li>
-<li class="toctree-l1"><a class="reference internal" href="addtools.html">Add Tools</a></li>
-<li class="toctree-l1"><a class="reference internal" href="removetools.html">Remove Tools</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Tweak Tools</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#invert-face-tool">Invert Face Tool</a></li>
+<li class="toctree-l1"><a class="reference internal" href="addtools.html">Add Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="removetools.html">Remove Group</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Tweak Group</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#flip-tool-formerly-called-invert-face-tool">Flip Tool (Formerly called Invert Face Tool)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#flatten-tool">Flatten Tool</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#properties">Properties</a></li>
 </ul>
@@ -108,15 +108,22 @@
 <li class="toctree-l3"><a class="reference internal" href="#id1">Properties</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#flip-tool">Flip Tool</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#axis-flip-tool-formerly-called-flip-tool">Axis Flip Tool (Formerly called Flip Tool)</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#id2">Steps</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id3">Properties</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="#pivot-tool">Pivot Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#pivot-to-center-tool">Pivot To Center Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#snap-move-tool-formerly-called-snap-tool">Snap Move Tool (Formerly called Snap Tool)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#interface">Interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id4">Properties</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="surfacetools.html">Surface Tools</a></li>
-<li class="toctree-l1"><a class="reference internal" href="misctools.html">Misc Tools</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="surfacetools.html">Surface Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="misctools.html">Misc Group</a></li>
 <li class="toctree-l1"><a class="reference internal" href="UVEditor/index.html">UV Editor</a></li>
 <li class="toctree-l1"><a class="reference internal" href="releasenotes.html">Release Notes</a></li>
 </ul>
@@ -149,7 +156,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="index.html">Docs</a> &raquo;</li>
       
-    <li>Tweak Tools</li>
+    <li>Tweak Group</li>
       <li class="wy-breadcrumbs-aside">
         
           
@@ -163,12 +170,16 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="tweak-tools">
-<h1>Tweak Tools<a class="headerlink" href="#tweak-tools" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="invert-face-tool">
-<h2>Invert Face Tool<a class="headerlink" href="#invert-face-tool" title="Permalink to this headline">¶</a></h2>
+  <div class="section" id="tweak-group">
+<h1>Tweak Group<a class="headerlink" href="#tweak-group" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="flip-tool-formerly-called-invert-face-tool">
+<h2>Flip Tool (Formerly called Invert Face Tool)<a class="headerlink" href="#flip-tool-formerly-called-invert-face-tool" title="Permalink to this headline">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Since Ver 2.2 <code class="docutils literal"><span class="pre">Invert</span> <span class="pre">Face</span> <span class="pre">Tool</span></code> has been renamed to <code class="docutils literal"><span class="pre">Flip</span> <span class="pre">Tool</span></code>.</p>
+</div>
 <p>Flips the selected polygons.</p>
-<div class="figure" id="id4">
+<div class="figure" id="id5">
 <a class="reference internal image-reference" href="_images/UModeler_InvertFaceTool.gif"><img alt="_images/UModeler_InvertFaceTool.gif" src="_images/UModeler_InvertFaceTool.gif" style="width: 760.0px; height: 460.75px;" /></a>
 <p class="caption"><span class="caption-text">Selects several polygons and flips them.</span></p>
 </div>
@@ -194,7 +205,7 @@
 <p class="first admonition-title">Note</p>
 <p class="last">In order to change properties you should select <code class="docutils literal"><span class="pre">Flatten</span> <span class="pre">Tool</span></code> without any selected elements.</p>
 </div>
-<div class="figure" id="id5">
+<div class="figure" id="id6">
 <a class="reference internal image-reference" href="_images/UModeler_FlattenTool_v2.gif"><img alt="_images/UModeler_FlattenTool_v2.gif" src="_images/UModeler_FlattenTool_v2.gif" style="width: 760.0px; height: 460.75px;" /></a>
 <p class="caption"><span class="caption-text">Flattens a few polygons and combines them using <code class="docutils literal"><span class="pre">Combine</span> <span class="pre">Tool</span></code>.</span></p>
 </div>
@@ -230,15 +241,19 @@
 </dl>
 </dd>
 </dl>
-<div class="figure" id="id6">
+<div class="figure" id="id7">
 <a class="reference internal image-reference" href="_images/UModeler_AlignTool.gif"><img alt="_images/UModeler_AlignTool.gif" src="_images/UModeler_AlignTool.gif" style="width: 760.0px; height: 481.65px;" /></a>
 <p class="caption"><span class="caption-text">Align Tool Demo.</span></p>
 </div>
 </div>
 </div>
 <hr class="docutils" />
-<div class="section" id="flip-tool">
-<h2>Flip Tool<a class="headerlink" href="#flip-tool" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="axis-flip-tool-formerly-called-flip-tool">
+<h2>Axis Flip Tool (Formerly called Flip Tool)<a class="headerlink" href="#axis-flip-tool-formerly-called-flip-tool" title="Permalink to this headline">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Since Ver 2.2 <code class="docutils literal"><span class="pre">Flip</span> <span class="pre">Tool</span></code> has been renamed to <code class="docutils literal"><span class="pre">Axis</span> <span class="pre">Flip</span> <span class="pre">Tool</span></code>.</p>
+</div>
 <p>Flips the selected polygons along its local X-, Y- or Z-Axes across the mirror plane center. This tool behaves like the Mirror tool to some degree.</p>
 <div class="section" id="id2">
 <h3>Steps<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
@@ -262,10 +277,60 @@
 <dt>Flip</dt>
 <dd>Flips the mirror plane.</dd>
 </dl>
-<div class="figure" id="id7">
+<div class="figure" id="id8">
 <a class="reference internal image-reference" href="_images/UModeler_FlipTool.gif"><img alt="_images/UModeler_FlipTool.gif" src="_images/UModeler_FlipTool.gif" style="width: 760.0px; height: 481.65px;" /></a>
 <p class="caption"><span class="caption-text">Flip Tool Demo.</span></p>
 </div>
+<hr class="docutils" />
+</div>
+</div>
+<div class="section" id="pivot-tool">
+<span id="pivottool"></span><h2>Pivot Tool<a class="headerlink" href="#pivot-tool" title="Permalink to this headline">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Since Ver 2.2 <code class="docutils literal"><span class="pre">Pivot</span> <span class="pre">Tool</span></code> has moved here from <code class="docutils literal"><span class="pre">Transform</span></code> group.</p>
+</div>
+<p>Sets a position of a pivot of the current object. The current position of 3D cursor will be a pivot pos immediately after selecting this tool.</p>
+<hr class="docutils" />
+</div>
+<div class="section" id="pivot-to-center-tool">
+<span id="pivottocentertool"></span><h2>Pivot To Center Tool<a class="headerlink" href="#pivot-to-center-tool" title="Permalink to this headline">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Since Ver 2.2 <code class="docutils literal"><span class="pre">Pivot</span> <span class="pre">To</span> <span class="pre">Center</span> <span class="pre">Tool</span></code> has moved here from <code class="docutils literal"><span class="pre">Misc</span> <span class="pre">Group</span></code>.</p>
+</div>
+<p>Changes the pivot location to the bottom center.</p>
+<hr class="docutils" />
+</div>
+<div class="section" id="snap-move-tool-formerly-called-snap-tool">
+<span id="snapmovetool"></span><h2>Snap Move Tool (Formerly called Snap Tool)<a class="headerlink" href="#snap-move-tool-formerly-called-snap-tool" title="Permalink to this headline">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Since Ver 2.2 <code class="docutils literal"><span class="pre">Snap</span> <span class="pre">Tool</span></code> has moved here from <code class="docutils literal"><span class="pre">Transform</span> <span class="pre">Group</span></code> and it has been renamed to <code class="docutils literal"><span class="pre">Snap</span> <span class="pre">Move</span> <span class="pre">Tool</span></code>.</p>
+</div>
+<p>Moves a polygon to the specific position. This tool can be used to set a profile polygon for <code class="docutils literal"><span class="pre">Follow</span> <span class="pre">Tool</span></code>.</p>
+<div class="section" id="interface">
+<h3>Interface<a class="headerlink" href="#interface" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt><code class="docutils literal"><span class="pre">SPACE</span></code></dt>
+<dd>Flips the selected polygon horizontally.</dd>
+<dt><code class="docutils literal"><span class="pre">LMB</span> <span class="pre">Down</span></code></dt>
+<dd>Selects a position.</dd>
+<dt><code class="docutils literal"><span class="pre">ESC</span></code></dt>
+<dd>Goes back to the previous step or exits the Snap tool.</dd>
+</dl>
+</div>
+<div class="section" id="id4">
+<h3>Properties<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt>Flip</dt>
+<dd><p class="first">Flips the polygon horizontally.</p>
+<div class="last figure" id="id9">
+<a class="reference internal image-reference" href="_images/UModeler_snaptool.gif"><img alt="_images/UModeler_snaptool.gif" src="_images/UModeler_snaptool.gif" style="width: 760.0px; height: 459.79999999999995px;" /></a>
+<p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Snap</span> <span class="pre">Move</span> <span class="pre">Tool</span></code> Demo</span></p>
+</div>
+</dd>
+</dl>
 </div>
 </div>
 </div>
@@ -277,10 +342,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="surfacetools.html" class="btn btn-neutral float-right" title="Surface Tools" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="surfacetools.html" class="btn btn-neutral float-right" title="Surface Group" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="removetools.html" class="btn btn-neutral" title="Remove Tools" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="removetools.html" class="btn btn-neutral" title="Remove Group" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

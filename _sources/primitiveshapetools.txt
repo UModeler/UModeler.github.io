@@ -1,5 +1,5 @@
 ########################
-Primitive Shapes Tools
+Primitive Shapes Group
 ########################
 
 .. tip::

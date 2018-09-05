@@ -1,5 +1,5 @@
 ###############
-Surface Tools
+Surface Group
 ###############
 
 Material Tool
@@ -102,6 +102,10 @@ Fix UVs according to Tiling
  Based on Tiling properties the UVs of the selected polygons are fixed.
  The bigger Tiling properties are, the denser texture tiling is.
  
+.. _OpenUVEditor:
+Open UVEditor
+ Opens UV Editor window.
+ 
 Reset UVs
  Resets UV parameters of the selected polygons.
  
@@ -120,12 +124,10 @@ Reset UVs
 Open UVEditor
 ===================
 
-Opens UVEditor to unwrap polygons and edit those UVs.
+.. note::
 
-.. figure:: /images/UModeler_UVEditorWnd.jpg
-   :scale: 95 %
-	
-   UV Editor Window
+ Since version 2.2 ``Open UVEditor`` button has been moved into ``UV Tool``.
+ Click :ref:`this <OpenUVEditor>` to move to the description.
    
 ------------------------------------------------------------------------------------------------------   
 

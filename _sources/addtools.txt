@@ -1,5 +1,5 @@
 ############
-Add Tools
+Add Group
 ############
 
 .. note::

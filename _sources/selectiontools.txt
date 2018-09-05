@@ -1,5 +1,5 @@
 ################
-Selection Tools
+Selection Group
 ################
 
 .. note::

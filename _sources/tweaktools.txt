@@ -1,9 +1,13 @@
 ############
-Tweak Tools
+Tweak Group
 ############
 
-Invert Face Tool
-==================
+Flip Tool (Formerly called Invert Face Tool)
+==============================================
+
+.. note::
+
+ Since Ver 2.2 ``Invert Face Tool`` has been renamed to ``Flip Tool``.
 
 Flips the selected polygons.
 
@@ -76,8 +80,12 @@ Select Only Visible
 
 ----------------------------------------------------------------------------------------------------------------
    
-Flip Tool
-==============   
+Axis Flip Tool (Formerly called Flip Tool)
+============================================
+
+.. note::
+
+ Since Ver 2.2 ``Flip Tool`` has been renamed to ``Axis Flip Tool``.
 
 Flips the selected polygons along its local X-, Y- or Z-Axes across the mirror plane center. This tool behaves like the Mirror tool to some degree.
 
@@ -109,3 +117,63 @@ Flip
 
    Flip Tool Demo.
    
+----------------------------------------------------------------------------------------------------------------------
+
+.. _PivotTool:
+
+Pivot Tool
+====================================
+
+.. note::
+
+ Since Ver 2.2 ``Pivot Tool`` has moved here from ``Transform`` group.
+ 
+Sets a position of a pivot of the current object. The current position of 3D cursor will be a pivot pos immediately after selecting this tool.
+
+-----------------------------------------------------------------------------------
+
+.. _PivotToCenterTool:
+
+Pivot To Center Tool
+=======================
+
+.. note::
+
+ Since Ver 2.2 ``Pivot To Center Tool`` has moved here from ``Misc Group``.
+
+Changes the pivot location to the bottom center.
+
+----------------------------------------------------------------------------------------------------------------------
+
+.. _SnapMoveTool:
+
+Snap Move Tool (Formerly called Snap Tool)
+============================================
+
+.. note::
+
+ Since Ver 2.2 ``Snap Tool`` has moved here from ``Transform Group`` and it has been renamed to ``Snap Move Tool``.
+
+Moves a polygon to the specific position. This tool can be used to set a profile polygon for ``Follow Tool``.
+
+Interface
+-----------
+``SPACE``
+ Flips the selected polygon horizontally.
+
+``LMB Down``
+ Selects a position.
+
+``ESC``
+ Goes back to the previous step or exits the Snap tool.
+
+Properties
+-----------
+
+Flip
+ Flips the polygon horizontally.
+
+ .. figure:: /images/UModeler_snaptool.gif
+   :scale: 95 %
+
+   ``Snap Move Tool`` Demo

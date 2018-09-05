@@ -1,5 +1,5 @@
 ###############
-Remove Tools
+Remove Group
 ###############
 
 Eraser Tool

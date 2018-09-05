@@ -37,15 +37,20 @@ Status HUD
   
 Input Viewer
  Shows Input Viewer in the scene view.
+ 
+.. note::
+
+ Since Ver 2.2 ``Input Viewer`` has been deprecated.
   
 Global Ruler
  Displays Global Ruler.
   
 Local Ruler
  Display Local Ruler.
-  
-Cursor
- Shows 3D cursor.
+
+.. _Use3DCursor: 
+Use 3D Cursor (Formerly called ``Cursor``)
+ Shows and enables 3D cursor. It can be moved by manipulating a translation gizmo and you can move it to whatever vertex you want by ``Ctrl+Shift+LMB``. 
 
 Gizmo
 ======
