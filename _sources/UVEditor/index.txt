@@ -23,6 +23,6 @@ UV Editor
    unwrap.rst
    selection.rst
    fliprotatealignment.rst
-   sew.rst
-   breakmerge.rst
+   WeldAndBreak.rst
+   Arrange.rst
    misc.rst   
