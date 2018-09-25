@@ -4,7 +4,17 @@ UModeler 2.0
 
  .. figure:: /images/UModeler_Banner.png
  
-Version 2.2
+Version 2.2.1
+==================================================================================
+ - BugFix : Vertex/Edge/Polygon Tools - Adding multiple selections by dragging LMB
+ - BugFix : Line Tool - Cutting a polygon by a new edge between another existing two edges.
+ - BugFix : Line Tool - Wrong shape of polygon when connecting the last point to the first point.
+ - BugFix : UModelerize - Fixed UModelerization failure.
+ - BugFix : Remove Doubles - Immediate update of blue vertex boxes for selection.
+ - BugFix : UI of the inspector - Fixed blocking key inputs in a parameter editor box.
+ - Change : Adding the popup menu for selecting menu mode in both the UV Editor and the inspector window.
+ 
+Version 2.2.0
 ==================================================================================
 
 General
@@ -105,9 +115,9 @@ Version 2.0.7
  - Feature : Added ``Help`` button at the top of tools in the Inspector to show Online Manual
  - Feature : Added Color settings in Preferences. (See :ref:`this <AdvancedPreferences>`)
  - Enhancement : Shortcut Settings in Preferences - Modifiers' list box has been replaced with 3 toggle boxes (``Shfit``, ``Ctrl`` and ``Alt``) (See :ref:`this <AdvancedPreferences>`)
- - Documentation : 3D Cursor Tool (See :ref:`this <3DCursorTool>`)
+ - Documentation : 3D Cursor Tool.
  - Documentation : Pivot Tool (See :ref:`this <PivotTool>`)
- - Documentation : Snap Tool (See :ref:`this <SnapTool>`)
+ - Documentation : Snap Tool
  - Fix : Material Tool - Added codes to deal with null material.
  - Fix : Error of invalid selected polygon display.
  
