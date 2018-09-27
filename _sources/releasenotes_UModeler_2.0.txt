@@ -6,7 +6,7 @@ UModeler 2.0
  
 Version 2.2.1
 ==================================================================================
- - BugFix : Vertex/Edge/Polygon Tools - Adding multiple selections by dragging LMB
+ - BugFix : Vertex/Edge/Polygon Tools - Adding multiple selections by dragging LMB holding CTRL
  - BugFix : Line Tool - Cutting a polygon by a new edge between another existing two edges.
  - BugFix : Line Tool - Wrong shape of polygon when connecting the last point to the first point.
  - BugFix : UModelerize - Fixed UModelerization failure.
