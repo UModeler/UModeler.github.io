@@ -124,16 +124,22 @@
 <li class="toctree-l3"><a class="reference internal" href="#id12">Properties</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#sphere-tool">Sphere Tool</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#spiral-stair-tool">Spiral Stair Tool</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#id13">Steps</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id14">Interface</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id15">Properties</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#capsule-tool">Capsule Tool</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#sphere-tool">Sphere Tool</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#id16">Steps</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id17">Interface</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id18">Properties</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#capsule-tool">Capsule Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id19">Steps</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id20">Interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id21">Properties</a></li>
 </ul>
 </li>
 </ul>
@@ -240,11 +246,11 @@
 <dt>Glue</dt>
 <dd>The box with this property enabled will be glued to the polygon where it started to be created. It means that the hidden part of the floor polygon by the created box is removed.</dd>
 </dl>
-<div class="figure" id="id19">
+<div class="figure" id="id22">
 <a class="reference internal image-reference" href="_images/UModeler_BoxTool.gif"><img alt="_images/UModeler_BoxTool.gif" src="_images/UModeler_BoxTool.gif" style="width: 760.0px; height: 493.04999999999995px;" /></a>
 <p class="caption"><span class="caption-text">Box Tool Demo - Basic and <code class="docutils literal"><span class="pre">Width</span></code>, <code class="docutils literal"><span class="pre">Depth</span></code>, <code class="docutils literal"><span class="pre">Height</span></code> and <code class="docutils literal"><span class="pre">Border</span> <span class="pre">Check</span></code> properties</span></p>
 </div>
-<div class="figure" id="id20">
+<div class="figure" id="id23">
 <a class="reference internal image-reference" href="_images/UModeler_BoxTool2.gif"><img alt="_images/UModeler_BoxTool2.gif" src="_images/UModeler_BoxTool2.gif" style="width: 760.0px; height: 493.04999999999995px;" /></a>
 <p class="caption"><span class="caption-text">Box Tool Demo - <code class="docutils literal"><span class="pre">Glue</span></code> property and enabled <cite>Snap</cite></span></p>
 </div>
@@ -292,7 +298,7 @@
 <dt>Glue</dt>
 <dd>The room with this property enabled will be glued to the polygon where it started to be created. It means that the hidden part of the floor polygon by the created room is removed.</dd>
 </dl>
-<div class="figure" id="id21">
+<div class="figure" id="id24">
 <a class="reference internal image-reference" href="_images/UModeler_RoomTool.gif"><img alt="_images/UModeler_RoomTool.gif" src="_images/UModeler_RoomTool.gif" style="width: 1208.3999999999999px; height: 784.6999999999999px;" /></a>
 <p class="caption"><span class="caption-text">Room Tool Demo</span></p>
 </div>
@@ -344,11 +350,11 @@
 <dt>Glue</dt>
 <dd>The stair with this property enabled will be glued to the polygon where it started to be created. It means that the hidden part of the floor polygon by the created stair is removed.</dd>
 </dl>
-<div class="figure" id="id22">
+<div class="figure" id="id25">
 <a class="reference internal image-reference" href="_images/UModeler_StairTool.gif"><img alt="_images/UModeler_StairTool.gif" src="_images/UModeler_StairTool.gif" style="width: 760.0px; height: 493.04999999999995px;" /></a>
 <p class="caption"><span class="caption-text">Stair Tool Demo</span></p>
 </div>
-<div class="figure" id="id23">
+<div class="figure" id="id26">
 <a class="reference internal image-reference" href="_images/UModeler_StairTool2.gif"><img alt="_images/UModeler_StairTool2.gif" src="_images/UModeler_StairTool2.gif" style="width: 760.0px; height: 493.04999999999995px;" /></a>
 <p class="caption"><span class="caption-text">Stair Tool Demo - Constructing a stair on a mesh</span></p>
 </div>
@@ -362,7 +368,7 @@
 <h3>Steps<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
 <li>Select <code class="docutils literal"><span class="pre">Cylinder</span> <span class="pre">Tool</span></code></li>
-<li>Drag the mouse to draw a disk.</li>
+<li>Drag the mouse on a floor or an another polygon to draw a disk.</li>
 <li>Release <code class="docutils literal"><span class="pre">LMB</span></code> and move the mouse cursor in a normal direction to raise the height.</li>
 <li>Click <code class="docutils literal"><span class="pre">LMB</span></code> to stop raising.</li>
 <li>Type the count of edges in <code class="docutils literal"><span class="pre">Segment</span></code> field, radius in <code class="docutils literal"><span class="pre">Radius</span></code> field and height in <code class="docutils literal"><span class="pre">Height</span></code> field if necessary.</li>
@@ -396,7 +402,7 @@
 <dt>Glue</dt>
 <dd>The cylinder with this property enabled will be glued to the polygon where it started to be created. It means that the hidden part of the floor polygon by the created cylinder is removed.</dd>
 </dl>
-<div class="figure" id="id24">
+<div class="figure" id="id27">
 <a class="reference internal image-reference" href="_images/UModeler_CylinderTool.gif"><img alt="_images/UModeler_CylinderTool.gif" src="_images/UModeler_CylinderTool.gif" style="width: 760.0px; height: 493.04999999999995px;" /></a>
 <p class="caption"><span class="caption-text">Cylinder Tool Demo</span></p>
 </div>
@@ -410,7 +416,7 @@
 <h3>Steps<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
 <li>Select <code class="docutils literal"><span class="pre">Cone</span> <span class="pre">Tool</span></code></li>
-<li>Drag the mouse to draw a disk.</li>
+<li>Drag the mouse on a floor or an another polygon to draw a disk.</li>
 <li>Release <code class="docutils literal"><span class="pre">LMB</span></code> and move the mouse cursor in a normal direction to raise the height.</li>
 <li>Click <code class="docutils literal"><span class="pre">LMB</span></code> to stop raising.</li>
 <li>Type the count of edges in <code class="docutils literal"><span class="pre">Segment</span></code> field, radius in <code class="docutils literal"><span class="pre">Radius</span></code> field and height in <code class="docutils literal"><span class="pre">Height</span></code> field if necessary.</li>
@@ -444,9 +450,57 @@ Cancels creating a cone.</p>
 <dt>Glue</dt>
 <dd>The cone with this property enabled will be glued to the polygon where it started to be created. It means that the hidden part of the floor polygon by the created cone is removed.</dd>
 </dl>
-<div class="figure" id="id25">
+<div class="figure" id="id28">
 <a class="reference internal image-reference" href="_images/UModeler_ConeTool.gif"><img alt="_images/UModeler_ConeTool.gif" src="_images/UModeler_ConeTool.gif" style="width: 760.0px; height: 493.04999999999995px;" /></a>
 <p class="caption"><span class="caption-text">Cone Tool Demo</span></p>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="spiral-stair-tool">
+<h2>Spiral Stair Tool<a class="headerlink" href="#spiral-stair-tool" title="Permalink to this headline">¶</a></h2>
+<p>Creates a Spiral Stair.</p>
+<div class="section" id="id13">
+<h3>Steps<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Select <code class="docutils literal"><span class="pre">Spiral</span> <span class="pre">Stair</span> <span class="pre">Tool</span></code></li>
+<li>Drag the mouse on a floor or an another polygon as if you make a cylinder.</li>
+<li>Release <code class="docutils literal"><span class="pre">LMB</span></code> and move the mouse cursor in a normal direction to raise the height.</li>
+<li>Click <code class="docutils literal"><span class="pre">LMB</span></code> to stop raising.</li>
+<li>Type the properties in inepector to adjust the shape of the stair.</li>
+<li>Press <code class="docutils literal"><span class="pre">SPACE</span></code> to complete or Press <code class="docutils literal"><span class="pre">ESC</span></code> to cancel.</li>
+</ol>
+</div>
+<div class="section" id="id14">
+<h3>Interface<a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt><code class="docutils literal"><span class="pre">LMB</span> <span class="pre">Drag</span></code></dt>
+<dd>Starts to create a spiral stair.</dd>
+<dt><code class="docutils literal"><span class="pre">SPACE</span></code></dt>
+<dd>Completes creating a spiral stair</dd>
+</dl>
+<p><code class="docutils literal"><span class="pre">ESC</span></code>
+Cancels creating a spiral stair.</p>
+</div>
+<div class="section" id="id15">
+<h3>Properties<a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt>Width</dt>
+<dd>The step width.</dd>
+<dt>Height</dt>
+<dd>The height of the stair</dd>
+<dt>Radius</dt>
+<dd>The inner radius of the stair. The whole radius of the stair from the center will be <code class="docutils literal"><span class="pre">Radius</span></code> + <code class="docutils literal"><span class="pre">Width</span></code>.</dd>
+<dt>Curvature</dt>
+<dd>How curved the stair is.</dd>
+<dt>Mirror</dt>
+<dd>Reflects the stair.</dd>
+<dt>Glue</dt>
+<dd>The spiral stair with this property enabled will be glued to the polygon where it started to be created. It means that the hidden part of the floor polygon by the created stair is removed.</dd>
+</dl>
+<div class="figure" id="id29">
+<a class="reference internal image-reference" href="_images/UModeler_SpiralStairTool.gif"><img alt="_images/UModeler_SpiralStairTool.gif" src="_images/UModeler_SpiralStairTool.gif" style="width: 594.0px; height: 393.03px;" /></a>
+<p class="caption"><span class="caption-text">Spiral Stair Tool Demo</span></p>
 </div>
 </div>
 </div>
@@ -454,8 +508,8 @@ Cancels creating a cone.</p>
 <div class="section" id="sphere-tool">
 <h2>Sphere Tool<a class="headerlink" href="#sphere-tool" title="Permalink to this headline">¶</a></h2>
 <p>Creates a sphere</p>
-<div class="section" id="id13">
-<h3>Steps<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id16">
+<h3>Steps<a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
 <li>Enter <code class="docutils literal"><span class="pre">Sphere</span> <span class="pre">Tool</span></code></li>
 <li>Drag the mouse holding <code class="docutils literal"><span class="pre">LMB</span></code> to define a radius. The sphere will be created from the center of the bottom.</li>
@@ -463,8 +517,8 @@ Cancels creating a cone.</p>
 <li>Press <code class="docutils literal"><span class="pre">SPACE</span></code> to complete or Press <code class="docutils literal"><span class="pre">ESC</span></code> to cancel.</li>
 </ol>
 </div>
-<div class="section" id="id14">
-<h3>Interface<a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id17">
+<h3>Interface<a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt>LMB Drag</dt>
 <dd>Creates a sphere</dd>
@@ -474,8 +528,8 @@ Cancels creating a cone.</p>
 <dd>Cancels</dd>
 </dl>
 </div>
-<div class="section" id="id15">
-<h3>Properties<a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id18">
+<h3>Properties<a class="headerlink" href="#id18" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt>Segment</dt>
 <dd>How many the sphere will be divided</dd>
@@ -484,7 +538,7 @@ Cancels creating a cone.</p>
 <dt>Angle Snap</dt>
 <dd>When you drag the mouse with this property on, the sphere’s forward direction will snap to every 90 degree time.</dd>
 </dl>
-<div class="figure" id="id26">
+<div class="figure" id="id30">
 <a class="reference internal image-reference" href="_images/UModeler_SphereTool.gif"><img alt="_images/UModeler_SphereTool.gif" src="_images/UModeler_SphereTool.gif" style="width: 760.0px; height: 493.04999999999995px;" /></a>
 <p class="caption"><span class="caption-text">Sphere Tool Demo</span></p>
 </div>
@@ -494,8 +548,8 @@ Cancels creating a cone.</p>
 <div class="section" id="capsule-tool">
 <h2>Capsule Tool<a class="headerlink" href="#capsule-tool" title="Permalink to this headline">¶</a></h2>
 <p>Creates a capsule</p>
-<div class="section" id="id16">
-<h3>Steps<a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id19">
+<h3>Steps<a class="headerlink" href="#id19" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
 <li>Select <code class="docutils literal"><span class="pre">Capsule</span> <span class="pre">Tool</span></code></li>
 <li>Drag the mouse to draw a disk.</li>
@@ -505,8 +559,8 @@ Cancels creating a cone.</p>
 <li>Press <code class="docutils literal"><span class="pre">SPACE</span></code> to complete or Press <code class="docutils literal"><span class="pre">ESC</span></code> to cancel.</li>
 </ol>
 </div>
-<div class="section" id="id17">
-<h3>Interface<a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id20">
+<h3>Interface<a class="headerlink" href="#id20" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt><code class="docutils literal"><span class="pre">LMB</span> <span class="pre">Drag</span></code></dt>
 <dd>Draws a disk.</dd>
@@ -516,8 +570,8 @@ Cancels creating a cone.</p>
 <dd>Cancels creating a capsule.</dd>
 </dl>
 </div>
-<div class="section" id="id18">
-<h3>Properties<a class="headerlink" href="#id18" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id21">
+<h3>Properties<a class="headerlink" href="#id21" title="Permalink to this headline">¶</a></h3>
 <dl class="docutils">
 <dt>Segment</dt>
 <dd>The count of side faces</dd>
@@ -532,7 +586,7 @@ Cancels creating a cone.</p>
 <dt>Glue</dt>
 <dd>This property in Capsule tool isn’t used.</dd>
 </dl>
-<div class="figure" id="id27">
+<div class="figure" id="id31">
 <a class="reference internal image-reference" href="_images/UModeler_CapsuleTool.gif"><img alt="_images/UModeler_CapsuleTool.gif" src="_images/UModeler_CapsuleTool.gif" style="width: 760.0px; height: 493.04999999999995px;" /></a>
 <p class="caption"><span class="caption-text">Capsule Tool Demo</span></p>
 </div>
