@@ -325,6 +325,9 @@ Mirror
 Glue
  The spiral stair with this property enabled will be glued to the polygon where it started to be created. It means that the hidden part of the floor polygon by the created stair is removed.
  
+Angle Snap
+ When you drag the mouse with this property on, the direction of the spiral stair will snap to every 90 degree.
+ 
 .. figure:: /images/UModeler_SpiralStairTool.gif
    :scale: 99 %
 
