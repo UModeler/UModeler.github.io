@@ -2,19 +2,21 @@
 UModeler 2.0
 ############################
 
- .. figure:: /images/UModeler_Banner.png
- 
+ .. figure:: /images/UModeler_Banner.png 
+
 Version 2.2.3.1
 ==================================================================================
- - BugFix : Fixed leaving blue vertex/polygon selection boxes after deleting the UModeler object.
+- BugFix : Fixed leaving Vertex/polygon selection blue boxes even after deleting the UModeler object.
+- BugFix : Fixed not displaying "Confirm" and "Cancel" button after doing an action for creating primitive shapes due to not repainting the area of the properties.
  
 Version 2.2.3
 ==================================================================================
  - Feature : Added the One-Click Build feature to Rectange, Disk, Box, Room, Stair, Cylinder, Cone, Spiral Stair, Sphere and Capsule tools.
- - Enhancement : Added the New UModeler Object button to the toolbar in the scene view.
- - Enhancement : Allowed the 3D cursor to move to the center of a polygon under the mouse cursor by ``CTRL+SHIFT+RMB``.
+ - Enhancement : Allowed the 3D cursor to move to the center of a polygon under the mouse cursor by CTRL+SHIFT+RMB.
+ - Enhancement : Added "Confirm" and "Cancel" buttons as necessary in the Properties.
+ - BugFix : Enabled z-test of the transparent selection polygon displayed on the selected polygons, and resolved z-fighting issue.
  - BugFix : Reverting the changes done just before pressing Play button.
- - BugFix : Enabled z-test of the transparent selection polygon displayed on the selected polygons, and resolved z-fighting issue. 
+
 
 Version 2.2.2
 ==================================================================================
