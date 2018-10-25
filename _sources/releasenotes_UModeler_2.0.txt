@@ -4,6 +4,10 @@ UModeler 2.0
 
  .. figure:: /images/UModeler_Banner.png 
 
+Version 2.2.3.2
+==================================================================================
+- BugFix : Fixed missing textures after UModelerizing.
+
 Version 2.2.3.1
 ==================================================================================
 - BugFix : Fixed leaving Vertex/polygon selection blue boxes even after deleting the UModeler object.
