@@ -3,6 +3,15 @@ UModeler 2.0
 ############################
 
  .. figure:: /images/UModeler_Banner.png 
+ 
+Version 2.3
+==================================================================================
+- Enhancement : Makes it possible to spawn a new primitive shape at a 3d cursor position by clicking on the one-click button 
+- Enhancement : 3D cursor - Enables to position 3D cursor everywhere by SHIFT+CTRL+LMB - in the air, on any position of a polygon and at a vertex
+- Enhancement : Enableing Edge Loop to be selected by LMB double click.
+- BugFix : Serialization errors - null reference exception
+- BugFix : Applied rich text to the icons' tooltips in the toolbar and menu window.
+- BugFix : Wrong rectangle selection of vertex/edge/polygon, and display of overlay numbers in the scaled scene view.
 
 Version 2.2.3.2
 ==================================================================================
@@ -83,8 +92,8 @@ UV Editor
  - Change : ``Make Island Tool`` has been renamed to ``Detach`` Tool.
  - Change : ``Sew Group`` and ``Break Merge Group`` has been merged and the merged group has been named ``Weld and Break``.
 
-3.0 Beta
----------------
+New UI System
+----------------
  .. figure:: /images/UModeler_NewUI.gif
     :scale: 95 %
 
