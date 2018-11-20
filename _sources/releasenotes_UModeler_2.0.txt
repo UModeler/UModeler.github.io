@@ -9,9 +9,13 @@ Version 2.3
 - Enhancement : Makes it possible to spawn a new primitive shape at a 3d cursor position by clicking on the one-click button 
 - Enhancement : 3D cursor - Enables to position 3D cursor everywhere by SHIFT+CTRL+LMB - in the air, on any position of a polygon and at a vertex
 - Enhancement : Enableing Edge Loop to be selected by LMB double click.
+- Enhancement : Added All UModeler object selection to the All/None Select tool.
+- Enhancement : Automatic syncs between ``Generate Lightmap UVs`` param in the Local Settings Tool and ``Lightmap Static`` variable in MeshRenderer
 - BugFix : Serialization errors - null reference exception
 - BugFix : Applied rich text to the icons' tooltips in the toolbar and menu window.
 - BugFix : Wrong rectangle selection of vertex/edge/polygon, and display of overlay numbers in the scaled scene view.
+- BugFix : Not displaying all tools in the shortcut setting in Preference.
+- BugFix : Made a clone outline clearer by giving more offset in the clone normal direction.
 
 Version 2.2.3.2
 ==================================================================================
