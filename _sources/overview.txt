@@ -109,7 +109,7 @@ User Interface
 
 ----------------------------------------------------------------------------------------------------------------------
 
-Let's get started with a simple shape.
+Let's get started with a box.
 =======================================
 
 1. Select ``Tools``/``UModeler``/``New UModeler`` to create a new UModeler object.
@@ -125,7 +125,7 @@ Let's get started with a simple shape.
     :scale: 95 %
 
 	
-4. If you want to change the size of the box, type proper values in  Width, Depth and Height field in the Properties.
+4. If you want to change the size of the box, type proper values in  Width, Depth and Height fields in the Properties.
 5. Click on ``Confirm`` button if you like it.
 6. Now you've made the first mesh with UModeler.
  .. figure:: /images/GettingStarted_3.jpg
