@@ -88,8 +88,10 @@
                 <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Overview</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#introduction">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#install">Install</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#layout">Layout</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#user-interface">User Interface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#let-s-get-started-with-a-simple-shape">Let&#8217;s get started with a simple shape.</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="gettingstarted.html">Getting Started</a></li>
@@ -159,66 +161,63 @@
 <p>Moreover UModeler has also adopted useful features of popular DCC tools like Max and Blender etc to empower you to create complicated and rich mesh assets as well as game levels easily and quickly without any help of the external DCC tools.</p>
 </div>
 <hr class="docutils" />
+<div class="section" id="install">
+<h2>Install<a class="headerlink" href="#install" title="Permalink to this headline">¶</a></h2>
+<div class="figure">
+<a class="reference internal image-reference" href="_images/UModelerImport2.jpg"><img alt="_images/UModelerImport2.jpg" src="_images/UModelerImport2.jpg" style="width: 645.05px; height: 763.8px;" /></a>
+</div>
+<p>Import UModeler in your project after purching it.</p>
+<div class="figure">
+<a class="reference internal image-reference" href="_images/UModelerMenu.png"><img alt="_images/UModelerMenu.png" src="_images/UModelerMenu.png" style="width: 975.65px; height: 399.95px;" /></a>
+</div>
+<p>Make sure that <code class="docutils literal"><span class="pre">Tools/UModeler</span></code> menu has been created at the top. If you click on <code class="docutils literal"><span class="pre">New</span> <span class="pre">UModeler</span></code> as shown in the upper image, a new game object with UModeler component will be created and you can see the layout looking like the following.</p>
+</div>
+<hr class="docutils" />
 <div class="section" id="layout">
 <h2>Layout<a class="headerlink" href="#layout" title="Permalink to this headline">¶</a></h2>
 <div class="figure" id="id1">
-<a class="reference internal image-reference" href="_images/UModeler_Layout.png"><img alt="_images/UModeler_Layout.png" src="_images/UModeler_Layout.png" style="width: 1824.0px; height: 1026.0px;" /></a>
+<a class="reference internal image-reference" href="_images/UModelerLayout0.jpg"><img alt="_images/UModelerLayout0.jpg" src="_images/UModelerLayout0.jpg" style="width: 1824.0px; height: 1026.0px;" /></a>
 <p class="caption"><span class="caption-text">UModeler Layout</span></p>
 </div>
 <dl class="docutils">
 <dt><code class="docutils literal"><span class="pre">[1]</span></code> Working Area</dt>
 <dd>Editing meshes.</dd>
-</dl>
-<p><code class="docutils literal"><span class="pre">[2]</span></code> UModeler Inspector</p>
-<blockquote>
-<div><div class="figure" id="id2">
-<a class="reference internal image-reference" href="_images/UModeler_Inspector_HeaderSettings.jpg"><img alt="_images/UModeler_Inspector_HeaderSettings.jpg" src="_images/UModeler_Inspector_HeaderSettings.jpg" style="width: 150.75px; height: 184.5px;" /></a>
-<p class="caption"><span class="caption-text">UModeler Inspector - <code class="docutils literal"><span class="pre">Header</span></code> and <code class="docutils literal"><span class="pre">Settings</span></code></span></p>
+<dt><code class="docutils literal"><span class="pre">[2]</span></code> Toolbar</dt>
+<dd>Frequently used tools are located here. i.e. <code class="docutils literal"><span class="pre">Vertex/Edge/Polygon</span> <span class="pre">Selection/Transform</span></code> tools, <code class="docutils literal"><span class="pre">New</span> <span class="pre">UModeler</span> <span class="pre">Object</span></code>, <code class="docutils literal"><span class="pre">Settings</span></code> and <code class="docutils literal"><span class="pre">3D</span> <span class="pre">Cursor</span></code> Tools.</dd>
+<dt><code class="docutils literal"><span class="pre">[3]</span></code> UModeler Inspector</dt>
+<dd><div class="first figure" id="id2">
+<a class="reference internal image-reference" href="_images/UModelerInspector.jpg"><img alt="_images/UModelerInspector.jpg" src="_images/UModelerInspector.jpg" style="width: 182.0px; height: 387.79999999999995px;" /></a>
+<p class="caption"><span class="caption-text">UModeler Inspector</span></p>
 </div>
-<dl class="docutils">
+<dl class="last docutils">
 <dt>Header</dt>
 <dd><div class="first last line-block">
 <div class="line"><code class="docutils literal"><span class="pre">UModeler</span> <span class="pre">Ver</span> <span class="pre">2.xx</span></code> - Opens the About dialog box.</div>
-<div class="line"><code class="docutils literal"><span class="pre">Close</span></code> - Disables UModeler for the current object.</div>
+<div class="line"><code class="docutils literal"><span class="pre">Close</span></code> - Disables UModeler for the current object to make the current UModeler object behave and visulized same as the general obejct. It can be enabled again by clicking on Open button which is shown up during the disable status.</div>
+<div class="line"><code class="docutils literal"><span class="pre">?</span></code> - Opens the online manual describing what the current tool is and how to use it.</div>
+<div class="line"><code class="docutils literal"><span class="pre">Search</span> <span class="pre">EditBox</span></code> - Searches for a specific tool. This edit box can be activated by pressing ENTER in the scene view.</div>
 </div>
 </dd>
+<dt>Menu part</dt>
+<dd>There are icons on various UModeler tools. You can switch the menu mode between icon-based and text-based via the popup menu which is brought up by pressing <code class="docutils literal"><span class="pre">RMB</span></code>. And it&#8217;s possible to detach it from the inspector to the separated window.</dd>
+<dt>Properties  part</dt>
+<dd>The properties and UIs related to the current tool are displayed here. This can also be detached to the separated window via the popup menu.</dd>
 </dl>
-<div class="figure" id="id3">
-<a class="reference internal image-reference" href="_images/UModeler_OpenCloseButtons.gif"><img alt="_images/UModeler_OpenCloseButtons.gif" src="_images/UModeler_OpenCloseButtons.gif" style="width: 760.0px; height: 484.5px;" /></a>
-<p class="caption"><span class="caption-text">Closes and Opens UModeler component. With Closing state UModeler&#8217;s behaviour and visualization are like the normal game object. You can open UModeler tool whenever you want to edit it.</span></p>
+</dd>
+<dt><code class="docutils literal"><span class="pre">[4]</span></code> Gizmo type</dt>
+<dd><div class="first last figure" id="id3">
+<a class="reference internal image-reference" href="_images/GizmoType.png"><img alt="_images/GizmoType.png" src="_images/GizmoType.png" style="width: 188.1px; height: 27.549999999999997px;" /></a>
+<p class="caption"><span class="caption-text">Selecting a gizmo among <code class="docutils literal"><span class="pre">Translate</span></code>, <code class="docutils literal"><span class="pre">Rotate</span></code> and <code class="docutils literal"><span class="pre">Scale</span></code>. These buttons are interlocked with the UModeler gizmo type.</span></p>
 </div>
-<dl class="docutils">
-<dt>Settings</dt>
-<dd>Settings regarding <code class="docutils literal"><span class="pre">Display</span></code>, <code class="docutils literal"><span class="pre">Gizmo</span></code> and <code class="docutils literal"><span class="pre">Snap</span></code>.</dd>
-</dl>
-<div class="figure" id="id4">
-<a class="reference internal image-reference" href="_images/UModeler_Inspector_Tools.jpg"><img alt="_images/UModeler_Inspector_Tools.jpg" src="_images/UModeler_Inspector_Tools.jpg" style="width: 150.75px; height: 489.15000000000003px;" /></a>
-<p class="caption"><span class="caption-text">UModeler Inspector - <code class="docutils literal"><span class="pre">Search</span> <span class="pre">EditBox</span></code> and <code class="docutils literal"><span class="pre">Tools</span></code></span></p>
+</dd>
+<dt><code class="docutils literal"><span class="pre">[5]</span></code> Coordinate Frame</dt>
+<dd><div class="first last figure" id="id4">
+<a class="reference internal image-reference" href="_images/CoordinateFramePivotSetting.png"><img alt="_images/CoordinateFramePivotSetting.png" src="_images/CoordinateFramePivotSetting.png" style="width: 130.15px; height: 26.599999999999998px;" /></a>
+<p class="caption"><span class="caption-text">Selecting a coordinate frame of both <code class="docutils literal"><span class="pre">Global</span></code> and <code class="docutils literal"><span class="pre">Local</span></code>. These buttons are also interlocked with the UModeler gizmo&#8217;s frame.</span></p>
 </div>
-<dl class="docutils">
-<dt>Search EditBox</dt>
-<dd>Searches for a specific tool. This edit box can be activated by pressing <code class="docutils literal"><span class="pre">ENTER</span></code> in the scene view or inspector.</dd>
-</dl>
-<div class="figure" id="id5">
-<a class="reference internal image-reference" href="_images/UModeler_SearchEditBox.gif"><img alt="_images/UModeler_SearchEditBox.gif" src="_images/UModeler_SearchEditBox.gif" style="width: 760.0px; height: 520.6px;" /></a>
-<p class="caption"><span class="caption-text">Search Edit Box demo</span></p>
-</div>
-<dl class="docutils">
-<dt>Tools and Properties</dt>
-<dd>A set of Tools and Properties</dd>
-</dl>
-</div></blockquote>
-<dl class="docutils">
-<dt><code class="docutils literal"><span class="pre">[3]</span></code> Status HUD</dt>
-<dd>Information of UModeler mesh</dd>
-<dt><code class="docutils literal"><span class="pre">[4]</span></code> Input Viewer</dt>
-<dd>Viewing which keyboard and mouse buttons are pressed.</dd>
-<dt><code class="docutils literal"><span class="pre">[5]</span></code> Gizmos</dt>
-<dd>Selecting a gizmo among <code class="docutils literal"><span class="pre">Translate</span></code>, <code class="docutils literal"><span class="pre">Rotate</span></code> and <code class="docutils literal"><span class="pre">Scale</span></code>.</dd>
-<dt><code class="docutils literal"><span class="pre">[6]</span></code> Coordinate Frame</dt>
-<dd>Selecting a coordinate frame of both <code class="docutils literal"><span class="pre">Global</span></code> and <code class="docutils literal"><span class="pre">Local</span></code>.</dd>
-<dt><code class="docutils literal"><span class="pre">[7]</span></code> UV Editor</dt>
-<dd>The area for editing UVs.</dd>
+</dd>
+<dt><code class="docutils literal"><span class="pre">[6]</span></code> UV Editor</dt>
+<dd>UV Editor can be opened by selecting Tools/UModeler/UV Editor at the top menu or clicking <code class="docutils literal"><span class="pre">Open</span> <span class="pre">UV</span> <span class="pre">Editor</span></code> button in UV Tool. If you want to know how to use UV editor more, please visit <a class="reference internal" href="UVEditor/index.html"><span class="doc">here</span></a>.</dd>
 </dl>
 </div>
 <hr class="docutils" />
@@ -269,6 +268,44 @@
 </tbody>
 </table>
 <p><code class="docutils literal"><span class="pre">LMB</span></code> - Left Mouse Button <code class="docutils literal"><span class="pre">CTRL</span></code> - Control Key</p>
+</div>
+<hr class="docutils" />
+<div class="section" id="let-s-get-started-with-a-simple-shape">
+<h2>Let&#8217;s get started with a simple shape.<a class="headerlink" href="#let-s-get-started-with-a-simple-shape" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>Select <code class="docutils literal"><span class="pre">Tools</span></code>/<code class="docutils literal"><span class="pre">UModeler</span></code>/<code class="docutils literal"><span class="pre">New</span> <span class="pre">UModeler</span></code> to create a new UModeler object.</li>
+</ol>
+<blockquote>
+<div><div class="figure">
+<a class="reference internal image-reference" href="_images/GettingStarted_0.jpg"><img alt="_images/GettingStarted_0.jpg" src="_images/GettingStarted_0.jpg" style="width: 1824.0px; height: 1026.0px;" /></a>
+</div>
+</div></blockquote>
+<ol class="arabic simple" start="2">
+<li>Make sure that a new UModeler object has been created and Box Tool has been selected in the inspector.</li>
+</ol>
+<blockquote>
+<div><div class="figure">
+<a class="reference internal image-reference" href="_images/GettingStarted_1.jpg"><img alt="_images/GettingStarted_1.jpg" src="_images/GettingStarted_1.jpg" style="width: 1824.0px; height: 1026.0px;" /></a>
+</div>
+</div></blockquote>
+<ol class="arabic simple" start="3">
+<li>Press <code class="docutils literal"><span class="pre">One</span> <span class="pre">Click</span> <span class="pre">Build</span></code> in the Properties to make sure that a box with 1m X 1m X 1m is created.</li>
+</ol>
+<blockquote>
+<div><div class="figure">
+<a class="reference internal image-reference" href="_images/GettingStarted_2.jpg"><img alt="_images/GettingStarted_2.jpg" src="_images/GettingStarted_2.jpg" style="width: 1824.0px; height: 1026.0px;" /></a>
+</div>
+</div></blockquote>
+<ol class="arabic simple" start="4">
+<li>If you want to change the size of the box, type proper values in  Width, Depth and Height field in the Properties.</li>
+<li>Click on <code class="docutils literal"><span class="pre">Confirm</span></code> button if you like it.</li>
+<li>Now you&#8217;ve made the first mesh with UModeler.</li>
+</ol>
+<blockquote>
+<div><div class="figure">
+<a class="reference internal image-reference" href="_images/GettingStarted_3.jpg"><img alt="_images/GettingStarted_3.jpg" src="_images/GettingStarted_3.jpg" style="width: 1824.0px; height: 1026.0px;" /></a>
+</div>
+</div></blockquote>
 </div>
 </div>
 

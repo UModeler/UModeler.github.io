@@ -2,7 +2,7 @@
  UModeler Reference Manual
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-.. figure:: /images/sm_UM_Screen08.png
+.. figure:: /images/UModelerManualTitle.png
    :scale: 55 %  
 	
    Village on the water modeled with only UModeler.
