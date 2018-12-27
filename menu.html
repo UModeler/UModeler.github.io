@@ -92,11 +92,12 @@
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Menu</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#about">About</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#new-umodeler">New UModeler</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#umodeler-window">UModeler Window</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#uv-editor">UV Editor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#umodelerize">UModelerize</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#umodelerize-hierarchically">UModelerize Hierarchically</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#refresh-all">Refresh All</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#triangulate">Triangulate</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#open-uveditor">Open UVEditor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#refresh">Refresh</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#arrange-uv-islands">Arrange UV Islands</a></li>
 </ul>
 </li>
@@ -158,13 +159,16 @@
             
   <div class="section" id="menu">
 <h1>Menu<a class="headerlink" href="#menu" title="Permalink to this headline">¶</a></h1>
-<div class="figure" id="id1">
-<a class="reference internal image-reference" href="_images/menu.png"><img alt="_images/menu.png" src="_images/menu.png" style="width: 307.20000000000005px; height: 185.60000000000002px;" /></a>
-<p class="caption"><span class="caption-text">Menu items in <code class="docutils literal"><span class="pre">Tools</span></code> &gt; <code class="docutils literal"><span class="pre">UModeler</span></code></span></p>
+<div class="figure">
+<a class="reference internal image-reference" href="_images/menu.jpg"><img alt="_images/menu.jpg" src="_images/menu.jpg" style="width: 368.8px; height: 220.0px;" /></a>
 </div>
+<p>You can see a new menu called <code class="docutils literal"><span class="pre">Tools</span></code> at the top of Unity Editor after UModeler is installed.</p>
 <div class="section" id="about">
 <h2>About<a class="headerlink" href="#about" title="Permalink to this headline">¶</a></h2>
 <p>Opens <code class="docutils literal"><span class="pre">About</span></code> window.</p>
+<div class="figure">
+<a class="reference internal image-reference" href="_images/AboutDialog.jpg"><img alt="_images/AboutDialog.jpg" src="_images/AboutDialog.jpg" style="width: 440.0px; height: 352.0px;" /></a>
+</div>
 </div>
 <hr class="docutils" />
 <div class="section" id="new-umodeler">
@@ -172,33 +176,43 @@
 <p>Creates a game object with a <code class="docutils literal"><span class="pre">UModeler</span></code> component and a <code class="docutils literal"><span class="pre">Mesh</span> <span class="pre">Collider</span></code> component.</p>
 </div>
 <hr class="docutils" />
+<div class="section" id="umodeler-window">
+<h2>UModeler Window<a class="headerlink" href="#umodeler-window" title="Permalink to this headline">¶</a></h2>
+<p>Opens up the UModeler menu window. The menu in the inspector won&#8217;t be displayed after it is opened up.</p>
+<div class="figure">
+<a class="reference internal image-reference" href="_images/MenuWindow.jpg"><img alt="_images/MenuWindow.jpg" src="_images/MenuWindow.jpg" style="width: 240.8px; height: 260.8px;" /></a>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="uv-editor">
+<h2>UV Editor<a class="headerlink" href="#uv-editor" title="Permalink to this headline">¶</a></h2>
+<p>Opens up the UV Editor.</p>
+<div class="figure">
+<a class="reference internal image-reference" href="_images/UVEditor.jpg"><img alt="_images/UVEditor.jpg" src="_images/UVEditor.jpg" style="width: 421.6px; height: 381.6px;" /></a>
+</div>
+</div>
+<hr class="docutils" />
 <div class="section" id="umodelerize">
 <h2>UModelerize<a class="headerlink" href="#umodelerize" title="Permalink to this headline">¶</a></h2>
-<p>Adds <code class="docutils literal"><span class="pre">UModeler</span></code> component to all the selected game objects with the <code class="docutils literal"><span class="pre">Mesh</span> <span class="pre">Filter</span></code> component to make the mesh editable.</p>
-<div class="figure" id="id2">
-<a class="reference internal image-reference" href="_images/UModeler_AddUModelerToSelectedObjects_v2.gif"><img alt="_images/UModeler_AddUModelerToSelectedObjects_v2.gif" src="_images/UModeler_AddUModelerToSelectedObjects_v2.gif" style="width: 855.0px; height: 597.55px;" /></a>
-<p class="caption"><span class="caption-text">Adds <code class="docutils literal"><span class="pre">UModeler</span></code> components to the selected objects.</span></p>
-</div>
+<p>Converts the selected objects to UModeler objects so that they can be edited using UModeler tools.</p>
 </div>
 <hr class="docutils" />
 <div class="section" id="umodelerize-hierarchically">
 <h2>UModelerize Hierarchically<a class="headerlink" href="#umodelerize-hierarchically" title="Permalink to this headline">¶</a></h2>
-<p>Adds <code class="docutils literal"><span class="pre">UModeler</span></code> component to all the selected game objects and all those child objects with a <code class="docutils literal"><span class="pre">Mesh</span> <span class="pre">Filter</span></code> component to make the mesh editable.</p>
-</div>
-<hr class="docutils" />
-<div class="section" id="refresh-all">
-<h2>Refresh All<a class="headerlink" href="#refresh-all" title="Permalink to this headline">¶</a></h2>
-<p>Updates all UModler objects in the scene to make the meshes in the MeshFilter component up to date.</p>
+<p>Converted the selected objects and all their children objects to UModeler objects.</p>
 </div>
 <hr class="docutils" />
 <div class="section" id="triangulate">
 <h2>Triangulate<a class="headerlink" href="#triangulate" title="Permalink to this headline">¶</a></h2>
-<p>All polygons of the selected UModeler objects will be divided into triangles.</p>
+<p>Divides all polygons into triangles.</p>
+<div class="figure">
+<a class="reference internal image-reference" href="_images/Before_After_Triangulation.jpg"><img alt="_images/Before_After_Triangulation.jpg" src="_images/Before_After_Triangulation.jpg" style="width: 342.90000000000003px; height: 198.0px;" /></a>
+</div>
 </div>
 <hr class="docutils" />
-<div class="section" id="open-uveditor">
-<h2>Open UVEditor<a class="headerlink" href="#open-uveditor" title="Permalink to this headline">¶</a></h2>
-<p>Opens UVEditor window.</p>
+<div class="section" id="refresh">
+<h2>Refresh<a class="headerlink" href="#refresh" title="Permalink to this headline">¶</a></h2>
+<p>Refreshes all resources of the selected UModeler object. This doesn&#8217;t change and remove any data. It might resolve problems causing a broken mesh.</p>
 </div>
 <hr class="docutils" />
 <div class="section" id="arrange-uv-islands">

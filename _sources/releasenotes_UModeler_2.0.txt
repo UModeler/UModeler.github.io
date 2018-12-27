@@ -43,7 +43,6 @@ Version 2.2.3
  - BugFix : Enabled z-test of the transparent selection polygon displayed on the selected polygons, and resolved z-fighting issue.
  - BugFix : Reverting the changes done just before pressing Play button.
 
-
 Version 2.2.2
 ==================================================================================
  - Feature : Added Spiral Stair Tool

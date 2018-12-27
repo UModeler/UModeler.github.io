@@ -2,14 +2,17 @@
 Menu
 ############
 
-.. figure:: /images/menu.png
+.. figure:: /images/menu.jpg
    :scale: 80 %
 
-   Menu items in ``Tools`` > ``UModeler``
+You can see a new menu called ``Tools`` at the top of Unity Editor after UModeler is installed. 
 
 About
 ===============
 Opens ``About`` window.
+
+.. figure:: /images/AboutDialog.jpg
+   :scale: 80 %
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
@@ -19,38 +22,48 @@ Creates a game object with a ``UModeler`` component and a ``Mesh Collider`` comp
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
+UModeler Window
+========================================
+Opens up the UModeler menu window. The menu in the inspector won't be displayed after it is opened up.
+
+.. figure:: /images/MenuWindow.jpg
+   :scale: 80 %
+   
+---------------------------------------------------------------------------------------------------------------------------------
+
+UV Editor
+========================================
+Opens up the UV Editor.
+
+.. figure:: /images/UVEditor.jpg
+   :scale: 80 %   
+
+---------------------------------------------------------------------------------------------------------------------------------
+
 UModelerize
 ========================================
-Adds ``UModeler`` component to all the selected game objects with the ``Mesh Filter`` component to make the mesh editable.
-
-.. figure:: /images/UModeler_AddUModelerToSelectedObjects_v2.gif
-   :scale: 95 %
-	
-   Adds ``UModeler`` components to the selected objects.
+Converts the selected objects to UModeler objects so that they can be edited using UModeler tools.
 
 ---------------------------------------------------------------------------------------------------------------------------------
    
 UModelerize Hierarchically
 ========================================
-Adds ``UModeler`` component to all the selected game objects and all those child objects with a ``Mesh Filter`` component to make the mesh editable.
-
----------------------------------------------------------------------------------------------------------------------------------
-
-Refresh All
-========================================
-Updates all UModler objects in the scene to make the meshes in the MeshFilter component up to date.
+Converted the selected objects and all their children objects to UModeler objects. 
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
 Triangulate
-=======================================
-All polygons of the selected UModeler objects will be divided into triangles.
+========================================
+Divides all polygons into triangles.
+
+.. figure:: /images/Before_After_Triangulation.jpg
+   :scale: 90 %
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
-Open UVEditor
-=======================
-Opens UVEditor window.
+Refresh 
+========================================
+Refreshes all resources of the selected UModeler object. This doesn't change and remove any data. It might resolve problems causing a broken mesh.
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
