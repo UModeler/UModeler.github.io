@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Settings &mdash; UModeler 2.0 Manual  documentation</title>
+  <title>Toolbar, Settings and Preference &mdash; UModeler 2.0 Manual  documentation</title>
   
 
   
@@ -88,10 +88,9 @@
                 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gettingstarted.html">Getting Started</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Settings</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#display">Display</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#gizmo">Gizmo</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Toolbar, Settings and Preference</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#snap">Snap</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#display">Display</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#preferences">Preferences</a></li>
 </ul>
 </li>
@@ -138,7 +137,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="index.html">Docs</a> &raquo;</li>
       
-    <li>Settings</li>
+    <li>Toolbar, Settings and Preference</li>
       <li class="wy-breadcrumbs-aside">
         
           
@@ -152,15 +151,39 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="settings">
-<h1>Settings<a class="headerlink" href="#settings" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="toolbar-settings-and-preference">
+<h1>Toolbar, Settings and Preference<a class="headerlink" href="#toolbar-settings-and-preference" title="Permalink to this headline">¶</a></h1>
 <div class="figure" id="id1">
-<a class="reference internal image-reference" href="_images/UModeler_Settings.png"><img alt="_images/UModeler_Settings.png" src="_images/UModeler_Settings.png" style="width: 253.60000000000002px; height: 328.0px;" /></a>
-<p class="caption"><span class="caption-text">UModeler Settings</span></p>
+<a class="reference internal image-reference" href="_images/SceneView_For_Toolbar.jpg"><img alt="_images/SceneView_For_Toolbar.jpg" src="_images/SceneView_For_Toolbar.jpg" style="width: 1306.4px; height: 783.2px;" /></a>
+<p class="caption"><span class="caption-text">Scene view.</span></p>
 </div>
+<p>The top of the scene view consists of several icon buttons. They are divided into two parts as below.</p>
+<div class="figure">
+<a class="reference internal image-reference" href="_images/Toolbar_Left.png"><img alt="_images/Toolbar_Left.png" src="_images/Toolbar_Left.png" style="width: 129.6px; height: 28.0px;" /></a>
+</div>
+<p>The first part has Vertex/Edge/Polygon/Object tool buttons - These are explained in the other page.</p>
+<div class="figure">
+<a class="reference internal image-reference" href="_images/Toolbar_Right.png"><img alt="_images/Toolbar_Right.png" src="_images/Toolbar_Right.png" style="width: 77.60000000000001px; height: 26.400000000000002px;" /></a>
+</div>
+<p>The second part consists of New UModeler object tool, Settings and 3D Cursor. We&#8217;ll cover only them here.</p>
+<div class="figure" id="id2">
+<a class="reference internal image-reference" href="_images/Icon_Misc_NewUModelerObject.png"><img alt="_images/Icon_Misc_NewUModelerObject.png" src="_images/Icon_Misc_NewUModelerObject.png" style="width: 26.0px; height: 26.0px;" /></a>
+<p class="caption"><span class="caption-text">New UModeler Object</span></p>
+</div>
+<p>When you click on this button, a new empty UModeler object will be created in a scene. At first you can fill it with primitives shapes and 2D polygons using the tools in Primitive Shapes group and Drawing group.</p>
+<div class="figure" id="id3">
+<a class="reference internal image-reference" href="_images/Icon_Misc_Cursor.png"><img alt="_images/Icon_Misc_Cursor.png" src="_images/Icon_Misc_Cursor.png" style="width: 26.0px; height: 26.0px;" /></a>
+<p class="caption"><span class="caption-text">3D Cursor</span></p>
+</div>
+<p>When this is on, 3D cursor is activated and displayed on the scene view. The pivot of roatation and scaling is the 3D cursor position at this time. And the cursor can move along X,Y or Z axis with the move tool over the cursor. If the cursor passes nearby a vertex, it will be snapped to the vertex. If you press <code class="docutils literal"><span class="pre">LMB</span></code> holding <code class="docutils literal"><span class="pre">CTRL</span></code> and <code class="docutils literal"><span class="pre">SHIFT</span></code>, the cursor will move to the cursor position at once. If the mouse cursor is over a UModeler mesh then, the 3D cursor will move to a picked position on the mesh.</p>
+<div class="figure" id="id4">
+<a class="reference internal image-reference" href="_images/Icon_Misc_Settings.png"><img alt="_images/Icon_Misc_Settings.png" src="_images/Icon_Misc_Settings.png" style="width: 26.0px; height: 26.0px;" /></a>
+<p class="caption"><span class="caption-text">Settings</span></p>
+</div>
+<p>Lastly we&#8217;ll take a look at <code class="docutils literal"><span class="pre">Settings</span></code></p>
 <dl class="docutils" id="seamless-edit">
 <dt>Seamless Edit</dt>
-<dd><p class="first">Selects the UModeler object under the mouse cursor every time the mouse moves. The set affected by this mode is decided according to which category is chosen.</p>
+<dd><p class="first">Selects the UModeler object under the mouse cursor every time the mouse moves to edit UModeler objects seamlessly. The object set affected by this mode is decided according to which category is chosen.</p>
 <ul class="last simple">
 <li><code class="docutils literal"><span class="pre">Single</span></code> : Only the selected object is a subject to be edited.</li>
 <li><code class="docutils literal"><span class="pre">All</span></code> : All the UModeler objects in a scene are subjects to be edited.</li>
@@ -174,66 +197,56 @@
 <div class="line">You can disable <code class="docutils literal"><span class="pre">Seamless</span> <span class="pre">Edit</span></code> holding <code class="docutils literal"><span class="pre">SHIFT</span></code> while moving the mouse.</div>
 </div>
 </div>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HygWp8NG6PY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><p><cite>Seamless Edit Demo</cite></p>
-<div class="section" id="display">
-<h2>Display<a class="headerlink" href="#display" title="Permalink to this headline">¶</a></h2>
 <dl class="docutils">
-<dt>Triangulation</dt>
-<dd>Displays triangle polygons.</dd>
-<dt>Status HUD</dt>
-<dd>Shows UModeler status in the scene view.</dd>
-<dt>Input Viewer</dt>
-<dd>Shows Input Viewer in the scene view.</dd>
+<dt>Text Based Menu</dt>
+<dd>Turns on and off the text based menu. It is same as <code class="docutils literal"><span class="pre">Text</span> <span class="pre">Based</span> <span class="pre">Menu</span></code> in the popup menu brought up by RMB on the menu panel.</dd>
 </dl>
-<div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">Since Ver 2.2 <code class="docutils literal"><span class="pre">Input</span> <span class="pre">Viewer</span></code> has been deprecated.</p>
-</div>
-<dl class="docutils">
-<dt>Global Ruler</dt>
-<dd>Displays Global Ruler.</dd>
-<dt>Local Ruler</dt>
-<dd>Display Local Ruler.</dd>
-</dl>
-<dl class="docutils">
-<dt>Use 3D Cursor (Formerly called <code class="docutils literal"><span class="pre">Cursor</span></code>)</dt>
-<dd>Shows and enables 3D cursor. It can be moved by manipulating a translation gizmo and you can move it to whatever vertex you want by <code class="docutils literal"><span class="pre">Ctrl+Shift+LMB</span></code>.</dd>
-</dl>
-</div>
-<div class="section" id="gizmo">
-<h2>Gizmo<a class="headerlink" href="#gizmo" title="Permalink to this headline">¶</a></h2>
-<dl class="docutils">
-<dt>Type</dt>
-<dd>One of gizmo types(Translate, Rotate and Scale)</dd>
-<dt>Frame</dt>
-<dd>One Coordinate Frame types(Global, Local)</dd>
-</dl>
-</div>
 <div class="section" id="snap">
 <h2>Snap<a class="headerlink" href="#snap" title="Permalink to this headline">¶</a></h2>
-<div class="figure" id="id2">
-<a class="reference internal image-reference" href="_images/UModeler_GridSnapping.gif"><img alt="_images/UModeler_GridSnapping.gif" src="_images/UModeler_GridSnapping.gif" style="width: 760.0px; height: 464.54999999999995px;" /></a>
-<p class="caption"><span class="caption-text">Grid Snapping</span></p>
-</div>
+<p>Here are the settings related to grid and rotation snapping.</p>
 <dl class="docutils">
 <dt>Enable</dt>
 <dd>Enables snapping</dd>
 <dt>Popular Grid Size</dt>
-<dd>Many used grid sizes</dd>
+<dd>Most used grid sizes</dd>
 <dt>Grid Size</dt>
 <dd>Custom grid size</dd>
 <dt>Rotation Snap Size</dt>
-<dd>Many used rotation snap sizes</dd>
+<dd>Most used rotation snap sizes</dd>
+</dl>
+</div>
+<div class="section" id="display">
+<h2>Display<a class="headerlink" href="#display" title="Permalink to this headline">¶</a></h2>
+<p>Here are the settings about displaying information which helps modeling.</p>
+<dl class="docutils">
+<dt>Triangulation</dt>
+<dd>Displays triangulated polygons. They are fed to the renderer in order to be rendered.</dd>
+<dt>Status</dt>
+<dd>Shows the UModeler status in the inspector such as Total selected element count, total polygon count and total triangle count.</dd>
+<dt>Commentary</dt>
+<dd>Displays UModeler commentary at the bottom on the left. You can check what key is pressed and which tool is selected etc through this.</dd>
+<dt>Global Overlay</dt>
+<dd>Displays width, depth and height of the bound box of the selected UModeler mesh.</dd>
+<dt>Local Overlay</dt>
+<dd>Displays specific values of the current tool. eg. How long the polygon is pushed or pulled in <code class="docutils literal"><span class="pre">PushPull</span></code> tool</dd>
 </dl>
 <hr class="docutils" />
 </div>
 <div class="section" id="preferences">
 <span id="advancedpreferences"></span><h2>Preferences<a class="headerlink" href="#preferences" title="Permalink to this headline">¶</a></h2>
-<p>You can set shortcuts and general settings of UModeler in Unity Preferences window to which you can go through <code class="docutils literal"><span class="pre">Edit</span> <span class="pre">&gt;</span> <span class="pre">Preferences</span></code> as follows.</p>
-<div class="figure" id="id3">
-<a class="reference internal image-reference" href="_images/UModeler_Preferences.png"><img alt="_images/UModeler_Preferences.png" src="_images/UModeler_Preferences.png" style="width: 1056.0px; height: 594.0px;" /></a>
+<p>You can set shortcuts and general settings of UModeler in Unity Preferences window to which you can go through <code class="docutils literal"><span class="pre">Edit</span> <span class="pre">&gt;</span> <span class="pre">Preferences</span></code> in the top menu.</p>
+<div class="figure" id="id5">
+<a class="reference internal image-reference" href="_images/PreferenceWin.jpg"><img alt="_images/PreferenceWin.jpg" src="_images/PreferenceWin.jpg" style="width: 432.0px; height: 344.8px;" /></a>
 <p class="caption"><span class="caption-text">UModeler Preferences.</span></p>
 </div>
+<dl class="docutils">
+<dt>Text Based Menu</dt>
+<dd>Enables the text based menu</dd>
+<dt>Detailed Tooltip</dt>
+<dd>Enables very detailed tooltip of each tool. If you feel the tooltip occupies much space, you can turn it off.</dd>
+<dt>Lightmap by Default</dt>
+<dd>When this is on, the lighting method of every new created UModeler object will be the lightmap.</dd>
+</dl>
 </div>
 </div>
 
