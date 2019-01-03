@@ -88,7 +88,7 @@
                 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gettingstarted.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="settings.html">Settings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="settings.html">Toolbar, Settings and Preference</a></li>
 <li class="toctree-l1"><a class="reference internal" href="menu.html">Menu</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Elements Group</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#vertex-edge-polygon-tool">Vertex / Edge / Polygon tool</a><ul>
@@ -96,9 +96,6 @@
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#object-tool">Object tool</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#d-cursor-tool">3D Cursor Tool</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#pivot-tool">Pivot Tool</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#snap-tool">Snap tool</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="selectiontools.html">Selection Group</a></li>
@@ -158,20 +155,21 @@
             
   <div class="section" id="elements-group">
 <h1>Elements Group<a class="headerlink" href="#elements-group" title="Permalink to this headline">¶</a></h1>
-<div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">Since version 2.2 <code class="docutils literal"><span class="pre">Transform</span> <span class="pre">Group</span></code> name has been renamed to <code class="docutils literal"><span class="pre">Elements</span> <span class="pre">Group</span></code>.</p>
-</div>
 <div class="section" id="vertex-edge-polygon-tool">
 <h2>Vertex / Edge / Polygon tool<a class="headerlink" href="#vertex-edge-polygon-tool" title="Permalink to this headline">¶</a></h2>
 <p>There are 4 types of elements you can select and transform.</p>
-<blockquote>
-<div><ul class="simple">
-<li>Vertex - A point containing position, uv and color.</li>
-<li>Edge - Two connected vertices.</li>
-<li>Polygon - A simple polygon that can have holes.</li>
-</ul>
-</div></blockquote>
+<div class="figure" id="id1">
+<a class="reference internal image-reference" href="_images/Icon_Elements_Vertex.png"><img alt="_images/Icon_Elements_Vertex.png" src="_images/Icon_Elements_Vertex.png" style="width: 26.0px; height: 26.0px;" /></a>
+<p class="caption"><span class="caption-text">Vertex - A point containing position, uv and color.</span></p>
+</div>
+<div class="figure" id="id2">
+<a class="reference internal image-reference" href="_images/Icon_Elements_Polygon.png"><img alt="_images/Icon_Elements_Polygon.png" src="_images/Icon_Elements_Polygon.png" style="width: 26.0px; height: 26.0px;" /></a>
+<p class="caption"><span class="caption-text">Edge - Two connected vertices.</span></p>
+</div>
+<div class="figure" id="id3">
+<a class="reference internal image-reference" href="_images/Icon_Elements_Edge.png"><img alt="_images/Icon_Elements_Edge.png" src="_images/Icon_Elements_Edge.png" style="width: 26.0px; height: 26.0px;" /></a>
+<p class="caption"><span class="caption-text">Polygon - A simple polygon that can have holes.</span></p>
+</div>
 <p>To begin to transform elements, you have to select them at first. Which type of elements is transformed depends on what tool is selected in the inspector.</p>
 <div class="admonition tip">
 <p class="first admonition-title">Tip</p>
@@ -208,27 +206,27 @@
 <dt>Insert Vertex</dt>
 <dd>Inserts a vertex to an adjacent edge to avoid T-junction.</dd>
 </dl>
-<div class="figure" id="id1">
+<div class="figure" id="id4">
 <a class="reference internal image-reference" href="_images/UModeler_TransformTool_v2.gif"><img alt="_images/UModeler_TransformTool_v2.gif" src="_images/UModeler_TransformTool_v2.gif" style="width: 760.0px; height: 493.04999999999995px;" /></a>
 <p class="caption"><span class="caption-text">Selecting and transforming elements.</span></p>
 </div>
-<div class="figure" id="id2">
+<div class="figure" id="id5">
 <span id="basicextrusionintransform"></span><a class="reference internal image-reference" href="_images/UModeler_BasicExtrusion_In_TransformTool.gif"><img alt="_images/UModeler_BasicExtrusion_In_TransformTool.gif" src="_images/UModeler_BasicExtrusion_In_TransformTool.gif" style="width: 760.0px; height: 482.59999999999997px;" /></a>
 <p class="caption"><span class="caption-text">Extruding polygons and edges by moving a gizmo holding <code class="docutils literal"><span class="pre">SHIFT</span></code>.</span></p>
 </div>
-<div class="figure" id="id3">
+<div class="figure" id="id6">
 <a class="reference internal image-reference" href="_images/UModeler_TransformHoldingShift_v2.gif"><img alt="_images/UModeler_TransformHoldingShift_v2.gif" src="_images/UModeler_TransformHoldingShift_v2.gif" style="width: 760.0px; height: 483.54999999999995px;" /></a>
 <p class="caption"><span class="caption-text">Transforming elements holding <code class="docutils literal"><span class="pre">SHIFT</span></code> + <code class="docutils literal"><span class="pre">CTRL</span></code>.</span></p>
 </div>
-<div class="figure" id="id4">
+<div class="figure" id="id7">
 <a class="reference internal image-reference" href="_images/UModeler_TransformTool_SnapEdgeToPolygon.gif"><img alt="_images/UModeler_TransformTool_SnapEdgeToPolygon.gif" src="_images/UModeler_TransformTool_SnapEdgeToPolygon.gif" style="width: 760.0px; height: 493.04999999999995px;" /></a>
 <p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Snap</span> <span class="pre">To</span> <span class="pre">Polygon</span></code> property Demo.</span></p>
 </div>
-<div class="figure" id="id5">
+<div class="figure" id="id8">
 <a class="reference internal image-reference" href="_images/UModeler_VertexTool_1dSnapping.gif"><img alt="_images/UModeler_VertexTool_1dSnapping.gif" src="_images/UModeler_VertexTool_1dSnapping.gif" style="width: 665.0px; height: 435.09999999999997px;" /></a>
 <p class="caption"><span class="caption-text">1D Snapping holding <code class="docutils literal"><span class="pre">CTRL</span></code></span></p>
 </div>
-<div class="figure" id="id6">
+<div class="figure" id="id9">
 <a class="reference internal image-reference" href="_images/UModeler_TransformTool_InsertVertexProperty.gif"><img alt="_images/UModeler_TransformTool_InsertVertexProperty.gif" src="_images/UModeler_TransformTool_InsertVertexProperty.gif" style="width: 760.0px; height: 497.79999999999995px;" /></a>
 <p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Insert</span> <span class="pre">Vertex</span></code> property demo.</span></p>
 </div>
@@ -237,34 +235,9 @@
 <hr class="docutils" />
 <div class="section" id="object-tool">
 <h2>Object tool<a class="headerlink" href="#object-tool" title="Permalink to this headline">¶</a></h2>
-<blockquote>
-<div>Object mode. You can select and transform an object.</div></blockquote>
-</div>
-<hr class="docutils" />
-<div class="section" id="d-cursor-tool">
-<h2>3D Cursor Tool<a class="headerlink" href="#d-cursor-tool" title="Permalink to this headline">¶</a></h2>
-<div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">Since version 2.2 <code class="docutils literal"><span class="pre">3D</span> <span class="pre">Cursor</span> <span class="pre">Tool</span></code> has been replaced with a toggle called <code class="docutils literal"><span class="pre">Use</span> <span class="pre">3D</span> <span class="pre">Cursor</span></code> in <code class="docutils literal"><span class="pre">Settings</span></code>.
-Click <a class="reference internal" href="settings.html#use3dcursor"><span class="std std-ref">this</span></a> to move to the description.</p>
-</div>
-</div>
-<hr class="docutils" />
-<div class="section" id="pivot-tool">
-<h2>Pivot Tool<a class="headerlink" href="#pivot-tool" title="Permalink to this headline">¶</a></h2>
-<div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">Since version 2.2 <code class="docutils literal"><span class="pre">Pivot</span> <span class="pre">Tool</span></code> has moved to <code class="docutils literal"><span class="pre">Tweak</span></code> group.
-Click <a class="reference internal" href="tweaktools.html#pivottool"><span class="std std-ref">this</span></a> to move to new Pivot tool desc.</p>
-</div>
-</div>
-<hr class="docutils" />
-<div class="section" id="snap-tool">
-<h2>Snap tool<a class="headerlink" href="#snap-tool" title="Permalink to this headline">¶</a></h2>
-<div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">Since version 2.2 <code class="docutils literal"><span class="pre">Snap</span> <span class="pre">Tool</span></code> has moved to <code class="docutils literal"><span class="pre">Tweak</span> <span class="pre">Group</span></code> and it has been renamed to <code class="docutils literal"><span class="pre">Snap</span> <span class="pre">Move</span> <span class="pre">Tool</span></code>.
-Click <a class="reference internal" href="tweaktools.html#snapmovetool"><span class="std std-ref">this</span></a> to move to new Snap Move Tool desc.</p>
+<div class="figure" id="id10">
+<a class="reference internal image-reference" href="_images/Icon_Elements_Object.png"><img alt="_images/Icon_Elements_Object.png" src="_images/Icon_Elements_Object.png" style="width: 26.0px; height: 26.0px;" /></a>
+<p class="caption"><span class="caption-text">Object mode. You can select and transform an object. It&#8217;s same as the Unity object mode.</span></p>
 </div>
 </div>
 </div>

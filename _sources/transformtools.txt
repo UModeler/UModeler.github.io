@@ -2,18 +2,25 @@
 Elements Group
 ################
 
-.. note::
-
- Since version 2.2 ``Transform Group`` name has been renamed to ``Elements Group``.
-
 Vertex / Edge / Polygon tool
 =============================
 
 There are 4 types of elements you can select and transform.
 
- • Vertex - A point containing position, uv and color.
- • Edge - Two connected vertices.
- • Polygon - A simple polygon that can have holes.
+.. figure:: /images/Icon_Elements_Vertex.png
+   :scale: 100 %
+
+   Vertex - A point containing position, uv and color.
+
+.. figure:: /images/Icon_Elements_Polygon.png
+   :scale: 100 %
+   
+   Edge - Two connected vertices.
+
+.. figure:: /images/Icon_Elements_Edge.png
+   :scale: 100 % 
+   
+   Polygon - A simple polygon that can have holes.
 
 To begin to transform elements, you have to select them at first. Which type of elements is transformed depends on what tool is selected in the inspector.
 
@@ -92,34 +99,8 @@ Insert Vertex
 
 Object tool
 ============
- Object mode. You can select and transform an object.
 
-----------------------------------------------------------------------------------------------------------------------
-
-3D Cursor Tool
-=========================================
-
-.. note::
-
- Since version 2.2 ``3D Cursor Tool`` has been replaced with a toggle called ``Use 3D Cursor`` in ``Settings``. 
- Click :ref:`this <Use3DCursor>` to move to the description.
-
-----------------------------------------------------------------------------------------------------------------------
-
-Pivot Tool
-====================================
-
-.. note::
-
- Since version 2.2 ``Pivot Tool`` has moved to ``Tweak`` group.  
- Click :ref:`this <PivotTool>` to move to new Pivot tool desc. 
-
-----------------------------------------------------------------------------------------------------------------------
-
-Snap tool
-==========
-
-.. note::
-
- Since version 2.2 ``Snap Tool`` has moved to ``Tweak Group`` and it has been renamed to ``Snap Move Tool``.
- Click :ref:`this <SnapMoveTool>` to move to new Snap Move Tool desc. 
+.. figure:: /images/Icon_Elements_Object.png
+   :scale: 100 %
+   
+   Object mode. You can select and transform an object. It's same as the Unity object mode.
