@@ -10,19 +10,45 @@ There are 4 types of elements you can select and transform.
 .. figure:: /images/Icon_Elements_Vertex.png
    :scale: 100 %
 
-   Vertex - A point containing position, uv and color.
+   Vertex Tool 
 
 .. figure:: /images/Icon_Elements_Polygon.png
    :scale: 100 %
    
-   Edge - Two connected vertices.
+   Edge Tool
 
 .. figure:: /images/Icon_Elements_Edge.png
    :scale: 100 % 
    
-   Polygon - A simple polygon that can have holes.
+   Polygon Tool
+   
+.. figure:: /images/Icon_Elements_Object.png
+   :scale: 100 % 
+   
+   Object Tool
+   
+I think these tools are used most frequently in UModeler so they are located at the top of the scene view. Firstly let me explain the Object Tool. With this tool you can select other objects, and move/rotate/scale them, which is same as Unity Object Mode.
 
-To begin to transform elements, you have to select them at first. Which type of elements is transformed depends on what tool is selected in the inspector.
+Now let's see Vertex Tool, Edge Tool and Polygon Tool.
+
+A mesh consists of vertices, edges and polygons. We call them elements. 
+
+And there are gizmos which are displayed on the center of the selected elements and used for moving, rotating and scaling elements. They look like the following image roughly.
+
+.. figure:: /images/gizmos.png
+   :scale: 100 % 
+   
+   Source - `AutoDesk - About using 3D Gizmos <https://knowledge.autodesk.com/support/autocad/getting-started/caas/CloudHelp/cloudhelp/2016/ENU/AutoCAD-Core/files/GUID-7BD066C9-31BA-4D47-8064-2F9CF268FA15-htm.html>`_
+   
+You can select vertices and move/rotate/scale them with the Vertex Tool. 
+The Edge Tool can make you select edges and move/rotate/scale them.
+Using the Polygon tool, polygons can be selected and moved/rotated/scaled.
+
+.. note::
+
+  When you rotate and scale elements, the pivot position is usually the center of them. But when the 3D cursor is on, the cursor posision will be the pivot position. 
+  
+Basically selection of each element can be done by placing the mouse cursor there and pressing ``LMB``. And ``LMB`` dragging from an empty space will draw a rectangle and select elements inside the rectangle.
 
 .. tip::
 
@@ -50,12 +76,6 @@ Snap To Polygon
 Snap To Vertex
  A vertex is snapped to the other close vertex within a specific distance. This is only available as the vertex is being translated.
 
-Cursor As Pivot 
- Rotates the selected elements around the 3D cursor.
-
-.. note::
-
- Since version 2.2 ``Cursor As Pivot`` property has been removed. Instead 3D cursor is used as pivot while it is enabled.
 
 Move To Cursor
  Moves the current selected elements to the 3D cursor position.
