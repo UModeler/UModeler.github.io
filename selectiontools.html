@@ -88,37 +88,40 @@
                 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gettingstarted.html">Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="settings.html">Settings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="settings.html">Toolbar, Settings and Preference</a></li>
 <li class="toctree-l1"><a class="reference internal" href="menu.html">Menu</a></li>
 <li class="toctree-l1"><a class="reference internal" href="transformtools.html">Elements Group</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Selection Group</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#all-none-tool">All/None Tool</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#all-selection-tool">All Selection Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#none-selection-tool">None Selection Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#isolated-selection-tool">Isolated Selection Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#vertex-isolated-selection">Vertex Isolated Selection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#edge-isolated-selection">Edge Isolated Selection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#polygon-isloated-selection">Polygon Isloated Selection</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#loop-selection-tool">Loop Selection Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#edge-loop">Edge Loop</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#hole-selection">Hole Selection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#quad-loop">Quad Loop</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#steps">Steps</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#isolated-tool">Isolated Tool</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#ring-selection-tool">Ring Selection Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#edge-ring">Edge Ring</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#quad-ring">Quad Ring</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id1">Steps</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#loop-tool">Loop Tool</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#edge-loop">Edge Loop</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#quad-loop">Quad Loop</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#hole-selection">Hole Selection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#invert-selection-tool">Invert Selection Tool</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#id2">Steps</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#ring-tool">Ring Tool</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#edge-ring">Edge Ring</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#quad-ring">Quad Ring</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#increase-selection-tool">Increase Selection Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#vertex-increase-selection">Vertex Increase Selection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#edge-increase-selection">Edge Increase Selection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#polygon-increase-selection">Polygon Increase Selection</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id3">Steps</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="#invert-tool">Invert Tool</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id4">Steps</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="#increase-tool">Increase Tool</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id5">Steps</a></li>
 </ul>
 </li>
 </ul>
@@ -179,123 +182,243 @@
             
   <div class="section" id="selection-group">
 <h1>Selection Group<a class="headerlink" href="#selection-group" title="Permalink to this headline">¶</a></h1>
+<div class="figure" id="id4">
+<a class="reference internal image-reference" href="_images/Icon_Group_Selection.png"><img alt="_images/Icon_Group_Selection.png" src="_images/Icon_Group_Selection.png" style="width: 26.0px; height: 26.0px;" /></a>
+<p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Selection</span> <span class="pre">Group</span></code> icon</span></p>
+</div>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">Selection tools responds immediately to clicking on a button of each tool.</p>
 </div>
-<div class="section" id="all-none-tool">
-<h2>All/None Tool<a class="headerlink" href="#all-none-tool" title="Permalink to this headline">¶</a></h2>
-<p>If there are any selected elements, they will be unselected. Otherwise, all elements will be selected.</p>
-<div class="section" id="steps">
-<h3>Steps<a class="headerlink" href="#steps" title="Permalink to this headline">¶</a></h3>
-<ol class="arabic simple">
-<li>Click on <code class="docutils literal"><span class="pre">All/None</span> <span class="pre">Tool</span></code> button.</li>
-</ol>
+<div class="section" id="all-selection-tool">
+<h2>All Selection Tool<a class="headerlink" href="#all-selection-tool" title="Permalink to this headline">¶</a></h2>
+<div class="figure" id="id5">
+<a class="reference internal image-reference" href="_images/Icon_Selection_AllSelectVertex.png"><img alt="_images/Icon_Selection_AllSelectVertex.png" src="_images/Icon_Selection_AllSelectVertex.png" style="width: 26.0px; height: 26.0px;" /></a>
+<p class="caption"><span class="caption-text">Vertex All Selection Tool</span></p>
+</div>
 <div class="figure" id="id6">
-<a class="reference internal image-reference" href="_images/UModeler_AllNoneSelectionTool.gif"><img alt="_images/UModeler_AllNoneSelectionTool.gif" src="_images/UModeler_AllNoneSelectionTool.gif" style="width: 855.0px; height: 553.85px;" /></a>
-<p class="caption"><span class="caption-text">All/None Selection Demo</span></p>
+<a class="reference internal image-reference" href="_images/Icon_Selection_AllSelectEdge.png"><img alt="_images/Icon_Selection_AllSelectEdge.png" src="_images/Icon_Selection_AllSelectEdge.png" style="width: 26.0px; height: 26.0px;" /></a>
+<p class="caption"><span class="caption-text">Edge All Selection Tool</span></p>
 </div>
-</div>
-</div>
-<hr class="docutils" />
-<div class="section" id="isolated-tool">
-<h2>Isolated Tool<a class="headerlink" href="#isolated-tool" title="Permalink to this headline">¶</a></h2>
-<p>Selects geometry connected to already selected elements. This is often useful when a mesh has disconnected but overlapping parts</p>
-<div class="section" id="id1">
-<h3>Steps<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
-<ol class="arabic simple">
-<li>Select <code class="docutils literal"><span class="pre">Isloated</span> <span class="pre">Tool</span></code> with any elements selected.</li>
-</ol>
 <div class="figure" id="id7">
-<a class="reference internal image-reference" href="_images/UModeler_IsolatedSelection_v2.gif"><img alt="_images/UModeler_IsolatedSelection_v2.gif" src="_images/UModeler_IsolatedSelection_v2.gif" style="width: 760.0px; height: 466.45px;" /></a>
-<p class="caption"><span class="caption-text">Isolated Selection Demo</span></p>
+<a class="reference internal image-reference" href="_images/Icon_Selection_AllSelectPolygon.png"><img alt="_images/Icon_Selection_AllSelectPolygon.png" src="_images/Icon_Selection_AllSelectPolygon.png" style="width: 26.0px; height: 26.0px;" /></a>
+<p class="caption"><span class="caption-text">Polygon All Selectin Tool</span></p>
+</div>
+<p>If there aren&#8217;t any selected elements, all elements will be selected immediately after selecting this tool. The element type depends on which tool is selected just before this tool run.</p>
+</div>
+<hr class="docutils" />
+<div class="section" id="none-selection-tool">
+<h2>None Selection Tool<a class="headerlink" href="#none-selection-tool" title="Permalink to this headline">¶</a></h2>
+<div class="figure" id="id8">
+<a class="reference internal image-reference" href="_images/Icon_Selection_NoneSelect.png"><img alt="_images/Icon_Selection_NoneSelect.png" src="_images/Icon_Selection_NoneSelect.png" style="width: 26.0px; height: 26.0px;" /></a>
+<p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">None</span> <span class="pre">Selection</span> <span class="pre">Tool</span></code> icon</span></p>
+</div>
+<p>All the selected elements will be unselected when this tool button is clicked on.</p>
+</div>
+<hr class="docutils" />
+<div class="section" id="isolated-selection-tool">
+<h2>Isolated Selection Tool<a class="headerlink" href="#isolated-selection-tool" title="Permalink to this headline">¶</a></h2>
+<p>Selects geometry connected to already selected elements. This is often useful when a mesh has disconnected but overlapping parts</p>
+<div class="section" id="vertex-isolated-selection">
+<h3>Vertex Isolated Selection<a class="headerlink" href="#vertex-isolated-selection" title="Permalink to this headline">¶</a></h3>
+<div class="figure" id="id9">
+<a class="reference internal image-reference" href="_images/Icon_Selection_IsolatedSelectVertex.png"><img alt="_images/Icon_Selection_IsolatedSelectVertex.png" src="_images/Icon_Selection_IsolatedSelectVertex.png" style="width: 26.0px; height: 26.0px;" /></a>
+<p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Vertex</span> <span class="pre">Isolated</span> <span class="pre">Selection</span> <span class="pre">Tool</span></code> Icon</span></p>
+</div>
+<div class="figure" id="id10">
+<a class="reference internal image-reference" href="_images/UModeler_VertexIsolated_0.jpg"><img alt="_images/UModeler_VertexIsolated_0.jpg" src="_images/UModeler_VertexIsolated_0.jpg" style="width: 227.04999999999998px; height: 281.2px;" /></a>
+<p class="caption"><span class="caption-text">If any vertices are selected,</span></p>
+</div>
+<div class="figure" id="id11">
+<a class="reference internal image-reference" href="_images/UModeler_VertexIsolated_1.jpg"><img alt="_images/UModeler_VertexIsolated_1.jpg" src="_images/UModeler_VertexIsolated_1.jpg" style="width: 227.04999999999998px; height: 281.2px;" /></a>
+<p class="caption"><span class="caption-text">All the vertices in the isolated geometry which includes the first select vertices will be selected.</span></p>
+</div>
+</div>
+<div class="section" id="edge-isolated-selection">
+<h3>Edge Isolated Selection<a class="headerlink" href="#edge-isolated-selection" title="Permalink to this headline">¶</a></h3>
+<div class="figure" id="id12">
+<a class="reference internal image-reference" href="_images/Icon_Selection_IsolatedSelectEdge.png"><img alt="_images/Icon_Selection_IsolatedSelectEdge.png" src="_images/Icon_Selection_IsolatedSelectEdge.png" style="width: 26.0px; height: 26.0px;" /></a>
+<p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Edge</span> <span class="pre">Isolated</span> <span class="pre">Selection</span> <span class="pre">Tool</span></code> Icon</span></p>
+</div>
+<div class="figure" id="id13">
+<a class="reference internal image-reference" href="_images/UModeler_EdgeIsolated_0.jpg"><img alt="_images/UModeler_EdgeIsolated_0.jpg" src="_images/UModeler_EdgeIsolated_0.jpg" style="width: 227.04999999999998px; height: 281.2px;" /></a>
+<p class="caption"><span class="caption-text">If any edges are selected,</span></p>
+</div>
+<div class="figure" id="id14">
+<a class="reference internal image-reference" href="_images/UModeler_EdgeIsolated_1.jpg"><img alt="_images/UModeler_EdgeIsolated_1.jpg" src="_images/UModeler_EdgeIsolated_1.jpg" style="width: 227.04999999999998px; height: 281.2px;" /></a>
+<p class="caption"><span class="caption-text">All the edges in the isolated geometry which includes the first select edges will be selected.</span></p>
+</div>
+</div>
+<div class="section" id="polygon-isloated-selection">
+<h3>Polygon Isloated Selection<a class="headerlink" href="#polygon-isloated-selection" title="Permalink to this headline">¶</a></h3>
+<div class="figure" id="id15">
+<a class="reference internal image-reference" href="_images/Icon_Selection_IsolatedSelectPolygon.png"><img alt="_images/Icon_Selection_IsolatedSelectPolygon.png" src="_images/Icon_Selection_IsolatedSelectPolygon.png" style="width: 26.0px; height: 26.0px;" /></a>
+<p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Polygon</span> <span class="pre">Isolated</span> <span class="pre">Selection</span> <span class="pre">Tool</span></code> Icon</span></p>
+</div>
+<div class="figure" id="id16">
+<a class="reference internal image-reference" href="_images/UModeler_PolygonIsolated_0.jpg"><img alt="_images/UModeler_PolygonIsolated_0.jpg" src="_images/UModeler_PolygonIsolated_0.jpg" style="width: 227.04999999999998px; height: 281.2px;" /></a>
+<p class="caption"><span class="caption-text">If any polygons are selected,</span></p>
+</div>
+<div class="figure" id="id17">
+<a class="reference internal image-reference" href="_images/UModeler_PolygonIsolated_1.jpg"><img alt="_images/UModeler_PolygonIsolated_1.jpg" src="_images/UModeler_PolygonIsolated_1.jpg" style="width: 227.04999999999998px; height: 281.2px;" /></a>
+<p class="caption"><span class="caption-text">All the polygons in the isolated geometry which includes the first select polygons will be selected.</span></p>
 </div>
 </div>
 </div>
 <hr class="docutils" />
-<div class="section" id="loop-tool">
-<h2>Loop Tool<a class="headerlink" href="#loop-tool" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="loop-selection-tool">
+<h2>Loop Selection Tool<a class="headerlink" href="#loop-selection-tool" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="edge-loop">
 <h3>Edge Loop<a class="headerlink" href="#edge-loop" title="Permalink to this headline">¶</a></h3>
-<p>Selects a loop of edges that are connected in a line end to end.</p>
+<div class="figure" id="id18">
+<a class="reference internal image-reference" href="_images/Icon_Selection_LoopSelectEdge.png"><img alt="_images/Icon_Selection_LoopSelectEdge.png" src="_images/Icon_Selection_LoopSelectEdge.png" style="width: 26.0px; height: 26.0px;" /></a>
+<p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Edge</span> <span class="pre">Loop</span> <span class="pre">Tool</span></code> and <code class="docutils literal"><span class="pre">Hole</span> <span class="pre">Selection</span> <span class="pre">Tool</span></code> Icon</span></p>
 </div>
-<div class="section" id="quad-loop">
-<h3>Quad Loop<a class="headerlink" href="#quad-loop" title="Permalink to this headline">¶</a></h3>
-<p>Serial quad polygons across a mesh will be selected in a direction of the first two selected quad.</p>
-<div class="figure" id="id8">
-<a class="reference internal image-reference" href="_images/UModeler_LoopSelectionTool.gif"><img alt="_images/UModeler_LoopSelectionTool.gif" src="_images/UModeler_LoopSelectionTool.gif" style="width: 760.0px; height: 492.09999999999997px;" /></a>
-<p class="caption"><span class="caption-text">Edge Loops and Quad Loops</span></p>
+<p>Selects a loop of edges that are connected in a line end to end.</p>
+<div class="figure">
+<a class="reference internal image-reference" href="_images/UModeler_EdgeLoop_0.jpg"><img alt="_images/UModeler_EdgeLoop_0.jpg" src="_images/UModeler_EdgeLoop_0.jpg" style="width: 191.89999999999998px; height: 247.0px;" /></a>
+</div>
+<div class="figure">
+<a class="reference internal image-reference" href="_images/UModeler_EdgeLoop_1.jpg"><img alt="_images/UModeler_EdgeLoop_1.jpg" src="_images/UModeler_EdgeLoop_1.jpg" style="width: 191.89999999999998px; height: 247.0px;" /></a>
 </div>
 </div>
 <div class="section" id="hole-selection">
 <h3>Hole Selection<a class="headerlink" href="#hole-selection" title="Permalink to this headline">¶</a></h3>
 <p>If the selected edge is a part of a hole, all the edges of the holes will be selected.</p>
+<div class="figure">
+<a class="reference internal image-reference" href="_images/UModeler_HoleLoop_0.jpg"><img alt="_images/UModeler_HoleLoop_0.jpg" src="_images/UModeler_HoleLoop_0.jpg" style="width: 191.89999999999998px; height: 247.0px;" /></a>
 </div>
-<div class="section" id="id2">
-<h3>Steps<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<div class="figure">
+<a class="reference internal image-reference" href="_images/UModeler_HoleLoop_1.jpg"><img alt="_images/UModeler_HoleLoop_1.jpg" src="_images/UModeler_HoleLoop_1.jpg" style="width: 191.89999999999998px; height: 247.0px;" /></a>
+</div>
+</div>
+<div class="section" id="quad-loop">
+<h3>Quad Loop<a class="headerlink" href="#quad-loop" title="Permalink to this headline">¶</a></h3>
+<div class="figure" id="id19">
+<a class="reference internal image-reference" href="_images/Icon_Selection_LoopSelectPolygon.png"><img alt="_images/Icon_Selection_LoopSelectPolygon.png" src="_images/Icon_Selection_LoopSelectPolygon.png" style="width: 26.0px; height: 26.0px;" /></a>
+<p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Quad</span> <span class="pre">Loop</span></code> Selection</span></p>
+</div>
+<p>Serial quad polygons across a mesh will be selected in a direction of the first two selected quad.</p>
+<div class="figure">
+<a class="reference internal image-reference" href="_images/UModeler_PolygonLoop_0.jpg"><img alt="_images/UModeler_PolygonLoop_0.jpg" src="_images/UModeler_PolygonLoop_0.jpg" style="width: 191.89999999999998px; height: 247.0px;" /></a>
+</div>
+<div class="figure">
+<a class="reference internal image-reference" href="_images/UModeler_PolygonLoop_1.jpg"><img alt="_images/UModeler_PolygonLoop_1.jpg" src="_images/UModeler_PolygonLoop_1.jpg" style="width: 191.89999999999998px; height: 247.0px;" /></a>
+</div>
+</div>
+<div class="section" id="steps">
+<h3>Steps<a class="headerlink" href="#steps" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
 <li>Select an edge if you want <code class="docutils literal"><span class="pre">Edge</span> <span class="pre">Loops</span></code> or <code class="docutils literal"><span class="pre">Hole</span> <span class="pre">Selection</span></code>. Select two series quad polygons if you want <code class="docutils literal"><span class="pre">Quad</span> <span class="pre">Loops</span></code>.</li>
 <li>Select <code class="docutils literal"><span class="pre">Loop</span> <span class="pre">Tool</span></code>.</li>
 </ol>
-<div class="figure" id="id9">
-<a class="reference internal image-reference" href="_images/UModeler_HoleSelection_v2.gif"><img alt="_images/UModeler_HoleSelection_v2.gif" src="_images/UModeler_HoleSelection_v2.gif" style="width: 760.0px; height: 460.75px;" /></a>
-<p class="caption"><span class="caption-text">Hole edge selection.</span></p>
-</div>
 </div>
 </div>
 <hr class="docutils" />
-<div class="section" id="ring-tool">
-<h2>Ring Tool<a class="headerlink" href="#ring-tool" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="ring-selection-tool">
+<h2>Ring Selection Tool<a class="headerlink" href="#ring-selection-tool" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="edge-ring">
 <h3>Edge Ring<a class="headerlink" href="#edge-ring" title="Permalink to this headline">¶</a></h3>
+<div class="figure" id="id20">
+<a class="reference internal image-reference" href="_images/Icon_Selection_RingSelectEdge.png"><img alt="_images/Icon_Selection_RingSelectEdge.png" src="_images/Icon_Selection_RingSelectEdge.png" style="width: 26.0px; height: 26.0px;" /></a>
+<p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Edge</span> <span class="pre">Ring</span> <span class="pre">Tool</span></code>  Icon</span></p>
+</div>
 <p>Selects a sequence of edges that are not connected, but on opposite sides to each other continuing along a face loop</p>
+<div class="figure">
+<a class="reference internal image-reference" href="_images/UModeler_EdgeRing_0.jpg"><img alt="_images/UModeler_EdgeRing_0.jpg" src="_images/UModeler_EdgeRing_0.jpg" style="width: 191.89999999999998px; height: 247.0px;" /></a>
+</div>
+<div class="figure">
+<a class="reference internal image-reference" href="_images/UModeler_EdgeRing_1.jpg"><img alt="_images/UModeler_EdgeRing_1.jpg" src="_images/UModeler_EdgeRing_1.jpg" style="width: 191.89999999999998px; height: 247.0px;" /></a>
+</div>
 </div>
 <div class="section" id="quad-ring">
 <h3>Quad Ring<a class="headerlink" href="#quad-ring" title="Permalink to this headline">¶</a></h3>
-<p>Lets you select several polygons across a mesh without having to select each polygon individually.</p>
+<div class="figure" id="id21">
+<a class="reference internal image-reference" href="_images/Icon_Selection_RingSelectPolygon.png"><img alt="_images/Icon_Selection_RingSelectPolygon.png" src="_images/Icon_Selection_RingSelectPolygon.png" style="width: 26.0px; height: 26.0px;" /></a>
+<p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Quad</span> <span class="pre">Ring</span> <span class="pre">Tool</span></code>  Icon</span></p>
 </div>
-<div class="section" id="id3">
-<h3>Steps<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<p>Lets you select several quad polygons across a mesh.</p>
+<div class="figure">
+<a class="reference internal image-reference" href="_images/UModeler_PolygonRing_0.jpg"><img alt="_images/UModeler_PolygonRing_0.jpg" src="_images/UModeler_PolygonRing_0.jpg" style="width: 191.89999999999998px; height: 247.0px;" /></a>
+</div>
+<div class="figure">
+<a class="reference internal image-reference" href="_images/UModeler_PolygonRing_1.jpg"><img alt="_images/UModeler_PolygonRing_1.jpg" src="_images/UModeler_PolygonRing_1.jpg" style="width: 191.89999999999998px; height: 247.0px;" /></a>
+</div>
+</div>
+<div class="section" id="id1">
+<h3>Steps<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
 <li>If you want <code class="docutils literal"><span class="pre">Edge</span> <span class="pre">Rings</span></code> select an edge using Edge tool. If you want <code class="docutils literal"><span class="pre">Quad</span> <span class="pre">Rings</span></code> select two series quad polygons.</li>
 <li>Select <code class="docutils literal"><span class="pre">Ring</span> <span class="pre">Tool</span></code>.</li>
 </ol>
-<div class="figure" id="id10">
-<a class="reference internal image-reference" href="_images/UModeler_RingSelectionTool.gif"><img alt="_images/UModeler_RingSelectionTool.gif" src="_images/UModeler_RingSelectionTool.gif" style="width: 760.0px; height: 492.09999999999997px;" /></a>
-<p class="caption"><span class="caption-text">Edge Rings and Quad Rings</span></p>
-</div>
 </div>
 </div>
 <hr class="docutils" />
-<div class="section" id="invert-tool">
-<h2>Invert Tool<a class="headerlink" href="#invert-tool" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="invert-selection-tool">
+<h2>Invert Selection Tool<a class="headerlink" href="#invert-selection-tool" title="Permalink to this headline">¶</a></h2>
+<div class="figure" id="id22">
+<a class="reference internal image-reference" href="_images/Icon_Selection_InvertSelectVertex.png"><img alt="_images/Icon_Selection_InvertSelectVertex.png" src="_images/Icon_Selection_InvertSelectVertex.png" style="width: 26.0px; height: 26.0px;" /></a>
+<p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Vertex</span> <span class="pre">Invert</span> <span class="pre">Tool</span></code> icon</span></p>
+</div>
+<div class="figure" id="id23">
+<a class="reference internal image-reference" href="_images/Icon_Selection_InvertSelectEdge.png"><img alt="_images/Icon_Selection_InvertSelectEdge.png" src="_images/Icon_Selection_InvertSelectEdge.png" style="width: 26.0px; height: 26.0px;" /></a>
+<p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Edge</span> <span class="pre">Invert</span> <span class="pre">Tool</span></code> icon</span></p>
+</div>
+<div class="figure" id="id24">
+<a class="reference internal image-reference" href="_images/Icon_Selection_InvertSelectPolygon.png"><img alt="_images/Icon_Selection_InvertSelectPolygon.png" src="_images/Icon_Selection_InvertSelectPolygon.png" style="width: 26.0px; height: 26.0px;" /></a>
+<p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Polygon</span> <span class="pre">Invert</span> <span class="pre">Tool</span></code> icon</span></p>
+</div>
 <p>The selection will be inverted. It means the selected ones will get deselected and the deselected ones will get selected.</p>
-<div class="section" id="id4">
-<h3>Steps<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id2">
+<h3>Steps<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
 <li>Select vertices, edges or a polygons.</li>
 <li>Select <code class="docutils literal"><span class="pre">Invert</span> <span class="pre">Tool</span></code>.</li>
 </ol>
-<div class="figure" id="id11">
-<a class="reference internal image-reference" href="_images/UModeler_InvertSelection_v2.gif"><img alt="_images/UModeler_InvertSelection_v2.gif" src="_images/UModeler_InvertSelection_v2.gif" style="width: 760.0px; height: 460.75px;" /></a>
-<p class="caption"><span class="caption-text">Edge Rings and Quad Rings</span></p>
-</div>
 </div>
 </div>
 <hr class="docutils" />
-<div class="section" id="increase-tool">
-<h2>Increase Tool<a class="headerlink" href="#increase-tool" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="increase-selection-tool">
+<h2>Increase Selection Tool<a class="headerlink" href="#increase-selection-tool" title="Permalink to this headline">¶</a></h2>
 <p>Expands the current selection outwards in all directions from the current selected elements.</p>
-<div class="section" id="id5">
-<h3>Steps<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="vertex-increase-selection">
+<h3>Vertex Increase Selection<a class="headerlink" href="#vertex-increase-selection" title="Permalink to this headline">¶</a></h3>
+<div class="figure" id="id25">
+<a class="reference internal image-reference" href="_images/Icon_Selection_IncreaseSelectVertex.png"><img alt="_images/Icon_Selection_IncreaseSelectVertex.png" src="_images/Icon_Selection_IncreaseSelectVertex.png" style="width: 26.0px; height: 26.0px;" /></a>
+<p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Vertex</span> <span class="pre">Increase</span> <span class="pre">Tool</span></code> icon</span></p>
+</div>
+<div class="figure">
+<a class="reference internal image-reference" href="_images/UModeler_IncreaseTool_Vertex.gif"><img alt="_images/UModeler_IncreaseTool_Vertex.gif" src="_images/UModeler_IncreaseTool_Vertex.gif" style="width: 287.84999999999997px; height: 313.5px;" /></a>
+</div>
+</div>
+<div class="section" id="edge-increase-selection">
+<h3>Edge Increase Selection<a class="headerlink" href="#edge-increase-selection" title="Permalink to this headline">¶</a></h3>
+<div class="figure" id="id26">
+<a class="reference internal image-reference" href="_images/Icon_Selection_IncreaseSelectEdge.png"><img alt="_images/Icon_Selection_IncreaseSelectEdge.png" src="_images/Icon_Selection_IncreaseSelectEdge.png" style="width: 26.0px; height: 26.0px;" /></a>
+<p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Edge</span> <span class="pre">Increase</span> <span class="pre">Tool</span></code> icon</span></p>
+</div>
+<div class="figure" id="id27">
+<a class="reference internal image-reference" href="_images/UModeler_Increase_edge.gif"><img alt="_images/UModeler_Increase_edge.gif" src="_images/UModeler_Increase_edge.gif" style="width: 303.0px; height: 330.0px;" /></a>
+<p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Edge</span> <span class="pre">Increase</span> <span class="pre">Tool</span></code> icon</span></p>
+</div>
+</div>
+<div class="section" id="polygon-increase-selection">
+<h3>Polygon Increase Selection<a class="headerlink" href="#polygon-increase-selection" title="Permalink to this headline">¶</a></h3>
+<div class="figure" id="id28">
+<a class="reference internal image-reference" href="_images/Icon_Selection_IncreaseSelectPolygon.png"><img alt="_images/Icon_Selection_IncreaseSelectPolygon.png" src="_images/Icon_Selection_IncreaseSelectPolygon.png" style="width: 26.0px; height: 26.0px;" /></a>
+<p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Polygon</span> <span class="pre">Increase</span> <span class="pre">Tool</span></code> icon</span></p>
+</div>
+<div class="figure" id="id29">
+<a class="reference internal image-reference" href="_images/UModeler_IncreaseTool.gif"><img alt="_images/UModeler_IncreaseTool.gif" src="_images/UModeler_IncreaseTool.gif" style="width: 298.0px; height: 330.0px;" /></a>
+<p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Polygon</span> <span class="pre">Increase</span> <span class="pre">Tool</span></code> icon</span></p>
+</div>
+</div>
+<div class="section" id="id3">
+<h3>Steps<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
 <li>Select vertices, edges or a polygons.</li>
 <li>Select <code class="docutils literal"><span class="pre">Increase</span> <span class="pre">Tool</span></code>.</li>
 </ol>
-<div class="figure" id="id12">
-<a class="reference internal image-reference" href="_images/UModeler_IncreaseSelection_v2.gif"><img alt="_images/UModeler_IncreaseSelection_v2.gif" src="_images/UModeler_IncreaseSelection_v2.gif" style="width: 760.0px; height: 460.75px;" /></a>
-<p class="caption"><span class="caption-text">Increase selection tool demo.</span></p>
-</div>
 </div>
 </div>
 </div>
