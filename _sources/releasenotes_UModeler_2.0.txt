@@ -68,10 +68,10 @@ General
 ---------------
  - Change : Replaced ``Tools`` and ``Settings`` foldout arrows with Toolbar UI in the inspector.
  - Change : Changed ``Transform`` group name into ``Elements``.
- - Change : Moved ``Pivot Tool`` from ``Transform group`` to ``Tweak group``.  (See :ref:`this <PivotTool>`)
+ - Change : Moved ``Pivot Tool`` from ``Transform group`` to ``Tweak group``.
  - Change : Disabled the Local Ruler display of the selected elements.
- - Change : ``Snap Tool`` has been renamed to ``Snap Move Tool`` and moved from ``Transform grooup`` to ``Tweak group``. (See :ref:`this <SnapMoveTool>`)
- - Change : ``3D Cursor Tool`` has been removed. Instead 3D cursor can be enabled via Settings and it can be positioned anytime. (See :ref:`this <Use3DCursor>`)
+ - Change : ``Snap Tool`` has been renamed to ``Snap Move Tool`` and moved from ``Transform grooup`` to ``Tweak group``.
+ - Change : ``3D Cursor Tool`` has been removed. Instead 3D cursor can be enabled via Settings and it can be positioned anytime.
  - Change : Removed ``Cursor As Pivot`` property in ``Vertex/Edge/Polygon Tools``. Instead just enabling ``3D Cursor`` in ``Settings`` does it.
  - Change : ``Help`` button has been replaced with ``?`` button in the inspector.
  - Change : Renamed ``Invert Face Tool`` into ``Flip Tool``.
@@ -122,7 +122,7 @@ New UI System
 Version 2.1.1
 ==================================================================================
 
- - Feature : Edge/Polygon Tranform - Added Extrusion fuctions holding ``SHIFT``. (See :ref:`this <basicextrusionintransform>`)
+ - Feature : Edge/Polygon Tranform - Added Extrusion fuctions holding ``SHIFT``.
  - Enhancement : Vertex/Edge/Polygon Selection - Added ``Select only visible`` property to selects non occluded elements from a camera. (See :ref:`this <selectonlyvisibleintransform>`)
  - Enhancement : Multi PushPull - Changed a helper line to an arrow.
  - Enhancement : Multi PushPull - Added One step push/pull. (See :ref:`this <onesteppushpull>`)
@@ -153,7 +153,7 @@ Version 2.0.8
 
  .. figure:: /images/UModeler_ProSkin.png
 
- - Feature : Added a new tool - Polygon Group Tool. (See :ref:`this <polygongrouptool>`)
+ - Feature : Added a new tool - Polygon Group Tool.
  - Fix : Some incorrect colors on Pro skin.
 
 Version 2.0.7
@@ -163,7 +163,7 @@ Version 2.0.7
  - Feature : Added Color settings in Preferences. (See :ref:`this <AdvancedPreferences>`)
  - Enhancement : Shortcut Settings in Preferences - Modifiers' list box has been replaced with 3 toggle boxes (``Shfit``, ``Ctrl`` and ``Alt``) (See :ref:`this <AdvancedPreferences>`)
  - Documentation : 3D Cursor Tool.
- - Documentation : Pivot Tool (See :ref:`this <PivotTool>`)
+ - Documentation : Pivot Tool
  - Documentation : Snap Tool
  - Fix : Material Tool - Added codes to deal with null material.
  - Fix : Error of invalid selected polygon display.
@@ -216,7 +216,7 @@ Version 2.0.0
  - ``Vertex/Edge/Polygon Tool`` - 1D Snapping has been added. It works by moving a cursor to another vertex holding ``CTRL`` while dragging the translation gizmo.
  - ``Vertex/Edge/Polygon Tool`` - ``Insert Vertex`` property has been added.
  - Change - ``PushPull Tool`` : Renamed ``Draw Edges`` property to ``Continuous``.
- - Change - ``Multiple PushPull`` button has been added. see :ref:`pushpull_tool_label`
+ - Change - ``Multiple PushPull`` button has been added.
  - Change - ``Cut Tool`` : Made Cutting direction flipped by pressing ``SPACE`` while ``LMB`` Dragging
  - Change - ``Backface Tool`` : Renamed to ``Local Settings``
  - Change - ``Copy Tool`` : Renamed to ``Duplicate Tool``

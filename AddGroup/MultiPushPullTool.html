@@ -1,0 +1,309 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Multi PushPull Tool &mdash; UModeler 2.0 Manual  documentation</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="../_static/logo_fav_transparent_background.png"/>
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="UModeler 2.0 Manual  documentation" href="../index.html"/>
+        <link rel="up" title="Add Group" href="index.html"/>
+        <link rel="next" title="Inset Tool" href="InsetTool.html"/>
+        <link rel="prev" title="PushPull Tool" href="PushPullTool.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> UModeler 2.0 Manual
+          
+
+          
+            
+            <img src="../_static/UModeler_Logo_small.png" class="logo" />
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorialvideos.html">Tutorial Videos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../settings.html">Toolbar, Settings and Preference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../menu.html">Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../transformtools.html">Elements Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../SelectionGroup/index.html">Selection Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../DrawingGroup/index.html">Drawing Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../PrimitiveShapesGroup/index.html">Primitive Shapes Group</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Add Group</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="PushPullTool.html">PushPull Tool</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Multi PushPull Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#steps">Steps</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#interface">Interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#properties">Properties</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="InsetTool.html">Inset Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BooleanTool.html">Boolean Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="MirrorTool.html">Mirror Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="LoopSliceTool.html">Loop Slice Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="FollowTool.html">Follow Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BevelTool.html">Bevel Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BridgeTool.html">Bridge Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="CloneTool.html">Clone Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="DuplicateTool.html">Duplicate Tool</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../RemoveGroup/index.html">Remove Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../TweakGroup/index.html">Tweak Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../SurfaceGroup/index.html">Surface Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../MiscGroup/index.html">Misc Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../UVEditor/index.html">UV Editor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../releasenotes.html">Release Notes</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">UModeler 2.0 Manual</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+ 
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+      
+          <li><a href="index.html">Add Group</a> &raquo;</li>
+      
+    <li>Multi PushPull Tool</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/AddGroup/MultiPushPullTool.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="multi-pushpull-tool">
+<h1>Multi PushPull Tool<a class="headerlink" href="#multi-pushpull-tool" title="Permalink to this headline">¶</a></h1>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">If you want a uniform size of height in <code class="docutils literal"><span class="pre">PushPull</span> <span class="pre">Tool</span></code>, enable <code class="docutils literal"><span class="pre">Snap</span></code> in <code class="docutils literal"><span class="pre">Settings</span> <span class="pre">&gt;</span> <span class="pre">Snap</span></code></p>
+</div>
+<p>Multiple polygons are pushed or pulled along a helper arrow</p>
+<div class="section" id="steps">
+<h2>Steps<a class="headerlink" href="#steps" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>Go to <code class="docutils literal"><span class="pre">Multi</span> <span class="pre">PushPull</span> <span class="pre">Tool</span></code>.</li>
+<li>If no selected polygons, select several polygons. Then you can see the <code class="docutils literal"><span class="pre">Help</span> <span class="pre">arrow</span></code> in yellow.</li>
+<li>Click <code class="docutils literal"><span class="pre">LMB</span></code> on any point on the <code class="docutils literal"><span class="pre">Helper</span> <span class="pre">arrow</span></code>.</li>
+<li>Drag the mouse in a direction of the the arrow.</li>
+<li>If necessary, adjust <code class="docutils literal"><span class="pre">Distance</span></code> property.</li>
+</ol>
+</div>
+<div class="section" id="interface">
+<h2>Interface<a class="headerlink" href="#interface" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt><code class="docutils literal"><span class="pre">LMB</span> <span class="pre">Drag</span></code></dt>
+<dd>It should start on a helper arrow and the mouse should be dragged along it.</dd>
+<dt><code class="docutils literal"><span class="pre">ESC</span></code></dt>
+<dd>Exits this tool.</dd>
+</dl>
+</div>
+<div class="section" id="properties">
+<h2>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt>Select Only Visible</dt>
+<dd>If on, Selects only visible vertices/edges/polygons from a camera. Occluded elements from other polygons will not be selected. This is available only when the game object has MeshCollider component.</dd>
+<dt>Distance</dt>
+<dd>How long the selected polygons are extruded</dd>
+<dt>Pushpull Type</dt>
+<dd><ul class="first last simple">
+<li><code class="docutils literal"><span class="pre">Individual</span> <span class="pre">Polygon</span></code> : The selected polygons are extruded in each normal direction of the polygons.</li>
+<li><code class="docutils literal"><span class="pre">Vertex</span> <span class="pre">Normal</span></code> : The selected polygons are extruded in each normal direction of the vertices.</li>
+<li><code class="docutils literal"><span class="pre">Average</span> <span class="pre">Normal</span></code> : The selected polygons are extruded in the average direction of them.</li>
+<li><code class="docutils literal"><span class="pre">X</span></code> : The selected polygons are extruded in X-axis direction.</li>
+<li><code class="docutils literal"><span class="pre">Y</span></code> : The selected polygons are extruded in Y-axis direction.</li>
+<li><code class="docutils literal"><span class="pre">Z</span></code> : The selected polygons are extruded in Z-axis direction.</li>
+</ul>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Since version 2.1.1 <code class="docutils literal"><span class="pre">Individual</span></code> type has been renamed to <code class="docutils literal"><span class="pre">Individual</span> <span class="pre">Polygon</span></code> type and <code class="docutils literal"><span class="pre">Vertex</span> <span class="pre">Normal</span></code> type has been added.</p>
+</div>
+<dl class="docutils">
+<dt>Continuous</dt>
+<dd>If off, the boundary edges between the existing side polygons and the new side polygons will be left.</dd>
+<dt>One Step Size</dt>
+<dd>The size of one step push/pull. This size are set from the grid snap size as default.</dd>
+<dt>One Step Push</dt>
+<dd>Extrudes the selected polygons back by the one step size.</dd>
+<dt>One Step Pull</dt>
+<dd>Extrudes the selected polygons forward by the one step size.</dd>
+</dl>
+<div class="figure" id="id1">
+<a class="reference internal image-reference" href="../_images/UModeler_MultiPushPullTool.gif"><img alt="../_images/UModeler_MultiPushPullTool.gif" src="../_images/UModeler_MultiPushPullTool.gif" style="width: 760.0px; height: 491.15px;" /></a>
+<p class="caption"><span class="caption-text">Multi PushPull Tool Demo.</span></p>
+</div>
+<div class="figure" id="id2">
+<span id="vertexnormalpushpull"></span><a class="reference internal image-reference" href="../_images/UModeler_MultiplePushPull_3types.gif"><img alt="../_images/UModeler_MultiplePushPull_3types.gif" src="../_images/UModeler_MultiplePushPull_3types.gif" style="width: 760.0px; height: 482.59999999999997px;" /></a>
+<p class="caption"><span class="caption-text">3 types of Multi PushPull action - <code class="docutils literal"><span class="pre">Individual</span> <span class="pre">Polygon</span></code>, <code class="docutils literal"><span class="pre">Vertex</span> <span class="pre">Normal</span></code> and <code class="docutils literal"><span class="pre">Average</span> <span class="pre">Normal</span></code></span></p>
+</div>
+<div class="figure" id="id3">
+<span id="onesteppushpull"></span><a class="reference internal image-reference" href="../_images/UModeler_MultiPushPull_Onestepextrusion.gif"><img alt="../_images/UModeler_MultiPushPull_Onestepextrusion.gif" src="../_images/UModeler_MultiPushPull_Onestepextrusion.gif" style="width: 760.0px; height: 482.59999999999997px;" /></a>
+<p class="caption"><span class="caption-text">One Step Push/Pull.</span></p>
+</div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="InsetTool.html" class="btn btn-neutral float-right" title="Inset Tool" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="PushPullTool.html" class="btn btn-neutral" title="PushPull Tool" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, Tripolygon.
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
