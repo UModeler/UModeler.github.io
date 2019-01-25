@@ -19,18 +19,19 @@
     :maxdepth: 1
    
     overview
-    tutorialvideos
+    gettingstarted
     settings
     menu
     transformtools
-    SelectionGroup/index
-    DrawingGroup/index
-    PrimitiveShapesGroup/index
-    AddGroup/index
-    RemoveGroup/index
-    TweakGroup/index
-    SurfaceGroup/index
-    MiscGroup/index
+    selectiontools
+    drawingtools
+    primitiveshapetools
+    pushpulltools
+    addtools
+    removetools
+    tweaktools
+    surfacetools
+    misctools
     UVEditor/index
     releasenotes
 
@@ -56,7 +57,7 @@ Sections
 			
       .. container:: descr
 
-         :doc:`tutorialvideos`
+         :doc:`gettingstarted`
             descriptions and videos for beginners.
 			
       .. container:: descr
@@ -76,42 +77,47 @@ Sections
 
       .. container:: descr
 
-         :doc:`SelectionGroup/index`
+         :doc:`selectiontools`
 			The various supported tools to help you select many elements at once as you want
 
       .. container:: descr
 
-         :doc:`DrawingGroup/index`
+         :doc:`drawingtools`
             2D polygons drawing tools in easy and intuive ways.
 
       .. container:: descr
 
-         :doc:`PrimitiveShapesGroup/index`
+         :doc:`primitiveshapetools`
             Procecural 3D Primitive Shapes, such as Box, Room, Stair, Cylinder, Cone, Sphere and Capsule.
+
+      .. container:: descr
+
+         :doc:`pushpulltools`
+			Push/Pull tools' category is ``Add`` but they have lots of powerful functions so are dealt with separately.
 			
       .. container:: descr
 
-         :doc:`AddGroup/index`
+         :doc:`addtools`
 			Various and Powerful ways of adding elements to a shape.
 
       .. container:: descr
 
-         :doc:`RemoveGroup/index`
+         :doc:`removetools`
 			Easy and Convinent ways of removing elements from a shape.
 
       .. container:: descr
 
-         :doc:`TweakGroup/index`
+         :doc:`tweaktools`
 			Making a small change in a shape.
 
       .. container:: descr
 
-         :doc:`SurfaceGroup/index`
+         :doc:`surfacetools`
             Tools for decorating surfaces of a shape by assigning Materials, UVs, Colors and Smoothing group IDs etc to each vertex or polygon.
 
       .. container:: descr
 
-         :doc:`MiscGroup/index`
+         :doc:`misctools`
             Miscellaneous Tools.
 
       .. container:: descr

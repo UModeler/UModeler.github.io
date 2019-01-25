@@ -88,18 +88,19 @@
             
                 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
-<li class="toctree-l1"><a class="reference internal" href="tutorialvideos.html">Tutorial Videos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gettingstarted.html">Tutorial Videos</a></li>
 <li class="toctree-l1"><a class="reference internal" href="settings.html">Toolbar, Settings and Preference</a></li>
 <li class="toctree-l1"><a class="reference internal" href="menu.html">Menu</a></li>
 <li class="toctree-l1"><a class="reference internal" href="transformtools.html">Elements Group</a></li>
-<li class="toctree-l1"><a class="reference internal" href="SelectionGroup/index.html">Selection Group</a></li>
-<li class="toctree-l1"><a class="reference internal" href="DrawingGroup/index.html">Drawing Group</a></li>
-<li class="toctree-l1"><a class="reference internal" href="PrimitiveShapesGroup/index.html">Primitive Shapes Group</a></li>
-<li class="toctree-l1"><a class="reference internal" href="AddGroup/index.html">Add Group</a></li>
-<li class="toctree-l1"><a class="reference internal" href="RemoveGroup/index.html">Remove Group</a></li>
-<li class="toctree-l1"><a class="reference internal" href="TweakGroup/index.html">Tweak Group</a></li>
-<li class="toctree-l1"><a class="reference internal" href="SurfaceGroup/index.html">Surface Group</a></li>
-<li class="toctree-l1"><a class="reference internal" href="MiscGroup/index.html">Misc Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="selectiontools.html">Selection Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="drawingtools.html">Drawing Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="primitiveshapetools.html">Primitive Shapes Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pushpulltools.html">Push/Pull Tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="addtools.html">Add Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="removetools.html">Remove Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tweaktools.html">Tweak Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="surfacetools.html">Surface Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="misctools.html">Misc Group</a></li>
 <li class="toctree-l1"><a class="reference internal" href="UVEditor/index.html">UV Editor</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="releasenotes.html">Release Notes</a><ul class="current">
 <li class="toctree-l2 current"><a class="current reference internal" href="#">UModeler 2.0</a><ul>
@@ -271,10 +272,10 @@
 <div><ul class="simple">
 <li>Change : Replaced <code class="docutils literal"><span class="pre">Tools</span></code> and <code class="docutils literal"><span class="pre">Settings</span></code> foldout arrows with Toolbar UI in the inspector.</li>
 <li>Change : Changed <code class="docutils literal"><span class="pre">Transform</span></code> group name into <code class="docutils literal"><span class="pre">Elements</span></code>.</li>
-<li>Change : Moved <code class="docutils literal"><span class="pre">Pivot</span> <span class="pre">Tool</span></code> from <code class="docutils literal"><span class="pre">Transform</span> <span class="pre">group</span></code> to <code class="docutils literal"><span class="pre">Tweak</span> <span class="pre">group</span></code>.</li>
+<li>Change : Moved <code class="docutils literal"><span class="pre">Pivot</span> <span class="pre">Tool</span></code> from <code class="docutils literal"><span class="pre">Transform</span> <span class="pre">group</span></code> to <code class="docutils literal"><span class="pre">Tweak</span> <span class="pre">group</span></code>.  (See <a class="reference internal" href="tweaktools.html#pivottool"><span class="std std-ref">this</span></a>)</li>
 <li>Change : Disabled the Local Ruler display of the selected elements.</li>
-<li>Change : <code class="docutils literal"><span class="pre">Snap</span> <span class="pre">Tool</span></code> has been renamed to <code class="docutils literal"><span class="pre">Snap</span> <span class="pre">Move</span> <span class="pre">Tool</span></code> and moved from <code class="docutils literal"><span class="pre">Transform</span> <span class="pre">grooup</span></code> to <code class="docutils literal"><span class="pre">Tweak</span> <span class="pre">group</span></code>.</li>
-<li>Change : <code class="docutils literal"><span class="pre">3D</span> <span class="pre">Cursor</span> <span class="pre">Tool</span></code> has been removed. Instead 3D cursor can be enabled via Settings and it can be positioned anytime.</li>
+<li>Change : <code class="docutils literal"><span class="pre">Snap</span> <span class="pre">Tool</span></code> has been renamed to <code class="docutils literal"><span class="pre">Snap</span> <span class="pre">Move</span> <span class="pre">Tool</span></code> and moved from <code class="docutils literal"><span class="pre">Transform</span> <span class="pre">grooup</span></code> to <code class="docutils literal"><span class="pre">Tweak</span> <span class="pre">group</span></code>. (See <a class="reference internal" href="tweaktools.html#snapmovetool"><span class="std std-ref">this</span></a>)</li>
+<li>Change : <code class="docutils literal"><span class="pre">3D</span> <span class="pre">Cursor</span> <span class="pre">Tool</span></code> has been removed. Instead 3D cursor can be enabled via Settings and it can be positioned anytime. (See <span class="xref std std-ref">this</span>)</li>
 <li>Change : Removed <code class="docutils literal"><span class="pre">Cursor</span> <span class="pre">As</span> <span class="pre">Pivot</span></code> property in <code class="docutils literal"><span class="pre">Vertex/Edge/Polygon</span> <span class="pre">Tools</span></code>. Instead just enabling <code class="docutils literal"><span class="pre">3D</span> <span class="pre">Cursor</span></code> in <code class="docutils literal"><span class="pre">Settings</span></code> does it.</li>
 <li>Change : <code class="docutils literal"><span class="pre">Help</span></code> button has been replaced with <code class="docutils literal"><span class="pre">?</span></code> button in the inspector.</li>
 <li>Change : Renamed <code class="docutils literal"><span class="pre">Invert</span> <span class="pre">Face</span> <span class="pre">Tool</span></code> into <code class="docutils literal"><span class="pre">Flip</span> <span class="pre">Tool</span></code>.</li>
@@ -336,11 +337,11 @@
 <h2>Version 2.1.1<a class="headerlink" href="#version-2-1-1" title="Permalink to this headline">¶</a></h2>
 <blockquote>
 <div><ul class="simple">
-<li>Feature : Edge/Polygon Tranform - Added Extrusion fuctions holding <code class="docutils literal"><span class="pre">SHIFT</span></code>.</li>
+<li>Feature : Edge/Polygon Tranform - Added Extrusion fuctions holding <code class="docutils literal"><span class="pre">SHIFT</span></code>. (See <a class="reference internal" href="transformtools.html#basicextrusionintransform"><span class="std std-ref">this</span></a>)</li>
 <li>Enhancement : Vertex/Edge/Polygon Selection - Added <code class="docutils literal"><span class="pre">Select</span> <span class="pre">only</span> <span class="pre">visible</span></code> property to selects non occluded elements from a camera. (See <a class="reference internal" href="transformtools.html#selectonlyvisibleintransform"><span class="std std-ref">this</span></a>)</li>
 <li>Enhancement : Multi PushPull - Changed a helper line to an arrow.</li>
-<li>Enhancement : Multi PushPull - Added One step push/pull. (See <a class="reference internal" href="AddGroup/MultiPushPullTool.html#onesteppushpull"><span class="std std-ref">this</span></a>)</li>
-<li>Enhancement : Multi PushPull - Added Vertex Normal type extrusion. (See <a class="reference internal" href="AddGroup/MultiPushPullTool.html#vertexnormalpushpull"><span class="std std-ref">this</span></a>)</li>
+<li>Enhancement : Multi PushPull - Added One step push/pull. (See <a class="reference internal" href="pushpulltools.html#onesteppushpull"><span class="std std-ref">this</span></a>)</li>
+<li>Enhancement : Multi PushPull - Added Vertex Normal type extrusion. (See <a class="reference internal" href="pushpulltools.html#vertexnormalpushpull"><span class="std std-ref">this</span></a>)</li>
 <li>Change : Multip PushPull - <code class="docutils literal"><span class="pre">Individual</span></code> in PushPull type has been renamed to <code class="docutils literal"><span class="pre">Individual</span> <span class="pre">Polygon</span></code></li>
 <li>Change : Removed <code class="docutils literal"><span class="pre">Game</span> <span class="pre">Object</span></code> tool and Renamed <code class="docutils literal"><span class="pre">Collider</span> <span class="pre">Object</span></code> to <code class="docutils literal"><span class="pre">New</span> <span class="pre">UModecler</span></code> in Misc group.</li>
 <li>Feature : UVTool - Added <code class="docutils literal"><span class="pre">Export</span></code> tool to export uv outlines to .png file. (See <a class="reference internal" href="UVEditor/misc.html#exportuvoutline"><span class="std std-ref">this</span></a>)</li>
@@ -377,7 +378,7 @@
 <img alt="_images/UModeler_ProSkin.png" src="_images/UModeler_ProSkin.png" />
 </div>
 <ul class="simple">
-<li>Feature : Added a new tool - Polygon Group Tool.</li>
+<li>Feature : Added a new tool - Polygon Group Tool. (See <a class="reference internal" href="misctools.html#polygongrouptool"><span class="std std-ref">this</span></a>)</li>
 <li>Fix : Some incorrect colors on Pro skin.</li>
 </ul>
 </div></blockquote>
@@ -391,7 +392,7 @@
 <li>Feature : Added Color settings in Preferences. (See <a class="reference internal" href="settings.html#advancedpreferences"><span class="std std-ref">this</span></a>)</li>
 <li>Enhancement : Shortcut Settings in Preferences - Modifiers&#8217; list box has been replaced with 3 toggle boxes (<code class="docutils literal"><span class="pre">Shfit</span></code>, <code class="docutils literal"><span class="pre">Ctrl</span></code> and <code class="docutils literal"><span class="pre">Alt</span></code>) (See <a class="reference internal" href="settings.html#advancedpreferences"><span class="std std-ref">this</span></a>)</li>
 <li>Documentation : 3D Cursor Tool.</li>
-<li>Documentation : Pivot Tool</li>
+<li>Documentation : Pivot Tool (See <a class="reference internal" href="tweaktools.html#pivottool"><span class="std std-ref">this</span></a>)</li>
 <li>Documentation : Snap Tool</li>
 <li>Fix : Material Tool - Added codes to deal with null material.</li>
 <li>Fix : Error of invalid selected polygon display.</li>
@@ -402,10 +403,10 @@
 <h2>Version 2.0.6<a class="headerlink" href="#version-2-0-6" title="Permalink to this headline">¶</a></h2>
 <blockquote>
 <div><ul class="simple">
-<li>Feature : New snapping - Snap to X-axis or Y-axis of the current placed points. This makes drawing a rectangle and a right angle triangle etc possible using <code class="docutils literal"><span class="pre">Line</span> <span class="pre">Tool</span></code> (See <a class="reference internal" href="DrawingGroup/linetool.html#snaptoxy"><span class="std std-ref">this</span></a>)</li>
+<li>Feature : New snapping - Snap to X-axis or Y-axis of the current placed points. This makes drawing a rectangle and a right angle triangle etc possible using <code class="docutils literal"><span class="pre">Line</span> <span class="pre">Tool</span></code> (See <a class="reference internal" href="drawingtools.html#snaptoxy"><span class="std std-ref">this</span></a>)</li>
 <li>Feature : Seamless Editing - UModeler objects in a scene can be edited seamlessly. (See <a class="reference internal" href="settings.html#seamless-edit"><span class="std std-ref">this</span></a>)</li>
 <li>Enhancement : Edge display - Disabled showing invisible parts&#8217; edges.</li>
-<li>Fix : Added recalculating tangents (See <a class="reference internal" href="MiscGroup/LocalSettingsTool.html#recalculate-tangents"><span class="std std-ref">this</span></a>)</li>
+<li>Fix : Added recalculating tangents (See <a class="reference internal" href="misctools.html#recalculate-tangents"><span class="std std-ref">this</span></a>)</li>
 <li>Fix : Z-fighting of the polygon selection mesh.</li>
 </ul>
 </div></blockquote>
@@ -460,7 +461,7 @@
 <li><code class="docutils literal"><span class="pre">Vertex/Edge/Polygon</span> <span class="pre">Tool</span></code> - 1D Snapping has been added. It works by moving a cursor to another vertex holding <code class="docutils literal"><span class="pre">CTRL</span></code> while dragging the translation gizmo.</li>
 <li><code class="docutils literal"><span class="pre">Vertex/Edge/Polygon</span> <span class="pre">Tool</span></code> - <code class="docutils literal"><span class="pre">Insert</span> <span class="pre">Vertex</span></code> property has been added.</li>
 <li>Change - <code class="docutils literal"><span class="pre">PushPull</span> <span class="pre">Tool</span></code> : Renamed <code class="docutils literal"><span class="pre">Draw</span> <span class="pre">Edges</span></code> property to <code class="docutils literal"><span class="pre">Continuous</span></code>.</li>
-<li>Change - <code class="docutils literal"><span class="pre">Multiple</span> <span class="pre">PushPull</span></code> button has been added.</li>
+<li>Change - <code class="docutils literal"><span class="pre">Multiple</span> <span class="pre">PushPull</span></code> button has been added. see <a class="reference internal" href="pushpulltools.html#pushpull-tool-label"><span class="std std-ref">Push/Pull Tools</span></a></li>
 <li>Change - <code class="docutils literal"><span class="pre">Cut</span> <span class="pre">Tool</span></code> : Made Cutting direction flipped by pressing <code class="docutils literal"><span class="pre">SPACE</span></code> while <code class="docutils literal"><span class="pre">LMB</span></code> Dragging</li>
 <li>Change - <code class="docutils literal"><span class="pre">Backface</span> <span class="pre">Tool</span></code> : Renamed to <code class="docutils literal"><span class="pre">Local</span> <span class="pre">Settings</span></code></li>
 <li>Change - <code class="docutils literal"><span class="pre">Copy</span> <span class="pre">Tool</span></code> : Renamed to <code class="docutils literal"><span class="pre">Duplicate</span> <span class="pre">Tool</span></code></li>

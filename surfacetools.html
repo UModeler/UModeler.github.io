@@ -1,0 +1,549 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Surface Group &mdash; UModeler 2.0 Manual  documentation</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="_static/logo_fav_transparent_background.png"/>
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="genindex.html"/>
+        <link rel="search" title="Search" href="search.html"/>
+    <link rel="top" title="UModeler 2.0 Manual  documentation" href="index.html"/>
+        <link rel="next" title="Misc Group" href="misctools.html"/>
+        <link rel="prev" title="Tweak Group" href="tweaktools.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> UModeler 2.0 Manual
+          
+
+          
+            
+            <img src="_static/UModeler_Logo_small.png" class="logo" />
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gettingstarted.html">Tutorial Videos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="settings.html">Toolbar, Settings and Preference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="menu.html">Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="transformtools.html">Elements Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="selectiontools.html">Selection Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="drawingtools.html">Drawing Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="primitiveshapetools.html">Primitive Shapes Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pushpulltools.html">Push/Pull Tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="addtools.html">Add Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="removetools.html">Remove Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tweaktools.html">Tweak Group</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Surface Group</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#material-tool">Material Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#steps">Steps</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#interface">Interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#properties">Properties</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#uv-tool">UV Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id1">Steps</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id2">Interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id3">Properties</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#open-uveditor">Open UVEditor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#vertex-color-tool">Vertex Color Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#steps-1">Steps - 1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#steps-2">Steps - 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id4">Interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id5">Properties</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#polygon-color-tool">Polygon Color Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id6">Steps</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id7">Interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id8">Properties</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#smoothing-group-tool">Smoothing Group Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id9">Steps</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#steps-auto-smooth">Steps - Auto Smooth</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id10">Properties</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="misctools.html">Misc Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="UVEditor/index.html">UV Editor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="releasenotes.html">Release Notes</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">UModeler 2.0 Manual</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+ 
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+    <li>Surface Group</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/surfacetools.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="surface-group">
+<h1>Surface Group<a class="headerlink" href="#surface-group" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="material-tool">
+<h2>Material Tool<a class="headerlink" href="#material-tool" title="Permalink to this headline">¶</a></h2>
+<p>Adds and assigns materials to the polygons.</p>
+<div class="section" id="steps">
+<h3>Steps<a class="headerlink" href="#steps" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Select <code class="docutils literal"><span class="pre">Material</span> <span class="pre">Tool</span></code>.</li>
+<li>Select polygons where you want to assign a material if no polygon is selected.</li>
+<li>If <code class="docutils literal"><span class="pre">Materials</span></code> doesn’t have a material you want, add a new material by clicking <code class="docutils literal"><span class="pre">Add</span> <span class="pre">Material</span></code> button to open the material box and select one.</li>
+<li>Click <code class="docutils literal"><span class="pre">LMB</span></code> holding <code class="docutils literal"><span class="pre">SHIFT</span></code> over a polygon to which you want to assign the current material.</li>
+</ol>
+</div>
+<div class="section" id="interface">
+<h3>Interface<a class="headerlink" href="#interface" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt>LMB</dt>
+<dd>Selects a polygon.</dd>
+<dt>SHIFT + LMB</dt>
+<dd>Assigns Mat ID to a polygon where the mouse cursor points.</dd>
+<dt>LMB Drag</dt>
+<dd>Selects polygons in a rectangle drawn by dragging.</dd>
+</dl>
+</div>
+<div class="section" id="properties">
+<h3>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt>Select Only Visible</dt>
+<dd>If on, Selects only visible vertices/edges/polygons from a camera. Occluded elements from other polygons will not be selected. This is available only when the game object has MeshCollider component.</dd>
+<dt>Apply</dt>
+<dd>Assigns the Mat ID to the selected polygons.</dd>
+<dt>Select</dt>
+<dd>Selects polygons having the Mat ID.</dd>
+<dt>Add Material</dt>
+<dd>Adds a new material to the Material array below.</dd>
+<dt>Remove Material</dt>
+<dd>Removes a material.</dd>
+<dt>Materials</dt>
+<dd>Material array</dd>
+</dl>
+<div class="figure" id="id11">
+<a class="reference internal image-reference" href="_images/UModeler_MaterialTool.gif"><img alt="_images/UModeler_MaterialTool.gif" src="_images/UModeler_MaterialTool.gif" style="width: 720.0px; height: 402.3px;" /></a>
+<p class="caption"><span class="caption-text">Material Tool Demo</span></p>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="uv-tool">
+<h2>UV Tool<a class="headerlink" href="#uv-tool" title="Permalink to this headline">¶</a></h2>
+<p>Sets UV parameters such as <code class="docutils literal"><span class="pre">Shift</span></code>, <code class="docutils literal"><span class="pre">Scale</span></code> and <code class="docutils literal"><span class="pre">Rotation</span></code> etc to each polygon.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">UV Tool doesn&#8217;t affect unwrapped polygons.</p>
+</div>
+<div class="section" id="id1">
+<h3>Steps<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Select <code class="docutils literal"><span class="pre">UV</span> <span class="pre">Tool</span></code>.</li>
+<li>Select polygons like you did in Polygon tool if no polygon is selected.</li>
+<li>Adjust <code class="docutils literal"><span class="pre">Shift</span></code>, <code class="docutils literal"><span class="pre">Scale</span></code> and <code class="docutils literal"><span class="pre">Rotation</span></code> properties in Properties.</li>
+</ol>
+</div>
+<div class="section" id="id2">
+<h3>Interface<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt><code class="docutils literal"><span class="pre">CTRL</span></code> + <code class="docutils literal"><span class="pre">UP</span> <span class="pre">ARROW</span></code></dt>
+<dd>Moves the UVs of the selected polygons up.</dd>
+<dt><code class="docutils literal"><span class="pre">CTRL</span></code> + <code class="docutils literal"><span class="pre">DOWN</span> <span class="pre">ARROW</span></code></dt>
+<dd>Moves the UVs of the selected polygons down.</dd>
+</dl>
+</div>
+<div class="section" id="id3">
+<h3>Properties<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt>Select Only Visible</dt>
+<dd>If on, Selects only visible vertices/edges/polygons from a camera. Occluded elements from other polygons will not be selected. This is available only when the game object has MeshCollider component.</dd>
+<dt>Mode</dt>
+<dd><ul class="first last simple">
+<li><code class="docutils literal"><span class="pre">Absolute</span></code> : The properties are set to the selected polygons directly</li>
+<li><code class="docutils literal"><span class="pre">Relative</span></code> : The properties are added to the selected polygons.</li>
+</ul>
+</dd>
+<dt>Shift</dt>
+<dd>Shift of UVs</dd>
+<dt>Scale</dt>
+<dd>Scale of UVs</dd>
+<dt>Rotation</dt>
+<dd>Rotation of UVs</dd>
+<dt>Tiling</dt>
+<dd><ul class="first last simple">
+<li><code class="docutils literal"><span class="pre">X</span></code> : Changes texture tiling on selected surfaces in the X direction.</li>
+<li><code class="docutils literal"><span class="pre">Y</span></code> : Changes texture tiling on selected surfaces in the Y direction.</li>
+</ul>
+</dd>
+<dt>Fix UVs according to Tiling</dt>
+<dd>Based on Tiling properties the UVs of the selected polygons are fixed.
+The bigger Tiling properties are, the denser texture tiling is.</dd>
+</dl>
+<dl class="docutils">
+<dt>Open UVEditor</dt>
+<dd>Opens UV Editor window.</dd>
+<dt>Reset UVs</dt>
+<dd>Resets UV parameters of the selected polygons.</dd>
+</dl>
+<div class="figure" id="id12">
+<a class="reference internal image-reference" href="_images/UModeler_UVTool_v2.gif"><img alt="_images/UModeler_UVTool_v2.gif" src="_images/UModeler_UVTool_v2.gif" style="width: 720.0px; height: 401.40000000000003px;" /></a>
+<p class="caption"><span class="caption-text">UV Tool Demo.</span></p>
+</div>
+<div class="figure" id="id13">
+<a class="reference internal image-reference" href="_images/UModeler_UVTool_ShiftingUVByPressingKeys.gif"><img alt="_images/UModeler_UVTool_ShiftingUVByPressingKeys.gif" src="_images/UModeler_UVTool_ShiftingUVByPressingKeys.gif" style="width: 576.0px; height: 371.7px;" /></a>
+<p class="caption"><span class="caption-text">Moving the UVs of the selected elements up and down by pressing <code class="docutils literal"><span class="pre">UP</span></code> or <code class="docutils literal"><span class="pre">DOWN</span></code> arrows.</span></p>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="open-uveditor">
+<h2>Open UVEditor<a class="headerlink" href="#open-uveditor" title="Permalink to this headline">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Since version 2.2 <code class="docutils literal"><span class="pre">Open</span> <span class="pre">UVEditor</span></code> button has been moved into <code class="docutils literal"><span class="pre">UV</span> <span class="pre">Tool</span></code>.
+Click <a class="reference internal" href="#openuveditor"><span class="std std-ref">this</span></a> to move to the description.</p>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="vertex-color-tool">
+<h2>Vertex Color Tool<a class="headerlink" href="#vertex-color-tool" title="Permalink to this headline">¶</a></h2>
+<p>Sets colors to the Vertices. Pressing or Dragging <code class="docutils literal"><span class="pre">LMB</span></code> holding <code class="docutils literal"><span class="pre">SHIFT</span></code> will paint a polygon below the mouse cursor in the selected color.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<div class="last line-block">
+<div class="line">A material with a shader supporting Vertex Color should be set to assign colors with Material Tool. Recommended materials for assigning colors(VC - Vertex Color) are as follows.</div>
+<div class="line-block">
+<div class="line">• UModelerPro_OnlyVC</div>
+<div class="line">• UModelerBasic_OnlyVC</div>
+</div>
+</div>
+</div>
+<div class="section" id="steps-1">
+<h3>Steps - 1<a class="headerlink" href="#steps-1" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Go to <code class="docutils literal"><span class="pre">Vertex</span> <span class="pre">Color</span> <span class="pre">Tool</span></code></li>
+<li>Select Vertices like you did in <code class="docutils literal"><span class="pre">Vertex</span> <span class="pre">Tool</span></code> if no vertex is selected.</li>
+<li>Click <code class="docutils literal"><span class="pre">LMB</span></code> on Color bar in Properties</li>
+<li>Choose a color which you want.</li>
+</ol>
+</div>
+<div class="section" id="steps-2">
+<h3>Steps - 2<a class="headerlink" href="#steps-2" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Go to <code class="docutils literal"><span class="pre">Vertex</span> <span class="pre">Color</span> <span class="pre">Tool</span></code></li>
+<li>Drag a mouse holding <code class="docutils literal"><span class="pre">SHIFT</span></code></li>
+</ol>
+</div>
+<div class="section" id="id4">
+<h3>Interface<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt><code class="docutils literal"><span class="pre">LMB</span></code></dt>
+<dd>Selects a vertex and pick a color of the color.</dd>
+<dt><code class="docutils literal"><span class="pre">Shift</span></code></dt>
+<dd>Makes the sphere brush visible.</dd>
+<dt><code class="docutils literal"><span class="pre">SHIFT</span> <span class="pre">+</span> <span class="pre">LMB</span></code></dt>
+<dd>Assigns the color in Color bar in Properties to vertices within the sphere brush.</dd>
+<dt><code class="docutils literal"><span class="pre">SHIFT</span> <span class="pre">+</span> <span class="pre">Scroll</span> <span class="pre">Wheel</span></code></dt>
+<dd>Increases the size of the brush.</dd>
+<dt><code class="docutils literal"><span class="pre">LMB</span> <span class="pre">Drag</span></code></dt>
+<dd>Selects several vertices in a rectangle.</dd>
+</dl>
+</div>
+<div class="section" id="id5">
+<h3>Properties<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt>Select Only Visible</dt>
+<dd>If on, Selects only visible vertices/edges/polygons from a camera. Occluded elements from other polygons will not be selected. This is available only when the game object has MeshCollider component.</dd>
+<dt>Color</dt>
+<dd>Color which will be assigned to the selected vertices.</dd>
+<dt>Brush Radius</dt>
+<dd>The sphere brush radius</dd>
+<dt>Select Vertices</dt>
+<dd>Selects vertices with the color in <code class="docutils literal"><span class="pre">Color</span></code> property.</dd>
+</dl>
+<div class="figure" id="id14">
+<a class="reference internal image-reference" href="_images/UModeler_VertexColorTool.gif"><img alt="_images/UModeler_VertexColorTool.gif" src="_images/UModeler_VertexColorTool.gif" style="width: 760.0px; height: 485.45px;" /></a>
+<p class="caption"><span class="caption-text">Vertex Color Tool Demo</span></p>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="polygon-color-tool">
+<h2>Polygon Color Tool<a class="headerlink" href="#polygon-color-tool" title="Permalink to this headline">¶</a></h2>
+<p>(Formerly called as <cite>Color Tool</cite>)</p>
+<p>Sets colors to the polygons. Pressing or Dragging <code class="docutils literal"><span class="pre">LMB</span></code> holding <code class="docutils literal"><span class="pre">SHIFT</span></code> will paint a polygon below the mouse cursor in the selected color.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<div class="last line-block">
+<div class="line">A material with a shader supporting Vertex Color should be set to assign colors with Material Tool. Recommended materials for assigning colors(VC - Vertex Color) are as follows.</div>
+<div class="line-block">
+<div class="line">• UModelerPro_OnlyVC</div>
+<div class="line">• UModelerBasic_OnlyVC</div>
+</div>
+</div>
+</div>
+<div class="section" id="id6">
+<h3>Steps<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Go to <code class="docutils literal"><span class="pre">Polygon</span> <span class="pre">Color</span> <span class="pre">Tool</span></code></li>
+<li>Select polygons like you did in <code class="docutils literal"><span class="pre">Polygon</span> <span class="pre">Tool</span></code> if no polygon is selected.</li>
+<li>Click <code class="docutils literal"><span class="pre">LMB</span></code> on Color bar in Properties</li>
+<li>Choose a color which you want.</li>
+</ol>
+</div>
+<div class="section" id="id7">
+<h3>Interface<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt>LMB</dt>
+<dd>Selects a polygon and pick a color of the color.</dd>
+<dt>SHIFT + LMB</dt>
+<dd>Assigns the color in Color bar in Properties to a polygon where the mouse cursor point.</dd>
+<dt>LMB Drag</dt>
+<dd>Selects several polygons in a rectangle.</dd>
+</dl>
+</div>
+<div class="section" id="id8">
+<h3>Properties<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt>Select Only Visible</dt>
+<dd>Selects only visible vertices/edges/polygons from a camera. Occluded elements from other polygons will not be selected. This is available only when the game object has MeshCollider component.</dd>
+<dt>Color</dt>
+<dd>Color which will be assigned to the selected polygons.</dd>
+<dt>Select Polygons</dt>
+<dd>Selects polygons with the color in <code class="docutils literal"><span class="pre">Color</span></code> property.</dd>
+</dl>
+<div class="figure" id="id15">
+<a class="reference internal image-reference" href="_images/UModeler_ColorTool_v2.gif"><img alt="_images/UModeler_ColorTool_v2.gif" src="_images/UModeler_ColorTool_v2.gif" style="width: 760.0px; height: 467.4px;" /></a>
+<p class="caption"><span class="caption-text">Polygon Color Tool Demo</span></p>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="smoothing-group-tool">
+<h2>Smoothing Group Tool<a class="headerlink" href="#smoothing-group-tool" title="Permalink to this headline">¶</a></h2>
+<p>Manages smoothing groups for smooth shading.</p>
+<div class="section" id="id9">
+<h3>Steps<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Select Smoothing Group tool.</li>
+<li>Select polygons with which you want to make a new smoothing group.</li>
+<li>Type a smoothing group name in Group Name in Properties.</li>
+<li>Click on <code class="docutils literal"><span class="pre">Add</span></code> Group button in Properties to add a new smoothing group.</li>
+<li>Make sure that the new smoothing group with the name in Group Name property will be created.</li>
+</ol>
+</div>
+<div class="section" id="steps-auto-smooth">
+<h3>Steps - Auto Smooth<a class="headerlink" href="#steps-auto-smooth" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Select Smoothing Group tool.</li>
+<li>Select polygons you want to include for Auto Smooth.</li>
+<li>Fill <code class="docutils literal"><span class="pre">Angle</span></code> property out with the specific angle.</li>
+<li>Click on <code class="docutils literal"><span class="pre">Auto</span> <span class="pre">Smooth</span></code> button</li>
+</ol>
+</div>
+<div class="section" id="id10">
+<h3>Properties<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt>Select Only Visible</dt>
+<dd>Selects only visible vertices/edges/polygons from a camera. Occluded elements from other polygons will not be selected. This is available only when the game object has MeshCollider component.</dd>
+<dt>Group Name</dt>
+<dd>The current smoothing group name</dd>
+<dt>Polygon Count</dt>
+<dd>The polygon count in the current smoothing group.</dd>
+<dt>Angle</dt>
+<dd>The threshold angle for <code class="docutils literal"><span class="pre">Auto</span> <span class="pre">Smooth</span></code>.</dd>
+<dt>Add Group</dt>
+<dd>Adds a new smoothing group from the current selected polygons.</dd>
+<dt>Remove Group</dt>
+<dd>Removes the current smoothing group.</dd>
+<dt>Rename Group</dt>
+<dd>Renames the current smoothing group.</dd>
+<dt>Remove Empty</dt>
+<dd>Removes smoothing groups which have no polygons.</dd>
+<dt>Select Polygons</dt>
+<dd>Selects polygons in the current smoothing group.</dd>
+<dt>Add Polygons</dt>
+<dd>Adds the selected polygons to the current smoothing group.</dd>
+<dt>Remove Polygons</dt>
+<dd>Gets rid of the selected polygons from the current smoothing group.</dd>
+<dt>Auto Smooth</dt>
+<dd><p class="first">Runs Auto Smooth from the selected polygons based on the value in <code class="docutils literal"><span class="pre">Angle</span></code> property.</p>
+<p class="last">Auto Smooth sets the smoothing groups based on the angle between faces. Any two adjacent faces are put in the same smoothing group if the angle between their normals is less than the value in <code class="docutils literal"><span class="pre">Angle</span></code> property.</p>
+</dd>
+</dl>
+<div class="figure" id="id16">
+<a class="reference internal image-reference" href="_images/UModeler_SmoothingGroupTool_v2.gif"><img alt="_images/UModeler_SmoothingGroupTool_v2.gif" src="_images/UModeler_SmoothingGroupTool_v2.gif" style="width: 760.0px; height: 467.4px;" /></a>
+<p class="caption"><span class="caption-text">Smoothing Group Tool Demo</span></p>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="misctools.html" class="btn btn-neutral float-right" title="Misc Group" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="tweaktools.html" class="btn btn-neutral" title="Tweak Group" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, Tripolygon.
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

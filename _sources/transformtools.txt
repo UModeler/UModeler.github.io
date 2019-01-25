@@ -82,3 +82,45 @@ Move To Cursor
 
 Insert Vertex
  Inserts a vertex to an adjacent edge to avoid T-junction.
+
+.. figure:: /images/UModeler_TransformTool_v2.gif
+   :scale: 95 %
+
+   Selecting and transforming elements.
+
+.. _basicextrusionintransform:
+
+.. figure:: /images/UModeler_BasicExtrusion_In_TransformTool.gif   
+   :scale: 95 %
+
+   Extruding polygons and edges by moving a gizmo holding ``SHIFT``.
+
+.. figure:: /images/UModeler_TransformHoldingShift_v2.gif
+   :scale: 95 %
+
+   Transforming elements holding ``SHIFT`` + ``CTRL``.
+
+.. figure:: /images/UModeler_TransformTool_SnapEdgeToPolygon.gif
+   :scale: 95 %
+
+   ``Snap To Polygon`` property Demo.
+
+.. figure:: /images/UModeler_VertexTool_1dSnapping.gif
+   :scale: 95 %
+
+   1D Snapping holding ``CTRL``
+
+.. figure:: /images/UModeler_TransformTool_InsertVertexProperty.gif
+   :scale: 95 %
+
+   ``Insert Vertex`` property demo.
+
+----------------------------------------------------------------------------------------------------------------------
+
+Object tool
+============
+
+.. figure:: /images/Icon_Elements_Object.png
+   :scale: 100 %
+   
+   Object mode. You can select and transform an object. It's same as the Unity object mode.
