@@ -1,0 +1,307 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Transform &mdash; UModeler 2.0 Manual  documentation</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="../../_static/logo_fav_transparent_background.png"/>
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../../genindex.html"/>
+        <link rel="search" title="Search" href="../../search.html"/>
+    <link rel="top" title="UModeler 2.0 Manual  documentation" href="../../index.html"/>
+        <link rel="up" title="UV Editor" href="index.html"/>
+        <link rel="next" title="Unwrap" href="unwrap.html"/>
+        <link rel="prev" title="Settings" href="uvsettings.html"/> 
+
+  
+  <script src="../../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> UModeler 2.0 Manual
+          
+
+          
+            
+            <img src="../../_static/UModeler_ManualTitle2.png" class="logo" />
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <ul>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Unity UModeler</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../../index.html">UModeler 2.0 Manual</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+ 
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../index.html">Docs</a> &raquo;</li>
+      
+          <li><a href="../index.html">Unity UModeler</a> &raquo;</li>
+      
+          <li><a href="index.html">UV Editor</a> &raquo;</li>
+      
+    <li>Transform</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/Unity/UVEditor/uvtransform.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="transform">
+<h1>Transform<a class="headerlink" href="#transform" title="Permalink to this headline">¶</a></h1>
+<blockquote>
+<div><div class="line-block">
+<div class="line">There are 4 types of elements you can select and transform.</div>
+<div class="line"><br /></div>
+<div class="line-block">
+<div class="line">• UV - A point. Two edges meet at one UV.</div>
+<div class="line">• Edge - Two connected UVs.</div>
+<div class="line">• Polygon - A flat closed shape which consists of n-UVs and n-edges</div>
+<div class="line">• Island - A set of polygons</div>
+<div class="line"><br /></div>
+</div>
+<div class="line">A way of selecting them is to click on each element or drag a mouse holding <code class="docutils literal"><span class="pre">LMB</span></code> to include elements in a rectangle. Holding <code class="docutils literal"><span class="pre">CTRL</span></code> enables you to select elements successively without canceling former selection.</div>
+<div class="line"><br /></div>
+<div class="line">The element type is determined by what tool among UV, Edge, Polygon and Island on the inspector is chosen.</div>
+<div class="line"><br /></div>
+</div>
+<blockquote>
+<div><div class="figure" id="id1">
+<img alt="images/UVEditor_Transform.png" src="images/UVEditor_Transform.png" />
+<p class="caption"><span class="caption-text">Element types which can be chosen on the inspector.</span></p>
+</div>
+</div></blockquote>
+<div class="line-block">
+<div class="line">Once several elements are selected, they can be transformed using 4 sorts of gizmos.</div>
+<div class="line">Each gizmo can be switched by clicking on a corresponding button on the top toolbar or pressing <code class="docutils literal"><span class="pre">W</span></code>, <code class="docutils literal"><span class="pre">E</span></code>, <code class="docutils literal"><span class="pre">R</span></code> or <code class="docutils literal"><span class="pre">T</span></code> like you do in Unity.</div>
+<div class="line">If you drag an element, the element will follow the mouse cursor.</div>
+<div class="line"><br /></div>
+</div>
+<blockquote>
+<div><div class="figure" id="id2">
+<a class="reference internal image-reference" href="images/UModeler_UVEditor_UV.gif"><img alt="images/UModeler_UVEditor_UV.gif" src="images/UModeler_UVEditor_UV.gif" /></a>
+<p class="caption"><span class="caption-text">Selecting and transfoming UVs</span></p>
+</div>
+</div></blockquote>
+</div></blockquote>
+<div class="section" id="pivot">
+<h2>Pivot<a class="headerlink" href="#pivot" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><div class="line-block">
+<div class="line">The default pivot position for rotating and scaling is the center of the selected elements. If you want to change the pivot location, use <code class="docutils literal"><span class="pre">Cross</span> <span class="pre">Cursor</span></code>, which can be enabled in <cite>Settings</cite> on the inspector. The location of the <code class="docutils literal"><span class="pre">Cross</span> <span class="pre">Cursor</span></code> will be the pivot when you transform elements while it is visible on the working area.</div>
+<div class="line"><br /></div>
+</div>
+<blockquote>
+<div><div class="figure" id="id3">
+<a class="reference internal image-reference" href="images/UModeler_UVEditor_UsingCrossCursor.gif"><img alt="images/UModeler_UVEditor_UsingCrossCursor.gif" src="images/UModeler_UVEditor_UsingCrossCursor.gif" /></a>
+<p class="caption"><span class="caption-text">Using <code class="docutils literal"><span class="pre">Cross</span> <span class="pre">Cursor</span></code> while scaling and rotatin</span></p>
+</div>
+</div></blockquote>
+</div></blockquote>
+</div>
+<div class="section" id="snap">
+<h2>Snap<a class="headerlink" href="#snap" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><div class="line-block">
+<div class="line">With <code class="docutils literal"><span class="pre">Snap</span></code> enabled you can move or rotate the selected elements by a specified unit. These <code class="docutils literal"><span class="pre">Snap</span></code> parameters can be set in <code class="docutils literal"><span class="pre">Settings</span></code> on the inspector.</div>
+<div class="line"><br /></div>
+</div>
+<blockquote>
+<div><div class="figure" id="id4">
+<a class="reference internal image-reference" href="images/UModeler_UVEditor_Snapping.gif"><img alt="images/UModeler_UVEditor_Snapping.gif" src="images/UModeler_UVEditor_Snapping.gif" /></a>
+<p class="caption"><span class="caption-text">Applying <cite>Snap</cite> to moving and rotating elements.</span></p>
+</div>
+</div></blockquote>
+</div></blockquote>
+</div>
+<div class="section" id="separate-transfoming">
+<h2>Separate Transfoming<a class="headerlink" href="#separate-transfoming" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><div class="line-block">
+<div class="line">Usually transforming polygons affects the adjacent polygons. It means that all Overlapped UVs will be transformed together. However holding <code class="docutils literal"><span class="pre">SHIFT</span></code> will make you transform elements separately. Even though several UVs occupied the same position, only one UV will be affected.</div>
+</div>
+<blockquote>
+<div><div class="figure" id="id5">
+<a class="reference internal image-reference" href="images/UModeler_UVEditor_NotHoldingShift.gif"><img alt="images/UModeler_UVEditor_NotHoldingShift.gif" src="images/UModeler_UVEditor_NotHoldingShift.gif" /></a>
+<p class="caption"><span class="caption-text">Transfoming elements not holding <code class="docutils literal"><span class="pre">SHIFT</span></code></span></p>
+</div>
+<div class="figure" id="id6">
+<a class="reference internal image-reference" href="images/UModeler_UVEditor_HoldingShift.gif"><img alt="images/UModeler_UVEditor_HoldingShift.gif" src="images/UModeler_UVEditor_HoldingShift.gif" /></a>
+<p class="caption"><span class="caption-text">Transfoming elements holding <code class="docutils literal"><span class="pre">SHIFT</span></code></span></p>
+</div>
+</div></blockquote>
+</div></blockquote>
+</div>
+<div class="section" id="overlapped-edge">
+<h2>Overlapped Edge<a class="headerlink" href="#overlapped-edge" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><div class="line-block">
+<div class="line">An edge in uv space can be overlapped the other edge in 3D space so it will be helpful to display the overlapped edges of the selected edges to make it easiser to edit UVs. Therefore The overlapped edges are displayed as green edges.</div>
+</div>
+<blockquote>
+<div><div class="figure" id="id7">
+<a class="reference internal image-reference" href="images/UModeler_UVEditor_SharedEdges.gif"><img alt="images/UModeler_UVEditor_SharedEdges.gif" src="images/UModeler_UVEditor_SharedEdges.gif" /></a>
+<p class="caption"><span class="caption-text">Overlapped edges are represented in green.</span></p>
+</div>
+</div></blockquote>
+</div></blockquote>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="unwrap.html" class="btn btn-neutral float-right" title="Unwrap" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="uvsettings.html" class="btn btn-neutral" title="Settings" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, Tripolygon.
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

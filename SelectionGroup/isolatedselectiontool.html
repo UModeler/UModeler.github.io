@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Isolated Selection Tool &mdash; UModeler 2.0 Manual  documentation</title>
+  <title>Isolated Selection Tool &mdash; Unity UModeler Manual  documentation</title>
   
 
   
@@ -35,7 +35,7 @@
         <link rel="index" title="Index"
               href="../genindex.html"/>
         <link rel="search" title="Search" href="../search.html"/>
-    <link rel="top" title="UModeler 2.0 Manual  documentation" href="../index.html"/>
+    <link rel="top" title="Unity UModeler Manual  documentation" href="../index.html"/>
         <link rel="up" title="Selection Group" href="index.html"/>
         <link rel="next" title="Loop Selection Tool" href="loopselectiontool.html"/>
         <link rel="prev" title="All/None Selection Tool" href="allnoneselectiontool.html"/> 
@@ -56,7 +56,7 @@
           
 
           
-            <a href="../index.html" class="icon icon-home"> UModeler 2.0 Manual
+            <a href="../index.html" class="icon icon-home"> Unity UModeler Manual
           
 
           
@@ -91,24 +91,23 @@
 <li class="toctree-l1"><a class="reference internal" href="../tutorialvideos.html">Tutorial Videos</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../settings.html">Toolbar, Settings and Preference</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../menu.html">Menu</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../transformtools.html">Elements Group</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="index.html">Selection Group</a><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Selection Group </a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="allnoneselectiontool.html">All/None Selection Tool</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Isolated Selection Tool</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#vertex-isolated-selection">Vertex Isolated Selection</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#edge-isolated-selection">Edge Isolated Selection</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#polygon-isloated-selection">Polygon Isloated Selection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#vertex-isolated-selection-icon-selection-isolatedselectvertex">Vertex Isolated Selection </a></li>
+<li class="toctree-l3"><a class="reference internal" href="#edge-isolated-selection-icon-selection-isolatedselectedge">Edge Isolated Selection </a></li>
+<li class="toctree-l3"><a class="reference internal" href="#polygon-isloated-selection-icon-selection-isolatedselectpolygon">Polygon Isloated Selection </a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="loopselectiontool.html">Loop Selection Tool</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ringselectiontool.html">Ring Selection Tool</a></li>
-<li class="toctree-l2"><a class="reference internal" href="invertselectiontool.html">Invert Selection Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="invertselectiontool.html">Invert Selection Tool   </a></li>
 <li class="toctree-l2"><a class="reference internal" href="increaseselectiontool.html">Increase Selection Tool</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../DrawingGroup/index.html">Drawing Group</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../PrimitiveShapesGroup/index.html">Primitive Shapes Group</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../AddGroup/index.html">Add Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../DrawingGroup/index.html">Drawing Group </a></li>
+<li class="toctree-l1"><a class="reference internal" href="../PrimitiveShapesGroup/index.html">Primitive Shapes Group </a></li>
+<li class="toctree-l1"><a class="reference internal" href="../AddGroup/index.html">Add Group </a></li>
 <li class="toctree-l1"><a class="reference internal" href="../RemoveGroup/index.html">Remove Group</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../TweakGroup/index.html">Tweak Group</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../SurfaceGroup/index.html">Surface Group</a></li>
@@ -128,7 +127,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../index.html">UModeler 2.0 Manual</a>
+        <a href="../index.html">Unity UModeler Manual</a>
       </nav>
 
 
@@ -145,7 +144,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="../index.html">Docs</a> &raquo;</li>
       
-          <li><a href="index.html">Selection Group</a> &raquo;</li>
+          <li><a href="index.html">Selection Group </a> &raquo;</li>
       
     <li>Isolated Selection Tool</li>
       <li class="wy-breadcrumbs-aside">
@@ -164,47 +163,35 @@
   <div class="section" id="isolated-selection-tool">
 <h1>Isolated Selection Tool<a class="headerlink" href="#isolated-selection-tool" title="Permalink to this headline">¶</a></h1>
 <p>Selects geometry connected to already selected elements. This is often useful when a mesh has disconnected but overlapping parts</p>
-<div class="section" id="vertex-isolated-selection">
-<h2>Vertex Isolated Selection<a class="headerlink" href="#vertex-isolated-selection" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="vertex-isolated-selection-icon-selection-isolatedselectvertex">
+<h2>Vertex Isolated Selection <a class="reference internal" href="../_images/Icon_Selection_IsolatedSelectVertex.png"><img alt="Icon_Selection_IsolatedSelectVertex" src="../_images/Icon_Selection_IsolatedSelectVertex.png" style="width: 26.0px; height: 26.0px;" /></a><a class="headerlink" href="#vertex-isolated-selection-icon-selection-isolatedselectvertex" title="Permalink to this headline">¶</a></h2>
 <div class="figure" id="id1">
-<a class="reference internal image-reference" href="../_images/Icon_Selection_IsolatedSelectVertex.png"><img alt="../_images/Icon_Selection_IsolatedSelectVertex.png" src="../_images/Icon_Selection_IsolatedSelectVertex.png" style="width: 26.0px; height: 26.0px;" /></a>
-<p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Vertex</span> <span class="pre">Isolated</span> <span class="pre">Selection</span> <span class="pre">Tool</span></code> Icon</span></p>
-</div>
-<div class="figure" id="id2">
 <a class="reference internal image-reference" href="../_images/UModeler_VertexIsolated_0.jpg"><img alt="../_images/UModeler_VertexIsolated_0.jpg" src="../_images/UModeler_VertexIsolated_0.jpg" style="width: 227.04999999999998px; height: 281.2px;" /></a>
 <p class="caption"><span class="caption-text">If any vertices are selected,</span></p>
 </div>
-<div class="figure" id="id3">
+<div class="figure" id="id2">
 <a class="reference internal image-reference" href="../_images/UModeler_VertexIsolated_1.jpg"><img alt="../_images/UModeler_VertexIsolated_1.jpg" src="../_images/UModeler_VertexIsolated_1.jpg" style="width: 227.04999999999998px; height: 281.2px;" /></a>
 <p class="caption"><span class="caption-text">All the vertices in the isolated geometry which includes the first select vertices will be selected.</span></p>
 </div>
 </div>
-<div class="section" id="edge-isolated-selection">
-<h2>Edge Isolated Selection<a class="headerlink" href="#edge-isolated-selection" title="Permalink to this headline">¶</a></h2>
-<div class="figure" id="id4">
-<a class="reference internal image-reference" href="../_images/Icon_Selection_IsolatedSelectEdge.png"><img alt="../_images/Icon_Selection_IsolatedSelectEdge.png" src="../_images/Icon_Selection_IsolatedSelectEdge.png" style="width: 26.0px; height: 26.0px;" /></a>
-<p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Edge</span> <span class="pre">Isolated</span> <span class="pre">Selection</span> <span class="pre">Tool</span></code> Icon</span></p>
-</div>
-<div class="figure" id="id5">
+<div class="section" id="edge-isolated-selection-icon-selection-isolatedselectedge">
+<h2>Edge Isolated Selection <a class="reference internal" href="../_images/Icon_Selection_IsolatedSelectEdge.png"><img alt="Icon_Selection_IsolatedSelectEdge" src="../_images/Icon_Selection_IsolatedSelectEdge.png" style="width: 26.0px; height: 26.0px;" /></a><a class="headerlink" href="#edge-isolated-selection-icon-selection-isolatedselectedge" title="Permalink to this headline">¶</a></h2>
+<div class="figure" id="id3">
 <a class="reference internal image-reference" href="../_images/UModeler_EdgeIsolated_0.jpg"><img alt="../_images/UModeler_EdgeIsolated_0.jpg" src="../_images/UModeler_EdgeIsolated_0.jpg" style="width: 227.04999999999998px; height: 281.2px;" /></a>
 <p class="caption"><span class="caption-text">If any edges are selected,</span></p>
 </div>
-<div class="figure" id="id6">
+<div class="figure" id="id4">
 <a class="reference internal image-reference" href="../_images/UModeler_EdgeIsolated_1.jpg"><img alt="../_images/UModeler_EdgeIsolated_1.jpg" src="../_images/UModeler_EdgeIsolated_1.jpg" style="width: 227.04999999999998px; height: 281.2px;" /></a>
 <p class="caption"><span class="caption-text">All the edges in the isolated geometry which includes the first select edges will be selected.</span></p>
 </div>
 </div>
-<div class="section" id="polygon-isloated-selection">
-<h2>Polygon Isloated Selection<a class="headerlink" href="#polygon-isloated-selection" title="Permalink to this headline">¶</a></h2>
-<div class="figure" id="id7">
-<a class="reference internal image-reference" href="../_images/Icon_Selection_IsolatedSelectPolygon.png"><img alt="../_images/Icon_Selection_IsolatedSelectPolygon.png" src="../_images/Icon_Selection_IsolatedSelectPolygon.png" style="width: 26.0px; height: 26.0px;" /></a>
-<p class="caption"><span class="caption-text"><code class="docutils literal"><span class="pre">Polygon</span> <span class="pre">Isolated</span> <span class="pre">Selection</span> <span class="pre">Tool</span></code> Icon</span></p>
-</div>
-<div class="figure" id="id8">
+<div class="section" id="polygon-isloated-selection-icon-selection-isolatedselectpolygon">
+<h2>Polygon Isloated Selection <a class="reference internal" href="../_images/Icon_Selection_IsolatedSelectPolygon.png"><img alt="Icon_Selection_IsolatedSelectPolygon" src="../_images/Icon_Selection_IsolatedSelectPolygon.png" style="width: 26.0px; height: 26.0px;" /></a><a class="headerlink" href="#polygon-isloated-selection-icon-selection-isolatedselectpolygon" title="Permalink to this headline">¶</a></h2>
+<div class="figure" id="id5">
 <a class="reference internal image-reference" href="../_images/UModeler_PolygonIsolated_0.jpg"><img alt="../_images/UModeler_PolygonIsolated_0.jpg" src="../_images/UModeler_PolygonIsolated_0.jpg" style="width: 227.04999999999998px; height: 281.2px;" /></a>
 <p class="caption"><span class="caption-text">If any polygons are selected,</span></p>
 </div>
-<div class="figure" id="id9">
+<div class="figure" id="id6">
 <a class="reference internal image-reference" href="../_images/UModeler_PolygonIsolated_1.jpg"><img alt="../_images/UModeler_PolygonIsolated_1.jpg" src="../_images/UModeler_PolygonIsolated_1.jpg" style="width: 227.04999999999998px; height: 281.2px;" /></a>
 <p class="caption"><span class="caption-text">All the polygons in the isolated geometry which includes the first select polygons will be selected.</span></p>
 </div>

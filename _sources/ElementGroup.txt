@@ -2,30 +2,18 @@
 Elements Group
 ################
 
-Vertex / Edge / Polygon tool
-=============================
+.. |Icon_Elements_Vertex| image:: /images/Icon_Elements_Vertex.png
+
+.. |Icon_Elements_Polygon| image:: /images/Icon_Elements_Polygon.png
+
+.. |Icon_Elements_Edge| image:: /images/Icon_Elements_Edge.png
+   
+.. |Icon_Elements_Object| image:: /images/Icon_Elements_Object.png
+
+Vertex |Icon_Elements_Vertex| / Edge |Icon_Elements_Edge| / Polygon |Icon_Elements_Polygon| / Object |Icon_Elements_Object|
+====================================================================================================================================================
 
 There are 4 types of elements you can select and transform.
-
-.. figure:: /images/Icon_Elements_Vertex.png
-   :scale: 100 %
-
-   Vertex Tool 
-
-.. figure:: /images/Icon_Elements_Polygon.png
-   :scale: 100 %
-   
-   Edge Tool
-
-.. figure:: /images/Icon_Elements_Edge.png
-   :scale: 100 % 
-   
-   Polygon Tool
-   
-.. figure:: /images/Icon_Elements_Object.png
-   :scale: 100 % 
-   
-   Object Tool
    
 I think these tools are used most frequently in UModeler so they are located at the top of the scene view. Firstly let me explain the Object Tool. With this tool you can select other objects, and move/rotate/scale them, which is same as Unity Object Mode.
 

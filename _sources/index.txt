@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
- UModeler Reference Manual
+ Unity UModeler Manual
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 .. figure:: /images/UModelerManualTitle.png
@@ -22,7 +22,7 @@
     tutorialvideos
     settings
     menu
-    transformtools
+    ElementGroups
     SelectionGroup/index
     DrawingGroup/index
     PrimitiveShapesGroup/index
@@ -71,7 +71,7 @@ Sections
 
       .. container:: descr
 
-         :doc:`transformtools`
+         :doc:`ElementGroups`
             All tools related to transforming vertices/edges/polygons/object.
 
       .. container:: descr
