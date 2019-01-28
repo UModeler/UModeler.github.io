@@ -97,19 +97,19 @@
 <li class="toctree-l1"><a class="reference internal" href="../PrimitiveShapesGroup/index.html">Primitive Shapes Group </a></li>
 <li class="toctree-l1"><a class="reference internal" href="../AddGroup/index.html">Add Group </a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">Remove Group </a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="EraserTool.html">Eraser Tool</a></li>
-<li class="toctree-l2"><a class="reference internal" href="DetachTool.html">Detach Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="EraserTool.html">Eraser Tool </a></li>
+<li class="toctree-l2"><a class="reference internal" href="DetachTool.html">Detach Tool </a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Combine Tool</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#combine-vertices-tool">Combine Vertices Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#combine-vertices-tool-icon-remove-combinevertices">Combine Vertices Tool </a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#interface">Interface</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#properties">Properties</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#combine-polygon-tool">Combine Polygon Tool</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#combine-object-tool">Combine Object Tool</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#combine-polygon-tool-icon-remove-combinepolygons">Combine Polygon Tool </a></li>
+<li class="toctree-l3"><a class="reference internal" href="#combine-object-tool-icon-remove-combineobjects">Combine Object Tool </a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="RemoveDoubleTool.html">Remove Double Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="RemoveDoubleTool.html">Remove Double Tool </a></li>
 <li class="toctree-l2"><a class="reference internal" href="CollapseTool.html">Collpase Tool</a></li>
 <li class="toctree-l2"><a class="reference internal" href="CutTool.html">Cut Tool</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ClipTool.html">Clip Tool</a></li>
@@ -168,8 +168,8 @@
             
   <div class="section" id="combine-tool">
 <h1>Combine Tool<a class="headerlink" href="#combine-tool" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="combine-vertices-tool">
-<h2>Combine Vertices Tool<a class="headerlink" href="#combine-vertices-tool" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="combine-vertices-tool-icon-remove-combinevertices">
+<h2>Combine Vertices Tool <a class="reference internal" href="../_images/Icon_Remove_CombineVertices.png"><img alt="Icon_Remove_CombineVertices" src="../_images/Icon_Remove_CombineVertices.png" style="width: 26.0px; height: 26.0px;" /></a><a class="headerlink" href="#combine-vertices-tool-icon-remove-combinevertices" title="Permalink to this headline">¶</a></h2>
 <p>Merges all the selected vertices in one unique one. The location of the surviving vertex can be chosen before executing this tool.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
@@ -202,29 +202,33 @@
 <dt>Combine Vertices</dt>
 <dd>Click on this button to combine the selected vertices.</dd>
 </dl>
-<div class="figure" id="id1">
-<a class="reference internal image-reference" href="../_images/UModeler_CombineVertexTool.gif"><img alt="../_images/UModeler_CombineVertexTool.gif" src="../_images/UModeler_CombineVertexTool.gif" style="width: 760.0px; height: 484.5px;" /></a>
-<p class="caption"><span class="caption-text">Merges the selected vertices.</span></p>
-</div>
+<dl class="docutils">
+<dt><a class="reference internal" href="../_images/UModeler_CombineVertices_0.jpg"><img alt="UModeler_CombineVertices_0" src="../_images/UModeler_CombineVertices_0.jpg" style="width: 268.0px; height: 267.0px;" /></a></dt>
+<dd>Two groups of vertices are selected.</dd>
+<dt><a class="reference internal" href="../_images/UModeler_CombineVertices_1.jpg"><img alt="UModeler_CombineVertices_1" src="../_images/UModeler_CombineVertices_1.jpg" style="width: 268.0px; height: 267.0px;" /></a></dt>
+<dd>With <code class="docutils literal"><span class="pre">Collapse</span></code> property off, all the selected vertices will be merged to one vertex.</dd>
+<dt><a class="reference internal" href="../_images/UModeler_CombineVertices_2.jpg"><img alt="UModeler_CombineVertices_2" src="../_images/UModeler_CombineVertices_2.jpg" style="width: 268.0px; height: 267.0px;" /></a></dt>
+<dd>On the other hand with <code class="docutils literal"><span class="pre">Collapse</span></code> property on, the vertices will be merged to two.</dd>
+</dl>
 </div>
 </div>
 <hr class="docutils" />
-<div class="section" id="combine-polygon-tool">
-<h2>Combine Polygon Tool<a class="headerlink" href="#combine-polygon-tool" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="combine-polygon-tool-icon-remove-combinepolygons">
+<h2>Combine Polygon Tool <a class="reference internal" href="../_images/Icon_Remove_CombinePolygons.png"><img alt="Icon_Remove_CombinePolygons" src="../_images/Icon_Remove_CombinePolygons.png" style="width: 26.0px; height: 26.0px;" /></a><a class="headerlink" href="#combine-polygon-tool-icon-remove-combinepolygons" title="Permalink to this headline">¶</a></h2>
 <p>Merges adjacent and coplanar polygons into a polygon by selecting several polygons and clicking on <code class="docutils literal"><span class="pre">Combine</span></code> button.</p>
-<div class="figure" id="id2">
-<a class="reference internal image-reference" href="../_images/UModeler_CombinePolygonTool.gif"><img alt="../_images/UModeler_CombinePolygonTool.gif" src="../_images/UModeler_CombinePolygonTool.gif" style="width: 855.0px; height: 618.4499999999999px;" /></a>
-<p class="caption"><span class="caption-text">Combines the selected polygons.</span></p>
-</div>
+<dl class="docutils">
+<dt><a class="reference internal" href="../_images/UModeler_CombinePolygons_0.jpg"><img alt="UModeler_CombinePolygons_0" src="../_images/UModeler_CombinePolygons_0.jpg" style="width: 268.0px; height: 267.0px;" /></a> <a class="reference internal" href="../_images/UModeler_CombinePolygons_1.jpg"><img alt="UModeler_CombinePolygons_1" src="../_images/UModeler_CombinePolygons_1.jpg" style="width: 268.0px; height: 267.0px;" /></a></dt>
+<dd>All adjacent and coplanar polygons are combined.</dd>
+</dl>
 </div>
 <hr class="docutils" />
-<div class="section" id="combine-object-tool">
-<h2>Combine Object Tool<a class="headerlink" href="#combine-object-tool" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="combine-object-tool-icon-remove-combineobjects">
+<h2>Combine Object Tool <a class="reference internal" href="../_images/Icon_Remove_CombineObjects.png"><img alt="Icon_Remove_CombineObjects" src="../_images/Icon_Remove_CombineObjects.png" style="width: 26.0px; height: 26.0px;" /></a><a class="headerlink" href="#combine-object-tool-icon-remove-combineobjects" title="Permalink to this headline">¶</a></h2>
 <p>Combines the selected game objects with UModeler component to be an object by selecting several game objects and clicking on <code class="docutils literal"><span class="pre">Combine</span></code> button.</p>
-<div class="figure" id="id3">
-<a class="reference internal image-reference" href="../_images/UModeler_CombineObjectTool.gif"><img alt="../_images/UModeler_CombineObjectTool.gif" src="../_images/UModeler_CombineObjectTool.gif" style="width: 855.0px; height: 618.4499999999999px;" /></a>
-<p class="caption"><span class="caption-text">Merges the selected objects.</span></p>
-</div>
+<dl class="docutils">
+<dt><a class="reference internal" href="../_images/UModeler_CombineObjects.jpg"><img alt="UModeler_CombineObjects" src="../_images/UModeler_CombineObjects.jpg" style="width: 268.0px; height: 267.0px;" /></a></dt>
+<dd>Merges the selected objects.</dd>
+</dl>
 </div>
 </div>
 

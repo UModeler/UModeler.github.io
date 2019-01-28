@@ -1,6 +1,9 @@
-###############
-Cut Tool
-###############
+.. |Icon_Remove_Cut| image:: /images/Icon_Remove_Cut.png
+   :scale: 100 %
+
+#############################################
+Cut Tool |Icon_Remove_Cut|
+#############################################
 
 Cuts a mesh into two along a line drawn by dragging a mouse. Pressing ``SPACE`` while dragging will change the direction of cutting.
 
@@ -23,7 +26,11 @@ Fill Facet
 Select Above
  After cutting a mesh, selects all polygons above the custom plane.
  
-.. figure:: /images/UModeler_CutTool.gif
-   :scale: 95 %
-	
-   Cut Tool Demo
+.. |UModele_Cut_0| image:: /images/UModele_Cut_0.jpg
+   :scale: 100 %
+   
+.. |UModele_Cut_1| image:: /images/UModele_Cut_1.jpg
+   :scale: 100 %
+   
+|UModele_Cut_0| |UModele_Cut_1|
+ A stair is cut out using the custom plane which aligns with the view direction.

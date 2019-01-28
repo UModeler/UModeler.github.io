@@ -1,6 +1,9 @@
-#####################
-Remove Double Tool
-#####################
+.. |Icon_Remove_RemoveDoubles| image:: /images/Icon_Remove_RemoveDoubles.png
+   :scale: 100 %
+   
+###############################################################
+Remove Double Tool |Icon_Remove_RemoveDoubles|
+###############################################################
 
 Lets you merge automatically all the selected vertices within the specific distance.
 
@@ -15,8 +18,3 @@ Properties
 
 Distance
  Minimum distance to be merged.
- 
-.. figure:: /images/UModeler_RemoveDoublesTool.gif
-   :scale: 95 %
-	
-   RemoveDoubles Tool Demo 
