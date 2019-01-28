@@ -22,7 +22,7 @@
     tutorialvideos
     settings
     menu
-    ElementGroups
+    ElementGroup
     SelectionGroup/index
     DrawingGroup/index
     PrimitiveShapesGroup/index
@@ -71,7 +71,7 @@ Sections
 
       .. container:: descr
 
-         :doc:`ElementGroups`
+         :doc:`ElementGroup`
             All tools related to transforming vertices/edges/polygons/object.
 
       .. container:: descr

@@ -1,6 +1,9 @@
-################
-Remove Group
-################
+.. |Icon_Group_Remove| image:: /images/Icon_Group_Remove.png
+   :scale: 100 %
+
+################################################
+Remove Group |Icon_Group_Remove|
+################################################
    
 .. toctree::
    :maxdepth: 2
