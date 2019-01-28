@@ -13,22 +13,26 @@ Edge Ring |Icon_Selection_RingSelectEdge|
 
 Selects a sequence of edges that are not connected, but on opposite sides to each other continuing along a face loop
 
-.. figure:: /images/UModeler_EdgeRing_0.jpg
-   :scale: 95 %
+.. |UModeler_EdgeRing_0| image:: /images/UModeler_EdgeRing_0.jpg
+   :scale: 100 %
    
-.. figure:: /images/UModeler_EdgeRing_1.jpg
-   :scale: 95 %
+.. |UModeler_EdgeRing_1| image:: /images/UModeler_EdgeRing_1.jpg
+   :scale: 100 %
+   
+|UModeler_EdgeRing_0| |UModeler_EdgeRing_1|   
 
 Quad Ring |Icon_Selection_RingSelectPolygon|
 ------------------------------------------------
 
 Lets you select several quad polygons across a mesh.
 
-.. figure:: /images/UModeler_PolygonRing_0.jpg
-   :scale: 95 %
+.. |UModeler_PolygonRing_0| image:: /images/UModeler_PolygonRing_0.jpg
+   :scale: 100 %
    
-.. figure:: /images/UModeler_PolygonRing_1.jpg
-   :scale: 95 %
+.. |UModeler_PolygonRing_1| image:: /images/UModeler_PolygonRing_1.jpg
+   :scale: 100 %
+
+|UModeler_PolygonRing_0| |UModeler_PolygonRing_1|   
 
 Steps
 ------------
