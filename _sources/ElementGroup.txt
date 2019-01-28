@@ -3,12 +3,16 @@ Elements Group
 ################
 
 .. |Icon_Elements_Vertex| image:: /images/Icon_Elements_Vertex.png
+   :scale: 100 %
 
 .. |Icon_Elements_Polygon| image:: /images/Icon_Elements_Polygon.png
+   :scale: 100 %
 
 .. |Icon_Elements_Edge| image:: /images/Icon_Elements_Edge.png
+   :scale: 100 %
    
 .. |Icon_Elements_Object| image:: /images/Icon_Elements_Object.png
+   :scale: 100 %
 
 Vertex |Icon_Elements_Vertex| / Edge |Icon_Elements_Edge| / Polygon |Icon_Elements_Polygon| / Object |Icon_Elements_Object|
 ====================================================================================================================================================

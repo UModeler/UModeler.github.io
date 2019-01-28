@@ -1,6 +1,10 @@
-###############
-Detach Tool
-###############
+.. |Icon_Remove_Detach| image:: /images/Icon_Remove_Detach.png
+   :scale: 100 %
+   
+#############################################
+Detach Tool |Icon_Remove_Detach|
+#############################################
+
 Detaches the selected polygons from the current game object to get them into the new game object.
 
 Steps
