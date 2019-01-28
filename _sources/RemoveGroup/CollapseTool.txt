@@ -19,4 +19,4 @@ Steps
    :scale: 100 %   
    
 |UModeler_Collapse_0| |UModeler_Collapse_1|
-Two vertex groups are selects and ``Collapse`` is applied.
+ Two vertex groups are selects and ``Collapse`` is applied.
