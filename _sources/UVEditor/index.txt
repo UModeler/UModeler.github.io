@@ -9,19 +9,16 @@ UV Editor
  | This tool is available from UModeler 2.0
  |
 
- .. figure:: /images/UModeler_UVEditor.png
+ .. figure:: /images/UModeler_UVEditor.jpg
     :scale: 95 % 
-	
-    Cart made using UModeler and UVs unwrapped and edited with UVEditor 
 
 .. toctree::
    :maxdepth: 2
 
    overview.rst   
-   uvsettings.rst
-   uvtransform.rst
-   unwrap.rst
-   selection.rst
+   toolbar_settings.rst
+   UnwrapGroup/index.rst
+   SelectionGroup/index.rst
    fliprotatealignment.rst
    WeldAndBreak.rst
    Arrange.rst

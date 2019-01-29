@@ -37,7 +37,7 @@
         <link rel="search" title="Search" href="../search.html"/>
     <link rel="top" title="Unity UModeler Manual  documentation" href="../index.html"/>
         <link rel="up" title="UV Editor" href="index.html"/>
-        <link rel="next" title="Settings" href="uvsettings.html"/>
+        <link rel="next" title="Toolbar" href="toolbar_settings.html"/>
         <link rel="prev" title="UV Editor" href="index.html"/> 
 
   
@@ -103,14 +103,14 @@
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">UV Editor</a><ul class="current">
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Overview</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#automatic-uv-and-manual-uv">Automatic UV and Manual UV</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#icon-or-text-based-menu">Icon or Text based menu</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#keyboard">Keyboard</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#getting-started">Getting Started</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="uvsettings.html">Settings</a></li>
-<li class="toctree-l2"><a class="reference internal" href="uvtransform.html">Transform</a></li>
-<li class="toctree-l2"><a class="reference internal" href="unwrap.html">Unwrap</a></li>
-<li class="toctree-l2"><a class="reference internal" href="selection.html">Selection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="toolbar_settings.html">Toolbar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="UnwrapGroup/index.html">Unwrap Group </a></li>
+<li class="toctree-l2"><a class="reference internal" href="SelectionGroup/index.html">Selection Group </a></li>
 <li class="toctree-l2"><a class="reference internal" href="fliprotatealignment.html">Flip/Rotate/Aligntment</a></li>
 <li class="toctree-l2"><a class="reference internal" href="WeldAndBreak.html">Weld and Break</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Arrange.html">Arrange</a></li>
@@ -177,16 +177,17 @@
 </div>
 </div>
 <div class="figure" id="id1">
-<a class="reference internal image-reference" href="../_images/UVEditor_Overview.png"><img alt="../_images/UVEditor_Overview.png" src="../_images/UVEditor_Overview.png" style="width: 1236.8999999999999px; height: 918.65px;" /></a>
+<a class="reference internal image-reference" href="../_images/UModeler_UVEditor_Overview_0.jpg"><img alt="../_images/UModeler_UVEditor_Overview_0.jpg" src="../_images/UModeler_UVEditor_Overview_0.jpg" style="width: 796.0999999999999px; height: 899.65px;" /></a>
 <p class="caption"><span class="caption-text">UVEditor with a UV map</span></p>
 </div>
 <div class="line-block">
 <div class="line">The UVEditor looks like the upper image and consists of three areas.</div>
 <div class="line"><br /></div>
 <div class="line-block">
-<div class="line">• Working Area - This is used for viewing and editing the UVs.</div>
-<div class="line">• Toolbar - This is located on the top of the window, which used for choosing gizmo type.</div>
-<div class="line">• Inspector - Various tools and settings necessary to unwrap and edit.</div>
+<div class="line">1) <code class="docutils literal"><span class="pre">Toolbar</span></code> - Most frequently used tools. 4 gizmos (Move, Rotate, Scale, Box), 4 elements (UV, Edge, Polygon, UV Island) and, <code class="docutils literal"><span class="pre">Settings</span></code> and <code class="docutils literal"><span class="pre">Cursor</span></code> icons from left to right.</div>
+<div class="line">2) <code class="docutils literal"><span class="pre">Menu</span></code> - All tools&#8217; icons are located here.</div>
+<div class="line">3) <code class="docutils literal"><span class="pre">Property</span></code> - Properties of the current tool.</div>
+<div class="line">4) <code class="docutils literal"><span class="pre">Working</span> <span class="pre">Area</span></code> - This is used for viewing and editing the UVs.</div>
 </div>
 </div>
 </div></blockquote>
@@ -195,6 +196,15 @@
 <blockquote>
 <div><div class="line-block">
 <div class="line">The polygons created in UModeler basically have UVs, which have tiling charactericstic, generated automatically based on position and normal of each vertex. From UModeler 2.0 those UVs can be unwrapped and edited manually using UVEditor. Both types of UVs can exist in one mesh at the same time.</div>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="icon-or-text-based-menu">
+<h2>Icon or Text based menu<a class="headerlink" href="#icon-or-text-based-menu" title="Permalink to this headline">¶</a></h2>
+<p>When you press <code class="docutils literal"><span class="pre">RMB</span></code>, the pop up menu will be brought up as below. You can switch the menu between icon-based and text-based there.</p>
+<blockquote>
+<div><div class="figure">
+<a class="reference internal image-reference" href="../_images/UModeler_UVEditor_Overview_1.jpg"><img alt="../_images/UModeler_UVEditor_Overview_1.jpg" src="../_images/UModeler_UVEditor_Overview_1.jpg" style="width: 717.25px; height: 937.65px;" /></a>
 </div>
 </div></blockquote>
 </div>
@@ -232,22 +242,35 @@
 </tr>
 </tbody>
 </table>
+<blockquote>
+<div></div></blockquote>
 </div>
 <div class="section" id="getting-started">
 <h2>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h2>
 <blockquote>
 <div><div class="figure" id="id2">
-<a class="reference internal image-reference" href="../_images/UVEditor_GettingStarted.gif"><img alt="../_images/UVEditor_GettingStarted.gif" src="../_images/UVEditor_GettingStarted.gif" style="width: 760.0px; height: 471.2px;" /></a>
-<p class="caption"><span class="caption-text">Unwrapping the selected polygons and basic demo to show how to edit UVs</span></p>
+<a class="reference internal image-reference" href="../_images/UModeler_UVEditor_GettingStarted_0.jpg"><img alt="../_images/UModeler_UVEditor_GettingStarted_0.jpg" src="../_images/UModeler_UVEditor_GettingStarted_0.jpg" style="width: 1824.0px; height: 1026.0px;" /></a>
+<p class="caption"><span class="caption-text">Create a box using <code class="docutils literal"><span class="pre">Box</span> <span class="pre">Tool</span></code></span></p>
 </div>
-<div class="line-block">
-<div class="line">The process to get started on using UVEditor is as follows.</div>
-<div class="line"><br /></div>
-<div class="line">• Open UVEditor by clicking on <code class="docutils literal"><span class="pre">Open</span> <span class="pre">UVEditor</span></code> in the inspector of UModeler.</div>
-<div class="line">• Select several polygons in the scene view.</div>
-<div class="line">• Select <code class="docutils literal"><span class="pre">Plane/View</span></code> or <code class="docutils literal"><span class="pre">Cube</span></code> button on the inspector in UV Editor.</div>
-<div class="line">• Click on <code class="docutils literal"><span class="pre">Unwrap</span></code> button in the property group.</div>
-<div class="line">• Now you can select Vertex/Edge/Polygon in UVEditor and edit them.</div>
+<div class="figure" id="id3">
+<a class="reference internal image-reference" href="../_images/UModeler_UVEditor_GettingStarted_1.jpg"><img alt="../_images/UModeler_UVEditor_GettingStarted_1.jpg" src="../_images/UModeler_UVEditor_GettingStarted_1.jpg" style="width: 1824.0px; height: 1026.0px;" /></a>
+<p class="caption"><span class="caption-text">Go to <code class="docutils literal"><span class="pre">Tools</span> <span class="pre">&gt;</span> <span class="pre">UModeler</span> <span class="pre">&gt;</span> <span class="pre">UV</span> <span class="pre">Editor</span></code> at the top menu of the editor or, select <code class="docutils literal"><span class="pre">UV</span> <span class="pre">Tool</span></code> and press <code class="docutils literal"><span class="pre">UV</span> <span class="pre">Editor</span></code> button.</span></p>
+</div>
+<div class="figure" id="id4">
+<a class="reference internal image-reference" href="../_images/UModeler_UVEditor_GettingStarted_2.jpg"><img alt="../_images/UModeler_UVEditor_GettingStarted_2.jpg" src="../_images/UModeler_UVEditor_GettingStarted_2.jpg" style="width: 1824.0px; height: 1026.0px;" /></a>
+<p class="caption"><span class="caption-text">Select three polygons visible from the camera.</span></p>
+</div>
+<div class="figure" id="id5">
+<a class="reference internal image-reference" href="../_images/UModeler_UVEditor_GettingStarted_3.jpg"><img alt="../_images/UModeler_UVEditor_GettingStarted_3.jpg" src="../_images/UModeler_UVEditor_GettingStarted_3.jpg" style="width: 1824.0px; height: 1026.0px;" /></a>
+<p class="caption"><span class="caption-text">Click on <code class="docutils literal"><span class="pre">Plane</span> <span class="pre">Unwrap</span> <span class="pre">Tool</span></code> (<a class="reference internal" href="../_images/Icon_UVEditor_Unwrap_PlaneViewUnwrap.png"><img alt="Icon_UVEditor_Unwrap_PlaneViewUnwrap" src="../_images/Icon_UVEditor_Unwrap_PlaneViewUnwrap.png" style="width: 26.0px; height: 26.0px;" /></a>) in UV Editor.</span></p>
+</div>
+<div class="figure" id="id6">
+<a class="reference internal image-reference" href="../_images/UModeler_UVEditor_GettingStarted_4.jpg"><img alt="../_images/UModeler_UVEditor_GettingStarted_4.jpg" src="../_images/UModeler_UVEditor_GettingStarted_4.jpg" style="width: 1824.0px; height: 1026.0px;" /></a>
+<p class="caption"><span class="caption-text">Press <code class="docutils literal"><span class="pre">Unwrap</span></code> button in <code class="docutils literal"><span class="pre">Properties</span></code> window. Then you can check out that the selected polygons are unwrapped.</span></p>
+</div>
+<div class="figure" id="id7">
+<a class="reference internal image-reference" href="../_images/UModeler_UVEditor_GettingStarted_5.jpg"><img alt="../_images/UModeler_UVEditor_GettingStarted_5.jpg" src="../_images/UModeler_UVEditor_GettingStarted_5.jpg" style="width: 1824.0px; height: 1026.0px;" /></a>
+<p class="caption"><span class="caption-text">Select <code class="docutils literal"><span class="pre">Move</span> <span class="pre">Tool</span></code> and <code class="docutils literal"><span class="pre">Polygon</span> <span class="pre">Tool</span></code> on the toolbar and move a unwrapped polygon using the gizmo in UV Editor.</span></p>
 </div>
 </div></blockquote>
 </div>
@@ -260,7 +283,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="uvsettings.html" class="btn btn-neutral float-right" title="Settings" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="toolbar_settings.html" class="btn btn-neutral float-right" title="Toolbar" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="index.html" class="btn btn-neutral" title="UV Editor" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>

@@ -7,20 +7,28 @@ Overview
  |  • Click on ``Open UVEditor`` in ``Surface`` group on the UModeler inspector.
  |
  
- .. figure:: /images/UVEditor_Overview.png 
+ .. figure:: /images/UModeler_UVEditor_Overview_0.jpg
     :scale: 95 %
 
     UVEditor with a UV map
 
  | The UVEditor looks like the upper image and consists of three areas. 
  |
- |  • Working Area - This is used for viewing and editing the UVs.
- |  • Toolbar - This is located on the top of the window, which used for choosing gizmo type.
- |  • Inspector - Various tools and settings necessary to unwrap and edit.
+ |  1) ``Toolbar`` - Most frequently used tools. 4 gizmos (Move, Rotate, Scale, Box), 4 elements (UV, Edge, Polygon, UV Island) and, ``Settings`` and ``Cursor`` icons from left to right.
+ |  2) ``Menu`` - All tools' icons are located here.
+ |  3) ``Property`` - Properties of the current tool.
+ |  4) ``Working Area`` - This is used for viewing and editing the UVs.
  
 Automatic UV and Manual UV
 ============================
  | The polygons created in UModeler basically have UVs, which have tiling charactericstic, generated automatically based on position and normal of each vertex. From UModeler 2.0 those UVs can be unwrapped and edited manually using UVEditor. Both types of UVs can exist in one mesh at the same time. 
+ 
+Icon or Text based menu
+===========================
+When you press ``RMB``, the pop up menu will be brought up as below. You can switch the menu between icon-based and text-based there.
+
+ .. figure:: /images/UModeler_UVEditor_Overview_1.jpg
+    :scale: 95 %
  
 Keyboard
 ==========
@@ -42,19 +50,38 @@ Keyboard
 |Holding ``CTRL`` | Continuous Selection|
 +-----------------+---------------------+
 
+ .. |Icon_UVEditor_Unwrap_PlaneViewUnwrap| image:: /images/Icon_UVEditor_Unwrap_PlaneViewUnwrap.png
+   :scale: 100 %
+   
 Getting Started
 ==================
 
- .. figure:: /images/UVEditor_GettingStarted.gif
+ .. figure:: /images/UModeler_UVEditor_GettingStarted_0.jpg
+    :scale: 95%
+
+    Create a box using ``Box Tool``	
+
+ .. figure:: /images/UModeler_UVEditor_GettingStarted_1.jpg
+    :scale: 95 %
+
+    Go to ``Tools > UModeler > UV Editor`` at the top menu of the editor or, select ``UV Tool`` and press ``UV Editor`` button.
+
+ .. figure:: /images/UModeler_UVEditor_GettingStarted_2.jpg
     :scale: 95 %
  
-    Unwrapping the selected polygons and basic demo to show how to edit UVs
+    Select three polygons visible from the camera.
 
- | The process to get started on using UVEditor is as follows.
- |
- | • Open UVEditor by clicking on ``Open UVEditor`` in the inspector of UModeler.
- | • Select several polygons in the scene view.
- | • Select ``Plane/View`` or ``Cube`` button on the inspector in UV Editor.
- | • Click on ``Unwrap`` button in the property group.
- | • Now you can select Vertex/Edge/Polygon in UVEditor and edit them.
+ .. figure:: /images/UModeler_UVEditor_GettingStarted_3.jpg
+    :scale: 95 %
+ 
+    Click on ``Plane Unwrap Tool`` (|Icon_UVEditor_Unwrap_PlaneViewUnwrap|) in UV Editor.
 
+ .. figure:: /images/UModeler_UVEditor_GettingStarted_4.jpg
+    :scale: 95 %
+ 
+    Press ``Unwrap`` button in ``Properties`` window. Then you can check out that the selected polygons are unwrapped.
+	
+ .. figure:: /images/UModeler_UVEditor_GettingStarted_5.jpg
+    :scale: 95 %
+ 
+    Select ``Move Tool`` and ``Polygon Tool`` on the toolbar and move a unwrapped polygon using the gizmo in UV Editor.

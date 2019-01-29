@@ -66,7 +66,7 @@ Auto Smooth
 .. figure:: /images/UModeler_SmoothingGroup_0.jpg
    :scale: 100 %
    
-   A sphere mesh before applying the smoothing group
+   A sphere mesh before applying a smoothing group
    
 .. figure:: /images/UModeler_SmoothingGroup_1.jpg
    :scale: 100 %
