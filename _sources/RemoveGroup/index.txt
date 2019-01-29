@@ -6,7 +6,7 @@ Remove Group |Icon_Group_Remove|
 ################################################
    
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    EraserTool.rst   
    DetachTool.rst

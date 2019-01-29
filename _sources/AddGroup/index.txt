@@ -10,7 +10,7 @@ Add Group |Icon_Group_Add|
  ``Edge Extrude Tool`` has been deprecated since Ver 2.4.1 because transforming edges holding ``SHIFT`` in ``Edge Tool`` can be replaced with it entirely.
    
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    PushPullTool.rst   
    MultiPushPullTool.rst

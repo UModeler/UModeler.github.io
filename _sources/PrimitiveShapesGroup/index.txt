@@ -13,7 +13,7 @@ Primitive Shapes Group |Icon_Group_PrimitiveShapes|
  4. ``Glue`` and ``Border Check`` Properties are common in the most primitive shape tools. See the demo of ``Box Tool`` to find out how they work.
    
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    BoxTool.rst   
    RoomTool.rst

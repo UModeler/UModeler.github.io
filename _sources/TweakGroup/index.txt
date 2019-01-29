@@ -3,7 +3,7 @@ Tweak Group
 ################
    
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    FlipTool.rst   
    FlattenTool.rst

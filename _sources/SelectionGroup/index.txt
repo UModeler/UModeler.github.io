@@ -10,7 +10,7 @@ Selection Group |Icon_Group_Selection|
    Selection tools responds immediately to clicking on a button of each tool.
    
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    allnoneselectiontool.rst   
    isolatedselectiontool.rst

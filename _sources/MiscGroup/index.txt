@@ -3,7 +3,7 @@ Misc Group
 ################
    
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    NewUModelerTool.rst   
    BakeTransformTool.rst

@@ -3,7 +3,7 @@ Surface Group
 ################
    
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    MaterialTool.rst   
    UVTool.rst

@@ -12,7 +12,7 @@ Drawing Group |Icon_Group_Drawing|
  3. The mouse cursor will be snapped to a vertex, a center of edge, a center of polygon etc when the cursor gets close enough to them.  
    
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    linetool.rst   
    arctool.rst
