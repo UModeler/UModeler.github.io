@@ -1,6 +1,9 @@
-########################
-Local Settings Tool
-########################
+.. |Icon_Misc_LocalSettings| image:: /images/Icon_Misc_LocalSettings.png
+   :scale: 100 %
+
+################################################
+Local Settings Tool |Icon_Misc_LocalSettings|
+################################################
 
 Sets up local variables.
 
@@ -16,13 +19,3 @@ Generate Lightmap UVs
  
 Recalculate Tangents
  If this is on, tangent vectors will be calculated every time UModeler mesh changes. If the materials in UModeler have normal textures, this should be on.
- 
-.. figure:: /images/UModeler_GenerateLightmapUVs.gif
-   :scale: 95 %
-	
-   ``Generate Light UVs`` Demo.
-   
-.. figure:: /images/UModeler_RecalculatingTangents.gif
-   :scale: 95 %
-	
-   ``Tangent Recalculataion`` Demo.

@@ -97,13 +97,13 @@
 <li class="toctree-l1"><a class="reference internal" href="../PrimitiveShapesGroup/index.html">Primitive Shapes Group </a></li>
 <li class="toctree-l1"><a class="reference internal" href="../AddGroup/index.html">Add Group </a></li>
 <li class="toctree-l1"><a class="reference internal" href="../RemoveGroup/index.html">Remove Group </a></li>
-<li class="toctree-l1"><a class="reference internal" href="../TweakGroup/index.html">Tweak Group</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="index.html">Surface Group</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="MaterialTool.html">Material Tool</a></li>
-<li class="toctree-l2"><a class="reference internal" href="UVTool.html">UV Tool</a></li>
-<li class="toctree-l2"><a class="reference internal" href="VertexColorTool.html">Vertex Color Tool</a></li>
-<li class="toctree-l2"><a class="reference internal" href="PolygonColorTool.html">Polygon Color Tool</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Smoothing Group Tool</a><ul>
+<li class="toctree-l1"><a class="reference internal" href="../TweakGroup/index.html">Tweak Group </a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Surface Group </a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="MaterialTool.html">Material Tool </a></li>
+<li class="toctree-l2"><a class="reference internal" href="UVTool.html">UV Tool </a></li>
+<li class="toctree-l2"><a class="reference internal" href="VertexColorTool.html">Vertex Color Tool </a></li>
+<li class="toctree-l2"><a class="reference internal" href="PolygonColorTool.html">Polygon Color Tool </a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Smoothing Group Tool </a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#steps">Steps</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#steps-auto-smooth">Steps - Auto Smooth</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#properties">Properties</a></li>
@@ -111,7 +111,7 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../MiscGroup/index.html">Misc Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../MiscGroup/index.html">Misc Group </a></li>
 <li class="toctree-l1"><a class="reference internal" href="../UVEditor/index.html">UV Editor</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../releasenotes.html">Release Notes</a></li>
 </ul>
@@ -144,9 +144,9 @@
   <ul class="wy-breadcrumbs">
     <li><a href="../index.html">Docs</a> &raquo;</li>
       
-          <li><a href="index.html">Surface Group</a> &raquo;</li>
+          <li><a href="index.html">Surface Group </a> &raquo;</li>
       
-    <li>Smoothing Group Tool</li>
+    <li>Smoothing Group Tool </li>
       <li class="wy-breadcrumbs-aside">
         
           
@@ -160,8 +160,8 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="smoothing-group-tool">
-<h1>Smoothing Group Tool<a class="headerlink" href="#smoothing-group-tool" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="smoothing-group-tool-icon-surface-smoothinggroup">
+<h1>Smoothing Group Tool <a class="reference internal" href="../_images/Icon_Surface_SmoothingGroup.png"><img alt="Icon_Surface_SmoothingGroup" src="../_images/Icon_Surface_SmoothingGroup.png" style="width: 26.0px; height: 26.0px;" /></a><a class="headerlink" href="#smoothing-group-tool-icon-surface-smoothinggroup" title="Permalink to this headline">¶</a></h1>
 <p>Manages smoothing groups for smooth shading.</p>
 <div class="section" id="steps">
 <h2>Steps<a class="headerlink" href="#steps" title="Permalink to this headline">¶</a></h2>
@@ -212,9 +212,31 @@
 <p class="last">Auto Smooth sets the smoothing groups based on the angle between faces. Any two adjacent faces are put in the same smoothing group if the angle between their normals is less than the value in <code class="docutils literal"><span class="pre">Angle</span></code> property.</p>
 </dd>
 </dl>
+<hr class="docutils" />
 <div class="figure" id="id1">
-<a class="reference internal image-reference" href="../_images/UModeler_SmoothingGroupTool_v2.gif"><img alt="../_images/UModeler_SmoothingGroupTool_v2.gif" src="../_images/UModeler_SmoothingGroupTool_v2.gif" style="width: 760.0px; height: 467.4px;" /></a>
-<p class="caption"><span class="caption-text">Smoothing Group Tool Demo</span></p>
+<a class="reference internal image-reference" href="../_images/UModeler_SmoothingGroup_0.jpg"><img alt="../_images/UModeler_SmoothingGroup_0.jpg" src="../_images/UModeler_SmoothingGroup_0.jpg" style="width: 272.0px; height: 250.0px;" /></a>
+<p class="caption"><span class="caption-text">A sphere mesh before applying the smoothing group</span></p>
+</div>
+<div class="figure" id="id2">
+<a class="reference internal image-reference" href="../_images/UModeler_SmoothingGroup_1.jpg"><img alt="../_images/UModeler_SmoothingGroup_1.jpg" src="../_images/UModeler_SmoothingGroup_1.jpg" style="width: 272.0px; height: 250.0px;" /></a>
+<p class="caption"><span class="caption-text">Adds a column of polygons to a smoothing group.</span></p>
+</div>
+<div class="figure" id="id3">
+<a class="reference internal image-reference" href="../_images/UModeler_SmoothingGroup_2.jpg"><img alt="../_images/UModeler_SmoothingGroup_2.jpg" src="../_images/UModeler_SmoothingGroup_2.jpg" style="width: 272.0px; height: 250.0px;" /></a>
+<p class="caption"><span class="caption-text">The polygons are shaded smoothly.</span></p>
+</div>
+<hr class="docutils" />
+<div class="figure" id="id4">
+<a class="reference internal image-reference" href="../_images/UModeler_SmoothingGroup_3.jpg"><img alt="../_images/UModeler_SmoothingGroup_3.jpg" src="../_images/UModeler_SmoothingGroup_3.jpg" style="width: 272.0px; height: 250.0px;" /></a>
+<p class="caption"><span class="caption-text">A cylinder before applying the smoothing group.</span></p>
+</div>
+<div class="figure" id="id5">
+<a class="reference internal image-reference" href="../_images/UModeler_SmoothingGroup_4.jpg"><img alt="../_images/UModeler_SmoothingGroup_4.jpg" src="../_images/UModeler_SmoothingGroup_4.jpg" style="width: 272.0px; height: 250.0px;" /></a>
+<p class="caption"><span class="caption-text">Applies the auto smooth after selecting all polygons of the cylinder.</span></p>
+</div>
+<div class="figure" id="id6">
+<a class="reference internal image-reference" href="../_images/UModeler_SmoothingGroup_5.jpg"><img alt="../_images/UModeler_SmoothingGroup_5.jpg" src="../_images/UModeler_SmoothingGroup_5.jpg" style="width: 272.0px; height: 250.0px;" /></a>
+<p class="caption"><span class="caption-text">3 smoothing groups are created - top polygon, bottom polygon and side polygons.</span></p>
 </div>
 </div>
 </div>
@@ -238,7 +260,7 @@
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2017, Tripolygon.
+        &copy; Copyright 2019, Tripolygon.
 
     </p>
   </div> 

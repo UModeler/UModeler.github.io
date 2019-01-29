@@ -1,6 +1,9 @@
-###############
-Material Tool
-###############
+.. |Icon_Surface_Material| image:: /images/Icon_Surface_Material.png
+   :scale: 100 %
+
+#############################################
+Material Tool |Icon_Surface_Material|
+#############################################
 
 Adds and assigns materials to the polygons.
 
@@ -42,7 +45,11 @@ Remove Material
 Materials
  Material array
  
-.. figure:: /images/UModeler_MaterialTool.gif
-   :scale: 90 %
-	
-   Material Tool Demo
+.. |UModeler_Material_0| image:: /images/UModeler_Material_0.jpg
+   :scale: 100 %
+   
+.. |UModeler_Material_1| image:: /images/UModeler_Material_1.jpg
+   :scale: 100 %
+   
+|UModeler_Material_0| |UModeler_Material_1|
+ A different material is assigned to two polygons shown as above.

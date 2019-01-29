@@ -1,6 +1,9 @@
-################
-Axis Flip Tool
-################
+.. |Icon_Tweak_AxisFlip| image:: /images/Icon_Tweak_AxisFlip.png
+   :scale: 100 %
+
+################################################
+Axis Flip Tool |Icon_Tweak_AxisFlip|
+################################################
 
 .. note::
 
@@ -11,7 +14,7 @@ Flips the selected polygons along its local X-, Y- or Z-Axes across the mirror p
 Steps
 --------------------------------
 1. Select ``Flip Tool`` with the selected polygons.
-2. Adjust ``Axis``, ``Distance`` and ``Invert`` properties to set the mirror plane.
+2. Adjust ``Axis``, ``Distance`` and ``Invert`` properties to set the mirror plane. `Distance` can also be adjusted by dragging the arror of the mirror plane or clicking on a vertex.
 3. Click on ``Flip`` button.
 
 Properties
@@ -31,7 +34,11 @@ Distance
 Flip
  Flips the mirror plane.
  
-.. figure:: /images/UModeler_FlipTool.gif
-   :scale: 95 %
-
-   Flip Tool Demo.
+.. |UModeler_AxisFlip_1| image:: /images/UModeler_AxisFlip_1.jpg
+   :scale: 100 %
+   
+.. |UModeler_AxisFlip_2| image:: /images/UModeler_AxisFlip_2.jpg
+   :scale: 100 %
+   
+|UModeler_AxisFlip_1| |UModeler_AxisFlip_2|
+ Duplicatd polygons are flipped over the mirrored plane.

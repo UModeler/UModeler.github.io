@@ -1,6 +1,9 @@
-####################
-Polygon Color Tool 
-####################
+.. |Icon_Surface_PolygonColor| image:: /images/Icon_Surface_PolygonColor.png
+   :scale: 100 %
+   
+############################################################
+Polygon Color Tool |Icon_Surface_PolygonColor|
+############################################################
 
 (Formerly called as `Color Tool`)
 
@@ -41,7 +44,7 @@ Color
 Select Polygons
  Selects polygons with the color in ``Color`` property.
  
-.. figure:: /images/UModeler_ColorTool_v2.gif
-   :scale: 95 %
+.. figure:: /images/UModeler_PolygonColor.jpg
+   :scale: 100 %
 	
-   Polygon Color Tool Demo
+   Different colors at each face.

@@ -1,6 +1,9 @@
-############
-Align Tool
-############
+.. |Icon_Tweak_Align| image:: /images/Icon_Tweak_Align.png
+   :scale: 100 %
+
+####################################
+Align Tool |Icon_Tweak_Align|
+####################################
 
 Aligns the vertices of the selected elements within bounds.
 
@@ -23,7 +26,14 @@ Select Only Visible
   * ``Middle`` - Middle location of the selected axis.
   * ``Max`` - Maximum location of the selected axis.
   
-.. figure:: /images/UModeler_AlignTool.gif
-   :scale: 95 %
+.. |UModeler_Align_0| image:: /images/UModeler_Align_0.jpg
+   :scale: 100 %
 
-   Align Tool Demo.
+.. |UModeler_Align_1| image:: /images/UModeler_Align_1.jpg
+   :scale: 100 %
+   
+|UModeler_Align_0| |UModeler_Align_1|
+ Vertices on the top cap are aligned with the minium Y position of the selection.
+
+   
+   

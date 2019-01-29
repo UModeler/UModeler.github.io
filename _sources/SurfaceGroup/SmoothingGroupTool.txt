@@ -1,6 +1,9 @@
-######################
-Smoothing Group Tool
-######################
+.. |Icon_Surface_SmoothingGroup| image:: /images/Icon_Surface_SmoothingGroup.png
+   :scale: 100 %
+
+##################################################################
+Smoothing Group Tool |Icon_Surface_SmoothingGroup|
+##################################################################
 Manages smoothing groups for smooth shading. 
  
 Steps
@@ -58,7 +61,36 @@ Auto Smooth
  
  Auto Smooth sets the smoothing groups based on the angle between faces. Any two adjacent faces are put in the same smoothing group if the angle between their normals is less than the value in ``Angle`` property.
  
-.. figure:: /images/UModeler_SmoothingGroupTool_v2.gif
-   :scale: 95 %
-	
-   Smoothing Group Tool Demo 
+--------------------------------------------------------------------------- 
+ 
+.. figure:: /images/UModeler_SmoothingGroup_0.jpg
+   :scale: 100 %
+   
+   A sphere mesh before applying the smoothing group
+   
+.. figure:: /images/UModeler_SmoothingGroup_1.jpg
+   :scale: 100 %
+   
+   Adds a column of polygons to a smoothing group.
+
+.. figure:: /images/UModeler_SmoothingGroup_2.jpg
+   :scale: 100 %
+   
+   The polygons are shaded smoothly.
+
+---------------------------------------------------------------------------
+   
+.. figure:: /images/UModeler_SmoothingGroup_3.jpg
+   :scale: 100 %
+   
+   A cylinder before applying the smoothing group.
+
+.. figure:: /images/UModeler_SmoothingGroup_4.jpg
+   :scale: 100 %
+   
+   Applies the auto smooth after selecting all polygons of the cylinder.
+
+.. figure:: /images/UModeler_SmoothingGroup_5.jpg
+   :scale: 100 % 
+   
+   3 smoothing groups are created - top polygon, bottom polygon and side polygons.

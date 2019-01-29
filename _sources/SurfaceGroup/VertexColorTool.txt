@@ -1,6 +1,9 @@
-##################
-Vertex Color Tool
-##################
+.. |Icon_Surface_VertexColor| image:: /images/Icon_Surface_VertexColor.png
+   :scale: 100 %
+   
+######################################################
+Vertex Color Tool |Icon_Surface_VertexColor|
+######################################################
 
 Sets colors to the Vertices. Pressing or Dragging ``LMB`` holding ``SHIFT`` will paint a polygon below the mouse cursor in the selected color.
 
@@ -53,7 +56,7 @@ Brush Radius
 Select Vertices
  Selects vertices with the color in ``Color`` property.
  
-.. figure:: /images/UModeler_VertexColorTool.gif
-   :scale: 95 %
-	
-   Vertex Color Tool Demo
+.. figure:: /images/UModeler_VertexColor.jpg
+   :scale: 100 %
+   
+   Blue at the top and Oragne at the bottom

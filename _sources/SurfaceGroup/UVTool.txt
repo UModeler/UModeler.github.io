@@ -1,6 +1,9 @@
-###############
-UV Tool
-###############
+.. |Icon_Surface_UV| image:: /images/Icon_Surface_UV.png
+   :scale: 100 %
+
+##############################
+UV Tool |Icon_Surface_UV|
+##############################
 
 Sets UV parameters such as ``Shift``, ``Scale`` and ``Rotation`` etc to each polygon.
 
@@ -56,12 +59,11 @@ Open UVEditor
 Reset UVs
  Resets UV parameters of the selected polygons.
  
-.. figure:: /images/UModeler_UVTool_v2.gif
-   :scale: 90 %
-	
-   UV Tool Demo.
+.. |UModeler_UV_0| image:: /images/UModeler_UV_0.jpg
+   :scale: 100 %
    
-.. figure:: /images/UModeler_UVTool_ShiftingUVByPressingKeys.gif
-   :scale: 90 %
-
-   Moving the UVs of the selected elements up and down by pressing ``UP`` or ``DOWN`` arrows.
+.. |UModeler_UV_1| image:: /images/UModeler_UV_1.jpg
+   :scale: 100 %
+   
+|UModeler_UV_0| |UModeler_UV_1|
+ Applied (0.5,0.5) as a scane and 30 degrees as a rotation to 1m x 1m Sqaure.

@@ -1,6 +1,10 @@
-########################
-Polygon Group Tool
-########################
+.. |Icon_Misc_PolygonGroup| image:: /images/Icon_Misc_PolygonGroup.png
+   :scale: 100 %
+
+################################################
+Polygon Group Tool |Icon_Misc_PolygonGroup|
+################################################
+
 Groups the selected polygons into a single group. ``Active Group`` in the UModeler Status on the scene view displays the current polygon group. The newly created polygons will belong into the activated group.
 You can choose a group via either ``Active Group`` in the UModeler status or ``Polygon Group Tool`` in the inspector.
 
@@ -36,7 +40,20 @@ Add Polygons
 Remove Polygons
  Gets rid of the selected polygons from the current polygon group.
  
-.. figure:: /images/UModeler_PolygonGroupTool.gif
-   :scale: 95 %
-	
-   ``Polygon Group Tool`` Demo. 
+.. |UModeler_PolygonGroup_0| image:: /images/UModeler_PolygonGroup_0.jpg
+   :scale: 100 %
+   
+.. |UModeler_PolygonGroup_1| image:: /images/UModeler_PolygonGroup_1.jpg
+   :scale: 100 %
+   
+.. |UModeler_PolygonGroup_2| image:: /images/UModeler_PolygonGroup_2.jpg
+   :scale: 100 %
+   
+.. |UModeler_PolygonGroup_3| image:: /images/UModeler_PolygonGroup_3.jpg
+   :scale: 100 %
+   
+|UModeler_PolygonGroup_0| |UModeler_PolygonGroup_2|
+ ``Roof`` group
+
+|UModeler_PolygonGroup_1| |UModeler_PolygonGroup_3|
+ ``Wall`` group

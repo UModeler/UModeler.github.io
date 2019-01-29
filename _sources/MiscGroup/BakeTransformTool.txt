@@ -1,6 +1,9 @@
-########################
-Bake Transform Tool
-########################
+.. |Icon_Misc_BakeTransform| image:: /images/Icon_Misc_BakeTransform.png
+   :scale: 100 %
+
+################################################
+Bake Transform Tool |Icon_Misc_BakeTransform|
+################################################
 
 Bakes rotate, scale or both of them.
 

@@ -1,6 +1,9 @@
-################
-Misc Group
-################
+.. |Icon_Group_Misc| image:: /images/Icon_Group_Misc.png
+   :scale: 100 %
+
+################################
+Misc Group |Icon_Group_Misc|
+################################
    
 .. toctree::
    :maxdepth: 1
