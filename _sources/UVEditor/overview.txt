@@ -56,32 +56,32 @@ Keyboard
 Getting Started
 ==================
 
- .. figure:: /images/UModeler_UVEditor_GettingStarted_0.jpg
+1. .. figure:: /images/UModeler_UVEditor_GettingStarted_0.jpg
     :scale: 95%
 
     Create a box using ``Box Tool``	
 
- .. figure:: /images/UModeler_UVEditor_GettingStarted_1.jpg
+2. .. figure:: /images/UModeler_UVEditor_GettingStarted_1.jpg
     :scale: 95 %
 
     Go to ``Tools > UModeler > UV Editor`` at the top menu of the editor or, select ``UV Tool`` and press ``UV Editor`` button.
 
- .. figure:: /images/UModeler_UVEditor_GettingStarted_2.jpg
+3. .. figure:: /images/UModeler_UVEditor_GettingStarted_2.jpg
     :scale: 95 %
  
     Select three polygons visible from the camera.
 
- .. figure:: /images/UModeler_UVEditor_GettingStarted_3.jpg
+4. .. figure:: /images/UModeler_UVEditor_GettingStarted_3.jpg
     :scale: 95 %
  
     Click on ``Plane Unwrap Tool`` (|Icon_UVEditor_Unwrap_PlaneViewUnwrap|) in UV Editor.
 
- .. figure:: /images/UModeler_UVEditor_GettingStarted_4.jpg
+5. .. figure:: /images/UModeler_UVEditor_GettingStarted_4.jpg
     :scale: 95 %
  
     Press ``Unwrap`` button in ``Properties`` window. Then you can check out that the selected polygons are unwrapped.
 	
- .. figure:: /images/UModeler_UVEditor_GettingStarted_5.jpg
+6. .. figure:: /images/UModeler_UVEditor_GettingStarted_5.jpg
     :scale: 95 %
  
     Select ``Move Tool`` and ``Polygon Tool`` on the toolbar and move a unwrapped polygon using the gizmo in UV Editor.
