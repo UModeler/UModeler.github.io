@@ -1,0 +1,277 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Alignment with Line &mdash; Unity UModeler Manual  documentation</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="../../_static/logo_fav_transparent_background.png"/>
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../../genindex.html"/>
+        <link rel="search" title="Search" href="../../search.html"/>
+    <link rel="top" title="Unity UModeler Manual  documentation" href="../../index.html"/>
+        <link rel="up" title="Alignment Group" href="index.html"/>
+        <link rel="next" title="Boundary Alignment Tools" href="AlignWithBoundary.html"/>
+        <link rel="prev" title="Alignment Group" href="index.html"/> 
+
+  
+  <script src="../../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> Unity UModeler Manual
+          
+
+          
+            
+            <img src="../../_static/UModeler_ManualTitle2.png" class="logo" />
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorialvideos.html">Tutorial Videos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../settings.html">Toolbar, Settings and Preference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../menu.html">Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../ElementGroup.html">Elements Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../SelectionGroup/index.html">Selection Group </a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../DrawingGroup/index.html">Drawing Group </a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../PrimitiveShapesGroup/index.html">Primitive Shapes Group </a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../AddGroup/index.html">Add Group </a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../RemoveGroup/index.html">Remove Group </a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../TweakGroup/index.html">Tweak Group </a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../SurfaceGroup/index.html">Surface Group </a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../MiscGroup/index.html">Misc Group </a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">UV Editor</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../toolbar_settings.html">Toolbar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../UnwrapGroup/index.html">Unwrap Group </a></li>
+<li class="toctree-l2"><a class="reference internal" href="../SelectionGroup/index.html">Selection Group </a></li>
+<li class="toctree-l2"><a class="reference internal" href="../QuickTransformGroup/index.html">Quick Transform Group </a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Alignment Group </a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Alignment with Line</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#align-top-tool-icon-uveditor-alignment-aligntop">Align Top Tool </a></li>
+<li class="toctree-l4"><a class="reference internal" href="#align-vertical-center-tool-icon-uveditor-alignment-alignvertcenter">Align Vertical Center Tool </a></li>
+<li class="toctree-l4"><a class="reference internal" href="#align-bottom-tool-icon-uveditor-alignment-alignbottom">Align Bottom Tool </a></li>
+<li class="toctree-l4"><a class="reference internal" href="#align-left-tool-icon-uveditor-alignment-alignleft">Align Left Tool </a></li>
+<li class="toctree-l4"><a class="reference internal" href="#align-horizontal-center-tool-icon-uveditor-alignment-alignhoricenter">Align Horizontal Center Tool </a></li>
+<li class="toctree-l4"><a class="reference internal" href="#align-right-tool-icon-uveditor-alignment-alignright">Align Right Tool </a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="AlignWithBoundary.html">Boundary Alignment Tools </a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../WeldAndBreakGroup/index.html">Weld and Break Group </a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ArrangeGroup/index.html">Arrange Group </a></li>
+<li class="toctree-l2"><a class="reference internal" href="../MiscGroup/index.html">Misc Group </a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../releasenotes.html">Release Notes</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../../index.html">Unity UModeler Manual</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+ 
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../index.html">Docs</a> &raquo;</li>
+      
+          <li><a href="../index.html">UV Editor</a> &raquo;</li>
+      
+          <li><a href="index.html">Alignment Group </a> &raquo;</li>
+      
+    <li>Alignment with Line</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/UVEditor/AlignmentGroup/AlignWithLine.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="alignment-with-line">
+<h1>Alignment with Line<a class="headerlink" href="#alignment-with-line" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="align-top-tool-icon-uveditor-alignment-aligntop">
+<h2>Align Top Tool <a class="reference internal" href="../../_images/Icon_UVEditor_Alignment_AlignTop.png"><img alt="Icon_UVEditor_Alignment_AlignTop" src="../../_images/Icon_UVEditor_Alignment_AlignTop.png" style="width: 26.0px; height: 26.0px;" /></a><a class="headerlink" href="#align-top-tool-icon-uveditor-alignment-aligntop" title="Permalink to this headline">¶</a></h2>
+<p>Aligns the selected element with the top of them</p>
+</div>
+<div class="section" id="align-vertical-center-tool-icon-uveditor-alignment-alignvertcenter">
+<h2>Align Vertical Center Tool <a class="reference internal" href="../../_images/Icon_UVEditor_Alignment_AlignVertCenter.png"><img alt="Icon_UVEditor_Alignment_AlignVertCenter" src="../../_images/Icon_UVEditor_Alignment_AlignVertCenter.png" style="width: 26.0px; height: 26.0px;" /></a><a class="headerlink" href="#align-vertical-center-tool-icon-uveditor-alignment-alignvertcenter" title="Permalink to this headline">¶</a></h2>
+<p>Aligns the selected element with the vertical center of them</p>
+</div>
+<div class="section" id="align-bottom-tool-icon-uveditor-alignment-alignbottom">
+<h2>Align Bottom Tool <a class="reference internal" href="../../_images/Icon_UVEditor_Alignment_AlignBottom.png"><img alt="Icon_UVEditor_Alignment_AlignBottom" src="../../_images/Icon_UVEditor_Alignment_AlignBottom.png" style="width: 26.0px; height: 26.0px;" /></a><a class="headerlink" href="#align-bottom-tool-icon-uveditor-alignment-alignbottom" title="Permalink to this headline">¶</a></h2>
+<p>Aligns the selected element with the bottom of them</p>
+</div>
+<div class="section" id="align-left-tool-icon-uveditor-alignment-alignleft">
+<h2>Align Left Tool <a class="reference internal" href="../../_images/Icon_UVEditor_Alignment_AlignLeft.png"><img alt="Icon_UVEditor_Alignment_AlignLeft" src="../../_images/Icon_UVEditor_Alignment_AlignLeft.png" style="width: 26.0px; height: 26.0px;" /></a><a class="headerlink" href="#align-left-tool-icon-uveditor-alignment-alignleft" title="Permalink to this headline">¶</a></h2>
+<p>Aligns the selected element with the left of them</p>
+</div>
+<div class="section" id="align-horizontal-center-tool-icon-uveditor-alignment-alignhoricenter">
+<h2>Align Horizontal Center Tool <a class="reference internal" href="../../_images/Icon_UVEditor_Alignment_AlignHoriCenter.png"><img alt="Icon_UVEditor_Alignment_AlignHoriCenter" src="../../_images/Icon_UVEditor_Alignment_AlignHoriCenter.png" style="width: 26.0px; height: 26.0px;" /></a><a class="headerlink" href="#align-horizontal-center-tool-icon-uveditor-alignment-alignhoricenter" title="Permalink to this headline">¶</a></h2>
+<p>Aligns the selected element with the horizontal center of them</p>
+</div>
+<div class="section" id="align-right-tool-icon-uveditor-alignment-alignright">
+<h2>Align Right Tool <a class="reference internal" href="../../_images/Icon_UVEditor_Alignment_AlignRight.png"><img alt="Icon_UVEditor_Alignment_AlignRight" src="../../_images/Icon_UVEditor_Alignment_AlignRight.png" style="width: 26.0px; height: 26.0px;" /></a><a class="headerlink" href="#align-right-tool-icon-uveditor-alignment-alignright" title="Permalink to this headline">¶</a></h2>
+<p>Aligns the selected element with the right of them</p>
+<dl class="docutils">
+<dt><a class="reference internal" href="../../_images/UModeler_UVEditor_Alignment_1.jpg"><img alt="UModeler_UVEditor_Alignment_1" src="../../_images/UModeler_UVEditor_Alignment_1.jpg" style="width: 299.0px; height: 359.0px;" /></a> <a class="reference internal" href="../../_images/UModeler_UVEditor_Alignment_0.jpg"><img alt="UModeler_UVEditor_Alignment_0" src="../../_images/UModeler_UVEditor_Alignment_0.jpg" style="width: 299.0px; height: 359.0px;" /></a></dt>
+<dd>Align Bottom Tool</dd>
+<dt><a class="reference internal" href="../../_images/UModeler_UVEditor_Alignment_3.jpg"><img alt="UModeler_UVEditor_Alignment_3" src="../../_images/UModeler_UVEditor_Alignment_3.jpg" style="width: 299.0px; height: 359.0px;" /></a> <a class="reference internal" href="../../_images/UModeler_UVEditor_Alignment_2.jpg"><img alt="UModeler_UVEditor_Alignment_2" src="../../_images/UModeler_UVEditor_Alignment_2.jpg" style="width: 299.0px; height: 359.0px;" /></a></dt>
+<dd>Align Horizontal Center Tool</dd>
+</dl>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="AlignWithBoundary.html" class="btn btn-neutral float-right" title="Boundary Alignment Tools" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral" title="Alignment Group" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, tripolygon.
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

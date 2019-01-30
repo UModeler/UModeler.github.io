@@ -19,7 +19,8 @@ UV Editor
    toolbar_settings.rst
    UnwrapGroup/index.rst
    SelectionGroup/index.rst
-   fliprotatealignment.rst
-   WeldAndBreak.rst
-   Arrange.rst
-   misc.rst   
+   QuickTransformGroup/index.rst
+   AlignmentGroup/index.rst
+   WeldAndBreakGroup/index.rst
+   ArrangeGroup/index.rst
+   MiscGroup/index.rst   

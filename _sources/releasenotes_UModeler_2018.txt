@@ -87,9 +87,9 @@ General
 
 UV Editor
 ---------------
- - Feature : Added ``Packing Tool``. (See :ref:`this <PackingTool>`)
- - Feature : Added ``Fit Tool``. (See :ref:`this <FitTool>`)
- - Feature : Renamed ``Collapse Tool`` to ``Weld Tool`` and divided it into ``Weld to First``, ``Weld to Ave`` and ``Weld to Last``.  (See :ref:`this <WeldTools>`)
+ - Feature : Added ``Packing Tool``.
+ - Feature : Added ``Fit Tool``. 
+ - Feature : Renamed ``Collapse Tool`` to ``Weld Tool`` and divided it into ``Weld to First``, ``Weld to Ave`` and ``Weld to Last``.
  - Enhancement : Auto snapping ``Cross Cursor`` to the cloeset UV vertex.
  - Enhancement : Improved the whole performance.
  - Change : ``Make Island Tool`` has been renamed to ``Detach`` Tool.
@@ -116,11 +116,11 @@ Version 2.1.1
  - Feature : Edge/Polygon Tranform - Added Extrusion fuctions holding ``SHIFT``.
  - Enhancement : Vertex/Edge/Polygon Selection - Added ``Select only visible`` property to selects non occluded elements from a camera. (See :ref:`this <selectonlyvisibleintransform>`)
  - Enhancement : Multi PushPull - Changed a helper line to an arrow.
- - Enhancement : Multi PushPull - Added One step push/pull. (See :ref:`this <onesteppushpull>`)
- - Enhancement : Multi PushPull - Added Vertex Normal type extrusion. (See :ref:`this <vertexnormalpushpull>`)
+ - Enhancement : Multi PushPull - Added One step push/pull.
+ - Enhancement : Multi PushPull - Added Vertex Normal type extrusion.
  - Change : Multip PushPull - ``Individual`` in PushPull type has been renamed to ``Individual Polygon``
  - Change : Removed ``Game Object`` tool and Renamed ``Collider Object`` to ``New UModecler`` in Misc group.
- - Feature : UVTool - Added ``Export`` tool to export uv outlines to .png file. (See :ref:`this <exportuvoutline>`)
+ - Feature : UVTool - Added ``Export`` tool to export uv outlines to .png file.
 
 Version 2.1.0
 ==================================================================================
@@ -161,7 +161,7 @@ Version 2.0.7
 
 Version 2.0.6
 ==================================================================================
- - Feature : New snapping - Snap to X-axis or Y-axis of the current placed points. This makes drawing a rectangle and a right angle triangle etc possible using ``Line Tool`` (See :ref:`this <SnapToXY>`)
+ - Feature : New snapping - Snap to X-axis or Y-axis of the current placed points. This makes drawing a rectangle and a right angle triangle etc possible using ``Line Tool``
  - Feature : Seamless Editing - UModeler objects in a scene can be edited seamlessly. (See :ref:`this <seamless-edit>`)
  - Enhancement : Edge display - Disabled showing invisible parts' edges.
  - Fix : Added recalculating tangents (See :ref:`this <recalculate-tangents>`)
