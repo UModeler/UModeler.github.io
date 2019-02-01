@@ -5,8 +5,6 @@
 Polygon Color Tool |Icon_Surface_PolygonColor|
 ############################################################
 
-(Formerly called as `Color Tool`)
-
 Sets colors to the polygons. Pressing or Dragging ``LMB`` holding ``SHIFT`` will paint a polygon below the mouse cursor in the selected color.
 
 .. note::

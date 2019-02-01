@@ -36,10 +36,10 @@ Apply
 Select
  Selects polygons having the Mat ID.
  
-Add Material
+Add Slot
  Adds a new material to the Material array below.
  
-Remove Material
+Remove Slot
  Removes a material.
  
 Materials
