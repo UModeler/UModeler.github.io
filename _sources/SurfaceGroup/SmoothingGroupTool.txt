@@ -5,14 +5,18 @@
 Smoothing Group Tool |Icon_Surface_SmoothingGroup|
 ##################################################################
 Manages smoothing groups for smooth shading. 
- 
+
+.. figure:: /images/UModeler_SmoothingGroupTool_Properties.jpg
+   :scale: 100 %
+
+   Smoothing Group Tool Properties
+   
 Steps
 -------
 1. Select Smoothing Group tool.
 2. Select polygons with which you want to make a new smoothing group.
-3. Type a smoothing group name in Group Name in Properties.
-4. Click on ``Add`` Group button in Properties to add a new smoothing group.
-5. Make sure that the new smoothing group with the name in Group Name property will be created.
+3. Click on ``Add Slot`` Group button in Properties to add a new smoothing group.
+4. Type a smoothing group name in Group Name in Properties.
 
 Steps - Auto Smooth
 -------------------------
@@ -25,41 +29,46 @@ Properties
 ---------------
 Select Only Visible
  Selects only visible vertices/edges/polygons from a camera. Occluded elements from other polygons will not be selected. This is available only when the game object has MeshCollider component.
-
-Group Name
- The current smoothing group name
- 
-Polygon Count
- The polygon count in the current smoothing group.
  
 Angle
  The threshold angle for ``Auto Smooth``.
  
-Add Group
- Adds a new smoothing group from the current selected polygons.
- 
-Remove Group
- Removes the current smoothing group.
- 
-Rename Group
- Renames the current smoothing group.
- 
-Remove Empty
- Removes smoothing groups which have no polygons.
- 
-Select Polygons
- Selects polygons in the current smoothing group.
- 
-Add Polygons
- Adds the selected polygons to the current smoothing group.
- 
-Remove Polygons
- Gets rid of the selected polygons from the current smoothing group.
- 
 Auto Smooth
  Runs Auto Smooth from the selected polygons based on the value in ``Angle`` property.
  
- Auto Smooth sets the smoothing groups based on the angle between faces. Any two adjacent faces are put in the same smoothing group if the angle between their normals is less than the value in ``Angle`` property.
+ Auto Smooth sets the smoothing groups based on the angle between faces. Any two adjacent faces are put in the same smoothing group if the angle between their normals is less than the value in ``Angle`` property. 
+
+Add Slot
+ Adds a new smoothing group slot from the current selected polygons.
+ 
+Slot Properties
+-----------------
+
+.. figure:: /images/UModeler_SmoothringGroupSlot.jpg
+   :scale: 100 %
+	
+   Smoothing Group Slot
+	
+Number - 1
+ The number of the slot. Selects this slot.
+ 
+Group Name - 2
+ The current smoothing group name
+ 
+Polygon Count - 3
+ The polygon count in the current smoothing group.
+ 
+Remove Group - 4
+ Removes the current smoothing group.
+
+Select Polygons - 5
+ Selects polygons in the current smoothing group.
+
+Add Polygons - 6
+ Adds the selected polygons to the current smoothing group.
+ 
+Remove Polygons - 7
+ Gets rid of the selected polygons from the current smoothing group.
  
 --------------------------------------------------------------------------- 
  

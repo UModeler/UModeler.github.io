@@ -1,27 +1,37 @@
 *************
 Overview
 *************
- | There are two ways of running UVEditor as follows.
- |
- |  • Select ``Tools > UModeler > Open UVEditor`` in the upper menu or 
- |  • Click on ``Open UVEditor`` in ``Surface`` group on the UModeler inspector.
- |
+There are two ways of running UVEditor as follows.
+
+ • Select ``Tools > UModeler > Open UVEditor`` in the upper menu or 
+ • Click on ``Open UVEditor`` in ``Surface`` group on the UModeler inspector.
+
  
  .. figure:: /images/UModeler_UVEditor_Overview_0.jpg
     :scale: 95 %
 
     UVEditor with a UV map
 
- | The UVEditor looks like the upper image and consists of three areas. 
- |
- |  1) ``Toolbar`` - Most frequently used tools. 4 gizmos (Move, Rotate, Scale, Box), 4 elements (UV, Edge, Polygon, UV Island) and, ``Settings`` and ``Cursor`` icons from left to right.
- |  2) ``Menu`` - All tools' icons are located here.
- |  3) ``Property`` - Properties of the current tool.
- |  4) ``Working Area`` - This is used for viewing and editing the UVs.
+The UVEditor looks like the upper image and consists of three areas. 
+
+ 1) ``Toolbar`` - Most frequently used tools. 4 gizmos (Move, Rotate, Scale, Box), 4 elements (UV, Edge, Polygon, UV Island) and, ``Settings`` and ``Cursor`` icons from left to right.
+ 2) ``Menu`` - All tools' icons are located here.
+ 3) ``Property`` - Properties of the current tool.
+ 4) ``Working Area`` - This is used for viewing and editing the UVs.
  
 Automatic UV and Manual UV
 ============================
- | The polygons created in UModeler basically have UVs, which have tiling charactericstic, generated automatically based on position and normal of each vertex. From UModeler 2.0 those UVs can be unwrapped and edited manually using UVEditor. Both types of UVs can exist in one mesh at the same time. 
+The polygons created in UModeler basically have UVs, which have tiling charactericstic, generated automatically based on position and normal of each vertex. From UModeler 2.0 those UVs can be unwrapped and edited manually using UVEditor. Both types of UVs can exist in one mesh at the same time. 
+ 
+.. _autolayout: 
+
+Auto Layout
+===========================
+``LMB Double click`` on a polygon to automatically unwrap and stitch it. This is a very handy way of unwrapping polygons.
+
+ .. figure:: /images/UModeler_AutoLayout.gif
+
+    Auto Layout
  
 Icon or Text based menu
 ===========================
@@ -32,23 +42,25 @@ When you press ``RMB``, the pop up menu will be brought up as below. You can swi
  
 Keyboard
 ==========
-+-----------------+---------------------+
-| ``W``           | Translate Gizmo     |
-+-----------------+---------------------+
-| ``E``           | Rotate Gizmo        |
-+-----------------+---------------------+
-| ``R``           | Scale Gizmo         |
-+-----------------+---------------------+
-| ``T``           | Rect Gizmo          |
-+-----------------+---------------------+
-|``CTRL+Z``       | Undo                |
-+-----------------+---------------------+
-|``CTRL+Y``       | Redo                |
-+-----------------+---------------------+
-|Holding ``SHIFT``| Separate Transform  |
-+-----------------+---------------------+
-|Holding ``CTRL`` | Continuous Selection|
-+-----------------+---------------------+
++---------------------------+---------------------+
+| ``W``                     | Translate Gizmo     |
++---------------------------+---------------------+
+| ``E``                     | Rotate Gizmo        |
++---------------------------+---------------------+
+| ``R``                     | Scale Gizmo         |
++---------------------------+---------------------+
+| ``T``                     | Rect Gizmo          |
++---------------------------+---------------------+
+|``CTRL+Z``                 | Undo                |
++---------------------------+---------------------+
+|``CTRL+Y``                 | Redo                |
++---------------------------+---------------------+
+|Holding ``SHIFT``          | Separate Transform  |
++---------------------------+---------------------+
+|Holding ``CTRL``           | Continuous Selection|
++---------------------------+---------------------+
+|Holding ``Alt`` or ``Cmd`` | Camera panning      |
++---------------------------+---------------------+
 
  .. |Icon_UVEditor_Unwrap_PlaneViewUnwrap| image:: /images/Icon_UVEditor_Unwrap_PlaneViewUnwrap.png
    :scale: 100 %

@@ -173,13 +173,15 @@
 </div>
 </div>
 </div>
+<div class="figure">
+<a class="reference internal image-reference" href="../_images/UModeler_PolygonColorTool.jpg"><img alt="../_images/UModeler_PolygonColorTool.jpg" src="../_images/UModeler_PolygonColorTool.jpg" style="width: 241.0px; height: 260.0px;" /></a>
+</div>
 <div class="section" id="steps">
 <h2>Steps<a class="headerlink" href="#steps" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
 <li>Go to <code class="docutils literal"><span class="pre">Polygon</span> <span class="pre">Color</span> <span class="pre">Tool</span></code></li>
 <li>Select polygons like you did in <code class="docutils literal"><span class="pre">Polygon</span> <span class="pre">Tool</span></code> if no polygon is selected.</li>
-<li>Click <code class="docutils literal"><span class="pre">LMB</span></code> on Color bar in Properties</li>
-<li>Choose a color which you want.</li>
+<li>Click <code class="docutils literal"><span class="pre">LMB</span></code> on a color in the color palette. If there isn&#8217;t color you want, add a new color to the palette.</li>
 </ol>
 </div>
 <div class="section" id="interface">
@@ -197,11 +199,31 @@
 <h2>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
 <dl class="docutils">
 <dt>Select Only Visible</dt>
-<dd>Selects only visible vertices/edges/polygons from a camera. Occluded elements from other polygons will not be selected. This is available only when the game object has MeshCollider component.</dd>
-<dt>Color</dt>
-<dd>Color which will be assigned to the selected polygons.</dd>
-<dt>Select Polygons</dt>
-<dd>Selects polygons with the color in <code class="docutils literal"><span class="pre">Color</span></code> property.</dd>
+<dd>If on, Selects only visible vertices/edges/polygons from a camera. Occluded elements from other polygons will not be selected. This is available only when the game object has MeshCollider component.</dd>
+<dt>Brush Radius</dt>
+<dd>The sphere brush radius</dd>
+<dt>Color Palette</dt>
+<dd>Colors you can use for painting.</dd>
+</dl>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p><cite>Color Palette</cite></p>
+<p>You can keep frequently used colors in the color palette which is used in both <code class="docutils literal"><span class="pre">Vertex</span> <span class="pre">Color</span> <span class="pre">Tool</span></code> and <code class="docutils literal"><span class="pre">Polygon</span> <span class="pre">Color</span> <span class="pre">Tool</span></code>. The color palette is stored in the registry.</p>
+<div class="figure">
+<a class="reference internal image-reference" href="../_images/ColorPalette.jpg"><img alt="../_images/ColorPalette.jpg" src="../_images/ColorPalette.jpg" style="width: 241.0px; height: 118.0px;" /></a>
+</div>
+<ol class="last arabic simple">
+<li>Color number</li>
+<li>Removes the color</li>
+<li>Chooses a color</li>
+<li>Adds a new color</li>
+</ol>
+</div>
+<dl class="docutils">
+<dt>Select Vertices</dt>
+<dd>Selects vertices with the selected color in the color palette.</dd>
+<dt>Paint Vertices</dt>
+<dd>Paints vertices with the selected color in the color palette.</dd>
 </dl>
 <div class="figure" id="id1">
 <a class="reference internal image-reference" href="../_images/UModeler_PolygonColor.jpg"><img alt="../_images/UModeler_PolygonColor.jpg" src="../_images/UModeler_PolygonColor.jpg" style="width: 272.0px; height: 250.0px;" /></a>

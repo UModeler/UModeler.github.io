@@ -101,13 +101,10 @@ Preferences
 
 You can set shortcuts and general settings of UModeler in Unity Preferences window to which you can go through ``Edit > Preferences`` in the top menu. 
 
-.. figure:: /images/PreferenceWin.jpg
+.. figure:: /images/UModeler_Preference.jpg
    :scale: 80 %
 	
-   UModeler Preferences.
-   
-Text Based Menu
- Enables the text based menu
+   UModeler Preference.
 
 Detailed Tooltip
  Enables very detailed tooltip of each tool. If you feel the tooltip occupies much space, you can turn it off.

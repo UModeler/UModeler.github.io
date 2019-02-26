@@ -107,6 +107,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#steps">Steps</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#steps-auto-smooth">Steps - Auto Smooth</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#properties">Properties</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#slot-properties">Slot Properties</a></li>
 </ul>
 </li>
 </ul>
@@ -163,14 +164,17 @@
   <div class="section" id="smoothing-group-tool-icon-surface-smoothinggroup">
 <h1>Smoothing Group Tool <a class="reference internal" href="../_images/Icon_Surface_SmoothingGroup.png"><img alt="Icon_Surface_SmoothingGroup" src="../_images/Icon_Surface_SmoothingGroup.png" style="width: 26.0px; height: 26.0px;" /></a><a class="headerlink" href="#smoothing-group-tool-icon-surface-smoothinggroup" title="Permalink to this headline">¶</a></h1>
 <p>Manages smoothing groups for smooth shading.</p>
+<div class="figure" id="id1">
+<a class="reference internal image-reference" href="../_images/UModeler_SmoothingGroupTool_Properties.jpg"><img alt="../_images/UModeler_SmoothingGroupTool_Properties.jpg" src="../_images/UModeler_SmoothingGroupTool_Properties.jpg" style="width: 324.0px; height: 346.0px;" /></a>
+<p class="caption"><span class="caption-text">Smoothing Group Tool Properties</span></p>
+</div>
 <div class="section" id="steps">
 <h2>Steps<a class="headerlink" href="#steps" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
 <li>Select Smoothing Group tool.</li>
 <li>Select polygons with which you want to make a new smoothing group.</li>
+<li>Click on <code class="docutils literal"><span class="pre">Add</span> <span class="pre">Slot</span></code> Group button in Properties to add a new smoothing group.</li>
 <li>Type a smoothing group name in Group Name in Properties.</li>
-<li>Click on <code class="docutils literal"><span class="pre">Add</span></code> Group button in Properties to add a new smoothing group.</li>
-<li>Make sure that the new smoothing group with the name in Group Name property will be created.</li>
 </ol>
 </div>
 <div class="section" id="steps-auto-smooth">
@@ -187,54 +191,61 @@
 <dl class="docutils">
 <dt>Select Only Visible</dt>
 <dd>Selects only visible vertices/edges/polygons from a camera. Occluded elements from other polygons will not be selected. This is available only when the game object has MeshCollider component.</dd>
-<dt>Group Name</dt>
-<dd>The current smoothing group name</dd>
-<dt>Polygon Count</dt>
-<dd>The polygon count in the current smoothing group.</dd>
 <dt>Angle</dt>
 <dd>The threshold angle for <code class="docutils literal"><span class="pre">Auto</span> <span class="pre">Smooth</span></code>.</dd>
-<dt>Add Group</dt>
-<dd>Adds a new smoothing group from the current selected polygons.</dd>
-<dt>Remove Group</dt>
-<dd>Removes the current smoothing group.</dd>
-<dt>Rename Group</dt>
-<dd>Renames the current smoothing group.</dd>
-<dt>Remove Empty</dt>
-<dd>Removes smoothing groups which have no polygons.</dd>
-<dt>Select Polygons</dt>
-<dd>Selects polygons in the current smoothing group.</dd>
-<dt>Add Polygons</dt>
-<dd>Adds the selected polygons to the current smoothing group.</dd>
-<dt>Remove Polygons</dt>
-<dd>Gets rid of the selected polygons from the current smoothing group.</dd>
 <dt>Auto Smooth</dt>
 <dd><p class="first">Runs Auto Smooth from the selected polygons based on the value in <code class="docutils literal"><span class="pre">Angle</span></code> property.</p>
 <p class="last">Auto Smooth sets the smoothing groups based on the angle between faces. Any two adjacent faces are put in the same smoothing group if the angle between their normals is less than the value in <code class="docutils literal"><span class="pre">Angle</span></code> property.</p>
 </dd>
+<dt>Add Slot</dt>
+<dd>Adds a new smoothing group slot from the current selected polygons.</dd>
+</dl>
+</div>
+<div class="section" id="slot-properties">
+<h2>Slot Properties<a class="headerlink" href="#slot-properties" title="Permalink to this headline">¶</a></h2>
+<div class="figure" id="id2">
+<a class="reference internal image-reference" href="../_images/UModeler_SmoothringGroupSlot.jpg"><img alt="../_images/UModeler_SmoothringGroupSlot.jpg" src="../_images/UModeler_SmoothringGroupSlot.jpg" style="width: 324.0px; height: 100.0px;" /></a>
+<p class="caption"><span class="caption-text">Smoothing Group Slot</span></p>
+</div>
+<dl class="docutils">
+<dt>Number - 1</dt>
+<dd>The number of the slot. Selects this slot.</dd>
+<dt>Group Name - 2</dt>
+<dd>The current smoothing group name</dd>
+<dt>Polygon Count - 3</dt>
+<dd>The polygon count in the current smoothing group.</dd>
+<dt>Remove Group - 4</dt>
+<dd>Removes the current smoothing group.</dd>
+<dt>Select Polygons - 5</dt>
+<dd>Selects polygons in the current smoothing group.</dd>
+<dt>Add Polygons - 6</dt>
+<dd>Adds the selected polygons to the current smoothing group.</dd>
+<dt>Remove Polygons - 7</dt>
+<dd>Gets rid of the selected polygons from the current smoothing group.</dd>
 </dl>
 <hr class="docutils" />
-<div class="figure" id="id1">
+<div class="figure" id="id3">
 <a class="reference internal image-reference" href="../_images/UModeler_SmoothingGroup_0.jpg"><img alt="../_images/UModeler_SmoothingGroup_0.jpg" src="../_images/UModeler_SmoothingGroup_0.jpg" style="width: 272.0px; height: 250.0px;" /></a>
 <p class="caption"><span class="caption-text">A sphere mesh before applying a smoothing group</span></p>
 </div>
-<div class="figure" id="id2">
+<div class="figure" id="id4">
 <a class="reference internal image-reference" href="../_images/UModeler_SmoothingGroup_1.jpg"><img alt="../_images/UModeler_SmoothingGroup_1.jpg" src="../_images/UModeler_SmoothingGroup_1.jpg" style="width: 272.0px; height: 250.0px;" /></a>
 <p class="caption"><span class="caption-text">Adds a column of polygons to a smoothing group.</span></p>
 </div>
-<div class="figure" id="id3">
+<div class="figure" id="id5">
 <a class="reference internal image-reference" href="../_images/UModeler_SmoothingGroup_2.jpg"><img alt="../_images/UModeler_SmoothingGroup_2.jpg" src="../_images/UModeler_SmoothingGroup_2.jpg" style="width: 272.0px; height: 250.0px;" /></a>
 <p class="caption"><span class="caption-text">The polygons are shaded smoothly.</span></p>
 </div>
 <hr class="docutils" />
-<div class="figure" id="id4">
+<div class="figure" id="id6">
 <a class="reference internal image-reference" href="../_images/UModeler_SmoothingGroup_3.jpg"><img alt="../_images/UModeler_SmoothingGroup_3.jpg" src="../_images/UModeler_SmoothingGroup_3.jpg" style="width: 272.0px; height: 250.0px;" /></a>
 <p class="caption"><span class="caption-text">A cylinder before applying the smoothing group.</span></p>
 </div>
-<div class="figure" id="id5">
+<div class="figure" id="id7">
 <a class="reference internal image-reference" href="../_images/UModeler_SmoothingGroup_4.jpg"><img alt="../_images/UModeler_SmoothingGroup_4.jpg" src="../_images/UModeler_SmoothingGroup_4.jpg" style="width: 272.0px; height: 250.0px;" /></a>
 <p class="caption"><span class="caption-text">Applies the auto smooth after selecting all polygons of the cylinder.</span></p>
 </div>
-<div class="figure" id="id6">
+<div class="figure" id="id8">
 <a class="reference internal image-reference" href="../_images/UModeler_SmoothingGroup_5.jpg"><img alt="../_images/UModeler_SmoothingGroup_5.jpg" src="../_images/UModeler_SmoothingGroup_5.jpg" style="width: 272.0px; height: 250.0px;" /></a>
 <p class="caption"><span class="caption-text">3 smoothing groups are created - top polygon, bottom polygon and side polygons.</span></p>
 </div>

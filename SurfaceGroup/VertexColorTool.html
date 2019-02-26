@@ -174,13 +174,15 @@
 </div>
 </div>
 </div>
+<div class="figure">
+<a class="reference internal image-reference" href="../_images/UModeler_VertexColorTool.jpg"><img alt="../_images/UModeler_VertexColorTool.jpg" src="../_images/UModeler_VertexColorTool.jpg" style="width: 284.0px; height: 282.0px;" /></a>
+</div>
 <div class="section" id="steps-1">
 <h2>Steps - 1<a class="headerlink" href="#steps-1" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
 <li>Go to <code class="docutils literal"><span class="pre">Vertex</span> <span class="pre">Color</span> <span class="pre">Tool</span></code></li>
 <li>Select Vertices like you did in <code class="docutils literal"><span class="pre">Vertex</span> <span class="pre">Tool</span></code> if no vertex is selected.</li>
-<li>Click <code class="docutils literal"><span class="pre">LMB</span></code> on Color bar in Properties</li>
-<li>Choose a color which you want.</li>
+<li>Click <code class="docutils literal"><span class="pre">LMB</span></code> on a color in the color palette. If there isn&#8217;t color you want, add a new color to the palette.</li>
 </ol>
 </div>
 <div class="section" id="steps-2">
@@ -198,7 +200,7 @@
 <dt><code class="docutils literal"><span class="pre">Shift</span></code></dt>
 <dd>Makes the sphere brush visible.</dd>
 <dt><code class="docutils literal"><span class="pre">SHIFT</span> <span class="pre">+</span> <span class="pre">LMB</span></code></dt>
-<dd>Assigns the color in Color bar in Properties to vertices within the sphere brush.</dd>
+<dd>Assigns the selected color in the color palette to vertices within the sphere brush.</dd>
 <dt><code class="docutils literal"><span class="pre">SHIFT</span> <span class="pre">+</span> <span class="pre">Scroll</span> <span class="pre">Wheel</span></code></dt>
 <dd>Increases the size of the brush.</dd>
 <dt><code class="docutils literal"><span class="pre">LMB</span> <span class="pre">Drag</span></code></dt>
@@ -210,12 +212,30 @@
 <dl class="docutils">
 <dt>Select Only Visible</dt>
 <dd>If on, Selects only visible vertices/edges/polygons from a camera. Occluded elements from other polygons will not be selected. This is available only when the game object has MeshCollider component.</dd>
-<dt>Color</dt>
-<dd>Color which will be assigned to the selected vertices.</dd>
 <dt>Brush Radius</dt>
 <dd>The sphere brush radius</dd>
+<dt>Color Palette</dt>
+<dd>Colors you can use for painting.</dd>
+</dl>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p><cite>Color Palette</cite></p>
+<p>You can keep frequently used colors in the color palette which is used in both <code class="docutils literal"><span class="pre">Vertex</span> <span class="pre">Color</span> <span class="pre">Tool</span></code> and <code class="docutils literal"><span class="pre">Polygon</span> <span class="pre">Color</span> <span class="pre">Tool</span></code>. The color palette is stored in the registry.</p>
+<div class="figure">
+<a class="reference internal image-reference" href="../_images/ColorPalette.jpg"><img alt="../_images/ColorPalette.jpg" src="../_images/ColorPalette.jpg" style="width: 241.0px; height: 118.0px;" /></a>
+</div>
+<ol class="last arabic simple">
+<li>Color number</li>
+<li>Removes the color</li>
+<li>Chooses a color</li>
+<li>Adds a new color</li>
+</ol>
+</div>
+<dl class="docutils">
 <dt>Select Vertices</dt>
-<dd>Selects vertices with the color in <code class="docutils literal"><span class="pre">Color</span></code> property.</dd>
+<dd>Selects vertices with the selected color in the color palette.</dd>
+<dt>Paint Vertices</dt>
+<dd>Paints vertices with the selected color in the color palette.</dd>
 </dl>
 <div class="figure" id="id1">
 <a class="reference internal image-reference" href="../_images/UModeler_VertexColor.jpg"><img alt="../_images/UModeler_VertexColor.jpg" src="../_images/UModeler_VertexColor.jpg" style="width: 272.0px; height: 250.0px;" /></a>

@@ -10,54 +10,73 @@ Sets UV parameters such as ``Shift``, ``Scale`` and ``Rotation`` etc to each pol
 .. note::
 
  UV Tool doesn't affect unwrapped polygons.
+  
+.. figure:: /images/UModeler_UVTool.jpg
+   :scale: 100 % 
  
 Steps
 ---------------
 1. Select ``UV Tool``.
 2. Select polygons like you did in Polygon tool if no polygon is selected.
 3. Adjust ``Shift``, ``Scale`` and ``Rotation`` properties in Properties.
+4. Or transform UVs of polygons using ``Move``, ``Rotate``, ``Scale`` Tools
 
-Interface
------------
+.. |UModeler_UV_MoveTool| image:: /images/UModeler_UVTool_MoveGizmo.gif
+   :scale: 90 %
+   
+.. |UModeler_UV_RotateTool| image:: /images/UModeler_UVTool_RotateGizmo.gif
+   :scale: 90 %
 
-``CTRL`` + ``UP ARROW``
- Moves the UVs of the selected polygons up.
+.. |UModeler_UV_ScaleTool| image:: /images/UModeler_UVTool_ScaleGizmo.gif
+   :scale: 90 %
  
-``CTRL`` + ``DOWN ARROW``
- Moves the UVs of the selected polygons down.
+|UModeler_UV_MoveTool| |UModeler_UV_RotateTool| |UModeler_UV_ScaleTool|
+ Direct Move, Rotate and Scale of UVs using ``Move``, ``Rotate`` and ``Scale`` tools. They are switched among them by clicking on the tool bar buttons in the properties or pressing ``W``, ``E``, ``R`` on keyboard.
 
 Properties
 ---------------
+Move
+ Enables ``Move tool``. The shortcut is ``W`` 
+
+Rotate
+ Enables ``Rotate tool``. The shortcut is ``E``
+
+Scale
+ Enables ``Scale tool``. The shortcut is ``R``
+
+Hide Overlay
+ Hides polygon selection overlays to see the selected polygons' textures more clearly.
+
 Select Only Visible
- If on, Selects only visible vertices/edges/polygons from a camera. Occluded elements from other polygons will not be selected. This is available only when the game object has MeshCollider component.
- 
-Mode
- * ``Absolute`` : The properties are set to the selected polygons directly
- * ``Relative`` : The properties are added to the selected polygons.
+ If on, Selects only visible vertices/edges/polygons from a camera. Occluded elements from other polygons will not be selected. This is available only when the game object has MeshCollider component.  
  
 Shift
  Shift of UVs
  
-Scale
- Scale of UVs
- 
 Rotation
  Rotation of UVs
+
+Scale
+ Scale of UVs 
  
 Tiling
- * ``X`` : Changes texture tiling on selected surfaces in the X direction.
- * ``Y`` : Changes texture tiling on selected surfaces in the Y direction.
+ Runs the tiling according ``X`` and ``Y`` properties next to this.
  
-Fix UVs according to Tiling
- Based on Tiling properties the UVs of the selected polygons are fixed.
- The bigger Tiling properties are, the denser texture tiling is.
+X
+ Changes texture tiling on selected surfaces in the X direction.
+ 
+Y
+ Changes texture tiling on selected surfaces in the Y direction.
+ 
+Fit UVs
+ Fits the UVs into (0,1) in each of the selected polygons.
+ 
+Reset UVs
+ Resets the UVs of the selected polygons to make them initial UVs.
  
 .. _OpenUVEditor:
 Open UVEditor
  Opens UV Editor window.
- 
-Reset UVs
- Resets UV parameters of the selected polygons.
  
 .. |UModeler_UV_0| image:: /images/UModeler_UV_0.jpg
    :scale: 100 %

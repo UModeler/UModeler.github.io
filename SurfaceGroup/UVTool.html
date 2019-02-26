@@ -102,7 +102,6 @@
 <li class="toctree-l2"><a class="reference internal" href="MaterialTool.html">Material Tool </a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">UV Tool </a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#steps">Steps</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#interface">Interface</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#properties">Properties</a></li>
 </ul>
 </li>
@@ -167,55 +166,55 @@
 <p class="first admonition-title">Note</p>
 <p class="last">UV Tool doesn&#8217;t affect unwrapped polygons.</p>
 </div>
+<div class="figure">
+<a class="reference internal image-reference" href="../_images/UModeler_UVTool.jpg"><img alt="../_images/UModeler_UVTool.jpg" src="../_images/UModeler_UVTool.jpg" style="width: 336.0px; height: 273.0px;" /></a>
+</div>
 <div class="section" id="steps">
 <h2>Steps<a class="headerlink" href="#steps" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
 <li>Select <code class="docutils literal"><span class="pre">UV</span> <span class="pre">Tool</span></code>.</li>
 <li>Select polygons like you did in Polygon tool if no polygon is selected.</li>
 <li>Adjust <code class="docutils literal"><span class="pre">Shift</span></code>, <code class="docutils literal"><span class="pre">Scale</span></code> and <code class="docutils literal"><span class="pre">Rotation</span></code> properties in Properties.</li>
+<li>Or transform UVs of polygons using <code class="docutils literal"><span class="pre">Move</span></code>, <code class="docutils literal"><span class="pre">Rotate</span></code>, <code class="docutils literal"><span class="pre">Scale</span></code> Tools</li>
 </ol>
-</div>
-<div class="section" id="interface">
-<h2>Interface<a class="headerlink" href="#interface" title="Permalink to this headline">¶</a></h2>
 <dl class="docutils">
-<dt><code class="docutils literal"><span class="pre">CTRL</span></code> + <code class="docutils literal"><span class="pre">UP</span> <span class="pre">ARROW</span></code></dt>
-<dd>Moves the UVs of the selected polygons up.</dd>
-<dt><code class="docutils literal"><span class="pre">CTRL</span></code> + <code class="docutils literal"><span class="pre">DOWN</span> <span class="pre">ARROW</span></code></dt>
-<dd>Moves the UVs of the selected polygons down.</dd>
+<dt><a class="reference internal" href="../_images/UModeler_UVTool_MoveGizmo.gif"><img alt="UModeler_UV_MoveTool" src="../_images/UModeler_UVTool_MoveGizmo.gif" style="width: 220.5px; height: 181.8px;" /></a> <a class="reference internal" href="../_images/UModeler_UVTool_RotateGizmo.gif"><img alt="UModeler_UV_RotateTool" src="../_images/UModeler_UVTool_RotateGizmo.gif" style="width: 220.5px; height: 181.8px;" /></a> <a class="reference internal" href="../_images/UModeler_UVTool_ScaleGizmo.gif"><img alt="UModeler_UV_ScaleTool" src="../_images/UModeler_UVTool_ScaleGizmo.gif" style="width: 220.5px; height: 181.8px;" /></a></dt>
+<dd>Direct Move, Rotate and Scale of UVs using <code class="docutils literal"><span class="pre">Move</span></code>, <code class="docutils literal"><span class="pre">Rotate</span></code> and <code class="docutils literal"><span class="pre">Scale</span></code> tools. They are switched among them by clicking on the tool bar buttons in the properties or pressing <code class="docutils literal"><span class="pre">W</span></code>, <code class="docutils literal"><span class="pre">E</span></code>, <code class="docutils literal"><span class="pre">R</span></code> on keyboard.</dd>
 </dl>
 </div>
 <div class="section" id="properties">
 <h2>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
 <dl class="docutils">
+<dt>Move</dt>
+<dd>Enables <code class="docutils literal"><span class="pre">Move</span> <span class="pre">tool</span></code>. The shortcut is <code class="docutils literal"><span class="pre">W</span></code></dd>
+<dt>Rotate</dt>
+<dd>Enables <code class="docutils literal"><span class="pre">Rotate</span> <span class="pre">tool</span></code>. The shortcut is <code class="docutils literal"><span class="pre">E</span></code></dd>
+<dt>Scale</dt>
+<dd>Enables <code class="docutils literal"><span class="pre">Scale</span> <span class="pre">tool</span></code>. The shortcut is <code class="docutils literal"><span class="pre">R</span></code></dd>
+<dt>Hide Overlay</dt>
+<dd>Hides polygon selection overlays to see the selected polygons&#8217; textures more clearly.</dd>
 <dt>Select Only Visible</dt>
 <dd>If on, Selects only visible vertices/edges/polygons from a camera. Occluded elements from other polygons will not be selected. This is available only when the game object has MeshCollider component.</dd>
-<dt>Mode</dt>
-<dd><ul class="first last simple">
-<li><code class="docutils literal"><span class="pre">Absolute</span></code> : The properties are set to the selected polygons directly</li>
-<li><code class="docutils literal"><span class="pre">Relative</span></code> : The properties are added to the selected polygons.</li>
-</ul>
-</dd>
 <dt>Shift</dt>
 <dd>Shift of UVs</dd>
-<dt>Scale</dt>
-<dd>Scale of UVs</dd>
 <dt>Rotation</dt>
 <dd>Rotation of UVs</dd>
+<dt>Scale</dt>
+<dd>Scale of UVs</dd>
 <dt>Tiling</dt>
-<dd><ul class="first last simple">
-<li><code class="docutils literal"><span class="pre">X</span></code> : Changes texture tiling on selected surfaces in the X direction.</li>
-<li><code class="docutils literal"><span class="pre">Y</span></code> : Changes texture tiling on selected surfaces in the Y direction.</li>
-</ul>
-</dd>
-<dt>Fix UVs according to Tiling</dt>
-<dd>Based on Tiling properties the UVs of the selected polygons are fixed.
-The bigger Tiling properties are, the denser texture tiling is.</dd>
+<dd>Runs the tiling according <code class="docutils literal"><span class="pre">X</span></code> and <code class="docutils literal"><span class="pre">Y</span></code> properties next to this.</dd>
+<dt>X</dt>
+<dd>Changes texture tiling on selected surfaces in the X direction.</dd>
+<dt>Y</dt>
+<dd>Changes texture tiling on selected surfaces in the Y direction.</dd>
+<dt>Fit UVs</dt>
+<dd>Fits the UVs into (0,1) in each of the selected polygons.</dd>
+<dt>Reset UVs</dt>
+<dd>Resets the UVs of the selected polygons to make them initial UVs.</dd>
 </dl>
 <dl class="docutils">
 <dt>Open UVEditor</dt>
 <dd>Opens UV Editor window.</dd>
-<dt>Reset UVs</dt>
-<dd>Resets UV parameters of the selected polygons.</dd>
 </dl>
 <dl class="docutils">
 <dt><a class="reference internal" href="../_images/UModeler_UV_0.jpg"><img alt="UModeler_UV_0" src="../_images/UModeler_UV_0.jpg" style="width: 272.0px; height: 250.0px;" /></a> <a class="reference internal" href="../_images/UModeler_UV_1.jpg"><img alt="UModeler_UV_1" src="../_images/UModeler_UV_1.jpg" style="width: 272.0px; height: 250.0px;" /></a></dt>

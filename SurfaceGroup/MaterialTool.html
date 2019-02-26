@@ -103,6 +103,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#steps">Steps</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#interface">Interface</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#properties">Properties</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#uis-of-material-slot">UIs of Material Slot</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="UVTool.html">UV Tool </a></li>
@@ -163,12 +164,17 @@
   <div class="section" id="material-tool-icon-surface-material">
 <h1>Material Tool <a class="reference internal" href="../_images/Icon_Surface_Material.png"><img alt="Icon_Surface_Material" src="../_images/Icon_Surface_Material.png" style="width: 26.0px; height: 26.0px;" /></a><a class="headerlink" href="#material-tool-icon-surface-material" title="Permalink to this headline">¶</a></h1>
 <p>Adds and assigns materials to the polygons.</p>
+<blockquote>
+<div><div class="figure">
+<img alt="../_images/UModeler_MaterialTool2.5.jpg" src="../_images/UModeler_MaterialTool2.5.jpg" />
+</div>
+</div></blockquote>
 <div class="section" id="steps">
 <h2>Steps<a class="headerlink" href="#steps" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
 <li>Select <code class="docutils literal"><span class="pre">Material</span> <span class="pre">Tool</span></code>.</li>
 <li>Select polygons where you want to assign a material if no polygon is selected.</li>
-<li>If <code class="docutils literal"><span class="pre">Materials</span></code> doesn’t have a material you want, add a new material by clicking <code class="docutils literal"><span class="pre">Add</span> <span class="pre">Material</span></code> button to open the material box and select one.</li>
+<li>If <code class="docutils literal"><span class="pre">Materials</span></code> doesn’t have a material you want, add a new material slot by clicking <code class="docutils literal"><span class="pre">Add</span> <span class="pre">Slot</span></code> button at the end of the properties to open the material box and select one.</li>
 <li>Click <code class="docutils literal"><span class="pre">LMB</span></code> holding <code class="docutils literal"><span class="pre">SHIFT</span></code> over a polygon to which you want to assign the current material.</li>
 </ol>
 </div>
@@ -188,20 +194,27 @@
 <dl class="docutils">
 <dt>Select Only Visible</dt>
 <dd>If on, Selects only visible vertices/edges/polygons from a camera. Occluded elements from other polygons will not be selected. This is available only when the game object has MeshCollider component.</dd>
-<dt>Apply</dt>
-<dd>Assigns the Mat ID to the selected polygons.</dd>
-<dt>Select</dt>
-<dd>Selects polygons having the Mat ID.</dd>
 <dt>Add Slot</dt>
-<dd>Adds a new material to the Material array below.</dd>
-<dt>Remove Slot</dt>
-<dd>Removes a material.</dd>
-<dt>Materials</dt>
-<dd>Material array</dd>
+<dd>Adds a new material slot.</dd>
+</dl>
+</div>
+<div class="section" id="uis-of-material-slot">
+<h2>UIs of Material Slot<a class="headerlink" href="#uis-of-material-slot" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt>Texture Button</dt>
+<dd>Selects a slot.</dd>
+<dt>A (Apply polygons)</dt>
+<dd>Assigns the Mat ID to the selected polygons.</dd>
+<dt>S (Select polygons)</dt>
+<dd>Selects polygons having the Mat ID.</dd>
+<dt>Minus - (Remove a Slot)</dt>
+<dd>Removes a slot at which the mouse cursor points.</dd>
+<dt>Material Box</dt>
+<dd>Selects a material.</dd>
 </dl>
 <dl class="docutils">
 <dt><a class="reference internal" href="../_images/UModeler_Material_0.jpg"><img alt="UModeler_Material_0" src="../_images/UModeler_Material_0.jpg" style="width: 272.0px; height: 250.0px;" /></a> <a class="reference internal" href="../_images/UModeler_Material_1.jpg"><img alt="UModeler_Material_1" src="../_images/UModeler_Material_1.jpg" style="width: 272.0px; height: 250.0px;" /></a></dt>
-<dd>A different material is assigned to two polygons shown as above.</dd>
+<dd>Two polygons are selected (Left image) and a metal material is assigned there (Right image).</dd>
 </dl>
 </div>
 </div>
