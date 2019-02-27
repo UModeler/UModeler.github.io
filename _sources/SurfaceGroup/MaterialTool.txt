@@ -42,7 +42,7 @@ UIs of Material Slot
 Texture Button
  Selects a slot.
 
-A (Apply polygons)
+A (Apply)
  Assigns the Mat ID to the selected polygons.
  
 S (Select polygons)

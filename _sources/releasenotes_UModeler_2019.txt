@@ -4,7 +4,7 @@ UModeler 2019
 
  .. figure:: /images/umodelerintroduction.png 
  
-Version 2.5 - Due on Feb,28th 2019
+Version 2.5 - 2019.2.26
 ==================================================================================
  - New Feature : Add UV Auto Layout function to the polygon tool.
  - New Feature : Add Color palettes to Vertex/Polygon color tools
@@ -28,7 +28,7 @@ Version 2.5 - Due on Feb,28th 2019
  - BugFix : Fix a bug not updating collider immediately.
  - BugFix : Fix a bug drawing a unexpected selection quad just when UV Editor is opened. 
  
-Version 2.4 - Released Jan 4th, 2019
+Version 2.4 - 2019.1.4
 ==================================================================================
  - Enhancement : Kept Toolbar visible while the text menu is enabled.
  - Enhancement : Stored the manu type in the registry whenever the menu is changed between text based and icon based
