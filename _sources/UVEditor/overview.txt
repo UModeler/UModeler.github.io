@@ -55,7 +55,7 @@ Keyboard
 +---------------------------+---------------------+
 |``CTRL+Y``                 | Redo                |
 +---------------------------+---------------------+
-|Holding ``SHIFT``          | Separate Transform  |
+|Holding ``SHIFT+CTRL``     | Separate Transform  |
 +---------------------------+---------------------+
 |Holding ``CTRL``           | Continuous Selection|
 +---------------------------+---------------------+
