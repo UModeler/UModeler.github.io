@@ -4,27 +4,31 @@ Tutorial Videos
 
 Here are the videos on how to build meshes and levels with UModeler.
 
-.. |LoyPolyModelingTutorial| image:: /images/LowPolyModeling.jpg   
-.. _LoyPolyModelingTutorial: https://www.youtube.com/playlist?list=PLKfydgNGUTp0zngLd9spUHkmJCMlBK28L
+.. |LoyPolyModelingTutorial| raw:: html
 
-.. |ModernHouseModelingTutorial| image:: /images/ModernHouseTutorial.jpg
-.. _ModernHouseModelingTutorial: https://www.youtube.com/playlist?list=PLKfydgNGUTp1zuNcMCBphdzvq8Gbyzv7P
+   <a href="https://www.youtube.com/playlist?list=PLKfydgNGUTp0zngLd9spUHkmJCMlBK28L" target="_blank"><img src="_images/LowPolyModeling.jpg"></a>
 
-.. |RuinsModelingTutorial| image:: /images/RuinsModeling.jpg
-.. _RuinsModelingTutorial: https://www.youtube.com/playlist?list=PLKfydgNGUTp1U7UR8eX7oQbkOQRjEl1Qm
-   
-.. |SimpleHousesTutorial| image:: /images/SimpleHouses.jpg
-.. _SimpleHousesTutorial: https://www.youtube.com/playlist?list=PLKfydgNGUTp1SQjGIPQMDWbPgRzR1IcGf   
+.. |ModernHouseModelingTutorial| raw:: html
 
-.. |WoodenCrateModelingTutorial| image:: /images/CrateModeling.jpg
-.. _WoodenCrateModelingTutorial: https://www.youtube.com/playlist?list=PLKfydgNGUTp2OyPhjL_Pl4XSB30X2efIA
+   <a href="https://www.youtube.com/playlist?list=PLKfydgNGUTp1zuNcMCBphdzvq8Gbyzv7P" target="_blank"><img src="_images/ModernHouseTutorial.jpg"></a>
 
-|LoyPolyModelingTutorial|_
-|SimpleHousesTutorial|_
-|ModernHouseModelingTutorial|_
-|RuinsModelingTutorial|_
-|WoodenCrateModelingTutorial|_
+.. |RuinsModelingTutorial| raw:: html
 
+   <a href="https://www.youtube.com/playlist?list=PLKfydgNGUTp1U7UR8eX7oQbkOQRjEl1Qm" target="_blank"><img src="_images/RuinsModeling.jpg"></a>
+
+.. |SimpleHousesTutorial| raw:: html
+
+   <a href="https://www.youtube.com/playlist?list=PLKfydgNGUTp1SQjGIPQMDWbPgRzR1IcGf" target="_blank"><img src="_images/SimpleHouses.jpg"></a>
+
+.. |WoodenCrateModelingTutorial| raw:: html
+
+   <a href="https://www.youtube.com/playlist?list=PLKfydgNGUTp2OyPhjL_Pl4XSB30X2efIA" target="_blank"><img src="_images/CrateModeling.jpg"></a>
+
+|LoyPolyModelingTutorial|
+|SimpleHousesTutorial|
+|ModernHouseModelingTutorial|
+|RuinsModelingTutorial|
+|WoodenCrateModelingTutorial|
 
 .. raw:: html
 
