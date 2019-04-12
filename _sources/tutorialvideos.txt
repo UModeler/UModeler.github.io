@@ -2,8 +2,6 @@
 Tutorial Videos
 ##################
 
-Here are the videos on how to build meshes and levels with UModeler.
-
 .. |LoyPolyModelingTutorial| raw:: html
 
    <a href="https://www.youtube.com/watch?v=TTqsMTbS0TQ&list=PLKfydgNGUTp0zngLd9spUHkmJCMlBK28L" target="_blank"><img src="_images/LowPolyModeling.jpg"></a>
@@ -23,19 +21,14 @@ Here are the videos on how to build meshes and levels with UModeler.
 .. |WoodenCrateModelingTutorial| raw:: html
 
    <a href="https://www.youtube.com/watch?v=iktqObXK1no&list=PLKfydgNGUTp2OyPhjL_Pl4XSB30X2efIA" target="_blank"><img src="_images/CrateModeling.jpg"></a>
+   
+.. |DumbgamedevTutorials| raw:: html   
+
+   <a href="https://www.youtube.com/watch?v=YIL_CMNLv0E&list=PLKfydgNGUTp2nq58-NzpW26McdwaGaUGN" target="_blank"><img src="_images/dumbgamedev_tutorials.jpg"></a>
 
 |LoyPolyModelingTutorial|
 |SimpleHousesTutorial|
 |ModernHouseModelingTutorial|
 |RuinsModelingTutorial|
 |WoodenCrateModelingTutorial|
-
-.. raw:: html
-
- <iframe width="560" height="315" src="https://www.youtube.com/embed/YIL_CMNLv0E" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-
- <iframe width="560" height="315" src="https://www.youtube.com/embed/2vnT5kb2wZM" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-
- <iframe width="560" height="315" src="https://www.youtube.com/embed/KO-iJHhzmus" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
- 
- <iframe width="560" height="315" src="https://www.youtube.com/embed/HKSHaLy6XFc" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe> 
+|DumbgamedevTutorials|
