@@ -19,7 +19,6 @@
     :maxdepth: 1
    
     overview
-    tutorialvideos
     settings
     menu
     ElementGroup
@@ -52,12 +51,7 @@ Sections
       .. container:: descr
 
          :doc:`overview`
-            An overview of UModeler and an introduction of menu, input controls and tools.
-			
-      .. container:: descr
-
-         :doc:`tutorialvideos`
-            descriptions and videos for beginners.
+            An overview of UModeler and an introduction of menu, input controls and tools.			
 			
       .. container:: descr
 
