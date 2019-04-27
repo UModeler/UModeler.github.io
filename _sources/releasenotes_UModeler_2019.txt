@@ -4,6 +4,17 @@ UModeler 2019
 
  .. figure:: /images/umodelerintroduction.png 
  
+Version 2.6 - 2019.4.30
+==================================================================================
+ - Enhancement : UModeler folder location can be anywhere because UModeler detects the root folder.
+ - Enhancement : ``Line Tool`` - Handled snap priority between Axis Snap and Either XY Snap
+ - Enhancement : Added two buttons to MeshFilter component inspector to have the mesh saved as .asset file
+ - Enhancement : Added [Don't save in build] to ``Local Settings`` tool to decide if UModeler component is included or not in build version.
+ - Enhancement : Enables to build UModeler mesh at runtime
+ - Enhancement : Renewed the Preference window. 
+ - BugFix : Fix bug where icons are not displayed when UModeler folder is moved.
+ - Change : Adds preselection color setting to ``Color settings`` in ``Preference``
+ 
 Version 2.5 - 2019.2.26
 ==================================================================================
  - New Feature : Add UV Auto Layout function to the polygon tool.
