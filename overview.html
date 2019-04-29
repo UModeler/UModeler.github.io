@@ -60,7 +60,7 @@
 
           
             
-            <img src="_static/UModeler_ManualTitle_3.png" class="logo" />
+            <img src="_static/UModeler_ManualTitle_2.png" class="logo" />
           
           </a>
 
@@ -91,11 +91,13 @@
 <li class="toctree-l2"><a class="reference internal" href="#install">Install</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#layout">Layout</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#user-interface">User Interface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#meshfilter-component">MeshFilter Component</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#let-s-get-started-with-a-box">Let&#8217;s get started with a box.</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="settings.html">Toolbar, Settings and Preference</a></li>
 <li class="toctree-l1"><a class="reference internal" href="menu.html">Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FAQ.html">FAQ</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ElementGroup.html">Elements Group</a></li>
 <li class="toctree-l1"><a class="reference internal" href="SelectionGroup/index.html">Selection Group </a></li>
 <li class="toctree-l1"><a class="reference internal" href="DrawingGroup/index.html">Drawing Group </a></li>
@@ -269,6 +271,27 @@
 </tbody>
 </table>
 <p><code class="docutils literal"><span class="pre">LMB</span></code> - Left Mouse Button <code class="docutils literal"><span class="pre">CTRL</span></code> - Control Key</p>
+</div>
+<hr class="docutils" />
+<div class="section" id="meshfilter-component">
+<h2>MeshFilter Component<a class="headerlink" href="#meshfilter-component" title="Permalink to this headline">¶</a></h2>
+<p>From UModeler 2.6 new UIs only for UModeler have been added to MeshFilter component to save a mesh in MeshFilter component as .asset file.
+The biggest reason of this is to deal with a situation of missing a mesh in a prefab.
+For example the mesh of the UModeler prefab is sometimes lost when UModeler component of an instance of the prefab is removed and the change is applied.
+If you saved the mesh in the prefab as .asset in advance, you would be able to cope with this.</p>
+<p>When you create a UModeler object at first, the mesh doesn&#8217;t exist yet.</p>
+<blockquote>
+<div><div class="figure">
+<a class="reference internal image-reference" href="_images/MeshFilterComonent(1).jpg"><img alt="_images/MeshFilterComonent(1).jpg" src="_images/MeshFilterComonent(1).jpg" style="width: 261.25px; height: 95.0px;" /></a>
+</div>
+</div></blockquote>
+<p>The new asset file named after the mesh name is created after you click on Save button.</p>
+<blockquote>
+<div><div class="figure">
+<a class="reference internal image-reference" href="_images/MeshFilterComonent(2).jpg"><img alt="_images/MeshFilterComonent(2).jpg" src="_images/MeshFilterComonent(2).jpg" style="width: 261.25px; height: 95.0px;" /></a>
+</div>
+</div></blockquote>
+<p>With Save As button, you can rename it or save it in a different folder.</p>
 </div>
 <hr class="docutils" />
 <div class="section" id="let-s-get-started-with-a-box">

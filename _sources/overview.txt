@@ -111,6 +111,28 @@ User Interface
 
 ----------------------------------------------------------------------------------------------------------------------
 
+MeshFilter Component 
+===========================
+
+From UModeler 2.6 new UIs only for UModeler have been added to MeshFilter component to save a mesh in MeshFilter component as .asset file.
+The biggest reason of this is to deal with a situation of missing a mesh in a prefab.
+For example the mesh of the UModeler prefab is sometimes lost when UModeler component of an instance of the prefab is removed and the change is applied.
+If you saved the mesh in the prefab as .asset in advance, you would be able to cope with this.
+
+When you create a UModeler object at first, the mesh doesn't exist yet.
+
+ .. figure:: /images/MeshFilterComonent(1).jpg
+    :scale: 95 %
+	
+The new asset file named after the mesh name is created after you click on Save button.
+
+ .. figure:: /images/MeshFilterComonent(2).jpg
+    :scale: 95 %
+	
+With Save As button, you can rename it or save it in a different folder.
+
+----------------------------------------------------------------------------------------------------------------------
+
 Let's get started with a box.
 =======================================
 

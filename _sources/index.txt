@@ -2,7 +2,7 @@
  Unity UModeler Manual
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-.. figure:: /images/UModelerManualTitle.png
+.. figure:: /images/UModelerTitle.jpg
    :scale: 55 %  
 	
    Village on the water modeled with only UModeler.
@@ -61,7 +61,7 @@ Sections
       .. container:: descr
 
          :doc:`menu`
-            UModeler's Menu.
+            UModeler's Menu.		
 
       .. container:: descr
 
