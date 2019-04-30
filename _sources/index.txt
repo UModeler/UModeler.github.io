@@ -21,6 +21,7 @@
     overview
     settings
     menu
+    FAQ
     ElementGroup
     SelectionGroup/index
     DrawingGroup/index
@@ -61,7 +62,12 @@ Sections
       .. container:: descr
 
          :doc:`menu`
-            UModeler's Menu.		
+            UModeler's Menu.
+			
+      .. container:: descr
+
+         :doc:`FAQ`
+            Frequently Asked Questions.			
 
       .. container:: descr
 
