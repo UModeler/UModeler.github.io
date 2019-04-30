@@ -6,7 +6,6 @@ UModeler 2019
  
 Version 2.6 - 2019.4.30
 ==================================================================================
- - Enhancement : Added handling snap priority between ``Axis Snap`` and ``Either XY Snap`` to ``Line Tool``
  - Enhancement : Added two buttons to MeshFilter component inspector to have the mesh saved as .asset file
  - Enhancement : Added ``Don't save in build`` to ``Local Settings`` tool to make you decide if UModeler component is included or not in build.
  - Enhancement : Enabled to build UModeler mesh at runtime
