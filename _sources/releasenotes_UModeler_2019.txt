@@ -4,7 +4,12 @@ UModeler 2019
 
  .. figure:: /images/releasenote2019.jpg
  
-Version 2.6 - 2019.4.30
+Version 2.6.1 - 2019.5.3
+==================================================================================
+ - Hotfix : Missing  sciprt in the existing UModeler component.
+ - Hotfix : Not displaying the cursor and overlays in Unity 2019.1.0f2
+ 
+Version 2.6 - 2019.4.29
 ==================================================================================
  - Enhancement : Added two buttons to MeshFilter component inspector to have the mesh saved as .asset file
  - Enhancement : Added ``Don't save in build`` to ``Local Settings`` tool to make you decide if UModeler component is included or not in build.
