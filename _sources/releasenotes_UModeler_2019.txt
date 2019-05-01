@@ -11,7 +11,7 @@ Version 2.6.1 - 2019.5.3
  
 Version 2.6 - 2019.4.29
 ==================================================================================
- - Enhancement : Added two buttons to MeshFilter component inspector to have the mesh saved as .asset file
+ - Enhancement : Added two buttons to MeshFilter component inspector to have the mesh saved as .asset file (See :ref:`this <meshfiltercomponent>`)
  - Enhancement : Added ``Don't save in build`` to ``Local Settings`` tool to make you decide if UModeler component is included or not in build.
  - Enhancement : Enabled to build UModeler mesh at runtime
  - Enhancement : Renewed the Preference window.  

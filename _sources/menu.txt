@@ -57,7 +57,7 @@ Triangulate
 Divides all polygons into triangles.
 
 .. figure:: /images/Before_After_Triangulation.jpg
-   :scale: 90 %
+   :scale: 95 %
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
@@ -70,4 +70,12 @@ Refreshes all resources of the selected UModeler object. This doesn't change and
 Arrange UV Islands
 ====================
 Arranges UV Islands to fix UVs. This function can be used when you think UV Islands are incorrect.
- 
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+Preferences
+==============
+Opens the Preferences window.
+
+.. figure:: /images/UModeler_PreferencesWindow.jpg
+   :scale: 90 % 

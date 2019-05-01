@@ -99,9 +99,9 @@ Local Overlay
 Preferences
 ===========
 
-You can set shortcuts and general settings of UModeler in Unity Preferences window to which you can go through ``Edit > Preferences`` in the top menu. 
+You can set shortcuts and general settings of UModeler in UModeler Preferences window to which you can go through ``Tools > UModeler > Preferences`` in the top menu. 
 
-.. figure:: /images/UModeler_Preference.jpg
+.. figure:: /images/UModeler_PreferencesWindow.jpg
    :scale: 80 %
 	
    UModeler Preference.
@@ -111,3 +111,6 @@ Detailed Tooltip
  
 Lightmap by Default
  When this is on, the lighting method of every new created UModeler object will be the lightmap.
+ 
+Display Polygon Preselection
+ When this is on, a polygon under the mouse is highlighted.
