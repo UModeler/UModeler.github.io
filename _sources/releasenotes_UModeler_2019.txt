@@ -4,7 +4,11 @@ UModeler 2019
 
  .. figure:: /images/releasenote2019.jpg
  
-Version 2.6.1 - 2019.5.3
+Version 2.6.2 - 2019.5.4
+==================================================================================
+ - Hotfix : Fixed bug where combine objects and boolean operation don't work.
+ 
+Version 2.6.1 - 2019.5.2
 ==================================================================================
  - Hotfix : Missing  sciprt in the existing UModeler component.
  - Hotfix : Not displaying the cursor and overlays in Unity 2019.1.0f2
