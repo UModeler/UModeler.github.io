@@ -4,7 +4,7 @@ UModeler 2019
 
  .. figure:: /images/releasenote2019.jpg
  
-Version 2.6.2 - 2019.5.4
+Version 2.6.2 - 2019.5.3
 ==================================================================================
  - Hotfix : Fixed bug where combine objects and boolean operation don't work.
  
