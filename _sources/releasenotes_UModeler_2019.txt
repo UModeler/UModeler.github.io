@@ -4,16 +4,20 @@ UModeler 2019
 
  .. figure:: /images/releasenote2019.jpg
  
-Version 2.6.2 - 2019.5.3
+Version 2.6.3 - May.9.2019
 ==================================================================================
- - Hotfix : Fixed bug where combine objects and boolean operation don't work.
+ - Hotfix : Fixed bug where Export Tool in UV Editor doesn't work in the latest Unity.
  
-Version 2.6.1 - 2019.5.2
+Version 2.6.2 - May.3.2019
+==================================================================================
+ - Hotfix : Fixed bug where combine objects and boolean operation don't work.  
+ 
+Version 2.6.1 - May.2.2019
 ==================================================================================
  - Hotfix : Missing  sciprt in the existing UModeler component.
  - Hotfix : Not displaying the cursor and overlays in Unity 2019.1.0f2
  
-Version 2.6 - 2019.4.29
+Version 2.6 - Apr.29.2019.4
 ==================================================================================
  - Enhancement : Added two buttons to MeshFilter component inspector to have the mesh saved as .asset file (See :ref:`this <meshfiltercomponent>`)
  - Enhancement : Added ``Don't save in build`` to ``Local Settings`` tool to make you decide if UModeler component is included or not in build.
@@ -22,7 +26,7 @@ Version 2.6 - 2019.4.29
  - BugFix : Fixed broken icons caused as UModeler root folder is moved.
  - Change : Added preselection color setting to ``Color settings`` in ``Preference``
  
-Version 2.5 - 2019.2.26
+Version 2.5 - Feb.26.2019
 ==================================================================================
  - New Feature : Add UV Auto Layout function to the polygon tool.
  - New Feature : Add Color palettes to Vertex/Polygon color tools
@@ -46,7 +50,7 @@ Version 2.5 - 2019.2.26
  - BugFix : Fix a bug not updating collider immediately.
  - BugFix : Fix a bug drawing a unexpected selection quad just when UV Editor is opened. 
  
-Version 2.4 - 2019.1.4
+Version 2.4 - Jab.4.2019
 ==================================================================================
  - Enhancement : Kept Toolbar visible while the text menu is enabled.
  - Enhancement : Stored the manu type in the registry whenever the menu is changed between text based and icon based
