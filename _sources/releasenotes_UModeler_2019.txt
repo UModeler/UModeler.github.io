@@ -4,7 +4,7 @@ UModeler 2019
 
  .. figure:: /images/releasenote2019_3.jpg
  
-Version 2.6.3 - May.9.2019
+Version 2.6.3 - May.7.2019
 ==================================================================================
  - Hotfix : Fixed bug where Export Tool in UV Editor doesn't work in the latest Unity.
  
