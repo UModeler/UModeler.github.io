@@ -4,6 +4,11 @@ UModeler 2019
 
  .. figure:: /images/releasenote2019_3.jpg
  
+Version 2.6.4 - May.10.2019
+=================================================================================
+- Hotfix : Fixed errors while UModelerizing.
+- Hotfix : Fixed bug where the selected UModeler object disappearing when entering the game mode.
+ 
 Version 2.6.3 - May.7.2019
 ==================================================================================
  - Hotfix : Fixed bug where Export Tool in UV Editor doesn't work in the latest Unity.
