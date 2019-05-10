@@ -8,6 +8,7 @@ Version 2.6.4 - May.10.2019
 =================================================================================
  - Hotfix : Fixed errors while UModelerizing.
  - Hotfix : Fixed bug where the selected UModeler object disappearing when entering the game mode.
+ - Hotfix : Fixed bug where icons look a little bit whitish.
  
 Version 2.6.3 - May.7.2019
 ==================================================================================
