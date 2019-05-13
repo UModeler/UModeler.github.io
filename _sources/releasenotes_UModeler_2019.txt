@@ -4,7 +4,7 @@ UModeler 2019
 
  .. figure:: /images/releasenote2019_3.jpg
  
-Version 2.6.5 - May.14.2019
+Version 2.6.5 - May.13.2019
 =================================================================================
  - Hotfix : Fixed bug where moving a vertex or an edge sharing two polygons that have different materials doesn't work.
  
