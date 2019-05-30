@@ -6,9 +6,9 @@ UModeler 2019
  
 Version 2.6.6 - May.31.2019
 =================================================================================
-- Hotfix : Fixed bug where triangle count is not correct
-- Hotfix : Fixed bug where the detached uv islands or polygons don't move separately without holding CTRL+SHIFT.
-- Hotfix : Fixed bug where blue cubes representing vertex positions and polygon center positions aren't vanished when UModeler object is deleted.
+ - Hotfix : Fixed bug where triangle count is not correct
+ - Hotfix : Fixed bug where the detached uv islands or polygons don't move separately without holding CTRL+SHIFT.
+ - Hotfix : Fixed bug where blue cubes representing vertex positions and polygon center positions aren't vanished when UModeler object is deleted.
  
 Version 2.6.5 - May.13.2019
 =================================================================================
