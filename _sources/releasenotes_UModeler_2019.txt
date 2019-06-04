@@ -6,7 +6,8 @@ UModeler 2019
 
 Version 2.6.7 - June.6.2019
 =================================
- - Hofix : Fixed bug where UModeler mesh is missing after instantiating UModeler object at runtime by calling Build() method in Start() message of UModeler component
+ - Hotfix : Improved compatibility with ProBuilder 4.x for displaying icons without overlapping and UModelerizing ProBuilder Object with deleting ProBuidlerMesh component. 
+ - Hotfix : Fixed bug where UModeler mesh is missing after instantiating UModeler object at runtime. Added UModeler.Builder() in UModeler.Start() message to have the mesh updated when UModeler component starts.
  
 Version 2.6.6 - May.31.2019
 =================================================================================
@@ -70,7 +71,7 @@ Version 2.5 - Feb.26.2019
  - BugFix : Fix a bug not updating collider immediately.
  - BugFix : Fix a bug drawing a unexpected selection quad just when UV Editor is opened. 
  
-Version 2.4 - Jab.4.2019
+Version 2.4 - Jan.4.2019
 ==================================================================================
  - Enhancement : Kept Toolbar visible while the text menu is enabled.
  - Enhancement : Stored the manu type in the registry whenever the menu is changed between text based and icon based
