@@ -3,6 +3,10 @@ UModeler 2019
 ############################
 
  .. figure:: /images/releasenote2019_3.jpg
+
+Version 2.6.7 - June.6.2019
+=================================
+ - Hofix : Fixed bug where UModeler mesh is missing after instantiating UModeler object at runtime by calling Build() method in Start() message of UModeler component
  
 Version 2.6.6 - May.31.2019
 =================================================================================
