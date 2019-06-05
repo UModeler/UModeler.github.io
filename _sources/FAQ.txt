@@ -17,7 +17,7 @@ Q) How can a static mesh be converted to UModeler mesh?
  
 Q) The UModelerized mesh is still a triangle-based shape. I want to have more like UModeler mesh. In other words All adjacent coplanar faces have to be merged into one face.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
- Click on ``Combine Tool`` button once you select all polygons. This will combine adjacet coplanar polygons into one polygon.
+ Click on ``Combine Tool`` button once you select all polygons. This will combine adjacent coplanar polygons into one polygon.
  See the `Combine Polygon Tool <https://umodeler.github.io/RemoveGroup/CombineTool.html#combine-polygon-tool-icon-remove-combinepolygons>`_.
 
 
