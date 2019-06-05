@@ -9,3 +9,17 @@ Q) Currently any static mesh can be created and edited using UModeler within the
 Q) Is it possible to make a mesh procedurally with codes at runtime?
 ------------------------------------------------------------------------------------------------------------------------------------------------
  Yes, it has been possible since Version 2.6. Using UModeler component you can create any static meshes procedurally. But this has not been documented yet. We're going to expose this feature officially with examples and documents sometime soon.
+ 
+Q) How can a static mesh be converted to UModeler mesh?
+------------------------------------------------------------------------------------------------------------------------------------------------
+ You have to select a game object with a static mesh. And go to ``Tool > UModeler > UModelerize`` at the top of Unity editor to convert the selected mesh.
+ Several static meshes can also be converted if you select them before trying to UModelerize.
+ 
+Q) The UModelerized mesh is still a triangle-based shape. I want to have more like UModeler mesh. In other words All adjacent coplanar faces have to be merged into one face.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Click on ``Combine Tool`` button once you select all polygons. This will combine adjacet coplanar polygons into one polygon.
+ See the `Combine Polygon Tool <https://umodeler.github.io/RemoveGroup/CombineTool.html#combine-polygon-tool-icon-remove-combinepolygons>`_.
+
+
+ 
+ 

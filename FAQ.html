@@ -102,6 +102,8 @@
 <li class="toctree-l1 current"><a class="current reference internal" href="#">FAQ</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#q-currently-any-static-mesh-can-be-created-and-edited-using-umodeler-within-the-editor-is-it-also-possible-to-edit-meshes-at-runtime">Q) Currently any static mesh can be created and edited using UModeler within the editor. Is it also possible to edit meshes at runtime?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#q-is-it-possible-to-make-a-mesh-procedurally-with-codes-at-runtime">Q) Is it possible to make a mesh procedurally with codes at runtime?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#q-how-can-a-static-mesh-be-converted-to-umodeler-mesh">Q) How can a static mesh be converted to UModeler mesh?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#q-the-umodelerized-mesh-is-still-a-triangle-based-shape-i-want-to-have-more-like-umodeler-mesh-in-other-words-all-adjacent-coplanar-faces-have-to-be-merged-into-one-face">Q) The UModelerized mesh is still a triangle-based shape. I want to have more like UModeler mesh. In other words All adjacent coplanar faces have to be merged into one face.</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="releasenotes.html">Release Notes</a></li>
@@ -160,6 +162,18 @@
 <h2>Q) Is it possible to make a mesh procedurally with codes at runtime?<a class="headerlink" href="#q-is-it-possible-to-make-a-mesh-procedurally-with-codes-at-runtime" title="Permalink to this headline">¶</a></h2>
 <blockquote>
 <div>Yes, it has been possible since Version 2.6. Using UModeler component you can create any static meshes procedurally. But this has not been documented yet. We&#8217;re going to expose this feature officially with examples and documents sometime soon.</div></blockquote>
+</div>
+<div class="section" id="q-how-can-a-static-mesh-be-converted-to-umodeler-mesh">
+<h2>Q) How can a static mesh be converted to UModeler mesh?<a class="headerlink" href="#q-how-can-a-static-mesh-be-converted-to-umodeler-mesh" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>You have to select a game object with a static mesh. And go to <code class="docutils literal"><span class="pre">Tool</span> <span class="pre">&gt;</span> <span class="pre">UModeler</span> <span class="pre">&gt;</span> <span class="pre">UModelerize</span></code> at the top of Unity editor to convert the selected mesh.
+Several static meshes can also be converted if you select them before trying to UModelerize.</div></blockquote>
+</div>
+<div class="section" id="q-the-umodelerized-mesh-is-still-a-triangle-based-shape-i-want-to-have-more-like-umodeler-mesh-in-other-words-all-adjacent-coplanar-faces-have-to-be-merged-into-one-face">
+<h2>Q) The UModelerized mesh is still a triangle-based shape. I want to have more like UModeler mesh. In other words All adjacent coplanar faces have to be merged into one face.<a class="headerlink" href="#q-the-umodelerized-mesh-is-still-a-triangle-based-shape-i-want-to-have-more-like-umodeler-mesh-in-other-words-all-adjacent-coplanar-faces-have-to-be-merged-into-one-face" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>Click on <code class="docutils literal"><span class="pre">Combine</span> <span class="pre">Tool</span></code> button once you select all polygons. This will combine adjacet coplanar polygons into one polygon.
+See the <a class="reference external" href="https://umodeler.github.io/RemoveGroup/CombineTool.html#combine-polygon-tool-icon-remove-combinepolygons">Combine Polygon Tool</a>.</div></blockquote>
 </div>
 </div>
 
