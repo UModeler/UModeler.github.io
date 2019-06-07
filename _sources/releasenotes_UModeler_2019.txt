@@ -3,8 +3,12 @@ UModeler 2019
 ############################
 
  .. figure:: /images/releasenote2019_3.jpg
+ 
+Version 2.6.8 - June.7.2019
+=================================
+ - Hotfix : Fix bug where .asset file wasn't created when exporting to .prefab using Export Tool in UModeler.
 
-Version 2.6.7 - June.6.2019
+Version 2.6.7 - June.5.2019
 =================================
  - Hotfix : Improved compatibility with ProBuilder 4.x for displaying icons without overlapping and UModelerizing ProBuilder Object with deleting ProBuidlerMesh component. 
  - Hotfix : Fixed bug where UModeler mesh is missing after instantiating UModeler object at runtime. Added UModeler.Builder() in UModeler.Start() message to have the mesh updated when UModeler component starts.
