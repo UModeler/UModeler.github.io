@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#q-is-it-possible-to-make-a-mesh-procedurally-with-codes-at-runtime">Q) Is it possible to make a mesh procedurally with codes at runtime?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#q-how-can-a-static-mesh-be-converted-to-umodeler-mesh">Q) How can a static mesh be converted to UModeler mesh?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#q-the-umodelerized-mesh-is-still-a-triangle-based-shape-i-want-to-have-more-like-umodeler-mesh-in-other-words-all-adjacent-coplanar-faces-have-to-be-merged-into-one-face">Q) The UModelerized mesh is still a triangle-based shape. I want to have more like UModeler mesh. In other words All adjacent coplanar faces have to be merged into one face.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#q-how-can-i-set-the-pivot-to-the-center-of-umodeler-object">Q) How can I set the pivot to the center of UModeler object?</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="releasenotes.html">Release Notes</a></li>
@@ -174,6 +175,18 @@ Several static meshes can also be converted if you select them before trying to 
 <blockquote>
 <div>Click on <code class="docutils literal"><span class="pre">Combine</span> <span class="pre">Tool</span></code> button once you select all polygons. This will combine adjacent coplanar polygons into one polygon.
 See the <a class="reference external" href="https://umodeler.github.io/RemoveGroup/CombineTool.html#combine-polygon-tool-icon-remove-combinepolygons">Combine Polygon Tool</a>.</div></blockquote>
+</div>
+<div class="section" id="q-how-can-i-set-the-pivot-to-the-center-of-umodeler-object">
+<h2>Q) How can I set the pivot to the center of UModeler object?<a class="headerlink" href="#q-how-can-i-set-the-pivot-to-the-center-of-umodeler-object" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p><code class="docutils literal"><span class="pre">Pivot</span> <span class="pre">to</span> <span class="pre">Center</span></code> in Tweak group will make the bottom center the pivot of UModeler object. But if you want to set the pivot to the center, you have to go through the following steps.</p>
+<ol class="arabic simple">
+<li>Enable <code class="docutils literal"><span class="pre">3D</span> <span class="pre">Cursor</span></code> whose button is located at the top of the scene view.</li>
+<li>Select all polygons, edges or vertices.</li>
+<li>Click on <code class="docutils literal"><span class="pre">Move</span> <span class="pre">to</span> <span class="pre">Cursor</span></code> in the Properties of Vertex/Edge/Polygon tools to move the center of the selected elements to the cursor location.</li>
+<li>Select <code class="docutils literal"><span class="pre">Pivot</span> <span class="pre">Tool</span></code> in Tweak group.</li>
+</ol>
+</div></blockquote>
 </div>
 </div>
 

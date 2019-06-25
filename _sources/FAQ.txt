@@ -20,6 +20,11 @@ Q) The UModelerized mesh is still a triangle-based shape. I want to have more li
  Click on ``Combine Tool`` button once you select all polygons. This will combine adjacent coplanar polygons into one polygon.
  See the `Combine Polygon Tool <https://umodeler.github.io/RemoveGroup/CombineTool.html#combine-polygon-tool-icon-remove-combinepolygons>`_.
 
+Q) How can I set the pivot to the center of UModeler object?
+-----------------------------------------------------------------------------------------
+ ``Pivot to Center`` in Tweak group will make the bottom center the pivot of UModeler object. But if you want to set the pivot to the center, you have to go through the following steps.
 
- 
- 
+ 1. Enable ``3D Cursor`` whose button is located at the top of the scene view.
+ 2. Select all polygons, edges or vertices.
+ 3. Click on ``Move to Cursor`` in the Properties of Vertex/Edge/Polygon tools to move the center of the selected elements to the cursor location.
+ 4. Select ``Pivot Tool`` in Tweak group.
