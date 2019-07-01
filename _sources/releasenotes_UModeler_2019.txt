@@ -4,7 +4,7 @@ UModeler 2019
 
  .. figure:: /images/releasenote2019_3.jpg
  
-Version 2.6.9 - July.1.2019
+Version 2.6.9 - June.28.2019
 =================================
  - Hotfix : Fixed bug of primitive shape group tools and pushpull tool where pushing or pulling a face sometimes causes unexpected sudden move when the mouse cursor points at somewhere in the background. 
  - Hotfix : Enables 3D cursor to be displayed in object mode. 
