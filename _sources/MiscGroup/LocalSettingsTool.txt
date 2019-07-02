@@ -12,15 +12,22 @@ Properties
 Backface
  backfaces on/off
 
-Generate Lightmap UVs
- If this is on, Secondary UVs for lightmap will be generated every time UModeler mesh changes. 
+Lightmap Static
+ Changes the lighting way to lightmap. This variable is interlocked with ``Lightmap Static`` in ``Lighting`` window.
 
-.. _recalculate-tangents:
- 
+.. _recalculate-tangents: 
+
 Recalculate Tangents
  If this is on, tangent vectors will be calculated every time UModeler mesh changes. If the materials in UModeler have normal textures, this should be on.
  
 Don't Save In Build
  If this is on, UModeler component isn't included in Build. If you want to edit a mesh using UModeler at runtime, it needs to be on when the project is built.
  Usually this property is on because most meshes are just for rendering at runtime.
+ 
+Generate UV2 channel for Lightmap
+ Generate UVs for lightmaps. From 2.6.9 UVs for lightmap aren't created automatically. If you want to generate lightmap UVs of all UModeler meshs in a scene, click on ``Tools > UModeler > Refresh All``.
+ 
+  .. figure:: /images/LocalSettings.jpg
+   :scale: 100 %
+ 
  
