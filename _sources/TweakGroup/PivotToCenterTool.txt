@@ -5,7 +5,17 @@
 Pivot To Center Tool |Icon_Tweak_PivotToCenter|
 ########################################################
 
-Changes the pivot location to the bottom center.
+Properties
+------------
+
+Top Center
+ Changes the pivot location to the top center.
+
+Center
+ Changes the pivot location to the center.
+
+Bottom Center
+ Changes the pivot location to the bottom center.
 
 .. |UModeler_Pivot_0| image:: /images/UModeler_Pivot_0.jpg
    :scale: 100 %
@@ -20,4 +30,4 @@ Changes the pivot location to the bottom center.
    :scale: 100 %
 
 |UModeler_PivotCenter_0| |UModeler_PivotCenter_1|
- The bottom-center will be the pivot as soon as selecting ``Pivot To Center Tool``
+ The bottom-center will be the pivot after selecting ``Pivot To Center`` Tool and clicking on ``Bottom Center`` button in Properties
