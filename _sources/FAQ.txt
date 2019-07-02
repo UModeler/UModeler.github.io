@@ -22,9 +22,16 @@ Q) The UModelerized mesh is still a triangle-based shape. I want to have more li
 
 Q) How can I set the pivot to the center of UModeler object?
 -----------------------------------------------------------------------------------------
- ``Pivot to Center`` in Tweak group will make the bottom center the pivot of UModeler object. But if you want to set the pivot to the center, you have to go through the following steps.
-
- 1. Enable ``3D Cursor`` whose button is located at the top of the scene view.
- 2. Select all polygons, edges or vertices.
- 3. Click on ``Move to Cursor`` in the Properties of Vertex/Edge/Polygon tools to move the center of the selected elements to the cursor location.
- 4. Select ``Pivot Tool`` in Tweak group.
+ Navigate to ``Pivot to Center`` in ``Tweak`` group and click on ``Center`` button in Properties. ``Top Center``, ``Center`` and ``Bottom Center`` buttons were added from Ver 2.6.9
+ 
+Q) UModeler meshes disappear.
+-------------------------------------------
+ Click on ``Tools > UModeler > Refresah All`` at the top of the editor. It will update all UModeler meshes in the current scene.
+ 
+Q) Broken lightmaps
+-------------------------------------------
+ Click on ``Tools > UModeler > Refresah All`` at the top of the editor. If lightmaps are still broken, make sure that ``Light Static`` is on in ``Local Settings`` tool.
+ And then try to ``Clear Baked Data`` and ``Generate Lighting`` in ``Lighting`` window.
+ 
+  .. figure:: /images/LightingWindow.jpg
+ 
