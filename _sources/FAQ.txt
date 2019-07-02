@@ -30,7 +30,7 @@ Q) UModeler meshes disappear.
  
 Q) Broken lightmaps
 -------------------------------------------
- Click on ``Tools > UModeler > Refresah All`` at the top of the editor. If lightmaps are still broken, make sure that ``Light Static`` is on in ``Local Settings`` tool.
+ Click on ``Tools > UModeler > Refresah All`` at the top of the editor. If lightmaps are still broken, make sure that ``Light Static`` is on and click on ``Generate UV2 channel for Lightmap`` button in ``Local Settings`` tool.
  And then try to ``Clear Baked Data`` and ``Generate Lighting`` in ``Lighting`` window.
  
   .. figure:: /images/LightingWindow.jpg
