@@ -4,6 +4,13 @@ UModeler 2019
 
  .. figure:: /images/releasenote2019_3.jpg
  
+Version 2.6.10 - July.02.2019
+==================================
+ - Hotfix : Fix bug where lightmaps are broken in play mode. 
+ - Hotfix : Fix bug where the gizmo disappear when getting back to edit mode from play mode. 
+ - Enhancement : Enhanced [Tools > UModeler > Refresh All] to fix invisible mesh and generate secondary uvs etc. 
+ - Change : Changed ``Generate Lightmap UVs`` to ``Lightmap Static`` and added ``Generate UV2 channel for Lightmap`` button to ``Local Settings`` tool
+ 
 Version 2.6.9 - June.28.2019
 =================================
  - Hotfix : Fixed bug of primitive shape group tools and pushpull tool where pushing or pulling a face sometimes causes unexpected sudden move when the mouse cursor points at somewhere in the background. 
