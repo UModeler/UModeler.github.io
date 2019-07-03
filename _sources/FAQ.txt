@@ -26,7 +26,7 @@ Q) How can I set the pivot to the center of UModeler object?
  
 Q) UModeler meshes disappear.
 -------------------------------------------
- Click on ``Tools > UModeler > Refresah All`` at the top of the editor. It will update all UModeler meshes in the current scene.
+ Click on ``Tools > UModeler > Refresah All`` at the top of the editor. It will build all UModeler components in the current scene to create renderable meshes.
  
 Q) Broken lightmaps
 -------------------------------------------
