@@ -4,6 +4,12 @@ UModeler 2019
 
  .. figure:: /images/releasenote2019_3.jpg
  
+Version 2.6.11 - July.17.2019
+==================================
+ - Hotfix : Fix bug where Settings are not preserved.
+ - Hotfix : Fix bug where Scaling using the scale gizmo isn't correct.
+ - Hotfix : Fix bug where mouse events aren't captured off the scene view.
+ 
 Version 2.6.10 - July.02.2019
 ==================================
  - Hotfix : Fix bug where lightmaps are broken in play mode. 
