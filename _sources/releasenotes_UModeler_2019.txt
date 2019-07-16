@@ -4,7 +4,7 @@ UModeler 2019
 
  .. figure:: /images/releasenote2019_3.jpg
  
-Version 2.6.11 - July.17.2019
+Version 2.6.11 - July.16.2019
 ==================================
  - Hotfix : Fix bug where Settings are not preserved.
  - Hotfix : Fix bug where Scaling using the scale gizmo isn't correct.
