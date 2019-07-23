@@ -4,6 +4,11 @@ UModeler 2019
 
  .. figure:: /images/releasenote2019_3.jpg
  
+Version 2.6.12 - July.24.2019
+==================================
+- Hotfix : Select All Tool - Fix bug where vertex overlays aren't updated when selecting all vertices using Select All Tool.
+- Hotfix : Line Tool - Fix bug where a line couldn't cut a polygon when the umodeler object is too large.
+ 
 Version 2.6.11 - July.16.2019
 ==================================
  - Hotfix : Fix bug where Settings are not preserved.
