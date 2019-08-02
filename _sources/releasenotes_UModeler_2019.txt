@@ -4,6 +4,14 @@ UModeler 2019
 
  .. figure:: /images/releasenote2019_3.jpg
  
+Version 2.6.13 - Aug.5.2019
+==================================
+- Hotfix : BoxTool - Fixed one click build bug where unnecessary polygons were created.
+- Hotfix : Fixed bug where Global/Local Overlay size and location are wrong when a mesh is translated/roatated/scaled.
+- Hotfix : Fixed missing UVs after UModelerization.
+- Hotfix : Fixed wrong outline of a scaled mesh. 
+- Hotfix : Fixed black polygons appearance after UModelerization due to the wrong calculation of the plane normal.
+ 
 Version 2.6.12 - July.23.2019
 ==================================
 - Hotfix : Select All Tool - Fix bug where vertex overlays aren't updated when selecting all vertices using Select All Tool.
