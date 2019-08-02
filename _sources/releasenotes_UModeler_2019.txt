@@ -4,7 +4,7 @@ UModeler 2019
 
  .. figure:: /images/releasenote2019_3.jpg
  
-Version 2.6.13 - Aug.5.2019
+Version 2.6.13 - Aug.2.2019
 ==================================
 - Hotfix : BoxTool - Fixed one click build bug where unnecessary polygons were created.
 - Hotfix : Fixed bug where Global/Local Overlay size and location are wrong when a mesh is translated/roatated/scaled.
