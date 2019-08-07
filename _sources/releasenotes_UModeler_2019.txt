@@ -4,6 +4,12 @@ UModeler 2019
 
  .. figure:: /images/releasenote2019_3.jpg
  
+Version 2.6.14 - Aug.7.2019
+==================================
+- Hotfix : Fixed a bug where some error messages are thrown when a UModeler object is selected. 
+- Hotfix : Fixed a bug where each polygons has its own UV rotation/scale pivot point. Now the UV center of the selected polygons is a pivot location. 
+- Refactoring : UModeler.active is replaced with UMContext.activeModeler
+ 
 Version 2.6.13 - Aug.2.2019
 ==================================
 - Hotfix : BoxTool - Fixed one click build bug where unnecessary polygons were created.
