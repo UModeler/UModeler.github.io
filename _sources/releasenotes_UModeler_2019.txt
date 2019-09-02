@@ -3,6 +3,11 @@ UModeler 2019
 ############################
 
  .. figure:: /images/releasenote2019_3.jpg
+
+Version 2.6.15 - Aug.27.2019
+==============================
+- Hotfix : Fixed broken lightmap happening when selecting umodeler object or loading a scene etc. 
+- Hotfix : Added "Builds a mesh in Start()" to Local settings to solve lags when there are lots of umodeler object in a scene.
  
 Version 2.6.14 - Aug.7.2019
 ==================================
