@@ -3,6 +3,14 @@ UModeler 2019
 ############################
 
  .. figure:: /images/releasenote2019_3.jpg
+ 
+Version 2.6.16 - Sep.11.2019
+===============================
+- Hotfix : Broken lightmap issues when opening a scene or entering play mode
+- Hotfix : Fix bug where multiple UModeler objects aren't combined using Combine tool as expected.
+- Hotfix : Fix bug where UModelerlizie doesn't work just after UModeler package is loaded.
+- Hotfix : Removed "Builds a mesh in Start()" from Local Settings and got rid of calling Build() method in Start() method.
+- Enhancement : Keeps the system menu(New UModeler, Settings and 3D cursor icons) visible on the scene view even when no UModeler objects aren't selected.
 
 Version 2.6.15 - Aug.27.2019
 ==============================
