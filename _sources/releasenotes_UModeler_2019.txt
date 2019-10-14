@@ -4,6 +4,13 @@ UModeler 2019
 
  .. figure:: /images/releasenote2019_3.jpg
  
+Version 2.6.17 - Oct.11.2019
+=============================== 
+- Fix : Fixed smoothing group polygons going away after undoing.
+- Fix : Fixed wrong material assignment and losing mouse focus while transforming elements using a gizmo.
+- Fix : Fixed stopping creating the first box by dragging. This also caused losing the mouse focus.
+- Fix : Fixed some polygons missing after entering the game mode.
+
 Version 2.6.16 - Sep.11.2019
 ===============================
 - Hotfix : Broken lightmap issues when opening a scene or entering play mode
