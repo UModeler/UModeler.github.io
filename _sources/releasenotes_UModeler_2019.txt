@@ -4,6 +4,28 @@ UModeler 2019
 
  .. figure:: /images/releasenote2019_3.jpg
  
+Version 2.6.19 - Nov.7.2019
+===============================  
+- Fix : Fix bug where collider doesn't work on play mode. 
+- Fix : Fix bug where UModeler mesh disappearing when clicking on a umodeler object after exiting play mode.
+- Fix : Fix polygons disappearing while using PushPull tool.  
+ 
+Version 2.6.18 - Oct.23.2019
+===============================  
+- Fix : [Cut Tool] Fixed incorrect cutting in orthogonal view.
+- Fix : [Cut Tool] Fixed not selecting the above polygons after cutting when Select Above is on.
+- Enhancement : [Cut Tool] Cutting line has been changed for only an edge between starting pos and ending pos to be rendered.
+- Enhancement : Added a shortcut for refresh All(Ctrl+Shift+E by default)
+- Fix : Fixed failing to find ExportToPNG method when exporting UV outline in Export Tool in UV Editor.
+- Fix : Fixed displaying warning messages about using prefab obsolete APIs.
+- Fix : Fixed warning message about obsolete PreferenceIItem and Removed UModeler item in Unity Preference.
+- Fix : Fixed setting the parent of a transform which resides in a Prefab Asset.
+- Fix : Fixed the different MeshRenderer inspector UI layout when UModeler is installed.
+- Fix : Fixed parsing errors of grid snap size and rotation snap size in UV Editor settings.
+- Fix : Default prefab and obj file names in export won't have spaces anymore.
+- Fix : Fixed a long lag issue when saving a level.
+- Fix : Fixed not displaying icon menus in the inspector after loading a scene. 
+ 
 Version 2.6.17 - Oct.11.2019
 =============================== 
 - Fix : Fixed smoothing group polygons going away after undoing.
