@@ -4,7 +4,7 @@ UModeler 2019
 
  .. figure:: /images/releasenote2019_3.jpg
  
-Version 2.6.19 - Nov.7.2019
+Version 2.6.19 - Nov.6.2019
 ===============================  
 - Fix : Fix bug where collider doesn't work on play mode. 
 - Fix : Fix bug where UModeler mesh disappearing when clicking on a umodeler object after exiting play mode.
