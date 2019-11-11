@@ -4,11 +4,15 @@ UModeler 2019
 
  .. figure:: /images/releasenote2019_3.jpg
  
+Version 2.6.20 - Nov.7.2019
+===============================
+- Fix : Fixed UModeler object disappearing when it is selected on play mode.
+ 
 Version 2.6.19 - Nov.6.2019
 ===============================  
-- Fix : Fix bug where collider doesn't work on play mode. 
-- Fix : Fix bug where UModeler mesh disappearing when clicking on a umodeler object after exiting play mode.
-- Fix : Fix polygons disappearing while using PushPull tool.  
+- Fix : Fixed bug where collider doesn't work on play mode. 
+- Fix : Fixed bug where UModeler mesh disappearing when clicking on a umodeler object after exiting play mode.
+- Fix : Fixed polygons disappearing while using PushPull tool.
  
 Version 2.6.18 - Oct.23.2019
 ===============================  
