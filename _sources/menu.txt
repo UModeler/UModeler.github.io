@@ -77,5 +77,7 @@ Preferences
 ==============
 Opens the Preferences window.
 
-.. figure:: /images/UModeler_PreferencesWindow.jpg
+.. figure:: /images/UModeler_PreferencesWindow2.jpg
    :scale: 90 % 
+   
+See :ref:`AdvancedPreferences` to get more info.

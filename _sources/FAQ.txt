@@ -36,3 +36,7 @@ Q) Broken lightmaps
   .. figure:: /images/LocalSettings.jpg
   .. figure:: /images/LightingWindow.jpg
  
+Q) How can I hide the Toolbar at the top of the scene view when UModeler object isn't selected?
+---------------------------------------------------------------------------------------------------------------------------------
+ Navigate to ``Tools > UModeler > Preferences`` and turn off ``Keep System Toolbar on always``.  
+ See :ref:`AdvancedPreferences` to get more info.
