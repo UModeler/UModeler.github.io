@@ -101,7 +101,7 @@ Preferences
 
 You can set shortcuts and general settings of UModeler in UModeler Preferences window to which you can go through ``Tools > UModeler > Preferences`` in the top menu. 
 
-.. figure:: /images/UModeler_PreferencesWindow.jpg
+.. figure:: /images/UModeler_PreferencesWindow2.jpg
    :scale: 80 %
 	
    UModeler Preference.
@@ -114,3 +114,6 @@ Lightmap by Default
  
 Display Polygon Preselection
  When this is on, a polygon under the mouse is highlighted.
+ 
+Keep System Toolbar on always
+ When this is on, the toolbar at the top of the scene view is visible all the time.
