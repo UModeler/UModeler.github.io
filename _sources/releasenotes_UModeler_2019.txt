@@ -4,6 +4,11 @@ UModeler 2019
 
  .. figure:: /images/releasenote2019_3.jpg
  
+Version 2.6.21 - Nov.30.2019
+===============================
+- Enhancement : Added Unwrap parameters for Lightmap to Preference
+- Fix : Broken lightmap when [Don't Save on Build] is on in local Settings
+ 
 Version 2.6.20 - Nov.7.2019
 ===============================
 - Fix : Fixed UModeler object disappearing when it is selected on play mode.
