@@ -4,7 +4,7 @@ UModeler 2019
 
  .. figure:: /images/releasenote2019_3.jpg
  
-Version 2.6.21 - Nov.30.2019
+Version 2.6.21 - Nov.29.2019
 ===============================
 - Enhancement : Added Unwrap parameters for Lightmap to Preference
 - Fix : Broken lightmap when [Don't Save on Build] is on in local Settings
