@@ -4,6 +4,18 @@ UModeler 2019
 
  .. figure:: /images/releasenote2019_3.jpg
  
+Version 2.6.22 - Dec.6.2019
+===============================
+ - Enhancement : [ExportTool] Added Create Folder toggle for .obj export to allow a folder not to be created. 
+ - Enhancement : [ExportTool] Added Export Material toggle for .obj export to allow materials not to be exported. 
+ - Enhancement : [ExportTool] Added Export Vertex Color toggle for .obj export to allow Vertex Colors to be exported. 
+ - Enhancement : [ExportTool] Added Optimize UV toggle for .obj export to allow UVs to be duplicated. 
+ - Enhancement : [ExportTool] Added Reset .Obj Properties button. 
+ - Enhancement : [ExportTool] Allowed a mesh to be exported as .obj under any other folders. 
+ - Fix : Fixed Null Reference Exception in UVEditorWindow.EditorMsgCallback 
+ - Fix : The search text edit box is emptied in the inspector when a tool is selected. 
+ - Fix : Fixed UV2 generation issue in Refresh All Version 
+ 
 Version 2.6.21 - Nov.29.2019
 ===============================
 - Enhancement : Added Unwrap parameters for Lightmap to Preference
