@@ -7,6 +7,7 @@ UModeler 2019
 Version 2.6.22 - Dec.6.2019
 ===============================
 - Enhancement : Improved Grid snapping so that it works based on world space.
+- Enhancement : Now UModeler object moves by a grid size when Grid snapping is enabled.
 - Enhancement : ``ExportTool`` Added ``Create Folder``, ``Export Material``, ``Export Vertex Color`` and ``Optimize UV`` toggles for .obj export to allow a folder not to be created. 
 - Enhancement : ``ExportTool`` Added ``Reset .Obj Properties`` button. 
 - Enhancement : ``ExportTool`` Allowed a mesh to be exported as .obj under any other folders. 

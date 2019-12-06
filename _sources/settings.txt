@@ -78,7 +78,10 @@ Rotation Snap Size
 .. important::
 
   ``Rotation Snap Size`` isn't available while ``Grid Enable`` is on because Grid Snapping forces each vertex to be snapped to the closest grid point. So Rotation snapping can't work with Grid snapping.
- 
+  
+.. important::
+
+  UModeler Object is also affected by Grid Snapping. When ``Grid Enabled`` is on, UModeler objects move by a grid size.
 
 Display
 ========
