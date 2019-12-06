@@ -10,7 +10,7 @@ Version 2.6.22 - Dec.6.2019
 - Enhancement : ``ExportTool`` Added ``Create Folder``, ``Export Material``, ``Export Vertex Color`` and ``Optimize UV`` toggles for .obj export to allow a folder not to be created. 
 - Enhancement : ``ExportTool`` Added ``Reset .Obj Properties`` button. 
 - Enhancement : ``ExportTool`` Allowed a mesh to be exported as .obj under any other folders. 
-- Enhancement : Changed the pivot position Move/Rotate/Scale handlers of the selected elements to the center of the last element. It used to be the center of all selected elements.
+- Enhancement : Changed the Move/Rotate/Scale handlers' position to the center of the last element. It used to be the center of all the selected elements.
 - Enhancement : Increased the selection vertex marker size. Now markers are more noticdeable and easiser to be selected.
 - Enhancement : Made CMD available instead of CTRL on MacOSX
 - Fix : Fixed Null Reference Exception in UVEditorWindow.EditorMsgCallback 
