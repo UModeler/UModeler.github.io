@@ -190,19 +190,28 @@
 </div></blockquote>
 <div class="section" id="version-2-6-22-dec-6-2019">
 <h2>Version 2.6.22 - Dec.6.2019<a class="headerlink" href="#version-2-6-22-dec-6-2019" title="Permalink to this headline">¶</a></h2>
-<blockquote>
-<div><ul class="simple">
-<li>Enhancement : [ExportTool] Added Create Folder toggle for .obj export to allow a folder not to be created.</li>
-<li>Enhancement : [ExportTool] Added Export Material toggle for .obj export to allow materials not to be exported.</li>
-<li>Enhancement : [ExportTool] Added Export Vertex Color toggle for .obj export to allow Vertex Colors to be exported.</li>
-<li>Enhancement : [ExportTool] Added Optimize UV toggle for .obj export to allow UVs to be duplicated.</li>
-<li>Enhancement : [ExportTool] Added Reset .Obj Properties button.</li>
-<li>Enhancement : [ExportTool] Allowed a mesh to be exported as .obj under any other folders.</li>
+<ul class="simple">
+<li>Enhancement : Improved Grid snapping so that it works based on world space.</li>
+<li>Enhancement : <code class="docutils literal"><span class="pre">ExportTool</span></code> Added <code class="docutils literal"><span class="pre">Create</span> <span class="pre">Folder</span></code>, <code class="docutils literal"><span class="pre">Export</span> <span class="pre">Material</span></code>, <code class="docutils literal"><span class="pre">Export</span> <span class="pre">Vertex</span> <span class="pre">Color</span></code> and <code class="docutils literal"><span class="pre">Optimize</span> <span class="pre">UV</span></code> toggles for .obj export to allow a folder not to be created.</li>
+<li>Enhancement : <code class="docutils literal"><span class="pre">ExportTool</span></code> Added <code class="docutils literal"><span class="pre">Reset</span> <span class="pre">.Obj</span> <span class="pre">Properties</span></code> button.</li>
+<li>Enhancement : <code class="docutils literal"><span class="pre">ExportTool</span></code> Allowed a mesh to be exported as .obj under any other folders.</li>
+<li>Enhancement : Changed the pivot position Move/Rotate/Scale handlers of the selected elements to the center of the last element. It used to be the center of all selected elements.</li>
+<li>Enhancement : Increased the selection vertex marker size. Now markers are more noticdeable and easiser to be selected.</li>
+<li>Enhancement : Made CMD available instead of CTRL on MacOSX</li>
 <li>Fix : Fixed Null Reference Exception in UVEditorWindow.EditorMsgCallback</li>
 <li>Fix : The search text edit box is emptied in the inspector when a tool is selected.</li>
-<li>Fix : Fixed UV2 generation issue in Refresh All Version</li>
+<li>Fix : Fixed UV2 generation issue in Refresh All.</li>
+<li>Fix : Fixed some exception errors of Refresh All.</li>
+<li>Fix : Fixed entangled vertices bug happening when moving a vertex with <code class="docutils literal"><span class="pre">Invert</span> <span class="pre">Vertex</span></code> on.</li>
+<li>Fix : Fixed a bug where the cursor isn&#8217;t displayed rightly when the camera is under the world floor.</li>
 </ul>
-</div></blockquote>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<div class="last line-block">
+<div class="line">See <a class="reference internal" href="MiscGroup/ExportTool.html#exporttool"><span class="std std-ref">Export Tool </span></a> to get more info.</div>
+<div class="line">See <a class="reference internal" href="settings.html#snap"><span class="std std-ref">Snap</span></a> to get more info about the improved Grid &amp; Rotation Snap.</div>
+</div>
+</div>
 </div>
 <div class="section" id="version-2-6-21-nov-29-2019">
 <h2>Version 2.6.21 - Nov.29.2019<a class="headerlink" href="#version-2-6-21-nov-29-2019" title="Permalink to this headline">¶</a></h2>

@@ -76,8 +76,5 @@ Arranges UV Islands to fix UVs. This function can be used when you think UV Isla
 Preferences
 ==============
 Opens the Preferences window.
-
-.. figure:: /images/UModeler_PreferencesWindow2.jpg
-   :scale: 90 % 
    
 See :ref:`AdvancedPreferences` to get more info.

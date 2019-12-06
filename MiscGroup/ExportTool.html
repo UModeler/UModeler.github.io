@@ -103,7 +103,8 @@
 <li class="toctree-l2"><a class="reference internal" href="BakeTransformTool.html">Bake Transform Tool </a></li>
 <li class="toctree-l2"><a class="reference internal" href="PolygonGroupTool.html">Polygon Group Tool </a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Export Tool </a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#properties">Properties</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#properties-about-obj">Properties about .obj</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#properties-about-prefab">Properties about .prefab</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="ColliderTool.html">Collider Tool </a></li>
@@ -160,15 +161,31 @@
            <div itemprop="articleBody">
             
   <div class="section" id="export-tool-icon-misc-export">
-<h1>Export Tool <a class="reference internal" href="../_images/Icon_Misc_Export.png"><img alt="Icon_Misc_Export" src="../_images/Icon_Misc_Export.png" style="width: 26.0px; height: 26.0px;" /></a><a class="headerlink" href="#export-tool-icon-misc-export" title="Permalink to this headline">¶</a></h1>
+<span id="exporttool"></span><h1>Export Tool <a class="reference internal" href="../_images/Icon_Misc_Export.png"><img alt="Icon_Misc_Export" src="../_images/Icon_Misc_Export.png" style="width: 26.0px; height: 26.0px;" /></a><a class="headerlink" href="#export-tool-icon-misc-export" title="Permalink to this headline">¶</a></h1>
+<div class="figure">
+<img alt="../_images/UModeler_ExportTool.jpg" src="../_images/UModeler_ExportTool.jpg" />
+</div>
 <p>Exports the UModeler mesh to .obj or .prefab.</p>
-<div class="section" id="properties">
-<h2>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="properties-about-obj">
+<h2>Properties about .obj<a class="headerlink" href="#properties-about-obj" title="Permalink to this headline">¶</a></h2>
 <dl class="docutils">
+<dt>Create Folder</dt>
+<dd>A folder will be created and .OBJ and .MTL will be exported inside it</dd>
+<dt>Export Material</dt>
+<dd>A Material file(.MTL) will be created.</dd>
+<dt>Export Vertex Colors</dt>
+<dd>RGB channel is added to each vertex. This format doesn&#8217;t guarantee compatibility according to a program where .obj is loaded.</dd>
+<dt>Optimize UV</dt>
+<dd>Optimizes UVs to avoid duplication.</dd>
 <dt>Export to .obj</dt>
 <dd>Exports the UModeler mesh to .obj</dd>
+</dl>
+</div>
+<div class="section" id="properties-about-prefab">
+<h2>Properties about .prefab<a class="headerlink" href="#properties-about-prefab" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
 <dt>Export to .prefab</dt>
-<dd>Exports the UModeler mesh to .prefab</dd>
+<dd>Exports the UModeler mesh to .prefab. Prefab is saved only in a folder under Project folder.</dd>
 </dl>
 </div>
 </div>

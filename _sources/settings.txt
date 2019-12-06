@@ -56,13 +56,15 @@ Seamless Edit
  
 Text Based Menu 
  Turns on and off the text based menu. It is same as ``Text Based Menu`` in the popup menu brought up by RMB on the menu panel.
+ 
+.. _Snap:
 
 Snap
 ======
 Here are the settings related to grid and rotation snapping.
 
-Enable
- Enables snapping
+Grid Enable
+ Enables Grid Snapping. The grid used for the snapping is based on the world space.
 
 Popular Grid Size
  Most used grid sizes
@@ -71,7 +73,12 @@ Grid Size
  Custom grid size
  
 Rotation Snap Size
- Most used rotation snap sizes
+ Most used rotation snap sizes 
+ 
+.. important::
+
+  ``Rotation Snap Size`` isn't available while ``Grid Enable`` is on because Grid Snapping forces each vertex to be snapped to the closest grid point. So Rotation snapping can't work with Grid snapping.
+ 
 
 Display
 ========
@@ -101,7 +108,7 @@ Preferences
 
 You can set shortcuts and general settings of UModeler in UModeler Preferences window to which you can go through ``Tools > UModeler > Preferences`` in the top menu. 
 
-.. figure:: /images/UModeler_PreferencesWindow2.jpg
+.. figure:: /images/UModeler_Preferencewindow3.jpg
    :scale: 80 %
 	
    UModeler Preference.
@@ -117,3 +124,6 @@ Display Polygon Preselection
  
 Keep System Toolbar on always
  When this is on, the toolbar at the top of the scene view is visible all the time.
+ 
+.. seealso::
+ | Unwrap Params like ``Pack Margin``, ``Hard Angle``, ``Area Error`` and ``Angle Error`` are described well in `Generating Lightmap UVs <https://docs.unity3d.com/Manual/LightingGiUvs-GeneratingLightmappingUVs.html>`_

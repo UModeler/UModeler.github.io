@@ -152,7 +152,7 @@
             
   <div class="section" id="toolbar-settings-and-preference">
 <h1>Toolbar, Settings and Preference<a class="headerlink" href="#toolbar-settings-and-preference" title="Permalink to this headline">¶</a></h1>
-<div class="figure" id="id1">
+<div class="figure" id="id2">
 <a class="reference internal image-reference" href="_images/SceneView_For_Toolbar.jpg"><img alt="_images/SceneView_For_Toolbar.jpg" src="_images/SceneView_For_Toolbar.jpg" style="width: 1306.4px; height: 783.2px;" /></a>
 <p class="caption"><span class="caption-text">Scene view.</span></p>
 </div>
@@ -165,17 +165,17 @@
 <a class="reference internal image-reference" href="_images/Toolbar_Right.png"><img alt="_images/Toolbar_Right.png" src="_images/Toolbar_Right.png" style="width: 77.60000000000001px; height: 26.400000000000002px;" /></a>
 </div>
 <p>The second part consists of New UModeler object tool, Settings and 3D Cursor. We&#8217;ll cover only them here.</p>
-<div class="figure" id="id2">
+<div class="figure" id="id3">
 <a class="reference internal image-reference" href="_images/Icon_Misc_NewUModelerObject.png"><img alt="_images/Icon_Misc_NewUModelerObject.png" src="_images/Icon_Misc_NewUModelerObject.png" style="width: 26.0px; height: 26.0px;" /></a>
 <p class="caption"><span class="caption-text">New UModeler Object</span></p>
 </div>
 <p>When you click on this button, a new empty UModeler object will be created in a scene. At first you can fill it with primitives shapes and 2D polygons using the tools in Primitive Shapes group and Drawing group.</p>
-<div class="figure" id="id3">
+<div class="figure" id="id4">
 <a class="reference internal image-reference" href="_images/Icon_Misc_Cursor.png"><img alt="_images/Icon_Misc_Cursor.png" src="_images/Icon_Misc_Cursor.png" style="width: 26.0px; height: 26.0px;" /></a>
 <p class="caption"><span class="caption-text">3D Cursor</span></p>
 </div>
 <p>When this is on, 3D cursor is activated and displayed on the scene view. The pivot of roatation and scaling is the 3D cursor position at this time. And the cursor can move along X,Y or Z axis with the move tool over the cursor. If the cursor passes nearby a vertex, it will be snapped to the vertex. If you press <code class="docutils literal"><span class="pre">LMB</span></code> holding <code class="docutils literal"><span class="pre">CTRL</span></code> and <code class="docutils literal"><span class="pre">SHIFT</span></code>, the cursor will move to the cursor position at once. If the mouse cursor is over a UModeler mesh then, the 3D cursor will move to a picked position on the mesh.</p>
-<div class="figure" id="id4">
+<div class="figure" id="id5">
 <a class="reference internal image-reference" href="_images/Icon_Misc_Settings.png"><img alt="_images/Icon_Misc_Settings.png" src="_images/Icon_Misc_Settings.png" style="width: 26.0px; height: 26.0px;" /></a>
 <p class="caption"><span class="caption-text">Settings</span></p>
 </div>
@@ -201,11 +201,11 @@
 <dd>Turns on and off the text based menu. It is same as <code class="docutils literal"><span class="pre">Text</span> <span class="pre">Based</span> <span class="pre">Menu</span></code> in the popup menu brought up by RMB on the menu panel.</dd>
 </dl>
 <div class="section" id="snap">
-<h2>Snap<a class="headerlink" href="#snap" title="Permalink to this headline">¶</a></h2>
+<span id="id1"></span><h2>Snap<a class="headerlink" href="#snap" title="Permalink to this headline">¶</a></h2>
 <p>Here are the settings related to grid and rotation snapping.</p>
 <dl class="docutils">
-<dt>Enable</dt>
-<dd>Enables snapping</dd>
+<dt>Grid Enable</dt>
+<dd>Enables Grid Snapping. The grid used for the snapping is based on the world space.</dd>
 <dt>Popular Grid Size</dt>
 <dd>Most used grid sizes</dd>
 <dt>Grid Size</dt>
@@ -213,6 +213,10 @@
 <dt>Rotation Snap Size</dt>
 <dd>Most used rotation snap sizes</dd>
 </dl>
+<div class="admonition important">
+<p class="first admonition-title">Important</p>
+<p class="last"><code class="docutils literal"><span class="pre">Rotation</span> <span class="pre">Snap</span> <span class="pre">Size</span></code> isn&#8217;t available while <code class="docutils literal"><span class="pre">Grid</span> <span class="pre">Enable</span></code> is on because Grid Snapping forces each vertex to be snapped to the closest grid point. So Rotation snapping can&#8217;t work with Grid snapping.</p>
+</div>
 </div>
 <div class="section" id="display">
 <h2>Display<a class="headerlink" href="#display" title="Permalink to this headline">¶</a></h2>
@@ -234,8 +238,8 @@
 <div class="section" id="preferences">
 <span id="advancedpreferences"></span><h2>Preferences<a class="headerlink" href="#preferences" title="Permalink to this headline">¶</a></h2>
 <p>You can set shortcuts and general settings of UModeler in UModeler Preferences window to which you can go through <code class="docutils literal"><span class="pre">Tools</span> <span class="pre">&gt;</span> <span class="pre">UModeler</span> <span class="pre">&gt;</span> <span class="pre">Preferences</span></code> in the top menu.</p>
-<div class="figure" id="id5">
-<a class="reference internal image-reference" href="_images/UModeler_PreferencesWindow2.jpg"><img alt="_images/UModeler_PreferencesWindow2.jpg" src="_images/UModeler_PreferencesWindow2.jpg" style="width: 370.40000000000003px; height: 415.20000000000005px;" /></a>
+<div class="figure" id="id6">
+<a class="reference internal image-reference" href="_images/UModeler_Preferencewindow3.jpg"><img alt="_images/UModeler_Preferencewindow3.jpg" src="_images/UModeler_Preferencewindow3.jpg" style="width: 366.40000000000003px; height: 580.8000000000001px;" /></a>
 <p class="caption"><span class="caption-text">UModeler Preference.</span></p>
 </div>
 <dl class="docutils">
@@ -248,6 +252,12 @@
 <dt>Keep System Toolbar on always</dt>
 <dd>When this is on, the toolbar at the top of the scene view is visible all the time.</dd>
 </dl>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<div class="last line-block">
+<div class="line">Unwrap Params like <code class="docutils literal"><span class="pre">Pack</span> <span class="pre">Margin</span></code>, <code class="docutils literal"><span class="pre">Hard</span> <span class="pre">Angle</span></code>, <code class="docutils literal"><span class="pre">Area</span> <span class="pre">Error</span></code> and <code class="docutils literal"><span class="pre">Angle</span> <span class="pre">Error</span></code> are described well in <a class="reference external" href="https://docs.unity3d.com/Manual/LightingGiUvs-GeneratingLightmappingUVs.html">Generating Lightmap UVs</a></div>
+</div>
+</div>
 </div>
 </div>
 

@@ -6,15 +6,23 @@ UModeler 2019
  
 Version 2.6.22 - Dec.6.2019
 ===============================
- - Enhancement : [ExportTool] Added Create Folder toggle for .obj export to allow a folder not to be created. 
- - Enhancement : [ExportTool] Added Export Material toggle for .obj export to allow materials not to be exported. 
- - Enhancement : [ExportTool] Added Export Vertex Color toggle for .obj export to allow Vertex Colors to be exported. 
- - Enhancement : [ExportTool] Added Optimize UV toggle for .obj export to allow UVs to be duplicated. 
- - Enhancement : [ExportTool] Added Reset .Obj Properties button. 
- - Enhancement : [ExportTool] Allowed a mesh to be exported as .obj under any other folders. 
- - Fix : Fixed Null Reference Exception in UVEditorWindow.EditorMsgCallback 
- - Fix : The search text edit box is emptied in the inspector when a tool is selected. 
- - Fix : Fixed UV2 generation issue in Refresh All Version 
+- Enhancement : Improved Grid snapping so that it works based on world space.
+- Enhancement : ``ExportTool`` Added ``Create Folder``, ``Export Material``, ``Export Vertex Color`` and ``Optimize UV`` toggles for .obj export to allow a folder not to be created. 
+- Enhancement : ``ExportTool`` Added ``Reset .Obj Properties`` button. 
+- Enhancement : ``ExportTool`` Allowed a mesh to be exported as .obj under any other folders. 
+- Enhancement : Changed the pivot position Move/Rotate/Scale handlers of the selected elements to the center of the last element. It used to be the center of all selected elements.
+- Enhancement : Increased the selection vertex marker size. Now markers are more noticdeable and easiser to be selected.
+- Enhancement : Made CMD available instead of CTRL on MacOSX
+- Fix : Fixed Null Reference Exception in UVEditorWindow.EditorMsgCallback 
+- Fix : The search text edit box is emptied in the inspector when a tool is selected. 
+- Fix : Fixed UV2 generation issue in Refresh All.
+- Fix : Fixed some exception errors of Refresh All.
+- Fix : Fixed entangled vertices bug happening when moving a vertex with ``Invert Vertex`` on.
+- Fix : Fixed a bug where the cursor isn't displayed rightly when the camera is under the world floor.
+
+.. seealso:: 
+ | See :ref:`ExportTool` to get more info.
+ | See :ref:`Snap` to get more info about the improved Grid & Rotation Snap.
  
 Version 2.6.21 - Nov.29.2019
 ===============================
