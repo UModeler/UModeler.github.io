@@ -20,6 +20,7 @@ Version 2.6.22 - Dec.6.2019
 - Fix : Fixed some exception errors of Refresh All.
 - Fix : Fixed entangled vertices bug happening when moving a vertex with ``Invert Vertex`` on.
 - Fix : Fixed a bug where the cursor isn't displayed rightly when the camera is under the world floor.
+- Fix : Fixed Null Reference Exception and Null Argument Exception thrown when entering Play Mode.
 
 .. seealso:: 
  | See :ref:`ExportTool` to get more info.
@@ -155,7 +156,7 @@ Version 2.6.1 - May.2.2019
  
 Version 2.6 - Apr.29.2019.4
 ==================================================================================
- - Enhancement : Added two buttons to MeshFilter component inspector to have the mesh saved as .asset file (See :ref:`this <meshfiltercomponent>`)
+ - Enhancement : Added two buttons to MeshFilter component inspector to have the mesh saved as .asset file.
  - Enhancement : Added ``Don't save in build`` to ``Local Settings`` tool to make you decide if UModeler component is included or not in build.
  - Enhancement : Enabled to build UModeler mesh at runtime
  - Enhancement : Renewed the Preference window.  
