@@ -4,8 +4,9 @@ UModeler 2019
 
  .. figure:: /images/releasenote2019_3.jpg
  
-Version 2.6.22 - Dec.6.2019
+Version 2.6.22f4 - Dec.11.2019
 ===============================
+- Enhancement : Improved a way of assigning Materials with ``Alt+0`` + ``Alt+9``.
 - Enhancement : Improved Grid snapping so that it works based on world space.
 - Enhancement : Now UModeler object moves by a grid size when Grid snapping is enabled.
 - Enhancement : ``ExportTool`` Added ``Create Folder``, ``Export Material``, ``Export Vertex Color`` and ``Optimize UV`` toggles for .obj export to allow a folder not to be created. 
@@ -21,6 +22,7 @@ Version 2.6.22 - Dec.6.2019
 - Fix : Fixed entangled vertices bug happening when moving a vertex with ``Invert Vertex`` on.
 - Fix : Fixed a bug where the cursor isn't displayed rightly when the camera is under the world floor.
 - Fix : Fixed Null Reference Exception and Null Argument Exception thrown when entering Play Mode.
+- Fix : Fixed UV distortion of Autolayout.
 
 .. seealso:: 
  | See :ref:`ExportTool` to get more info.

@@ -7,14 +7,14 @@ Material Tool |Icon_Surface_Material|
 
 Adds and assigns materials to the polygons.
 
- .. figure:: /images/UModeler_MaterialTool2.5.jpg
+ .. figure:: /images/UModeler_Material_Slots.jpg
 
 Steps
 --------------------
 1. Select ``Material Tool``.
 2. Select polygons where you want to assign a material if no polygon is selected.
 3. If ``Materials`` doesn’t have a material you want, add a new material slot by clicking ``Add Slot`` button at the end of the properties to open the material box and select one. 
-4. Click on ``A`` button in the slot. It'll assign the material in the slot to the selected polygons.
+4. Press ``Alt + n`` shorcut or Click on ``Alt + n`` or ``A`` button in the slot. It'll assign the material in the slot to the selected polygons.
 5. Click ``LMB`` holding ``SHIFT`` over a polygon to which you want to assign the current material.
 
 Interface
@@ -42,7 +42,7 @@ UIs of Material Slot
 Texture Button
  Selects a slot.
 
-A (Apply)
+``Alt + n`` or A (Assign)
  Assigns the Mat ID to the selected polygons.
  
 S (Select polygons)
