@@ -17,6 +17,10 @@ Steps
 4. Press ``Alt + n`` shorcut or Click on ``Alt + n`` or ``A`` button in the slot. It'll assign the material in the slot to the selected polygons.
 5. Click ``LMB`` holding ``SHIFT`` over a polygon to which you want to assign the current material.
 
+.. Important::
+
+ ``Alt + 0`` ~ ``Alt + 9`` shortcuts work in other tools as well so you don't need to enter Material tool if you use ``Alt + n`` shortcuts to assign a material.
+
 Interface
 ------------------
 LMB
