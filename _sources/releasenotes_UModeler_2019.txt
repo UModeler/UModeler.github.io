@@ -4,7 +4,13 @@ UModeler 2019
 
  .. figure:: /images/releasenote2019_3.jpg
  
-Version 2.6.22f4 - Dec.11.2019
+Version 2.6.23 - Dec.12.2019
+===============================
+- Fix : Fixed not disabling grid snapping in Object Mode.
+- Fix : Fixed object world position jumping when using pivot tools.
+- Enhancement : Enabled a material to be assigned to a whole UModeler object in Object mode using a hotkey. 
+ 
+Version 2.6.22f4 - Dec.9.2019
 ===============================
 - Enhancement : Improved a way of assigning Materials with ``Alt+0`` + ``Alt+9``.
 - Enhancement : Improved Grid snapping so that it works based on world space.
