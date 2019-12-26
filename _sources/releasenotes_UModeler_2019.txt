@@ -4,7 +4,7 @@ UModeler 2019
 
  .. figure:: /images/releasenote2019_3.jpg
 
- Version 2.6.25 - Dec.17.2019
+Version 2.6.25 - Dec.17.2019
 ===============================
 - Fix : Now Gizmo position depends on Pivot Mode which has ``Center`` and ``Pivot``. 
  
