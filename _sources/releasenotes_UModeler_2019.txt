@@ -3,6 +3,17 @@ UModeler 2019
 ############################
 
  .. figure:: /images/releasenote2019_3.jpg
+ 
+Version 2.6.27 - Dec.31.2019
+=============================
+- Fix : Removed all warnings related to deprecated Unity APIs 
+- Fix : Fixed the system toolbar not displaying on the scene view in Unity 2019.x due to the changes of 2.6.26 
+- Fix : Fixed mouse events not working on the scene view in Unity 2019.x due to the changes of 2.6.26
+ 
+Version 2.6.26 - Dec.27.2019
+==============================
+- Fix : Jump of the selected UModeler object with Grid snap on just after loading a scene. 
+- Fix : UModeler not working when Gizmos is off on unity 2019.3.x Version 2.6.25
 
 Version 2.6.25f2 - Dec.17.2019
 ===============================
