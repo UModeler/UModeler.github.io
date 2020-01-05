@@ -72,6 +72,9 @@ Popular Grid Size
 Grid Size
  Custom grid size
  
+X,Y and Z
+ Allows the grid snap along each X, Y, Z axis 
+ 
 Rotation Snap Size
  Most used rotation snap sizes 
  
