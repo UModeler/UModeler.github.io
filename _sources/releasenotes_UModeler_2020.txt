@@ -2,6 +2,19 @@
 UModeler 2020
 ############################
 
+Version 2.7.1 - Jan.28.2020
+=======================================
+- Enhancement : Allowed minus thickness of Room tool
+- Enhancement : Allowed Flip Tool in Object mode, which enables flipping all polygons at once.
+- Enhancement : Added Increment Snap. Now None, World Grid Snap and Increment Snap are available.
+- Fix : Fixed an issue that a Prefab icon in the project window would change quickly
+- Fix : Fixed an issue regarding editing UModeler in Prefab mode 
+- Fix : UV reset bug when vertex/edge/polygons being transformed by adding [Reset UVs] property. 
+- Fix : Fixed a bug where UModeler prefab instance would disappear when a prefab is placed in a level by dragging.
+- Fix : Fixed an issue where child UModeler objects would get invisible invisible when its parent prefab is instanced.
+- Fix : Made a mesh collider up to date whenever UModeler mesh changes.
+- Fix : Fixed an issue related to upside down material UVs.
+
 Version 2.7.0 - Jan.7.2020
 =============================
 - Fix : Fixed InvalidCastException in TPUModelerEditor.BaseTool.Properties[T]
