@@ -180,6 +180,10 @@
 <p class="caption"><span class="caption-text">Settings</span></p>
 </div>
 <p>Lastly we&#8217;ll take a look at <code class="docutils literal"><span class="pre">Settings</span></code></p>
+<div class="figure" id="id6">
+<a class="reference internal image-reference" href="_images/Settings_2.7.1.jpg"><img alt="_images/Settings_2.7.1.jpg" src="_images/Settings_2.7.1.jpg" style="width: 224.0px; height: 263.0px;" /></a>
+<p class="caption"><span class="caption-text">Settings on UModeler 2.7.1 or later</span></p>
+</div>
 <dl class="docutils" id="seamless-edit">
 <dt>Seamless Edit</dt>
 <dd><p class="first">Selects the UModeler object under the mouse cursor every time the mouse moves to edit UModeler objects seamlessly. The object set affected by this mode is decided according to which category is chosen.</p>
@@ -202,26 +206,27 @@
 </dl>
 <div class="section" id="snap">
 <span id="id1"></span><h2>Snap<a class="headerlink" href="#snap" title="Permalink to this headline">¶</a></h2>
-<p>Here are the settings related to grid and rotation snapping.</p>
+<p>Here are the settings related to Snapping.</p>
 <dl class="docutils">
-<dt>Grid Enable</dt>
-<dd>Enables Grid Snapping. The grid used for the snapping is based on the world space.</dd>
-<dt>Popular Grid Size</dt>
-<dd>Most used grid sizes</dd>
-<dt>Grid Size</dt>
-<dd>Custom grid size</dd>
+<dt>Snap Type</dt>
+<dd><ul class="first last simple">
+<li><code class="docutils literal"><span class="pre">None</span></code> : No Snap is applied.</li>
+<li><code class="docutils literal"><span class="pre">World</span> <span class="pre">Grid</span> <span class="pre">Snap</span></code> : Each position you are moving will be snapped to the corresponding world grid position.</li>
+<li><code class="docutils literal"><span class="pre">Increment</span> <span class="pre">Snap</span></code> : When you move positions using gizmos, they will increase or decrease by <code class="docutils literal"><span class="pre">Move</span> <span class="pre">Snap</span> <span class="pre">Size</span></code></li>
+</ul>
+</dd>
+<dt>Popular Move Snap Size</dt>
+<dd>Most used move snap sizes</dd>
+<dt>Move Snap Size</dt>
+<dd>Custom move snap size</dd>
 <dt>X,Y and Z</dt>
-<dd>Allows the grid snap along each X, Y, Z axis</dd>
+<dd>Allows the world grid snap along each X, Y, Z axis.</dd>
 <dt>Rotation Snap Size</dt>
-<dd>Most used rotation snap sizes</dd>
+<dd>Rotation snap sizes. This is available when <code class="docutils literal"><span class="pre">Increment</span> <span class="pre">Snap</span></code> is selected.</dd>
 </dl>
 <div class="admonition important">
 <p class="first admonition-title">Important</p>
-<p class="last"><code class="docutils literal"><span class="pre">Rotation</span> <span class="pre">Snap</span> <span class="pre">Size</span></code> isn&#8217;t available while <code class="docutils literal"><span class="pre">Grid</span> <span class="pre">Enable</span></code> is on because Grid Snapping forces each vertex to be snapped to the closest grid point. So Rotation snapping can&#8217;t work with Grid snapping.</p>
-</div>
-<div class="admonition important">
-<p class="first admonition-title">Important</p>
-<p class="last">UModeler Object is also affected by Grid Snapping. When <code class="docutils literal"><span class="pre">Grid</span> <span class="pre">Enabled</span></code> is on, UModeler objects move by a grid size.</p>
+<p class="last">UModeler Object is also affected by Snap settings. When <code class="docutils literal"><span class="pre">Snap</span> <span class="pre">Type</span></code> is <code class="docutils literal"><span class="pre">World</span> <span class="pre">Grid</span> <span class="pre">Snap</span></code>, UModeler objects move by <code class="docutils literal"><span class="pre">Move</span> <span class="pre">Snap</span> <span class="pre">Size</span></code>.</p>
 </div>
 </div>
 <div class="section" id="display">
@@ -244,7 +249,7 @@
 <div class="section" id="preferences">
 <span id="advancedpreferences"></span><h2>Preferences<a class="headerlink" href="#preferences" title="Permalink to this headline">¶</a></h2>
 <p>You can set shortcuts and general settings of UModeler in UModeler Preferences window to which you can go through <code class="docutils literal"><span class="pre">Tools</span> <span class="pre">&gt;</span> <span class="pre">UModeler</span> <span class="pre">&gt;</span> <span class="pre">Preferences</span></code> in the top menu.</p>
-<div class="figure" id="id6">
+<div class="figure" id="id7">
 <a class="reference internal image-reference" href="_images/UModeler_Preferencewindow3.jpg"><img alt="_images/UModeler_Preferencewindow3.jpg" src="_images/UModeler_Preferencewindow3.jpg" style="width: 366.40000000000003px; height: 580.8000000000001px;" /></a>
 <p class="caption"><span class="caption-text">UModeler Preference.</span></p>
 </div>

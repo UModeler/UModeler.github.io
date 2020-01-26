@@ -39,7 +39,12 @@ When this is on, 3D cursor is activated and displayed on the scene view. The piv
 
    Settings
   
-Lastly we'll take a look at ``Settings``   
+Lastly we'll take a look at ``Settings`` 
+
+.. figure:: /images/Settings_2.7.1.jpg
+   :scale: 100 %
+
+   Settings on UModeler 2.7.1 or later
    
 .. _seamless-edit:
    
@@ -61,30 +66,28 @@ Text Based Menu
 
 Snap
 ======
-Here are the settings related to grid and rotation snapping.
+Here are the settings related to Snapping.
 
-Grid Enable
- Enables Grid Snapping. The grid used for the snapping is based on the world space.
+Snap Type 
+ - ``None`` : No Snap is applied.
+ - ``World Grid Snap`` : Each position you are moving will be snapped to the corresponding world grid position.
+ - ``Increment Snap`` : When you move positions using gizmos, they will increase or decrease by ``Move Snap Size``
 
-Popular Grid Size
- Most used grid sizes
+Popular Move Snap Size
+ Most used move snap sizes
 
-Grid Size
- Custom grid size
+Move Snap Size
+ Custom move snap size
  
 X,Y and Z
- Allows the grid snap along each X, Y, Z axis 
+ Allows the world grid snap along each X, Y, Z axis. 
  
 Rotation Snap Size
- Most used rotation snap sizes 
+ Rotation snap sizes. This is available when ``Increment Snap`` is selected.
  
 .. important::
 
-  ``Rotation Snap Size`` isn't available while ``Grid Enable`` is on because Grid Snapping forces each vertex to be snapped to the closest grid point. So Rotation snapping can't work with Grid snapping.
-  
-.. important::
-
-  UModeler Object is also affected by Grid Snapping. When ``Grid Enabled`` is on, UModeler objects move by a grid size.
+  UModeler Object is also affected by Snap settings. When ``Snap Type`` is ``World Grid Snap``, UModeler objects move by ``Move Snap Size``.
 
 Display
 ========

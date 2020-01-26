@@ -5,10 +5,20 @@
 Flip Tool |Icon_Tweak_Flip|
 ####################################
 
-Flips the selected polygons.
+Flips polygons.
 
-Steps
-------
+Steps - Object Mode
+------------------------
+1. Go to ``Object tool``.
+2. Click on ``Flip tool`` button to flip all polygons.
+
+.. important::
+
+ The Object Mode is available since UModeler 2.7.1
+
+
+Steps - Polygon Mode
+------------------------
 1. Select polygons with ``Polygon Tool``.
 2. Enter ``Flip Tool`` to check out that the selected polygons are flipped immediately.
 
