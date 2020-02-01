@@ -2,7 +2,11 @@
 UModeler 2020
 ############################
 
-Version 2.7.1.1 - Jan.30.2020
+Version 2.7.1.2 - Jan.30.2020
+=======================================
+- Fix : Fixed an issue where Transform properties in the inspector have different looks from the original ones.
+
+Version 2.7.1.1 - Jan.29.2020
 =======================================
 - Fix : Fixed an issue related to upside down material UVs.
 
