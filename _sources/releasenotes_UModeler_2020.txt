@@ -7,7 +7,7 @@ UModeler 2020
 Version 2.7.2 - Feb.25.2020
 =======================================
 - Fix : Fixed issues in font, size and position of Commentary box on Unity 2019.3 
-- Fix : Added shortcuts of 3D cursor and Settings. 
+- Fix : Added shortcuts of 3D cursor(SHIFT+A) and Settings(SHIFT+W). 
 - Fix : Fixed a pivot of rotation and scale gizmos when 3D cursor is enabled. 
 - Fix : Made unwrapped polygons' uvs not transformed in UV Tool. 
 - Fix : Fixed an auto layout issue where a polygon is unwrapped with the same density as the adjacent one which has been already unwrapped. 
