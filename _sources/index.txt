@@ -2,11 +2,9 @@
  Unity UModeler Manual
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-.. figure:: /images/UModelerTitle.jpg
-   :scale: 55 %  
-	
-   Village on the water modeled with only UModeler.
-   
+.. figure:: /images/Releasenote2020.png
+   :scale: 55 %
+  
 .. raw:: html
 
  <a href="https://www.assetstore.unity3d.com/#!/content/80868?aid=1011l36n8">Asset Store</a> | <a href="http://www.tripolygon.com">Website</a> | <a href="https://cafe.naver.com/tripolygon/31">한글 메뉴얼</a>
