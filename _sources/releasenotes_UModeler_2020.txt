@@ -6,12 +6,12 @@ UModeler 2020
  
 Version 2.7.3 - March.6.2020
 =======================================
-Feature : Added a module to collect usability data using Google analyst.
-Feature : Added focusing on selected elements pressing 'F' in UV Editor
-Fix : Fix an issue where UV Editor camera isn't located at the center of the view, which causes unwrapped polygons with autolayout being out of the center of the view.
-Fix : Fix a bug where edges in too small UModeler mesh aren't selected correctly.
-Fix : Fix an issue where the Settings window is occluded by the global axis when the scene view is too narrow.
-Fix : Allowed minus scale values in UV Tool so that up-side down UVs can be reset by pressing Reset UVs button.
+- Feature : Added a module to collect usability data using Google analyst.
+- Feature : Added focusing on selected elements pressing 'F' in UV Editor
+- Fix : Fix an issue where UV Editor camera isn't located at the center of the view, which causes unwrapped polygons with autolayout being out of the center of the view.
+- Fix : Fix a bug where edges in too small UModeler mesh aren't selected correctly.
+- Fix : Fix an issue where the Settings window is occluded by the global axis when the scene view is too narrow.
+- Fix : Allowed minus scale values in UV Tool so that up-side down UVs can be reset by pressing Reset UVs button.
 
 Version 2.7.2 - Feb.25.2020
 =======================================
