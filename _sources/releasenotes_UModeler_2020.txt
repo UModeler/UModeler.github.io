@@ -6,7 +6,6 @@ UModeler 2020
  
 Version 2.7.4 - March.10.2020
 =======================================
-Version 2.7.4 
 - Fix : Fixed an issue where the size of box overlay for selection representation changed abruptly when you move a mouse between the game view and the scene view on play mode. 
 - Feature : Implemented Smoothing group generation when UModelerizing considering polygon's adjacency and normals.
  
