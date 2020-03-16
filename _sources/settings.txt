@@ -34,6 +34,13 @@ When you click on this button, a new empty UModeler object will be created in a 
    
 When this is on, 3D cursor is activated and displayed on the scene view. The pivot of roatation and scaling is the 3D cursor position at this time. And the cursor can move along X,Y or Z axis with the move tool over the cursor. If the cursor passes nearby a vertex, it will be snapped to the vertex. If you press ``LMB`` holding ``CTRL`` and ``SHIFT``, the cursor will move to the cursor position at once. If the mouse cursor is over a UModeler mesh then, the 3D cursor will move to a picked position on the mesh.
 
+.. figure:: /images/Icon_Misc_RefreshAll.png
+   :scale: 100 %
+   
+   Refresh All
+   
+Refreshes all UModeler objects in the current scene to recreate all resources. It could resolve a broken mesh issue and lightmap problems etc.   
+
 .. figure:: /images/Icon_Misc_Settings.png
    :scale: 100 %
 
