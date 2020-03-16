@@ -10,4 +10,5 @@ Unwrap Group |Icon_UVEditor_Group_Unwrap|
 
    PlaneUnwrapTool.rst   
    CubeUnwrapTool.rst
+   MultipleAutolayoutUnwrapTool.rst
    CancelTool.rst

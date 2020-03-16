@@ -63,7 +63,7 @@ Divides all polygons into triangles.
 
 Refresh 
 ========================================
-Refreshes all resources of the selected UModeler object. This doesn't change and remove any data. It might resolve problems causing a broken mesh.
+Refreshes every resource of all UModeler objects in the current scene. This doesn't change and remove any data. It might resolve a broken mesh issue or light map problems etc.
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
