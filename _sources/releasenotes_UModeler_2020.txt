@@ -3,6 +3,14 @@ UModeler 2020
 ############################
 
  .. figure:: /images/Releasenote2020.png
+ 
+Version 2.7.7 - March.31.2020
+=================================
+- Enhancement : Added UV Tool default parameters to Preference. Shift, Rotation, Scale parameter in UV Tool are reset based on them.
+- Enhancement : Added [Create Smoothing Groups as UModelerize]. If it is enabled, smoothing groups will be created when UModelerlizing.
+- Fix : Wrong Settings windows location while Multiple Scene views are opened.
+- Fix : Fixed an issue where a shape created with One-Click Build wasn't affected by World Grid Snap.
+- Fix : Fixed a bug where a primitive shape object went away when undoing/redoing.
 
 Version 2.7.6 - March.26.2020
 =======================================
