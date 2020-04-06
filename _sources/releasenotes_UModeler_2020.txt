@@ -4,6 +4,13 @@ UModeler 2020
 
  .. figure:: /images/Releasenote2020.png
  
+Version 2.7.8 - April.7.2020
+===================================
+- Fix : Fixed an issue of UV Default parameters for UV Tool. 
+- Fix : Fixed a bug where helper arrows and planes in Multiple PushPull and Mirror tool are affected by transform's scale and rotation 
+- Fix : Fixed a bug where UModelerized meshes disappear when they are selected. 
+- Change : Allows 3D cursor to be snapped to the center of edge and polygon by moving a gizmo holding LMB 
+ 
 Version 2.7.7 - March.31.2020
 =================================
 - Enhancement : Added UV Tool default parameters to Preference. Shift, Rotation, Scale parameter in UV Tool are reset based on them.
