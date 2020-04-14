@@ -9,6 +9,7 @@ Version 2.7.9 - April.15.2020
 - Fix : Fixed an issue where duplicated UModeler objects shared meshes 
 - Fix : Fixed a material issue where new assigned  materials of UModeler prefab objects returned to the default ones.
 - Fix : Fixed a bug where UModeler mesh disappeared when it is selected after Lightmap Static in Local Settings is toggled on/off  with multiple selected UModeler objects.
+- Fix : Fixed an issue where X axis corresponded with Depth param and Y axis corresponded with Width param in Rectangle, Box, Room and Stair tools.
 - Enhancement : Exposed an icon for UModelerizing on the toolbar in the scene view only when non-umodeler objects with mesh filters are selected.
 - Enhancement : Added UModelerlize item to the GameObject menu and the popup menu in the hierarchy window.
  
