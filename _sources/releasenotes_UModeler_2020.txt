@@ -4,6 +4,14 @@ UModeler 2020
 
  .. figure:: /images/Releasenote2020.png
  
+Version 2.7.9 - April.15.2020
+===================================
+- Fix : Fixed an issue where duplicated UModeler objects shared meshes 
+- Fix : Fixed a material issue where new assigned  materials of UModeler prefab objects returned to the default ones.
+- Fix : Fixed a bug where UModeler mesh disappeared when it is selected after Lightmap Static in Local Settings is toggled on/off  with multiple selected UModeler objects.
+- Enhancement : Exposed an icon for UModelerizing on the toolbar in the scene view only when non-umodeler objects with mesh filters are selected.
+- Enhancement : Added UModelerlize item to the GameObject menu and the popup menu in the hierarchy window.
+ 
 Version 2.7.8 - April.7.2020
 ===================================
 - Fix : Fixed an issue of UV Default parameters for UV Tool. 
