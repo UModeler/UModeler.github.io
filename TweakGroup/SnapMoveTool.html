@@ -15,44 +15,40 @@
   
     <link rel="shortcut icon" href="../_static/logo_fav_transparent_background.png"/>
   
+  
+  
 
   
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
 
-  
-  
     
 
   
-
-  
-  
-    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-  
-
-  
-
-  
-        <link rel="index" title="Index"
-              href="../genindex.html"/>
-        <link rel="search" title="Search" href="../search.html"/>
-    <link rel="top" title="Unity UModeler Manual  documentation" href="../index.html"/>
-        <link rel="up" title="Tweak Group" href="index.html"/>
-        <link rel="next" title="Surface Group" href="../SurfaceGroup/index.html"/>
-        <link rel="prev" title="Pivot To Center Tool" href="PivotToCenterTool.html"/> 
-
-  
-  <script src="../_static/js/modernizr.min.js"></script>
-
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Surface Group" href="../SurfaceGroup/index.html" />
+    <link rel="prev" title="Pivot To Center Tool" href="PivotToCenterTool.html" /> 
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body class="wy-body-for-nav">
 
+   
   <div class="wy-grid-for-nav">
-
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search">
+        <div class="wy-side-nav-search" >
           
 
           
@@ -61,7 +57,7 @@
 
           
             
-            <img src="../_static/UModeler_ManualTitle_1.png" class="logo" />
+            <img src="../_static/UModeler_ManualTitle_1.png" class="logo" alt="Logo"/>
           
           </a>
 
@@ -86,7 +82,10 @@
           
             
             
-                <ul class="current">
+              
+            
+            
+              <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../overview.html">Overview</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../settings.html">Toolbar, Settings and Preference</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../menu.html">Menu</a></li>
@@ -127,36 +126,56 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
       
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../index.html">Unity UModeler Manual</a>
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Unity UModeler Manual</a>
+        
       </nav>
 
 
-      
       <div class="wy-nav-content">
+        
         <div class="rst-content">
+        
           
 
- 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 <div role="navigation" aria-label="breadcrumbs navigation">
+
   <ul class="wy-breadcrumbs">
-    <li><a href="../index.html">Docs</a> &raquo;</li>
-      
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
           <li><a href="index.html">Tweak Group </a> &raquo;</li>
-      
-    <li>Snap Move Tool </li>
+        
+      <li>Snap Move Tool </li>
+    
+    
       <li class="wy-breadcrumbs-aside">
         
-          
-            <a href="../_sources/TweakGroup/SnapMoveTool.txt" rel="nofollow"> View page source</a>
+            
+            <a href="../_sources/TweakGroup/SnapMoveTool.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
+    
   </ul>
+
+  
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
@@ -164,68 +183,69 @@
             
   <div class="section" id="snap-move-tool-icon-tweak-snapmove">
 <h1>Snap Move Tool <a class="reference internal" href="../_images/Icon_Tweak_SnapMove.png"><img alt="Icon_Tweak_SnapMove" src="../_images/Icon_Tweak_SnapMove.png" style="width: 26.0px; height: 26.0px;" /></a><a class="headerlink" href="#snap-move-tool-icon-tweak-snapmove" title="Permalink to this headline">¶</a></h1>
-<p>Moves a polygon to the specific position. This tool can be used to move a profile polygon for <code class="docutils literal"><span class="pre">Follow</span> <span class="pre">Tool</span></code>.</p>
+<p>Moves a polygon to the specific position. This tool can be used to move a profile polygon for <code class="docutils literal notranslate"><span class="pre">Follow</span> <span class="pre">Tool</span></code>.</p>
 <div class="section" id="steps">
 <h2>Steps<a class="headerlink" href="#steps" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
-<li>Go to <code class="docutils literal"><span class="pre">Snap</span> <span class="pre">Move</span> <span class="pre">Tool</span></code></li>
-<li>Click on a polygon. Then blue boxes will be displayed at each vertex and more.</li>
-<li>Click on one of those blue boxes to set a pivot pos.</li>
-<li>Move the mouse to select a blue box to set a up direction.</li>
-<li>Locate the polygon to any vertex.</li>
+<li><p>Go to <code class="docutils literal notranslate"><span class="pre">Snap</span> <span class="pre">Move</span> <span class="pre">Tool</span></code></p></li>
+<li><p>Click on a polygon. Then blue boxes will be displayed at each vertex and more.</p></li>
+<li><p>Click on one of those blue boxes to set a pivot pos.</p></li>
+<li><p>Move the mouse to select a blue box to set a up direction.</p></li>
+<li><p>Locate the polygon to any vertex.</p></li>
 </ol>
 </div>
 <div class="section" id="interface">
 <h2>Interface<a class="headerlink" href="#interface" title="Permalink to this headline">¶</a></h2>
-<dl class="docutils">
-<dt><code class="docutils literal"><span class="pre">SPACE</span></code></dt>
-<dd>Flips the selected polygon horizontally.</dd>
-<dt><code class="docutils literal"><span class="pre">LMB</span> <span class="pre">Down</span></code></dt>
-<dd>Selects a position.</dd>
-<dt><code class="docutils literal"><span class="pre">ESC</span></code></dt>
-<dd>Goes back to the previous step or exits the Snap tool.</dd>
+<dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">SPACE</span></code></dt><dd><p>Flips the selected polygon horizontally.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">LMB</span> <span class="pre">Down</span></code></dt><dd><p>Selects a position.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">ESC</span></code></dt><dd><p>Goes back to the previous step or exits the Snap tool.</p>
+</dd>
 </dl>
 </div>
 <div class="section" id="properties">
 <h2>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
-<dl class="docutils">
-<dt>Flip</dt>
-<dd>Flips the polygon horizontally.</dd>
+<dl class="simple">
+<dt>Flip</dt><dd><p>Flips the polygon horizontally.</p>
+</dd>
 </dl>
-<div class="figure" id="id1">
+<div class="figure align-default" id="id1">
 <a class="reference internal image-reference" href="../_images/UModeler_SnapMove_0.jpg"><img alt="../_images/UModeler_SnapMove_0.jpg" src="../_images/UModeler_SnapMove_0.jpg" style="width: 272.0px; height: 250.0px;" /></a>
-<p class="caption"><span class="caption-text">Click on a position to be used as a pivot.</span></p>
+<p class="caption"><span class="caption-text">Click on a position to be used as a pivot.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
-<div class="figure" id="id2">
+<div class="figure align-default" id="id2">
 <a class="reference internal image-reference" href="../_images/UModeler_SnapMove_1.jpg"><img alt="../_images/UModeler_SnapMove_1.jpg" src="../_images/UModeler_SnapMove_1.jpg" style="width: 272.0px; height: 250.0px;" /></a>
-<p class="caption"><span class="caption-text">Click on a position to be used as a up direction.</span></p>
+<p class="caption"><span class="caption-text">Click on a position to be used as a up direction.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
-<div class="figure" id="id3">
+<div class="figure align-default" id="id3">
 <a class="reference internal image-reference" href="../_images/UModeler_SnapMove_2.jpg"><img alt="../_images/UModeler_SnapMove_2.jpg" src="../_images/UModeler_SnapMove_2.jpg" style="width: 272.0px; height: 250.0px;" /></a>
-<p class="caption"><span class="caption-text">Move the mouse to a vertex. You can see that the polygon will move the vertex. Press <code class="docutils literal"><span class="pre">LMB</span></code> when the polygon is located at the proper location.</span></p>
+<p class="caption"><span class="caption-text">Move the mouse to a vertex. You can see that the polygon will move the vertex. Press <code class="docutils literal notranslate"><span class="pre">LMB</span></code> when the polygon is located at the proper location.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 </div>
-<div class="figure" id="id4">
+<div class="figure align-default" id="id4">
 <a class="reference internal image-reference" href="../_images/UModeler_SnapMove_3.jpg"><img alt="../_images/UModeler_SnapMove_3.jpg" src="../_images/UModeler_SnapMove_3.jpg" style="width: 272.0px; height: 250.0px;" /></a>
-<p class="caption"><span class="caption-text">With <code class="docutils literal"><span class="pre">Polygon</span> <span class="pre">Tool</span></code> select the polygon you place before and the path polygon.</span></p>
+<p class="caption"><span class="caption-text">With <code class="docutils literal notranslate"><span class="pre">Polygon</span> <span class="pre">Tool</span></code> select the polygon you place before and the path polygon.</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
 </div>
-<div class="figure" id="id5">
+<div class="figure align-default" id="id5">
 <a class="reference internal image-reference" href="../_images/UModeler_SnapMove_4.jpg"><img alt="../_images/UModeler_SnapMove_4.jpg" src="../_images/UModeler_SnapMove_4.jpg" style="width: 272.0px; height: 250.0px;" /></a>
-<p class="caption"><span class="caption-text">Go to <code class="docutils literal"><span class="pre">Follow</span> <span class="pre">Tool</span></code> to check out a new mesh created out of the trace.</span></p>
+<p class="caption"><span class="caption-text">Go to <code class="docutils literal notranslate"><span class="pre">Follow</span> <span class="pre">Tool</span></code> to check out a new mesh created out of the trace.</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 </div>
 
 
            </div>
+           
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../SurfaceGroup/index.html" class="btn btn-neutral float-right" title="Surface Group" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="../SurfaceGroup/index.html" class="btn btn-neutral float-right" title="Surface Group" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="PivotToCenterTool.html" class="btn btn-neutral" title="Pivot To Center Tool" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="PivotToCenterTool.html" class="btn btn-neutral float-left" title="Pivot To Center Tool" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -234,7 +254,7 @@
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2019, tripolygon.
+        &copy; Copyright 2019, tripolygon
 
     </p>
   </div> 
@@ -250,35 +270,15 @@
   
 
 
-  
-
-    <script type="text/javascript">
-        var DOCUMENTATION_OPTIONS = {
-            URL_ROOT:'../',
-            VERSION:'',
-            COLLAPSE_INDEX:false,
-            FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true
-        };
-    </script>
-      <script type="text/javascript" src="../_static/jquery.js"></script>
-      <script type="text/javascript" src="../_static/underscore.js"></script>
-      <script type="text/javascript" src="../_static/doctools.js"></script>
-
-  
-
-  
-  
-    <script type="text/javascript" src="../_static/js/theme.js"></script>
-  
-
-  
-  
   <script type="text/javascript">
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          SphinxRtdTheme.Navigation.enable(true);
       });
   </script>
+
+  
+  
+    
    
 
 </body>

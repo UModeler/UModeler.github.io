@@ -15,44 +15,40 @@
   
     <link rel="shortcut icon" href="../_static/logo_fav_transparent_background.png"/>
   
+  
+  
 
   
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
 
-  
-  
     
 
   
-
-  
-  
-    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-  
-
-  
-
-  
-        <link rel="index" title="Index"
-              href="../genindex.html"/>
-        <link rel="search" title="Search" href="../search.html"/>
-    <link rel="top" title="Unity UModeler Manual  documentation" href="../index.html"/>
-        <link rel="up" title="Misc Group" href="index.html"/>
-        <link rel="next" title="UV Editor" href="../UVEditor/index.html"/>
-        <link rel="prev" title="Collider Tool" href="ColliderTool.html"/> 
-
-  
-  <script src="../_static/js/modernizr.min.js"></script>
-
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="UV Editor" href="../UVEditor/index.html" />
+    <link rel="prev" title="Collider Tool" href="ColliderTool.html" /> 
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body class="wy-body-for-nav">
 
+   
   <div class="wy-grid-for-nav">
-
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search">
+        <div class="wy-side-nav-search" >
           
 
           
@@ -61,7 +57,7 @@
 
           
             
-            <img src="../_static/UModeler_ManualTitle_1.png" class="logo" />
+            <img src="../_static/UModeler_ManualTitle_1.png" class="logo" alt="Logo"/>
           
           </a>
 
@@ -86,7 +82,10 @@
           
             
             
-                <ul class="current">
+              
+            
+            
+              <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../overview.html">Overview</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../settings.html">Toolbar, Settings and Preference</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../menu.html">Menu</a></li>
@@ -124,36 +123,56 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
       
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../index.html">Unity UModeler Manual</a>
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Unity UModeler Manual</a>
+        
       </nav>
 
 
-      
       <div class="wy-nav-content">
+        
         <div class="rst-content">
+        
           
 
- 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 <div role="navigation" aria-label="breadcrumbs navigation">
+
   <ul class="wy-breadcrumbs">
-    <li><a href="../index.html">Docs</a> &raquo;</li>
-      
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
           <li><a href="index.html">Misc Group </a> &raquo;</li>
-      
-    <li>Local Settings Tool </li>
+        
+      <li>Local Settings Tool </li>
+    
+    
       <li class="wy-breadcrumbs-aside">
         
-          
-            <a href="../_sources/MiscGroup/LocalSettingsTool.txt" rel="nofollow"> View page source</a>
+            
+            <a href="../_sources/MiscGroup/LocalSettingsTool.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
+    
   </ul>
+
+  
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
@@ -164,22 +183,21 @@
 <p>Sets up local variables.</p>
 <div class="section" id="properties">
 <h2>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
-<dl class="docutils">
-<dt>Backface</dt>
-<dd>backfaces on/off</dd>
-<dt>Lightmap Static</dt>
-<dd>Changes the lighting way to lightmap. This variable is interlocked with <code class="docutils literal"><span class="pre">Lightmap</span> <span class="pre">Static</span></code> in <code class="docutils literal"><span class="pre">Lighting</span></code> window.</dd>
+<dl class="simple">
+<dt>Backface</dt><dd><p>backfaces on/off</p>
+</dd>
+<dt>Lightmap Static</dt><dd><p>Changes the lighting way to lightmap. This variable is interlocked with <code class="docutils literal notranslate"><span class="pre">Lightmap</span> <span class="pre">Static</span></code> in <code class="docutils literal notranslate"><span class="pre">Lighting</span></code> window.</p>
+</dd>
 </dl>
-<dl class="docutils" id="recalculate-tangents">
-<dt>Recalculate Tangents</dt>
-<dd>If this is on, tangent vectors will be calculated every time UModeler mesh changes. If the materials in UModeler have normal textures, this should be on.</dd>
-<dt>Don&#8217;t Save In Build</dt>
-<dd>If this is on, UModeler component isn&#8217;t included in Build. If you want to edit a mesh using UModeler at runtime, it needs to be on when the project is built.
-Usually this property is on because most meshes are just for rendering at runtime.</dd>
-<dt>Generate UV2 channel for Lightmap</dt>
-<dd><p class="first">Generate UVs for lightmaps. From 2.6.9 UVs for lightmap aren&#8217;t created automatically. If you want to generate lightmap UVs of all UModeler meshs in a scene, click on <code class="docutils literal"><span class="pre">Tools</span> <span class="pre">&gt;</span> <span class="pre">UModeler</span> <span class="pre">&gt;</span> <span class="pre">Refresh</span> <span class="pre">All</span></code>.</p>
-<blockquote class="last">
-<div><div class="figure">
+<dl id="recalculate-tangents">
+<dt>Recalculate Tangents</dt><dd><p>If this is on, tangent vectors will be calculated every time UModeler mesh changes. If the materials in UModeler have normal textures, this should be on.</p>
+</dd>
+<dt>Don’t Save In Build</dt><dd><p>If this is on, UModeler component isn’t included in Build. If you want to edit a mesh using UModeler at runtime, it needs to be on when the project is built.
+Usually this property is on because most meshes are just for rendering at runtime.</p>
+</dd>
+<dt>Generate UV2 channel for Lightmap</dt><dd><p>Generate UVs for lightmaps. From 2.6.9 UVs for lightmap aren’t created automatically. If you want to generate lightmap UVs of all UModeler meshs in a scene, click on <code class="docutils literal notranslate"><span class="pre">Tools</span> <span class="pre">&gt;</span> <span class="pre">UModeler</span> <span class="pre">&gt;</span> <span class="pre">Refresh</span> <span class="pre">All</span></code>.</p>
+<blockquote>
+<div><div class="figure align-default">
 <a class="reference internal image-reference" href="../_images/LocalSettings.jpg"><img alt="../_images/LocalSettings.jpg" src="../_images/LocalSettings.jpg" style="width: 276.0px; height: 246.0px;" /></a>
 </div>
 </div></blockquote>
@@ -190,15 +208,16 @@ Usually this property is on because most meshes are just for rendering at runtim
 
 
            </div>
+           
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../UVEditor/index.html" class="btn btn-neutral float-right" title="UV Editor" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="../UVEditor/index.html" class="btn btn-neutral float-right" title="UV Editor" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="ColliderTool.html" class="btn btn-neutral" title="Collider Tool" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="ColliderTool.html" class="btn btn-neutral float-left" title="Collider Tool" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -207,7 +226,7 @@ Usually this property is on because most meshes are just for rendering at runtim
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2019, tripolygon.
+        &copy; Copyright 2019, tripolygon
 
     </p>
   </div> 
@@ -223,35 +242,15 @@ Usually this property is on because most meshes are just for rendering at runtim
   
 
 
-  
-
-    <script type="text/javascript">
-        var DOCUMENTATION_OPTIONS = {
-            URL_ROOT:'../',
-            VERSION:'',
-            COLLAPSE_INDEX:false,
-            FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true
-        };
-    </script>
-      <script type="text/javascript" src="../_static/jquery.js"></script>
-      <script type="text/javascript" src="../_static/underscore.js"></script>
-      <script type="text/javascript" src="../_static/doctools.js"></script>
-
-  
-
-  
-  
-    <script type="text/javascript" src="../_static/js/theme.js"></script>
-  
-
-  
-  
   <script type="text/javascript">
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          SphinxRtdTheme.Navigation.enable(true);
       });
   </script>
+
+  
+  
+    
    
 
 </body>

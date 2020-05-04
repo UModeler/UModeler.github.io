@@ -15,44 +15,40 @@
   
     <link rel="shortcut icon" href="../_static/logo_fav_transparent_background.png"/>
   
+  
+  
 
   
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
 
-  
-  
     
 
   
-
-  
-  
-    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-  
-
-  
-
-  
-        <link rel="index" title="Index"
-              href="../genindex.html"/>
-        <link rel="search" title="Search" href="../search.html"/>
-    <link rel="top" title="Unity UModeler Manual  documentation" href="../index.html"/>
-        <link rel="up" title="Surface Group" href="index.html"/>
-        <link rel="next" title="Polygon Color Tool" href="PolygonColorTool.html"/>
-        <link rel="prev" title="UV Tool" href="UVTool.html"/> 
-
-  
-  <script src="../_static/js/modernizr.min.js"></script>
-
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Polygon Color Tool" href="PolygonColorTool.html" />
+    <link rel="prev" title="UV Tool" href="UVTool.html" /> 
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body class="wy-body-for-nav">
 
+   
   <div class="wy-grid-for-nav">
-
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search">
+        <div class="wy-side-nav-search" >
           
 
           
@@ -61,7 +57,7 @@
 
           
             
-            <img src="../_static/UModeler_ManualTitle_1.png" class="logo" />
+            <img src="../_static/UModeler_ManualTitle_1.png" class="logo" alt="Logo"/>
           
           </a>
 
@@ -86,7 +82,10 @@
           
             
             
-                <ul class="current">
+              
+            
+            
+              <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../overview.html">Overview</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../settings.html">Toolbar, Settings and Preference</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../menu.html">Menu</a></li>
@@ -126,36 +125,56 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
       
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../index.html">Unity UModeler Manual</a>
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Unity UModeler Manual</a>
+        
       </nav>
 
 
-      
       <div class="wy-nav-content">
+        
         <div class="rst-content">
+        
           
 
- 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 <div role="navigation" aria-label="breadcrumbs navigation">
+
   <ul class="wy-breadcrumbs">
-    <li><a href="../index.html">Docs</a> &raquo;</li>
-      
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
           <li><a href="index.html">Surface Group </a> &raquo;</li>
-      
-    <li>Vertex Color Tool </li>
+        
+      <li>Vertex Color Tool </li>
+    
+    
       <li class="wy-breadcrumbs-aside">
         
-          
-            <a href="../_sources/SurfaceGroup/VertexColorTool.txt" rel="nofollow"> View page source</a>
+            
+            <a href="../_sources/SurfaceGroup/VertexColorTool.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
+    
   </ul>
+
+  
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
@@ -163,10 +182,10 @@
             
   <div class="section" id="vertex-color-tool-icon-surface-vertexcolor">
 <h1>Vertex Color Tool <a class="reference internal" href="../_images/Icon_Surface_VertexColor.png"><img alt="Icon_Surface_VertexColor" src="../_images/Icon_Surface_VertexColor.png" style="width: 26.0px; height: 26.0px;" /></a><a class="headerlink" href="#vertex-color-tool-icon-surface-vertexcolor" title="Permalink to this headline">¶</a></h1>
-<p>Sets colors to the Vertices. Pressing or Dragging <code class="docutils literal"><span class="pre">LMB</span></code> holding <code class="docutils literal"><span class="pre">SHIFT</span></code> will paint a polygon below the mouse cursor in the selected color.</p>
+<p>Sets colors to the Vertices. Pressing or Dragging <code class="docutils literal notranslate"><span class="pre">LMB</span></code> holding <code class="docutils literal notranslate"><span class="pre">SHIFT</span></code> will paint a polygon below the mouse cursor in the selected color.</p>
 <div class="admonition note">
-<p class="first admonition-title">Note</p>
-<div class="last line-block">
+<p class="admonition-title">Note</p>
+<div class="line-block">
 <div class="line">A material with a shader supporting Vertex Color should be set to assign colors with Material Tool. Recommended materials for assigning colors(VC - Vertex Color) are as follows.</div>
 <div class="line-block">
 <div class="line">• UModelerPro_OnlyVC</div>
@@ -174,87 +193,88 @@
 </div>
 </div>
 </div>
-<div class="figure">
+<div class="figure align-default">
 <a class="reference internal image-reference" href="../_images/UModeler_VertexColorTool.jpg"><img alt="../_images/UModeler_VertexColorTool.jpg" src="../_images/UModeler_VertexColorTool.jpg" style="width: 284.0px; height: 282.0px;" /></a>
 </div>
 <div class="section" id="steps-1">
 <h2>Steps - 1<a class="headerlink" href="#steps-1" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
-<li>Go to <code class="docutils literal"><span class="pre">Vertex</span> <span class="pre">Color</span> <span class="pre">Tool</span></code></li>
-<li>Select Vertices like you did in <code class="docutils literal"><span class="pre">Vertex</span> <span class="pre">Tool</span></code> if no vertex is selected.</li>
-<li>Click <code class="docutils literal"><span class="pre">LMB</span></code> on a color in the color palette. If there isn&#8217;t color you want, add a new color to the palette.</li>
+<li><p>Go to <code class="docutils literal notranslate"><span class="pre">Vertex</span> <span class="pre">Color</span> <span class="pre">Tool</span></code></p></li>
+<li><p>Select Vertices like you did in <code class="docutils literal notranslate"><span class="pre">Vertex</span> <span class="pre">Tool</span></code> if no vertex is selected.</p></li>
+<li><p>Click <code class="docutils literal notranslate"><span class="pre">LMB</span></code> on a color in the color palette. If there isn’t color you want, add a new color to the palette.</p></li>
 </ol>
 </div>
 <div class="section" id="steps-2">
 <h2>Steps - 2<a class="headerlink" href="#steps-2" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
-<li>Go to <code class="docutils literal"><span class="pre">Vertex</span> <span class="pre">Color</span> <span class="pre">Tool</span></code></li>
-<li>Drag a mouse holding <code class="docutils literal"><span class="pre">SHIFT</span></code></li>
+<li><p>Go to <code class="docutils literal notranslate"><span class="pre">Vertex</span> <span class="pre">Color</span> <span class="pre">Tool</span></code></p></li>
+<li><p>Drag a mouse holding <code class="docutils literal notranslate"><span class="pre">SHIFT</span></code></p></li>
 </ol>
 </div>
 <div class="section" id="interface">
 <h2>Interface<a class="headerlink" href="#interface" title="Permalink to this headline">¶</a></h2>
-<dl class="docutils">
-<dt><code class="docutils literal"><span class="pre">LMB</span></code></dt>
-<dd>Selects a vertex and pick a color of the color.</dd>
-<dt><code class="docutils literal"><span class="pre">Shift</span></code></dt>
-<dd>Makes the sphere brush visible.</dd>
-<dt><code class="docutils literal"><span class="pre">SHIFT</span> <span class="pre">+</span> <span class="pre">LMB</span></code></dt>
-<dd>Assigns the selected color in the color palette to vertices within the sphere brush.</dd>
-<dt><code class="docutils literal"><span class="pre">SHIFT</span> <span class="pre">+</span> <span class="pre">Scroll</span> <span class="pre">Wheel</span></code></dt>
-<dd>Increases the size of the brush.</dd>
-<dt><code class="docutils literal"><span class="pre">LMB</span> <span class="pre">Drag</span></code></dt>
-<dd>Selects several vertices in a rectangle.</dd>
+<dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">LMB</span></code></dt><dd><p>Selects a vertex and pick a color of the color.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">Shift</span></code></dt><dd><p>Makes the sphere brush visible.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">SHIFT</span> <span class="pre">+</span> <span class="pre">LMB</span></code></dt><dd><p>Assigns the selected color in the color palette to vertices within the sphere brush.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">SHIFT</span> <span class="pre">+</span> <span class="pre">Scroll</span> <span class="pre">Wheel</span></code></dt><dd><p>Increases the size of the brush.</p>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">LMB</span> <span class="pre">Drag</span></code></dt><dd><p>Selects several vertices in a rectangle.</p>
+</dd>
 </dl>
 </div>
 <div class="section" id="properties">
 <h2>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
-<dl class="docutils">
-<dt>Select Only Visible</dt>
-<dd>If on, Selects only visible vertices/edges/polygons from a camera. Occluded elements from other polygons will not be selected. This is available only when the game object has MeshCollider component.</dd>
-<dt>Brush Radius</dt>
-<dd>The sphere brush radius</dd>
-<dt>Color Palette</dt>
-<dd>Colors you can use for painting.</dd>
+<dl class="simple">
+<dt>Select Only Visible</dt><dd><p>If on, Selects only visible vertices/edges/polygons from a camera. Occluded elements from other polygons will not be selected. This is available only when the game object has MeshCollider component.</p>
+</dd>
+<dt>Brush Radius</dt><dd><p>The sphere brush radius</p>
+</dd>
+<dt>Color Palette</dt><dd><p>Colors you can use for painting.</p>
+</dd>
 </dl>
 <div class="admonition tip">
-<p class="first admonition-title">Tip</p>
+<p class="admonition-title">Tip</p>
 <p><cite>Color Palette</cite></p>
-<p>You can keep frequently used colors in the color palette which is used in both <code class="docutils literal"><span class="pre">Vertex</span> <span class="pre">Color</span> <span class="pre">Tool</span></code> and <code class="docutils literal"><span class="pre">Polygon</span> <span class="pre">Color</span> <span class="pre">Tool</span></code>. The color palette is stored in the registry.</p>
-<div class="figure">
+<p>You can keep frequently used colors in the color palette which is used in both <code class="docutils literal notranslate"><span class="pre">Vertex</span> <span class="pre">Color</span> <span class="pre">Tool</span></code> and <code class="docutils literal notranslate"><span class="pre">Polygon</span> <span class="pre">Color</span> <span class="pre">Tool</span></code>. The color palette is stored in the registry.</p>
+<div class="figure align-default">
 <a class="reference internal image-reference" href="../_images/ColorPalette.jpg"><img alt="../_images/ColorPalette.jpg" src="../_images/ColorPalette.jpg" style="width: 241.0px; height: 118.0px;" /></a>
 </div>
-<ol class="last arabic simple">
-<li>Color number</li>
-<li>Removes the color</li>
-<li>Chooses a color</li>
-<li>Adds a new color</li>
+<ol class="arabic simple">
+<li><p>Color number</p></li>
+<li><p>Removes the color</p></li>
+<li><p>Chooses a color</p></li>
+<li><p>Adds a new color</p></li>
 </ol>
 </div>
-<dl class="docutils">
-<dt>Select Vertices</dt>
-<dd>Selects vertices with the selected color in the color palette.</dd>
-<dt>Paint Vertices</dt>
-<dd>Paints vertices with the selected color in the color palette.</dd>
+<dl class="simple">
+<dt>Select Vertices</dt><dd><p>Selects vertices with the selected color in the color palette.</p>
+</dd>
+<dt>Paint Vertices</dt><dd><p>Paints vertices with the selected color in the color palette.</p>
+</dd>
 </dl>
-<div class="figure" id="id1">
+<div class="figure align-default" id="id1">
 <a class="reference internal image-reference" href="../_images/UModeler_VertexColor.jpg"><img alt="../_images/UModeler_VertexColor.jpg" src="../_images/UModeler_VertexColor.jpg" style="width: 272.0px; height: 250.0px;" /></a>
-<p class="caption"><span class="caption-text">Blue at the top and Oragne at the bottom</span></p>
+<p class="caption"><span class="caption-text">Blue at the top and Oragne at the bottom</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 </div>
 
 
            </div>
+           
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="PolygonColorTool.html" class="btn btn-neutral float-right" title="Polygon Color Tool" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="PolygonColorTool.html" class="btn btn-neutral float-right" title="Polygon Color Tool" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="UVTool.html" class="btn btn-neutral" title="UV Tool" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="UVTool.html" class="btn btn-neutral float-left" title="UV Tool" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -263,7 +283,7 @@
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2019, tripolygon.
+        &copy; Copyright 2019, tripolygon
 
     </p>
   </div> 
@@ -279,35 +299,15 @@
   
 
 
-  
-
-    <script type="text/javascript">
-        var DOCUMENTATION_OPTIONS = {
-            URL_ROOT:'../',
-            VERSION:'',
-            COLLAPSE_INDEX:false,
-            FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true
-        };
-    </script>
-      <script type="text/javascript" src="../_static/jquery.js"></script>
-      <script type="text/javascript" src="../_static/underscore.js"></script>
-      <script type="text/javascript" src="../_static/doctools.js"></script>
-
-  
-
-  
-  
-    <script type="text/javascript" src="../_static/js/theme.js"></script>
-  
-
-  
-  
   <script type="text/javascript">
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          SphinxRtdTheme.Navigation.enable(true);
       });
   </script>
+
+  
+  
+    
    
 
 </body>

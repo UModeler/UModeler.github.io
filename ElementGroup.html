@@ -15,43 +15,40 @@
   
     <link rel="shortcut icon" href="_static/logo_fav_transparent_background.png"/>
   
+  
+  
 
   
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
 
-  
-  
     
 
   
-
-  
-  
-    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
-  
-
-  
-
-  
-        <link rel="index" title="Index"
-              href="genindex.html"/>
-        <link rel="search" title="Search" href="search.html"/>
-    <link rel="top" title="Unity UModeler Manual  documentation" href="index.html"/>
-        <link rel="next" title="Selection Group" href="SelectionGroup/index.html"/>
-        <link rel="prev" title="Menu" href="menu.html"/> 
-
-  
-  <script src="_static/js/modernizr.min.js"></script>
-
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Selection Group" href="SelectionGroup/index.html" />
+    <link rel="prev" title="Menu" href="menu.html" /> 
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body class="wy-body-for-nav">
 
+   
   <div class="wy-grid-for-nav">
-
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search">
+        <div class="wy-side-nav-search" >
           
 
           
@@ -60,7 +57,7 @@
 
           
             
-            <img src="_static/UModeler_ManualTitle_1.png" class="logo" />
+            <img src="_static/UModeler_ManualTitle_1.png" class="logo" alt="Logo"/>
           
           </a>
 
@@ -85,7 +82,10 @@
           
             
             
-                <ul class="current">
+              
+            
+            
+              <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
 <li class="toctree-l1"><a class="reference internal" href="settings.html">Toolbar, Settings and Preference</a></li>
 <li class="toctree-l1"><a class="reference internal" href="menu.html">Menu</a></li>
@@ -118,34 +118,54 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
       
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="index.html">Unity UModeler Manual</a>
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Unity UModeler Manual</a>
+        
       </nav>
 
 
-      
       <div class="wy-nav-content">
+        
         <div class="rst-content">
+        
           
 
- 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 <div role="navigation" aria-label="breadcrumbs navigation">
+
   <ul class="wy-breadcrumbs">
-    <li><a href="index.html">Docs</a> &raquo;</li>
-      
-    <li>Elements Group</li>
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Elements Group</li>
+    
+    
       <li class="wy-breadcrumbs-aside">
         
-          
-            <a href="_sources/ElementGroup.txt" rel="nofollow"> View page source</a>
+            
+            <a href="_sources/ElementGroup.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
+    
   </ul>
+
+  
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
@@ -157,48 +177,48 @@
 <h2>Vertex <a class="reference internal" href="_images/Icon_Elements_Vertex.png"><img alt="Icon_Elements_Vertex" src="_images/Icon_Elements_Vertex.png" style="width: 26.0px; height: 26.0px;" /></a> / Edge <a class="reference internal" href="_images/Icon_Elements_Edge.png"><img alt="Icon_Elements_Edge" src="_images/Icon_Elements_Edge.png" style="width: 26.0px; height: 26.0px;" /></a> / Polygon <a class="reference internal" href="_images/Icon_Elements_Polygon.png"><img alt="Icon_Elements_Polygon" src="_images/Icon_Elements_Polygon.png" style="width: 26.0px; height: 26.0px;" /></a> / Object <a class="reference internal" href="_images/Icon_Elements_Object.png"><img alt="Icon_Elements_Object" src="_images/Icon_Elements_Object.png" style="width: 26.0px; height: 26.0px;" /></a><a class="headerlink" href="#vertex-icon-elements-vertex-edge-icon-elements-edge-polygon-icon-elements-polygon-object-icon-elements-object" title="Permalink to this headline">¶</a></h2>
 <p>There are 4 types of elements you can select and transform.</p>
 <p>I think these tools are used most frequently in UModeler so they are located at the top of the scene view. Firstly let me explain the Object Tool. With this tool you can select other objects, and move/rotate/scale them, which is same as Unity Object Mode.</p>
-<p>Now let&#8217;s see Vertex Tool, Edge Tool and Polygon Tool.</p>
+<p>Now let’s see Vertex Tool, Edge Tool and Polygon Tool.</p>
 <p>A mesh consists of vertices, edges and polygons. We call them elements.</p>
 <p>And there are gizmos which are displayed on the center of the selected elements and used for moving, rotating and scaling elements. They look like the following image roughly.</p>
-<div class="figure" id="id1">
+<div class="figure align-default" id="id1">
 <a class="reference internal image-reference" href="_images/gizmos.png"><img alt="_images/gizmos.png" src="_images/gizmos.png" style="width: 453.0px; height: 163.0px;" /></a>
-<p class="caption"><span class="caption-text">Source - <a class="reference external" href="https://knowledge.autodesk.com/support/autocad/getting-started/caas/CloudHelp/cloudhelp/2016/ENU/AutoCAD-Core/files/GUID-7BD066C9-31BA-4D47-8064-2F9CF268FA15-htm.html">AutoDesk - About using 3D Gizmos</a></span></p>
+<p class="caption"><span class="caption-text">Source - <a class="reference external" href="https://knowledge.autodesk.com/support/autocad/getting-started/caas/CloudHelp/cloudhelp/2016/ENU/AutoCAD-Core/files/GUID-7BD066C9-31BA-4D47-8064-2F9CF268FA15-htm.html">AutoDesk - About using 3D Gizmos</a></span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 <p>You can select vertices and move/rotate/scale them with the Vertex Tool.
 The Edge Tool can make you select edges and move/rotate/scale them.
 Using the Polygon tool, polygons can be selected and moved/rotated/scaled.</p>
 <div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">When you rotate and scale elements, the pivot position is usually the center of them. But when the 3D cursor is on, the cursor posision will be the pivot position.</p>
+<p class="admonition-title">Note</p>
+<p>When you rotate and scale elements, the pivot position is usually the center of them. But when the 3D cursor is on, the cursor posision will be the pivot position.</p>
 </div>
-<p>Basically selection of each element can be done by placing the mouse cursor there and pressing <code class="docutils literal"><span class="pre">LMB</span></code>. And <code class="docutils literal"><span class="pre">LMB</span></code> dragging from an empty space will draw a rectangle and select elements inside the rectangle.</p>
+<p>Basically selection of each element can be done by placing the mouse cursor there and pressing <code class="docutils literal notranslate"><span class="pre">LMB</span></code>. And <code class="docutils literal notranslate"><span class="pre">LMB</span></code> dragging from an empty space will draw a rectangle and select elements inside the rectangle.</p>
 <div class="admonition tip">
-<p class="first admonition-title">Tip</p>
-<div class="last line-block">
-<div class="line">1. You can add a new selection holding <code class="docutils literal"><span class="pre">CTRL</span></code> and pressing <code class="docutils literal"><span class="pre">LMB</span></code> on an element.</div>
-<div class="line">2. Pressing <code class="docutils literal"><span class="pre">W</span></code> <code class="docutils literal"><span class="pre">E</span></code> or <code class="docutils literal"><span class="pre">R</span></code> changes the current gizmo like Unity.</div>
+<p class="admonition-title">Tip</p>
+<div class="line-block">
+<div class="line">1. You can add a new selection holding <code class="docutils literal notranslate"><span class="pre">CTRL</span></code> and pressing <code class="docutils literal notranslate"><span class="pre">LMB</span></code> on an element.</div>
+<div class="line">2. Pressing <code class="docutils literal notranslate"><span class="pre">W</span></code> <code class="docutils literal notranslate"><span class="pre">E</span></code> or <code class="docutils literal notranslate"><span class="pre">R</span></code> changes the current gizmo like Unity.</div>
 <div class="line">3. Dragging a mouse from an element causes moving the element</div>
-<div class="line">4. If you hold <code class="docutils literal"><span class="pre">SHIFT</span></code> while dragging a gizmo, the selected elements are extruded.</div>
-<div class="line">5. If you hold <code class="docutils literal"><span class="pre">CTRL</span></code> while dragging the move gizmo and moving to another vertex, the selected elements&#8217; selected axis&#8217;s value will be snapped to the vertex. This is called <code class="docutils literal"><span class="pre">1D</span> <span class="pre">snapping</span></code></div>
-<div class="line">6. If you hold <code class="docutils literal"><span class="pre">SHIFT</span></code> + <code class="docutils literal"><span class="pre">CTRL</span></code> while dragging a gizmo, the vertices consisting of the elements will be split.</div>
-<div class="line">7. <code class="docutils literal"><span class="pre">LMB</span> <span class="pre">Double</span> <span class="pre">click</span></code> on a polygon will unwrap and stick it. This is called <code class="docutils literal"><span class="pre">Auto</span> <span class="pre">Layout</span></code>. Click <a class="reference internal" href="UVEditor/overview.html#autolayout"><span class="std std-ref">here</span></a> to get more infor about it.</div>
+<div class="line">4. If you hold <code class="docutils literal notranslate"><span class="pre">SHIFT</span></code> while dragging a gizmo, the selected elements are extruded.</div>
+<div class="line">5. If you hold <code class="docutils literal notranslate"><span class="pre">CTRL</span></code> while dragging the move gizmo and moving to another vertex, the selected elements’ selected axis’s value will be snapped to the vertex. This is called <code class="docutils literal notranslate"><span class="pre">1D</span> <span class="pre">snapping</span></code></div>
+<div class="line">6. If you hold <code class="docutils literal notranslate"><span class="pre">SHIFT</span></code> + <code class="docutils literal notranslate"><span class="pre">CTRL</span></code> while dragging a gizmo, the vertices consisting of the elements will be split.</div>
+<div class="line">7. <code class="docutils literal notranslate"><span class="pre">LMB</span> <span class="pre">Double</span> <span class="pre">click</span></code> on a polygon will unwrap and stick it. This is called <code class="docutils literal notranslate"><span class="pre">Auto</span> <span class="pre">Layout</span></code>. Click <a class="reference internal" href="UVEditor/overview.html#autolayout"><span class="std std-ref">here</span></a> to get more infor about it.</div>
 </div>
 </div>
 <div class="section" id="properties">
 <h3>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h3>
-<dl class="docutils" id="selectonlyvisibleintransform">
-<dt>Select Only Visible</dt>
-<dd>If on, Selects only visible vertices/edges/polygons from a camera. Occluded elements from other polygons will not be selected. This is available only when the game object has MeshCollider component.</dd>
-<dt>Distance</dt>
-<dd>How distant the selected elements move. This is only available as translation gizmo is enabled.</dd>
-<dt>Snap To Polygon</dt>
-<dd>An edge is snapped to a close polygon within a specific distance. This is only available as the edge is being translated.</dd>
-<dt>Snap To Vertex</dt>
-<dd>A vertex is snapped to the other close vertex within a specific distance. This is only available as the vertex is being translated.</dd>
-<dt>Move To Cursor</dt>
-<dd>Moves the current selected elements to the 3D cursor position.</dd>
-<dt>Insert Vertex</dt>
-<dd>Inserts a vertex to an adjacent edge to avoid T-junction.</dd>
+<dl class="simple" id="selectonlyvisibleintransform">
+<dt>Select Only Visible</dt><dd><p>If on, Selects only visible vertices/edges/polygons from a camera. Occluded elements from other polygons will not be selected. This is available only when the game object has MeshCollider component.</p>
+</dd>
+<dt>Distance</dt><dd><p>How distant the selected elements move. This is only available as translation gizmo is enabled.</p>
+</dd>
+<dt>Snap To Polygon</dt><dd><p>An edge is snapped to a close polygon within a specific distance. This is only available as the edge is being translated.</p>
+</dd>
+<dt>Snap To Vertex</dt><dd><p>A vertex is snapped to the other close vertex within a specific distance. This is only available as the vertex is being translated.</p>
+</dd>
+<dt>Move To Cursor</dt><dd><p>Moves the current selected elements to the 3D cursor position.</p>
+</dd>
+<dt>Insert Vertex</dt><dd><p>Inserts a vertex to an adjacent edge to avoid T-junction.</p>
+</dd>
 </dl>
 </div>
 </div>
@@ -206,15 +226,16 @@ Using the Polygon tool, polygons can be selected and moved/rotated/scaled.</p>
 
 
            </div>
+           
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="SelectionGroup/index.html" class="btn btn-neutral float-right" title="Selection Group" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="SelectionGroup/index.html" class="btn btn-neutral float-right" title="Selection Group" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="menu.html" class="btn btn-neutral" title="Menu" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="menu.html" class="btn btn-neutral float-left" title="Menu" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -223,7 +244,7 @@ Using the Polygon tool, polygons can be selected and moved/rotated/scaled.</p>
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2019, tripolygon.
+        &copy; Copyright 2019, tripolygon
 
     </p>
   </div> 
@@ -239,35 +260,15 @@ Using the Polygon tool, polygons can be selected and moved/rotated/scaled.</p>
   
 
 
-  
-
-    <script type="text/javascript">
-        var DOCUMENTATION_OPTIONS = {
-            URL_ROOT:'./',
-            VERSION:'',
-            COLLAPSE_INDEX:false,
-            FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true
-        };
-    </script>
-      <script type="text/javascript" src="_static/jquery.js"></script>
-      <script type="text/javascript" src="_static/underscore.js"></script>
-      <script type="text/javascript" src="_static/doctools.js"></script>
-
-  
-
-  
-  
-    <script type="text/javascript" src="_static/js/theme.js"></script>
-  
-
-  
-  
   <script type="text/javascript">
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          SphinxRtdTheme.Navigation.enable(true);
       });
   </script>
+
+  
+  
+    
    
 
 </body>

@@ -15,44 +15,40 @@
   
     <link rel="shortcut icon" href="../_static/logo_fav_transparent_background.png"/>
   
+  
+  
 
   
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
 
-  
-  
     
 
   
-
-  
-  
-    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-  
-
-  
-
-  
-        <link rel="index" title="Index"
-              href="../genindex.html"/>
-        <link rel="search" title="Search" href="../search.html"/>
-    <link rel="top" title="Unity UModeler Manual  documentation" href="../index.html"/>
-        <link rel="up" title="Add Group" href="index.html"/>
-        <link rel="next" title="Bridge Tool" href="BridgeTool.html"/>
-        <link rel="prev" title="Follow Tool" href="FollowTool.html"/> 
-
-  
-  <script src="../_static/js/modernizr.min.js"></script>
-
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Bridge Tool" href="BridgeTool.html" />
+    <link rel="prev" title="Follow Tool" href="FollowTool.html" /> 
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body class="wy-body-for-nav">
 
+   
   <div class="wy-grid-for-nav">
-
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search">
+        <div class="wy-side-nav-search" >
           
 
           
@@ -61,7 +57,7 @@
 
           
             
-            <img src="../_static/UModeler_ManualTitle_1.png" class="logo" />
+            <img src="../_static/UModeler_ManualTitle_1.png" class="logo" alt="Logo"/>
           
           </a>
 
@@ -86,7 +82,10 @@
           
             
             
-                <ul class="current">
+              
+            
+            
+              <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../overview.html">Overview</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../settings.html">Toolbar, Settings and Preference</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../menu.html">Menu</a></li>
@@ -130,36 +129,56 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
       
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../index.html">Unity UModeler Manual</a>
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Unity UModeler Manual</a>
+        
       </nav>
 
 
-      
       <div class="wy-nav-content">
+        
         <div class="rst-content">
+        
           
 
- 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 <div role="navigation" aria-label="breadcrumbs navigation">
+
   <ul class="wy-breadcrumbs">
-    <li><a href="../index.html">Docs</a> &raquo;</li>
-      
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
           <li><a href="index.html">Add Group </a> &raquo;</li>
-      
-    <li>Bevel Tool </li>
+        
+      <li>Bevel Tool </li>
+    
+    
       <li class="wy-breadcrumbs-aside">
         
-          
-            <a href="../_sources/AddGroup/BevelTool.txt" rel="nofollow"> View page source</a>
+            
+            <a href="../_sources/AddGroup/BevelTool.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
+    
   </ul>
+
+  
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
@@ -168,53 +187,54 @@
   <div class="section" id="bevel-tool-icon-add-bevel">
 <h1>Bevel Tool <a class="reference internal" href="../_images/Icon_Add_Bevel.png"><img alt="Icon_Add_Bevel" src="../_images/Icon_Add_Bevel.png" style="width: 26.0px; height: 26.0px;" /></a><a class="headerlink" href="#bevel-tool-icon-add-bevel" title="Permalink to this headline">¶</a></h1>
 <p>The bevel tool allows you to create chamfered or rounded corners to geometry. A bevel is an effect that smooths out edges and corners.</p>
-<p>Vertices, Edges or Polygons have to be selected before selecting <code class="docutils literal"><span class="pre">BevelTool</span></code> and then change the properties described below in the inspector.</p>
+<p>Vertices, Edges or Polygons have to be selected before selecting <code class="docutils literal notranslate"><span class="pre">BevelTool</span></code> and then change the properties described below in the inspector.</p>
 <div class="section" id="steps">
 <h2>Steps<a class="headerlink" href="#steps" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
-<li>Select Vertex(s), edge(s) or polygon(s) with <code class="docutils literal"><span class="pre">VertexTool</span></code>, <code class="docutils literal"><span class="pre">EdgeTool</span></code>, or <code class="docutils literal"><span class="pre">PolygonTool</span></code>.</li>
-<li>Adjust <code class="docutils literal"><span class="pre">Width</span></code>, <code class="docutils literal"><span class="pre">Segments</span></code> or <code class="docutils literal"><span class="pre">Profile</span></code> value in Properties.</li>
+<li><p>Select Vertex(s), edge(s) or polygon(s) with <code class="docutils literal notranslate"><span class="pre">VertexTool</span></code>, <code class="docutils literal notranslate"><span class="pre">EdgeTool</span></code>, or <code class="docutils literal notranslate"><span class="pre">PolygonTool</span></code>.</p></li>
+<li><p>Adjust <code class="docutils literal notranslate"><span class="pre">Width</span></code>, <code class="docutils literal notranslate"><span class="pre">Segments</span></code> or <code class="docutils literal notranslate"><span class="pre">Profile</span></code> value in Properties.</p></li>
 </ol>
 </div>
 <div class="section" id="properties">
 <h2>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
-<dl class="docutils">
-<dt>Width</dt>
-<dd>The width of the bevel polygon.</dd>
-<dt>Segments</dt>
-<dd>The number of segments. The greater the number of segments, the smoother the bevel.</dd>
-<dt>Profile</dt>
-<dd>The side view of the bevel edge. This is between 0 and 1. 0.5 is completely flat.
-Values less than 0.5 gives concave bevel and values more than 0.5 gives convex bevel.</dd>
-<dt>Clamp Overlap</dt>
-<dd>When selected, the bevel amount isn’t allowed to go larger than an amount that causes overlapping collisions with other geometry.</dd>
+<dl class="simple">
+<dt>Width</dt><dd><p>The width of the bevel polygon.</p>
+</dd>
+<dt>Segments</dt><dd><p>The number of segments. The greater the number of segments, the smoother the bevel.</p>
+</dd>
+<dt>Profile</dt><dd><p>The side view of the bevel edge. This is between 0 and 1. 0.5 is completely flat.
+Values less than 0.5 gives concave bevel and values more than 0.5 gives convex bevel.</p>
+</dd>
+<dt>Clamp Overlap</dt><dd><p>When selected, the bevel amount isn’t allowed to go larger than an amount that causes overlapping collisions with other geometry.</p>
+</dd>
 </dl>
-<dl class="docutils">
-<dt><a class="reference internal" href="../_images/UModeler_Bevel_VertexBevel_0.jpg"><img alt="VertexBevel_0" src="../_images/UModeler_Bevel_VertexBevel_0.jpg" style="width: 270.75px; height: 279.3px;" /></a> <a class="reference internal" href="../_images/UModeler_Bevel_VertexBevel_1.jpg"><img alt="VertexBevel_1" src="../_images/UModeler_Bevel_VertexBevel_1.jpg" style="width: 270.75px; height: 279.3px;" /></a></dt>
-<dd>Vertex Beveling.</dd>
+<dl class="simple">
+<dt><a class="reference internal" href="../_images/UModeler_Bevel_VertexBevel_0.jpg"><img alt="VertexBevel_0" src="../_images/UModeler_Bevel_VertexBevel_0.jpg" style="width: 270.75px; height: 279.3px;" /></a> <a class="reference internal" href="../_images/UModeler_Bevel_VertexBevel_1.jpg"><img alt="VertexBevel_1" src="../_images/UModeler_Bevel_VertexBevel_1.jpg" style="width: 270.75px; height: 279.3px;" /></a></dt><dd><p>Vertex Beveling.</p>
+</dd>
 </dl>
-<dl class="docutils">
-<dt><a class="reference internal" href="../_images/UModeler_Bevel_EdgeBevel_0.jpg"><img alt="EdgeBevel_0" src="../_images/UModeler_Bevel_EdgeBevel_0.jpg" style="width: 270.75px; height: 279.3px;" /></a> <a class="reference internal" href="../_images/UModeler_Bevel_EdgeBevel_1.jpg"><img alt="EdgeBevel_1" src="../_images/UModeler_Bevel_EdgeBevel_1.jpg" style="width: 270.75px; height: 279.3px;" /></a></dt>
-<dd>Edge Beveling</dd>
+<dl class="simple">
+<dt><a class="reference internal" href="../_images/UModeler_Bevel_EdgeBevel_0.jpg"><img alt="EdgeBevel_0" src="../_images/UModeler_Bevel_EdgeBevel_0.jpg" style="width: 270.75px; height: 279.3px;" /></a> <a class="reference internal" href="../_images/UModeler_Bevel_EdgeBevel_1.jpg"><img alt="EdgeBevel_1" src="../_images/UModeler_Bevel_EdgeBevel_1.jpg" style="width: 270.75px; height: 279.3px;" /></a></dt><dd><p>Edge Beveling</p>
+</dd>
 </dl>
-<dl class="docutils">
-<dt><a class="reference internal" href="../_images/UModeler_Bevel_PolygonBevel_0.jpg"><img alt="PolygonBevel_0" src="../_images/UModeler_Bevel_PolygonBevel_0.jpg" style="width: 270.75px; height: 279.3px;" /></a> <a class="reference internal" href="../_images/UModeler_Bevel_PolygonBevel_1.jpg"><img alt="PolygonBevel_1" src="../_images/UModeler_Bevel_PolygonBevel_1.jpg" style="width: 270.75px; height: 279.3px;" /></a></dt>
-<dd>Polygon Beveling</dd>
+<dl class="simple">
+<dt><a class="reference internal" href="../_images/UModeler_Bevel_PolygonBevel_0.jpg"><img alt="PolygonBevel_0" src="../_images/UModeler_Bevel_PolygonBevel_0.jpg" style="width: 270.75px; height: 279.3px;" /></a> <a class="reference internal" href="../_images/UModeler_Bevel_PolygonBevel_1.jpg"><img alt="PolygonBevel_1" src="../_images/UModeler_Bevel_PolygonBevel_1.jpg" style="width: 270.75px; height: 279.3px;" /></a></dt><dd><p>Polygon Beveling</p>
+</dd>
 </dl>
 </div>
 </div>
 
 
            </div>
+           
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="BridgeTool.html" class="btn btn-neutral float-right" title="Bridge Tool" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="BridgeTool.html" class="btn btn-neutral float-right" title="Bridge Tool" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="FollowTool.html" class="btn btn-neutral" title="Follow Tool" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="FollowTool.html" class="btn btn-neutral float-left" title="Follow Tool" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -223,7 +243,7 @@ Values less than 0.5 gives concave bevel and values more than 0.5 gives convex b
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2019, tripolygon.
+        &copy; Copyright 2019, tripolygon
 
     </p>
   </div> 
@@ -239,35 +259,15 @@ Values less than 0.5 gives concave bevel and values more than 0.5 gives convex b
   
 
 
-  
-
-    <script type="text/javascript">
-        var DOCUMENTATION_OPTIONS = {
-            URL_ROOT:'../',
-            VERSION:'',
-            COLLAPSE_INDEX:false,
-            FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true
-        };
-    </script>
-      <script type="text/javascript" src="../_static/jquery.js"></script>
-      <script type="text/javascript" src="../_static/underscore.js"></script>
-      <script type="text/javascript" src="../_static/doctools.js"></script>
-
-  
-
-  
-  
-    <script type="text/javascript" src="../_static/js/theme.js"></script>
-  
-
-  
-  
   <script type="text/javascript">
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          SphinxRtdTheme.Navigation.enable(true);
       });
   </script>
+
+  
+  
+    
    
 
 </body>

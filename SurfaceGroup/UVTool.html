@@ -15,44 +15,40 @@
   
     <link rel="shortcut icon" href="../_static/logo_fav_transparent_background.png"/>
   
+  
+  
 
   
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
 
-  
-  
     
 
   
-
-  
-  
-    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-  
-
-  
-
-  
-        <link rel="index" title="Index"
-              href="../genindex.html"/>
-        <link rel="search" title="Search" href="../search.html"/>
-    <link rel="top" title="Unity UModeler Manual  documentation" href="../index.html"/>
-        <link rel="up" title="Surface Group" href="index.html"/>
-        <link rel="next" title="Vertex Color Tool" href="VertexColorTool.html"/>
-        <link rel="prev" title="Material Tool" href="MaterialTool.html"/> 
-
-  
-  <script src="../_static/js/modernizr.min.js"></script>
-
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Vertex Color Tool" href="VertexColorTool.html" />
+    <link rel="prev" title="Material Tool" href="MaterialTool.html" /> 
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body class="wy-body-for-nav">
 
+   
   <div class="wy-grid-for-nav">
-
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search">
+        <div class="wy-side-nav-search" >
           
 
           
@@ -61,7 +57,7 @@
 
           
             
-            <img src="../_static/UModeler_ManualTitle_1.png" class="logo" />
+            <img src="../_static/UModeler_ManualTitle_1.png" class="logo" alt="Logo"/>
           
           </a>
 
@@ -86,7 +82,10 @@
           
             
             
-                <ul class="current">
+              
+            
+            
+              <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../overview.html">Overview</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../settings.html">Toolbar, Settings and Preference</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../menu.html">Menu</a></li>
@@ -124,36 +123,56 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
       
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../index.html">Unity UModeler Manual</a>
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Unity UModeler Manual</a>
+        
       </nav>
 
 
-      
       <div class="wy-nav-content">
+        
         <div class="rst-content">
+        
           
 
- 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 <div role="navigation" aria-label="breadcrumbs navigation">
+
   <ul class="wy-breadcrumbs">
-    <li><a href="../index.html">Docs</a> &raquo;</li>
-      
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
           <li><a href="index.html">Surface Group </a> &raquo;</li>
-      
-    <li>UV Tool </li>
+        
+      <li>UV Tool </li>
+    
+    
       <li class="wy-breadcrumbs-aside">
         
-          
-            <a href="../_sources/SurfaceGroup/UVTool.txt" rel="nofollow"> View page source</a>
+            
+            <a href="../_sources/SurfaceGroup/UVTool.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
+    
   </ul>
+
+  
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
@@ -161,79 +180,80 @@
             
   <div class="section" id="uv-tool-icon-surface-uv">
 <h1>UV Tool <a class="reference internal" href="../_images/Icon_Surface_UV.png"><img alt="Icon_Surface_UV" src="../_images/Icon_Surface_UV.png" style="width: 26.0px; height: 26.0px;" /></a><a class="headerlink" href="#uv-tool-icon-surface-uv" title="Permalink to this headline">¶</a></h1>
-<p>Sets UV parameters such as <code class="docutils literal"><span class="pre">Shift</span></code>, <code class="docutils literal"><span class="pre">Scale</span></code> and <code class="docutils literal"><span class="pre">Rotation</span></code> etc to each polygon.</p>
+<p>Sets UV parameters such as <code class="docutils literal notranslate"><span class="pre">Shift</span></code>, <code class="docutils literal notranslate"><span class="pre">Scale</span></code> and <code class="docutils literal notranslate"><span class="pre">Rotation</span></code> etc to each polygon.</p>
 <div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p class="last">UV Tool doesn&#8217;t affect unwrapped polygons.</p>
+<p class="admonition-title">Note</p>
+<p>UV Tool doesn’t affect unwrapped polygons.</p>
 </div>
-<div class="figure">
+<div class="figure align-default">
 <a class="reference internal image-reference" href="../_images/UModeler_UVTool.jpg"><img alt="../_images/UModeler_UVTool.jpg" src="../_images/UModeler_UVTool.jpg" style="width: 336.0px; height: 273.0px;" /></a>
 </div>
 <div class="section" id="steps">
 <h2>Steps<a class="headerlink" href="#steps" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
-<li>Select <code class="docutils literal"><span class="pre">UV</span> <span class="pre">Tool</span></code>.</li>
-<li>Select polygons like you did in Polygon tool if no polygon is selected.</li>
-<li>Adjust <code class="docutils literal"><span class="pre">Shift</span></code>, <code class="docutils literal"><span class="pre">Scale</span></code> and <code class="docutils literal"><span class="pre">Rotation</span></code> properties in Properties.</li>
-<li>Or transform UVs of polygons using <code class="docutils literal"><span class="pre">Move</span></code>, <code class="docutils literal"><span class="pre">Rotate</span></code>, <code class="docutils literal"><span class="pre">Scale</span></code> Tools</li>
+<li><p>Select <code class="docutils literal notranslate"><span class="pre">UV</span> <span class="pre">Tool</span></code>.</p></li>
+<li><p>Select polygons like you did in Polygon tool if no polygon is selected.</p></li>
+<li><p>Adjust <code class="docutils literal notranslate"><span class="pre">Shift</span></code>, <code class="docutils literal notranslate"><span class="pre">Scale</span></code> and <code class="docutils literal notranslate"><span class="pre">Rotation</span></code> properties in Properties.</p></li>
+<li><p>Or transform UVs of polygons using <code class="docutils literal notranslate"><span class="pre">Move</span></code>, <code class="docutils literal notranslate"><span class="pre">Rotate</span></code>, <code class="docutils literal notranslate"><span class="pre">Scale</span></code> Tools</p></li>
 </ol>
-<dl class="docutils">
-<dt><a class="reference internal" href="../_images/UModeler_UVTool_MoveGizmo.gif"><img alt="UModeler_UV_MoveTool" src="../_images/UModeler_UVTool_MoveGizmo.gif" style="width: 220.5px; height: 181.8px;" /></a> <a class="reference internal" href="../_images/UModeler_UVTool_RotateGizmo.gif"><img alt="UModeler_UV_RotateTool" src="../_images/UModeler_UVTool_RotateGizmo.gif" style="width: 220.5px; height: 181.8px;" /></a> <a class="reference internal" href="../_images/UModeler_UVTool_ScaleGizmo.gif"><img alt="UModeler_UV_ScaleTool" src="../_images/UModeler_UVTool_ScaleGizmo.gif" style="width: 220.5px; height: 181.8px;" /></a></dt>
-<dd>Direct Move, Rotate and Scale of UVs using <code class="docutils literal"><span class="pre">Move</span></code>, <code class="docutils literal"><span class="pre">Rotate</span></code> and <code class="docutils literal"><span class="pre">Scale</span></code> tools. They are switched among them by clicking on the tool bar buttons in the properties or pressing <code class="docutils literal"><span class="pre">W</span></code>, <code class="docutils literal"><span class="pre">E</span></code>, <code class="docutils literal"><span class="pre">R</span></code> on keyboard.</dd>
+<dl class="simple">
+<dt><a class="reference internal" href="../_images/UModeler_UVTool_MoveGizmo.gif"><img alt="UModeler_UV_MoveTool" src="../_images/UModeler_UVTool_MoveGizmo.gif" style="width: 220.5px; height: 181.8px;" /></a> <a class="reference internal" href="../_images/UModeler_UVTool_RotateGizmo.gif"><img alt="UModeler_UV_RotateTool" src="../_images/UModeler_UVTool_RotateGizmo.gif" style="width: 220.5px; height: 181.8px;" /></a> <a class="reference internal" href="../_images/UModeler_UVTool_ScaleGizmo.gif"><img alt="UModeler_UV_ScaleTool" src="../_images/UModeler_UVTool_ScaleGizmo.gif" style="width: 220.5px; height: 181.8px;" /></a></dt><dd><p>Direct Move, Rotate and Scale of UVs using <code class="docutils literal notranslate"><span class="pre">Move</span></code>, <code class="docutils literal notranslate"><span class="pre">Rotate</span></code> and <code class="docutils literal notranslate"><span class="pre">Scale</span></code> tools. They are switched among them by clicking on the tool bar buttons in the properties or pressing <code class="docutils literal notranslate"><span class="pre">W</span></code>, <code class="docutils literal notranslate"><span class="pre">E</span></code>, <code class="docutils literal notranslate"><span class="pre">R</span></code> on keyboard.</p>
+</dd>
 </dl>
 </div>
 <div class="section" id="properties">
 <h2>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
-<dl class="docutils">
-<dt>Move</dt>
-<dd>Enables <code class="docutils literal"><span class="pre">Move</span> <span class="pre">tool</span></code>. The shortcut is <code class="docutils literal"><span class="pre">W</span></code></dd>
-<dt>Rotate</dt>
-<dd>Enables <code class="docutils literal"><span class="pre">Rotate</span> <span class="pre">tool</span></code>. The shortcut is <code class="docutils literal"><span class="pre">E</span></code></dd>
-<dt>Scale</dt>
-<dd>Enables <code class="docutils literal"><span class="pre">Scale</span> <span class="pre">tool</span></code>. The shortcut is <code class="docutils literal"><span class="pre">R</span></code></dd>
-<dt>Hide Overlay</dt>
-<dd>Hides polygon selection overlays to see the selected polygons&#8217; textures more clearly.</dd>
-<dt>Select Only Visible</dt>
-<dd>If on, Selects only visible vertices/edges/polygons from a camera. Occluded elements from other polygons will not be selected. This is available only when the game object has MeshCollider component.</dd>
-<dt>Shift</dt>
-<dd>Shift of UVs</dd>
-<dt>Rotation</dt>
-<dd>Rotation of UVs</dd>
-<dt>Scale</dt>
-<dd>Scale of UVs</dd>
-<dt>Tiling</dt>
-<dd>Runs the tiling according <code class="docutils literal"><span class="pre">X</span></code> and <code class="docutils literal"><span class="pre">Y</span></code> properties next to this.</dd>
-<dt>X</dt>
-<dd>Changes texture tiling on selected surfaces in the X direction.</dd>
-<dt>Y</dt>
-<dd>Changes texture tiling on selected surfaces in the Y direction.</dd>
-<dt>Fit UVs</dt>
-<dd>Fits the UVs into (0,1) in each of the selected polygons.</dd>
-<dt>Reset UVs</dt>
-<dd>Resets the UVs of the selected polygons to make them initial UVs.</dd>
+<dl class="simple">
+<dt>Move</dt><dd><p>Enables <code class="docutils literal notranslate"><span class="pre">Move</span> <span class="pre">tool</span></code>. The shortcut is <code class="docutils literal notranslate"><span class="pre">W</span></code></p>
+</dd>
+<dt>Rotate</dt><dd><p>Enables <code class="docutils literal notranslate"><span class="pre">Rotate</span> <span class="pre">tool</span></code>. The shortcut is <code class="docutils literal notranslate"><span class="pre">E</span></code></p>
+</dd>
+<dt>Scale</dt><dd><p>Enables <code class="docutils literal notranslate"><span class="pre">Scale</span> <span class="pre">tool</span></code>. The shortcut is <code class="docutils literal notranslate"><span class="pre">R</span></code></p>
+</dd>
+<dt>Hide Overlay</dt><dd><p>Hides polygon selection overlays to see the selected polygons’ textures more clearly.</p>
+</dd>
+<dt>Select Only Visible</dt><dd><p>If on, Selects only visible vertices/edges/polygons from a camera. Occluded elements from other polygons will not be selected. This is available only when the game object has MeshCollider component.</p>
+</dd>
+<dt>Shift</dt><dd><p>Shift of UVs</p>
+</dd>
+<dt>Rotation</dt><dd><p>Rotation of UVs</p>
+</dd>
+<dt>Scale</dt><dd><p>Scale of UVs</p>
+</dd>
+<dt>Tiling</dt><dd><p>Runs the tiling according <code class="docutils literal notranslate"><span class="pre">X</span></code> and <code class="docutils literal notranslate"><span class="pre">Y</span></code> properties next to this.</p>
+</dd>
+<dt>X</dt><dd><p>Changes texture tiling on selected surfaces in the X direction.</p>
+</dd>
+<dt>Y</dt><dd><p>Changes texture tiling on selected surfaces in the Y direction.</p>
+</dd>
+<dt>Fit UVs</dt><dd><p>Fits the UVs into (0,1) in each of the selected polygons.</p>
+</dd>
+<dt>Reset UVs</dt><dd><p>Resets the UVs of the selected polygons to make them initial UVs.</p>
+</dd>
 </dl>
-<dl class="docutils">
-<dt>Open UVEditor</dt>
-<dd>Opens UV Editor window.</dd>
+<dl class="simple">
+<dt>Open UVEditor</dt><dd><p>Opens UV Editor window.</p>
+</dd>
 </dl>
-<dl class="docutils">
-<dt><a class="reference internal" href="../_images/UModeler_UV_0.jpg"><img alt="UModeler_UV_0" src="../_images/UModeler_UV_0.jpg" style="width: 272.0px; height: 250.0px;" /></a> <a class="reference internal" href="../_images/UModeler_UV_1.jpg"><img alt="UModeler_UV_1" src="../_images/UModeler_UV_1.jpg" style="width: 272.0px; height: 250.0px;" /></a></dt>
-<dd>Applied (0.5,0.5) as a scane and 30 degrees as a rotation to 1m x 1m Sqaure.</dd>
+<dl class="simple">
+<dt><a class="reference internal" href="../_images/UModeler_UV_0.jpg"><img alt="UModeler_UV_0" src="../_images/UModeler_UV_0.jpg" style="width: 272.0px; height: 250.0px;" /></a> <a class="reference internal" href="../_images/UModeler_UV_1.jpg"><img alt="UModeler_UV_1" src="../_images/UModeler_UV_1.jpg" style="width: 272.0px; height: 250.0px;" /></a></dt><dd><p>Applied (0.5,0.5) as a scane and 30 degrees as a rotation to 1m x 1m Sqaure.</p>
+</dd>
 </dl>
 </div>
 </div>
 
 
            </div>
+           
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="VertexColorTool.html" class="btn btn-neutral float-right" title="Vertex Color Tool" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="VertexColorTool.html" class="btn btn-neutral float-right" title="Vertex Color Tool" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="MaterialTool.html" class="btn btn-neutral" title="Material Tool" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="MaterialTool.html" class="btn btn-neutral float-left" title="Material Tool" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -242,7 +262,7 @@
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2019, tripolygon.
+        &copy; Copyright 2019, tripolygon
 
     </p>
   </div> 
@@ -258,35 +278,15 @@
   
 
 
-  
-
-    <script type="text/javascript">
-        var DOCUMENTATION_OPTIONS = {
-            URL_ROOT:'../',
-            VERSION:'',
-            COLLAPSE_INDEX:false,
-            FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true
-        };
-    </script>
-      <script type="text/javascript" src="../_static/jquery.js"></script>
-      <script type="text/javascript" src="../_static/underscore.js"></script>
-      <script type="text/javascript" src="../_static/doctools.js"></script>
-
-  
-
-  
-  
-    <script type="text/javascript" src="../_static/js/theme.js"></script>
-  
-
-  
-  
   <script type="text/javascript">
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          SphinxRtdTheme.Navigation.enable(true);
       });
   </script>
+
+  
+  
+    
    
 
 </body>

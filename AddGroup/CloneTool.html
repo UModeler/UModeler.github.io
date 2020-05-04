@@ -15,44 +15,40 @@
   
     <link rel="shortcut icon" href="../_static/logo_fav_transparent_background.png"/>
   
+  
+  
 
   
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
 
-  
-  
     
 
   
-
-  
-  
-    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-  
-
-  
-
-  
-        <link rel="index" title="Index"
-              href="../genindex.html"/>
-        <link rel="search" title="Search" href="../search.html"/>
-    <link rel="top" title="Unity UModeler Manual  documentation" href="../index.html"/>
-        <link rel="up" title="Add Group" href="index.html"/>
-        <link rel="next" title="Duplicate Tool" href="DuplicateTool.html"/>
-        <link rel="prev" title="Bridge Tool" href="BridgeTool.html"/> 
-
-  
-  <script src="../_static/js/modernizr.min.js"></script>
-
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Duplicate Tool" href="DuplicateTool.html" />
+    <link rel="prev" title="Bridge Tool" href="BridgeTool.html" /> 
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body class="wy-body-for-nav">
 
+   
   <div class="wy-grid-for-nav">
-
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search">
+        <div class="wy-side-nav-search" >
           
 
           
@@ -61,7 +57,7 @@
 
           
             
-            <img src="../_static/UModeler_ManualTitle_1.png" class="logo" />
+            <img src="../_static/UModeler_ManualTitle_1.png" class="logo" alt="Logo"/>
           
           </a>
 
@@ -86,7 +82,10 @@
           
             
             
-                <ul class="current">
+              
+            
+            
+              <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../overview.html">Overview</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../settings.html">Toolbar, Settings and Preference</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../menu.html">Menu</a></li>
@@ -132,36 +131,56 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
       
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../index.html">Unity UModeler Manual</a>
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Unity UModeler Manual</a>
+        
       </nav>
 
 
-      
       <div class="wy-nav-content">
+        
         <div class="rst-content">
+        
           
 
- 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 <div role="navigation" aria-label="breadcrumbs navigation">
+
   <ul class="wy-breadcrumbs">
-    <li><a href="../index.html">Docs</a> &raquo;</li>
-      
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
           <li><a href="index.html">Add Group </a> &raquo;</li>
-      
-    <li>Clone Tool </li>
+        
+      <li>Clone Tool </li>
+    
+    
       <li class="wy-breadcrumbs-aside">
         
-          
-            <a href="../_sources/AddGroup/CloneTool.txt" rel="nofollow"> View page source</a>
+            
+            <a href="../_sources/AddGroup/CloneTool.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
+    
   </ul>
+
+  
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
@@ -169,69 +188,69 @@
             
   <div class="section" id="clone-tool-icon-add-clone">
 <h1>Clone Tool <a class="reference internal" href="../_images/Icon_Add_Clone.png"><img alt="Icon_Add_Clone" src="../_images/Icon_Add_Clone.png" style="width: 26.0px; height: 26.0px;" /></a><a class="headerlink" href="#clone-tool-icon-add-clone" title="Permalink to this headline">¶</a></h1>
-<p>Clones the selected polygons along the line drawn by dragging a mouse. Pressing <code class="docutils literal"><span class="pre">SPACE</span></code> confirms the clone action and <code class="docutils literal"><span class="pre">ESC</span></code> cancels it.</p>
+<p>Clones the selected polygons along the line drawn by dragging a mouse. Pressing <code class="docutils literal notranslate"><span class="pre">SPACE</span></code> confirms the clone action and <code class="docutils literal notranslate"><span class="pre">ESC</span></code> cancels it.</p>
 <div class="section" id="steps-single-clone">
 <h2>Steps - Single Clone<a class="headerlink" href="#steps-single-clone" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
-<li>Enter Clone tool.</li>
-<li>Point at a polygon you want to clone by putting the mouse over it if polygons are not selected when this tool is activated.</li>
-<li>Drag the mouse to draw a line. You can make sure that the cloned polygons will be aligned with the line.</li>
-<li>Adjust <code class="docutils literal"><span class="pre">Number</span></code>, <code class="docutils literal"><span class="pre">Distance</span></code> and <code class="docutils literal"><span class="pre">Arrangement</span></code> in <code class="docutils literal"><span class="pre">Properties</span></code> if necessary.</li>
-<li>Press <code class="docutils literal"><span class="pre">SPACE</span></code> or click on <code class="docutils literal"><span class="pre">Confirm</span></code> button to confirm, or Press <code class="docutils literal"><span class="pre">ESC</span></code> or click on <code class="docutils literal"><span class="pre">Cancel</span></code> button to cancel.</li>
+<li><p>Enter Clone tool.</p></li>
+<li><p>Point at a polygon you want to clone by putting the mouse over it if polygons are not selected when this tool is activated.</p></li>
+<li><p>Drag the mouse to draw a line. You can make sure that the cloned polygons will be aligned with the line.</p></li>
+<li><p>Adjust <code class="docutils literal notranslate"><span class="pre">Number</span></code>, <code class="docutils literal notranslate"><span class="pre">Distance</span></code> and <code class="docutils literal notranslate"><span class="pre">Arrangement</span></code> in <code class="docutils literal notranslate"><span class="pre">Properties</span></code> if necessary.</p></li>
+<li><p>Press <code class="docutils literal notranslate"><span class="pre">SPACE</span></code> or click on <code class="docutils literal notranslate"><span class="pre">Confirm</span></code> button to confirm, or Press <code class="docutils literal notranslate"><span class="pre">ESC</span></code> or click on <code class="docutils literal notranslate"><span class="pre">Cancel</span></code> button to cancel.</p></li>
 </ol>
 </div>
 <div class="section" id="steps-multi-clone">
 <h2>Steps - Multi Clone<a class="headerlink" href="#steps-multi-clone" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
-<li>Select Several polygons using <code class="docutils literal"><span class="pre">Polygon</span> <span class="pre">Tool</span></code></li>
-<li>Enter Clone tool.</li>
-<li>Drag the mouse to draw a line. You can make sure that the cloned polygons will be aligned with the line.</li>
-<li>Adjust <code class="docutils literal"><span class="pre">Number</span></code>, <code class="docutils literal"><span class="pre">Distance</span></code> and <code class="docutils literal"><span class="pre">Arrangement</span></code> in <code class="docutils literal"><span class="pre">Properties</span></code> if necessary.</li>
-<li>Press <code class="docutils literal"><span class="pre">SPACE</span></code> or click on <code class="docutils literal"><span class="pre">Confirm</span></code> button to confirm, or Press <code class="docutils literal"><span class="pre">ESC</span></code> or click on <code class="docutils literal"><span class="pre">Cancel</span></code> button to cancel.</li>
+<li><p>Select Several polygons using <code class="docutils literal notranslate"><span class="pre">Polygon</span> <span class="pre">Tool</span></code></p></li>
+<li><p>Enter Clone tool.</p></li>
+<li><p>Drag the mouse to draw a line. You can make sure that the cloned polygons will be aligned with the line.</p></li>
+<li><p>Adjust <code class="docutils literal notranslate"><span class="pre">Number</span></code>, <code class="docutils literal notranslate"><span class="pre">Distance</span></code> and <code class="docutils literal notranslate"><span class="pre">Arrangement</span></code> in <code class="docutils literal notranslate"><span class="pre">Properties</span></code> if necessary.</p></li>
+<li><p>Press <code class="docutils literal notranslate"><span class="pre">SPACE</span></code> or click on <code class="docutils literal notranslate"><span class="pre">Confirm</span></code> button to confirm, or Press <code class="docutils literal notranslate"><span class="pre">ESC</span></code> or click on <code class="docutils literal notranslate"><span class="pre">Cancel</span></code> button to cancel.</p></li>
 </ol>
 </div>
 <div class="section" id="interface">
 <h2>Interface<a class="headerlink" href="#interface" title="Permalink to this headline">¶</a></h2>
-<dl class="docutils">
-<dt><code class="docutils literal"><span class="pre">LMB</span> <span class="pre">Drag</span></code></dt>
-<dd>Draws an edge where the clones will be placed.</dd>
+<dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">LMB</span> <span class="pre">Drag</span></code></dt><dd><p>Draws an edge where the clones will be placed.</p>
+</dd>
 </dl>
 </div>
 <div class="section" id="properties">
 <h2>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
-<dl class="docutils">
-<dt>Number</dt>
-<dd>The number of clones</dd>
-<dt>Distance</dt>
-<dd>The distance of an edge where the clones will be placed.</dd>
-<dt>Arrangement</dt>
-<dd><ul class="first last simple">
-<li><code class="docutils literal"><span class="pre">Divide</span></code> - Creates clones arranged evenly between the starting point and the end point of the edge.</li>
-<li><code class="docutils literal"><span class="pre">Multiply</span></code> - Makes clones along the edge. The distance between the clones is the value of Distance property in Properties.</li>
+<dl class="simple">
+<dt>Number</dt><dd><p>The number of clones</p>
+</dd>
+<dt>Distance</dt><dd><p>The distance of an edge where the clones will be placed.</p>
+</dd>
+<dt>Arrangement</dt><dd><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">Divide</span></code> - Creates clones arranged evenly between the starting point and the end point of the edge.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Multiply</span></code> - Makes clones along the edge. The distance between the clones is the value of Distance property in Properties.</p></li>
 </ul>
 </dd>
 </dl>
-<p><a class="reference internal" href="../_images/UModeler_Clone_0.jpg"><img alt="Clone_0" src="../_images/UModeler_Clone_0.jpg" style="width: 270.75px; height: 279.3px;" /></a> <code class="docutils literal"><span class="pre">Arrangement</span></code> property is <code class="docutils literal"><span class="pre">Divide</span></code></p>
-<p><a class="reference internal" href="../_images/UModeler_Clone_1.jpg"><img alt="Clone_1" src="../_images/UModeler_Clone_1.jpg" style="width: 270.75px; height: 279.3px;" /></a> <code class="docutils literal"><span class="pre">Arrangement</span></code> property is <code class="docutils literal"><span class="pre">Multiply</span></code></p>
+<p><a class="reference internal" href="../_images/UModeler_Clone_0.jpg"><img alt="Clone_0" src="../_images/UModeler_Clone_0.jpg" style="width: 270.75px; height: 279.3px;" /></a> <code class="docutils literal notranslate"><span class="pre">Arrangement</span></code> property is <code class="docutils literal notranslate"><span class="pre">Divide</span></code></p>
+<p><a class="reference internal" href="../_images/UModeler_Clone_1.jpg"><img alt="Clone_1" src="../_images/UModeler_Clone_1.jpg" style="width: 270.75px; height: 279.3px;" /></a> <code class="docutils literal notranslate"><span class="pre">Arrangement</span></code> property is <code class="docutils literal notranslate"><span class="pre">Multiply</span></code></p>
 <p><a class="reference internal" href="../_images/UModeler_Clone_2.jpg"><img alt="Clone_2" src="../_images/UModeler_Clone_2.jpg" style="width: 270.75px; height: 279.3px;" /></a> This is the result of the upper cases.</p>
-<dl class="docutils">
-<dt><a class="reference internal" href="../_images/UModeler_Clone_3.jpg"><img alt="Clone_3" src="../_images/UModeler_Clone_3.jpg" style="width: 270.75px; height: 279.3px;" /></a> <a class="reference internal" href="../_images/UModeler_Clone_4.jpg"><img alt="Clone_4" src="../_images/UModeler_Clone_4.jpg" style="width: 270.75px; height: 279.3px;" /></a></dt>
-<dd><code class="docutils literal"><span class="pre">Multi</span> <span class="pre">Polygons</span> <span class="pre">Clone</span></code></dd>
+<dl class="simple">
+<dt><a class="reference internal" href="../_images/UModeler_Clone_3.jpg"><img alt="Clone_3" src="../_images/UModeler_Clone_3.jpg" style="width: 270.75px; height: 279.3px;" /></a> <a class="reference internal" href="../_images/UModeler_Clone_4.jpg"><img alt="Clone_4" src="../_images/UModeler_Clone_4.jpg" style="width: 270.75px; height: 279.3px;" /></a></dt><dd><p><code class="docutils literal notranslate"><span class="pre">Multi</span> <span class="pre">Polygons</span> <span class="pre">Clone</span></code></p>
+</dd>
 </dl>
 </div>
 </div>
 
 
            </div>
+           
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="DuplicateTool.html" class="btn btn-neutral float-right" title="Duplicate Tool" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="DuplicateTool.html" class="btn btn-neutral float-right" title="Duplicate Tool" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="BridgeTool.html" class="btn btn-neutral" title="Bridge Tool" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="BridgeTool.html" class="btn btn-neutral float-left" title="Bridge Tool" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -240,7 +259,7 @@
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2019, tripolygon.
+        &copy; Copyright 2019, tripolygon
 
     </p>
   </div> 
@@ -256,35 +275,15 @@
   
 
 
-  
-
-    <script type="text/javascript">
-        var DOCUMENTATION_OPTIONS = {
-            URL_ROOT:'../',
-            VERSION:'',
-            COLLAPSE_INDEX:false,
-            FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true
-        };
-    </script>
-      <script type="text/javascript" src="../_static/jquery.js"></script>
-      <script type="text/javascript" src="../_static/underscore.js"></script>
-      <script type="text/javascript" src="../_static/doctools.js"></script>
-
-  
-
-  
-  
-    <script type="text/javascript" src="../_static/js/theme.js"></script>
-  
-
-  
-  
   <script type="text/javascript">
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          SphinxRtdTheme.Navigation.enable(true);
       });
   </script>
+
+  
+  
+    
    
 
 </body>

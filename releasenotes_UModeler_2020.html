@@ -15,44 +15,40 @@
   
     <link rel="shortcut icon" href="_static/logo_fav_transparent_background.png"/>
   
+  
+  
 
   
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
 
-  
-  
     
 
   
-
-  
-  
-    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
-  
-
-  
-
-  
-        <link rel="index" title="Index"
-              href="genindex.html"/>
-        <link rel="search" title="Search" href="search.html"/>
-    <link rel="top" title="Unity UModeler Manual  documentation" href="index.html"/>
-        <link rel="up" title="Release Notes" href="releasenotes.html"/>
-        <link rel="next" title="UModeler 2019" href="releasenotes_UModeler_2019.html"/>
-        <link rel="prev" title="Release Notes" href="releasenotes.html"/> 
-
-  
-  <script src="_static/js/modernizr.min.js"></script>
-
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="UModeler 2019" href="releasenotes_UModeler_2019.html" />
+    <link rel="prev" title="Release Notes" href="releasenotes.html" /> 
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body class="wy-body-for-nav">
 
+   
   <div class="wy-grid-for-nav">
-
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search">
+        <div class="wy-side-nav-search" >
           
 
           
@@ -61,7 +57,7 @@
 
           
             
-            <img src="_static/UModeler_ManualTitle_1.png" class="logo" />
+            <img src="_static/UModeler_ManualTitle_1.png" class="logo" alt="Logo"/>
           
           </a>
 
@@ -86,7 +82,10 @@
           
             
             
-                <ul class="current">
+              
+            
+            
+              <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
 <li class="toctree-l1"><a class="reference internal" href="settings.html">Toolbar, Settings and Preference</a></li>
 <li class="toctree-l1"><a class="reference internal" href="menu.html">Menu</a></li>
@@ -134,36 +133,56 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
       
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="index.html">Unity UModeler Manual</a>
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Unity UModeler Manual</a>
+        
       </nav>
 
 
-      
       <div class="wy-nav-content">
+        
         <div class="rst-content">
+        
           
 
- 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 <div role="navigation" aria-label="breadcrumbs navigation">
+
   <ul class="wy-breadcrumbs">
-    <li><a href="index.html">Docs</a> &raquo;</li>
-      
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
           <li><a href="releasenotes.html">Release Notes</a> &raquo;</li>
-      
-    <li>UModeler 2020</li>
+        
+      <li>UModeler 2020</li>
+    
+    
       <li class="wy-breadcrumbs-aside">
         
-          
-            <a href="_sources/releasenotes_UModeler_2020.txt" rel="nofollow"> View page source</a>
+            
+            <a href="_sources/releasenotes_UModeler_2020.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
+    
   </ul>
+
+  
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
@@ -172,151 +191,152 @@
   <div class="section" id="umodeler-2020">
 <h1>UModeler 2020<a class="headerlink" href="#umodeler-2020" title="Permalink to this headline">¶</a></h1>
 <blockquote>
-<div><div class="figure">
+<div><div class="figure align-default">
 <img alt="_images/Releasenote2020.png" src="_images/Releasenote2020.png" />
 </div>
 </div></blockquote>
 <div class="section" id="version-2-7-9-april-15-2020">
 <h2>Version 2.7.9 - April.15.2020<a class="headerlink" href="#version-2-7-9-april-15-2020" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li>Fix : Fixed an issue where duplicated UModeler objects shared meshes</li>
-<li>Fix : Fixed a material issue where new assigned  materials of UModeler prefab objects returned to the default ones.</li>
-<li>Fix : Fixed a bug where UModeler mesh disappeared when it is selected after Lightmap Static in Local Settings is toggled on/off  with multiple selected UModeler objects.</li>
-<li>Fix : Fixed an issue where X axis corresponded with Depth param and Y axis corresponded with Width param in Rectangle, Box, Room and Stair tools.</li>
-<li>Enhancement : Exposed an icon for UModelerizing on the toolbar in the scene view only when non-umodeler objects with mesh filters are selected.</li>
-<li>Enhancement : Added UModelerlize item to the GameObject menu and the popup menu in the hierarchy window.</li>
+<li><p>Fix : Fixed an issue where duplicated UModeler objects shared meshes</p></li>
+<li><p>Fix : Fixed a material issue where new assigned  materials of UModeler prefab objects returned to the default ones.</p></li>
+<li><p>Fix : Fixed a bug where UModeler mesh disappeared when it is selected after Lightmap Static in Local Settings is toggled on/off  with multiple selected UModeler objects.</p></li>
+<li><p>Fix : Fixed an issue where X axis corresponded with Depth param and Y axis corresponded with Width param in Rectangle, Box, Room and Stair tools.</p></li>
+<li><p>Enhancement : Exposed an icon for UModelerizing on the toolbar in the scene view only when non-umodeler objects with mesh filters are selected.</p></li>
+<li><p>Enhancement : Added UModelerlize item to the GameObject menu and the popup menu in the hierarchy window.</p></li>
 </ul>
 </div>
 <div class="section" id="version-2-7-8-april-7-2020">
 <h2>Version 2.7.8 - April.7.2020<a class="headerlink" href="#version-2-7-8-april-7-2020" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li>Fix : Fixed an issue of UV Default parameters for UV Tool.</li>
-<li>Fix : Fixed a bug where helper arrows and planes in Multiple PushPull and Mirror tool are affected by transform&#8217;s scale and rotation</li>
-<li>Fix : Fixed a bug where UModelerized meshes disappear when they are selected.</li>
-<li>Change : Allows 3D cursor to be snapped to the center of edge and polygon by moving a gizmo holding LMB</li>
+<li><p>Fix : Fixed an issue of UV Default parameters for UV Tool.</p></li>
+<li><p>Fix : Fixed a bug where helper arrows and planes in Multiple PushPull and Mirror tool are affected by transform’s scale and rotation</p></li>
+<li><p>Fix : Fixed a bug where UModelerized meshes disappear when they are selected.</p></li>
+<li><p>Change : Allows 3D cursor to be snapped to the center of edge and polygon by moving a gizmo holding LMB</p></li>
 </ul>
 </div>
 <div class="section" id="version-2-7-7-march-31-2020">
 <h2>Version 2.7.7 - March.31.2020<a class="headerlink" href="#version-2-7-7-march-31-2020" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li>Enhancement : Added UV Tool default parameters to Preference. Shift, Rotation, Scale parameter in UV Tool are reset based on them.</li>
-<li>Enhancement : Added [Create Smoothing Groups as UModelerize]. If it is enabled, smoothing groups will be created when UModelerlizing.</li>
-<li>Fix : Wrong Settings windows location while Multiple Scene views are opened.</li>
-<li>Fix : Fixed an issue where a shape created with One-Click Build wasn&#8217;t affected by World Grid Snap.</li>
-<li>Fix : Fixed a bug where a primitive shape object went away when undoing/redoing.</li>
+<li><p>Enhancement : Added UV Tool default parameters to Preference. Shift, Rotation, Scale parameter in UV Tool are reset based on them.</p></li>
+<li><p>Enhancement : Added [Create Smoothing Groups as UModelerize]. If it is enabled, smoothing groups will be created when UModelerlizing.</p></li>
+<li><p>Fix : Wrong Settings windows location while Multiple Scene views are opened.</p></li>
+<li><p>Fix : Fixed an issue where a shape created with One-Click Build wasn’t affected by World Grid Snap.</p></li>
+<li><p>Fix : Fixed a bug where a primitive shape object went away when undoing/redoing.</p></li>
 </ul>
 </div>
 <div class="section" id="version-2-7-6-march-26-2020">
 <h2>Version 2.7.6 - March.26.2020<a class="headerlink" href="#version-2-7-6-march-26-2020" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li>Fix : Fixed a bug where object highlight is invisible after UModeler component is removed.</li>
-<li>Fix : Fixed UModeler mesh disappearing when multiple UModeler objects are deleted and undone and one of them are selected.</li>
-<li>Fix : Fixed an issue where the created UModeler object by redoing wasn&#8217;t selected so more redoing didn&#8217;t work.</li>
-<li>Fix : Fixed a bug where a mesh isn&#8217;t rendered when a UModeler component is added to the empty game object and create some primitive shapes.</li>
-<li>Improvement : Warning message is displayed when Rotate and Scale gizmo are invisible because the 3D cursor is away from the current camera view.</li>
+<li><p>Fix : Fixed a bug where object highlight is invisible after UModeler component is removed.</p></li>
+<li><p>Fix : Fixed UModeler mesh disappearing when multiple UModeler objects are deleted and undone and one of them are selected.</p></li>
+<li><p>Fix : Fixed an issue where the created UModeler object by redoing wasn’t selected so more redoing didn’t work.</p></li>
+<li><p>Fix : Fixed a bug where a mesh isn’t rendered when a UModeler component is added to the empty game object and create some primitive shapes.</p></li>
+<li><p>Improvement : Warning message is displayed when Rotate and Scale gizmo are invisible because the 3D cursor is away from the current camera view.</p></li>
 </ul>
 </div>
 <div class="section" id="version-2-7-5-march-16-2020">
 <h2>Version 2.7.5 - March.16.2020<a class="headerlink" href="#version-2-7-5-march-16-2020" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li>Feature : Added Auto layout tool to UV Editor to enable multiple selected polygons to be unwrap using Auto layout at once.</li>
-<li>Enhancement : Added &#8220;Select Only Visible&#8221; property to the 18 following tools.</li>
+<li><p>Feature : Added Auto layout tool to UV Editor to enable multiple selected polygons to be unwrap using Auto layout at once.</p></li>
+<li><p>Enhancement : Added “Select Only Visible” property to the 18 following tools.</p></li>
 </ul>
 <blockquote>
 <div><ul class="simple">
-<li>Drawing Group - Line, Arc, Rectangle, Disk, Side Stair, Parallel</li>
-<li>Primitive Shapes Group - Box, Room, Stair, Cylinder, Cone, Spiral Stair, Sphere, Capsule</li>
-<li>Add Group : PushPull, Inset, Clone</li>
-<li>Remove Group : Eraser</li>
+<li><p>Drawing Group - Line, Arc, Rectangle, Disk, Side Stair, Parallel</p></li>
+<li><p>Primitive Shapes Group - Box, Room, Stair, Cylinder, Cone, Spiral Stair, Sphere, Capsule</p></li>
+<li><p>Add Group : PushPull, Inset, Clone</p></li>
+<li><p>Remove Group : Eraser</p></li>
 </ul>
 </div></blockquote>
 <ul class="simple">
-<li>Enhancement : Now while &#8220;Select Only Visible&#8221; property is on, backfaced polygons can&#8217;t be selected.</li>
-<li>Enhancement : Refresh All button has been exposed in the toolbar.</li>
-<li>Fix : Fixed a bug where Unity gizmo disappeared when 3D cursor button is clicked.</li>
-<li>Fix : Fixed an issue where two cube cursors were displayed in Cylinder, Cone and Capsule Tools</li>
-<li>Fix : Fixed a bug where children objects were moved when the parent UModeler object pivot was changed.</li>
-<li>Fix : Fixed an issue where Polygon tool was forced to be selected after Settings icons were toggled.</li>
+<li><p>Enhancement : Now while “Select Only Visible” property is on, backfaced polygons can’t be selected.</p></li>
+<li><p>Enhancement : Refresh All button has been exposed in the toolbar.</p></li>
+<li><p>Fix : Fixed a bug where Unity gizmo disappeared when 3D cursor button is clicked.</p></li>
+<li><p>Fix : Fixed an issue where two cube cursors were displayed in Cylinder, Cone and Capsule Tools</p></li>
+<li><p>Fix : Fixed a bug where children objects were moved when the parent UModeler object pivot was changed.</p></li>
+<li><p>Fix : Fixed an issue where Polygon tool was forced to be selected after Settings icons were toggled.</p></li>
 </ul>
 </div>
 <div class="section" id="version-2-7-4-march-10-2020">
 <h2>Version 2.7.4 - March.10.2020<a class="headerlink" href="#version-2-7-4-march-10-2020" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li>Fix : Fixed an issue where the size of box overlay for selection representation changed abruptly when you move a mouse between the game view and the scene view on play mode.</li>
-<li>Feature : Implemented Smoothing group generation when UModelerizing considering polygon&#8217;s adjacency and normals.</li>
+<li><p>Fix : Fixed an issue where the size of box overlay for selection representation changed abruptly when you move a mouse between the game view and the scene view on play mode.</p></li>
+<li><p>Feature : Implemented Smoothing group generation when UModelerizing considering polygon’s adjacency and normals.</p></li>
 </ul>
 </div>
 <div class="section" id="version-2-7-3-march-6-2020">
 <h2>Version 2.7.3 - March.6.2020<a class="headerlink" href="#version-2-7-3-march-6-2020" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li>Feature : Added a module to collect usability data using Google analyst.</li>
-<li>Feature : Added focusing on selected elements pressing &#8216;F&#8217; in UV Editor</li>
-<li>Fix : Fix an issue where UV Editor camera isn&#8217;t located at the center of the view, which causes unwrapped polygons with autolayout being out of the center of the view.</li>
-<li>Fix : Fix a bug where edges in too small UModeler mesh aren&#8217;t selected correctly.</li>
-<li>Fix : Fix an issue where the Settings window is occluded by the global axis when the scene view is too narrow.</li>
-<li>Fix : Allowed minus scale values in UV Tool so that up-side down UVs can be reset by pressing Reset UVs button.</li>
+<li><p>Feature : Added a module to collect usability data using Google analyst.</p></li>
+<li><p>Feature : Added focusing on selected elements pressing ‘F’ in UV Editor</p></li>
+<li><p>Fix : Fix an issue where UV Editor camera isn’t located at the center of the view, which causes unwrapped polygons with autolayout being out of the center of the view.</p></li>
+<li><p>Fix : Fix a bug where edges in too small UModeler mesh aren’t selected correctly.</p></li>
+<li><p>Fix : Fix an issue where the Settings window is occluded by the global axis when the scene view is too narrow.</p></li>
+<li><p>Fix : Allowed minus scale values in UV Tool so that up-side down UVs can be reset by pressing Reset UVs button.</p></li>
 </ul>
 </div>
 <div class="section" id="version-2-7-2-feb-25-2020">
 <h2>Version 2.7.2 - Feb.25.2020<a class="headerlink" href="#version-2-7-2-feb-25-2020" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li>Fix : Fixed issues in font, size and position of Commentary box on Unity 2019.3</li>
-<li>Fix : Added shortcuts of 3D cursor(SHIFT+A) and Settings(SHIFT+W).</li>
-<li>Fix : Fixed a pivot of rotation and scale gizmos when 3D cursor is enabled.</li>
-<li>Fix : Made unwrapped polygons&#8217; uvs not transformed in UV Tool.</li>
-<li>Fix : Fixed an auto layout issue where a polygon is unwrapped with the same density as the adjacent one which has been already unwrapped.</li>
-<li>Fix : Fixed an auto layout issue where the first unwrapped polygon is too big. Now it is re-scaled so that it is fit in the UV Editor view size.</li>
+<li><p>Fix : Fixed issues in font, size and position of Commentary box on Unity 2019.3</p></li>
+<li><p>Fix : Added shortcuts of 3D cursor(SHIFT+A) and Settings(SHIFT+W).</p></li>
+<li><p>Fix : Fixed a pivot of rotation and scale gizmos when 3D cursor is enabled.</p></li>
+<li><p>Fix : Made unwrapped polygons’ uvs not transformed in UV Tool.</p></li>
+<li><p>Fix : Fixed an auto layout issue where a polygon is unwrapped with the same density as the adjacent one which has been already unwrapped.</p></li>
+<li><p>Fix : Fixed an auto layout issue where the first unwrapped polygon is too big. Now it is re-scaled so that it is fit in the UV Editor view size.</p></li>
 </ul>
 </div>
 <div class="section" id="version-2-7-1-2-jan-30-2020">
 <h2>Version 2.7.1.2 - Jan.30.2020<a class="headerlink" href="#version-2-7-1-2-jan-30-2020" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li>Fix : Fixed an issue where Transform properties in the inspector have different looks from the original ones.</li>
+<li><p>Fix : Fixed an issue where Transform properties in the inspector have different looks from the original ones.</p></li>
 </ul>
 </div>
 <div class="section" id="version-2-7-1-1-jan-29-2020">
 <h2>Version 2.7.1.1 - Jan.29.2020<a class="headerlink" href="#version-2-7-1-1-jan-29-2020" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li>Fix : Fixed an issue related to upside down material UVs.</li>
+<li><p>Fix : Fixed an issue related to upside down material UVs.</p></li>
 </ul>
 </div>
 <div class="section" id="version-2-7-1-jan-28-2020">
 <h2>Version 2.7.1 - Jan.28.2020<a class="headerlink" href="#version-2-7-1-jan-28-2020" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li>Enhancement : Allowed minus thickness of Room tool</li>
-<li>Enhancement : Allowed Flip Tool in Object mode, which enables flipping all polygons at once.</li>
-<li>Enhancement : Added Increment Snap. Now None, World Grid Snap and Increment Snap are available.</li>
-<li>Fix : Fixed an issue that a Prefab icon in the project window would change quickly</li>
-<li>Fix : Fixed an issue regarding editing UModeler in Prefab mode</li>
-<li>Fix : UV reset bug when vertex/edge/polygons being transformed by adding [Reset UVs] property.</li>
-<li>Fix : Fixed a bug where UModeler prefab instance would disappear when a prefab is placed in a level by dragging.</li>
-<li>Fix : Fixed an issue where child UModeler objects would get invisible when its parent prefab is instanced.</li>
-<li>Fix : Made a mesh collider up to date whenever UModeler mesh changes.</li>
+<li><p>Enhancement : Allowed minus thickness of Room tool</p></li>
+<li><p>Enhancement : Allowed Flip Tool in Object mode, which enables flipping all polygons at once.</p></li>
+<li><p>Enhancement : Added Increment Snap. Now None, World Grid Snap and Increment Snap are available.</p></li>
+<li><p>Fix : Fixed an issue that a Prefab icon in the project window would change quickly</p></li>
+<li><p>Fix : Fixed an issue regarding editing UModeler in Prefab mode</p></li>
+<li><p>Fix : UV reset bug when vertex/edge/polygons being transformed by adding [Reset UVs] property.</p></li>
+<li><p>Fix : Fixed a bug where UModeler prefab instance would disappear when a prefab is placed in a level by dragging.</p></li>
+<li><p>Fix : Fixed an issue where child UModeler objects would get invisible when its parent prefab is instanced.</p></li>
+<li><p>Fix : Made a mesh collider up to date whenever UModeler mesh changes.</p></li>
 </ul>
 </div>
 <div class="section" id="version-2-7-0-jan-7-2020">
 <h2>Version 2.7.0 - Jan.7.2020<a class="headerlink" href="#version-2-7-0-jan-7-2020" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li>Fix : Fixed InvalidCastException in TPUModelerEditor.BaseTool.Properties[T]</li>
-<li>Fix : Fixed bug where a material assigned by dragging gets back to the previous one when entering play mode.</li>
-<li>Fix : Fixed bug where .obj file exported from UModeler has floating number with commas for separating decimals in Russian locale.</li>
-<li>Enhancement : Enabled Grid snap to be done along each X, Y, Z.</li>
-<li>Enhancement : Improved Autolayout so that the current double-clicked polygon can be stitched next to the just previous selected polygon.</li>
+<li><p>Fix : Fixed InvalidCastException in TPUModelerEditor.BaseTool.Properties[T]</p></li>
+<li><p>Fix : Fixed bug where a material assigned by dragging gets back to the previous one when entering play mode.</p></li>
+<li><p>Fix : Fixed bug where .obj file exported from UModeler has floating number with commas for separating decimals in Russian locale.</p></li>
+<li><p>Enhancement : Enabled Grid snap to be done along each X, Y, Z.</p></li>
+<li><p>Enhancement : Improved Autolayout so that the current double-clicked polygon can be stitched next to the just previous selected polygon.</p></li>
 </ul>
 </div>
 </div>
 
 
            </div>
+           
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="releasenotes_UModeler_2019.html" class="btn btn-neutral float-right" title="UModeler 2019" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="releasenotes_UModeler_2019.html" class="btn btn-neutral float-right" title="UModeler 2019" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="releasenotes.html" class="btn btn-neutral" title="Release Notes" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="releasenotes.html" class="btn btn-neutral float-left" title="Release Notes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -325,7 +345,7 @@
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2019, tripolygon.
+        &copy; Copyright 2019, tripolygon
 
     </p>
   </div> 
@@ -341,35 +361,15 @@
   
 
 
-  
-
-    <script type="text/javascript">
-        var DOCUMENTATION_OPTIONS = {
-            URL_ROOT:'./',
-            VERSION:'',
-            COLLAPSE_INDEX:false,
-            FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true
-        };
-    </script>
-      <script type="text/javascript" src="_static/jquery.js"></script>
-      <script type="text/javascript" src="_static/underscore.js"></script>
-      <script type="text/javascript" src="_static/doctools.js"></script>
-
-  
-
-  
-  
-    <script type="text/javascript" src="_static/js/theme.js"></script>
-  
-
-  
-  
   <script type="text/javascript">
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          SphinxRtdTheme.Navigation.enable(true);
       });
   </script>
+
+  
+  
+    
    
 
 </body>

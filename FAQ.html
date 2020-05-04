@@ -15,43 +15,40 @@
   
     <link rel="shortcut icon" href="_static/logo_fav_transparent_background.png"/>
   
+  
+  
 
   
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
 
-  
-  
     
 
   
-
-  
-  
-    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
-  
-
-  
-
-  
-        <link rel="index" title="Index"
-              href="genindex.html"/>
-        <link rel="search" title="Search" href="search.html"/>
-    <link rel="top" title="Unity UModeler Manual  documentation" href="index.html"/>
-        <link rel="next" title="Release Notes" href="releasenotes.html"/>
-        <link rel="prev" title="Export Tool" href="UVEditor/MiscGroup/ExportTool.html"/> 
-
-  
-  <script src="_static/js/modernizr.min.js"></script>
-
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Release Notes" href="releasenotes.html" />
+    <link rel="prev" title="Export Tool" href="UVEditor/MiscGroup/ExportTool.html" /> 
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body class="wy-body-for-nav">
 
+   
   <div class="wy-grid-for-nav">
-
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search">
+        <div class="wy-side-nav-search" >
           
 
           
@@ -60,7 +57,7 @@
 
           
             
-            <img src="_static/UModeler_ManualTitle_1.png" class="logo" />
+            <img src="_static/UModeler_ManualTitle_1.png" class="logo" alt="Logo"/>
           
           </a>
 
@@ -85,7 +82,10 @@
           
             
             
-                <ul class="current">
+              
+            
+            
+              <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
 <li class="toctree-l1"><a class="reference internal" href="settings.html">Toolbar, Settings and Preference</a></li>
 <li class="toctree-l1"><a class="reference internal" href="menu.html">Menu</a></li>
@@ -107,7 +107,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#q-how-can-i-set-the-pivot-to-the-center-of-umodeler-object">Q) How can I set the pivot to the center of UModeler object?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#q-umodeler-meshes-disappear">Q) UModeler meshes disappear.</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#q-broken-lightmaps">Q) Broken lightmaps</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#q-how-can-i-hide-the-toolbar-at-the-top-of-the-scene-view-when-umodeler-object-isn-t-selected">Q) How can I hide the Toolbar at the top of the scene view when UModeler object isn&#8217;t selected?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#q-how-can-i-hide-the-toolbar-at-the-top-of-the-scene-view-when-umodeler-object-isn-t-selected">Q) How can I hide the Toolbar at the top of the scene view when UModeler object isn’t selected?</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="releasenotes.html">Release Notes</a></li>
@@ -122,34 +122,54 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
 
       
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="index.html">Unity UModeler Manual</a>
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Unity UModeler Manual</a>
+        
       </nav>
 
 
-      
       <div class="wy-nav-content">
+        
         <div class="rst-content">
+        
           
 
- 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 <div role="navigation" aria-label="breadcrumbs navigation">
+
   <ul class="wy-breadcrumbs">
-    <li><a href="index.html">Docs</a> &raquo;</li>
-      
-    <li>FAQ</li>
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>FAQ</li>
+    
+    
       <li class="wy-breadcrumbs-aside">
         
-          
-            <a href="_sources/FAQ.txt" rel="nofollow"> View page source</a>
+            
+            <a href="_sources/FAQ.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
+    
   </ul>
+
+  
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
@@ -160,69 +180,77 @@
 <div class="section" id="q-currently-any-static-mesh-can-be-created-and-edited-using-umodeler-within-the-editor-is-it-also-possible-to-edit-meshes-at-runtime">
 <h2>Q) Currently any static mesh can be created and edited using UModeler within the editor. Is it also possible to edit meshes at runtime?<a class="headerlink" href="#q-currently-any-static-mesh-can-be-created-and-edited-using-umodeler-within-the-editor-is-it-also-possible-to-edit-meshes-at-runtime" title="Permalink to this headline">¶</a></h2>
 <blockquote>
-<div>Sadly UModeler is only available for editing in only Editor not runtime. We have a plan to develop Runtime UModeler but it could be a separated asset but We&#8217;re not sure how the runtime editor would be provided. It won&#8217;t take short time to make it. We&#8217;ll share progress every time there will be updates about the Rumtime Editor.</div></blockquote>
+<div><p>Sadly UModeler is only available for editing in only Editor not runtime. We have a plan to develop Runtime UModeler but it could be a separated asset but We’re not sure how the runtime editor would be provided. It won’t take short time to make it. We’ll share progress every time there will be updates about the Rumtime Editor.</p>
+</div></blockquote>
 </div>
 <div class="section" id="q-is-it-possible-to-make-a-mesh-procedurally-with-codes-at-runtime">
 <h2>Q) Is it possible to make a mesh procedurally with codes at runtime?<a class="headerlink" href="#q-is-it-possible-to-make-a-mesh-procedurally-with-codes-at-runtime" title="Permalink to this headline">¶</a></h2>
 <blockquote>
-<div>Yes, it has been possible since Version 2.6. Using UModeler component you can create any static meshes procedurally. But this has not been documented yet. We&#8217;re going to expose this feature officially with examples and documents sometime soon.</div></blockquote>
+<div><p>Yes, it has been possible since Version 2.6. Using UModeler component you can create any static meshes procedurally. But this has not been documented yet. We’re going to expose this feature officially with examples and documents sometime soon.</p>
+</div></blockquote>
 </div>
 <div class="section" id="q-how-can-a-static-mesh-be-converted-to-umodeler-mesh">
 <h2>Q) How can a static mesh be converted to UModeler mesh?<a class="headerlink" href="#q-how-can-a-static-mesh-be-converted-to-umodeler-mesh" title="Permalink to this headline">¶</a></h2>
 <blockquote>
-<div>You have to select a game object with a static mesh. And go to <code class="docutils literal"><span class="pre">Tool</span> <span class="pre">&gt;</span> <span class="pre">UModeler</span> <span class="pre">&gt;</span> <span class="pre">UModelerize</span></code> at the top of Unity editor to convert the selected mesh.
-Several static meshes can also be converted if you select them before trying to UModelerize.</div></blockquote>
+<div><p>You have to select a game object with a static mesh. And go to <code class="docutils literal notranslate"><span class="pre">Tool</span> <span class="pre">&gt;</span> <span class="pre">UModeler</span> <span class="pre">&gt;</span> <span class="pre">UModelerize</span></code> at the top of Unity editor to convert the selected mesh.
+Several static meshes can also be converted if you select them before trying to UModelerize.</p>
+</div></blockquote>
 </div>
 <div class="section" id="q-the-umodelerized-mesh-is-still-a-triangle-based-shape-i-want-to-have-more-like-umodeler-mesh-in-other-words-all-adjacent-coplanar-faces-have-to-be-merged-into-one-face">
 <h2>Q) The UModelerized mesh is still a triangle-based shape. I want to have more like UModeler mesh. In other words All adjacent coplanar faces have to be merged into one face.<a class="headerlink" href="#q-the-umodelerized-mesh-is-still-a-triangle-based-shape-i-want-to-have-more-like-umodeler-mesh-in-other-words-all-adjacent-coplanar-faces-have-to-be-merged-into-one-face" title="Permalink to this headline">¶</a></h2>
 <blockquote>
-<div>Click on <code class="docutils literal"><span class="pre">Combine</span> <span class="pre">Tool</span></code> button once you select all polygons. This will combine adjacent coplanar polygons into one polygon.
-See the <a class="reference external" href="https://umodeler.github.io/RemoveGroup/CombineTool.html#combine-polygon-tool-icon-remove-combinepolygons">Combine Polygon Tool</a>.</div></blockquote>
+<div><p>Click on <code class="docutils literal notranslate"><span class="pre">Combine</span> <span class="pre">Tool</span></code> button once you select all polygons. This will combine adjacent coplanar polygons into one polygon.
+See the <a class="reference external" href="https://umodeler.github.io/RemoveGroup/CombineTool.html#combine-polygon-tool-icon-remove-combinepolygons">Combine Polygon Tool</a>.</p>
+</div></blockquote>
 </div>
 <div class="section" id="q-how-can-i-set-the-pivot-to-the-center-of-umodeler-object">
 <h2>Q) How can I set the pivot to the center of UModeler object?<a class="headerlink" href="#q-how-can-i-set-the-pivot-to-the-center-of-umodeler-object" title="Permalink to this headline">¶</a></h2>
 <blockquote>
-<div>Navigate to <code class="docutils literal"><span class="pre">Pivot</span> <span class="pre">to</span> <span class="pre">Center</span></code> in <code class="docutils literal"><span class="pre">Tweak</span></code> group and click on <code class="docutils literal"><span class="pre">Center</span></code> button in Properties. <code class="docutils literal"><span class="pre">Top</span> <span class="pre">Center</span></code>, <code class="docutils literal"><span class="pre">Center</span></code> and <code class="docutils literal"><span class="pre">Bottom</span> <span class="pre">Center</span></code> buttons were added from Ver 2.6.9</div></blockquote>
+<div><p>Navigate to <code class="docutils literal notranslate"><span class="pre">Pivot</span> <span class="pre">to</span> <span class="pre">Center</span></code> in <code class="docutils literal notranslate"><span class="pre">Tweak</span></code> group and click on <code class="docutils literal notranslate"><span class="pre">Center</span></code> button in Properties. <code class="docutils literal notranslate"><span class="pre">Top</span> <span class="pre">Center</span></code>, <code class="docutils literal notranslate"><span class="pre">Center</span></code> and <code class="docutils literal notranslate"><span class="pre">Bottom</span> <span class="pre">Center</span></code> buttons were added from Ver 2.6.9</p>
+</div></blockquote>
 </div>
 <div class="section" id="q-umodeler-meshes-disappear">
 <h2>Q) UModeler meshes disappear.<a class="headerlink" href="#q-umodeler-meshes-disappear" title="Permalink to this headline">¶</a></h2>
 <blockquote>
-<div>Click on <code class="docutils literal"><span class="pre">Tools</span> <span class="pre">&gt;</span> <span class="pre">UModeler</span> <span class="pre">&gt;</span> <span class="pre">Refresah</span> <span class="pre">All</span></code> at the top of the editor. It will build all UModeler components in the current scene to create renderable meshes.</div></blockquote>
+<div><p>Click on <code class="docutils literal notranslate"><span class="pre">Tools</span> <span class="pre">&gt;</span> <span class="pre">UModeler</span> <span class="pre">&gt;</span> <span class="pre">Refresah</span> <span class="pre">All</span></code> at the top of the editor. It will build all UModeler components in the current scene to create renderable meshes.</p>
+</div></blockquote>
 </div>
 <div class="section" id="q-broken-lightmaps">
 <h2>Q) Broken lightmaps<a class="headerlink" href="#q-broken-lightmaps" title="Permalink to this headline">¶</a></h2>
 <blockquote>
-<div><p>Click on <code class="docutils literal"><span class="pre">Tools</span> <span class="pre">&gt;</span> <span class="pre">UModeler</span> <span class="pre">&gt;</span> <span class="pre">Refresah</span> <span class="pre">All</span></code> at the top of the editor. If lightmaps are still broken, make sure that <code class="docutils literal"><span class="pre">Light</span> <span class="pre">Static</span></code> is on and click on <code class="docutils literal"><span class="pre">Generate</span> <span class="pre">UV2</span> <span class="pre">channel</span> <span class="pre">for</span> <span class="pre">Lightmap</span></code> button in <code class="docutils literal"><span class="pre">Local</span> <span class="pre">Settings</span></code> tool.
-And then try to <code class="docutils literal"><span class="pre">Clear</span> <span class="pre">Baked</span> <span class="pre">Data</span></code> and <code class="docutils literal"><span class="pre">Generate</span> <span class="pre">Lighting</span></code> in <code class="docutils literal"><span class="pre">Lighting</span></code> window.</p>
+<div><p>Click on <code class="docutils literal notranslate"><span class="pre">Tools</span> <span class="pre">&gt;</span> <span class="pre">UModeler</span> <span class="pre">&gt;</span> <span class="pre">Refresah</span> <span class="pre">All</span></code> at the top of the editor. If lightmaps are still broken, make sure that <code class="docutils literal notranslate"><span class="pre">Light</span> <span class="pre">Static</span></code> is on and click on <code class="docutils literal notranslate"><span class="pre">Generate</span> <span class="pre">UV2</span> <span class="pre">channel</span> <span class="pre">for</span> <span class="pre">Lightmap</span></code> button in <code class="docutils literal notranslate"><span class="pre">Local</span> <span class="pre">Settings</span></code> tool.
+And then try to <code class="docutils literal notranslate"><span class="pre">Clear</span> <span class="pre">Baked</span> <span class="pre">Data</span></code> and <code class="docutils literal notranslate"><span class="pre">Generate</span> <span class="pre">Lighting</span></code> in <code class="docutils literal notranslate"><span class="pre">Lighting</span></code> window.</p>
 <blockquote>
-<div><div class="figure">
+<div><div class="figure align-default">
 <img alt="_images/LocalSettings.jpg" src="_images/LocalSettings.jpg" />
 </div>
-<div class="figure">
+<div class="figure align-default">
 <img alt="_images/LightingWindow.jpg" src="_images/LightingWindow.jpg" />
 </div>
 </div></blockquote>
 </div></blockquote>
 </div>
 <div class="section" id="q-how-can-i-hide-the-toolbar-at-the-top-of-the-scene-view-when-umodeler-object-isn-t-selected">
-<h2>Q) How can I hide the Toolbar at the top of the scene view when UModeler object isn&#8217;t selected?<a class="headerlink" href="#q-how-can-i-hide-the-toolbar-at-the-top-of-the-scene-view-when-umodeler-object-isn-t-selected" title="Permalink to this headline">¶</a></h2>
+<h2>Q) How can I hide the Toolbar at the top of the scene view when UModeler object isn’t selected?<a class="headerlink" href="#q-how-can-i-hide-the-toolbar-at-the-top-of-the-scene-view-when-umodeler-object-isn-t-selected" title="Permalink to this headline">¶</a></h2>
 <blockquote>
-<div>Navigate to <code class="docutils literal"><span class="pre">Tools</span> <span class="pre">&gt;</span> <span class="pre">UModeler</span> <span class="pre">&gt;</span> <span class="pre">Preferences</span></code> and turn off <code class="docutils literal"><span class="pre">Keep</span> <span class="pre">System</span> <span class="pre">Toolbar</span> <span class="pre">on</span> <span class="pre">always</span></code>.
-See <a class="reference internal" href="settings.html#advancedpreferences"><span class="std std-ref">Preferences</span></a> to get more info.</div></blockquote>
+<div><p>Navigate to <code class="docutils literal notranslate"><span class="pre">Tools</span> <span class="pre">&gt;</span> <span class="pre">UModeler</span> <span class="pre">&gt;</span> <span class="pre">Preferences</span></code> and turn off <code class="docutils literal notranslate"><span class="pre">Keep</span> <span class="pre">System</span> <span class="pre">Toolbar</span> <span class="pre">on</span> <span class="pre">always</span></code>.
+See <a class="reference internal" href="settings.html#advancedpreferences"><span class="std std-ref">Preferences</span></a> to get more info.</p>
+</div></blockquote>
 </div>
 </div>
 
 
            </div>
+           
           </div>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="releasenotes.html" class="btn btn-neutral float-right" title="Release Notes" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="releasenotes.html" class="btn btn-neutral float-right" title="Release Notes" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="UVEditor/MiscGroup/ExportTool.html" class="btn btn-neutral" title="Export Tool" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="UVEditor/MiscGroup/ExportTool.html" class="btn btn-neutral float-left" title="Export Tool" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -231,7 +259,7 @@ See <a class="reference internal" href="settings.html#advancedpreferences"><span
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2019, tripolygon.
+        &copy; Copyright 2019, tripolygon
 
     </p>
   </div> 
@@ -247,35 +275,15 @@ See <a class="reference internal" href="settings.html#advancedpreferences"><span
   
 
 
-  
-
-    <script type="text/javascript">
-        var DOCUMENTATION_OPTIONS = {
-            URL_ROOT:'./',
-            VERSION:'',
-            COLLAPSE_INDEX:false,
-            FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true
-        };
-    </script>
-      <script type="text/javascript" src="_static/jquery.js"></script>
-      <script type="text/javascript" src="_static/underscore.js"></script>
-      <script type="text/javascript" src="_static/doctools.js"></script>
-
-  
-
-  
-  
-    <script type="text/javascript" src="_static/js/theme.js"></script>
-  
-
-  
-  
   <script type="text/javascript">
       jQuery(function () {
-          SphinxRtdTheme.StickyNav.enable();
+          SphinxRtdTheme.Navigation.enable(true);
       });
   </script>
+
+  
+  
+    
    
 
 </body>
