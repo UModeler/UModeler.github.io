@@ -4,6 +4,10 @@ UModeler 2020
 
  .. figure:: /images/Releasenote2020.png
  
+Version 2.7.10 - April.27.2020
+=====================================
+- Feature : Added V Vertex Snapping
+ 
 Version 2.7.9 - April.15.2020
 ===================================
 - Fix : Fixed an issue where duplicated UModeler objects shared meshes 
@@ -40,10 +44,10 @@ Version 2.7.5 - March.16.2020
 ======================================= 
 - Feature : Added Auto layout tool to UV Editor to enable multiple selected polygons to be unwrap using Auto layout at once.
 - Enhancement : Added "Select Only Visible" property to the 18 following tools.
- - Drawing Group - Line, Arc, Rectangle, Disk, Side Stair, Parallel
- - Primitive Shapes Group - Box, Room, Stair, Cylinder, Cone, Spiral Stair, Sphere, Capsule
- - Add Group : PushPull, Inset, Clone
- - Remove Group : Eraser
+- Drawing Group - Line, Arc, Rectangle, Disk, Side Stair, Parallel
+- Primitive Shapes Group - Box, Room, Stair, Cylinder, Cone, Spiral Stair, Sphere, Capsule
+- Add Group : PushPull, Inset, Clone
+- Remove Group : Eraser
 - Enhancement : Now while "Select Only Visible" property is on, backfaced polygons can't be selected.
 - Enhancement : Refresh All button has been exposed in the toolbar.
 - Fix : Fixed a bug where Unity gizmo disappeared when 3D cursor button is clicked.
