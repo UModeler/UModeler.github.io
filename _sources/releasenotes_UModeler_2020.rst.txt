@@ -6,7 +6,7 @@ UModeler 2020
  
 Version 2.7.11 - May.5.2020
 =====================================
-- Fixed a freezing issue happening when UModeler object gets selected. 
+- Fixed a freezing issue happening when UModeler object gets selected.  
 - Fixed UModeler mesh disappearing with many error messages when entering the play mode. 
 - Fixed a prefab issue happening in a untitled scene
  
