@@ -4,6 +4,12 @@ UModeler 2020
 
  .. figure:: /images/Releasenote2020.png
  
+Version 2.7.11 - May.5.2020
+=====================================
+- Fixed a freezing issue happening when UModeler object gets selected. 
+- Fixed UModeler mesh disappearing with many error messages when entering the play mode. 
+- Fixed a prefab issue happening in a untitled scene
+ 
 Version 2.7.10 - April.27.2020
 =====================================
 - Feature : Added V Vertex Snapping
