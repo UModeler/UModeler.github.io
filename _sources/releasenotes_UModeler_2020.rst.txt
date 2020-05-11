@@ -4,6 +4,21 @@ UModeler 2020
 
  .. figure:: /images/Releasenote2020.png
  
+Version 2.7.12 - May.12.2020
+=====================================
+- Feature : Enabled the Settings popup window to be a dockable window
+- Feature : Custom grid snap size and rotation snap size have been supported.
+- Feature : New UI for managing custom grid and rotation snap size has been added to both the Settings and the UV Editor Settings.
+- Feature : ``Generate UVs`` property in Element tools has been added instead of ``Reset UVs`` property because resetting UVs isn't right behaviour.
+- Feature : Added ``Floor Height`` property in tools of Drawing group and Primitive Shapes group.
+- Feature : Added ``Default Material`` in the Preference so that users can set a default material that they wish to use.
+- Improvement : Changed the snap type combox box to a grid UI.
+- Improvement : ``Snap To Vertex`` property in Vertex/Edge/Polygon tools has been removed. It has been replaced to V Snapping.
+- Improvement : ``Reset UVs`` property in Element tools has been removed.
+- Fix : Fixed a bug where UModeler objects get shifted when all of them are selected while ``World Grid Snap`` is enabled.
+- Fix : Fixed a coupling issue between Default UV Param in Preference and UV param in UV tool.
+- Fix : Fixed an issue where a rather wide UModeler mesh sometimes disappears depending on where the camera is viewing.
+ 
 Version 2.7.11 - May.5.2020
 =====================================
 - Fixed a freezing issue happening when UModeler object gets selected.  
