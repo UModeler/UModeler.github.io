@@ -29,6 +29,12 @@ Interface
 
 Properties
 ---------------
+Select Only Visible
+ If on, the shape can be built on only a visible polygon. Namely backfaced or occluded polygons are excluded.
+ 
+Floor Height
+ The height of the floor where the primitive shape is built by LMB Dragging.
+ 
 Width
  The step width.
 

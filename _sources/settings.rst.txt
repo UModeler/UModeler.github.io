@@ -41,9 +41,9 @@ Refreshes all UModeler objects in the current scene to recreate all resources. I
   
 Lastly we'll take a look at ``Settings`` 
 
-.. figure:: /images/Settings_2.7.1.jpg
+.. figure:: /images/NewSettingsWindow2.7.12.png
 
-   Settings on UModeler 2.7.1 or later
+   Settings on UModeler 2.7.12 or later
    
 .. _seamless-edit:
    
@@ -58,8 +58,8 @@ Seamless Edit
 
    | You can disable ``Seamless Edit`` holding ``SHIFT`` while moving the mouse.   
  
-Text Based Menu 
- Turns on and off the text based menu. It is same as ``Text Based Menu`` in the popup menu brought up by RMB on the menu panel.
+Dockable Window 
+ If on, the settings popup window will be switched to the dockable window.
  
 .. _Snap:
 
@@ -72,9 +72,6 @@ Snap Type
  - ``World Grid Snap`` : Each position you are moving will be snapped to the corresponding world grid position.
  - ``Increment Snap`` : When you move positions using gizmos, they will increase or decrease by ``Move Snap Size``
 
-Popular Move Snap Size
- Most used move snap sizes
-
 Move Snap Size
  Custom move snap size
  
@@ -86,7 +83,16 @@ Rotation Snap Size
  
 .. important::
 
-  UModeler Object is also affected by Snap settings. When ``Snap Type`` is ``World Grid Snap``, UModeler objects move by ``Move Snap Size``.
+  UModeler Object is also affected by Snap settings. When ``Snap Type`` is ``World Grid Snap`` or ``Increment Snap``, UModeler objects move by ``Move Snap Size``.
+  
+.. figure:: /images/UModeler_Customizable_MoveSnapSize.gif
+
+   Customizable Move Snap Size
+   
+   
+.. figure:: /images/UModeler_Dockable_Settings_Window.gif
+
+   Dockable Settings Window
 
 Display
 ========
@@ -116,7 +122,7 @@ Preferences
 
 You can set shortcuts and general settings of UModeler in UModeler Preferences window to which you can go through ``Tools > UModeler > Preferences`` in the top menu. 
 
-.. figure:: /images/UModeler_Preferencewindow3.jpg
+.. figure:: /images/UModeler_Preferencewindow4.jpg
    :scale: 80 %
 	
    UModeler Preference.
