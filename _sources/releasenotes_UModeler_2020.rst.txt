@@ -4,6 +4,19 @@ UModeler 2020
 
  .. figure:: /images/Releasenote2020.png
  
+Version 2.7.13 - May.19.2020
+=====================================
+- Feature : Added shortcuts for moving snap type back and forth. ``Ctrl`` + ``Shift`` + ``Left Arrow`` and ``Right Arrow``.
+- Feature : Added shortcuts for moving move snap size back and forth. ``Ctrl`` + ``Shift`` + ``Up Arrow`` and ``Down Arrow``.
+- Feature : Added shortcuts for moving snap type of UV editor back and forth. ``Ctrl`` + ``Shift`` + ``Left Arrow`` and ``Right Arrow``.
+- Feature : Added shortcuts for moving move snap size back and forth in UV Editor. ``Ctrl`` + ``Shift`` + ``Up Arrow`` and ``Down Arrow``.
+- Feature : Added World Grid Snap in UV Editor
+- Feature : Added ``V`` Snap for UV Editor
+- Improvement : Made the settings window resized to be fitted with the listed settings items.
+- Fix : Fixed a bug where the selected polygons are gone when selecting a UModeler object after exiting UV tool by deselecting all.
+- Fix : Fixed a duplicated UModeler object issue where the original mesh and the duplicated mesh are coupled.
+- Fix : Fixed a polygon color tool issue where polygon selection by a color didn't work.
+ 
 Version 2.7.12 - May.12.2020
 =====================================
 - Feature : Enabled the Settings popup window to be a dockable window
