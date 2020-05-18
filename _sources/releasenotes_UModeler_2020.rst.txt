@@ -16,6 +16,7 @@ Version 2.7.13 - May.19.2020
 - Fix : Fixed a bug where the selected polygons are gone when selecting a UModeler object after exiting UV tool by deselecting all.
 - Fix : Fixed a duplicated UModeler object issue where the original mesh and the duplicated mesh are coupled.
 - Fix : Fixed a polygon color tool issue where polygon selection by a color didn't work.
+- Fix : Fixed a bug where the selected polygons disappear when re-entering UModeler editor mode just after exiting from UV tool by clicking on an empty space in Hierarchy window.
  
 Version 2.7.12 - May.12.2020
 =====================================
