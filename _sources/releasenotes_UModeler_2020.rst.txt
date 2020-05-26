@@ -7,11 +7,13 @@ UModeler 2020
 Version 2.7.14 - May.27.2020
 ================================
 - Feature : Added ``Pivot`` and ``Center`` toggle for the pivot settings in ``UV Editor``
+- Feature : Added focusing on the selected elements by pressing ``F``
 - Feature : Added vertex position overlay display in Settings.
 - Feature : Added a new button called ``Move Cursor`` to move the 3D cursor to the selected elements pivot position.
 - Fix : Added the scroll bar to the Preference window.
 - Fix : Fixed an issue of too small or big gizmo size according to Camera FOV
 - Fix : Fixed a bug where the mirror plane doesn't move to a vertex as it is selected with LMB down in ``Mirror Tool``.
+- Fix : Fixed a bug where the mirror plane arrow isn't picked by LMB down.
 - Tweak : Removed ``Ignore`` item in Boundary property in ``Mirror tool``.
  
 Version 2.7.13 - May.19.2020
