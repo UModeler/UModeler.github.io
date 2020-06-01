@@ -4,6 +4,13 @@ UModeler 2020
 
  .. figure:: /images/Releasenote2020.png
  
+Version 2.7.15 - June.2.2020
+================================
+- Improvement : Made the prefab with UModeler more reliable. Propagating changes of an UModeler prefab instance works in most cases.
+- Fix : Fixed a bug where UI layout is messed up in Material Tool when undoing a material slot being added.
+- Change : Added a shortcut to move 3D cursor to the selected elements' pivot. The default one is ``Ctrl`` + ``Shift`` + ``3``.
+- Change : Enabled textures to be display repeatedly in UV Editor. ``Tex X Num`` and ``Tex Y Num`` params has been added in UV Editor settings window.
+ 
 Version 2.7.14 - May.27.2020
 ================================
 - Feature : Added ``Pivot`` and ``Center`` toggle for the pivot settings in ``UV Editor``
