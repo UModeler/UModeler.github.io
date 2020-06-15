@@ -4,11 +4,17 @@ UModeler 2020
 
  .. figure:: /images/Releasenote2020.png
  
+Version 2.7.17 - June.15.2020
+=================================
+- Fix : Fixed an issue where Prefab UModeler object in Project shouldn't have children objects.
+- Fix : Fixed a bug where UModeler meshes disappear after returning the edit mode from the play mode.
+- Fix : Fixed a bug where UModeler meshes disappear due to setting the incorrect bound box to a renderable mesh.
+ 
 Version 2.7.16 - June.9.2020
 ================================
 - Fix : Fixed a bug where Scene changes happen whenever UModeler object being selected due to latestID in UModeler class increasing.
 - Fix : Fixed a bug where mesh id changes even though umodeler doesn't change when being refreshed all.
-- Fix : Fixed an issue where a child object jumps as polygons are added to the parent empty UModeler object by creating a primitive shape like box, cone, stair etc.
+- Fix : Fixed an issue where a child object jumps as polygons are added to the parent empty UModeler object by1 creating a primitive shape like box, cone, stair etc.
 - Fix : Fixed an issue where vertex/polygon cube overlays are not displayed in Prefab Mode.
 - Fix : Fixed an issue where overlapped edges were not selected as expected in Edge Tool.
  
