@@ -4,6 +4,12 @@ UModeler 2020
 
  .. figure:: /images/Releasenote2020.png
  
+Version 2.7.18 - June.24.2020 
+=================================
+- Enhanced the UModeler status window. Now it's a movable floating window. 
+- Added a new toggle called Invisible in Local Settings. If on, the UModeler object isn't visible in Play Mode. This will be useful if a trigger or collider object is needed. 
+- Allowed Polybrush to edit UModeler mesh.  
+ 
 Version 2.7.17 - June.15.2020
 =================================
 - Fix : Fixed an issue where Prefab UModeler object in Project shouldn't have children objects.
