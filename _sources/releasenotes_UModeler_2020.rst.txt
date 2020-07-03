@@ -4,6 +4,13 @@ UModeler 2020
 
  .. figure:: /images/Releasenote2020.png
  
+Version 2.7.19 - July.3.2020
+=================================
+- Fixed UV param reset bug where primitive shapes are created on a polygon.
+- Fixed a bug where icon size gets bigger when Archimatix is installed in the project.
+- Fixed b bug where a polygon which is being transfomed with the move gizmo by dragging jumps when the cursor gets out of the scene view.
+- Made the current menu type(Icon or Text based menu) maintained even after unity is restarted. 
+ 
 Version 2.7.18 - June.24.2020 
 =================================
 - Enhanced the UModeler status window. Now it's a movable floating window. 
