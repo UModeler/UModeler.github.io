@@ -7,7 +7,7 @@
   
 .. raw:: html
 
- <a href="https://www.assetstore.unity3d.com/#!/content/80868?aid=1011l36n8">Asset Store</a> | <a href="http://www.tripolygon.com">Website</a> | <a href="https://cafe.naver.com/tripolygon/31">한글 메뉴얼</a>
+ <a href="https://assetstore.unity.com/packages/tools/modeling/umodeler-80868">Asset Store</a> | <a href="http://www.tripolygon.com">Website</a> | <a href="https://cafe.naver.com/tripolygon/31">한글 메뉴얼</a>
  
 |
 
