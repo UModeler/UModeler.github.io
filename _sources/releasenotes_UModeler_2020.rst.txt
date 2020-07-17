@@ -4,6 +4,12 @@ UModeler 2020
 
  .. figure:: /images/Releasenote2020.png
  
+Version 2.7.20 - July.20.2020
+=================================
+- Fixed PushPull bug where some newly created polygons were turned over in a specific cases. 
+- Fixed a tooltip issue where raw html tags are exposed just after UModeler package is loaded in a project.
+- Allowed both Shift key and Ctrl key to select multple elements. The difference is that holding Ctrl for box selection doesn't work anymore like Unity's Ctrl box selection.
+ 
 Version 2.7.19 - July.3.2020
 =================================
 - Fixed UV param reset bug where primitive shapes are created on a polygon.
