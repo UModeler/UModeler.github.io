@@ -102,6 +102,7 @@
 <li class="toctree-l1"><a class="reference internal" href="FAQ.html">FAQ</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="releasenotes.html">Release Notes</a><ul class="current">
 <li class="toctree-l2 current"><a class="current reference internal" href="#">UModeler 2020</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-7-21-july-30-2020">Version 2.7.21 - July.30.2020</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#version-2-7-20-july-20-2020">Version 2.7.20 - July.20.2020</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#version-2-7-19-july-3-2020">Version 2.7.19 - July.3.2020</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#version-2-7-18-june-24-2020">Version 2.7.18 - June.24.2020</a></li>
@@ -206,6 +207,19 @@
 <img alt="_images/Releasenote2020.png" src="_images/Releasenote2020.png" />
 </div>
 </div></blockquote>
+<div class="section" id="version-2-7-21-july-30-2020">
+<h2>Version 2.7.21 - July.30.2020<a class="headerlink" href="#version-2-7-21-july-30-2020" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Fixed the menu type setting like Icon/Text based menu not being restored in some cases.</p></li>
+<li><p>Fixed the Move Snap Size in Settings window not being resotred.</p></li>
+<li><p>Fixed UModeler object jumps with World Grid Snap enabled when the parent object is transformed.</p></li>
+<li><p>Fixed creating a broken box when Scale in Trasnform component isn’t (1,1,1)</p></li>
+<li><p>Fixed a lag and rapid memory growth issue caused by redundant RefreshAll calling.</p></li>
+<li><p>Fixed an issue where a dirty flag is marked just when UModeler object being selected and it caused redundant source control diffs.</p></li>
+<li><p>Fixed the Fit tool issue in UV Editor where the selected UV islands weren’t fitted in (0,0)-(1,1) range.</p></li>
+<li><p>Fixed the UV layout Export bug where the exported .png has an artifact.</p></li>
+</ul>
+</div>
 <div class="section" id="version-2-7-20-july-20-2020">
 <h2>Version 2.7.20 - July.20.2020<a class="headerlink" href="#version-2-7-20-july-20-2020" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">

@@ -4,6 +4,17 @@ UModeler 2020
 
  .. figure:: /images/Releasenote2020.png
  
+Version 2.7.21 - July.30.2020
+=================================
+- Fixed the menu type setting like Icon/Text based menu not being restored in some cases.
+- Fixed the Move Snap Size in Settings window not being resotred.
+- Fixed UModeler object jumps with World Grid Snap enabled when the parent object is transformed.
+- Fixed creating a broken box when Scale in Trasnform component isn't (1,1,1)
+- Fixed a lag and rapid memory growth issue caused by redundant RefreshAll calling.
+- Fixed an issue where a dirty flag is marked just when UModeler object being selected and it caused redundant source control diffs.
+- Fixed the Fit tool issue in UV Editor where the selected UV islands weren't fitted in (0,0)-(1,1) range.
+- Fixed the UV layout Export bug where the exported .png has an artifact.
+ 
 Version 2.7.20 - July.20.2020
 =================================
 - Fixed PushPull bug where some newly created polygons were turned over in a specific cases. 
