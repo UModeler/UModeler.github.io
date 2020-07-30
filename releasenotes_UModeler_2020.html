@@ -214,10 +214,11 @@
 <li><p>Fixed the Move Snap Size in Settings window not being resotred.</p></li>
 <li><p>Fixed UModeler object jumps with World Grid Snap enabled when the parent object is transformed.</p></li>
 <li><p>Fixed creating a broken box when Scale in Trasnform component isn’t (1,1,1)</p></li>
-<li><p>Fixed a lag and rapid memory growth issue caused by redundant RefreshAll calling.</p></li>
+<li><p>Fixed a lag and rapid memory growth issue caused by redundant RefreshAll calling when a parent UModeler object with many child UModeler objects gets selected.</p></li>
 <li><p>Fixed an issue where a dirty flag is marked just when UModeler object being selected and it caused redundant source control diffs.</p></li>
 <li><p>Fixed the Fit tool issue in UV Editor where the selected UV islands weren’t fitted in (0,0)-(1,1) range.</p></li>
 <li><p>Fixed the UV layout Export bug where the exported .png has an artifact.</p></li>
+<li><p>Fixed the shadow disappearing bug when there is an empty UModeler object in a scene.</p></li>
 </ul>
 </div>
 <div class="section" id="version-2-7-20-july-20-2020">
