@@ -9,6 +9,7 @@ Version 2.7.21 - July.30.2020
 - Fixed the menu type setting like Icon/Text based menu not being restored in some cases.
 - Fixed the Move Snap Size in Settings window not being resotred.
 - Fixed UModeler object jumps with World Grid Snap enabled when the parent object is transformed.
+- Fixed Unity gizmo disappearing in Object mode when being undone.
 - Fixed creating a broken box when Scale in Trasnform component isn't (1,1,1)
 - Fixed a lag and rapid memory growth issue caused by redundant RefreshAll calling when a parent UModeler object with many child UModeler objects gets selected.
 - Fixed an issue where a dirty flag is marked just when UModeler object being selected and it caused redundant source control diffs.
