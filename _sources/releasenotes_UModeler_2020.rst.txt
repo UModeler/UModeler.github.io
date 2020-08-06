@@ -4,6 +4,15 @@ UModeler 2020
 
  .. figure:: /images/Releasenote2020.png
  
+Version 2.7.22 - August.6.2020
+=================================
+- Fixed non-UModeler object jump issue happening when it is selected with World Grid Snap enabled.
+- Added ``Bake Position`` button in ``Misc/Bake Transform Tool``. This makes the position zero and applies the difference to each vertex position.
+- Modified ``Bake All`` behaviour in ``Misc/Bake Transform Tool``. It used set the pivot to the center of AABB. Now it set the pivot to (0,0,0).
+- Fixed the error message in Prefab Window when the prefab object is a non-umodeler object and has a UModeler object as a child.
+- Fixed a broken UVs when a concave polygon gets unwrapped using Plane Unwrap Tool.
+- Handled the Prefab window dirty flag issue. Only dirty flag is marked when the UModeler prefab object doesn't have an asset file. 
+ 
 Version 2.7.21 - July.30.2020
 =================================
 - Fixed the menu type setting like Icon/Text based menu not being restored in some cases.
