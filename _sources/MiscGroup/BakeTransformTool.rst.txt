@@ -10,10 +10,17 @@ Bakes rotate, scale or both of them.
 Properties
 -----------
 Bake All
- Bake both Rotation and Scale.
+ Bake Position, Rotation and Scale in the Transform component. The position, rotation and scale will be (0,0,0), (0,0,0) and (1,1,1), respectively.
+
+Bake Position
+ Applies the object position to every polygon and sets it to (0,0,0)
 
 Bake Rotation
- Applys the object rotation to every polygon and sets it to (0,0,0)
+ Applies the object rotation to every polygon and sets it to (0,0,0)
 
 Bake Scale
- Applys the object scale to every polygon and sets it to (1,1,1)
+ Applies the object scale to every polygon and sets it to (1,1,1)
+
+ .. note::
+
+  Baking Position has been added since UModeler 2.7.22.

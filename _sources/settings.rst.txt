@@ -41,9 +41,9 @@ Refreshes all UModeler objects in the current scene to recreate all resources. I
   
 Lastly we'll take a look at ``Settings`` 
 
-.. figure:: /images/NewSettingsWindow2.7.12.png
+.. figure:: /images/NewSettingsWindow2.7.22.png
 
-   Settings on UModeler 2.7.12 or later
+   Settings on UModeler 2.7.22 or later
    
 .. _seamless-edit:
    
@@ -112,7 +112,15 @@ Global Overlay
 
 Local Overlay
  Displays specific values of the current tool. eg. How long the polygon is pushed or pulled in ``PushPull`` tool
- 
+
+Position Overlay
+ Displays local or world position of the selected vertices.
+
+.. figure:: /images/UModeler_Settings_PositionOverlay.png
+   :scale: 80 %
+
+   Position Overlay
+
 ----------------------------------------------------------------------------------------------------------------------
 
 .. _AdvancedPreferences:
