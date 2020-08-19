@@ -2,8 +2,7 @@
  Unity UModeler Manual
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-.. figure:: /images/coverimages.jpg
-   :scale: 45 %
+ .. figure:: /images/coverimages.jpg   
   
 .. raw:: html
 
