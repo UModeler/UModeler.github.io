@@ -3,7 +3,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 .. figure:: /images/coverimages.jpg
-   :scale: 55 %
+   :scale: 45 %
   
 .. raw:: html
 
