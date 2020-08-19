@@ -2,7 +2,7 @@
 UModeler 2020
 ############################
 
- .. figure:: /images/Releasenote2020.png
+ .. figure:: /images/coverimages.jpg
  
 Version 2.7.22 - August.6.2020
 =================================

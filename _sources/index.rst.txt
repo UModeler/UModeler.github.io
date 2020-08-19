@@ -2,7 +2,7 @@
  Unity UModeler Manual
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-.. figure:: /images/Releasenote2020.png
+.. figure:: /images/coverimages.jpg
    :scale: 55 %
   
 .. raw:: html
