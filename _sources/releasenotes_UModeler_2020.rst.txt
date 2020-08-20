@@ -3,6 +3,13 @@ UModeler 2020
 ############################
 
  .. figure:: /images/coverimages.jpg
+
+Version 2.7.23 - August.20.2020
+=================================
+- Fixed ``Distance`` not working in Vertex/Edge/Polygon tools.
+- Fixed broken UV2 for lightmap not being restored by ``Refresh All``.
+- Fixed the scene switch function by pressing ``Shift + Space`` not working in UModeler editor mode.
+- Added deselecting the elements within the selection box by ``Ctrl + LMB Drag``.
  
 Version 2.7.22 - August.6.2020
 =================================
