@@ -6,7 +6,7 @@ UModeler 2020
 
 Version 2.7.23f2 - August.26.2020
 ===================================
-• Hotfix - Improved Refresh All function so that it can fix broken UV2 for lightmap all the time 
+• Hotfix - Improved Refresh All function so that it ensuers 100% fix of broken UV2 for lightmap all the time 
 
 Version 2.7.23 - August.20.2020
 =================================
