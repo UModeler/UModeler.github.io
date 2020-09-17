@@ -1,8 +1,23 @@
 ############################
 UModeler 2020
-############################
+############################ 
 
- .. figure:: /images/coverimages.jpg
+Version 2.7.24 - September.17.2020
+===================================
+ 
+ .. figure:: /images/UModeler2.7.14_Island_Village_Shot.jpg
+
+• Assets : Provides The Island Village Demo pack exclusively on UModeler 2.7.24.
+• Feature : Added Vertex Connection and Edge Connection functions in Vertex/Edge Tools.
+• Feature : Added 3D cursor window with some helper buttons so that positions can be typed and pivot position can move to 3d cursor etc.
+• Feature : Added ``Refresh Object Tool`` in Misc Group to refresh the selected UModeler objects not the whole objects in a scene. 
+• Enhancement : Enhanced ``V Snap`` so that the V snapping can be started from a non-selected vertex by dragging.
+• Enhancement : Moved the entire UV by pressing ``F key`` as no UV elements are selected.
+• Enhancement : Enabled 3D cursor to be moved in Object Mode.
+• Enhancement : Added X button to the Status Window.
+• Enhancement : Made it possible to change the pivot position by selecting an element holding SHIFT.
+• Fix : Fixed Null Exception Error in Unity 5.6.7 regarding Prefab.
+• Fix : Fixed smoothing groups not being preserved after a part of UModeler is detached or combined with others.
 
 Version 2.7.23f2 - August.26.2020
 ===================================
