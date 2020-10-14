@@ -2,21 +2,22 @@
 UModeler 2020
 ############################ 
 
-Version 2.7.25 - October.14.2020
+Version 2.7.25 - October.16.2020
 ===================================
 
  .. figure:: /images/Pastel_Town.png
 
-- Assets : The Pastel Town Demo pack is included exclusively for UModeler 2.7.25.
+- Assets : Includes the Pastel Town Demo pack exclusively on UModeler 2.7.25.
 - Fix : Fixed redundant polygons on the mirror plane in the Mirror mode.
 - Fix : Fixed UV Editor bug where a texture in the UV Edior isn't clear in HDRP
 - Fix : Fixed Bevel tool bug where Profile param doesn't work as Width param is too small.
-- Fix : Fixed the icon buttons layout being broken in the inspector.
-- Fix : Fixed the editor pause for a while while switching tools when UModeler mesh has lots of polygons.
-- Fix : Fixed a bug where the polygons behind the camera are selected by the rectangle selection.
+- Fix : Fixed the icon button layout being broken in the inspector.
+- Fix : Fixed the editor pause for a while when switching a tool when UModeler mesh has lots of polygons.
+- Fix : Fixed a bug where polygons behind the camera are selected by the rectangle selection.
 - Fix : Fixed a stack overflow issue happening at the beginning of UModeler.
 - Enhancement : Eraser Tool - Supports removing an edge shared by two triangles which are not coplanar.
 - Enhancement : The edge mode of the Bridge Tool - Preserves UVs and Smoothing groups after bridging two edges.
+- Enhancement : The polygon mode of the Bridge Tool - 
 - Enhancement : Improved the editable mesh architecture to increase the editing performance.
 
 Version 2.7.24 - September.17.2020
