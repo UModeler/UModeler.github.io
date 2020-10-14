@@ -2,26 +2,43 @@
 UModeler 2020
 ############################ 
 
+Version 2.7.25 - October.14.2020
+===================================
+
+ .. figure:: /images/Pastel_Town.png
+
+- Assets : The Pastel Town Demo pack is included exclusively for UModeler 2.7.25.
+- Fix : Fixed redundant polygons on the mirror plane in the Mirror mode.
+- Fix : Fixed UV Editor bug where a texture in the UV Edior isn't clear in HDRP
+- Fix : Fixed Bevel tool bug where Profile param doesn't work as Width param is too small.
+- Fix : Fixed the icon buttons layout being broken in the inspector.
+- Fix : Fixed the editor pause for a while while switching tools when UModeler mesh has lots of polygons.
+- Fix : Fixed a bug where the polygons behind the camera are selected by the rectangle selection.
+- Fix : Fixed a stack overflow issue happening at the beginning of UModeler.
+- Enhancement : Eraser Tool - Supports removing an edge shared by two triangles which are not coplanar.
+- Enhancement : The edge mode of the Bridge Tool - Preserves UVs and Smoothing groups after bridging two edges.
+- Enhancement : Improved the editable mesh architecture to increase the editing performance.
+
 Version 2.7.24 - September.17.2020
 ===================================
  
  .. figure:: /images/UModeler2.7.14_Island_Village_Shot.jpg
 
-• Assets : Provides The Island Village Demo pack exclusively on UModeler 2.7.24.
-• Feature : Added Vertex Connection and Edge Connection functions in Vertex/Edge Tools.
-• Feature : Added 3D cursor window with some helper buttons so that positions can be typed and pivot position can move to 3d cursor etc.
-• Feature : Added ``Refresh Object Tool`` in Misc Group to refresh the selected UModeler objects not the whole objects in a scene. 
-• Enhancement : Enhanced ``V Snap`` so that the V snapping can be started from a non-selected vertex by dragging.
-• Enhancement : Moved the entire UV by pressing ``F key`` as no UV elements are selected.
-• Enhancement : Enabled 3D cursor to be moved in Object Mode.
-• Enhancement : Added X button to the Status Window.
-• Enhancement : Made it possible to change the pivot position by selecting an element holding SHIFT.
-• Fix : Fixed Null Exception Error in Unity 5.6.7 regarding Prefab.
-• Fix : Fixed smoothing groups not being preserved after a part of UModeler is detached or combined with others.
+- Assets : Provides The Island Village Demo pack exclusively on UModeler 2.7.24.
+- Feature : Added Vertex Connection and Edge Connection functions in Vertex/Edge Tools.
+- Feature : Added 3D cursor window with some helper buttons so that positions can be typed and pivot position can move to 3d cursor etc.
+- Feature : Added ``Refresh Object Tool`` in Misc Group to refresh the selected UModeler objects not the whole objects in a scene. 
+- Enhancement : Enhanced ``V Snap`` so that the V snapping can be started from a non-selected vertex by dragging.
+- Enhancement : Moved the entire UV by pressing ``F key`` as no UV elements are selected.
+- Enhancement : Enabled 3D cursor to be moved in Object Mode.
+- Enhancement : Added X button to the Status Window.
+- Enhancement : Made it possible to change the pivot position by selecting an element holding SHIFT.
+- Fix : Fixed Null Exception Error in Unity 5.6.7 regarding Prefab.
+- Fix : Fixed smoothing groups not being preserved after a part of UModeler is detached or combined with others.
 
 Version 2.7.23f2 - August.26.2020
 ===================================
-• Hotfix - Improved Refresh All function so that it ensuers 100% fix of broken UV2 for lightmap all the time 
+- Hotfix - Improved Refresh All function so that it ensuers 100% fix of broken UV2 for lightmap all the time 
 
 Version 2.7.23 - August.20.2020
 =================================
