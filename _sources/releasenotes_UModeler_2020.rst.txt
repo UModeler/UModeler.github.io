@@ -17,7 +17,7 @@ Version 2.7.25 - October.16.2020
 - Fix : Fixed a stack overflow issue happening at the beginning of UModeler.
 - Enhancement : Eraser Tool - Supports removing an edge shared by two triangles which are not coplanar.
 - Enhancement : The edge mode of the Bridge Tool - Preserves UVs and Smoothing groups after bridging two edges.
-- Enhancement : The polygon mode of the Bridge Tool - 
+- Enhancement : The polygon mode of the Bridge Tool - Improved briding the two facing polygons.
 - Enhancement : Improved the editable mesh architecture to increase the editing performance.
 
 Version 2.7.24 - September.17.2020
