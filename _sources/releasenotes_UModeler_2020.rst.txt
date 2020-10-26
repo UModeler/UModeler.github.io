@@ -2,6 +2,14 @@
 UModeler 2020
 ############################ 
 
+Version 2.7.25f4 - Oct.27.2020
+===================================
+- Assets : Includes the Pastel Town Demo pack.
+- Hotfix : Fixed UV2 for lightmap not being unwrapped by ensuring that Unwrap params for lightmap are always valid.
+- Hotfix : Fixed unnecessary edges creation when multiple polygons are inset using the Inset Tool with Group setting.
+- Hotfix : Fixed smoothing groups not working in Mirror mode.
+- Hotfix : Fixed null reference error happening when more than 2 vertices in a polygon are removed with the Eraser tool.
+
 Version 2.7.25 - October.16.2020
 ===================================
 
