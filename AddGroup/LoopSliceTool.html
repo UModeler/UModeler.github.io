@@ -39,7 +39,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Follow Tool" href="FollowTool.html" />
-    <link rel="prev" title="Mirror Tool" href="MirrorTool.html" /> 
+    <link rel="prev" title="Mirror Object Tool" href="MirrorObjectTool.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -101,6 +101,7 @@
 <li class="toctree-l2"><a class="reference internal" href="InsetTool.html">Inset Tool </a></li>
 <li class="toctree-l2"><a class="reference internal" href="BooleanTool.html">Boolean Tool   </a></li>
 <li class="toctree-l2"><a class="reference internal" href="MirrorTool.html">Mirror Tool </a></li>
+<li class="toctree-l2"><a class="reference internal" href="MirrorObjectTool.html">Mirror Object Tool </a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Loop Slice Tool </a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#steps">Steps</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#interface">Interface</a></li>
@@ -208,12 +209,20 @@
 </dd>
 <dt><code class="docutils literal notranslate"><span class="pre">Scroll</span> <span class="pre">Wheel</span></code></dt><dd><p>Increases  or decreases the number of edge loop.</p>
 </dd>
+<dt><code class="docutils literal notranslate"><span class="pre">Ctrl</span> <span class="pre">+</span> <span class="pre">Wheel</span></code></dt><dd><p>Adjusts the <code class="docutils literal notranslate"><span class="pre">Pinch</span></code></p>
+</dd>
+<dt>Moving the mouse holding <code class="docutils literal notranslate"><span class="pre">CTRL</span></code></dt><dd><p>Keeps the current loop. The loop shape does not change when the mouse cursor moves close to another edge.</p>
+</dd>
 </dl>
 </div>
 <div class="section" id="properties">
 <h2>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
 <dl class="simple">
-<dt>Split Number</dt><dd><p>The number of the edge loop.</p>
+<dt>Split Number</dt><dd><p>The number of the edge loop. (<code class="docutils literal notranslate"><span class="pre">LMB</span> <span class="pre">Drag</span></code>)</p>
+</dd>
+<dt>Pinch</dt><dd><p>Anchors the center of the entire loop and moves the loop in both ends. (<code class="docutils literal notranslate"><span class="pre">CTRL</span> <span class="pre">+</span> <span class="pre">Wheel</span></code>)</p>
+</dd>
+<dt>Offset</dt><dd><p>Moves the entire loop in a direction perpendicular to the loop. (<code class="docutils literal notranslate"><span class="pre">LMB</span> <span class="pre">Drag</span></code>)</p>
 </dd>
 </dl>
 <div class="figure align-default" id="id1">
@@ -227,6 +236,10 @@
 <div class="figure align-default" id="id3">
 <a class="reference internal image-reference" href="../_images/UModeler_LoopSlice_2.jpg"><img alt="../_images/UModeler_LoopSlice_2.jpg" src="../_images/UModeler_LoopSlice_2.jpg" style="width: 273.59999999999997px; height: 301.15px;" /></a>
 <p class="caption"><span class="caption-text">The mouse drag moves the edge loops up and down and the cylinder cuts after releasing the mouse.</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-default" id="id4">
+<img alt="../_images/LoopSlice_Pinch.gif" src="../_images/LoopSlice_Pinch.gif" />
+<p class="caption"><span class="caption-text">Pinch changes by <code class="docutils literal notranslate"><span class="pre">Ctrl</span> <span class="pre">+</span> <span class="pre">Whell</span></code>.</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 </div>
@@ -242,7 +255,7 @@
         <a href="FollowTool.html" class="btn btn-neutral float-right" title="Follow Tool" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="MirrorTool.html" class="btn btn-neutral float-left" title="Mirror Tool" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="MirrorObjectTool.html" class="btn btn-neutral float-left" title="Mirror Object Tool" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

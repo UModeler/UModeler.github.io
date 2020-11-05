@@ -35,6 +35,11 @@ If elements like UV, Edge or Polygon are selected, the correspoinding gizmo of t
    :scale: 100 %
    
    Rectangle Gizmo - You can scale the selected elements by dragging the small blue boxes on the rectangle.
+
+.. figure:: /images/UModeler_UV_RectTool_Shift.gif
+   :scale: 50 %
+
+   Scaling while keeping the ratio of the initial width and height holding Shift.
    
 Element Tools
 =========================
@@ -109,3 +114,10 @@ Cursor
    :scale: 100 %
    
    Displays ``Cross Cursor``, which is used as a pivot of transformation, flip, 90 rotation etc. It can be moved by dragging. While moving it is snapped to a close point. 
+
+Pivot Settings
+----------------
+
+.. figure:: /images/UVEditor_PivotSetting.png
+
+Select either ``Center`` or ``Pivot`` as the pivot position of the selected elements. ``Center`` is the middle position of the selected elements, and ``Pivot`` is the position of the last selected elements.

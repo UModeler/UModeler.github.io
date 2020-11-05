@@ -17,6 +17,7 @@ Add Group |Icon_Group_Add|
    InsetTool.rst
    BooleanTool.rst
    MirrorTool.rst
+   MirrorObjectTool.rst
    LoopSliceTool.rst
    FollowTool.rst
    BevelTool.rst

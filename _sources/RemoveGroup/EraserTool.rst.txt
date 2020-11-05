@@ -31,3 +31,8 @@ In a case of a vertex, all the polygons sharing the vertex will be removed. If i
 
 |UModeler_Eraser_2| |UModeler_Eraser_3|
     ``Edit Mode`` - At fist enter ``Eraser Tool`` and then click on an edge.
+
+
+.. figure:: /images/UModeler_EdgeEraserToolImprovement.gif
+
+ As of UModeler 2.7.25, the ability to erase shared edges of two adjacent triangles that are not on the same plane has been added. The usage is the same as how to erase the existing edge.

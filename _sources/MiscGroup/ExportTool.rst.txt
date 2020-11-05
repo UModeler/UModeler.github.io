@@ -9,7 +9,8 @@ Export Tool |Icon_Misc_Export|
 
 .. figure:: /images/UModeler_ExportTool.jpg
 
-Exports the UModeler mesh to .obj or .prefab.
+Exports the current UModeler mesh to a file in a specific file format. 
+If you select multiple UModeler objects and then export as .Obj, the selected UModeler meshes will be exported as a single .Obj file.
 
 Properties about .obj
 -----------------------
@@ -28,6 +29,11 @@ Optimize UV
  
 Export to .obj
  Exports the UModeler mesh to .obj
+
+.. note::
+
+ As from UModeler 2.7.26 Multiple UModeler Objects' meshes can be exported to one .obj file.
+
  
 Properties about .prefab
 --------------------------

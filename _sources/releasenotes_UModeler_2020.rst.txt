@@ -1,6 +1,21 @@
 ############################
 UModeler 2020
-############################ 
+############################
+
+Version 2.7.26 - Nov.9.2020
+===================================
+
+ .. figure:: /images/NeonCity_FinalCut.png
+
+- Assets : Includes the ``NEON CITY`` demo pack.
+- Fix : Fixed an issue where UV2 for lightmap wasn't generated due to the invalid default UV2 param in ``Preference``.
+- Fix : Fixed unwarpped UV disappearing, after being mirrored using the ``Mirror Tool``.
+- Fix : Fixed unwrapped UV disappearing, after Remove Doubles being applied and Undoing or Duplication by ``Ctrl+D``
+- Enhancement : ``Export Tool`` - Supports exporting Multiple UModeler Objects to one .obj file.
+- Enhancement : Supports the ``Byte Formatted Mesh`` to reduce the .unity file size and file diff, and improves the performance to switch between Play and Edit mode.
+- Enhancement : ``Eraser Tool`` - Vertex deletion connects two adjacent vertices. It removed the polygon which contains the vertex before.
+- Enhancement : The ``Rect Gizmo`` in the UV Editor supports the proportionate scaling holding ``SHIFT``.
+- Feature : Added ``Mirror Object Tool`` which duplicates and mirrors the selected UModeler Object.
 
 Version 2.7.25f4 - Oct.27.2020
 ===================================
@@ -10,7 +25,7 @@ Version 2.7.25f4 - Oct.27.2020
 - Hotfix : Fixed smoothing groups not working in Mirror mode.
 - Hotfix : Fixed null reference error happening when more than 2 vertices in a polygon are removed with the Eraser tool.
 
-Version 2.7.25 - October.16.2020
+Version 2.7.25 - Oct.16.2020
 ===================================
 
  .. figure:: /images/Pastel_Town.png
@@ -28,7 +43,7 @@ Version 2.7.25 - October.16.2020
 - Enhancement : The polygon mode of the Bridge Tool - Improved briding the two facing polygons.
 - Enhancement : Improved the editable mesh architecture to increase the editing performance.
 
-Version 2.7.24 - September.17.2020
+Version 2.7.24 - Sep.17.2020
 ===================================
  
  .. figure:: /images/UModeler2.7.14_Island_Village_Shot.jpg
@@ -45,18 +60,18 @@ Version 2.7.24 - September.17.2020
 - Fix : Fixed Null Exception Error in Unity 5.6.7 regarding Prefab.
 - Fix : Fixed smoothing groups not being preserved after a part of UModeler is detached or combined with others.
 
-Version 2.7.23f2 - August.26.2020
+Version 2.7.23f2 - Aug.26.2020
 ===================================
 - Hotfix - Improved Refresh All function so that it ensuers 100% fix of broken UV2 for lightmap all the time 
 
-Version 2.7.23 - August.20.2020
+Version 2.7.23 - Aug.20.2020
 =================================
 - Fixed ``Distance`` parameter in the inspector not working in Vertex/Edge/Polygon tools.
 - Fixed broken UV2 for lightmap not being restored by ``Refresh All``.
 - Fixed the scene switch function by pressing ``Shift + Space`` not working in UModeler editor mode.
 - Added deselecting the elements within the selection box by ``Ctrl + LMB Drag``.
  
-Version 2.7.22 - August.6.2020
+Version 2.7.22 - Aug.6.2020
 =================================
 - Fixed non-UModeler object jump issue happening when it is selected with World Grid Snap enabled.
 - Added ``Bake Position`` button in ``Misc/Bake Transform Tool``. This makes the position zero and applies the difference to each vertex position.

@@ -13,4 +13,5 @@ Misc Group |Icon_Group_Misc|
    PolygonGroupTool.rst
    ExportTool.rst
    ColliderTool.rst
-   LocalSettingsTool.rst   
+   LocalSettingsTool.rst
+   DiagnosisTool.rst

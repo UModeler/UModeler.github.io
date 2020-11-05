@@ -24,11 +24,23 @@ Interface
 ``Scroll Wheel``
  Increases  or decreases the number of edge loop.
 
+``Ctrl + Wheel``
+ Adjusts the ``Pinch``
+
+Moving the mouse holding ``CTRL``
+ Keeps the current loop. The loop shape does not change when the mouse cursor moves close to another edge.
+
 Properties
 ---------------
 
 Split Number
- The number of the edge loop.
+ The number of the edge loop. (``LMB Drag``)
+
+Pinch
+ Anchors the center of the entire loop and moves the loop in both ends. (``CTRL + Wheel``)
+
+Offset
+ Moves the entire loop in a direction perpendicular to the loop. (``LMB Drag``)
  
 .. figure:: /images/UModeler_LoopSlice_0.jpg
    :scale: 95 %
@@ -44,3 +56,7 @@ Split Number
    :scale: 95 %
 
    The mouse drag moves the edge loops up and down and the cylinder cuts after releasing the mouse.
+
+.. figure:: /images/LoopSlice_Pinch.gif
+
+   Pinch changes by ``Ctrl + Whell``.
