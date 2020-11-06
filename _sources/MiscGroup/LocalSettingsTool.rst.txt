@@ -26,8 +26,17 @@ Don't Save In Build
  
 Generate UV2 channel for Lightmap
  Generate UVs for lightmaps. From 2.6.9 UVs for lightmap aren't created automatically. If you want to generate lightmap UVs of all UModeler meshs in a scene, click on ``Tools > UModeler > Refresh All``.
+
+Covnerts To Byte Stream Data
+ This button converts the data format of the selected UModeler meshes into Byte Stream Data format. The byte stream data format reduces the size of .unity and .prefab files, decreases delays when entering and exiting game mode, and reduces file diff. The Diff refers to the difference between the previous and current version of a file.
+
+ And this button is displayed only when a UModeler object whose format is not a byte stream is selected. 
+
+.. note::
+ ``Covnerts To Byte Stream Data`` button is available as of UModeler 2.7.26. 
  
-  .. figure:: /images/LocalSettings.jpg
+
+.. figure:: /images/LocalSettings.jpg
    :scale: 100 %
  
  

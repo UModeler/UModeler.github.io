@@ -288,10 +288,10 @@
 <span id="advancedpreferences"></span><h2>Preferences<a class="headerlink" href="#preferences" title="Permalink to this headline">¶</a></h2>
 <p>You can set shortcuts and general settings of UModeler in UModeler Preferences window to which you can go through <code class="docutils literal notranslate"><span class="pre">Tools</span> <span class="pre">&gt;</span> <span class="pre">UModeler</span> <span class="pre">&gt;</span> <span class="pre">Preferences</span></code> in the top menu.</p>
 <div class="figure align-default" id="id11">
-<a class="reference internal image-reference" href="_images/UModeler_Preferencewindow4.jpg"><img alt="_images/UModeler_Preferencewindow4.jpg" src="_images/UModeler_Preferencewindow4.jpg" style="width: 828.8000000000001px; height: 1238.4px;" /></a>
+<a class="reference internal image-reference" href="_images/NewPreference.png"><img alt="_images/NewPreference.png" src="_images/NewPreference.png" style="width: 625.1999999999999px; height: 855.6px;" /></a>
 <p class="caption"><span class="caption-text">UModeler Preference.</span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
 </div>
-<dl class="simple">
+<dl>
 <dt>Detailed Tooltip</dt><dd><p>Enables very detailed tooltip of each tool. If you feel the tooltip occupies much space, you can turn it off.</p>
 </dd>
 <dt>Lightmap by Default</dt><dd><p>When this is on, the lighting method of every new created UModeler object will be the lightmap.</p>
@@ -300,7 +300,15 @@
 </dd>
 <dt>Keep System Toolbar on always</dt><dd><p>When this is on, the toolbar at the top of the scene view is visible all the time.</p>
 </dd>
+<dt>Create UModeler as Byte Stream Data.</dt><dd><p>This toggle is a function added from UModeler 2.7.26. Newly created UModeler mesh data is saved as a byte stream format.</p>
+<p>The advantage of using Byte Stream Data is that the size of the .unity and .prefab files is reduced first, and the performance increases when entering or exiting game mode in a scene with many UModeler prefabs.</p>
+<p>And finally, the diff of .unity and .prefab files is reduced. Diff is the difference between the previous version of the file and the current version when saving a file on the source control.</p>
+</dd>
 </dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><code class="docutils literal notranslate"><span class="pre">Create</span> <span class="pre">UModeler</span> <span class="pre">as</span> <span class="pre">Byte</span> <span class="pre">Stream</span> <span class="pre">Data</span></code> is available as of UModeler 2.7.26.</p>
+</div>
 <div class="admonition seealso">
 <p class="admonition-title">See also</p>
 <div class="line-block">

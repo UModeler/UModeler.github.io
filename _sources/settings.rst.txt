@@ -130,8 +130,8 @@ Preferences
 
 You can set shortcuts and general settings of UModeler in UModeler Preferences window to which you can go through ``Tools > UModeler > Preferences`` in the top menu. 
 
-.. figure:: /images/UModeler_Preferencewindow4.jpg
-   :scale: 80 %
+.. figure:: /images/NewPreference.png
+   :scale: 60 %
 	
    UModeler Preference.
 
@@ -146,6 +146,16 @@ Display Polygon Preselection
  
 Keep System Toolbar on always
  When this is on, the toolbar at the top of the scene view is visible all the time.
+
+Create UModeler as Byte Stream Data.
+ This toggle is a function added from UModeler 2.7.26. Newly created UModeler mesh data is saved as a byte stream format. 
+
+ The advantage of using Byte Stream Data is that the size of the .unity and .prefab files is reduced first, and the performance increases when entering or exiting game mode in a scene with many UModeler prefabs. 
  
+ And finally, the diff of .unity and .prefab files is reduced. Diff is the difference between the previous version of the file and the current version when saving a file on the source control.
+ 
+.. note::
+ ``Create UModeler as Byte Stream Data`` is available as of UModeler 2.7.26.
+
 .. seealso::
  | Unwrap Params like ``Pack Margin``, ``Hard Angle``, ``Area Error`` and ``Angle Error`` are described well in `Generating Lightmap UVs <https://docs.unity3d.com/Manual/LightingGiUvs-GeneratingLightmappingUVs.html>`_

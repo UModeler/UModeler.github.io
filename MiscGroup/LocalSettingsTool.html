@@ -38,7 +38,7 @@
     
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="UV Editor" href="../UVEditor/index.html" />
+    <link rel="next" title="Diagnosis Tool" href="DiagnosisTool.html" />
     <link rel="prev" title="Collider Tool" href="ColliderTool.html" /> 
 </head>
 
@@ -109,6 +109,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#properties">Properties</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="DiagnosisTool.html">Diagnosis Tool </a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../UVEditor/index.html">UV Editor</a></li>
@@ -199,13 +200,18 @@
 Usually this property is on because most meshes are just for rendering at runtime.</p>
 </dd>
 <dt>Generate UV2 channel for Lightmap</dt><dd><p>Generate UVs for lightmaps. From 2.6.9 UVs for lightmap aren’t created automatically. If you want to generate lightmap UVs of all UModeler meshs in a scene, click on <code class="docutils literal notranslate"><span class="pre">Tools</span> <span class="pre">&gt;</span> <span class="pre">UModeler</span> <span class="pre">&gt;</span> <span class="pre">Refresh</span> <span class="pre">All</span></code>.</p>
-<blockquote>
-<div><div class="figure align-default">
-<a class="reference internal image-reference" href="../_images/LocalSettings.jpg"><img alt="../_images/LocalSettings.jpg" src="../_images/LocalSettings.jpg" style="width: 276.0px; height: 246.0px;" /></a>
-</div>
-</div></blockquote>
+</dd>
+<dt>Covnerts To Byte Stream Data</dt><dd><p>This button converts the data format of the selected UModeler meshes into Byte Stream Data format. The byte stream data format reduces the size of .unity and .prefab files, decreases delays when entering and exiting game mode, and reduces file diff. The Diff refers to the difference between the previous and current version of a file.</p>
+<p>And this button is displayed only when a UModeler object whose format is not a byte stream is selected.</p>
 </dd>
 </dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><code class="docutils literal notranslate"><span class="pre">Covnerts</span> <span class="pre">To</span> <span class="pre">Byte</span> <span class="pre">Stream</span> <span class="pre">Data</span></code> button is available as of UModeler 2.7.26.</p>
+</div>
+<div class="figure align-default">
+<a class="reference internal image-reference" href="../_images/LocalSettings.jpg"><img alt="../_images/LocalSettings.jpg" src="../_images/LocalSettings.jpg" style="width: 276.0px; height: 246.0px;" /></a>
+</div>
 </div>
 </div>
 
@@ -217,7 +223,7 @@ Usually this property is on because most meshes are just for rendering at runtim
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../UVEditor/index.html" class="btn btn-neutral float-right" title="UV Editor" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="DiagnosisTool.html" class="btn btn-neutral float-right" title="Diagnosis Tool" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="ColliderTool.html" class="btn btn-neutral float-left" title="Collider Tool" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
