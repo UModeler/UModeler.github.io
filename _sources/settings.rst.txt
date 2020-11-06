@@ -150,7 +150,7 @@ Keep System Toolbar on always
 Create UModeler as Byte Stream Data.
  This toggle is a function added from UModeler 2.7.26. Newly created UModeler mesh data is saved as a byte stream format. 
 
- The advantage of using Byte Stream Data is that the size of the .unity and .prefab files is reduced first, and the performance increases when entering or exiting game mode in a scene with many UModeler prefabs. 
+ The advantage of using Byte Stream Data is that the size of the .unity and .prefab files is reduced first, and the performance increases when loading/saving a scene and entering/exiting game mode in a scene with many UModeler prefabs. 
  
  And finally, the diff of .unity and .prefab files is reduced. Diff is the difference between the previous version of the file and the current version when saving a file on the source control.
  
