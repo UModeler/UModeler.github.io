@@ -2,7 +2,7 @@
 UModeler 2020
 ############################
 
-Version 2.7.26f2 - Nov.9.2020
+Version 2.7.26f3 - Nov.9.2020
 ===================================
 
  .. figure:: /images/NeonCity_FinalCut.png
