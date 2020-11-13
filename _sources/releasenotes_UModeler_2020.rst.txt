@@ -2,6 +2,10 @@
 UModeler 2020
 ############################
 
+Version 2.7.26f4 - Nov.16.2020
+===================================
+- Hotfix : Fixed unexpected triangulation and mesh disappearing caused in the new Byte Stream Mesh feature.
+
 Version 2.7.26f3 - Nov.9.2020
 ===================================
 
@@ -12,7 +16,7 @@ Version 2.7.26f3 - Nov.9.2020
 - Fix : Fixed unwarpped UV disappearing, after being mirrored using the ``Mirror Tool``.
 - Fix : Fixed unwrapped UV disappearing, after Remove Doubles being applied and Undoing or Duplication by ``Ctrl+D``
 - Enhancement : ``Export Tool`` - Supports exporting Multiple UModeler Objects to one .obj file.
-- Enhancement : Supports the ``Byte Formatted Mesh`` to reduce the .unity file size and file diff, and improves the performance of saving/loading a scene and switching between Play and Edit mode.
+- Enhancement : Supports the ``Byte Stream Mesh`` to reduce the .unity file size and file diff, and improves the performance of saving/loading a scene and switching between Play and Edit mode.
 - Enhancement : ``Eraser Tool`` - Vertex deletion connects two adjacent vertices. It removed the polygon which contains the vertex before.
 - Enhancement : The ``Rect Gizmo`` in the UV Editor supports the proportionate scaling holding ``SHIFT``.
 - Feature : Added ``Mirror Object Tool`` which duplicates and mirrors the selected UModeler Object.
