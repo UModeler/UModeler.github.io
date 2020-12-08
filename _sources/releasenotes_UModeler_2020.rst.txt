@@ -10,7 +10,7 @@ Version 2.7.27 - Dec.8.2020
 - Assets : Includes the ``LOST TEMPLE`` demo pack.
 - Feature : ``Space Horizontally`` and ``Space Vertically`` tools have been added in the Quick Transform group in UV Editor.
 - Feature : ``Bake as .Prefab`` has been added. It makes .prefab file after removing UModeler component.
-- Enhancement : ``Export Unit`` has been added in ``Export Tool``. ``mm`` and ``cm`` as well ass ``m`` are supported.
+- Enhancement : ``Export Unit`` has been added in ``Export Tool``. ``mm`` and ``cm`` as well as ``m`` are supported.
 - Enhancement : ``Export Face Type`` has been added in ``Export Tool``. ``Quads`` and ``Polygons`` as well as ``Triangles`` are supported.
 - Fix : Fixed Rotation value in Transform component not being able to have below 0 and above 360.
 - Fix : Fixed the abnormally big vertex indicators in the Prefab view.
