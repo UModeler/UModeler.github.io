@@ -26,6 +26,12 @@ Export Vertex Colors
 
 Optimize UV
  Optimizes UVs to avoid duplication.
+
+Export Unit
+ ``Meter``, ``Centi Meter`` and ``Milli Meter`` units are supported.
+
+Export Face Type
+ ``Triangles``, ``Faces``, and ``Polygons`` face types are supported.
  
 Export to .obj
  Exports the UModeler mesh to .obj
@@ -40,3 +46,6 @@ Properties about .prefab
 
 Export to .prefab
  Exports the UModeler mesh to .prefab. Prefab is saved only in a folder under Project folder.
+
+Bake as .prefab
+ Exports the UModeler mesh to .prefab with no UModeler component.

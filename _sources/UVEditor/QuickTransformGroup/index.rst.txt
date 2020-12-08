@@ -17,3 +17,4 @@ Quick Transform Group |Icon_UVEditor_Group_QuickTransform|
 
    FlipTools.rst   
    Rotate90Tools.rst
+   SpaceTools.rst
