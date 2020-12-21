@@ -2,6 +2,16 @@
 UModeler 2020
 ############################
 
+Version 2.7.27f4 - Dec.21.2020
+==================================
+- Assets : Includes the ``LOST TEMPLE`` demo pack.
+- Fix : Fixed the Loop Select tool not working on a cap polygon such as a top disk polygon of a cylinder etc.
+- Fix : Fixed UVs in UV Editor after UModeler objects are combined using Combine Tool.
+- Fix : Fixed incorrect texts in Preference window and Tooltip in the Polygon Color tool.
+- Fix : Fixed ``CTRL`` and ``SHIFT`` key behaviours in UV elements selection. Holding CTRL excludes the existing selection. Holding SHIFT adds the new selections.
+- Feature : Added ``Diagnosis All UModeler Objects`` menu item.
+- Feature : Added ``Repair All Corrupt UModeler Objects`` menu item.
+
 Version 2.7.27 - Dec.8.2020
 ==================================
 

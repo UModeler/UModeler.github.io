@@ -2,7 +2,7 @@
 Menu
 ############
 
-.. figure:: /images/menu.jpg
+.. figure:: /images/menu.png
    :scale: 80 %
 
 You can see a new menu called ``Tools`` at the top of Unity Editor after UModeler is installed. 
@@ -58,6 +58,28 @@ Divides all polygons into triangles.
 
 .. figure:: /images/Before_After_Triangulation.jpg
    :scale: 95 %
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Diagnosis All UModeler objects
+========================================
+Diagnosis All UModelers object in the current scene to find corrupt or invalid UModeler meshes.
+
+Repair All Corrupt UModeler Objects
+========================================
+Repaired all corrupt UModeler objects so that any errors won't happen.
+
+.. note::
+
+  There are two types of abnormal UModeler objects which cause lightmap issues, UV2 issues, visual defects or performance issues etc.
+   ``Corrupt UModeler Object`` refer to UModeler objects with corrupt polygons. Cases of corrupt polygons are as follows.
+    - Some indices are out of vertex number.
+   ``Invalid UModeler Object`` has invalid polygons. Cases of invalid polygons are as follows:
+    - A polygon's area is 0.
+    - There are intersected edges.
+    - There are an edge whose two vertices positions are identical.
+    - There are holes outside the area of the polygon.
+    - The whole vertex number is 1.
 
 ---------------------------------------------------------------------------------------------------------------------------------
 

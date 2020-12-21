@@ -98,6 +98,8 @@
 <li class="toctree-l2"><a class="reference internal" href="#umodelerize">UModelerize</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#umodelerize-hierarchically">UModelerize Hierarchically</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#triangulate">Triangulate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#diagnosis-all-umodeler-objects">Diagnosis All UModeler objects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#repair-all-corrupt-umodeler-objects">Repair All Corrupt UModeler Objects</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#refresh">Refresh</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#arrange-uv-islands">Arrange UV Islands</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#preferences">Preferences</a></li>
@@ -183,7 +185,7 @@
   <div class="section" id="menu">
 <h1>Menu<a class="headerlink" href="#menu" title="Permalink to this headline">¶</a></h1>
 <div class="figure align-default">
-<a class="reference internal image-reference" href="_images/menu.jpg"><img alt="_images/menu.jpg" src="_images/menu.jpg" style="width: 368.8px; height: 220.0px;" /></a>
+<a class="reference internal image-reference" href="_images/menu.png"><img alt="_images/menu.png" src="_images/menu.png" style="width: 526.4px; height: 380.0px;" /></a>
 </div>
 <p>You can see a new menu called <code class="docutils literal notranslate"><span class="pre">Tools</span></code> at the top of Unity Editor after UModeler is installed.</p>
 <div class="section" id="about">
@@ -230,6 +232,35 @@
 <p>Divides all polygons into triangles.</p>
 <div class="figure align-default">
 <a class="reference internal image-reference" href="_images/Before_After_Triangulation.jpg"><img alt="_images/Before_After_Triangulation.jpg" src="_images/Before_After_Triangulation.jpg" style="width: 361.95px; height: 209.0px;" /></a>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="diagnosis-all-umodeler-objects">
+<h2>Diagnosis All UModeler objects<a class="headerlink" href="#diagnosis-all-umodeler-objects" title="Permalink to this headline">¶</a></h2>
+<p>Diagnosis All UModelers object in the current scene to find corrupt or invalid UModeler meshes.</p>
+</div>
+<div class="section" id="repair-all-corrupt-umodeler-objects">
+<h2>Repair All Corrupt UModeler Objects<a class="headerlink" href="#repair-all-corrupt-umodeler-objects" title="Permalink to this headline">¶</a></h2>
+<p>Repaired all corrupt UModeler objects so that any errors won’t happen.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<dl class="simple">
+<dt>There are two types of abnormal UModeler objects which cause lightmap issues, UV2 issues, visual defects or performance issues etc.</dt><dd><dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">Corrupt</span> <span class="pre">UModeler</span> <span class="pre">Object</span></code> refer to UModeler objects with corrupt polygons. Cases of corrupt polygons are as follows.</dt><dd><ul class="simple">
+<li><p>Some indices are out of vertex number.</p></li>
+</ul>
+</dd>
+<dt><code class="docutils literal notranslate"><span class="pre">Invalid</span> <span class="pre">UModeler</span> <span class="pre">Object</span></code> has invalid polygons. Cases of invalid polygons are as follows:</dt><dd><ul class="simple">
+<li><p>A polygon’s area is 0.</p></li>
+<li><p>There are intersected edges.</p></li>
+<li><p>There are an edge whose two vertices positions are identical.</p></li>
+<li><p>There are holes outside the area of the polygon.</p></li>
+<li><p>The whole vertex number is 1.</p></li>
+</ul>
+</dd>
+</dl>
+</dd>
+</dl>
 </div>
 </div>
 <hr class="docutils" />
