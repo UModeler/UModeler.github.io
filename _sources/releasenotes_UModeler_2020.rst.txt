@@ -2,7 +2,11 @@
 UModeler 2020
 ############################
 
-Version 2.7.27f4 - Dec.21.2020
+Version 2.7.27f7 - Dec.31.2020
+==================================
+- Fix : Fixed Null Reference Exception after being loaded, which caused with the codes added in 2.7.26f6
+
+Version 2.7.27f6 - Dec.29.2020
 ==================================
 - Assets : Includes the ``LOST TEMPLE`` demo pack.
 - Fix : Fixed the Loop Select tool not working on a cap polygon such as a top disk polygon of a cylinder etc.
