@@ -2,7 +2,7 @@
 Menu
 ############
 
-.. figure:: /images/menu.png
+.. figure:: /images/new_menu_items2.png
    :scale: 80 %
 
 You can see a new menu called ``Tools`` at the top of Unity Editor after UModeler is installed. 
