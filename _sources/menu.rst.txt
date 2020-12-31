@@ -61,9 +61,9 @@ Divides all polygons into triangles.
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
-Diagnosis All UModeler objects
+Diagnose All UModeler objects
 ========================================
-Diagnosis All UModelers object in the current scene to find corrupt or invalid UModeler meshes.
+Diagnose All UModelers object in the current scene to find corrupt or invalid UModeler meshes.
 
 Repair All Corrupt UModeler Objects
 ========================================

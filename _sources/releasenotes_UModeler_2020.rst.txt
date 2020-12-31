@@ -13,7 +13,7 @@ Version 2.7.27f6 - Dec.29.2020
 - Fix : Fixed UVs in UV Editor after UModeler objects are combined using Combine Tool.
 - Fix : Fixed incorrect texts in Preference window and Tooltip in the Polygon Color tool.
 - Fix : Fixed ``CTRL`` and ``SHIFT`` key behaviours in UV elements selection. Holding CTRL excludes the existing selection. Holding SHIFT adds the new selections.
-- Feature : Added ``Diagnosis All UModeler Objects`` menu item.
+- Feature : Added ``Diagnose All UModeler Objects`` menu item.
 - Feature : Added ``Repair All Corrupt UModeler Objects`` menu item.
 
 Version 2.7.27 - Dec.8.2020
