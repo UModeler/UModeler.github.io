@@ -1,5 +1,5 @@
 #####################################
-Toolbar, Settings and Preference
+Toolbar, Settings and Preferences
 #####################################
 
 .. figure:: /images/SceneView_For_Toolbar.jpg
@@ -27,7 +27,7 @@ When you click on this button, a new empty UModeler object will be created in a 
    
    3D Cursor
    
-When this is on, 3D cursor is activated and displayed on the scene view. The pivot of roatation and scaling is the 3D cursor position at this time. And the cursor can move along X,Y or Z axis with the move tool over the cursor. If the cursor passes nearby a vertex, it will be snapped to the vertex. If you press ``LMB`` holding ``CTRL`` and ``SHIFT``, the cursor will move to the cursor position at once. If the mouse cursor is over a UModeler mesh then, the 3D cursor will move to a picked position on the mesh.
+When this is on, 3D cursor is activated and displayed on the scene view. The pivot of rotation and scaling is the 3D cursor position at this time. And the cursor can move along X,Y or Z axis with the move tool over the cursor. If the cursor passes nearby a vertex, it will be snapped to the vertex. If you press ``LMB`` holding ``CTRL`` and ``SHIFT``, the cursor will move to the cursor position at once. If the mouse cursor is over a UModeler mesh then, the 3D cursor will move to a picked position on the mesh.
 
 .. figure:: /images/Icon_Misc_RefreshAll.png
    

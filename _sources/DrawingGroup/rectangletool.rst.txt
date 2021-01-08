@@ -43,7 +43,7 @@ Depth
 Corner Length
  The length of the rounded corners. The rounded corners are only applied as this is more than 0.0.
 
-Corner Segment
+Corner Segments
  The segment number of the corner.
  
 .. figure:: /images/UModeler_RectangleTool_Normal.jpg

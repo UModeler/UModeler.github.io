@@ -30,7 +30,7 @@ And there are gizmos which are displayed on the center of the selected elements 
 .. figure:: /images/gizmos.png
    :scale: 100 % 
    
-   Source - `AutoDesk - About using 3D Gizmos <https://knowledge.autodesk.com/support/autocad/getting-started/caas/CloudHelp/cloudhelp/2016/ENU/AutoCAD-Core/files/GUID-7BD066C9-31BA-4D47-8064-2F9CF268FA15-htm.html>`_
+   Source - `Autodesk - About using 3D Gizmos <https://knowledge.autodesk.com/support/autocad/getting-started/caas/CloudHelp/cloudhelp/2016/ENU/AutoCAD-Core/files/GUID-7BD066C9-31BA-4D47-8064-2F9CF268FA15-htm.html>`_
    
 You can select vertices and move/rotate/scale them with the Vertex Tool. 
 The Edge Tool can make you select edges and move/rotate/scale them.
@@ -38,7 +38,7 @@ Using the Polygon tool, polygons can be selected and moved/rotated/scaled.
 
 .. note::
 
-  When you rotate and scale elements, the pivot position is usually the center of them. But when the 3D cursor is on, the cursor posision will be the pivot position. 
+  When you rotate and scale elements, the pivot position is usually the center of them. But when the 3D cursor is on, the cursor position will be the pivot position. 
   
 Basically selection of each element can be done by placing the mouse cursor there and pressing ``LMB``. And ``LMB`` dragging from an empty space will draw a rectangle and select elements inside the rectangle.
 
@@ -50,7 +50,7 @@ Basically selection of each element can be done by placing the mouse cursor ther
    | 4. If you hold ``SHIFT`` while dragging a gizmo, the selected elements are extruded.
    | 5. If you hold ``CTRL`` while dragging the move gizmo and moving to another vertex, the selected elements' selected axis's value will be snapped to the vertex. This is called ``1D snapping``
    | 6. If you hold ``SHIFT`` + ``CTRL`` while dragging a gizmo, the vertices consisting of the elements will be split.
-   | 7. ``LMB Double click`` on a polygon will unwrap and stick it. This is called ``Auto Layout``. Click :ref:`here <autolayout>` to get more infor about it.   
+   | 7. ``LMB Double click`` on a polygon will unwrap and stick it. This is called ``Auto Layout``. Click :ref:`here <autolayout>` to get more info about it.   
    
 .. tip::
  ``V(ertex) Snapping``
@@ -68,13 +68,13 @@ Select Only Visible
 .. figure:: /images/UModeler_ImprovedSelectOnlyVisibleFlag.gif
 
 Distance
- How distant the selected elements move. This is only available as translation gizmo is enabled.
+ How distant the selected elements move. This is only available as the move gizmo is enabled.
 
 Snap To Polygon
- An edge is snapped to a close polygon within a specific distance. This is only available as the edge is being translated.
+ An edge is snapped to a close polygon within a specific distance. This is only available as the edge is being moved.
 
 Snap To Vertex
- A vertex is snapped to the other close vertex within a specific distance. This is only available as the vertex is being translated.
+ A vertex is snapped to the other close vertex within a specific distance. This is only available as the vertex is being moved.
 
 
 Move To Cursor

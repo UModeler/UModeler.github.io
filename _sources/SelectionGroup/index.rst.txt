@@ -7,7 +7,7 @@ Selection Group |Icon_Group_Selection|
 
 .. note::
 
-   Selection tools responds immediately to clicking on a button of each tool.
+   Selection tools respond immediately to clicking on a button of each tool.
    
 .. toctree::
    :maxdepth: 1

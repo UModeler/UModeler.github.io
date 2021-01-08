@@ -38,5 +38,5 @@ Polygon Increase Selection |Icon_Selection_IncreaseSelectPolygon|
 
 Steps
 --------
-1. Select vertices, edges or a polygons.
+1. Select vertices, edges or polygons.
 2. Select ``Increase Tool``.

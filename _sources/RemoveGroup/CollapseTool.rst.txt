@@ -2,7 +2,7 @@
    :scale: 100 %
    
 #############################################
-Collpase Tool |Icon_Remove_Collapse.png|
+Collapse Tool |Icon_Remove_Collapse.png|
 #############################################
 
 Merges each edge island or vertex island into one vertex. This makes as many remaining vertices as islands of selection. (i.e. groups of linked selected vertices).

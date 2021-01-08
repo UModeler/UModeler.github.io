@@ -24,7 +24,7 @@ Steps
  * At a vertex - ``orange``
  * At the starting point - ``sky blue``
  * When aligned with one of x,y,z of a drawn vertex - ``pink``
- * Parallel with of the global axes - ``blue``
+ * Parallel with any of the global axes - ``blue``
 
 Interface
 ------------

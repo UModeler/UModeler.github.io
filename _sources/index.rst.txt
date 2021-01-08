@@ -79,7 +79,7 @@ Sections
       .. container:: descr
 
          :doc:`PrimitiveShapesGroup/index`
-            Procecural 3D Primitive Shapes, such as Box, Room, Stair, Cylinder, Cone, Sphere and Capsule.
+            Procedural 3D Primitive Shapes, such as Box, Room, Stair, Cylinder, Cone, Sphere and Capsule.
 			
       .. container:: descr
 
@@ -89,7 +89,7 @@ Sections
       .. container:: descr
 
          :doc:`RemoveGroup/index`
-			Easy and Convinent ways of removing elements from a shape.
+			Easy and Convenient ways of removing elements from a shape.
 
       .. container:: descr
 
@@ -109,7 +109,7 @@ Sections
       .. container:: descr
 
          :doc:`/UVEditor/index`
-			Separate editor window to edit UVs using various tools, such as unwrapping, transforming UVs, alightment, flip/rotate, sew etc.
+			Separate editor window to edit UVs using various tools, such as unwrapping, transforming UVs, alignment, flip/rotate, sew etc.
 
       .. container:: descr
 

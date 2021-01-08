@@ -16,13 +16,13 @@ Steps
 
 Interface
 --------------
-LMB Drag
+``LMB Drag``
  Creates a sphere
  
-SPACE
+``SPACE``
  Completes
  
-ESC
+``ESC``
  Cancels
 
 Properties
@@ -33,7 +33,7 @@ Select Only Visible
 Floor Height
  The height of the floor where the primitive shape is built by LMB Dragging.
  
-Segment
+Segments
  How many the sphere will be divided
 
 Radius

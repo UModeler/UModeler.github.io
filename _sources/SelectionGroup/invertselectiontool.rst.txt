@@ -15,5 +15,5 @@ The selection will be inverted. It means the selected ones will get deselected a
 
 Steps
 --------
-1. Select vertices, edges or a polygons.
+1. Select vertices, edges or polygons.
 2. Select ``Invert Tool``.

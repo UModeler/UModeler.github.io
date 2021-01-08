@@ -5,7 +5,7 @@
 Stair Tool |Icon_PrimitiveShapes_Stair|
 ################################################
 
-Creates stairs like you creates a box. The stair created with this tool has a uniform rise no matter how high the stair is.
+Creates stairs like you create a box. The stair created with this tool has a uniform rise no matter how high the stair is.
 
 Steps
 --------
@@ -67,4 +67,4 @@ Glue
 .. figure:: /images/UModeler_StairTool_WideStep.jpg
    :scale: 95 %
 
-   As ``Wide Step`` property is on, the steps will get towrard the wide side by 90 degrees rotation.
+   As ``Wide Step`` property is on, the steps will get toward the wide side by 90 degrees rotation.

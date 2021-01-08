@@ -33,7 +33,7 @@ Select Only Visible
 Floor Height
  The height of the floor where the primitive shape is built by LMB Dragging.
  
-Segment 
+Segments
  The number of edges
 
 Radius

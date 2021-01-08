@@ -10,11 +10,11 @@ Transform Tools
    
    From left to right ``Move Tool``, ``Rotation Tool``, ``Scale Tool`` and ``Rectangle Tool``
 
-If elements like UV, Edge or Polygon are selected, the correspoinding gizmo of the current transform tool is displayed at the center of the elements. You can trasnform the selected elements using these gizmos.  
+If elements like UV, Edge or Polygon are selected, the corresponding gizmo of the current transform tool is displayed at the center of the elements. You can transform the selected elements using these gizmos.  
 
 .. note::
 
- ``Separate Transfoming`` - Usually transforming elements affects the adjacent polygons. It means that all overlapped UVs will be transformed together. However holding ``SHIFT`` will make you transform elements separatelly. Even though several UVs occupied the same position, only one UV will be affected.
+ ``Separate Transfoming`` - Usually transforming elements affects the adjacent polygons. It means that all overlapped UVs will be transformed together. However holding ``SHIFT`` will make you transform elements separately. Even though several UVs occupied the same position, only one UV will be affected.
 
 .. figure:: /images/UModeler_UVEditor_Transform_MoveTool.jpg
    :scale: 100 %

@@ -61,9 +61,9 @@ Divides all polygons into triangles.
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
-Diagnose All UModeler objects
+Diagnose All UModeler Objects
 ========================================
-Diagnose All UModelers object in the current scene to find corrupt or invalid UModeler meshes.
+Diagnose All UModeler Objects in the current scene to find corrupt or invalid UModeler meshes.
 
 Repair All Corrupt UModeler Objects
 ========================================
@@ -83,15 +83,9 @@ Repaired all corrupt UModeler objects so that any errors won't happen.
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
-Refresh 
+Refresh All
 ========================================
 Refreshes every resource of all UModeler objects in the current scene. This doesn't change and remove any data. It might resolve a broken mesh issue or light map problems etc.
-
----------------------------------------------------------------------------------------------------------------------------------
-
-Arrange UV Islands
-====================
-Arranges UV Islands to fix UVs. This function can be used when you think UV Islands are incorrect.
 
 ----------------------------------------------------------------------------------------------------------------------------------
 

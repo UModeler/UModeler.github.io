@@ -13,7 +13,7 @@ Steps
 2. Drag the mouse on a floor or an another polygon as if you make a cylinder.
 3. Release ``LMB`` and move the mouse cursor in a normal direction to raise the height. You can change the direction of the stair by pressing ``SPACE``. 
 4. Click ``LMB`` to stop raising.
-5. Type the properties in inepector to adjust the shape of the stair.
+5. Type the properties in inspector to adjust the shape of the stair.
 6. Press ``SPACE`` to complete or Press ``ESC`` to cancel.
 
 Interface

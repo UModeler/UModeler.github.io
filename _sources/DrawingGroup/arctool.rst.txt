@@ -5,7 +5,7 @@
 Arc Tool |Icon_Drawing_Arc|
 ################################
 
-Draws an arc by clicking twice on two points and dragging the mouse. The way of the cursor snpping and the change of it is same as how the line tool works. You can split or create a polygon as the line tool, or make just a curve.
+Draws an arc by clicking twice on two points and dragging the mouse. The way of the cursor snapping and the change of it is same as how the line tool works. You can split or create a polygon as the line tool, or make just a curve.
 
 Steps
 -------
@@ -36,7 +36,7 @@ Select Only Visible
 Floor Height
  The height of the floor where the primitive shape is built by LMB Dragging.
  
-Segment
+Segments
  How many edges an arc will have.
 
 Close

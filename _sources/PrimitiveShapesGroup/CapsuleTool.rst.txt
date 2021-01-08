@@ -29,14 +29,14 @@ Interface
 
 Properties
 ---------------
-Segment
+Segments
  The count of side faces
 
 Radius
- A radius of a cone
+ A radius of a capsule
 
 Height
- A height of a cone
+ A height of a capsule
 
 Angle Snap
  When you drag the mouse with this property on, the capsule’s forward direction will snap to every 90 degree.

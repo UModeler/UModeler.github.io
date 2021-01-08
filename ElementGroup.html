@@ -89,7 +89,7 @@
             
               <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
-<li class="toctree-l1"><a class="reference internal" href="settings.html">Toolbar, Settings and Preference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="settings.html">Toolbar, Settings and Preferences</a></li>
 <li class="toctree-l1"><a class="reference internal" href="menu.html">Menu</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Elements Group</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#vertex-icon-elements-vertex-edge-icon-elements-edge-polygon-icon-elements-polygon-object-icon-elements-object">Vertex  / Edge  / Polygon  / Object </a><ul>
@@ -185,14 +185,14 @@
 <p>And there are gizmos which are displayed on the center of the selected elements and used for moving, rotating and scaling elements. They look like the following image roughly.</p>
 <div class="figure align-default" id="id1">
 <a class="reference internal image-reference" href="_images/gizmos.png"><img alt="_images/gizmos.png" src="_images/gizmos.png" style="width: 453.0px; height: 163.0px;" /></a>
-<p class="caption"><span class="caption-text">Source - <a class="reference external" href="https://knowledge.autodesk.com/support/autocad/getting-started/caas/CloudHelp/cloudhelp/2016/ENU/AutoCAD-Core/files/GUID-7BD066C9-31BA-4D47-8064-2F9CF268FA15-htm.html">AutoDesk - About using 3D Gizmos</a></span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text">Source - <a class="reference external" href="https://knowledge.autodesk.com/support/autocad/getting-started/caas/CloudHelp/cloudhelp/2016/ENU/AutoCAD-Core/files/GUID-7BD066C9-31BA-4D47-8064-2F9CF268FA15-htm.html">Autodesk - About using 3D Gizmos</a></span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 <p>You can select vertices and move/rotate/scale them with the Vertex Tool.
 The Edge Tool can make you select edges and move/rotate/scale them.
 Using the Polygon tool, polygons can be selected and moved/rotated/scaled.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>When you rotate and scale elements, the pivot position is usually the center of them. But when the 3D cursor is on, the cursor posision will be the pivot position.</p>
+<p>When you rotate and scale elements, the pivot position is usually the center of them. But when the 3D cursor is on, the cursor position will be the pivot position.</p>
 </div>
 <p>Basically selection of each element can be done by placing the mouse cursor there and pressing <code class="docutils literal notranslate"><span class="pre">LMB</span></code>. And <code class="docutils literal notranslate"><span class="pre">LMB</span></code> dragging from an empty space will draw a rectangle and select elements inside the rectangle.</p>
 <div class="admonition tip">
@@ -204,7 +204,7 @@ Using the Polygon tool, polygons can be selected and moved/rotated/scaled.</p>
 <div class="line">4. If you hold <code class="docutils literal notranslate"><span class="pre">SHIFT</span></code> while dragging a gizmo, the selected elements are extruded.</div>
 <div class="line">5. If you hold <code class="docutils literal notranslate"><span class="pre">CTRL</span></code> while dragging the move gizmo and moving to another vertex, the selected elements’ selected axis’s value will be snapped to the vertex. This is called <code class="docutils literal notranslate"><span class="pre">1D</span> <span class="pre">snapping</span></code></div>
 <div class="line">6. If you hold <code class="docutils literal notranslate"><span class="pre">SHIFT</span></code> + <code class="docutils literal notranslate"><span class="pre">CTRL</span></code> while dragging a gizmo, the vertices consisting of the elements will be split.</div>
-<div class="line">7. <code class="docutils literal notranslate"><span class="pre">LMB</span> <span class="pre">Double</span> <span class="pre">click</span></code> on a polygon will unwrap and stick it. This is called <code class="docutils literal notranslate"><span class="pre">Auto</span> <span class="pre">Layout</span></code>. Click <a class="reference internal" href="UVEditor/overview.html#autolayout"><span class="std std-ref">here</span></a> to get more infor about it.</div>
+<div class="line">7. <code class="docutils literal notranslate"><span class="pre">LMB</span> <span class="pre">Double</span> <span class="pre">click</span></code> on a polygon will unwrap and stick it. This is called <code class="docutils literal notranslate"><span class="pre">Auto</span> <span class="pre">Layout</span></code>. Click <a class="reference internal" href="UVEditor/overview.html#autolayout"><span class="std std-ref">here</span></a> to get more info about it.</div>
 </div>
 </div>
 <div class="admonition tip">
@@ -222,11 +222,11 @@ Using the Polygon tool, polygons can be selected and moved/rotated/scaled.</p>
 <img alt="_images/UModeler_ImprovedSelectOnlyVisibleFlag.gif" src="_images/UModeler_ImprovedSelectOnlyVisibleFlag.gif" />
 </div>
 <dl class="simple">
-<dt>Distance</dt><dd><p>How distant the selected elements move. This is only available as translation gizmo is enabled.</p>
+<dt>Distance</dt><dd><p>How distant the selected elements move. This is only available as the move gizmo is enabled.</p>
 </dd>
-<dt>Snap To Polygon</dt><dd><p>An edge is snapped to a close polygon within a specific distance. This is only available as the edge is being translated.</p>
+<dt>Snap To Polygon</dt><dd><p>An edge is snapped to a close polygon within a specific distance. This is only available as the edge is being moved.</p>
 </dd>
-<dt>Snap To Vertex</dt><dd><p>A vertex is snapped to the other close vertex within a specific distance. This is only available as the vertex is being translated.</p>
+<dt>Snap To Vertex</dt><dd><p>A vertex is snapped to the other close vertex within a specific distance. This is only available as the vertex is being moved.</p>
 </dd>
 <dt>Move To Cursor</dt><dd><p>Moves the current selected elements to the 3D cursor position.</p>
 </dd>

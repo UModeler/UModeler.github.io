@@ -37,7 +37,7 @@ If the selected edge is a part of a hole, all the edges of the holes will be sel
 Quad Loop |Icon_Selection_LoopSelectPolygon|
 ------------------------------------------------
 
-Serial quad polygons across a mesh will be selected in a direction of the first two selected quad.
+Serial quad polygons across a mesh will be selected in a direction of the first two selected quads.
 
 .. |UModeler_PolygonLoop_0| image:: /images/UModeler_PolygonLoop_0.jpg
    :scale: 100 %
