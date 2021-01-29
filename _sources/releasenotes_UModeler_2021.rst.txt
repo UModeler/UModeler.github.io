@@ -2,7 +2,15 @@
 UModeler 2021
 ############################
 
-.. figure:: /images/WitchCauldron.png
+Version 2.8.1 - Feb.1.2021
+==================================
+.. figure:: /images/TurtleShip.png
+
+- Assets : Includes the ``Turtle Ship`` demo pack.
+- Enhancement : The existing custom Move, Rotate and Scale gizmos have been replaced with the Unity handlers.
+- Enhancement : Length of every selected edge has been displayed when Local Overlay is on.
+- Enhancement : Length of every edge consisting of the selected faces has been displayed when Local Overlay is on.
+- Enhancement : Arc's overlay info has changed.
 
 Version 2.8.0f1 - Jan.14.2021
 ==================================
@@ -14,5 +22,7 @@ Version 2.8.0f1 - Jan.14.2021
 
 Version 2.8.0 - Jan.4.2021
 ==================================
+.. figure:: /images/WitchCauldron.png
+
 - Assets : Includes the ``Witch's Cauldron`` demo pack.
 - Fix : Fixed UV disappearing bug as UModeler objects are duplicated 
