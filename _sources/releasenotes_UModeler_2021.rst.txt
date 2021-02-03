@@ -10,7 +10,7 @@ Version 2.8.1 - Feb.1.2021
 - Enhancement : The existing Move, Rotate and Scale gizmos have been replaced with the Unity Move, Rotate and Scale Handles.
 - Enhancement : Length of every selected edge has been displayed when ``Local Overlay`` is on.
 - Enhancement : Length of every edge consisting of the selected faces has been displayed when ``Local Overlay`` is on.
-- Enhancement : Arc’s overlay info has be upgraded.
+- Enhancement : ``Arc tool``'s overlay info has be upgraded.
 
 Version 2.8.0f1 - Jan.14.2021
 ==================================
