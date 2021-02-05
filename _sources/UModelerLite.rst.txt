@@ -2,6 +2,10 @@
 UModeler Lite
 ##################
 
+.. note::
+
+ The first verion of UModeler Lite will be available soon! 
+
 .. figure:: /images/lite_titleimage.png
 
 Introduction
