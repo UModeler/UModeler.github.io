@@ -9,6 +9,10 @@ There are two modes of deleting elements. One is ``Immediate Mode`` and the othe
 
  * ``Immediate Mode`` - Select elements at first and then click on ``Eraser`` button to remove them.
  * ``Edit Mode`` - Select ``Eraser Tool`` first with no selected elements and then click on an edge which you want to remove.
+
+ .. note::
+
+  ``Edit Mode`` isn't available in the Lite version.
  
 When you try to erase an edge shared by two coplanar polygons, only the edge will be removed and the two shared polygons will be merged. Otherwise, the two polygons will be removed, too.
 

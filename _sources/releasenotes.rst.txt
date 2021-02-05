@@ -10,4 +10,5 @@ Release Notes
     releasenotes_UModeler_2019
     releasenotes_UModeler_2018
     releasenotes_UModeler_2017
+    releasenotes_UModelerLite
     releasenotes_UModelerBasic

@@ -41,6 +41,10 @@ Pinch
 
 Offset
  Moves the entire loop in a direction perpendicular to the loop. (``LMB Drag``)
+
+.. note::
+
+ ``Pinch`` and ``Offset`` properties aren't available in the Lite version.
  
 .. figure:: /images/UModeler_LoopSlice_0.jpg
    :scale: 95 %

@@ -109,6 +109,7 @@
 <li class="toctree-l1"><a class="reference internal" href="SurfaceGroup/index.html">Surface Group </a></li>
 <li class="toctree-l1"><a class="reference internal" href="MiscGroup/index.html">Misc Group </a></li>
 <li class="toctree-l1"><a class="reference internal" href="UVEditor/index.html">UV Editor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="UModelerLite.html">UModeler Lite</a></li>
 <li class="toctree-l1"><a class="reference internal" href="FAQ.html">FAQ</a></li>
 <li class="toctree-l1"><a class="reference internal" href="releasenotes.html">Release Notes</a></li>
 </ul>
@@ -219,6 +220,12 @@
 <div class="line"><code class="docutils literal notranslate"><span class="pre">Search</span> <span class="pre">EditBox</span></code> - Searches for a specific tool. This edit box can be activated by pressing ENTER in the scene view.</div>
 </div>
 </dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><code class="docutils literal notranslate"><span class="pre">Search</span> <span class="pre">EditBox</span></code> isn’t available in the Lite Version.</p>
+</div>
+<dl class="simple">
 <dt>Menu part</dt><dd><p>There are icons on various UModeler tools. You can switch the menu mode between icon-based and text-based via the popup menu which is brought up by pressing <code class="docutils literal notranslate"><span class="pre">RMB</span></code>. And it’s possible to detach it from the inspector to the separated window.</p>
 </dd>
 <dt>Properties  part</dt><dd><p>The properties and UIs related to the current tool are displayed here. This can also be detached to the separated window via the popup menu.</p>
@@ -294,10 +301,8 @@
 </div>
 <div class="section" id="meshfilter-component">
 <span id="meshfiltercomponent"></span><h2>MeshFilter Component<a class="headerlink" href="#meshfilter-component" title="Permalink to this headline">¶</a></h2>
-<p>From UModeler 2.6 new UIs only for UModeler have been added to MeshFilter component to save a mesh in MeshFilter component as .asset file.
-The biggest reason of this is to deal with a situation of missing a mesh in a prefab.
-For example the mesh of the UModeler prefab is sometimes lost when UModeler component of an instance of the prefab is removed and the change is applied.
-If you saved the mesh in the prefab as .asset in advance, you would be able to cope with this.</p>
+<p>There are new UIs in the MeshFilter component to save a mesh as .asset file.
+The asset file is a kind of a reference to geometry data. It prevents mesh data from being lost in the prefab.</p>
 <p>When you create a UModeler object at first, the mesh doesn’t exist yet.</p>
 <blockquote>
 <div><div class="figure align-default">
@@ -310,7 +315,7 @@ If you saved the mesh in the prefab as .asset in advance, you would be able to c
 <a class="reference internal image-reference" href="_images/MeshFilterComonent(2).jpg"><img alt="_images/MeshFilterComonent(2).jpg" src="_images/MeshFilterComonent(2).jpg" style="width: 261.25px; height: 95.0px;" /></a>
 </div>
 </div></blockquote>
-<p>With Save As button, you can rename it or save it in a different folder.</p>
+<p>With Save As button, you can rename it or save it in a different folder. Once a mesh is saved as .asset the mesh data in the asset file will be synchronized with the UModeler mesh.</p>
 </div>
 <hr class="docutils" />
 <div class="section" id="let-s-get-started-with-a-box">

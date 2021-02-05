@@ -29,6 +29,10 @@ When you click on this button, a new empty UModeler object will be created in a 
    
 When this is on, 3D cursor is activated and displayed on the scene view. The pivot of rotation and scaling is the 3D cursor position at this time. And the cursor can move along X,Y or Z axis with the move tool over the cursor. If the cursor passes nearby a vertex, it will be snapped to the vertex. If you press ``LMB`` holding ``CTRL`` and ``SHIFT``, the cursor will move to the cursor position at once. If the mouse cursor is over a UModeler mesh then, the 3D cursor will move to a picked position on the mesh.
 
+.. note::
+
+ ``3D Cursor`` isn't available in the Lite Version.
+
 .. figure:: /images/Icon_Misc_RefreshAll.png
    
    Refresh All
@@ -60,6 +64,10 @@ Seamless Edit
  
 Dockable Window 
  If on, the settings popup window will be switched to the dockable window.
+
+.. note::
+
+ ``Seamless Edit`` isn't available in the Lite Version.
  
 .. _Snap:
 
@@ -116,6 +124,10 @@ Local Overlay
 Position Overlay
  Displays local or world position of the selected vertices.
 
+.. note::
+
+ ``Position Overlay`` isn't available in the Lite Version.
+
 .. figure:: /images/UModeler_Settings_PositionOverlay.png
    :scale: 80 %
 
@@ -127,6 +139,9 @@ Position Overlay
 
 Preferences
 ===========
+
+.. note::
+ ``Preference`` window isn't available in the Lite Version.
 
 You can set shortcuts and general settings of UModeler in UModeler Preferences window to which you can go through ``Tools > UModeler > Preferences`` in the top menu. 
 

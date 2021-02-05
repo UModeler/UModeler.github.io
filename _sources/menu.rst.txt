@@ -38,17 +38,25 @@ Opens up the UV Editor.
 .. figure:: /images/UVEditor.jpg
    :scale: 80 %   
 
+.. note::
+
+  ``UV Editor`` isn't available in the Lite version.
+
 ---------------------------------------------------------------------------------------------------------------------------------
 
 UModelerize
 ========================================
-Converts the selected objects to UModeler objects so that they can be edited using UModeler tools.
+Converts the selected static mesh objects or UModeler Lite objects to UModeler objects so that they can be edited using UModeler tools.
 
 ---------------------------------------------------------------------------------------------------------------------------------
    
 UModelerize Hierarchically
 ========================================
 Converted the selected objects and all their children objects to UModeler objects. 
+
+.. note::
+
+  ``UModelerize`` and ``UModelerize Hierarchically`` aren't available in the Lite version.
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
@@ -58,6 +66,10 @@ Divides all polygons into triangles.
 
 .. figure:: /images/Before_After_Triangulation.jpg
    :scale: 95 %
+
+.. note::
+
+  ``Triangulate`` isn't available in the Lite version.   
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
@@ -81,6 +93,10 @@ Repaired all corrupt UModeler objects so that any errors won't happen.
     - There are holes outside the area of the polygon.
     - The whole vertex number is 1.
 
+.. note::
+
+  ``Diagnose All`` and ``Repair All`` aren't available in the Lite version.       
+
 ---------------------------------------------------------------------------------------------------------------------------------
 
 Refresh All
@@ -94,3 +110,7 @@ Preferences
 Opens the Preferences window.
    
 See :ref:`AdvancedPreferences` to get more info.
+
+.. note::
+
+  ``Preferences`` window isn't available in the Lite version.   
