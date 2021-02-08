@@ -218,7 +218,7 @@
 <dt>Invisible In PlayMode.</dt><dd><p>If on, a mesh is invisible in Play Mode and it is displayed in transparent color in Editor mode. This will be very useful if you want to use UModeler mesh as a trigger or a collider.</p>
 </dd>
 </dl>
-<dl id="recalculate-tangents">
+<dl class="simple" id="recalculate-tangents">
 <dt>Recalculate Tangents</dt><dd><p>If this is on, tangent vectors will be calculated every time UModeler mesh changes. If the materials in UModeler have normal textures, this should be on.</p>
 </dd>
 <dt>Don’t Save In Build</dt><dd><p>If this is on, UModeler component isn’t included in Build. If you want to edit a mesh using UModeler at runtime, it needs to be on when the project is built.
@@ -226,14 +226,7 @@ Usually this property is on because most meshes are just for rendering at runtim
 </dd>
 <dt>Generate UV2 channel for Lightmap</dt><dd><p>Generate UVs for lightmaps. From 2.6.9 UVs for lightmap aren’t created automatically. If you want to generate lightmap UVs of all UModeler meshs in a scene, click on <code class="docutils literal notranslate"><span class="pre">Tools</span> <span class="pre">&gt;</span> <span class="pre">UModeler</span> <span class="pre">&gt;</span> <span class="pre">Refresh</span> <span class="pre">All</span></code>.</p>
 </dd>
-<dt>Covnerts To Byte Stream Data</dt><dd><p>This button converts the data format of the selected UModeler meshes into Byte Stream Data format. The byte stream data format reduces the size of .unity and .prefab files, decreases delays when saving/loading a scene and entering/exiting game mode, and reduces file diff. The Diff refers to the difference between the previous and current version of a file.</p>
-<p>And this button is displayed only when a UModeler object whose format is not a byte stream is selected.</p>
-</dd>
 </dl>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p><code class="docutils literal notranslate"><span class="pre">Covnerts</span> <span class="pre">To</span> <span class="pre">Byte</span> <span class="pre">Stream</span> <span class="pre">Data</span></code> button is available as of UModeler 2.7.26.</p>
-</div>
 <div class="figure align-default">
 <a class="reference internal image-reference" href="../_images/LocalSettings.jpg"><img alt="../_images/LocalSettings.jpg" src="../_images/LocalSettings.jpg" style="width: 276.0px; height: 246.0px;" /></a>
 </div>
