@@ -10,9 +10,22 @@ Q) How can a static mesh be converted to UModeler mesh?
 ------------------------------------------------------------------------------------------------------------------------------------------------
 You have to select a game object with a static mesh. And go to ``Tool > UModeler > UModelerize`` at the top of Unity editor to convert the selected mesh.
 Several static meshes can also be converted if you select them before trying to UModelerize.
+
+Q) Is UModeler Lite mesh compatible with the UModeler full version?
+------------------------------------------------------------------------------------------------------------------------------------------------
+Yes, but UModeler Lite mesh can't be used with UModeler full verion immediately. So it has to be converted to UModeler mesh using ``UModelerlize`` tool in UModeler like a general mesh is converted.
+
+Q) Is UModeler mesh compatible with UModeler Lite version?
+------------------------------------------------------------------------------------------------------------------------------------------------
+No, UModeler Lite version doesn't have ``UModelerize`` tool so UModeler mesh can't be converted to UModeler Lite mesh. 
+
+Q) How can a static mesh be converted to UModeler mesh?
+------------------------------------------------------------------------------------------------------------------------------------------------
+You have to select a game object with a static mesh. And go to ``Tool > UModeler > UModelerize`` at the top of Unity editor to convert the selected mesh.
+Several static meshes can also be converted if you select them before trying to UModelerize.
  
-Q) The UModelerized mesh is still a triangle-based shape. I want to have more like UModeler mesh. In other words All adjacent coplanar faces have to be merged into one face.
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q) The UModelerized mesh is still a triangle-based shape. How shoud I do for it to look like like UModeler mesh? In other words I want all adjacent coplanar faces to be merged into one face.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Click on ``Combine Tool`` button once you select all polygons. This will combine adjacent coplanar polygons into one polygon.
 See the `Combine Polygon Tool <https://umodeler.github.io/RemoveGroup/CombineTool.html#combine-polygon-tool-icon-remove-combinepolygons>`_.
 
@@ -34,5 +47,5 @@ And then try to ``Clear Baked Data`` and ``Generate Lighting`` in ``Lighting`` w
  
 Q) How can I hide the Toolbar at the top of the scene view when UModeler object isn't selected?
 ---------------------------------------------------------------------------------------------------------------------------------
-Navigate to ``Tools > UModeler > Preferences`` and turn off ``Keep System Toolbar on always``.  
+Navigate to ``Tools > UModeler > Preferences`` and turn off ``Keep System Toolbar on always``.
 See :ref:`AdvancedPreferences` to get more info.

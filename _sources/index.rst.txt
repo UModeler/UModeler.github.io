@@ -1,3 +1,6 @@
+.. role:: raw-html(raw)
+    :format: html
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
  Unity UModeler Manual
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -6,10 +9,12 @@
   
 .. raw:: html
 
- <a href="https://assetstore.unity.com/packages/tools/modeling/umodeler-80868">Asset Store</a> | <a href="http://www.tripolygon.com">Website</a> | <a href="https://cafe.naver.com/tripolygon/31">한글 메뉴얼</a>
+ <a href="https://assetstore.unity.com/packages/tools/modeling/umodeler-model-your-world-80868?utm_source=manual&utm_medium=link&utm_campaign=umodeler">UModeler</a> | 
+ <a href="https://assetstore.unity.com/packages/slug/133081?utm_source=manual&utm_medium=link&utm_campaign=umodelerlite">UModeler Lite</a> |
+ <a href="https://umodeler.github.io/UModelerLite.html">UModeler Lite Doc</a> |
+ <a href="http://www.tripolygon.com">Website</a> | 
+ <a href="https://cafe.naver.com/tripolygon/31">한글 메뉴얼</a>
  
-|
-
 .. only:: latex or epub or singlehtml
 
  .. toctree::
@@ -32,6 +37,7 @@
     FAQ
     releasenotes
 
+:raw-html:`<br />`
 Welcome to the UModeler Manual!
 
 This is the manual of UModeler, which is the Unity extension for modeling and prototyping.
