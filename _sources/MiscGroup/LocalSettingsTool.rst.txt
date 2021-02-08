@@ -15,6 +15,9 @@ Backface
 Lightmap Static
  Changes the lighting way to lightmap. This variable is interlocked with ``Lightmap Static`` in ``Lighting`` window.
 
+Invisible In PlayMode.
+ If on, a mesh is invisible in Play Mode and it is displayed in transparent color in Editor mode. This will be very useful if you want to use UModeler mesh as a trigger or a collider.
+
 .. _recalculate-tangents: 
 
 Recalculate Tangents
@@ -38,5 +41,3 @@ Covnerts To Byte Stream Data
 
 .. figure:: /images/LocalSettings.jpg
    :scale: 100 %
- 
- 

@@ -2,7 +2,7 @@
  Unity UModeler Manual
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
- .. figure:: /images/coverimages.jpg   
+ .. figure:: /images/coverimages.png
   
 .. raw:: html
 
