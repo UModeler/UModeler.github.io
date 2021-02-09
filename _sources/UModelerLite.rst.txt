@@ -20,7 +20,7 @@ Install
   
 Import ``UModeler Lite`` package in your project after getting it from the asset store.
    
-Make sure that ``Tools/UModeler Lite`` menu has been created at the top. If you click on ``New UModeler`` as shown in the upper image, a new game object with UModeler component will be created and you can see the layout looking like the following.
+Make sure that ``Tools/UModeler Lite`` menu has been created at the top. If you click on ``New UModeler`` in the sub menu, a new game object with UModeler component will be created and you can see the layout looking like the following.
    
 ----------------------------------------------------------------------------------------------------------------------
 
