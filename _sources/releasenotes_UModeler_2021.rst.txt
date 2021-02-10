@@ -2,7 +2,7 @@
 UModeler 2021
 ############################
 
-Version 2.8.1f - Feb.2.2021
+Version 2.8.1f1 - Feb.2.2021
 ==================================
 - Assets : Includes the Turtle Ship demo pack.
 - Fix : Fixed a bug where a object move using a move gizmo's arrow isn't correct in a rotated UModeler object.
