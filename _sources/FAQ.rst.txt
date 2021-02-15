@@ -18,11 +18,6 @@ Yes, but UModeler Lite mesh can't be used with UModeler full verion immediately.
 Q) Is UModeler mesh compatible with UModeler Lite version?
 ------------------------------------------------------------------------------------------------------------------------------------------------
 No, UModeler Lite version doesn't have ``UModelerize`` tool so UModeler mesh can't be converted to UModeler Lite mesh. 
-
-Q) How can a static mesh be converted to UModeler mesh?
-------------------------------------------------------------------------------------------------------------------------------------------------
-You have to select a game object with a static mesh. And go to ``Tool > UModeler > UModelerize`` at the top of Unity editor to convert the selected mesh.
-Several static meshes can also be converted if you select them before trying to UModelerize.
  
 Q) The UModelerized mesh is still a triangle-based shape. How shoud I do for it to look like like UModeler mesh? In other words I want all adjacent coplanar faces to be merged into one face.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
