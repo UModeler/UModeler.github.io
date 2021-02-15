@@ -9,11 +9,11 @@
   
 .. raw:: html
 
- <a href="https://assetstore.unity.com/packages/tools/modeling/umodeler-model-your-world-80868?utm_source=manual&utm_medium=link&utm_campaign=umodeler">UModeler</a> | 
- <a href="https://assetstore.unity.com/packages/slug/133081?utm_source=manual&utm_medium=link&utm_campaign=umodelerlite">UModeler Lite</a> |
- <a href="https://umodeler.github.io/UModelerLite.html">UModeler Lite Doc</a> |
- <a href="http://www.tripolygon.com">Website</a> | 
- <a href="https://cafe.naver.com/tripolygon/31">한글 메뉴얼</a>
+ <a href="https://assetstore.unity.com/packages/tools/modeling/umodeler-model-your-world-80868?utm_source=manual&utm_medium=link&utm_campaign=umodeler" target="_blank">UModeler</a> | 
+ <a href="https://assetstore.unity.com/packages/slug/133081?utm_source=manual&utm_medium=link&utm_campaign=umodelerlite "target="_blank">UModeler Lite</a> |
+ <a href="https://umodeler.github.io/UModelerLite.html" target="_blank">UModeler Lite Doc</a> |
+ <a href="http://www.tripolygon.com" target="_blank">Website</a> | 
+ <a href="https://cafe.naver.com/tripolygon/31" target="_blank">한글 메뉴얼</a>
  
 .. only:: latex or epub or singlehtml
 
