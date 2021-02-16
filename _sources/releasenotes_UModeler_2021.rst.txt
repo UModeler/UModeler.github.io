@@ -2,6 +2,21 @@
 UModeler 2021
 ############################
 
+Version 2.8.1f3 - Feb.17.2021
+==================================
+- Assets : Includes the Turtle Ship demo pack.
+- Enhancement : Added the Hand too in UV Editor.
+- Fix : Fixed not being able to move 3D cursor using the move gizmo.
+- Fix : Fixed overlapped polygons after UV unwrapping and using LoopSlice tool.
+- Fix : Fixed Hand tool not working on the edit mode in the scene view.
+- Fix : Fixed a bug where double click for loop selection didn't work when the cursor is on a gizmo.
+- Fix : Fixed Select Only Visible not working on edges.
+
+Version 2.8.1f1 - Feb.16.2021
+==================================
+- Assets : Includes the Turtle Ship demo pack.
+- Fix : Fixed a bug where a object move using a move gizmo's arrow isn't correct in a rotated UModeler object.
+
 Version 2.8.1f1 - Feb.2.2021
 ==================================
 - Assets : Includes the Turtle Ship demo pack.
