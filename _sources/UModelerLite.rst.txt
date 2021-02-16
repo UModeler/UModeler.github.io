@@ -2,10 +2,6 @@
 UModeler Lite
 ##################
 
-.. note::
-
- The first verion of UModeler Lite will be available soon! 
-
 .. figure:: /images/lite_titleimage.png
 
 Introduction
@@ -185,6 +181,14 @@ Now you are ready to make a fantastic world with ``UModeler Lite`` in Unity.
 
 .. figure:: /images/UModelerLite_GettingStarted4.png
  :scale: 35 %
+
+----------------------------------------------------------------------------------------------------------------------
+
+We have tutorial videos so that you can get used to UModeler Lite quickly.
+
+.. raw:: html
+ 
+ <a href="https://www.youtube.com/playlist?list=PLKfydgNGUTp2QAoE_eizEv3gF5TLoSVYk" target="_blank">Tutorial Videos</a>
 
 ----------------------------------------------------------------------------------------------------------------------
 
