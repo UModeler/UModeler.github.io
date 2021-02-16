@@ -5,7 +5,8 @@ UModeler 2021
 Version 2.8.1f3 - Feb.17.2021
 ==================================
 - Assets : Includes the Turtle Ship demo pack.
-- Enhancement : Added the Hand too in UV Editor.
+- Enhancement : Added the Hand tool in UV Editor.
+- Enhancement : Added Alt+RMB Move to Zoom in/out in UV Editor
 - Fix : Fixed not being able to move 3D cursor using the move gizmo.
 - Fix : Fixed overlapped polygons after UV unwrapping and using LoopSlice tool.
 - Fix : Fixed Hand tool not working on the edit mode in the scene view.
