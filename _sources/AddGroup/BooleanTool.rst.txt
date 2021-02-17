@@ -39,4 +39,11 @@ Steps
 
    Subtract boolean operation |Icon_Add_BooleanSubtract|
    
-   
+.. note::
+
+  Boolean Tool is not perfect to all meshes. If you find some broken parts after applying booelan operations, you can repair them using the following tools.
+  
+  | Bridge Tool    
+  | Eraser Tool  
+  | Remove Double Tool  
+  | Collapse Tool
