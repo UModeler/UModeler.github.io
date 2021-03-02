@@ -2,6 +2,14 @@
 UModeler 2021
 ############################
 
+Version 2.8.2 - March.3.2021
+==================================
+.. figure:: /images/dreadnought_image.png
+
+- Assets : Includes the Dreadnought robot demo pack.
+- Enhancement : Supported collaborating with the Surforge asset.
+- Fix : Fixed not being able to select vertices on the mirror plane in Mirror mode.
+
 Version 2.8.1f3 - Feb.17.2021
 ==================================
 - Assets : Includes the Turtle Ship demo pack.
