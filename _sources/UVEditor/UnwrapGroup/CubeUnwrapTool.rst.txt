@@ -37,6 +37,6 @@ Unwrap
    Unwrap the selected polygon in 3D Scene view.
    
 .. figure:: /images/UModeler_UVEditor_CubeUnwrap.jpg
-     :scale: 100 %
+     :scale: 45 %
   
      Unfolding polygons consisting of a sphere using ``Cube Unwrap Tool``

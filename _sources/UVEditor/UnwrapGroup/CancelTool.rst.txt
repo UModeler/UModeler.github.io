@@ -13,12 +13,12 @@ Steps
 2. Go to ``Cancel Tool`` in ``Unwrap Group``
 
  .. figure:: /images/UModeler_UVEditor_CancelTool_0.jpg
-     :scale: 100 %
+     :scale: 35 %
   
      Selects unwrapped polygons.
 	 
 
  .. figure:: /images/UModeler_UVEditor_CancelTool_1.jpg
-     :scale: 100 %
+     :scale: 35 %
   
      ``Cancel Tool`` gives the polygons automatic generated UVs so the polygons are removed from UV Editor.
