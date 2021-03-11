@@ -46,7 +46,7 @@ Layout
 
  Header 
   | ``UModeler Ver 2.xx`` - Opens the About dialog box.  
-  | ``Close`` - Disables UModeler to make the current UModeler object behave and visulized same as the general obejct. It can be enabled again by clicking on Open button which is shown up during the disable status. 
+  | ``Close`` - Disables UModeler to make the current UModeler object behave and look the same as the general object. It can be enabled again by clicking on Open button which is shown up during the disable status. 
   | ``?`` - Opens the online manual describing what the current tool is and how to use it.
   | ``Search EditBox`` - Searches for a specific tool. This edit box can be activated by pressing ENTER in the scene view.
 
