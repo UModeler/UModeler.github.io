@@ -4,15 +4,16 @@ UModeler 2021
 
 Version 2.8.2f1 - March.17.2021
 ==================================
-- Assets : Includes the Dreadnought robot demo pack.
+- Assets : Includes the Dreadnought: SF combat robot demo pack.
 - Fix : Fixed Null Reference Exception when ``Open`` button in the inspector is clicked.
+- Fix : Fixed typos of tooltips etcs.
 - Enhancement : Supported converting a quad-based mesh using ``UModelerize``.
 
 Version 2.8.2 - March.3.2021
 ==================================
 .. figure:: /images/dreadnought_image.png
 
-- Assets : Includes the Dreadnought robot demo pack.
+- Assets : Includes the Dreadnought: SF combat robot demo pack.
 - Enhancement : Supported collaborating with the Surforge asset.
 - Fix : Fixed not being able to select vertices on the mirror plane in Mirror mode.
 
