@@ -2,6 +2,12 @@
 UModeler 2021
 ############################
 
+Version 2.8.2f1 - March.17.2021
+==================================
+- Assets : Includes the Dreadnought robot demo pack.
+- Fix : Fixed Null Reference Exception when ``Open`` in the inspector button is clicked.
+- Enhancement : Supported converting a quad-based mesh using ``UModelerize``.
+
 Version 2.8.2 - March.3.2021
 ==================================
 .. figure:: /images/dreadnought_image.png
