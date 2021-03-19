@@ -2,6 +2,11 @@
 UModeler 2021
 ############################
 
+Version 2.8.2f2 - March.19.2021
+====================================
+- Assets : Includes the Dreadnought: SF combat robot demo pack.
+- Fix : Fixed the toolbar disappearing caused by the fix in 2.8.2f1
+
 Version 2.8.2f1 - March.17.2021
 ==================================
 - Assets : Includes the Dreadnought: SF combat robot demo pack.
