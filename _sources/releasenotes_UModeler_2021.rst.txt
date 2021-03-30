@@ -5,7 +5,7 @@ UModeler 2021
 Version 2.8.2f3 - March.29.2021
 ====================================
 - Assets : Includes the Dreadnought: SF combat robot demo pack.
-- Fix : Fixed V Snapping working from Unity 2020.2 and newer versions.
+- Fix : Fixed V Snapping not working from Unity 2020.2 and newer versions.
 
 Version 2.8.2f2 - March.19.2021
 ====================================
