@@ -2,6 +2,12 @@
 UModeler 2021
 ############################
 
+Version 2.8.3 - April.12.2021
+====================================
+.. figure:: /images/Vermilion_screenshot.png
+
+- Assets : Includes the Medieval town : Vermilion deom package.
+
 Version 2.8.2f3 - March.29.2021
 ====================================
 - Assets : Includes the Dreadnought: SF combat robot demo pack.
