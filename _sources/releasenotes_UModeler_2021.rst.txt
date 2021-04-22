@@ -2,7 +2,7 @@
 UModeler 2021
 ############################
 
-Version 2.8.3f2 - April.26.21
+Version 2.8.3f2 - April.26.2021
 =================================
 .. figure:: /images/HotspotTexturing_UrbanBuildings.png
 
