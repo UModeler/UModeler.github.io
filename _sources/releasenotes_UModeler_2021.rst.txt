@@ -2,6 +2,17 @@
 UModeler 2021
 ############################
 
+Version 2.8.3f2 - April.26.21
+=================================
+.. figure:: /images/HotspotTexturing_UrbanBuildings.jpg
+
+- Assets : Includes The Medieval Town : Vermilion demo pack.
+- Assets : Includes The Urban Buildings demo pack to showcase Hotspot Texturing feature.
+- Feature : Added the Hotspot Texturing.
+- Fix : Fixed z-fighting issue of a face overlay in ISO mode.
+- Enhancement : Implemented Picking Vertex Color. Pick Color button has been added in the Vertex Color tool and the Polygon color tool.
+- Fix : Fixed the duplicate tool bug where a polygon popped up or disappeared.
+
 Version 2.8.3 - April.12.2021
 ====================================
 .. figure:: /images/Vermilion_screenshot.png
