@@ -4,7 +4,7 @@ UModeler 2021
 
 Version 2.8.3f2 - April.26.21
 =================================
-.. figure:: /images/HotspotTexturing_UrbanBuildings.jpg
+.. figure:: /images/HotspotTexturing_UrbanBuildings.png
 
 - Assets : Includes The Medieval Town : Vermilion demo pack.
 - Assets : Includes The Urban Buildings demo pack to showcase Hotspot Texturing feature.
