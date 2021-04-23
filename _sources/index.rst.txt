@@ -33,6 +33,7 @@
     SurfaceGroup/index
     MiscGroup/index
     UVEditor/index
+    HotspotTexturing
     UModelerLite
     FAQ
     releasenotes
@@ -115,6 +116,11 @@ Sections
 
     :doc:`/UVEditor/index`
      Separate editor window to edit UVs using various tools, such as unwrapping, transforming UVs, alignment, flip/rotate, sew etc.
+
+   .. container:: descr
+
+   :doc:`HotspotTexturing`
+     Hotspot Texturing
 
    .. container:: descr
 

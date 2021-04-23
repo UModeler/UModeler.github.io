@@ -1,0 +1,442 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Hotspot Texturing &mdash; Unity UModeler Manual  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="_static/logo_fav_transparent_background.png"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="UModeler Lite" href="UModelerLite.html" />
+    <link rel="prev" title="Export Tool" href="UVEditor/MiscGroup/ExportTool.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> Unity UModeler Manual
+          
+
+          
+            
+            <img src="_static/UModeler_ManualTitle_1.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="settings.html">Toolbar, Settings and Preferences</a></li>
+<li class="toctree-l1"><a class="reference internal" href="menu.html">Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ElementGroup.html">Elements Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SelectionGroup/index.html">Selection Group </a></li>
+<li class="toctree-l1"><a class="reference internal" href="DrawingGroup/index.html">Drawing Group </a></li>
+<li class="toctree-l1"><a class="reference internal" href="PrimitiveShapesGroup/index.html">Primitive Shapes Group </a></li>
+<li class="toctree-l1"><a class="reference internal" href="AddGroup/index.html">Add Group </a></li>
+<li class="toctree-l1"><a class="reference internal" href="RemoveGroup/index.html">Remove Group </a></li>
+<li class="toctree-l1"><a class="reference internal" href="TweakGroup/index.html">Tweak Group </a></li>
+<li class="toctree-l1"><a class="reference internal" href="SurfaceGroup/index.html">Surface Group </a></li>
+<li class="toctree-l1"><a class="reference internal" href="MiscGroup/index.html">Misc Group </a></li>
+<li class="toctree-l1"><a class="reference internal" href="UVEditor/index.html">UV Editor</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Hotspot Texturing</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#introduction">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#hotspot-layout-tool">Hotspot Layout tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#hotspot-layout-editor">Hotspot Layout Editor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-use">How to Use</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#using-auto-hotspot">Using <code class="docutils literal notranslate"><span class="pre">Auto</span> <span class="pre">Hotspot</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#using-hotspot-group">Using <code class="docutils literal notranslate"><span class="pre">Hotspot</span> <span class="pre">Group</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#using-apply-selected-hotspot">Using <code class="docutils literal notranslate"><span class="pre">Apply</span> <span class="pre">Selected</span> <span class="pre">Hotspot</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="UModelerLite.html">UModeler Lite</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FAQ.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="releasenotes.html">Release Notes</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Unity UModeler Manual</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Hotspot Texturing</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/HotspotTexturing.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="hotspot-texturing">
+<h1>Hotspot Texturing<a class="headerlink" href="#hotspot-texturing" title="Permalink to this headline">¶</a></h1>
+<div class="figure align-default">
+<img alt="_images/HotspotTexturing_UrbanBuildings.png" src="_images/HotspotTexturing_UrbanBuildings.png" />
+</div>
+<div class="section" id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<p><code class="docutils literal notranslate"><span class="pre">Hotspot</span> <span class="pre">texturing</span></code> is a feature that makes UV unwrap easier and faster.
+If you define UV layouts using the hotspot layout editor, UVs of each polygon can be placed according to the predefined layouts automatically.</p>
+</div>
+<hr class="docutils" />
+<div class="section" id="hotspot-layout-tool">
+<h2>Hotspot Layout tool<a class="headerlink" href="#hotspot-layout-tool" title="Permalink to this headline">¶</a></h2>
+<div class="figure align-default" id="id1">
+<a class="reference internal image-reference" href="_images/Hotspot_Texturing_tool_location.jpg"><img alt="_images/Hotspot_Texturing_tool_location.jpg" src="_images/Hotspot_Texturing_tool_location.jpg" style="width: 197.0px; height: 451.5px;" /></a>
+<p class="caption"><span class="caption-text"><code class="docutils literal notranslate"><span class="pre">Hotspot</span> <span class="pre">Layout</span></code> tool</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">Hotspot</span> <span class="pre">Layout</span></code> tool is for hotspot texturing. It is located in the <code class="docutils literal notranslate"><span class="pre">Surface</span></code> group.</p>
+<div class="figure align-default" id="id2">
+<a class="reference internal image-reference" href="_images/hotspottexturing_properties_window.png"><img alt="_images/hotspottexturing_properties_window.png" src="_images/hotspottexturing_properties_window.png" style="width: 462.0px; height: 376.8px;" /></a>
+<p class="caption"><span class="caption-text"><code class="docutils literal notranslate"><span class="pre">Hotspot</span> <span class="pre">Layout</span></code> tool properties</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+</div>
+<dl class="simple">
+<dt>1.Select Only Visible</dt><dd><p>If on, only visible polygons can be selected in the scene view.</p>
+</dd>
+<dt>2.Auto Hotspot</dt><dd><p>If on, hotspot texturing is applied to every polygon whose is involved in being edited at realtime.</p>
+</dd>
+<dt>3.Hotspot Group</dt><dd><p>If on, adjacent polygons are placed in one layout.</p>
+</dd>
+<dt>4.Hotspot Padding</dt><dd><p>If enabled, UVs are away by this pixel value from the layout</p>
+</dd>
+<dt>5.Hotspot Layout</dt><dd><p>Hotspot layout file. The format is .asset. This layout file can be applied to several objects.</p>
+</dd>
+<dt>6.New Hotspot Layout/Open Layout Editor</dt><dd><p>If a hotspot layout file isn’t set, <code class="docutils literal notranslate"><span class="pre">New</span> <span class="pre">Hotspot</span> <span class="pre">Layout</span></code> button is enabled so that you can create a new layout file.
+If a hotspot layout file is set, <code class="docutils literal notranslate"><span class="pre">UV</span> <span class="pre">Layout</span> <span class="pre">Editor</span></code> will be opened.</p>
+</dd>
+<dt>7.Apply Hotspot</dt><dd><p>If enabled, the hotspot texturing will be applied to the selected polygons. The selected polygons’ UV coordinates will be place in the most appropriate layout.</p>
+</dd>
+<dt>8.Apply Selected Hotspot</dt><dd><p>If enabled, the selected polygons’ UV coordinates will be placed in the selected hotspot layout.</p>
+</dd>
+</dl>
+</div>
+<hr class="docutils" />
+<div class="section" id="hotspot-layout-editor">
+<h2>Hotspot Layout Editor<a class="headerlink" href="#hotspot-layout-editor" title="Permalink to this headline">¶</a></h2>
+<p>Defines layouts for hotspot texturing. The usage is somewhat similar to UV Editor.</p>
+<div class="figure align-default" id="id3">
+<a class="reference internal image-reference" href="_images/HotspotLayout_Editor.png"><img alt="_images/HotspotLayout_Editor.png" src="_images/HotspotLayout_Editor.png" style="width: 633.6px; height: 592.1999999999999px;" /></a>
+<p class="caption"><span class="caption-text"><code class="docutils literal notranslate"><span class="pre">Hotspot</span> <span class="pre">Layout</span> <span class="pre">Editor</span></code></span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</div>
+<dl class="simple">
+<dt>1.Move</dt><dd><p>Moves the selected layout polygon or UV</p>
+</dd>
+<dt>2.Rectangle</dt><dd><p>Resizes the selected layout polygon or UV using <code class="docutils literal notranslate"><span class="pre">Rectangle</span></code> gizmo.</p>
+</dd>
+<dt>3.UV Tool</dt><dd><p>Selects each UV and transform it using gizmos.</p>
+</dd>
+<dt>4.Polygon Tool</dt><dd><p>Selects each layout polygon and transform it using gizmos.</p>
+</dd>
+<dt>5.Texture Slot</dt><dd><p>Opens a texture displayed in the editor. This texture is just a guide.</p>
+</dd>
+<dt>6.Open Active Hotspot Layout</dt><dd><p>Opens a hotspot layout file of the current object.</p>
+</dd>
+<dt>7.Hotspot Layout Slot</dt><dd><p>Hotspot layout file (.asset).</p>
+</dd>
+<dt>8.Grid Snap</dt><dd><p>Grid snap size list.</p>
+</dd>
+<dt>9.Rectangle Tool</dt><dd><p>You can use this to make a rectangle layout.</p>
+</dd>
+<dt>10.Right Angled Triangle Tool</dt><dd><p>You can use this to make a right angled triangle layout.</p>
+</dd>
+<dt>11.Icosceles Angled Triangle Tool</dt><dd><p>You can use this to make an icosceles angled triangle layout.</p>
+</dd>
+<dt>12.Delete Tool</dt><dd><p>You can remove the selected layout. The shortcut is <code class="docutils literal notranslate"><span class="pre">Del</span></code> key.</p>
+</dd>
+<dt>13.Rotate Pos90 Tool</dt><dd><p>Rotates the selected layout by positive 90 degrees.</p>
+</dd>
+<dt>14.Rotate Neg90 Tool</dt><dd><p>Rotates the selected layout by negative 90 degrees.</p>
+</dd>
+<dt>15.Flip Horizontal Tool</dt><dd><p>Flips the selected layout horizontally.</p>
+</dd>
+<dt>16.Flip Vertical Tool</dt><dd><p>Flips the selected layout vertically.</p>
+</dd>
+</dl>
+</div>
+<hr class="docutils" />
+<div class="section" id="how-to-use">
+<h2>How to Use<a class="headerlink" href="#how-to-use" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="using-auto-hotspot">
+<h3>Using <code class="docutils literal notranslate"><span class="pre">Auto</span> <span class="pre">Hotspot</span></code><a class="headerlink" href="#using-auto-hotspot" title="Permalink to this headline">¶</a></h3>
+<div class="figure align-default" id="id4">
+<a class="reference internal image-reference" href="_images/UsingAutoHotspot.png"><img alt="_images/UsingAutoHotspot.png" src="_images/UsingAutoHotspot.png" style="width: 769.2px; height: 414.40000000000003px;" /></a>
+<p class="caption"><span class="caption-text"><code class="docutils literal notranslate"><span class="pre">Hotspot</span> <span class="pre">Layout</span></code> tool properties</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+</div>
+<ol class="arabic simple">
+<li><p>At first you should select a UModeler mesh or create it.</p></li>
+<li><p>Enter <code class="docutils literal notranslate"><span class="pre">Hotspot</span> <span class="pre">Layout</span></code> tool</p></li>
+<li><p>You should create a new Hotspot layout file by pressing <code class="docutils literal notranslate"><span class="pre">New</span> <span class="pre">Hotspot</span> <span class="pre">Layout</span></code> or open the existing layout file via <code class="docutils literal notranslate"><span class="pre">Hotspot</span> <span class="pre">Layout</span></code> slot.</p></li>
+<li><p>Now click on <code class="docutils literal notranslate"><span class="pre">Open</span> <span class="pre">Layout</span> <span class="pre">Editor</span></code> to opens the Layout Editor</p></li>
+</ol>
+<div class="figure align-default" id="id5">
+<a class="reference internal image-reference" href="_images/hotspotlayout_editor_autohotspot_0.png"><img alt="_images/hotspotlayout_editor_autohotspot_0.png" src="_images/hotspotlayout_editor_autohotspot_0.png" style="width: 631.0px; height: 520.0px;" /></a>
+<p class="caption"><span class="caption-text"><code class="docutils literal notranslate"><span class="pre">Hotspot</span> <span class="pre">Layout</span> <span class="pre">Editor</span></code></span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+</div>
+<ol class="arabic simple" start="5">
+<li><p>Selects a texture via the texture slot at the top of the editor.</p></li>
+</ol>
+<div class="figure align-default" id="id6">
+<a class="reference internal image-reference" href="_images/hotspot_texture_editor_texslot.png"><img alt="_images/hotspot_texture_editor_texslot.png" src="_images/hotspot_texture_editor_texslot.png" style="width: 467.59999999999997px; height: 106.39999999999999px;" /></a>
+<p class="caption"><span class="caption-text">Texture slot.</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+</div>
+<ol class="arabic simple" start="6">
+<li><p>Now a guide texture is displayed. Then select <code class="docutils literal notranslate"><span class="pre">Rectangle</span> <span class="pre">Tool</span></code> on the right and drag <code class="docutils literal notranslate"><span class="pre">LMB</span></code> to create a rectangle layout.</p></li>
+</ol>
+<div class="figure align-default" id="id7">
+<a class="reference internal image-reference" href="_images/rectangle_tool_menu.png"><img alt="_images/rectangle_tool_menu.png" src="_images/rectangle_tool_menu.png" style="width: 88.2px; height: 144.6px;" /></a>
+<p class="caption"><span class="caption-text">Rectangle Tool icon.</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-default" id="id8">
+<a class="reference internal image-reference" href="_images/DrawRectangleLayout.png"><img alt="_images/DrawRectangleLayout.png" src="_images/DrawRectangleLayout.png" style="width: 204.6px; height: 204.6px;" /></a>
+<p class="caption"><span class="caption-text">Draws a rectangle layout.</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-default" id="id9">
+<a class="reference internal image-reference" href="_images/hotspot_guidtexture.png"><img alt="_images/hotspot_guidtexture.png" src="_images/hotspot_guidtexture.png" style="width: 447.29999999999995px; height: 447.29999999999995px;" /></a>
+<p class="caption"><span class="caption-text">A loaded texture in the editor. This texture is just a guide.</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-default" id="id10">
+<a class="reference internal image-reference" href="_images/complete_layout.png"><img alt="_images/complete_layout.png" src="_images/complete_layout.png" style="width: 428.4px; height: 428.4px;" /></a>
+<p class="caption"><span class="caption-text">All layouts are defined.</span><a class="headerlink" href="#id10" title="Permalink to this image">¶</a></p>
+</div>
+<ol class="arabic simple" start="7">
+<li><p>Returning to <code class="docutils literal notranslate"><span class="pre">Hotspot</span> <span class="pre">Layout</span></code> properties toggle on <code class="docutils literal notranslate"><span class="pre">Auto</span> <span class="pre">Hotspot</span></code></p></li>
+</ol>
+<div class="figure align-default" id="id11">
+<a class="reference internal image-reference" href="_images/ToggleOnAutoHotspot.png"><img alt="_images/ToggleOnAutoHotspot.png" src="_images/ToggleOnAutoHotspot.png" style="width: 824.0px; height: 488.5px;" /></a>
+<p class="caption"><span class="caption-text">Toggle on <code class="docutils literal notranslate"><span class="pre">Auto</span> <span class="pre">Hotspot</span></code></span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
+</div>
+<ol class="arabic simple" start="8">
+<li><p>You can check out that UV coordinates are set automatically according to the predefined layouts in the Hotspot Layout Editor.</p></li>
+</ol>
+<div class="figure align-default" id="id12">
+<a class="reference internal image-reference" href="_images/autohotspot_layout.png"><img alt="_images/autohotspot_layout.png" src="_images/autohotspot_layout.png" style="width: 739.35px; height: 441.45px;" /></a>
+<p class="caption"><span class="caption-text">UV work will get easier than ever :)</span><a class="headerlink" href="#id12" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="using-hotspot-group">
+<h3>Using <code class="docutils literal notranslate"><span class="pre">Hotspot</span> <span class="pre">Group</span></code><a class="headerlink" href="#using-hotspot-group" title="Permalink to this headline">¶</a></h3>
+<p>You can apply hotspot texturing to the selected adjacent textures as a group using <code class="docutils literal notranslate"><span class="pre">Hotspot</span> <span class="pre">Group</span></code></p>
+<p>This is an example mesh.</p>
+<div class="figure align-default" id="id13">
+<a class="reference internal image-reference" href="_images/hotspot_group0.png"><img alt="_images/hotspot_group0.png" src="_images/hotspot_group0.png" style="width: 329.40000000000003px; height: 329.40000000000003px;" /></a>
+<p class="caption"><span class="caption-text">Selected adjacent polygons</span><a class="headerlink" href="#id13" title="Permalink to this image">¶</a></p>
+</div>
+<ol class="arabic simple">
+<li><p>Select the polygons as shown below.</p></li>
+</ol>
+<div class="figure align-default" id="id14">
+<a class="reference internal image-reference" href="_images/hotspot_group1.png"><img alt="_images/hotspot_group1.png" src="_images/hotspot_group1.png" style="width: 307.35px; height: 307.35px;" /></a>
+<p class="caption"><span class="caption-text">Selected adjacent polygons</span><a class="headerlink" href="#id14" title="Permalink to this image">¶</a></p>
+</div>
+<ol class="arabic simple" start="2">
+<li><p>Toggle on <code class="docutils literal notranslate"><span class="pre">Hotspot</span> <span class="pre">Group</span></code> and click on <code class="docutils literal notranslate"><span class="pre">Apply</span> <span class="pre">Hotspot</span></code></p></li>
+</ol>
+<div class="figure align-default" id="id15">
+<a class="reference internal image-reference" href="_images/hotspot_group2.png"><img alt="_images/hotspot_group2.png" src="_images/hotspot_group2.png" style="width: 346.5px; height: 282.6px;" /></a>
+<p class="caption"><span class="caption-text"><code class="docutils literal notranslate"><span class="pre">Hotspot</span> <span class="pre">Group</span></code> toggle and <code class="docutils literal notranslate"><span class="pre">Apply</span> <span class="pre">Hotspot</span></code> button</span><a class="headerlink" href="#id15" title="Permalink to this image">¶</a></p>
+</div>
+<ol class="arabic simple" start="3">
+<li><p>You can see that the selected polygons’ UV coordinates are placed in one layout as shown below.</p></li>
+</ol>
+<div class="figure align-default" id="id16">
+<a class="reference internal image-reference" href="_images/hotspot_group_5.png"><img alt="_images/hotspot_group_5.png" src="_images/hotspot_group_5.png" style="width: 236.39999999999998px; height: 245.39999999999998px;" /></a>
+<p class="caption"><span class="caption-text">Unwrapped UV coordinates according to the predefined layout.</span><a class="headerlink" href="#id16" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-default" id="id17">
+<a class="reference internal image-reference" href="_images/hotspot_group6.png"><img alt="_images/hotspot_group6.png" src="_images/hotspot_group6.png" style="width: 355.3px; height: 322.3px;" /></a>
+<p class="caption"><span class="caption-text">Wow!</span><a class="headerlink" href="#id17" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="using-apply-selected-hotspot">
+<h3>Using <code class="docutils literal notranslate"><span class="pre">Apply</span> <span class="pre">Selected</span> <span class="pre">Hotspot</span></code><a class="headerlink" href="#using-apply-selected-hotspot" title="Permalink to this headline">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">Apply</span> <span class="pre">Selected</span> <span class="pre">Hotspot</span></code> assigns the selected polygons in the selected layout in <code class="docutils literal notranslate"><span class="pre">Hotspot</span> <span class="pre">Layout</span> <span class="pre">Editor</span></code>.</p>
+<ol class="arabic simple">
+<li><p>Select polygons.</p></li>
+</ol>
+<div class="figure align-default">
+<a class="reference internal image-reference" href="_images/applyselectedhotspot0.png"><img alt="_images/applyselectedhotspot0.png" src="_images/applyselectedhotspot0.png" style="width: 341.0px; height: 356.95000000000005px;" /></a>
+</div>
+<ol class="arabic simple" start="2">
+<li><p>Select a layout in which UV coordinates are placed in the <code class="docutils literal notranslate"><span class="pre">Hotspot</span> <span class="pre">Layout</span> <span class="pre">Editor</span></code></p></li>
+</ol>
+<div class="figure align-default">
+<a class="reference internal image-reference" href="_images/applyselectedhotspot1.png"><img alt="_images/applyselectedhotspot1.png" src="_images/applyselectedhotspot1.png" style="width: 371.25000000000006px; height: 269.5px;" /></a>
+</div>
+<ol class="arabic simple" start="3">
+<li><p>Click on <code class="docutils literal notranslate"><span class="pre">Apply</span> <span class="pre">Selected</span> <span class="pre">Hotspot</span></code></p></li>
+</ol>
+<div class="figure align-default">
+<a class="reference internal image-reference" href="_images/applyselectedhotspot2.png"><img alt="_images/applyselectedhotspot2.png" src="_images/applyselectedhotspot2.png" style="width: 309.6px; height: 262.40000000000003px;" /></a>
+</div>
+<ol class="arabic simple" start="4">
+<li><p>Now you can see that UVs of the selected polygons are set to the selected layout.</p></li>
+</ol>
+<div class="figure align-default">
+<a class="reference internal image-reference" href="_images/applyselectedhotspot3.png"><img alt="_images/applyselectedhotspot3.png" src="_images/applyselectedhotspot3.png" style="width: 485.6px; height: 528.0px;" /></a>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="UModelerLite.html" class="btn btn-neutral float-right" title="UModeler Lite" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="UVEditor/MiscGroup/ExportTool.html" class="btn btn-neutral float-left" title="Export Tool" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2021, tripolygon
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
