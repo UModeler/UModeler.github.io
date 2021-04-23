@@ -10,8 +10,9 @@ Version 2.8.3f2 - April.26.2021
 - Assets : Includes The Urban Buildings demo pack to showcase Hotspot Texturing feature.
 - Feature : Added the Hotspot Texturing.
 - Fix : Fixed z-fighting issue of a face overlay in ISO mode.
+- Fix : Fixed a bug where a duplicated polygon moves along with the original polygon when it's unwrapped and duplicated.
 - Enhancement : Implemented Picking Vertex Color. Pick Color button has been added in the Vertex Color tool and the Polygon color tool.
-- Fix : Fixed the duplicate tool bug where a polygon popped up or disappeared.
+- Enhancement : Modified the scale gizmo behaviour so that it is snapped to (0,0,0) and it can't have minus scale values.
 
 Version 2.8.3 - April.12.2021
 ====================================
