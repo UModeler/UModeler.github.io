@@ -50,6 +50,11 @@ Hotspot Layout tool
 4.Hotspot Padding
  If enabled, UVs are away by this pixel value from the layout
 
+.. figure:: /images/hotspot_texturing_border.png
+  :scale: 45 %
+
+  ``Hotspot Padding`` parameter
+
 5.Hotspot Layout
  Hotspot layout file. The format is .asset. This layout file can be applied to several objects.
 
