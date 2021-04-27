@@ -10,6 +10,17 @@ Introduction
 ``Hotspot texturing`` is a feature that makes UV unwrap easier and faster.
 If you define UV layouts using the hotspot layout editor, UVs of each polygon can be placed according to the predefined layouts automatically.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Features
+==============
+
+- Built-in ``Hotspot Layout Editor`` made from the UV Editor framework. 
+- A triangle layout as well as a rectangle is supported
+- Auto mode called ``Auto Hotpost`` which enables UVs to be applied automatically every time a polygon is modified.
+- ``Padding`` parameter to gives consistant gap between a hotspot layout and assigned UVs
+- Applies a selected hotspot layout to UVs by clicking on ``Apply Selected Hotspot`` button.
+
 ----------------------------------------------------------------------------------------------------------------------
 
 Hotspot Layout tool
