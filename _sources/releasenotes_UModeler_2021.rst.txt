@@ -2,6 +2,17 @@
 UModeler 2021
 ############################
 
+Version 2.8.3f3 - April.30.2021
+=================================
+
+- Assets : Includes The Medieval Town : Vermilion demo pack.
+- Assets : Includes The Urban Buildings demo pack to showcase Hotspot Texturing feature.
+- Fix : Fixed the broken light map issue when LMB is clicked on a polygon in the Box Tool.
+- Fix : Fixed ModelerHelper_Objects error message.
+- Fix : Fixed UV disappearing in UV Editor when pushing or pulling a polygon.
+- Enhancement : Assigned shortcuts to ``Hotspot Group`` toggle and ``Apply Selected Hotspot`` button.
+- Enhancement : Added ``Hotspot Scale`` parameter in ``Hotspot Layout`` tool.
+
 Version 2.8.3f2 - April.26.2021
 =================================
 .. figure:: /images/HotspotTexturing_UrbanBuildings.png
