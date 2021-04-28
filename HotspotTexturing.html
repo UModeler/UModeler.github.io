@@ -226,18 +226,36 @@ If you define UV layouts using the hotspot layout editor, UVs of each polygon ca
 </dd>
 </dl>
 <div class="figure align-default" id="id3">
-<a class="reference internal image-reference" href="_images/hotspot_texturing_border.png"><img alt="_images/hotspot_texturing_border.png" src="_images/hotspot_texturing_border.png" style="width: 471.6px; height: 418.5px;" /></a>
+<img alt="images/hotspot_texturing_border.png:scale:45%" src="images/hotspot_texturing_border.png:scale:45%" />
 <p class="caption"><span class="caption-text"><code class="docutils literal notranslate"><span class="pre">Hotspot</span> <span class="pre">Padding</span></code> parameter</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 </div>
+<p>5.Hotspot Scale</p>
+<blockquote>
+<div><div class="line-block">
+<div class="line">The ratio of the hotspot layout to the size of the polygon in the world.</div>
+<div class="line">In case of 1, the size of 1.0 in the hotspot layout and 1.0 in the world is the same.</div>
+<div class="line">In case of 2, 0.5 of the hotspot layout will be equal to the 1.0 size in the world.</div>
+</div>
+<div class="figure align-default">
+<a class="reference internal image-reference" href="_images/hotspotScale0.png"><img alt="_images/hotspotScale0.png" src="_images/hotspotScale0.png" style="width: 577.6px; height: 288.8px;" /></a>
+</div>
+<p>For example, when the texture and hotspot layout are configured as above, and the world size is set to 1.0, 0.5, 0.25, 0.125, respectively, and a cube is created.</p>
+<div class="figure align-default">
+<a class="reference internal image-reference" href="_images/hotspotScale1.png"><img alt="_images/hotspotScale1.png" src="_images/hotspotScale1.png" style="width: 640.0px; height: 152.4px;" /></a>
+</div>
+<p>You can see the UVs are placed differently depending on the hotspot scale value. If the hotspot scale is 1, you can see that a 1.0-sized cube is placed in the UVs according to the 1.0-sized layout.</p>
+<p>Since the 0.5-size cube is also 1/2 of 1.0 to fit the size, the UVs have been placed according to the 1/2-size layout in the hotspot layout editor.</p>
+<p>If the hotspot scale is 2, a layout of 1/2 size is applied to a cube of 1.0 size, and accordingly, you can see that UV is placed on other sized models as well.</p>
+</div></blockquote>
 <dl class="simple">
-<dt>5.Hotspot Layout</dt><dd><p>Hotspot layout file. The format is .asset. This layout file can be applied to several objects.</p>
+<dt>6.Hotspot Layout</dt><dd><p>Hotspot layout file. The format is .asset. This layout file can be applied to several objects.</p>
 </dd>
-<dt>6.New Hotspot Layout/Open Layout Editor</dt><dd><p>If a hotspot layout file isn’t set, <code class="docutils literal notranslate"><span class="pre">New</span> <span class="pre">Hotspot</span> <span class="pre">Layout</span></code> button is enabled so that you can create a new layout file.
+<dt>7.New Hotspot Layout/Open Layout Editor</dt><dd><p>If a hotspot layout file isn’t set, <code class="docutils literal notranslate"><span class="pre">New</span> <span class="pre">Hotspot</span> <span class="pre">Layout</span></code> button is enabled so that you can create a new layout file.
 If a hotspot layout file is set, <code class="docutils literal notranslate"><span class="pre">UV</span> <span class="pre">Layout</span> <span class="pre">Editor</span></code> will be opened.</p>
 </dd>
-<dt>7.Apply Hotspot</dt><dd><p>If enabled, the hotspot texturing will be applied to the selected polygons. The selected polygons’ UV coordinates will be place in the most appropriate layout.</p>
+<dt>8.Apply Hotspot</dt><dd><p>If enabled, the hotspot texturing will be applied to the selected polygons. The selected polygons’ UV coordinates will be place in the most appropriate layout.</p>
 </dd>
-<dt>8.Apply Selected Hotspot</dt><dd><p>If enabled, the selected polygons’ UV coordinates will be placed in the selected hotspot layout.</p>
+<dt>9.Apply Selected Hotspot</dt><dd><p>If enabled, the selected polygons’ UV coordinates will be placed in the selected hotspot layout.</p>
 </dd>
 </dl>
 </div>
