@@ -7,8 +7,8 @@ Hotspot Texturing
 Introduction
 ===============
 
-``Hotspot texturing`` is a feature that makes UV unwrap easier and faster.
-If you define UV layouts using the hotspot layout editor, UVs of each polygon can be placed according to the predefined layouts automatically.
+``Hotspot Texturing`` is a new feature added to the toolkit that makes UV unwrapping easier and faster. When
+you define UV layouts using the hotspot layout editor, UVs of each polygon can be placed according to the predefined layouts automatically.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
