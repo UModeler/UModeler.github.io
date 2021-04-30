@@ -10,6 +10,11 @@ Introduction
 ``Hotspot Texturing`` is a new feature added to the toolkit that makes UV unwrapping easier and faster. When
 you define UV layouts using the hotspot layout editor, UVs of each polygon can be placed according to the predefined layouts automatically.
 
+
+We've recorded Getting Started Tutorial video. Click `Here`_.
+
+.. _Here: https://youtu.be/i573nscizqk
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Features
@@ -160,7 +165,6 @@ Using ``Auto Hotspot``
    :scale: 40 %
 
    ``Hotspot Layout`` tool properties
-
 
 1. At first you should select a UModeler mesh or create it.
 2. Enter ``Hotspot Layout`` tool
