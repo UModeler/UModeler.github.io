@@ -60,6 +60,10 @@ Converted the selected objects and all their children objects to UModeler object
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
+Export as .Obj
+========================================
+Exports the selected UModeler objects as one .obj file. This menu can be used when the selection includes a non-UModeler object.
+
 Triangulate
 ========================================
 Divides all polygons into triangles.

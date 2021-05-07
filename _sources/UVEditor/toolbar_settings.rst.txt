@@ -83,12 +83,17 @@ Settings and Cursor
 Settings
 ----------
 
-.. figure:: /images/UModeler_UVEditor_UVSettings.jpg
+.. figure:: /images/UVEditor_Setting.PNG
    :scale: 100 %
    
-Enable Snap
-   If this is on, UV transform will be affectad by ``Grid Snap Size`` and ``Rotation Snap Size`` specified below. With ``Snap`` enabled you can move or rotate the selected elements by a specified unit. 
-   
+None
+   No snap.
+World Snap
+   Every vertex position will be snapped to the world grid. Grid size is decided via ``Grid Snap Size``
+Increment Snap
+   Movement and rotation will be done by ``Grid Snape Size`` and ``Rotation Snap Size``.
+Pixel Snap
+   Every vertex position will be snapped to the pixel grid. There are two types of the pixel position, ``Center`` and ``Corner``.
 Grid Snap Size
    This defines how many size the UVs move whenever they are dragged or translated by the gizmo.
 Rotation Snap Size

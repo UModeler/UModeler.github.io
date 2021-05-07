@@ -48,7 +48,7 @@ Basically selection of each element can be done by placing the mouse cursor ther
    | 2. Pressing ``W`` ``E`` or ``R`` changes the current gizmo like Unity.
    | 3. Dragging a mouse from an element causes moving the element
    | 4. If you hold ``SHIFT`` while dragging a gizmo, the selected elements are extruded.
-   | 5. If you hold ``CTRL`` while dragging the move gizmo and moving to another vertex, the selected elements' selected axis's value will be snapped to the vertex. This is called ``1D snapping``
+   | 5. If you hold ``V`` while dragging the move gizmo and moving to another vertex, the selected elements' selected axis's value will be snapped to the vertex. This is called ``1D snapping``
    | 6. If you hold ``SHIFT`` + ``CTRL`` while dragging a gizmo, the vertices consisting of the elements will be split.
    | 7. ``LMB Double click`` on a polygon will unwrap and stick it. This is called ``Auto Layout``. Click :ref:`here <autolayout>` to get more info about it.   
    
@@ -56,6 +56,11 @@ Basically selection of each element can be done by placing the mouse cursor ther
  ``V(ertex) Snapping``
  
  Moving the selected vertices/edges/polygons holding ``V`` allows their pivot position to be snapped to a vertex under the mouse cursor.
+
+
+.. note::
+
+ The key for ``1D Snap`` has been changed from ``Ctrl`` to ``V`` since UModeler 2.8.4
    
 Properties
 -----------
