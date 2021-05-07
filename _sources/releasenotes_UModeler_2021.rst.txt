@@ -15,6 +15,7 @@ Version 2.8.4 - May.10.2021
 - Fix : Changed the lightmap UV2 coordinates to be updated every time the umodeler is modified.
 - Fix : The minimum values ​​of ``Width`` and ``Depth`` of the ``Rectangle Tool`` and the ``Box Tool`` have been changed from 0.01 to 0.001.
 - Fix : Increased the overlay size of ``Vertex tool`` and ``Rectctangle Selection tool`` in ``UV Editor``.
+- Fix : Fixed a bug where V Snapping to other objects didn't work in 2020.3 and newer versions.
 
 Version 2.8.3f3 - April.30.2021
 =================================
