@@ -7,7 +7,7 @@ Version 2.8.4 - May.10.2021
 .. figure:: /images/blacksmith.png
 
 - Assets : Includes ``Blacksmith`` demo pack.
-- Enhancement : Added The Pixl snap to ``UV Editor``.
+- Enhancement : Added The Pixel snap to ``UV Editor``.
 - Enhancement : V snap - If you drag the XYZ axis and snap to another point holding ``V key``, only the dragged axis coordinate will be aligned with that point. Namely ``1D snapping`` has been restored.
 - Enhancement : Added ``Menu > Tools > UModeler > Export as .Obj`` menu. Using this menu, you can export UModeler objects to an OBJ file even when multiple objects are selected at once and an object without UModeler is selected.
 - Fix : Fixed a bug where snaps were applied twice when moving edges or polygons in the world grid.
