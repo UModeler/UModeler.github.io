@@ -2,6 +2,14 @@
 UModeler 2021
 ############################
 
+Version 2.8.4f1 - May.18.2021
+=================================
+- Assets : Includes ``Blacksmith`` demo pack.
+- Enhancement : A function to select overlapping polygons has been added to the Diagnosis Tool.
+- Fix : Fixed a bug where objects hidden in the Hierarchy were clicked.
+- Fix : Fixed a bug where UVs move suddenly when a vertex moves. The UVs are transformed in UV tool.
+- Fix : Fixed a bug that caused the scene's pull-down menu to close immediately when the UV editor is on.
+
 Version 2.8.4 - May.10.2021
 =================================
 .. figure:: /images/blacksmith.png
