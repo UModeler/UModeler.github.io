@@ -2,6 +2,21 @@
 UModeler 2021
 ############################
 
+Version 2.8.4f2 - May.31.2021
+=================================
+- Assets : Includes ``Blacksmith`` demo pack.
+- Enhancement : Added ``Extrude Modifier Key`` to ``Preference`` window to set the modifier key for extruding using the gizmos. Either ``Shift`` or ``Capslock`` is available.
+
+.. figure:: /images/ExtrudeModifierKeySettings.png
+   :scale: 60 %
+
+- Enhancement : Added ``Enable Alpha Channel`` to ``Settings`` window in ``UV Editor`` to apply the alpha channel to display transparent pixels.
+
+.. figure:: /images/EnableAlphaChannel_UVEditorSettingsWindow.png
+   :scale: 60 %
+ 
+- Fix : Fixed the edge selection bug when a UModeler object scale is not uniform.
+
 Version 2.8.4f1 - May.18.2021
 =================================
 - Assets : Includes ``Blacksmith`` demo pack.
