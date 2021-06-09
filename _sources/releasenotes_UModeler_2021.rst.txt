@@ -2,6 +2,13 @@
 UModeler 2021
 ############################
 
+Version 2.8.4f3 - June.9.2021
+=================================
+- Assets : Includes ``Blacksmith`` demo pack.
+- Fix : Fixed the edge selection bug where edges can't be selected.
+- Fix : Fixed a bug in Unity 2021.1 where orange highlight wasn't turned off when entering the edit mode.
+- Fix : Fixed a bug where occluded vertices/edges were selected as ``Select Only Visible`` was enabled.
+
 Version 2.8.4f2 - May.31.2021
 =================================
 - Assets : Includes ``Blacksmith`` demo pack.
