@@ -2,7 +2,7 @@
 UModeler 2021
 ############################
 
-Version 2.8.4f3 - June.10.2021
+Version 2.8.4f4 - June.10.2021
 =================================
 - Assets : Includes ``Blacksmith`` demo pack.
 - Fix : Fixed the edge selection bug where edges can't be selected.
