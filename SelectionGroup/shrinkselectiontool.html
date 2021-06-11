@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Isolated Selection Tool &mdash; Unity UModeler Manual  documentation</title>
+  <title>Shrink Selection Tool &mdash; Unity UModeler Manual  documentation</title>
   
 
   
@@ -38,8 +38,8 @@
     
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Loop Selection Tool" href="loopselectiontool.html" />
-    <link rel="prev" title="All/None Selection Tool" href="allnoneselectiontool.html" /> 
+    <link rel="next" title="Drawing Group" href="../DrawingGroup/index.html" />
+    <link rel="prev" title="Grow Selection Tool" href="growselectiontool.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -94,17 +94,18 @@
 <li class="toctree-l1"><a class="reference internal" href="../ElementGroup.html">Elements Group</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">Selection Group </a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="allnoneselectiontool.html">All/None Selection Tool</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Isolated Selection Tool</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#vertex-isolated-selection-icon-selection-isolatedselectvertex">Vertex Isolated Selection </a></li>
-<li class="toctree-l3"><a class="reference internal" href="#edge-isolated-selection-icon-selection-isolatedselectedge">Edge Isolated Selection </a></li>
-<li class="toctree-l3"><a class="reference internal" href="#polygon-isloated-selection-icon-selection-isolatedselectpolygon">Polygon Isloated Selection </a></li>
-</ul>
-</li>
+<li class="toctree-l2"><a class="reference internal" href="isolatedselectiontool.html">Isolated Selection Tool</a></li>
 <li class="toctree-l2"><a class="reference internal" href="loopselectiontool.html">Loop Selection Tool</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ringselectiontool.html">Ring Selection Tool</a></li>
 <li class="toctree-l2"><a class="reference internal" href="invertselectiontool.html">Invert Selection Tool   </a></li>
 <li class="toctree-l2"><a class="reference internal" href="growselectiontool.html">Grow Selection Tool</a></li>
-<li class="toctree-l2"><a class="reference internal" href="shrinkselectiontool.html">Shrink Selection Tool</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Shrink Selection Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#vertex-shrink-selection-icon-selection-shrinkselectvertex">Vertex Shrink Selection </a></li>
+<li class="toctree-l3"><a class="reference internal" href="#edge-shrink-selection-icon-selection-shrinkselectedge">Edge Shrink Selection </a></li>
+<li class="toctree-l3"><a class="reference internal" href="#polygon-shrink-selection-icon-selection-shrinkselectpolygon">Polygon Shrink Selection </a></li>
+<li class="toctree-l3"><a class="reference internal" href="#steps">Steps</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../DrawingGroup/index.html">Drawing Group </a></li>
@@ -167,13 +168,13 @@
         
           <li><a href="index.html">Selection Group </a> &raquo;</li>
         
-      <li>Isolated Selection Tool</li>
+      <li>Shrink Selection Tool</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="../_sources/SelectionGroup/isolatedselectiontool.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/SelectionGroup/shrinkselectiontool.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -186,41 +187,36 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="isolated-selection-tool">
-<h1>Isolated Selection Tool<a class="headerlink" href="#isolated-selection-tool" title="Permalink to this headline">¶</a></h1>
-<p>Selects geometry connected to already selected elements. This is often useful when a mesh has disconnected but overlapping parts</p>
-<div class="section" id="vertex-isolated-selection-icon-selection-isolatedselectvertex">
-<h2>Vertex Isolated Selection <a class="reference internal" href="../_images/Icon_Selection_IsolatedSelectVertex.png"><img alt="Icon_Selection_IsolatedSelectVertex" src="../_images/Icon_Selection_IsolatedSelectVertex.png" style="width: 26.0px; height: 26.0px;" /></a><a class="headerlink" href="#vertex-isolated-selection-icon-selection-isolatedselectvertex" title="Permalink to this headline">¶</a></h2>
-<div class="figure align-default" id="id1">
-<a class="reference internal image-reference" href="../_images/UModeler_VertexIsolated_0.jpg"><img alt="../_images/UModeler_VertexIsolated_0.jpg" src="../_images/UModeler_VertexIsolated_0.jpg" style="width: 227.04999999999998px; height: 281.2px;" /></a>
-<p class="caption"><span class="caption-text">If any vertices are selected,</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
-</div>
+  <div class="section" id="shrink-selection-tool">
+<h1>Shrink Selection Tool<a class="headerlink" href="#shrink-selection-tool" title="Permalink to this headline">¶</a></h1>
+<p id="id1">The Shrink Selection tool removes the elements on the perimeter of the current selection. It performs the opposite action of the Grow Selection tool.</p>
+<div class="section" id="vertex-shrink-selection-icon-selection-shrinkselectvertex">
+<h2>Vertex Shrink Selection <a class="reference internal" href="../_images/Icon_Selection_IncreaseSelectVertex.png"><img alt="Icon_Selection_ShrinkSelectVertex" src="../_images/Icon_Selection_IncreaseSelectVertex.png" style="width: 26.0px; height: 26.0px;" /></a><a class="headerlink" href="#vertex-shrink-selection-icon-selection-shrinkselectvertex" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-default" id="id2">
-<a class="reference internal image-reference" href="../_images/UModeler_VertexIsolated_1.jpg"><img alt="../_images/UModeler_VertexIsolated_1.jpg" src="../_images/UModeler_VertexIsolated_1.jpg" style="width: 227.04999999999998px; height: 281.2px;" /></a>
-<p class="caption"><span class="caption-text">All the vertices in the isolated geometry which includes the first select vertices will be selected.</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<a class="reference internal image-reference" href="../_images/ShrinkSelection_Vertex.gif"><img alt="../_images/ShrinkSelection_Vertex.gif" src="../_images/ShrinkSelection_Vertex.gif" style="width: 350.4px; height: 349.8px;" /></a>
+<p class="caption"><span class="caption-text">Vertex Shrink Selection</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
 </div>
-<div class="section" id="edge-isolated-selection-icon-selection-isolatedselectedge">
-<h2>Edge Isolated Selection <a class="reference internal" href="../_images/Icon_Selection_IsolatedSelectEdge.png"><img alt="Icon_Selection_IsolatedSelectEdge" src="../_images/Icon_Selection_IsolatedSelectEdge.png" style="width: 26.0px; height: 26.0px;" /></a><a class="headerlink" href="#edge-isolated-selection-icon-selection-isolatedselectedge" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="edge-shrink-selection-icon-selection-shrinkselectedge">
+<h2>Edge Shrink Selection <a class="reference internal" href="../_images/Icon_Selection_IncreaseSelectEdge.png"><img alt="Icon_Selection_ShrinkSelectEdge" src="../_images/Icon_Selection_IncreaseSelectEdge.png" style="width: 26.0px; height: 26.0px;" /></a><a class="headerlink" href="#edge-shrink-selection-icon-selection-shrinkselectedge" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-default" id="id3">
-<a class="reference internal image-reference" href="../_images/UModeler_EdgeIsolated_0.jpg"><img alt="../_images/UModeler_EdgeIsolated_0.jpg" src="../_images/UModeler_EdgeIsolated_0.jpg" style="width: 227.04999999999998px; height: 281.2px;" /></a>
-<p class="caption"><span class="caption-text">If any edges are selected,</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+<a class="reference internal image-reference" href="../_images/ShrinkSelection_Edge.gif"><img alt="../_images/ShrinkSelection_Edge.gif" src="../_images/ShrinkSelection_Edge.gif" style="width: 350.4px; height: 349.8px;" /></a>
+<p class="caption"><span class="caption-text">Edge Shrink Selection</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 </div>
+</div>
+<div class="section" id="polygon-shrink-selection-icon-selection-shrinkselectpolygon">
+<h2>Polygon Shrink Selection <a class="reference internal" href="../_images/Icon_Selection_IncreaseSelectPolygon.png"><img alt="Icon_Selection_ShrinkSelectPolygon" src="../_images/Icon_Selection_IncreaseSelectPolygon.png" style="width: 26.0px; height: 26.0px;" /></a><a class="headerlink" href="#polygon-shrink-selection-icon-selection-shrinkselectpolygon" title="Permalink to this headline">¶</a></h2>
 <div class="figure align-default" id="id4">
-<a class="reference internal image-reference" href="../_images/UModeler_EdgeIsolated_1.jpg"><img alt="../_images/UModeler_EdgeIsolated_1.jpg" src="../_images/UModeler_EdgeIsolated_1.jpg" style="width: 227.04999999999998px; height: 281.2px;" /></a>
-<p class="caption"><span class="caption-text">All the edges in the isolated geometry which includes the first select edges will be selected.</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+<a class="reference internal image-reference" href="../_images/ShrinkSelection_Face.gif"><img alt="../_images/ShrinkSelection_Face.gif" src="../_images/ShrinkSelection_Face.gif" style="width: 350.4px; height: 349.8px;" /></a>
+<p class="caption"><span class="caption-text">Polygon Shrink Selection</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
 </div>
 </div>
-<div class="section" id="polygon-isloated-selection-icon-selection-isolatedselectpolygon">
-<h2>Polygon Isloated Selection <a class="reference internal" href="../_images/Icon_Selection_IsolatedSelectPolygon.png"><img alt="Icon_Selection_IsolatedSelectPolygon" src="../_images/Icon_Selection_IsolatedSelectPolygon.png" style="width: 26.0px; height: 26.0px;" /></a><a class="headerlink" href="#polygon-isloated-selection-icon-selection-isolatedselectpolygon" title="Permalink to this headline">¶</a></h2>
-<div class="figure align-default" id="id5">
-<a class="reference internal image-reference" href="../_images/UModeler_PolygonIsolated_0.jpg"><img alt="../_images/UModeler_PolygonIsolated_0.jpg" src="../_images/UModeler_PolygonIsolated_0.jpg" style="width: 227.04999999999998px; height: 281.2px;" /></a>
-<p class="caption"><span class="caption-text">If any polygons are selected,</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
-</div>
-<div class="figure align-default" id="id6">
-<a class="reference internal image-reference" href="../_images/UModeler_PolygonIsolated_1.jpg"><img alt="../_images/UModeler_PolygonIsolated_1.jpg" src="../_images/UModeler_PolygonIsolated_1.jpg" style="width: 227.04999999999998px; height: 281.2px;" /></a>
-<p class="caption"><span class="caption-text">All the polygons in the isolated geometry which includes the first select polygons will be selected.</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
-</div>
+<div class="section" id="steps">
+<h2>Steps<a class="headerlink" href="#steps" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Select vertices, edges or polygons.</p></li>
+<li><p>Select <code class="docutils literal notranslate"><span class="pre">Shrink</span> <span class="pre">Tool</span></code>.</p></li>
+</ol>
 </div>
 </div>
 
@@ -232,10 +228,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="loopselectiontool.html" class="btn btn-neutral float-right" title="Loop Selection Tool" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="../DrawingGroup/index.html" class="btn btn-neutral float-right" title="Drawing Group" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="allnoneselectiontool.html" class="btn btn-neutral float-left" title="All/None Selection Tool" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="growselectiontool.html" class="btn btn-neutral float-left" title="Grow Selection Tool" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

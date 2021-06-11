@@ -1,0 +1,294 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Grow Selection Tool &mdash; Unity UModeler Manual  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+    <link rel="shortcut icon" href="../_static/logo_fav_transparent_background.png"/>
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Shrink Selection Tool" href="shrinkselectiontool.html" />
+    <link rel="prev" title="Invert Selection Tool" href="invertselectiontool.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> Unity UModeler Manual
+          
+
+          
+            
+            <img src="../_static/UModeler_ManualTitle_1.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../settings.html">Toolbar, Settings and Preferences</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../menu.html">Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ElementGroup.html">Elements Group</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Selection Group </a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="allnoneselectiontool.html">All/None Selection Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="isolatedselectiontool.html">Isolated Selection Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="loopselectiontool.html">Loop Selection Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ringselectiontool.html">Ring Selection Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="invertselectiontool.html">Invert Selection Tool   </a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Grow Selection Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#vertex-grow-selection-icon-selection-increaseselectvertex">Vertex Grow Selection </a></li>
+<li class="toctree-l3"><a class="reference internal" href="#edge-grow-selection-icon-selection-increaseselectedge">Edge Grow Selection </a></li>
+<li class="toctree-l3"><a class="reference internal" href="#polygon-grow-selection-icon-selection-increaseselectpolygon">Polygon Grow Selection </a></li>
+<li class="toctree-l3"><a class="reference internal" href="#steps">Steps</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#properties-in-settings">Properties in Settings</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="shrinkselectiontool.html">Shrink Selection Tool</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../DrawingGroup/index.html">Drawing Group </a></li>
+<li class="toctree-l1"><a class="reference internal" href="../PrimitiveShapesGroup/index.html">Primitive Shapes Group </a></li>
+<li class="toctree-l1"><a class="reference internal" href="../AddGroup/index.html">Add Group </a></li>
+<li class="toctree-l1"><a class="reference internal" href="../RemoveGroup/index.html">Remove Group </a></li>
+<li class="toctree-l1"><a class="reference internal" href="../TweakGroup/index.html">Tweak Group </a></li>
+<li class="toctree-l1"><a class="reference internal" href="../SurfaceGroup/index.html">Surface Group </a></li>
+<li class="toctree-l1"><a class="reference internal" href="../MiscGroup/index.html">Misc Group </a></li>
+<li class="toctree-l1"><a class="reference internal" href="../UVEditor/index.html">UV Editor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../HotspotTexturing.html">Hotspot Texturing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../UModelerLite.html">UModeler Lite</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../FAQ.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../releasenotes.html">Release Notes</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Unity UModeler Manual</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html">Selection Group </a> &raquo;</li>
+        
+      <li>Grow Selection Tool</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/SelectionGroup/growselectiontool.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="grow-selection-tool">
+<h1>Grow Selection Tool<a class="headerlink" href="#grow-selection-tool" title="Permalink to this headline">¶</a></h1>
+<p id="id1">Expands the current selection outwards in all directions from the current selected elements.</p>
+<div class="section" id="vertex-grow-selection-icon-selection-increaseselectvertex">
+<h2>Vertex Grow Selection <a class="reference internal" href="../_images/Icon_Selection_IncreaseSelectVertex.png"><img alt="Icon_Selection_IncreaseSelectVertex" src="../_images/Icon_Selection_IncreaseSelectVertex.png" style="width: 26.0px; height: 26.0px;" /></a><a class="headerlink" href="#vertex-grow-selection-icon-selection-increaseselectvertex" title="Permalink to this headline">¶</a></h2>
+<div class="figure align-default">
+<a class="reference internal image-reference" href="../_images/UModeler_IncreaseTool_Vertex.gif"><img alt="../_images/UModeler_IncreaseTool_Vertex.gif" src="../_images/UModeler_IncreaseTool_Vertex.gif" style="width: 287.84999999999997px; height: 313.5px;" /></a>
+</div>
+</div>
+<div class="section" id="edge-grow-selection-icon-selection-increaseselectedge">
+<h2>Edge Grow Selection <a class="reference internal" href="../_images/Icon_Selection_IncreaseSelectEdge.png"><img alt="Icon_Selection_IncreaseSelectEdge" src="../_images/Icon_Selection_IncreaseSelectEdge.png" style="width: 26.0px; height: 26.0px;" /></a><a class="headerlink" href="#edge-grow-selection-icon-selection-increaseselectedge" title="Permalink to this headline">¶</a></h2>
+<div class="figure align-default" id="id2">
+<a class="reference internal image-reference" href="../_images/UModeler_Increase_edge.gif"><img alt="../_images/UModeler_Increase_edge.gif" src="../_images/UModeler_Increase_edge.gif" style="width: 303.0px; height: 330.0px;" /></a>
+<p class="caption"><span class="caption-text"><code class="docutils literal notranslate"><span class="pre">Edge</span> <span class="pre">Grow</span> <span class="pre">Tool</span></code> icon</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="polygon-grow-selection-icon-selection-increaseselectpolygon">
+<h2>Polygon Grow Selection <a class="reference internal" href="../_images/Icon_Selection_IncreaseSelectPolygon.png"><img alt="Icon_Selection_IncreaseSelectPolygon" src="../_images/Icon_Selection_IncreaseSelectPolygon.png" style="width: 26.0px; height: 26.0px;" /></a><a class="headerlink" href="#polygon-grow-selection-icon-selection-increaseselectpolygon" title="Permalink to this headline">¶</a></h2>
+<div class="figure align-default" id="id3">
+<a class="reference internal image-reference" href="../_images/UModeler_IncreaseTool.gif"><img alt="../_images/UModeler_IncreaseTool.gif" src="../_images/UModeler_IncreaseTool.gif" style="width: 298.0px; height: 330.0px;" /></a>
+<p class="caption"><span class="caption-text"><code class="docutils literal notranslate"><span class="pre">Polygon</span> <span class="pre">Grow</span> <span class="pre">Tool</span></code> icon</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="steps">
+<h2>Steps<a class="headerlink" href="#steps" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Select vertices, edges or polygons.</p></li>
+<li><p>Select <code class="docutils literal notranslate"><span class="pre">Grow</span> <span class="pre">Tool</span></code>.</p></li>
+</ol>
+</div>
+<div class="section" id="properties-in-settings">
+<h2>Properties in Settings<a class="headerlink" href="#properties-in-settings" title="Permalink to this headline">¶</a></h2>
+<div class="figure align-default" id="id4">
+<a class="reference internal image-reference" href="../_images/GrowSelectSettings.png"><img alt="../_images/GrowSelectSettings.png" src="../_images/GrowSelectSettings.png" style="width: 302.40000000000003px; height: 277.6px;" /></a>
+<p class="caption"><span class="caption-text">Grow Selection properties in Settings window.</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+</div>
+<dl>
+<dt>Restrict To Angle</dt><dd><p>Enables this property to grow the selection only to those faces within a specified angle.</p>
+</dd>
+<dt>Max Angle</dt><dd><p>Sets the maximum angle allowed when growing the selection. UModeler ignores this property unless the Restrict to Angle property is enabled.</p>
+</dd>
+<dt>Iterative</dt><dd><p>Enables this property to iterative the selection one adjacent element at a time, each time you press the Grow Selection button.</p>
+<div class="figure align-default" id="id5">
+<a class="reference internal image-reference" href="../_images/GrowSelection_RestrictToAngle.gif"><img alt="../_images/GrowSelection_RestrictToAngle.gif" src="../_images/GrowSelection_RestrictToAngle.gif" style="width: 409.5px; height: 266.7px;" /></a>
+<p class="caption"><span class="caption-text">Grow Selection where <code class="docutils literal notranslate"><span class="pre">Restrict</span> <span class="pre">To</span> <span class="pre">Angle</span></code> is applied</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-default" id="id6">
+<a class="reference internal image-reference" href="../_images/GrowSelection_NoIterative.gif"><img alt="../_images/GrowSelection_NoIterative.gif" src="../_images/GrowSelection_NoIterative.gif" style="width: 409.5px; height: 266.7px;" /></a>
+<p class="caption"><span class="caption-text">Grow Selection where <code class="docutils literal notranslate"><span class="pre">Iterative</span></code> is off</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+</div>
+</dd>
+</dl>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="shrinkselectiontool.html" class="btn btn-neutral float-right" title="Shrink Selection Tool" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="invertselectiontool.html" class="btn btn-neutral float-left" title="Invert Selection Tool" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2021, tripolygon
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -17,4 +17,5 @@ Selection Group |Icon_Group_Selection|
    loopselectiontool.rst
    ringselectiontool.rst
    invertselectiontool.rst
-   increaseselectiontool.rst
+   growselectiontool.rst
+   shrinkselectiontool.rst
