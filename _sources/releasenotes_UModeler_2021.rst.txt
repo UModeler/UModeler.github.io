@@ -8,6 +8,7 @@ Version 2.8.4f5 - June.11.2021
 - Feature : ``Shrink Selection Tool`` has been added - :ref:`Shrink Selection Tool`
 - Tweak : Renamed ``Increase Selection tool`` to ``Grow Selection Tool`` 
 - Enhancement : Added some properties like ``Restrict To Angle``, ``Max Angle`` and ``Interative`` in Settings window for ``Grow Select``
+- Enhancement : Added Triangulation color field in the Preference.
 - Fix : Fixed the edge selection bug again.
 - Fix : Fixed a bug where a polygon becomes black when Vertex snap holding ``V`` key is applied.
 
