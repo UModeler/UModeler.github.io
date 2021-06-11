@@ -2,6 +2,26 @@
 UModeler 2021
 ############################
 
+Version 2.8.4f5 - June.11.2021
+=================================
+- Assets : Includes ``Blacksmith`` demo pack.
+- Feature : ``Shrink Selection Tool`` has been added - :ref:`Shrink Selection Tool`
+- Tweak : Renamed ``Increase Selection tool`` to ``Grow Selection Tool`` 
+- Enhancement : Added some properties like ``Restrict To Angle``, ``Max Angle`` and ``Interative`` in Settings window for ``Grow Select``
+- Fix : Fixed the edge selection bug again.
+- Fix : Fixed a bug where a polygon becomes black when Vertex snap holding ``V`` key is applied.
+
+ .. figure:: /images/GrowSelection_RestrictToAngle.gif
+    :scale: 30 %
+
+    Grow Selection where ``Restrict To Angle`` is applied
+
+
+ .. figure:: /images/GrowSelection_NoIterative.gif
+    :scale: 30 %
+
+    Grow Selection where ``Iterative`` is off
+
 Version 2.8.4f4 - June.10.2021
 =================================
 - Assets : Includes ``Blacksmith`` demo pack.

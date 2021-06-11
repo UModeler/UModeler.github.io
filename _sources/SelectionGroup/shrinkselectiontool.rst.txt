@@ -6,13 +6,13 @@ Shrink Selection Tool
 
 The Shrink Selection tool removes the elements on the perimeter of the current selection. It performs the opposite action of the Grow Selection tool.
 
-.. |Icon_Selection_ShrinkSelectVertex| image:: /images/Icon_Selection_IncreaseSelectVertex.png
+.. |Icon_Selection_ShrinkSelectVertex| image:: /images/Icon_Selection_ShrinkSelectVertex.png
    :scale: 100 %
 
-.. |Icon_Selection_ShrinkSelectEdge| image:: /images/Icon_Selection_IncreaseSelectEdge.png
+.. |Icon_Selection_ShrinkSelectEdge| image:: /images/Icon_Selection_ShrinkSelectEdge.png
    :scale: 100 %
    
-.. |Icon_Selection_ShrinkSelectPolygon| image:: /images/Icon_Selection_IncreaseSelectPolygon.png
+.. |Icon_Selection_ShrinkSelectPolygon| image:: /images/Icon_Selection_ShrinkSelectPolygon.png
    :scale: 100 %
    
 Vertex Shrink Selection |Icon_Selection_ShrinkSelectVertex|
