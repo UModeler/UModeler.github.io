@@ -6,8 +6,8 @@ Version 2.8.5f2 - June.29.2021
 ================================
 - Assets : Includes new ``Ancient Dungeon`` demo pack for 2.8.5 users
 - Enhancement : Added ``Grow Select`` tool in ``Selection`` group of UV Editor.
-- Enhancement : Added ``Rect Select Mode`` for Edge and Polygon selection. ``Intersect`` and ``Complete`` modes are available.
-- Enhancement : Increased gizmos' size in UV Editor.
+- Enhancement : Added ``Rect Select Mode`` for Edge and Polygon selection. ``Intersect`` and ``Complete`` modes are available. The default shortkey is ``CTRL+SHIFT+W``.
+- Enhancement : Increased gizmos' size in UV Editor entirely.
 
 Version 2.8.5 - June.17.2021
 ================================
