@@ -2,6 +2,13 @@
 UModeler 2021
 ############################
 
+Version 2.8.5f2 - June.29.2021
+================================
+- Assets : Includes new ``Ancient Dungeon`` demo pack for 2.8.5 users
+- Enhancement : Added ``Grow Select`` tool in ``Selection`` group of UV Editor.
+- Enhancement : Added ``Rect Select Mode`` for Edge and Polygon selection. ``Intersect`` and ``Complete`` modes are available.
+- Enhancement : Increased gizmos' size in UV Editor.
+
 Version 2.8.5 - June.17.2021
 ================================
 
@@ -10,7 +17,7 @@ Version 2.8.5 - June.17.2021
 
 - Assets : Includes new ``Ancient Dungeon`` demo pack for 2.8.5 users
 - Fix : Fixed PushPull tool bug where null exception error happens when a polygon is pushed until the end.
-- Enhancement : Added a shortcut for ``Select Only Visible`` in Element Tools. The default one is ``SHIFT + V``
+- Enhancement : Added a shortcut for ``Select Only Visible`` in Element Tools. The default one is ``CTRL + SHIFT + V``
 - Enhancement : Added a shortcut to toggle on and off ``Triangulation`` in Settings. The default one is ``CTRL + SHIFT + 1``
 - Enhancement : Added a shortcut to toggle on and off ``Restrict To Angle`` in Settings. The default one is ``CTRL + SHIFT + X``
 
