@@ -42,6 +42,9 @@ Using the Polygon tool, polygons can be selected and moved/rotated/scaled.
   
 Basically selection of each element can be done by placing the mouse cursor there and pressing ``LMB``. And ``LMB`` dragging from an empty space will draw a rectangle and select elements inside the rectangle.
 
+.. figure:: /images/rectselectmode.png
+   :scale: 100 % 
+
 .. tip::
 
    | 1. You can add a new selection holding ``CTRL`` and pressing ``LMB`` on an element.
@@ -60,8 +63,13 @@ Basically selection of each element can be done by placing the mouse cursor ther
 
 .. note::
 
- The key for ``1D Snap`` has been changed from ``Ctrl`` to ``V`` since UModeler 2.8.4
-   
+ The key for ``1D Snap`` has been changed from ``Ctrl`` to ``V`` since UModeler 2.8.4 
+
+ ``Rect Select Mode`` property has been added since UModeler 2.8.5f2.
+ 
+ • Intersect : Select elements that are entirely or partially inside the drag-rectangle.
+ • Complete : Only select elements that are contained entirely within the drag rectangle.
+
 Properties
 -----------
 

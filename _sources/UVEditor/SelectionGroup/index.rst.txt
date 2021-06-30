@@ -17,3 +17,4 @@ Selection Group |Icon_UVEditor_Group_Selection|
    InvertSelection.rst
    LoopSelection.rst
    SharedSelection.rst
+   GrowSelection.rst
