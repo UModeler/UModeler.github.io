@@ -2,6 +2,13 @@
 UModeler 2021
 ############################
 
+Version 2.8.5f3 - July.2.2021
+================================
+• Assets : Includes new Ancient Dungeon demo pack for 2.8.5 users
+• Fix : Fixed incorrect UVs of an .obj exported mesh when Export Face Type is Quads.
+• Fix : Fixed incorrect fold out arrow directions in the inspector window of UVEditor and 3D Modeling.
+• Fix : Made Rect Select Mode property only visible in Edge and Polygon tools.
+
 Version 2.8.5f2 - June.29.2021
 ================================
 - Assets : Includes new ``Ancient Dungeon`` demo pack for 2.8.5 users
