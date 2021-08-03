@@ -10,6 +10,8 @@ Version 2.8.6f1 - August.8.2021
 • Fix : Fixed cutting line not being aligned with the cursor in Cut tool
 • Fix : Fixed incorrect UVs as texture's width and height is different. 
 • Enhancement : Added ``Toolbar Position`` property in Preference to change a location of the toolbar in the scene view.
+.. figure:: /images/toolbarposition_property_preference.PNG
+    :scale: 40 %
 
 Version 2.8.6 - July.12.2021
 ================================
