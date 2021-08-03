@@ -2,6 +2,15 @@
 UModeler 2021
 ############################
 
+Version 2.8.6f1 - August.8.2021
+================================
+• Asset : Includes Hamster Knight character pack for 2.8.6 users
+• Asset : Includes the Ancient Dungeon demo pack for 2.8.5 and 2.8.6 users
+• Fix : Fixed broken UVs caused by padding property in the Hotspot Layout tool.
+• Fix : Fixed cutting line not being aligned with the cursor in Cut tool
+• Fix : Fixed incorrect UVs as texture's width and height is different. 
+• Enhancement : Added ``Toolbar Position`` property in Preference to change a location of the toolbar in the scene view.
+
 Version 2.8.6 - July.12.2021
 ================================
 • Asset : Includes Hamster Knight character pack for 2.8.6 users
