@@ -15,6 +15,9 @@ Version 2.8.6f1 - August.8.2021
 
 Version 2.8.6 - July.12.2021
 ================================
+.. figure:: /images/HamsterKnight_Image.png
+    :scale: 50 %
+
 • Asset : Includes Hamster Knight character pack for 2.8.6 users
 • Asset : Includes the Ancient Dungeon demo pack for 2.8.5 and 2.8.6 users
 • Fix : Fixed a shortcut of Rect Select Mode not working
