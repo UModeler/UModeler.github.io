@@ -2,14 +2,22 @@
 UModeler 2021
 ############################
 
+Version 2.8.6f2 - August.17.2021
+====================================
+- Asset : Includes Hamster Knight character pack for 2.8.6 users
+- Asset : Includes the Ancient Dungeon demo pack for 2.8.5 and 2.8.6 users
+- Fix : Fixed Scale gizmo's tip not being picked in UV Editor.
+- Fix : Fixed elements not being selected using Rect selection while overlays are docked in Unity 2021.2
+- Enhancement : Added a shortcut to toggle on and off the Edit mode which can also be toggled on and off Open and Close buttons in the inspector. The default shortcut is ``Ctrl + Shift + Number 0``
+
 Version 2.8.6f1 - August.8.2021
 ================================
-• Asset : Includes Hamster Knight character pack for 2.8.6 users
-• Asset : Includes the Ancient Dungeon demo pack for 2.8.5 and 2.8.6 users
-• Fix : Fixed broken UVs caused by padding property in the Hotspot Layout tool.
-• Fix : Fixed cutting line not being aligned with the cursor in Cut tool
-• Fix : Fixed incorrect UVs as texture's width and height is different. 
-• Enhancement : Added ``Toolbar Position`` property in Preference to change a location of the toolbar in the scene view.
+- Asset : Includes Hamster Knight character pack for 2.8.6 users
+- Asset : Includes the Ancient Dungeon demo pack for 2.8.5 and 2.8.6 users
+- Fix : Fixed broken UVs caused by padding property in the Hotspot Layout tool.
+- Fix : Fixed cutting line not being aligned with the cursor in Cut tool
+- Fix : Fixed incorrect UVs as texture's width and height is different. 
+- Enhancement : Added ``Toolbar Position`` property in Preference to change a location of the toolbar in the scene view.
 .. figure:: /images/toolbarposition_property_preference.PNG
     :scale: 40 %
 
@@ -18,17 +26,17 @@ Version 2.8.6 - July.12.2021
 .. figure:: /images/HamsterKnight_Image.png
     :scale: 50 %
 
-• Asset : Includes Hamster Knight character pack for 2.8.6 users
-• Asset : Includes the Ancient Dungeon demo pack for 2.8.5 and 2.8.6 users
-• Fix : Fixed a shortcut of Rect Select Mode not working
-• Fix : Fixed Autolayout undo bug.
+- Asset : Includes Hamster Knight character pack for 2.8.6 users
+- Asset : Includes the Ancient Dungeon demo pack for 2.8.5 and 2.8.6 users
+- Fix : Fixed a shortcut of Rect Select Mode not working
+- Fix : Fixed Autolayout undo bug.
 
 Version 2.8.5f3 - July.2.2021
 ================================
-• Assets : Includes new Ancient Dungeon demo pack for 2.8.5 users
-• Fix : Fixed incorrect UVs of an .obj exported mesh when Export Face Type is Quads.
-• Fix : Fixed incorrect fold out arrow directions in the inspector window of UVEditor and 3D Modeling.
-• Fix : Made Rect Select Mode property only visible in Edge and Polygon tools.
+- Assets : Includes new Ancient Dungeon demo pack for 2.8.5 users
+- Fix : Fixed incorrect UVs of an .obj exported mesh when Export Face Type is Quads.
+- Fix : Fixed incorrect fold out arrow directions in the inspector window of UVEditor and 3D Modeling.
+- Fix : Made Rect Select Mode property only visible in Edge and Polygon tools.
 
 Version 2.8.5f2 - June.29.2021
 ================================
