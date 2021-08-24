@@ -2,6 +2,14 @@
 UModeler 2021
 ############################
 
+Version 2.8.6f3 - August.24.2021
+====================================
+- Asset : Includes Hamster Knight character pack for 2.8.6 users
+- Asset : Includes the Ancient Dungeon demo pack for 2.8.5 and 2.8.6 users
+- Fix : Fixed a bug where ProBuidler 5.0.3 mesh isn't converted.
+- Fix : Fixed not Cursor and Status windows not being displayed in the scene view on Unity 2021.2.x
+- Fix : Fixed a bug where a vertex in a separated shape moves as transforming is applied.
+
 Version 2.8.6f2 - August.17.2021
 ====================================
 - Asset : Includes Hamster Knight character pack for 2.8.6 users
