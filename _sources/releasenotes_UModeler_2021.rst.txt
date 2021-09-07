@@ -4,6 +4,9 @@ UModeler 2021
 
 Version 2.8.7 - September.7.2021
 ===================================
+.. figure:: /images/UModeler2.8.7.png
+    :scale: 50 %
+
 - Asset : Includes the Medieval Weapons - Swords and Shields Pack for 2.8.7 users.
 - Asset : Includes Hamster Knight character pack for 2.8.7 users
 - Fix : Fixed a bug where the default thickness value was -0.01 in Room tool
