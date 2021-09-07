@@ -2,6 +2,13 @@
 UModeler 2021
 ############################
 
+Version 2.8.7 - September.7.2021
+===================================
+- Asset : Includes the Medieval Weapons - Swords and Shields Pack for 2.8.7 users.
+- Asset : Includes Hamster Knight character pack for 2.8.7 users
+- Fix : Fixed a bug where the default thickness value was -0.01 in Room tool
+- Fix : Fixed a bug where Status window and Cursor window aren't visible in Unity 2021.2. The windows have changed to Unity editor windows.
+
 Version 2.8.6f3 - August.24.2021
 ====================================
 - Asset : Includes Hamster Knight character pack for 2.8.6 users
