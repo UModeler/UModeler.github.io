@@ -9,7 +9,7 @@ Lets you merge automatically all the selected vertices within the specific dista
 
 Steps
 --------
- 1. Select vertices, edges or polygons.
+ 1. Select vertices.
  2. Go to ``Remove Double Tool``
  3. Adjust ``Distance`` property.
 

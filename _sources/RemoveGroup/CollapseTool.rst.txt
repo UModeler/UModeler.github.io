@@ -9,7 +9,7 @@ Merges each edge island or vertex island into one vertex. This makes as many rem
 
 Steps
 -------
- 1. Select vertices or edges or polygons.
+ 1. Select vertices or edges.
  2. Click on Collapse Tool button.
 
 .. |UModeler_Collapse_0| image:: /images/UModeler_Collapse_0.jpg
