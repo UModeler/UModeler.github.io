@@ -2,7 +2,7 @@
 UModeler 2021
 ############################
 
-Version 2.8.7f2 - September.10.2021
+Version 2.8.7f2 - September.13.2021
 ====================================
 - Asset : Includes the Medieval Weapons - Swords and Shields Pack for 2.8.7 users.
 - Asset : Includes Hamster Knight character pack for 2.8.7 users
