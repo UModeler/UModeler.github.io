@@ -6,7 +6,7 @@ Version 2.8.7f2 - September.10.2021
 ====================================
 - Asset : Includes the Medieval Weapons - Swords and Shields Pack for 2.8.7 users.
 - Asset : Includes Hamster Knight character pack for 2.8.7 users
-- Fix : Fixed a bug where ``Invisible in Playmode`` toggle removes any secondary materials from the object and causes ``Submesh Index Out of Bounds`` errors.
+- Fix : Fixed a bug where ``Invisible in Playmode`` in ``Local Settings tool`` toggle removes any secondary materials from the object and causes ``Submesh Index Out of Bounds`` errors.
 - Fix : Fixed a ``Material Tool`` issue where it is possible to remove all material slots, which then throws ArgumentOutOfRangeExceptions and breaks the Inspector window if the GameObject is de-selected and re-selected
 - Fix : Fixed an issue where the gizmos' size of ``UV Editor`` is too large and not adpative according to the UV editor size. 
 - Fix : Fixed a stack overflow issue where a mesh object is umodelerized using ``UModelerize Hierarchically``.
