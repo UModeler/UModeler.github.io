@@ -19,7 +19,7 @@ Q) Is UModeler mesh compatible with UModeler Lite version?
 ------------------------------------------------------------------------------------------------------------------------------------------------
 No, UModeler Lite version doesn't have ``UModelerize`` tool so UModeler mesh can't be converted to UModeler Lite mesh. 
  
-Q) The UModelerized mesh is still a triangle-based shape. How shoud I do for it to look like like UModeler mesh? In other words I want all adjacent coplanar faces to be merged into one face.
+Q) The UModelerized mesh is still a triangle-based shape. How should I do for it to look like like UModeler mesh? In other words I want all adjacent coplanar faces to be merged into one face.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Click on ``Combine Tool`` button once you select all polygons. This will combine adjacent coplanar polygons into one polygon.
 See the `Combine Polygon Tool <https://umodeler.github.io/RemoveGroup/CombineTool.html#combine-polygon-tool-icon-remove-combinepolygons>`_.
@@ -30,11 +30,11 @@ Navigate to ``Pivot to Center`` in ``Tweak`` group and click on ``Center`` butto
  
 Q) UModeler meshes disappear.
 -------------------------------------------
-Click on ``Tools > UModeler > Refresah All`` at the top of the editor. It will build all UModeler components in the current scene to create renderable meshes.
+Click on ``Tools > UModeler > Refresh All`` at the top of the editor. It will build all UModeler components in the current scene to create renderable meshes.
  
 Q) Broken lightmaps
 -------------------------------------------
-Click on ``Tools > UModeler > Refresah All`` at the top of the editor. If lightmaps are still broken, make sure that ``Light Static`` is on and click on ``Generate UV2 channel for Lightmap`` button in ``Local Settings`` tool.
+Click on ``Tools > UModeler > Refresh All`` at the top of the editor. If lightmaps are still broken, make sure that ``Light Static`` is on and click on ``Generate UV2 channel for Lightmap`` button in ``Local Settings`` tool.
 And then try to ``Clear Baked Data`` and ``Generate Lighting`` in ``Lighting`` window.
  
  .. figure:: /images/LocalSettings.jpg

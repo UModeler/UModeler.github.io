@@ -22,7 +22,7 @@ Features
 
 - Built-in ``Hotspot Layout Editor`` made from the UV Editor framework. 
 - A triangle layout as well as a rectangle is supported
-- Auto mode called ``Auto Hotpost`` which enables UVs to be applied automatically every time a polygon is modified.
+- Auto mode called ``Auto Hotspot`` which enables UVs to be applied automatically every time a polygon is modified.
 - ``Padding`` parameter to gives consistant gap between a hotspot layout and assigned UVs
 - Applies a selected hotspot layout to UVs by clicking on ``Apply Selected Hotspot`` button.
 
@@ -47,7 +47,7 @@ Hotspot Layout tool
  If on, only visible polygons can be selected in the scene view.
 
 2.Auto Hotspot
- If on, hotspot texturing is applied to every polygon whose is involved in being edited at realtime.
+ If on, hotspot texturing is applied immediately to every polygon which is being edited at realtime.
 
 3.Hotspot Group
  If on, adjacent polygons are placed in one layout.
@@ -88,7 +88,7 @@ Hotspot Layout tool
  If a hotspot layout file is set, ``UV Layout Editor`` will be opened.
 
 8.Apply Hotspot
- If enabled, the hotspot texturing will be applied to the selected polygons. The selected polygons' UV coordinates will be place in the most appropriate layout.
+ If enabled, the hotspot texturing will be applied to the selected polygons. The selected polygons' UV coordinates will be placed in the most appropriate layout.
 
 9.Apply Selected Hotspot
  If enabled, the selected polygons' UV coordinates will be placed in the selected hotspot layout.
@@ -169,7 +169,7 @@ Using ``Auto Hotspot``
 1. At first you should select a UModeler mesh or create it.
 2. Enter ``Hotspot Layout`` tool
 3. You should create a new Hotspot layout file by pressing ``New Hotspot Layout`` or open the existing layout file via ``Hotspot Layout`` slot.
-4. Now click on ``Open Layout Editor`` to opens the Layout Editor
+4. Now click on ``Open Layout Editor`` to open the Layout Editor
 
 .. figure:: /images/hotspotlayout_editor_autohotspot_0.png	
    :scale: 50 %
