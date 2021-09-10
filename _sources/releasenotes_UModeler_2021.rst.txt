@@ -19,6 +19,7 @@ Version 2.8.7f2 - September.10.2021
 - Fix : Fixed a bug where Shift+LMB on the selected menu button doesn't work to bringing up a online manual.
 - Fix : Fixed a ``Grow Select Tool`` bug of UV editor where Unhandled NullReferenceException is thrown when attempting to grow selection on a single face in the ``UV Editor``
 - Fix : Fixed a ``Export Tool`` bug of ``UV Editor`` where warnings about releasing render texture that is set to be RenderTexture.active are thrown upon exporting
+- Fix : Fixed shortcut crash of ``Arc Tool`` and ``Duplicate Tool`` - Arc Tool shortcut changed to ``Ctrl+Shift+Q``. Duplicate Tool shortcut changed to ``Ctrl+Shift+D``.
 
 Version 2.8.7 - September.7.2021
 ===================================
