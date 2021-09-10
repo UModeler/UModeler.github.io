@@ -62,4 +62,4 @@ Continuous
 .. figure:: /images/UModeler_PushPull_CuttingOut.jpg
    :scale: 95 %
 
-   When you push a polygon with ``Boundary Check`` property on, you can cut it out.
+   When you push a polygon with ``Border Check`` property on, you can cut it out.
