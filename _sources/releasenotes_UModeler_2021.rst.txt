@@ -2,6 +2,24 @@
 UModeler 2021
 ############################
 
+Version 2.8.7f2 - September.10.2021
+====================================
+- Asset : Includes the Medieval Weapons - Swords and Shields Pack for 2.8.7 users.
+- Asset : Includes Hamster Knight character pack for 2.8.7 users
+- Fix : Fixed a bug where Invisible in Playmode toggle removes any secondary materials from the object and causes "Submesh Index Out of Bounds" errors.
+- Fix : Fixed a material tool issue where It is possible to remove all material slots, which then throws ArgumentOutOfRangeExceptions and breaks the Inspector window if the GameObject is de-selected and re-selected
+- Fix : Fixed an issue where the gizmos' size of UV Editor is too large and not adpative according to the UV editor size. 
+- Fix : Fixed a stack overflow issue where a mesh object is umodelerized using UModelerize Hierarchically.
+- Fix : Fixed an issue where Shift was displayed in view commentary in Extrusion mode even when the extrude modifier key changed to Caps Lock in the Preference.
+- Fix : Fixed a Multi-PushPull tool bug where Selecting 'One Step Push' or 'One Step Pull' without an active polygon selected throws NullReferenceExceptions
+- Fix : Fixed a Mirror Object tool bug where MissingReferenceExceptions are thrown when repainting the scene view(moving the mouse around) after undoing a Mirror Object action
+- Fix : Fixed a Clone tool bug where Dragging on a polygon with the left mouse button only slightly and then clicking on an empty space in the Scene view throws an unhandled NullReferenceException
+- Fix : Fixed a Clip tool bug where Unhandled NullReferenceException in certain scenarios
+- Fix : Fixed a Polygon group tool bug where Remove Polygons button without a polygon selected throws a NullReferenceException
+- Fix : Fixed a bug where Shift+LMB on the selected menu button doesn't work to bringing up a online manual.
+- Fix : Fixed a Grow Select tool bug of UV editor where Unhandled NullReferenceException is thrown when attempting to grow selection on a single face in the UV Editor
+- Fix : Fixed a bug where warnings about releasing render texture that is set to be RenderTexture.active are thrown upon exporting
+
 Version 2.8.7 - September.7.2021
 ===================================
 .. figure:: /images/UModeler2.8.7.png
