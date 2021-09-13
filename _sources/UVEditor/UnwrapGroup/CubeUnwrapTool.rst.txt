@@ -18,20 +18,6 @@ Spacing
 
 Separate All
    If on, each polygon will be a UV island. If not, each connected polygon group will be a UV Island.   
-
-Axis
-   Select which axis is used for projection.
-   
-   Normal
-      The normal direction of the connected polygons.
-   View
-      Camera viewing direction.
-   X
-	  X-Axis
-   Y
-      Y-Axis
-   Z
-      Z-Axis
 	  
 Unwrap
    Unwrap the selected polygon in 3D Scene view.
