@@ -75,6 +75,10 @@ Divides all polygons into triangles.
 
   ``Triangulate`` isn't available in the Lite version.   
 
+Remove UModeler
+========================================
+Removes UModeler components of all the selected UModeler objects and save a mesh in the MeshFilter as .asset. This makes final meshes for building.
+
 ---------------------------------------------------------------------------------------------------------------------------------
 
 Diagnose All UModeler Objects
