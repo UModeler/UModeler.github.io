@@ -4,6 +4,10 @@ UModeler 2021
 
 Version 2.8.8 - October.8.2021
 ====================================
+
+.. figure:: /images/UModeler2.8.8Update.png
+    :scale: 25 %
+
 - Asset : Includes the Medieval Weapons Package - Bow and Magic wands plus Swords and Shields for 2.8.8 users.
 - Asset : Includes Hamster Knight character pack for 2.8.8 users
 - Enhancement : Added the Center Snap function in ``Parallel Tool``
