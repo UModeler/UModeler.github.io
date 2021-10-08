@@ -2,6 +2,16 @@
 UModeler 2021
 ############################
 
+Version 2.8.8 - October.8.2021
+====================================
+- Asset : Includes the Medieval Weapons Package - Bow and Magic Weapons plus Swords and Shields for 2.8.8 users.
+- Asset : Includes Hamster Knight character pack for 2.8.8 users
+- Enhancement : Added the Center Snap function in ``Parallel Tool``
+- Enhancement : Added ``Remove UModeler`` menu to remove UModeler components of the selected objects.
+- Enhancement : Added ``Copy Materials`` and ``Paste Materials`` buttons in ``Material tool`` to allow you to copy materials and paste them in other UModeler object.
+- Enhancement : Added ``Keep Size`` property in ``Plane Unwrap Tool`` and ``Cube Unwrap Tool``  of the UV Editor to unwrap a polygon whose size is proportional to its size. 
+- Enhancement : Implemented transferring element selection when ``Vertex Tool``, ``Edge Tool`` and ``Polygon Tool`` being selected to keep selection.
+
 Version 2.8.7f2 - September.13.2021
 ====================================
 - Asset : Includes the Medieval Weapons - Swords and Shields Pack for 2.8.7 users.
