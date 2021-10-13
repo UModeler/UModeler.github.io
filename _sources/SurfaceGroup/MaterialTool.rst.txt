@@ -39,6 +39,12 @@ Select Only Visible
  
 Add Slot
  Adds a new material slot.
+
+Copy Materials
+ Stores materials in the current Object in order to paste them to another object.
+
+Paste Materials
+ Pastes the stored materials in the clipboard.
  
 UIs of Material Slot 
 ---------------------
