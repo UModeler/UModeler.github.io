@@ -2,7 +2,7 @@
 UModeler 2021
 ############################
 
-Version 2.8.8 - October.8.2021
+Version 2.8.8 - October.13.2021
 ====================================
 
 .. figure:: /images/UModeler2.8.8Update.png

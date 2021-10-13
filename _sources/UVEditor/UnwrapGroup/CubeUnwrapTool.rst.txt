@@ -16,6 +16,9 @@ Margin
 Spacing
    The space between UV Islands.
 
+Keep Size
+   If true, UV size is propotional to the size of the selected polygon. If false, UV sizes of the selected polygons when being unwrapped are identical.   
+
 Separate All
    If on, each polygon will be a UV island. If not, each connected polygon group will be a UV Island.   
 	  
