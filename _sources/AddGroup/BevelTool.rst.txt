@@ -29,6 +29,9 @@ Profile
 
 Clamp Overlap
  When selected, the bevel amount isn’t allowed to go larger than an amount that causes overlapping collisions with other geometry.
+
+Auto Smooth
+ Applies smoothing groups to new beveled faces.
  
 .. |VertexBevel_0| image:: /images/UModeler_Bevel_VertexBevel_0.jpg
    :scale: 95 %

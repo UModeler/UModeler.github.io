@@ -22,6 +22,15 @@ Type
  
 Fill Facet
  Fills facets with polygons.
+
+Action After Cut
+ Defines an action after cutting.
+  * ``None`` - does nothing.
+  * ``Select Polygons`` - selects all polygons above the custom plane.
+  * ``Detach`` - separates all polygons above the custom plane to the sepearated object.
+
+Snap To XY Axis.
+ Cutting plane Snaps to X or Y axis. 
  
 Select Above
  After cutting a mesh, selects all polygons above the custom plane.

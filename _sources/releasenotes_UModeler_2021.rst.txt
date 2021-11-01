@@ -2,6 +2,20 @@
 UModeler 2021
 ############################
 
+Version 2.8.8f6 - October.13.2021
+====================================
+
+- Asset : Includes the Medieval Weapons Package - Bow and Magic wands plus Swords and Shields for 2.8.8 users.
+- Asset : Includes Hamster Knight character pack for 2.8.8 users
+- Enhancement : Added ''Auto Smoothing'' property in ``Bevel Tool``
+- Fix : Fixed a bug where the Scale gizmo axis isn't aligned with the Object's rotation.
+- Enhancement : Added a hotkey to toggle on and off UV Editor. ``Ctrl + Shift + U``.
+- Enhancement : Added a hotkey to toggle on and off floating the Menu and Property Windows. ``Ctrl + Shift + 8``.
+- Enhancement : Added a hotkey for ``Auto Smooth``. ``Ctrl + Shift + 6``.
+- Enhancement : Added a hotkey for ``Remove All`` in ``Smoothing Group Tool``. ``Ctrl + Shift + 9``.
+- Enhancement : Added a snapping function to snap the straight cut plane straightly in ``Cut Tool``.
+- Enhancement : Added a new function to separate an half part to another game object in ``Cut Tool``. 
+
 Version 2.8.8 - October.13.2021
 ====================================
 
