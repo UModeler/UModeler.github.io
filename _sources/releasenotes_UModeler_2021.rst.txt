@@ -2,6 +2,13 @@
 UModeler 2021
 ############################
 
+Version 2.8.8f8 - November.5.2021
+====================================
+
+- Asset : Includes the Medieval Weapons Package - Bow and Magic wands plus Swords and Shields for 2.8.8 users.
+- Asset : Includes Hamster Knight character pack for 2.8.8 users
+- Fix : Fixed GUI error in the UVEditor on Unity 2021.2.0f1.
+
 Version 2.8.8f7 - November.4.2021
 ====================================
 
