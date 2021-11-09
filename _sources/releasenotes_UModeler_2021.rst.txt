@@ -2,6 +2,14 @@
 UModeler 2021
 ############################
 
+Version 2.8.9 - November.14.2021
+===================================
+
+.. figure:: /images/Basilica_Cathedral_Scenes.jpg
+    :scale: 50 %
+
+- Asset : Includes the Basilica Cathedral Package for 2.8.9 users.
+
 Version 2.8.8f8 - November.5.2021
 ====================================
 
