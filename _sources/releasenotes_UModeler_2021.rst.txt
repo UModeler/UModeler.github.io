@@ -2,6 +2,13 @@
 UModeler 2021
 ############################
 
+Version 2.8.9f2 - November.29.2021
+===================================
+
+- Asset : Includes the Basilica Cathedral Package for 2.8.9 users.
+- Fix : Fixed constant GUI errors which were thrown while in the Hotspot Layout Editor in Unity 2021.2
+- Fix : Fixed a bug where Hotspot Scriptable object doesn't get saved and is reset after each Unity Editor in Unity 2021.2
+
 Version 2.8.9 - November.14.2021
 ===================================
 
