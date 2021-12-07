@@ -2,6 +2,12 @@
 UModeler 2021
 ############################
 
+Version 2.8.9f3 - December.7.2021
+========================================
+
+- Asset : Includes the Basilica Cathedral Package for 2.8.9 users.
+- Fix : Fixed an error where UModelerEditor.dll isn't loaded in Unity 2021.2.5
+
 Version 2.8.9f2 - November.29.2021
 ===================================
 
@@ -25,7 +31,6 @@ Version 2.8.8f8 - November.5.2021
 - Fix : Fixed GUI error in the UVEditor on Unity 2021.2.0f1.
 
 Version 2.8.8f7 - November.4.2021
-====================================
 
 - Asset : Includes the Medieval Weapons Package - Bow and Magic wands plus Swords and Shields for 2.8.8 users.
 - Asset : Includes Hamster Knight character pack for 2.8.8 users
