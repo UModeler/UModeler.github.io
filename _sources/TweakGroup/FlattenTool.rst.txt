@@ -9,20 +9,11 @@ Flattens the selected polygons so that all the selected polygons will be aligned
 
 This tool is useful when you merges coplanar polygons using ``Combine Tool``.
 
-Properties
-------------
-
-Projection Dir  
-  * ``Up`` - Y direction
-  * ``Right`` - X direction
-  * ``Forward`` - Z direction
-  * ``Last Polygon`` - The normal direction of the last selected polygon.
-  
 .. note::
 
    In order to change properties you should select ``Flatten Tool`` without any selected elements.
    
-   
+      
 .. |UModeler_Flatten_0| image:: /images/UModeler_Flatten_0.jpg
    :scale: 100 %
    
@@ -30,4 +21,4 @@ Projection Dir
    :scale: 100 %
 
 |UModeler_Flatten_0| |UModeler_Flatten_1|
- 9 polygons are flattened so 
+ 9 polygons are flattened
