@@ -42,6 +42,9 @@ Boundary
 Start
  Starts the mirror mode.
 
+Cancel
+ Reverts all changes in Mirror mode.
+
 Done
  Finishes the mirror mode.
  

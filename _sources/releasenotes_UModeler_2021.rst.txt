@@ -2,6 +2,26 @@
 UModeler 2021
 ############################
 
+Version 2.8.10 - December.13.2021
+========================================
+
+.. figure:: /images/moonglow_village_thumbnail.png
+    :scale: 50 %
+
+- Asset : Includes the Moonglow Village Demo Package for 2.8.9 users.
+- Fix : Fixed an issue of ``Flatten`` tool where unnecessary Edit mode was enabled.
+- Fix : Fixed a null exception error occurring as UV unwrapping tools like ``Plane``, ``Cube`` etc are executed when no object is selected.
+- Fix : Fixed an issue where ``Shift+LMB`` clicking the ``UV Editor`` that is already selected didn't work to open in its documentation page.
+- Fix : Fixed an issue where a highlighted edge was obscured.
+- Fix : Fixed the Seamless Edit mode issue where Closed UModeler object and disabled UModeler object were selected.
+- Fix : Fixed a crash issue which occurred as being undone after being cut using the ``Cut`` tool.
+- Fix : Fixed a smart snap issue where  the cursor wasn't snapped well to the closest a vertex or an edge in a large UModeler object.
+- Tweak : Added a new toggle in the Preference window called ``Disable popping up the About window`` to disable opening up the About window as UModeler is updated.
+- Tweak : Changed ``Angle`` property name to ``Angle Along Y Axis`` in the ``Mirror`` tool.
+- Enhancement : Added a new button called ``Select by Select Polygons`` to select a smoothing group which includes the selected polygon.
+- Enhancement : Added a new button named ``Cancel`` in ``Mirror`` tool to revert changes that are made in Mirror mode.
+- Enhancement : Added a new button named ``Auto Smoothing`` in ``Cylinder``, ``Cone``, ``Spiral Stair``, ``Sphere`` and ``Capsule`` tools to create smoothed surfaces.
+
 Version 2.8.9f3 - December.7.2021
 ========================================
 

@@ -47,6 +47,9 @@ Height
 Angle Snap
  When you drag the mouse with this property on, the disk’s direction will snap to every 90 degree.
 
+Auto Smoothing
+ Creates smoothed surfaces which have a common smoothing group.
+
 Border Check
  If this is enabled, the ray cast will run and it checks if the created cylinder is beyond the other polygons. It might cause a stop for a second at the beginning.
  

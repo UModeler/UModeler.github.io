@@ -41,6 +41,9 @@ Radius
 
 Angle Snap
  When you drag the mouse with this property on, the sphere’s forward direction will snap to every 90 degree time.
+
+Auto Smoothing
+ Creates smoothed surfaces which have a common smoothing group.
  
 .. figure:: /images/UModeler_Sphere_OnTheFloor.jpg
    :scale: 95 %
