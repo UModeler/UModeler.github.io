@@ -18,7 +18,7 @@ Version 2.8.10 - December.13.2021
 - Fix : Fixed a smart snap issue where  the cursor wasn't snapped well to the closest a vertex or an edge in a large UModeler object.
 - Tweak : Added a new toggle in the Preference window called ``Disable popping up the About window`` to disable opening up the About window as UModeler is updated.
 - Tweak : Changed ``Angle`` property name to ``Angle Along Y Axis`` in the ``Mirror`` tool.
-- Enhancement : Added a new button called ``Select by Select Polygons`` to select a smoothing group which includes the selected polygon.
+- Enhancement : Added a new button called ``Select by Selected Polygons`` to select a smoothing group which includes the selected polygon.
 - Enhancement : Added a new button named ``Cancel`` in ``Mirror`` tool to revert changes that are made in Mirror mode.
 - Enhancement : Added a new button named ``Auto Smoothing`` in ``Cylinder``, ``Cone``, ``Spiral Stair``, ``Sphere`` and ``Capsule`` tools to create smoothed surfaces.
 
