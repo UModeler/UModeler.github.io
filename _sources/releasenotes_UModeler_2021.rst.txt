@@ -2,13 +2,19 @@
 UModeler 2021
 ############################
 
+Version 2.8.10f2 - December.14.2021
+========================================
+
+- Asset : Includes the Moonglow Village Demo Package for 2.8.10 users.
+- Fix : Fixed an issue where the several same online document windows pop up when the mouse is over a text menu item in UV Editor.
+
 Version 2.8.10 - December.13.2021
 ========================================
 
 .. figure:: /images/moonglow_village_thumbnail.png
     :scale: 50 %
 
-- Asset : Includes the Moonglow Village Demo Package for 2.8.9 users.
+- Asset : Includes the Moonglow Village Demo Package for 2.8.10 users.
 - Fix : Fixed an issue of ``Flatten`` tool where unnecessary Edit mode was enabled.
 - Fix : Fixed a null exception error occurring as UV unwrapping tools like ``Plane``, ``Cube`` etc are executed when no object is selected.
 - Fix : Fixed an issue where ``Shift+LMB`` clicking the ``UV Editor`` that is already selected didn't work to open in its documentation page.
