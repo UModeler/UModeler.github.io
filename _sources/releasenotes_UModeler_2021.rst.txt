@@ -7,7 +7,8 @@ Version 2.8.10f3 - Jan.3.2022
 
 - Asset : Includes the Moonglow Village Demo Package for 2.8.10 users.
 - Fix : Fixed a crash error when undoing creating UModeler object in Unity 2021.2.1 and higher versions.
-- Fix : Fixed a warning issue regarding "Serialization depth limit 10 exceeded" caused by the codes of Mirror Cancel Function which was implemented in 2.8.10
+- Fix : Fixed a warning issue regarding "Serialization depth limit 10 exceeded" caused by the codes of Mirror Cancel Function which was implemented in 2.8.10. The cancel function of the mirror tool has been reverted so it won't be available for now till we'll find a solution.
+- Fix : Fixed a .obj exporer bug where the multiple materials in the exported UModeler object couldn't be imported in Unity. 
 
 Version 2.8.10f2 - December.14.2021
 ========================================
