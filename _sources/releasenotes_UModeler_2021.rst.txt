@@ -2,6 +2,12 @@
 UModeler 2021-2022
 ############################
 
+Version 2.8.11 - Jan.18.2022
+=====================================
+
+- Fix : Fixed an issue where changes are displayed on all copies while editing any of the copies when objects are duplicated.
+- Optimization : Enhanced the performance by stopping unnecessary memory allocation which happened when UModeler objects were selected.
+
 Version 2.8.10f3 - Jan.3.2022
 =====================================
 
