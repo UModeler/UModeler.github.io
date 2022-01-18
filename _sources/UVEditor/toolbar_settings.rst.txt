@@ -94,6 +94,10 @@ Increment Snap
    Movement and rotation will be done by ``Grid Snape Size`` and ``Rotation Snap Size``.
 Pixel Snap
    Every vertex position will be snapped to the pixel grid. There are two types of the pixel position, ``Center`` and ``Corner``.
+   See the demo video at `here`_.
+
+.. _here: https://youtu.be/6zLhtvO1ftM
+   
 Grid Snap Size
    This defines how many size the UVs move whenever they are dragged or translated by the gizmo.
 Rotation Snap Size
