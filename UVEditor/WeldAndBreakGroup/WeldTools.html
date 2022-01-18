@@ -1,73 +1,36 @@
-
-
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8">
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Weld Tools &mdash; Unity UModeler Manual  documentation</title>
-  
-
-  
-  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
-
-  
-  
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
     <link rel="shortcut icon" href="../../_static/logo_fav_transparent_background.png"/>
-  
-  
-  
-
-  
   <!--[if lt IE 9]>
     <script src="../../_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
-    
-      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
         <script src="../../_static/jquery.js"></script>
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/doctools.js"></script>
-        <script src="../../_static/language_data.js"></script>
-    
-    <script type="text/javascript" src="../../_static/js/theme.js"></script>
-
-    
+    <script src="../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="Detach Tool" href="DetachTool.html" />
     <link rel="prev" title="Sew Tools" href="SewTools.html" /> 
 </head>
 
-<body class="wy-body-for-nav">
-
-   
+<body class="wy-body-for-nav"> 
   <div class="wy-grid-for-nav">
-    
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
-          
-
-          
-            <a href="../../index.html" class="icon icon-home" alt="Documentation Home"> Unity UModeler Manual
-          
-
-          
-            
+            <a href="../../index.html" class="icon icon-home"> Unity UModeler Manual
             <img src="../../_static/UModeler_ManualTitle_1.png" class="logo" alt="Logo"/>
-          
           </a>
-
-          
-            
-            
-          
-
-          
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
@@ -75,18 +38,7 @@
     <input type="hidden" name="area" value="default" />
   </form>
 </div>
-
-          
-        </div>
-
-        
-        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-          
-            
-            
-              
-            
-            
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../../overview.html">Overview</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../settings.html">Toolbar, Settings and Preferences</a></li>
@@ -128,142 +80,81 @@
 <li class="toctree-l1"><a class="reference internal" href="../../releasenotes.html">Release Notes</a></li>
 </ul>
 
-            
-          
         </div>
-        
       </div>
     </nav>
 
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
-
-      
-      <nav class="wy-nav-top" aria-label="top navigation">
-        
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
           <a href="../../index.html">Unity UModeler Manual</a>
-        
       </nav>
 
-
       <div class="wy-nav-content">
-        
         <div class="rst-content">
-        
-          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div role="navigation" aria-label="breadcrumbs navigation">
-
+          <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-    
       <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
-        
           <li><a href="../index.html">UV Editor</a> &raquo;</li>
-        
           <li><a href="index.html">Weld and Break Group </a> &raquo;</li>
-        
       <li>Weld Tools</li>
-    
-    
       <li class="wy-breadcrumbs-aside">
-        
-            
             <a href="../../_sources/UVEditor/WeldAndBreakGroup/WeldTools.rst.txt" rel="nofollow"> View page source</a>
-          
-        
       </li>
-    
   </ul>
-
-  
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
-            
-  <div class="section" id="weld-tools">
+             
+  <section id="weld-tools">
 <h1>Weld Tools<a class="headerlink" href="#weld-tools" title="Permalink to this headline">¶</a></h1>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Since Ver 2.2 <code class="docutils literal notranslate"><span class="pre">Collapse</span> <span class="pre">Tool</span></code> has been renamed to <code class="docutils literal notranslate"><span class="pre">Weld</span> <span class="pre">Tool</span></code> which are divided into 3 tools. <code class="docutils literal notranslate"><span class="pre">Weld</span> <span class="pre">To</span> <span class="pre">First</span></code>, <code class="docutils literal notranslate"><span class="pre">Weld</span> <span class="pre">To</span> <span class="pre">Ave</span></code> and <code class="docutils literal notranslate"><span class="pre">Weld</span> <span class="pre">to</span> <span class="pre">Last</span></code>.</p>
 </div>
-<div class="section" id="weld-to-first-icon-uveditor-weldandbreak-weldtofirst">
+<section id="weld-to-first-icon-uveditor-weldandbreak-weldtofirst">
 <h2>Weld To First <a class="reference internal" href="../../_images/Icon_UVEditor_WeldAndBreak_WeldToFirst.png"><img alt="Icon_UVEditor_WeldAndBreak_WeldToFirst" src="../../_images/Icon_UVEditor_WeldAndBreak_WeldToFirst.png" style="width: 26.0px; height: 26.0px;" /></a><a class="headerlink" href="#weld-to-first-icon-uveditor-weldandbreak-weldtofirst" title="Permalink to this headline">¶</a></h2>
 <p>Merges the selected UVs to the first UV position.</p>
 <p><a class="reference internal" href="../../_images/UModeler_UVEditor_Weld_0.jpg"><img alt="UModeler_UVEditor_Weld_0" src="../../_images/UModeler_UVEditor_Weld_0.jpg" style="width: 280.0px; height: 212.0px;" /></a> <a class="reference internal" href="../../_images/UModeler_UVEditor_Weld_1.jpg"><img alt="UModeler_UVEditor_Weld_1" src="../../_images/UModeler_UVEditor_Weld_1.jpg" style="width: 280.0px; height: 212.0px;" /></a></p>
-</div>
-<div class="section" id="weld-to-ave-icon-uveditor-weldandbreak-weldtoaverage">
+</section>
+<section id="weld-to-ave-icon-uveditor-weldandbreak-weldtoaverage">
 <h2>Weld To Ave <a class="reference internal" href="../../_images/Icon_UVEditor_WeldAndBreak_WeldToAverage.png"><img alt="Icon_UVEditor_WeldAndBreak_WeldToAverage" src="../../_images/Icon_UVEditor_WeldAndBreak_WeldToAverage.png" style="width: 26.0px; height: 26.0px;" /></a><a class="headerlink" href="#weld-to-ave-icon-uveditor-weldandbreak-weldtoaverage" title="Permalink to this headline">¶</a></h2>
 <p>Merges the selected UVs to the avearage pos of the selected UVs.</p>
 <p><a class="reference internal" href="../../_images/UModeler_UVEditor_Weld_0.jpg"><img alt="UModeler_UVEditor_Weld_0" src="../../_images/UModeler_UVEditor_Weld_0.jpg" style="width: 280.0px; height: 212.0px;" /></a> <a class="reference internal" href="../../_images/UModeler_UVEditor_Weld_2.jpg"><img alt="UModeler_UVEditor_Weld_2" src="../../_images/UModeler_UVEditor_Weld_2.jpg" style="width: 280.0px; height: 212.0px;" /></a></p>
-</div>
-<div class="section" id="weld-to-last-icon-uveditor-weldandbreak-weldtolast">
+</section>
+<section id="weld-to-last-icon-uveditor-weldandbreak-weldtolast">
 <h2>Weld To Last <a class="reference internal" href="../../_images/Icon_UVEditor_WeldAndBreak_WeldToLast.png"><img alt="Icon_UVEditor_WeldAndBreak_WeldToLast" src="../../_images/Icon_UVEditor_WeldAndBreak_WeldToLast.png" style="width: 26.0px; height: 26.0px;" /></a><a class="headerlink" href="#weld-to-last-icon-uveditor-weldandbreak-weldtolast" title="Permalink to this headline">¶</a></h2>
 <p>Merges the selected UVs to the last UV.</p>
 <p><a class="reference internal" href="../../_images/UModeler_UVEditor_Weld_0.jpg"><img alt="UModeler_UVEditor_Weld_0" src="../../_images/UModeler_UVEditor_Weld_0.jpg" style="width: 280.0px; height: 212.0px;" /></a> <a class="reference internal" href="../../_images/UModeler_UVEditor_Weld_3.jpg"><img alt="UModeler_UVEditor_Weld_3" src="../../_images/UModeler_UVEditor_Weld_3.jpg" style="width: 280.0px; height: 212.0px;" /></a></p>
-</div>
-</div>
+</section>
+</section>
 
 
            </div>
-           
           </div>
-          <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="DetachTool.html" class="btn btn-neutral float-right" title="Detach Tool" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
-      
-      
-        <a href="SewTools.html" class="btn btn-neutral float-left" title="Sew Tools" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
-      
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="SewTools.html" class="btn btn-neutral float-left" title="Sew Tools" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="DetachTool.html" class="btn btn-neutral float-right" title="Detach Tool" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
-  
 
   <hr/>
 
   <div role="contentinfo">
-    <p>
-        
-        &copy; Copyright 2021, tripolygon
+    <p>&#169; Copyright 2021, tripolygon.</p>
+  </div>
 
-    </p>
-  </div> 
+   
 
 </footer>
-
         </div>
       </div>
-
     </section>
-
   </div>
-  
-
-  <script type="text/javascript">
+  <script>
       jQuery(function () {
           SphinxRtdTheme.Navigation.enable(true);
       });
-  </script>
-
-  
-  
-    
-   
+  </script> 
 
 </body>
 </html>
