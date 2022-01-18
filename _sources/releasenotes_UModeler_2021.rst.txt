@@ -2,6 +2,13 @@
 UModeler 2021-2022
 ############################
 
+Version 2.8.11f2 - Jan.18.2022
+=====================================
+
+- Asset : Includes the PastelTown-BuiltInRP-UModeler package by default.
+- Fix : Fixed a TryGetComponent() issue in Unity 2019.1 or less.
+- Fix : Fixed an issue where edited parts continue to appear and disappear while modifying
+
 Version 2.8.11 - Jan.18.2022
 =====================================
 
