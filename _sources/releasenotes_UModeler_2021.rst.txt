@@ -2,6 +2,12 @@
 UModeler 2021-2022
 ############################
 
+Version 2.8.11f3 - Jan.19.2022
+=======================================
+
+- Fix : Fixed an error occuring when exiting the prefab mode.
+- Fix : Fixed another issue where edited parts disappear while modifying and appear again at the end of editing intermittently when both the scene view and the game view are opened.
+
 Version 2.8.11f2 - Jan.18.2022
 =====================================
 
