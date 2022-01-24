@@ -2,9 +2,9 @@
 UModeler Lite
 ############################
 
-1.0.4 - Jan.18 2021
+1.0.4 - Jan.24 2021
 ========================
-- Optimized the mesh build process so that its structure has become cleaner and less buggy now.
+- Fix : Fixed a warning regarding non-secure network connections in Unity 2022.1b
 
 1.0.3 - Jan.3 2021
 ========================

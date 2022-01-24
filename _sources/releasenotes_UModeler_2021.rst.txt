@@ -2,6 +2,11 @@
 UModeler 2021-2022
 ############################
 
+Version 2.8.12 - Jan.24.2022
+=======================================
+
+- Fix : Fixed a warning regarding non-secure network connections in Unity 2022.1b
+
 Version 2.8.11f3 - Jan.19.2022
 =======================================
 
