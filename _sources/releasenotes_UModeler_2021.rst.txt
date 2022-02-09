@@ -5,6 +5,11 @@ UModeler 2021-2022
 Version 2.8.13 - Feb.7.2022
 =======================================
 
+- Fix : Fixed a bug where creating a primitie shape didn't work on another UModeler object.
+
+Version 2.8.13 - Feb.7.2022
+=======================================
+
 - Enhancement : Forces the current tool to be the object tool when selected. This can be enabled in the Preference window.
 - Enhancement : Rotates the global gizmo by the transform. This can be enabled in the Preference window.
 - Fix : Fixed the issue of ``Isolation Selection Tool`` where overlapped faces not connected were selected.
