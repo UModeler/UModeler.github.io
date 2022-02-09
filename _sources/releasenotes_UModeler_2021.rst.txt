@@ -2,7 +2,7 @@
 UModeler 2021-2022
 ############################
 
-Version 2.8.13 - Feb.7.2022
+Version 2.8.14 - Feb.7.2022
 =======================================
 
 - Fix : Fixed a bug where creating a primitie shape didn't work on another UModeler object.
