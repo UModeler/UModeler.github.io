@@ -2,6 +2,16 @@
 UModeler 2021-2022
 ############################
 
+Version 2.8.16 - Feb.17.2022
+=======================================
+
+- Fix : Fixed a bug whose error message is "Unable to add Renderer to the Scene after Culling" in a project with the AQUAS asset.
+
+Version 2.8.15 - Feb.17.2022
+=======================================
+
+- Fix : Fixed a bug where the current tool changed to the Object Tool as an element was selected. 
+
 Version 2.8.14 - Feb.7.2022
 =======================================
 
