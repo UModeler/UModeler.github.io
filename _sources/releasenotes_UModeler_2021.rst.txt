@@ -2,6 +2,12 @@
 UModeler 2021-2022
 ############################
 
+Version 2.8.17 - Feb.25.2022
+=======================================
+
+- Fix : Fixed a bug where UV polygons are strecthed as unwrapped using the Autolayout.
+- Fix : Fixed a bug of Mirror Object tool where vertices can't be selected after running Duplicate and Mirror
+
 Version 2.8.16 - Feb.17.2022
 =======================================
 
