@@ -2,11 +2,15 @@
 UModeler Lite
 ############################
 
-1.0.4 - Jan.24 2021
+1.0.5 - March.4.2022
+========================
+- Fix : Fixed a bug where null-reference exception occured as elements moved holding 'V' key.
+
+1.0.4 - Jan.24 2022
 ========================
 - Fix : Fixed a warning regarding non-secure network connections in Unity 2022.1b
 
-1.0.3 - Jan.3 2021
+1.0.3 - Jan.3 2022
 ========================
 - Fixed a crash bug occuring when undoing after creating UModeler object.
 
