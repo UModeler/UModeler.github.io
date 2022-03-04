@@ -4,7 +4,7 @@ UModeler Lite
 
 1.0.5 - March.4.2022
 ========================
-- Fix : Fixed a bug where null-reference exception occured as elements moved holding 'V' key.
+- Fix : Fixed a bug where null-reference exception occurred as elements moved holding 'V' key, and V snap didn't work.
 
 1.0.4 - Jan.24 2022
 ========================
