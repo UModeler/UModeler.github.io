@@ -2,6 +2,18 @@
 UModeler 2021-2022
 ############################
 
+Version 2.8.19 - March.14.2022
+=======================================
+
+- Improvement : Added a new function to disable cursor magnet(snap) by holding CTRL.
+- Fix : Fixed an edge duplication issue happening as using the Duplicate tool.
+
+Version 2.8.18 - March.10.2022
+========================================
+
+- Improvement : Made Loop Selection tool more perfect.
+- Fix : Fixed an issue where Mesh Collider component is toggled on and off automatically.
+
 Version 2.8.17 - Feb.25.2022
 =======================================
 
