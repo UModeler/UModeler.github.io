@@ -39,6 +39,9 @@ Floor Height
  
 ``SPACE``
  Confirms the drawn edges.
+
+Holding ``CTRL``
+ Disables the cursor snap. 
  
 ``ESC``
  Cancels the previous point.
