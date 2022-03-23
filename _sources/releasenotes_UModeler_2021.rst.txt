@@ -6,8 +6,7 @@ Version 2.8.20 - March.23.2022
 =======================================
 
 - Fix : Fixed an issue where removing multiple vertices weren't removed using Eraser Tool.
-- Fix : Fixed an issue where the following error message recurred in Unity 2022.1.
-   MissingMethodException: Method not found: void UnityEditor.Unwrapping.GenerateSecondaryUVSet
+- Fix : Fixed an issue where the following error message recurred in Unity 2022.1. MissingMethodException: Method not found: void UnityEditor.Unwrapping.GenerateSecondaryUVSet
 
 Version 2.8.19 - March.14.2022
 =======================================
