@@ -2,6 +2,11 @@
 UModeler 2021-2022
 ############################
 
+Version 2.8.21 - March.31.2022
+=======================================
+
+- Fix : Fixed a NullReferenceException error occuring when a polygon is rotated and it is triangulated.
+
 Version 2.8.20 - March.23.2022
 =======================================
 
