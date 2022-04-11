@@ -2,6 +2,10 @@
 UModeler Lite
 ############################
 
+1.0.6 - April.11.2022
+========================
+- Fix : Fixed a bug where many error messages are displayed on console after scaling a UModeler object and selecting another object in the Hierarchy window.
+
 1.0.5 - March.4.2022
 ========================
 - Fix : Fixed a bug where null-reference exception occurred as elements moved holding 'V' key, and V snap didn't work.

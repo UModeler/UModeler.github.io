@@ -2,6 +2,12 @@
 UModeler 2021-2022
 ############################
 
+Version 2.9.0 - April.11.2022
+=======================================
+- NEW FEATURE : Remastered Menu Icon Mode. The Reshaped Icons and The Large Ion Mode.
+- Fix : Fixed a crash bug recurring when undoing after detaching polygons with the Detach tool
+- Fix : Fixed a crash bug recurring when undoing a cut operation that detaches the object.
+
 Version 2.8.21 - March.31.2022
 =======================================
 
