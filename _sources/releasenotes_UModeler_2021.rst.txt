@@ -9,7 +9,7 @@ Version 2.9.1 - May.23.2022
 - Vertex/Edge/Polygon Tools : Fixed an issue regarding Generate UVs property in Element tools.
 - Polygon Tool : Fixed a bug where Snap to Polygon doesn't work when a polygon gets close to another polygon.
 - Capsule Tool : Fixed an issue where Auto Smoothing property didn't work in the Capsule tool.
-- Hotspot Texturing : Fixed an issue of Hotspot texturing to make Scale property work better for a tripolygon.
+- Hotspot Texturing : Fixed an issue of Hotspot texturing to make Scale property work better for a triangle.
 - Stair Tool : Replaced Wide Step and Reverse properties with Rotate by 90° button.
 
 
