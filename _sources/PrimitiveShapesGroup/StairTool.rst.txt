@@ -46,15 +46,13 @@ Height
  
 Rise
  Distance between two neighbor treads.
- 
-Wide Step
- Rotates the stair by 90 degrees.
- 
-Reverse
- Reverses the front and back.
- 
-Border Check
- If this is enabled, the ray cast will run and it checks if the created stair is beyond the other polygons. It might cause a stop for a second at the beginning.
+
+Rotate by 90°
+ Rotates the stair preview. This property replaced ``Wide Step`` and ``Reverse`` properties with.
+
+.. note::
+
+ ``Wide Step`` and ``Reverse`` properties are replaced with ``Rotate by 90° property`` since UModeler 2.9.1. 
  
 Glue
  The stair with this property enabled will be glued to the polygon where it started to be created. It means that the hidden part of the floor polygon by the created stair is removed.
@@ -63,8 +61,3 @@ Glue
    :scale: 95 %
 
    A Stair created on the floor.
-   
-.. figure:: /images/UModeler_StairTool_WideStep.jpg
-   :scale: 95 %
-
-   As ``Wide Step`` property is on, the steps will get toward the wide side by 90 degrees rotation.
