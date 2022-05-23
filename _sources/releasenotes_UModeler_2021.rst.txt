@@ -2,6 +2,17 @@
 UModeler 2021-2022
 ############################
 
+Version 2.9.1 - May.23.2022
+=======================================
+- UV Editor : Fixed the Setting window issue of the UV Editor where the bottom item wasn't visible wholly.
+- Boolean Tool : Fixed an Boolean tool error occuring when two meshes with lots of polygons are operated using the Boolean operation.
+- Vertex/Edge/Polygon Tools : Fixed an issue regarding Generate UVs property in Element tools.
+- Polygon Tool : Fixed a bug where Snap to Polygon doesn't work when a polygon gets close to another polygon.
+- Capsule Tool : Fixed an issue where Auto Smoothing property didn't work in the Capsule tool.
+- Hotspot Texturing : Fixed an issue of Hotspot texturing to make Scale property work better for a tripolygon.
+- Stair Tool : Replaced Wide Step and Reverse properties with Rotate by 90° button.
+
+
 Version 2.9.0 - April.11.2022
 =======================================
 - NEW FEATURE : Remastered Menu Icon Mode. The Reshaped Icons and The Large Ion Mode.
