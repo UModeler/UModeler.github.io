@@ -48,7 +48,7 @@ Rise
  Distance between two neighbor treads.
 
 Rotate by 90°
- Rotates the stair preview. This property replaced ``Wide Step`` and ``Reverse`` properties with.
+ Rotates the stair preview by 90 degrees. This property replaces ``Wide Step`` and ``Reverse`` properties.
 
 .. note::
 
