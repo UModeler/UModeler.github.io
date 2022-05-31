@@ -2,6 +2,11 @@
 UModeler 2021-2022
 ############################
 
+Version 2.9.2 - May.31.2022
+======================================
+- Fixed an issue where selection Outline was disabled when UModeler object got selected.
+- Hotspot Layout : Added a new property called Hotspot Priority to map a triangle polygon   to a more precise triangle layout.
+
 Version 2.9.1 - May.23.2022
 =======================================
 - UV Editor : Fixed the Setting window issue of the UV Editor where the bottom item wasn't visible wholly.
