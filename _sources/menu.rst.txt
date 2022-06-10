@@ -3,16 +3,30 @@ Menu
 ############
 
 .. figure:: /images/new_menu_items2.png
-   :scale: 80 %
+   :scale: 50 %
 
 You can see a new menu called ``Tools`` at the top of Unity Editor after UModeler is installed. 
 
-About
-===============
-Opens ``About`` window.
+Preferences
+==============
+Opens the Preferences window.
+   
+See :ref:`AdvancedPreferences` to get more info.
 
-.. figure:: /images/AboutDialog.jpg
-   :scale: 80 %
+.. note::
+
+  ``Preferences`` window isn't available in the Lite version.
+
+
+Export all settings
+======================
+Export all properties of tools, preference, settings etc as .xml
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Import all settings
+======================
+Import all properties of tools, preference, settings etc from .xml
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
@@ -113,12 +127,9 @@ Refreshes every resource of all UModeler objects in the current scene. This does
 
 ----------------------------------------------------------------------------------------------------------------------------------
 
-Preferences
-==============
-Opens the Preferences window.
-   
-See :ref:`AdvancedPreferences` to get more info.
+About
+===============
+Opens ``About`` window.
 
-.. note::
-
-  ``Preferences`` window isn't available in the Lite version.   
+.. figure:: /images/AboutDialog.jpg
+   :scale: 80 % 
