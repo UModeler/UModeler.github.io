@@ -2,6 +2,10 @@
 UModeler 2021-2022
 ############################
 
+Version 2.9.3 - June.10.2022
+======================================
+- Added a new feature to export and import whole settings of UModeler such as Preference, Tool properties, Settings, UV Editor Settings etc.
+
 Version 2.9.2 - May.31.2022
 ======================================
 - Fixed an issue where selection Outline was disabled when UModeler object got selected.
