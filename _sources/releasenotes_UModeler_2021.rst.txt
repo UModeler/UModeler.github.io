@@ -2,6 +2,12 @@
 UModeler 2021-2022
 ############################
 
+Version 2.9.4 - June.29.2022
+======================================
+- Added the Subdivide tool in Add group. This enables you to subdivide selected polygons.
+- Fixed an issue regarding the orange outline.
+- Fixed an issue where the large icons' size was same as the small icons' size when the menu window was floating.
+
 Version 2.9.3 - June.10.2022
 ======================================
 - Added a new feature to export and import whole settings of UModeler such as Preference, Tool properties, Settings, UV Editor Settings etc.
