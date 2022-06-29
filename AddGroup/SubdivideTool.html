@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Add Group &mdash; Unity UModeler Manual  documentation</title>
+  <title>Subdivide Tool &mdash; Unity UModeler Manual  documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
     <link rel="shortcut icon" href="../_static/logo_fav_transparent_background.png"/>
@@ -19,8 +19,8 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="PushPull Tool" href="PushPullTool.html" />
-    <link rel="prev" title="Capsule Tool" href="../PrimitiveShapesGroup/CapsuleTool.html" /> 
+    <link rel="next" title="Remove Group" href="../RemoveGroup/index.html" />
+    <link rel="prev" title="Duplicate Tool" href="DuplicateTool.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -47,7 +47,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../SelectionGroup/index.html">Selection Group </a></li>
 <li class="toctree-l1"><a class="reference internal" href="../DrawingGroup/index.html">Drawing Group </a></li>
 <li class="toctree-l1"><a class="reference internal" href="../PrimitiveShapesGroup/index.html">Primitive Shapes Group </a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Add Group </a><ul>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Add Group </a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="PushPullTool.html">PushPull Tool </a></li>
 <li class="toctree-l2"><a class="reference internal" href="MultiPushPullTool.html">Multi PushPull Tool </a></li>
 <li class="toctree-l2"><a class="reference internal" href="InsetTool.html">Inset Tool </a></li>
@@ -60,7 +60,10 @@
 <li class="toctree-l2"><a class="reference internal" href="BridgeTool.html">Bridge Tool   </a></li>
 <li class="toctree-l2"><a class="reference internal" href="CloneTool.html">Clone Tool </a></li>
 <li class="toctree-l2"><a class="reference internal" href="DuplicateTool.html">Duplicate Tool </a></li>
-<li class="toctree-l2"><a class="reference internal" href="SubdivideTool.html">Subdivide Tool </a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Subdivide Tool </a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#steps">Steps</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../RemoveGroup/index.html">Remove Group </a></li>
@@ -88,9 +91,10 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
-      <li>Add Group </li>
+          <li><a href="index.html">Add Group </a> &raquo;</li>
+      <li>Subdivide Tool </li>
       <li class="wy-breadcrumbs-aside">
-            <a href="../_sources/AddGroup/index.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/AddGroup/SubdivideTool.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -98,37 +102,30 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="add-group-icon-group-add">
-<h1>Add Group <a class="reference internal" href="../_images/Icon_Group_Add.png"><img alt="Icon_Group_Add" src="../_images/Icon_Group_Add.png" style="width: 26.0px; height: 26.0px;" /></a><a class="headerlink" href="#add-group-icon-group-add" title="Permalink to this headline">¶</a></h1>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p><code class="docutils literal notranslate"><span class="pre">Edge</span> <span class="pre">Extrude</span> <span class="pre">Tool</span></code> has been deprecated since Ver 2.4.1 because transforming edges holding <code class="docutils literal notranslate"><span class="pre">SHIFT</span></code> in <code class="docutils literal notranslate"><span class="pre">Edge</span> <span class="pre">Tool</span></code> can be replaced with it entirely.</p>
-</div>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="PushPullTool.html">PushPull Tool </a></li>
-<li class="toctree-l1"><a class="reference internal" href="MultiPushPullTool.html">Multi PushPull Tool </a></li>
-<li class="toctree-l1"><a class="reference internal" href="InsetTool.html">Inset Tool </a></li>
-<li class="toctree-l1"><a class="reference internal" href="BooleanTool.html">Boolean Tool   </a></li>
-<li class="toctree-l1"><a class="reference internal" href="MirrorTool.html">Mirror Tool </a></li>
-<li class="toctree-l1"><a class="reference internal" href="MirrorObjectTool.html">Mirror Object Tool </a></li>
-<li class="toctree-l1"><a class="reference internal" href="LoopSliceTool.html">Loop Slice Tool </a></li>
-<li class="toctree-l1"><a class="reference internal" href="FollowTool.html">Follow Tool </a></li>
-<li class="toctree-l1"><a class="reference internal" href="BevelTool.html">Bevel Tool </a></li>
-<li class="toctree-l1"><a class="reference internal" href="BridgeTool.html">Bridge Tool   </a></li>
-<li class="toctree-l1"><a class="reference internal" href="CloneTool.html">Clone Tool </a></li>
-<li class="toctree-l1"><a class="reference internal" href="DuplicateTool.html">Duplicate Tool </a></li>
-<li class="toctree-l1"><a class="reference internal" href="SubdivideTool.html">Subdivide Tool </a></li>
-</ul>
-</div>
+  <section id="subdivide-tool-icon-add-subdivide">
+<h1>Subdivide Tool <a class="reference internal" href="../_images/Icon_Add_Subdivide.png"><img alt="Icon_Add_Subdivide" src="../_images/Icon_Add_Subdivide.png" style="width: 26.0px; height: 26.0px;" /></a><a class="headerlink" href="#subdivide-tool-icon-add-subdivide" title="Permalink to this headline">¶</a></h1>
+<p>Subdivide tool will divide the selected polygons so that each polygon’s number will increase to the number of the original polygon edge count.</p>
+<p>This will work well to only a convex hull polygon.</p>
+<section id="steps">
+<h2>Steps<a class="headerlink" href="#steps" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Select several polygons with <code class="docutils literal notranslate"><span class="pre">Polygon</span> <span class="pre">Tool</span></code>.</p></li>
+<li><p>Select <code class="docutils literal notranslate"><span class="pre">Subdivide</span> <span class="pre">Tool</span></code>.</p></li>
+</ol>
+<blockquote>
+<div><figure class="align-default">
+<a class="reference internal image-reference" href="../_images/UModelerSubdivideTool.gif"><img alt="../_images/UModelerSubdivideTool.gif" src="../_images/UModelerSubdivideTool.gif" style="width: 526.1999999999999px; height: 327.9px;" /></a>
+</figure>
+</div></blockquote>
+</section>
 </section>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="../PrimitiveShapesGroup/CapsuleTool.html" class="btn btn-neutral float-left" title="Capsule Tool" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="PushPullTool.html" class="btn btn-neutral float-right" title="PushPull Tool" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="DuplicateTool.html" class="btn btn-neutral float-left" title="Duplicate Tool" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../RemoveGroup/index.html" class="btn btn-neutral float-right" title="Remove Group" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

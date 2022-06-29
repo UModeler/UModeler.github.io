@@ -23,4 +23,5 @@ Add Group |Icon_Group_Add|
    BevelTool.rst
    BridgeTool.rst
    CloneTool.rst
-   DuplicateTool.rst   
+   DuplicateTool.rst
+   SubdivideTool.rst
