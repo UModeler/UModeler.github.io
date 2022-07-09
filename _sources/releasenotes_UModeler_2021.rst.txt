@@ -2,6 +2,14 @@
 UModeler 2021-2022
 ############################
 
+Version 2.9.6 - July.09.2022
+======================================
+- Fixed some buggy behaviours related to vertex/edge/polygon movement.
+- Added ``Reset all settings`` in the menu.
+- Fixed the aspect ratio issue of UV Editor and Hotspot layer Editor.
+- Fixed a bug where an edge polygon is created when two edges are connected by pressing ``SPACE``
+- Fixed a bug where an narrow polygons are created when using Inset tool.
+
 Version 2.9.4 - June.29.2022
 ======================================
 - Added the Subdivide tool in Add group. This enables you to subdivide selected polygons.
