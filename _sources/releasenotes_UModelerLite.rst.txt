@@ -2,6 +2,11 @@
 UModeler Lite
 ############################
 
+1.0.7 - July.13.2022
+========================
+- Fixed some buggy behaviours related to vertex/edge/polygon movement which were caused when vertices are located at an edge of anoter polygon.
+- Fixed an issue where some edge polygons were left after removing edges by using the Eraser tool or pressing 'Del' key.
+
 1.0.6 - April.11.2022
 ========================
 - Fix : Fixed a bug where many error messages are displayed on console after scaling a UModeler object and selecting another object in the Hierarchy window.
