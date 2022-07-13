@@ -2,6 +2,10 @@
 UModeler 2021-2022
 ############################
 
+Version 2.9.7 - July.07.2022
+======================================
+- Fixed an issue where some edge polygons were left after removing edges by using the Eraser tool or pressing 'Del' key.
+
 Version 2.9.6 - July.09.2022
 ======================================
 - Fixed some buggy behaviours related to vertex/edge/polygon movement.
