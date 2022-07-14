@@ -2,7 +2,11 @@
 UModeler 2021-2022
 ############################
 
-Version 2.9.7 - July.07.2022
+Version 2.9.8 - July.14.2022
+======================================
+- Fixed an error recurred while the mouse cursor was moving as Seamless Editor mode is "All"
+
+Version 2.9.7 - July.13.2022
 ======================================
 - Fixed an issue where some edge polygons were left after removing edges by using the Eraser tool or pressing 'Del' key.
 
