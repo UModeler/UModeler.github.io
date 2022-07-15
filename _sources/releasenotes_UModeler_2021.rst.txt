@@ -4,7 +4,7 @@ UModeler 2021-2022
 
 Version 2.9.8 - July.14.2022
 ======================================
-- Fixed an error recurred while the mouse cursor was moving as Seamless Editor mode is "All"
+- Fixed massive error messages recurred while the mouse cursor was moving as Seamless Editor mode is "All" or "Group"
 
 Version 2.9.7 - July.13.2022
 ======================================
