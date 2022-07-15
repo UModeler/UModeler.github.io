@@ -2,6 +2,10 @@
 UModeler 2021-2022
 ############################
 
+Version 2.9.9 - July.15.2022
+===================================
+- Fixed a bug where an edge polygon was created when two vertices were connected by pressing "SPACE"
+
 Version 2.9.8 - July.14.2022
 ======================================
 - Fixed massive error messages recurred while the mouse cursor was moving as Seamless Editor mode is "All" or "Group"
