@@ -2,6 +2,11 @@
 UModeler 2021-2022
 ############################
 
+Version 2.8.11 - July.27.2022
+====================================
+- The new asset called Pixel Farm 3D made with UModeler is included.
+- Fixed the Boolean tool issue where the resulting object disappeared.
+
 Version 2.9.10 - July.25.2022
 ====================================
 - Improved the performance of UModelerize by about 40 times so that any meshes even with smoothing groups can be converted to UModeler mesh immediately.
