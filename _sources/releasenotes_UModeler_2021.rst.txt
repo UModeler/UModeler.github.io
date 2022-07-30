@@ -2,7 +2,13 @@
 UModeler 2021-2022
 ############################
 
-Version 2.8.11 - July.27.2022
+Version 2.9.12 - July.30.2022
+====================================
+- Bevel Tool : Fixed an issue where the bevel tool didn't work at a vertex connecting with 4 edges.
+- Bevel Tool : Fixed an issue where side polygons disappear while the bevel tool running.
+- The new asset called Pixel Farm 3D made with UModeler is included.
+
+Version 2.9.11 - July.27.2022
 ====================================
 - The new asset called Pixel Farm 3D made with UModeler is included.
 - Fixed the Boolean tool issue where the resulting object disappeared.
