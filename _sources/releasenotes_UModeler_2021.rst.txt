@@ -2,6 +2,15 @@
 UModeler 2021-2022
 ############################
 
+Version 2.9.14 - August.11.2022
+====================================
+- Fixed an issue where the UModeler Lite object wasn't converted to UModeler object using UModelerize
+- Fixed an issue where the Scene dirty flag was enabled when UModeler object was selected.
+- Fixed an issue where element selection between UV Editor and Scene view wasn't synced.
+- Fixed an issue where the Cancel tool in UVEditor to cancel unwrapping didn't work.
+- Fixed an issue where Auto Smooth property in Sphere and Capsule tools etc didn't work.
+- Fixed a bug where a box disappeared while it was created due to an error.
+
 Version 2.9.13 - August.1.2022
 ====================================
 - Bevel Tool : Fixed an issue where some polygons disappeared which missed in the previous update when the bevel tool splitted multiple edges in nearly straight more edges.
