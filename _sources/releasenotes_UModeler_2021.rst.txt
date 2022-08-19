@@ -2,6 +2,10 @@
 UModeler 2021-2022
 ############################
 
+Version 2.9.15 - August.19.2022
+====================================
+- Fixed an issue where the smoothing group isn't applied when UModeler object is exported as .obj
+
 Version 2.9.14 - August.11.2022
 ====================================
 - Fixed an issue where the UModeler Lite object wasn't converted to UModeler object using UModelerize
