@@ -2,6 +2,12 @@
 UModeler 2021-2022
 ############################
 
+Version 2.9.16 - September.02.2022
+====================================
+- Fixed an issue where the buttons for saving as .asset in Meshfilter were not displayed when both UModeler and UModeler lite were installed.
+- Added some slide bars in the Preference to adjust fade in/out tmee and duration of commentary box and texts in the Preference.
+- Fixed a PushPull tool issue where pulling a polygon to the opposite polygon caused some errors.
+
 Version 2.9.15 - August.19.2022
 ====================================
 - Fixed an issue where the smoothing group isn't applied when UModeler object is exported as .obj
