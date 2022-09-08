@@ -2,6 +2,10 @@
 UModeler 2021-2022
 ############################
 
+Version 2.9.17 - September.08.2022
+=======================================
+- Fixed an issue where some error messages regarding EditableMeshCache occurred after hot-reloading due to the Pastel Town asset which is the built-in 3d package of UModeler.
+
 Version 2.9.16 - September.02.2022
 ====================================
 - Fixed an issue where the buttons for saving as .asset in Meshfilter were not displayed when both UModeler and UModeler lite were installed.
