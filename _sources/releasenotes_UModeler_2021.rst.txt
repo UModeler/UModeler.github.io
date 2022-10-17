@@ -4,7 +4,7 @@ UModeler 2021-2022
 
 Version 2.9.18 - October.17.2022
 =======================================
-- Prefab workflow : UModeler's prefab workflow has changed a a lot in this update. Please read `this document`_ before updating UModeler.
+- Prefab workflow : UModeler's prefab workflow has changed a a lot in this update. Now UModeler prefab instance can be edited only in the Prefab Editor. Please read `this document`_ before updating UModeler.
 - PushPull tool : Fixed an issue where the polygons disappear when you started to push or pull a polygon.
 
 .. _this document: https://tripolygon.notion.site/The-Improvement-of-the-Prefab-workflow-in-UModeler-2-9-18-7b654e55da934db190396e3e9c21aeab 
