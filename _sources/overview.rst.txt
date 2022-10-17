@@ -139,6 +139,18 @@ With Save As button, you can rename it or save it in a different folder. Once a 
 
 ----------------------------------------------------------------------------------------------------------------------
 
+The prefab worlflow of UModeler
+====================================
+
+The prefab system in unity is very widely used and is a very important system.
+So we improved the prefab workflow of UModeler in ``UModeler 2.9.18`` so that editing 3d meshes in Unity can be convenient.
+
+.. raw:: html
+
+ <a href="https://tripolygon.notion.site/The-Improvement-of-the-Prefab-workflow-in-UModeler-2-9-18-7b654e55da934db190396e3e9c21aeab" target="_blank">The online guide of UModeler prefab workflow</a>
+
+----------------------------------------------------------------------------------------------------------------------
+
 Let's get started with a box.
 =======================================
 

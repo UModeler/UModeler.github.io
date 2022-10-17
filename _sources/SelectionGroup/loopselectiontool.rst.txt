@@ -34,6 +34,10 @@ If the selected edge is a part of a hole, all the edges of the holes will be sel
    
 |UModeler_HoleLoop_0| |UModeler_HoleLoop_1|
 
+.. tip::
+
+ ``LMB Double Click`` on an edge will select an edge loop.
+
 Quad Loop |Icon_Selection_LoopSelectPolygon|
 ------------------------------------------------
 

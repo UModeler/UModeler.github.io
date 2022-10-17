@@ -2,6 +2,18 @@
 UModeler 2021-2022
 ############################
 
+Version 2.9.18 - October.17.2022
+=======================================
+- Prefab workflow : UModeler's prefab workflow has changed a a lot in this update. Please read `this document`_ before updating UModeler.
+
+.. _this document: https://tripolygon.notion.site/The-Improvement-of-the-Prefab-workflow-in-UModeler-2-9-18-7b654e55da934db190396e3e9c21aeab 
+
+- PushPull tool : Fixed an issue where the polygons disappear when you started to push or pull a polygon.
+
+Version 2.9.17-1 - September.08.2022
+=======================================
+- Fixed a mirror tool issue where the undo/redo actions while using mirror tool caused some broken mesh.
+
 Version 2.9.17 - September.08.2022
 =======================================
 - Fixed an issue where some error messages regarding EditableMeshCache occurred after hot-reloading due to the Pastel Town asset which is the built-in 3d package of UModeler.
