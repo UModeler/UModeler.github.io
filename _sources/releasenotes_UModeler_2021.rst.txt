@@ -2,32 +2,36 @@
 UModeler 2021-2022
 ############################
 
-Version 2.9.18 - October.17.2022
+Version 2.9.18-1 hotfix | October.17.2022
 =======================================
-- Prefab workflow : UModeler's prefab workflow has changed a a lot in this update. Now UModeler prefab instance can be edited only in the Prefab Editor. Please read `this document`_ before updating UModeler.
+- Fixed an issue where "mainRenderableMesh is null" message was displayed in the console when UModelerize tool is used.
+
+Version 2.9.18 | October.17.2022
+=======================================
+- Prefab workflow : UModeler's prefab workflow has be improved a a lot in this update. Now UModeler prefab instance can be edited only in the Prefab Editor. Please read `this document`_ before updating UModeler.
 - PushPull tool : Fixed an issue where the polygons disappear when you started to push or pull a polygon.
 
 .. _this document: https://tripolygon.notion.site/The-Improvement-of-the-Prefab-workflow-in-UModeler-2-9-18-7b654e55da934db190396e3e9c21aeab 
 
-Version 2.9.17-1 - September.08.2022
+Version 2.9.17-1 | September.08.2022
 =======================================
 - Fixed a mirror tool issue where the undo/redo actions while using mirror tool caused some broken mesh.
 
-Version 2.9.17 - September.08.2022
+Version 2.9.17 | September.08.2022
 =======================================
 - Fixed an issue where some error messages regarding EditableMeshCache occurred after hot-reloading due to the Pastel Town asset which is the built-in 3d package of UModeler.
 
-Version 2.9.16 - September.02.2022
+Version 2.9.16 | September.02.2022
 ====================================
 - Fixed an issue where the buttons for saving as .asset in Meshfilter were not displayed when both UModeler and UModeler lite were installed.
 - Added some slide bars in the Preference to adjust fade in/out tmee and duration of commentary box and texts in the Preference.
 - Fixed a PushPull tool issue where pulling a polygon to the opposite polygon caused some errors.
 
-Version 2.9.15 - August.19.2022
+Version 2.9.15 | August.19.2022
 ====================================
 - Fixed an issue where the smoothing group isn't applied when UModeler object is exported as .obj
 
-Version 2.9.14 - August.11.2022
+Version 2.9.14 | August.11.2022
 ====================================
 - Fixed an issue where the UModeler Lite object wasn't converted to UModeler object using UModelerize
 - Fixed an issue where the Scene dirty flag was enabled when UModeler object was selected.
@@ -36,41 +40,41 @@ Version 2.9.14 - August.11.2022
 - Fixed an issue where Auto Smooth property in Sphere and Capsule tools etc didn't work.
 - Fixed a bug where a box disappeared while it was created due to an error.
 
-Version 2.9.13 - August.1.2022
+Version 2.9.13 | August.1.2022
 ====================================
 - Bevel Tool : Fixed an issue where some polygons disappeared which missed in the previous update when the bevel tool splitted multiple edges in nearly straight more edges.
 - The new asset called Pixel Farm 3D made with UModeler is included. 
 
-Version 2.9.12 - July.30.2022
+Version 2.9.12 | July.30.2022
 ====================================
 - Bevel Tool : Fixed an issue where the bevel tool didn't work at a vertex connecting with 4 edges.
 - Bevel Tool : Fixed an issue where side polygons disappear while the bevel tool running.
 - The new asset called Pixel Farm 3D made with UModeler is included.
 
-Version 2.9.11 - July.27.2022
+Version 2.9.11 | July.27.2022
 ====================================
 - The new asset called Pixel Farm 3D made with UModeler is included.
 - Fixed the Boolean tool issue where the resulting object disappeared.
 
-Version 2.9.10 - July.25.2022
+Version 2.9.10 | July.25.2022
 ====================================
 - Improved the performance of UModelerize by about 40 times so that any meshes even with smoothing groups can be converted to UModeler mesh immediately.
 - Improved the way of drawing wireframe to increase the drawing speed and not to be affected by the postprocess.
 - Improved the performance of mesh editing so that at leat the meses in the synty studio's asset packages can be edited comfortably.
 
-Version 2.9.9 - July.15.2022
+Version 2.9.9 | July.15.2022
 ===================================
 - Fixed a bug where an edge polygon was created when two vertices were connected by pressing "SPACE"
 
-Version 2.9.8 - July.14.2022
+Version 2.9.8 | July.14.2022
 ======================================
 - Fixed massive error messages recurred while the mouse cursor was moving as Seamless Editor mode is "All" or "Group"
 
-Version 2.9.7 - July.13.2022
+Version 2.9.7 | July.13.2022
 ======================================
 - Fixed an issue where some edge polygons were left after removing edges by using the Eraser tool or pressing 'Del' key.
 
-Version 2.9.6 - July.09.2022
+Version 2.9.6 | July.09.2022
 ======================================
 - Fixed some buggy behaviours related to vertex/edge/polygon movement.
 - Added ``Reset all settings`` in the menu.
@@ -78,22 +82,22 @@ Version 2.9.6 - July.09.2022
 - Fixed a bug where an edge polygon is created when two edges are connected by pressing ``SPACE``
 - Fixed a bug where an narrow polygons are created when using Inset tool.
 
-Version 2.9.4 - June.29.2022
+Version 2.9.4 | June.29.2022
 ======================================
 - Added the Subdivide tool in Add group. This enables you to subdivide selected polygons.
 - Fixed an issue regarding the orange outline.
 - Fixed an issue where the large icons' size was same as the small icons' size when the menu window was floating.
 
-Version 2.9.3 - June.10.2022
+Version 2.9.3 | June.10.2022
 ======================================
 - Added a new feature to export and import whole settings of UModeler such as Preference, Tool properties, Settings, UV Editor Settings etc.
 
-Version 2.9.2 - May.31.2022
+Version 2.9.2 | May.31.2022
 ======================================
 - Fixed an issue where selection Outline was disabled when UModeler object got selected.
 - Hotspot Layout : Added a new property called Hotspot Priority to map a triangle polygon   to a more precise triangle layout.
 
-Version 2.9.1 - May.23.2022
+Version 2.9.1 | May.23.2022
 =======================================
 - UV Editor : Fixed the Setting window issue of the UV Editor where the bottom item wasn't visible wholly.
 - Boolean Tool : Fixed an Boolean tool error occuring when two meshes with lots of polygons are operated using the Boolean operation.
@@ -104,57 +108,57 @@ Version 2.9.1 - May.23.2022
 - Stair Tool : Replaced Wide Step and Reverse properties with Rotate by 90° button.
 
 
-Version 2.9.0 - April.11.2022
+Version 2.9.0 | April.11.2022
 =======================================
 - NEW FEATURE : Remastered Menu Icon Mode. The Reshaped Icons and The Large Ion Mode.
 - Fix : Fixed a crash bug recurring when undoing after detaching polygons with the Detach tool
 - Fix : Fixed a crash bug recurring when undoing a cut operation that detaches the object.
 
-Version 2.8.21 - March.31.2022
+Version 2.8.21 | March.31.2022
 =======================================
 
 - Fix : Fixed a NullReferenceException error occuring when a polygon is rotated and it is triangulated.
 
-Version 2.8.20 - March.23.2022
+Version 2.8.20 | March.23.2022
 =======================================
 
 - Fix : Fixed an issue where multiple vertices weren't removed using Eraser Tool.
 - Fix : Fixed an issue where the following error message recurred in Unity 2022.1. MissingMethodException: Method not found: void UnityEditor.Unwrapping.GenerateSecondaryUVSet
 
-Version 2.8.19 - March.14.2022
+Version 2.8.19 | March.14.2022
 =======================================
 
 - Improvement : Added a new function to disable cursor magnet(snap) by holding CTRL.
 - Fix : Fixed an edge duplication issue happening as using the Duplicate tool.
 
-Version 2.8.18 - March.10.2022
+Version 2.8.18 | March.10.2022
 ========================================
 
 - Improvement : Made Loop Selection tool more perfect.
 - Fix : Fixed an issue where Mesh Collider component is toggled on and off automatically.
 
-Version 2.8.17 - Feb.25.2022
+Version 2.8.17 | Feb.25.2022
 =======================================
 
 - Fix : Fixed a bug where UV polygons are strecthed as unwrapped using the Autolayout.
 - Fix : Fixed a bug of Mirror Object tool where vertices can't be selected after running Duplicate and Mirror
 
-Version 2.8.16 - Feb.17.2022
+Version 2.8.16 | Feb.17.2022
 =======================================
 
 - Fix : Fixed a bug whose error message is "Unable to add Renderer to the Scene after Culling" in a project with the AQUAS asset.
 
-Version 2.8.15 - Feb.14.2022
+Version 2.8.15 | Feb.14.2022
 =======================================
 
 - Fix : Fixed a bug where the current tool changed to the Object Tool as an element was selected. 
 
-Version 2.8.14 - Feb.7.2022
+Version 2.8.14 | Feb.7.2022
 =======================================
 
 - Fix : Fixed a bug where creating a primitive shape didn't work on another UModeler object.
 
-Version 2.8.13 - Feb.7.2022
+Version 2.8.13 | Feb.7.2022
 =======================================
 
 - Enhancement : Forces the current tool to be the object tool when selected. This can be enabled in the Preference window.
@@ -164,32 +168,32 @@ Version 2.8.13 - Feb.7.2022
 .. figure:: /images/Preference_EnablesTheObjectTool_RotatesTheGlobalGizmo.png
     :scale: 70 %
 
-Version 2.8.12 - Jan.24.2022
+Version 2.8.12 | Jan.24.2022
 =======================================
 
 - Fix : Fixed a warning regarding non-secure network connections in Unity 2022.1b
 
-Version 2.8.11f3 - Jan.19.2022
+Version 2.8.11f3 | Jan.19.2022
 =======================================
 
 - Fix : Fixed an error occuring when exiting the prefab mode.
 - Fix : Fixed another issue where edited parts disappear while modifying and appear again at the end of editing intermittently when both the scene view and the game view are opened.
 
-Version 2.8.11f2 - Jan.18.2022
+Version 2.8.11f2 | Jan.18.2022
 =====================================
 
 - Asset : Includes the PastelTown-BuiltInRP-UModeler package by default.
 - Fix : Fixed a TryGetComponent() issue in Unity 2019.1 or less.
 - Fix : Fixed an issue where edited parts continue to appear and disappear while modifying
 
-Version 2.8.11 - Jan.18.2022
+Version 2.8.11 | Jan.18.2022
 =====================================
 
 - Asset : Includes the PastelTown-BuiltInRP-UModeler package by default.
 - Fix : Fixed an issue where changes are displayed on all copies while editing any of the copies when objects are duplicated.
 - Optimization : Enhanced the performance by stopping unnecessary memory allocation which happened when UModeler objects were selected.
 
-Version 2.8.10f3 - Jan.3.2022
+Version 2.8.10f3 | Jan.3.2022
 =====================================
 
 - Asset : Includes the Moonglow Village Demo Package for 2.8.10 users.
@@ -197,13 +201,13 @@ Version 2.8.10f3 - Jan.3.2022
 - Fix : Fixed a warning issue regarding "Serialization depth limit 10 exceeded" caused by the codes of Mirror Cancel Function which was implemented in 2.8.10. The cancel function of the mirror tool has been reverted so it won't be available for now till we'll find a solution.
 - Fix : Fixed a .obj exporer bug where the multiple materials in the exported UModeler object couldn't be imported in Unity. 
 
-Version 2.8.10f2 - December.14.2021
+Version 2.8.10f2 | December.14.2021
 ========================================
 
 - Asset : Includes the Moonglow Village Demo Package for 2.8.10 users.
 - Fix : Fixed an issue where the several same online document windows pop up when the mouse is over a text menu item in UV Editor.
 
-Version 2.8.10 - December.13.2021
+Version 2.8.10 | December.13.2021
 ========================================
 
 .. figure:: /images/moonglow_village_thumbnail.png
@@ -224,20 +228,20 @@ Version 2.8.10 - December.13.2021
 - Enhancement : Added a new button named ``Cancel`` in ``Mirror`` tool to revert changes that are made in Mirror mode.
 - Enhancement : Added a new button named ``Auto Smoothing`` in ``Cylinder``, ``Cone``, ``Spiral Stair``, ``Sphere`` and ``Capsule`` tools to create smoothed surfaces.
 
-Version 2.8.9f3 - December.7.2021
+Version 2.8.9f3 | December.7.2021
 ========================================
 
 - Asset : Includes the Basilica Cathedral Package for 2.8.9 users.
 - Fix : Fixed an error where UModelerEditor.dll isn't loaded in Unity 2021.2.5
 
-Version 2.8.9f2 - November.29.2021
+Version 2.8.9f2 | November.29.2021
 ===================================
 
 - Asset : Includes the Basilica Cathedral Package for 2.8.9 users.
 - Fix : Fixed constant GUI errors which were thrown while in the Hotspot Layout Editor in Unity 2021.2
 - Fix : Fixed a bug where Hotspot Scriptable object doesn't get saved and is reset after each Unity Editor in Unity 2021.2
 
-Version 2.8.9 - November.14.2021
+Version 2.8.9 | November.14.2021
 ===================================
 
 .. figure:: /images/Basilica_Cathedral_Scenes.jpg
@@ -245,14 +249,14 @@ Version 2.8.9 - November.14.2021
 
 - Asset : Includes the Basilica Cathedral Package for 2.8.9 users.
 
-Version 2.8.8f8 - November.5.2021
+Version 2.8.8f8 | November.5.2021
 ====================================
 
 - Asset : Includes the Medieval Weapons Package - Bow and Magic wands plus Swords and Shields for 2.8.8 users.
 - Asset : Includes Hamster Knight character pack for 2.8.8 users
 - Fix : Fixed GUI error in the UVEditor on Unity 2021.2.0f1.
 
-Version 2.8.8f7 - November.4.2021
+Version 2.8.8f7 | November.4.2021
 
 - Asset : Includes the Medieval Weapons Package - Bow and Magic wands plus Swords and Shields for 2.8.8 users.
 - Asset : Includes Hamster Knight character pack for 2.8.8 users
@@ -261,7 +265,7 @@ Version 2.8.8f7 - November.4.2021
 - Enhancement : Added a hotkey for ``Auto Smooth``. ``Ctrl + Shift + 6``.
 - Enhancement : Added a hotkey for ``Remove All`` in ``Smoothing Group Tool``. ``Ctrl + Shift + 9``.
 
-Version 2.8.8f6 - November.1.2021
+Version 2.8.8f6 | November.1.2021
 ====================================
 
 - Asset : Includes the Medieval Weapons Package - Bow and Magic wands plus Swords and Shields for 2.8.8 users.
@@ -271,7 +275,7 @@ Version 2.8.8f6 - November.1.2021
 - Enhancement : Added a snapping function to snap the straight cut plane straightly in ``Cut Tool``.
 - Enhancement : Added a new function to separate an half part to another game object in ``Cut Tool``. 
 
-Version 2.8.8 - October.13.2021
+Version 2.8.8 | October.13.2021
 ====================================
 
 .. figure:: /images/UModeler2.8.8Update.png
@@ -285,7 +289,7 @@ Version 2.8.8 - October.13.2021
 - Enhancement : Added ``Keep Size`` property in ``Plane Unwrap Tool`` and ``Cube Unwrap Tool``  of the UV Editor to unwrap a polygon whose size is proportional to its size. 
 - Enhancement : Implemented transferring element selection when ``Vertex Tool``, ``Edge Tool`` and ``Polygon Tool`` being selected to keep selection.
 
-Version 2.8.7f2 - September.13.2021
+Version 2.8.7f2 | September.13.2021
 ====================================
 - Asset : Includes the Medieval Weapons - Swords and Shields Pack for 2.8.7 users.
 - Asset : Includes Hamster Knight character pack for 2.8.7 users
@@ -304,7 +308,7 @@ Version 2.8.7f2 - September.13.2021
 - Fix : Fixed a ``Export Tool`` bug of ``UV Editor`` where warnings about releasing render texture that is set to be RenderTexture.active are thrown upon exporting
 - Fix : Fixed shortcut crash of ``Arc Tool`` and ``Duplicate Tool`` - Arc Tool shortcut changed to ``Ctrl+Shift+Q``. Duplicate Tool shortcut changed to ``Ctrl+Shift+D``.
 
-Version 2.8.7 - September.7.2021
+Version 2.8.7 | September.7.2021
 ===================================
 .. figure:: /images/UModeler2.8.7.png
     :scale: 50 %
@@ -314,13 +318,13 @@ Version 2.8.7 - September.7.2021
 - Fix : Fixed a bug where the default thickness value was -0.01 in Room tool
 - Fix : Fixed a bug where Status window and Cursor window aren't visible in Unity 2021.2. The windows have changed to Unity editor windows.
 
-Version 2.8.6f3 - August.24.2021
+Version 2.8.6f3 | August.24.2021
 ====================================
 - Asset : Includes Hamster Knight character pack for 2.8.6 users
 - Asset : Includes the Ancient Dungeon demo pack for 2.8.5 and 2.8.6 users
 - Fix : Fixed a bug where ProBuidler 5.0.3 mesh isn't converted.
 
-Version 2.8.6f2 - August.17.2021
+Version 2.8.6f2 | August.17.2021
 ====================================
 - Asset : Includes Hamster Knight character pack for 2.8.6 users
 - Asset : Includes the Ancient Dungeon demo pack for 2.8.5 and 2.8.6 users
@@ -328,7 +332,7 @@ Version 2.8.6f2 - August.17.2021
 - Fix : Fixed elements not being selected using Rect selection while overlays are docked in Unity 2021.2
 - Enhancement : Added a shortcut to toggle on and off the Edit mode which can also be toggled on and off Open and Close buttons in the inspector. The default shortcut is ``Ctrl + Shift + Number 0``
 
-Version 2.8.6f1 - August.8.2021
+Version 2.8.6f1 | August.8.2021
 ================================
 - Asset : Includes Hamster Knight character pack for 2.8.6 users
 - Asset : Includes the Ancient Dungeon demo pack for 2.8.5 and 2.8.6 users
@@ -339,7 +343,7 @@ Version 2.8.6f1 - August.8.2021
 .. figure:: /images/toolbarposition_property_preference.PNG
     :scale: 40 %
 
-Version 2.8.6 - July.12.2021
+Version 2.8.6 | July.12.2021
 ================================
 .. figure:: /images/HamsterKnight_Image.png
     :scale: 50 %
@@ -349,21 +353,21 @@ Version 2.8.6 - July.12.2021
 - Fix : Fixed a shortcut of Rect Select Mode not working
 - Fix : Fixed Autolayout undo bug.
 
-Version 2.8.5f3 - July.2.2021
+Version 2.8.5f3 | July.2.2021
 ================================
 - Assets : Includes new Ancient Dungeon demo pack for 2.8.5 users
 - Fix : Fixed incorrect UVs of an .obj exported mesh when Export Face Type is Quads.
 - Fix : Fixed incorrect fold out arrow directions in the inspector window of UVEditor and 3D Modeling.
 - Fix : Made Rect Select Mode property only visible in Edge and Polygon tools.
 
-Version 2.8.5f2 - June.29.2021
+Version 2.8.5f2 | June.29.2021
 ================================
 - Assets : Includes new ``Ancient Dungeon`` demo pack for 2.8.5 users
 - Enhancement : Added ``Grow Select`` tool in ``Selection`` group of UV Editor.
 - Enhancement : Added ``Rect Select Mode`` for Edge and Polygon selection. ``Intersect`` and ``Complete`` modes are available. The default shortkey is ``CTRL+SHIFT+W``.
 - Enhancement : Increased gizmos' size in UV Editor entirely.
 
-Version 2.8.5 - June.17.2021
+Version 2.8.5 | June.17.2021
 ================================
 
 .. figure:: /images/AncientDungeonScenes.png
@@ -375,7 +379,7 @@ Version 2.8.5 - June.17.2021
 - Enhancement : Added a shortcut to toggle on and off ``Triangulation`` in Settings. The default one is ``CTRL + SHIFT + 1``
 - Enhancement : Added a shortcut to toggle on and off ``Restrict To Angle`` in Settings. The default one is ``CTRL + SHIFT + X``
 
-Version 2.8.4f5 - June.11.2021
+Version 2.8.4f5 | June.11.2021
 =================================
 - Assets : Includes ``Blacksmith`` demo pack.
 - Feature : ``Shrink Selection Tool`` has been added - :ref:`Shrink Selection Tool`
@@ -396,7 +400,7 @@ Version 2.8.4f5 - June.11.2021
 
     Grow Selection where ``Iterative`` is off
 
-Version 2.8.4f4 - June.10.2021
+Version 2.8.4f4 | June.10.2021
 =================================
 - Assets : Includes ``Blacksmith`` demo pack.
 - Fix : Fixed the edge selection bug where edges can't be selected.
@@ -405,7 +409,7 @@ Version 2.8.4f4 - June.10.2021
 - Fix : Fixed a bug where long delay happened in play mode when a UModeler object is selected due to processing menu icons. 
 - Enhancement : Added ``Remove All`` button in the Smoothing Group Tool
 
-Version 2.8.4f2 - May.31.2021
+Version 2.8.4f2 | May.31.2021
 =================================
 - Assets : Includes ``Blacksmith`` demo pack.
 - Enhancement : Added ``Extrude Modifier Key`` to ``Preference`` window to set the modifier key for extruding using the gizmos. Either ``Shift`` or ``Capslock`` is available.
@@ -420,7 +424,7 @@ Version 2.8.4f2 - May.31.2021
  
 - Fix : Fixed the edge selection bug when a UModeler object scale is not uniform.
 
-Version 2.8.4f1 - May.18.2021
+Version 2.8.4f1 | May.18.2021
 =================================
 - Assets : Includes ``Blacksmith`` demo pack.
 - Enhancement : A function to select overlapping polygons has been added to the Diagnosis Tool.
@@ -428,7 +432,7 @@ Version 2.8.4f1 - May.18.2021
 - Fix : Fixed a bug where UVs move suddenly when a vertex moves. The UVs are transformed in UV tool.
 - Fix : Fixed a bug that caused the scene's pull-down menu to close immediately when the UV editor is on.
 
-Version 2.8.4 - May.10.2021
+Version 2.8.4 | May.10.2021
 =================================
 .. figure:: /images/blacksmith.png
 
@@ -443,7 +447,7 @@ Version 2.8.4 - May.10.2021
 - Fix : Increased the overlay size of Vertex tool and Rectctangle Selection tool in UV Editor.
 - Fix : Fixed a bug where V Snapping to other objects didn’t work in 2020.3 and newer versions.
 
-Version 2.8.3f3 - April.30.2021
+Version 2.8.3f3 | April.30.2021
 =================================
 
 - Assets : Includes The Medieval Town : Vermilion demo pack.
@@ -454,7 +458,7 @@ Version 2.8.3f3 - April.30.2021
 - Enhancement : Assigned shortcuts to ``Hotspot Group`` toggle and ``Apply Selected Hotspot`` button.
 - Enhancement : Added ``Hotspot Scale`` parameter in ``Hotspot Layout`` tool.
 
-Version 2.8.3f2 - April.26.2021
+Version 2.8.3f2 | April.26.2021
 =================================
 .. figure:: /images/HotspotTexturing_UrbanBuildings.png
 
@@ -466,30 +470,30 @@ Version 2.8.3f2 - April.26.2021
 - Enhancement : Implemented Picking Vertex Color. Pick Color button has been added in the Vertex Color tool and the Polygon color tool.
 - Enhancement : Modified the scale gizmo behaviour so that it is snapped to (0,0,0) and it can't have minus scale values.
 
-Version 2.8.3 - April.12.2021
+Version 2.8.3 | April.12.2021
 ====================================
 .. figure:: /images/Vermilion_screenshot.png
 
 - Assets : Includes the Medieval town : Vermilion deom package.
 
-Version 2.8.2f3 - March.29.2021
+Version 2.8.2f3 | March.29.2021
 ====================================
 - Assets : Includes the Dreadnought: SF combat robot demo pack.
 - Fix : Fixed V Snapping not working from Unity 2020.2 and newer versions.
 
-Version 2.8.2f2 - March.19.2021
+Version 2.8.2f2 | March.19.2021
 ====================================
 - Assets : Includes the Dreadnought: SF combat robot demo pack.
 - Fix : Fixed the toolbar disappearing caused by the fix in 2.8.2f1
 
-Version 2.8.2f1 - March.17.2021
+Version 2.8.2f1 | March.17.2021
 ==================================
 - Assets : Includes the Dreadnought: SF combat robot demo pack.
 - Fix : Fixed Null Reference Exception when ``Open`` button in the inspector is clicked.
 - Fix : Fixed typos of tooltips etcs.
 - Enhancement : Supported converting a quad-based mesh using ``UModelerize``.
 
-Version 2.8.2 - March.3.2021
+Version 2.8.2 | March.3.2021
 ==================================
 .. figure:: /images/dreadnought_image.png
 
@@ -497,7 +501,7 @@ Version 2.8.2 - March.3.2021
 - Enhancement : Supported collaborating with the Surforge asset.
 - Fix : Fixed not being able to select vertices on the mirror plane in Mirror mode.
 
-Version 2.8.1f3 - Feb.17.2021
+Version 2.8.1f3 | Feb.17.2021
 ==================================
 - Assets : Includes the Turtle Ship demo pack.
 - Enhancement : Added the Hand tool in UV Editor.
@@ -508,12 +512,12 @@ Version 2.8.1f3 - Feb.17.2021
 - Fix : Fixed a bug where double click for loop selection didn't work when the cursor is on a gizmo.
 - Fix : Fixed Select Only Visible not working on edges.
 
-Version 2.8.1f1 - Feb.2.2021
+Version 2.8.1f1 | Feb.2.2021
 ==================================
 - Assets : Includes the Turtle Ship demo pack.
 - Fix : Fixed a bug where a object move using a move gizmo's arrow isn't correct in a rotated UModeler object.
 
-Version 2.8.1 - Feb.1.2021
+Version 2.8.1 | Feb.1.2021
 ==================================
 .. figure:: /images/TurtleShip.png
 
@@ -523,7 +527,7 @@ Version 2.8.1 - Feb.1.2021
 - Enhancement : Length of every edge consisting of the selected faces has been displayed when ``Local Overlay`` is on.
 - Enhancement : ``Arc tool``'s overlay info has be upgraded.
 
-Version 2.8.0f1 - Jan.14.2021
+Version 2.8.0f1 | Jan.14.2021
 ==================================
 - Assets : Includes the ``Witch's Cauldron`` demo pack.
 - Fix : Fixed ``Loop Selection`` bug where it didn't work on the cap polygon of beveled shape
@@ -531,7 +535,7 @@ Version 2.8.0f1 - Jan.14.2021
 - Fix : Fixed a renaming issue of Polygon Group tool.    
 - Improvement : Now the mesh .asset folder which you used recently is restored when you save your mesh as .asset
 
-Version 2.8.0 - Jan.4.2021
+Version 2.8.0 | Jan.4.2021
 ==================================
 .. figure:: /images/WitchCauldron.png
 
