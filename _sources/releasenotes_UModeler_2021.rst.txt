@@ -2,7 +2,7 @@
 UModeler 2021-2022
 ############################
 
-Version 2.9.18-1 hotfix | October.17.2022
+Version 2.9.18-1 hotfix | October.18.2022
 =======================================
 - Fixed an issue where "mainRenderableMesh is null" message was displayed in the console when UModelerize tool is used.
 
