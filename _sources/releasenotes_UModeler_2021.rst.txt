@@ -2,6 +2,10 @@
 UModeler 2021-2022
 ############################
 
+Version 2.9.18-2 hotfix | October.20.2022
+=======================================
+- Fixed a bug where NullReferenceException error occurs when non-UModeler object is selected in the hierarchy window
+
 Version 2.9.18-1 hotfix | October.18.2022
 =======================================
 - Fixed an issue where "mainRenderableMesh is null" message was displayed in the console when UModelerize tool is used.
