@@ -64,7 +64,7 @@ Version 2.9.10 | July.25.2022
 ====================================
 - Improved the performance of UModelerize by about 40 times so that any meshes even with smoothing groups can be converted to UModeler mesh immediately.
 - Improved the way of drawing wireframe to increase the drawing speed and not to be affected by the postprocess.
-- Improved the performance of mesh editing so that at leat the meses in the synty studio's asset packages can be edited comfortably.
+- Improved the performance of mesh editing so that at least the meshes in the synty studio's asset packages can be edited comfortably.
 
 Version 2.9.9 | July.15.2022
 ===================================
