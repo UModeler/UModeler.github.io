@@ -2,12 +2,18 @@
 UModeler 2021-2022
 ############################
 
+Version 2.9.19 | Nov.11.2022
+===================================
+- Fixed an issue where the original material changed to UModeler material after UModelering.
+- Added Remove UModeler and Remove UModeler Hierarchically in the menu to remove UModeler components of the selected game objects.
+- Creates UModeler as Byte Stream Data option in the Preference has been remove because it isn't supported anymore.
+
 Version 2.9.18-2 hotfix | October.20.2022
-=======================================
+=============================================
 - Fixed a bug where NullReferenceException error occurs when non-UModeler object is selected in the hierarchy window
 
 Version 2.9.18-1 hotfix | October.18.2022
-=======================================
+==============================================
 - Fixed an issue where "mainRenderableMesh is null" message was displayed in the console when UModelerize tool is used.
 
 Version 2.9.18 | October.17.2022
