@@ -8,7 +8,7 @@ Version 2.9.20 | Nov.14.2022
 
 Version 2.9.19 | Nov.11.2022
 ===================================
-- Fixed an issue where the original material changed to UModeler material after UModelering.
+- Fixed an issue where the original material changed to UModeler material after UModelerizing.
 - Added Remove UModeler and Remove UModeler Hierarchically in the menu to remove UModeler components of the selected game objects.
 - Creates UModeler as Byte Stream Data option in the Preference has been remove because it isn't supported anymore.
 
