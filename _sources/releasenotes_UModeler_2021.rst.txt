@@ -2,6 +2,10 @@
 UModeler 2021-2022
 ############################
 
+Version 2.9.20 | Nov.14.2022
+===================================
+- Giveaway the New 3D asset called Riverwalk City made for URP.
+
 Version 2.9.19 | Nov.11.2022
 ===================================
 - Fixed an issue where the original material changed to UModeler material after UModelering.
