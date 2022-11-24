@@ -2,6 +2,10 @@
 UModeler 2021-2022
 ############################
 
+Version 2.9.21 | Nov.24.2022
+=================================
+- Fixed a Mirror Object Tool issue where the original mesh disappears when Duplicate and Mirror runs.
+
 Version 2.9.20 | Nov.14.2022
 ===================================
 - Giveaway the New 3D asset called Riverwalk City made for URP.
