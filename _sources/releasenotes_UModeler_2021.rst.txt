@@ -5,7 +5,7 @@ UModeler 2021-2022
 Version 2.9.22 | Dec.2.2022
 =================================
 - Fixed an issue where the prefab editor is paused when the prefab UModeler object has children.
-- Fixed an issue where drawing a line doesn't work on the bent quad polygon.
+- Fixed an issue where drawing a line using the Line tool doesn't work on the bent quad polygon to cut it out.
 
 Version 2.9.21 | Nov.24.2022
 =================================
