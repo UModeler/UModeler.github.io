@@ -2,6 +2,10 @@
 UModeler 2021-2022
 ############################
 
+Version 2.9.23 | Dec.19.2022
+=================================
+- Supports the basic materials for URP and HDRP as default. Now you don't need to convert the basic materials in URP or HDRP project.
+
 Version 2.9.22 | Dec.2.2022
 =================================
 - Fixed an issue where the prefab editor is paused when the prefab UModeler object has children.
