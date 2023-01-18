@@ -5,6 +5,8 @@ Release Notes
  .. toctree::
     :maxdepth: 1
 
+    releasenotes_UModeler_2023
+    releasenotes_UModeler_2022
     releasenotes_UModeler_2021
     releasenotes_UModeler_2020
     releasenotes_UModeler_2019

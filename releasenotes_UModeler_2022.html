@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UModeler 2022 &mdash; Unity UModeler Manual  documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+    <link rel="shortcut icon" href="_static/logo_fav_transparent_background.png"/>
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="UModeler 2021" href="releasenotes_UModeler_2021.html" />
+    <link rel="prev" title="UModeler 2023" href="releasenotes_UModeler_2023.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> Unity UModeler Manual
+            <img src="_static/UModeler_ManualTitle_1.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="settings.html">Toolbar, Settings and Preferences</a></li>
+<li class="toctree-l1"><a class="reference internal" href="menu.html">Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ElementGroup.html">Elements Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SelectionGroup/index.html">Selection Group </a></li>
+<li class="toctree-l1"><a class="reference internal" href="DrawingGroup/index.html">Drawing Group </a></li>
+<li class="toctree-l1"><a class="reference internal" href="PrimitiveShapesGroup/index.html">Primitive Shapes Group </a></li>
+<li class="toctree-l1"><a class="reference internal" href="AddGroup/index.html">Add Group </a></li>
+<li class="toctree-l1"><a class="reference internal" href="RemoveGroup/index.html">Remove Group </a></li>
+<li class="toctree-l1"><a class="reference internal" href="TweakGroup/index.html">Tweak Group </a></li>
+<li class="toctree-l1"><a class="reference internal" href="SurfaceGroup/index.html">Surface Group </a></li>
+<li class="toctree-l1"><a class="reference internal" href="MiscGroup/index.html">Misc Group </a></li>
+<li class="toctree-l1"><a class="reference internal" href="UVEditor/index.html">UV Editor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="HotspotTexturing.html">Hotspot Texturing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="UModelerLite.html">UModeler Lite</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FAQ.html">FAQ</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="releasenotes.html">Release Notes</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="releasenotes_UModeler_2023.html">UModeler 2023</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">UModeler 2022</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-9-25-dec-30-2022">Version 2.9.25 | Dec.30.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-9-24-dec-27-2022">Version 2.9.24 | Dec.27.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-9-23-dec-19-2022">Version 2.9.23 | Dec.19.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-9-22-dec-2-2022">Version 2.9.22 | Dec.2.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-9-21-nov-24-2022">Version 2.9.21 | Nov.24.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-9-20-nov-14-2022">Version 2.9.20 | Nov.14.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-9-19-nov-11-2022">Version 2.9.19 | Nov.11.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-9-18-2-hotfix-october-20-2022">Version 2.9.18-2 hotfix | October.20.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-9-18-1-hotfix-october-18-2022">Version 2.9.18-1 hotfix | October.18.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-9-18-october-17-2022">Version 2.9.18 | October.17.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-9-17-1-september-08-2022">Version 2.9.17-1 | September.08.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-9-17-september-08-2022">Version 2.9.17 | September.08.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-9-16-september-02-2022">Version 2.9.16 | September.02.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-9-15-august-19-2022">Version 2.9.15 | August.19.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-9-14-august-11-2022">Version 2.9.14 | August.11.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-9-13-august-1-2022">Version 2.9.13 | August.1.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-9-12-july-30-2022">Version 2.9.12 | July.30.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-9-11-july-27-2022">Version 2.9.11 | July.27.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-9-10-july-25-2022">Version 2.9.10 | July.25.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-9-9-july-15-2022">Version 2.9.9 | July.15.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-9-8-july-14-2022">Version 2.9.8 | July.14.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-9-7-july-13-2022">Version 2.9.7 | July.13.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-9-6-july-09-2022">Version 2.9.6 | July.09.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-9-4-june-29-2022">Version 2.9.4 | June.29.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-9-3-june-10-2022">Version 2.9.3 | June.10.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-9-2-may-31-2022">Version 2.9.2 | May.31.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-9-1-may-23-2022">Version 2.9.1 | May.23.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-9-0-april-11-2022">Version 2.9.0 | April.11.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-8-21-march-31-2022">Version 2.8.21 | March.31.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-8-20-march-23-2022">Version 2.8.20 | March.23.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-8-19-march-14-2022">Version 2.8.19 | March.14.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-8-18-march-10-2022">Version 2.8.18 | March.10.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-8-17-feb-25-2022">Version 2.8.17 | Feb.25.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-8-16-feb-17-2022">Version 2.8.16 | Feb.17.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-8-15-feb-14-2022">Version 2.8.15 | Feb.14.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-8-14-feb-7-2022">Version 2.8.14 | Feb.7.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-8-13-feb-7-2022">Version 2.8.13 | Feb.7.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-8-12-jan-24-2022">Version 2.8.12 | Jan.24.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-8-11f3-jan-19-2022">Version 2.8.11f3 | Jan.19.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-8-11f2-jan-18-2022">Version 2.8.11f2 | Jan.18.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-8-11-jan-18-2022">Version 2.8.11 | Jan.18.2022</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version-2-8-10f3-jan-3-2022">Version 2.8.10f3 | Jan.3.2022</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes_UModeler_2021.html">UModeler 2021</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes_UModeler_2020.html">UModeler 2020</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes_UModeler_2019.html">UModeler 2019</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes_UModeler_2018.html">UModeler 2018</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes_UModeler_2017.html">UModeler 2017</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes_UModelerLite.html">UModeler Lite</a></li>
+<li class="toctree-l2"><a class="reference internal" href="releasenotes_UModelerBasic.html">UModeler Basic</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Unity UModeler Manual</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="releasenotes.html">Release Notes</a> &raquo;</li>
+      <li>UModeler 2022</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/releasenotes_UModeler_2022.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="umodeler-2022">
+<h1>UModeler 2022<a class="headerlink" href="#umodeler-2022" title="Permalink to this headline">¶</a></h1>
+<section id="version-2-9-25-dec-30-2022">
+<h2>Version 2.9.25 | Dec.30.2022<a class="headerlink" href="#version-2-9-25-dec-30-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Fixed an issue where a child asset object of a prefab was removed when the prefab mode was closed.</p></li>
+<li><p>Fixed a bug where components were removed when UModelerizing.</p></li>
+</ul>
+</section>
+<section id="version-2-9-24-dec-27-2022">
+<h2>Version 2.9.24 | Dec.27.2022<a class="headerlink" href="#version-2-9-24-dec-27-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Fixed an error which occurred in TPUModelerEditor.UModelerEditorInitializer.OnSceneLoaded()</p></li>
+<li><p>Fixed an issue where a vertex selection by LMB clicking didn’t work in the Hotspot Layout Editor.</p></li>
+</ul>
+</section>
+<section id="version-2-9-23-dec-19-2022">
+<h2>Version 2.9.23 | Dec.19.2022<a class="headerlink" href="#version-2-9-23-dec-19-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Supports the basic materials for URP and HDRP by default. You don’t need to convert them in URP or HDRP project anymore.</p></li>
+</ul>
+</section>
+<section id="version-2-9-22-dec-2-2022">
+<h2>Version 2.9.22 | Dec.2.2022<a class="headerlink" href="#version-2-9-22-dec-2-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Fixed an issue where the prefab editor is paused when the prefab UModeler object has children.</p></li>
+<li><p>Fixed an issue where drawing a line using the Line tool doesn’t work on the bent quad polygon to cut it out.</p></li>
+</ul>
+</section>
+<section id="version-2-9-21-nov-24-2022">
+<h2>Version 2.9.21 | Nov.24.2022<a class="headerlink" href="#version-2-9-21-nov-24-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Fixed a Mirror Object Tool issue where the original mesh disappears when Duplicate and Mirror runs.</p></li>
+</ul>
+</section>
+<section id="version-2-9-20-nov-14-2022">
+<h2>Version 2.9.20 | Nov.14.2022<a class="headerlink" href="#version-2-9-20-nov-14-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Giveaway the New 3D asset called Riverwalk City made for URP.</p></li>
+</ul>
+</section>
+<section id="version-2-9-19-nov-11-2022">
+<h2>Version 2.9.19 | Nov.11.2022<a class="headerlink" href="#version-2-9-19-nov-11-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Fixed an issue where the original material changed to UModeler material after UModelerizing.</p></li>
+<li><p>Added Remove UModeler and Remove UModeler Hierarchically in the menu to remove UModeler components of the selected game objects.</p></li>
+<li><p>Creates UModeler as Byte Stream Data option in the Preference has been remove because it isn’t supported anymore.</p></li>
+</ul>
+</section>
+<section id="version-2-9-18-2-hotfix-october-20-2022">
+<h2>Version 2.9.18-2 hotfix | October.20.2022<a class="headerlink" href="#version-2-9-18-2-hotfix-october-20-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Fixed a bug where NullReferenceException error occurs when non-UModeler object is selected in the hierarchy window</p></li>
+</ul>
+</section>
+<section id="version-2-9-18-1-hotfix-october-18-2022">
+<h2>Version 2.9.18-1 hotfix | October.18.2022<a class="headerlink" href="#version-2-9-18-1-hotfix-october-18-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Fixed an issue where “mainRenderableMesh is null” message was displayed in the console when UModelerize tool is used.</p></li>
+</ul>
+</section>
+<section id="version-2-9-18-october-17-2022">
+<h2>Version 2.9.18 | October.17.2022<a class="headerlink" href="#version-2-9-18-october-17-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Prefab workflow : UModeler’s prefab workflow has be improved a a lot in this update. Now UModeler prefab instance can be edited only in the Prefab Editor. Please read <a class="reference external" href="https://tripolygon.notion.site/The-Improvement-of-the-Prefab-workflow-in-UModeler-2-9-18-7b654e55da934db190396e3e9c21aeab">this document</a> before updating UModeler.</p></li>
+<li><p>PushPull tool : Fixed an issue where the polygons disappear when you started to push or pull a polygon.</p></li>
+</ul>
+</section>
+<section id="version-2-9-17-1-september-08-2022">
+<h2>Version 2.9.17-1 | September.08.2022<a class="headerlink" href="#version-2-9-17-1-september-08-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Fixed a mirror tool issue where the undo/redo actions while using mirror tool caused some broken mesh.</p></li>
+</ul>
+</section>
+<section id="version-2-9-17-september-08-2022">
+<h2>Version 2.9.17 | September.08.2022<a class="headerlink" href="#version-2-9-17-september-08-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Fixed an issue where some error messages regarding EditableMeshCache occurred after hot-reloading due to the Pastel Town asset which is the built-in 3d package of UModeler.</p></li>
+</ul>
+</section>
+<section id="version-2-9-16-september-02-2022">
+<h2>Version 2.9.16 | September.02.2022<a class="headerlink" href="#version-2-9-16-september-02-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Fixed an issue where the buttons for saving as .asset in Meshfilter were not displayed when both UModeler and UModeler lite were installed.</p></li>
+<li><p>Added some slide bars in the Preference to adjust fade in/out tmee and duration of commentary box and texts in the Preference.</p></li>
+<li><p>Fixed a PushPull tool issue where pulling a polygon to the opposite polygon caused some errors.</p></li>
+</ul>
+</section>
+<section id="version-2-9-15-august-19-2022">
+<h2>Version 2.9.15 | August.19.2022<a class="headerlink" href="#version-2-9-15-august-19-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Fixed an issue where the smoothing group isn’t applied when UModeler object is exported as .obj</p></li>
+</ul>
+</section>
+<section id="version-2-9-14-august-11-2022">
+<h2>Version 2.9.14 | August.11.2022<a class="headerlink" href="#version-2-9-14-august-11-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Fixed an issue where the UModeler Lite object wasn’t converted to UModeler object using UModelerize</p></li>
+<li><p>Fixed an issue where the Scene dirty flag was enabled when UModeler object was selected.</p></li>
+<li><p>Fixed an issue where element selection between UV Editor and Scene view wasn’t synced.</p></li>
+<li><p>Fixed an issue where the Cancel tool in UVEditor to cancel unwrapping didn’t work.</p></li>
+<li><p>Fixed an issue where Auto Smooth property in Sphere and Capsule tools etc didn’t work.</p></li>
+<li><p>Fixed a bug where a box disappeared while it was created due to an error.</p></li>
+</ul>
+</section>
+<section id="version-2-9-13-august-1-2022">
+<h2>Version 2.9.13 | August.1.2022<a class="headerlink" href="#version-2-9-13-august-1-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Bevel Tool : Fixed an issue where some polygons disappeared which missed in the previous update when the bevel tool splitted multiple edges in nearly straight more edges.</p></li>
+<li><p>The new asset called Pixel Farm 3D made with UModeler is included.</p></li>
+</ul>
+</section>
+<section id="version-2-9-12-july-30-2022">
+<h2>Version 2.9.12 | July.30.2022<a class="headerlink" href="#version-2-9-12-july-30-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Bevel Tool : Fixed an issue where the bevel tool didn’t work at a vertex connecting with 4 edges.</p></li>
+<li><p>Bevel Tool : Fixed an issue where side polygons disappear while the bevel tool running.</p></li>
+<li><p>The new asset called Pixel Farm 3D made with UModeler is included.</p></li>
+</ul>
+</section>
+<section id="version-2-9-11-july-27-2022">
+<h2>Version 2.9.11 | July.27.2022<a class="headerlink" href="#version-2-9-11-july-27-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>The new asset called Pixel Farm 3D made with UModeler is included.</p></li>
+<li><p>Fixed the Boolean tool issue where the resulting object disappeared.</p></li>
+</ul>
+</section>
+<section id="version-2-9-10-july-25-2022">
+<h2>Version 2.9.10 | July.25.2022<a class="headerlink" href="#version-2-9-10-july-25-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Improved the performance of UModelerize by about 40 times so that any meshes even with smoothing groups can be converted to UModeler mesh immediately.</p></li>
+<li><p>Improved the way of drawing wireframe to increase the drawing speed and not to be affected by the postprocess.</p></li>
+<li><p>Improved the performance of mesh editing so that at least the meshes in the synty studio’s asset packages can be edited comfortably.</p></li>
+</ul>
+</section>
+<section id="version-2-9-9-july-15-2022">
+<h2>Version 2.9.9 | July.15.2022<a class="headerlink" href="#version-2-9-9-july-15-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Fixed a bug where an edge polygon was created when two vertices were connected by pressing “SPACE”</p></li>
+</ul>
+</section>
+<section id="version-2-9-8-july-14-2022">
+<h2>Version 2.9.8 | July.14.2022<a class="headerlink" href="#version-2-9-8-july-14-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Fixed massive error messages recurred while the mouse cursor was moving as Seamless Editor mode is “All” or “Group”</p></li>
+</ul>
+</section>
+<section id="version-2-9-7-july-13-2022">
+<h2>Version 2.9.7 | July.13.2022<a class="headerlink" href="#version-2-9-7-july-13-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Fixed an issue where some edge polygons were left after removing edges by using the Eraser tool or pressing ‘Del’ key.</p></li>
+</ul>
+</section>
+<section id="version-2-9-6-july-09-2022">
+<h2>Version 2.9.6 | July.09.2022<a class="headerlink" href="#version-2-9-6-july-09-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Fixed some buggy behaviours related to vertex/edge/polygon movement.</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">Reset</span> <span class="pre">all</span> <span class="pre">settings</span></code> in the menu.</p></li>
+<li><p>Fixed the aspect ratio issue of UV Editor and Hotspot layer Editor.</p></li>
+<li><p>Fixed a bug where an edge polygon is created when two edges are connected by pressing <code class="docutils literal notranslate"><span class="pre">SPACE</span></code></p></li>
+<li><p>Fixed a bug where an narrow polygons are created when using Inset tool.</p></li>
+</ul>
+</section>
+<section id="version-2-9-4-june-29-2022">
+<h2>Version 2.9.4 | June.29.2022<a class="headerlink" href="#version-2-9-4-june-29-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Added the Subdivide tool in Add group. This enables you to subdivide selected polygons.</p></li>
+<li><p>Fixed an issue regarding the orange outline.</p></li>
+<li><p>Fixed an issue where the large icons’ size was same as the small icons’ size when the menu window was floating.</p></li>
+</ul>
+</section>
+<section id="version-2-9-3-june-10-2022">
+<h2>Version 2.9.3 | June.10.2022<a class="headerlink" href="#version-2-9-3-june-10-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Added a new feature to export and import whole settings of UModeler such as Preference, Tool properties, Settings, UV Editor Settings etc.</p></li>
+</ul>
+</section>
+<section id="version-2-9-2-may-31-2022">
+<h2>Version 2.9.2 | May.31.2022<a class="headerlink" href="#version-2-9-2-may-31-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Fixed an issue where selection Outline was disabled when UModeler object got selected.</p></li>
+<li><p>Hotspot Layout : Added a new property called Hotspot Priority to map a triangle polygon   to a more precise triangle layout.</p></li>
+</ul>
+</section>
+<section id="version-2-9-1-may-23-2022">
+<h2>Version 2.9.1 | May.23.2022<a class="headerlink" href="#version-2-9-1-may-23-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>UV Editor : Fixed the Setting window issue of the UV Editor where the bottom item wasn’t visible wholly.</p></li>
+<li><p>Boolean Tool : Fixed an Boolean tool error occuring when two meshes with lots of polygons are operated using the Boolean operation.</p></li>
+<li><p>Vertex/Edge/Polygon Tools : Fixed an issue regarding Generate UVs property in Element tools.</p></li>
+<li><p>Polygon Tool : Fixed a bug where Snap to Polygon doesn’t work when a polygon gets close to another polygon.</p></li>
+<li><p>Capsule Tool : Fixed an issue where Auto Smoothing property didn’t work in the Capsule tool.</p></li>
+<li><p>Hotspot Texturing : Fixed an issue of Hotspot texturing to make Scale property work better for a triangle.</p></li>
+<li><p>Stair Tool : Replaced Wide Step and Reverse properties with Rotate by 90° button.</p></li>
+</ul>
+</section>
+<section id="version-2-9-0-april-11-2022">
+<h2>Version 2.9.0 | April.11.2022<a class="headerlink" href="#version-2-9-0-april-11-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>NEW FEATURE : Remastered Menu Icon Mode. The Reshaped Icons and The Large Ion Mode.</p></li>
+<li><p>Fix : Fixed a crash bug recurring when undoing after detaching polygons with the Detach tool</p></li>
+<li><p>Fix : Fixed a crash bug recurring when undoing a cut operation that detaches the object.</p></li>
+</ul>
+</section>
+<section id="version-2-8-21-march-31-2022">
+<h2>Version 2.8.21 | March.31.2022<a class="headerlink" href="#version-2-8-21-march-31-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Fix : Fixed a NullReferenceException error occuring when a polygon is rotated and it is triangulated.</p></li>
+</ul>
+</section>
+<section id="version-2-8-20-march-23-2022">
+<h2>Version 2.8.20 | March.23.2022<a class="headerlink" href="#version-2-8-20-march-23-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Fix : Fixed an issue where multiple vertices weren’t removed using Eraser Tool.</p></li>
+<li><p>Fix : Fixed an issue where the following error message recurred in Unity 2022.1. MissingMethodException: Method not found: void UnityEditor.Unwrapping.GenerateSecondaryUVSet</p></li>
+</ul>
+</section>
+<section id="version-2-8-19-march-14-2022">
+<h2>Version 2.8.19 | March.14.2022<a class="headerlink" href="#version-2-8-19-march-14-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Improvement : Added a new function to disable cursor magnet(snap) by holding CTRL.</p></li>
+<li><p>Fix : Fixed an edge duplication issue happening as using the Duplicate tool.</p></li>
+</ul>
+</section>
+<section id="version-2-8-18-march-10-2022">
+<h2>Version 2.8.18 | March.10.2022<a class="headerlink" href="#version-2-8-18-march-10-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Improvement : Made Loop Selection tool more perfect.</p></li>
+<li><p>Fix : Fixed an issue where Mesh Collider component is toggled on and off automatically.</p></li>
+</ul>
+</section>
+<section id="version-2-8-17-feb-25-2022">
+<h2>Version 2.8.17 | Feb.25.2022<a class="headerlink" href="#version-2-8-17-feb-25-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Fix : Fixed a bug where UV polygons are strecthed as unwrapped using the Autolayout.</p></li>
+<li><p>Fix : Fixed a bug of Mirror Object tool where vertices can’t be selected after running Duplicate and Mirror</p></li>
+</ul>
+</section>
+<section id="version-2-8-16-feb-17-2022">
+<h2>Version 2.8.16 | Feb.17.2022<a class="headerlink" href="#version-2-8-16-feb-17-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Fix : Fixed a bug whose error message is “Unable to add Renderer to the Scene after Culling” in a project with the AQUAS asset.</p></li>
+</ul>
+</section>
+<section id="version-2-8-15-feb-14-2022">
+<h2>Version 2.8.15 | Feb.14.2022<a class="headerlink" href="#version-2-8-15-feb-14-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Fix : Fixed a bug where the current tool changed to the Object Tool as an element was selected.</p></li>
+</ul>
+</section>
+<section id="version-2-8-14-feb-7-2022">
+<h2>Version 2.8.14 | Feb.7.2022<a class="headerlink" href="#version-2-8-14-feb-7-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Fix : Fixed a bug where creating a primitive shape didn’t work on another UModeler object.</p></li>
+</ul>
+</section>
+<section id="version-2-8-13-feb-7-2022">
+<h2>Version 2.8.13 | Feb.7.2022<a class="headerlink" href="#version-2-8-13-feb-7-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Enhancement : Forces the current tool to be the object tool when selected. This can be enabled in the Preference window.</p></li>
+<li><p>Enhancement : Rotates the global gizmo by the transform. This can be enabled in the Preference window.</p></li>
+<li><p>Fix : Fixed the issue of <code class="docutils literal notranslate"><span class="pre">Isolation</span> <span class="pre">Selection</span> <span class="pre">Tool</span></code> where overlapped faces not connected were selected.</p></li>
+</ul>
+<figure class="align-default">
+<a class="reference internal image-reference" href="_images/Preference_EnablesTheObjectTool_RotatesTheGlobalGizmo.png"><img alt="_images/Preference_EnablesTheObjectTool_RotatesTheGlobalGizmo.png" src="_images/Preference_EnablesTheObjectTool_RotatesTheGlobalGizmo.png" style="width: 326.2px; height: 201.6px;" /></a>
+</figure>
+</section>
+<section id="version-2-8-12-jan-24-2022">
+<h2>Version 2.8.12 | Jan.24.2022<a class="headerlink" href="#version-2-8-12-jan-24-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Fix : Fixed a warning regarding non-secure network connections in Unity 2022.1b</p></li>
+</ul>
+</section>
+<section id="version-2-8-11f3-jan-19-2022">
+<h2>Version 2.8.11f3 | Jan.19.2022<a class="headerlink" href="#version-2-8-11f3-jan-19-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Fix : Fixed an error occuring when exiting the prefab mode.</p></li>
+<li><p>Fix : Fixed another issue where edited parts disappear while modifying and appear again at the end of editing intermittently when both the scene view and the game view are opened.</p></li>
+</ul>
+</section>
+<section id="version-2-8-11f2-jan-18-2022">
+<h2>Version 2.8.11f2 | Jan.18.2022<a class="headerlink" href="#version-2-8-11f2-jan-18-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Asset : Includes the PastelTown-BuiltInRP-UModeler package by default.</p></li>
+<li><p>Fix : Fixed a TryGetComponent() issue in Unity 2019.1 or less.</p></li>
+<li><p>Fix : Fixed an issue where edited parts continue to appear and disappear while modifying</p></li>
+</ul>
+</section>
+<section id="version-2-8-11-jan-18-2022">
+<h2>Version 2.8.11 | Jan.18.2022<a class="headerlink" href="#version-2-8-11-jan-18-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Asset : Includes the PastelTown-BuiltInRP-UModeler package by default.</p></li>
+<li><p>Fix : Fixed an issue where changes are displayed on all copies while editing any of the copies when objects are duplicated.</p></li>
+<li><p>Optimization : Enhanced the performance by stopping unnecessary memory allocation which happened when UModeler objects were selected.</p></li>
+</ul>
+</section>
+<section id="version-2-8-10f3-jan-3-2022">
+<h2>Version 2.8.10f3 | Jan.3.2022<a class="headerlink" href="#version-2-8-10f3-jan-3-2022" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Asset : Includes the Moonglow Village Demo Package for 2.8.10 users.</p></li>
+<li><p>Fix : Fixed a crash error when undoing creating UModeler object in Unity 2021.2.1 and higher versions.</p></li>
+<li><p>Fix : Fixed a warning issue regarding “Serialization depth limit 10 exceeded” caused by the codes of Mirror Cancel Function which was implemented in 2.8.10. The cancel function of the mirror tool has been reverted so it won’t be available for now till we’ll find a solution.</p></li>
+<li><p>Fix : Fixed a .obj exporer bug where the multiple materials in the exported UModeler object couldn’t be imported in Unity.</p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="releasenotes_UModeler_2023.html" class="btn btn-neutral float-left" title="UModeler 2023" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="releasenotes_UModeler_2021.html" class="btn btn-neutral float-right" title="UModeler 2021" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021, tripolygon.</p>
+  </div>
+
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
