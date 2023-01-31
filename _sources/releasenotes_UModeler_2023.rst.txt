@@ -2,6 +2,10 @@
 UModeler 2023
 ############################
 
+Version 2.10.1 | Jan.31.2023
+==================================
+- Fixed the vertex selection issue where the occluded vertices that should not have been selected been selected using the rectangle selection
+
 Version 2.10.0 | Jan.25.2023
 ==================================
 - Fixed an issue where ``Error : mainRenderableMesh is Null`` error occurred when a mesh was saved.
