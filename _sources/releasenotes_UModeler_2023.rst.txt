@@ -2,9 +2,14 @@
 UModeler 2023
 ############################
 
+Version 2.10.2 | Feb.2.2023
+==================================
+- Fixed a bug where UV settings like Shift, Scale, Rotate etc in the UV tool are reset when a polygon is split using Loop Slice tool.
+- Fixed an issue where UV settings like Shift, Scale, Rotate aren't updated in real time on the polygons with smoothing groups.
+
 Version 2.10.1 | Jan.31.2023
 ==================================
-- Fixed the vertex selection issue where the occluded vertices that should not have been selected been selected using the rectangle selection
+- Fixed the vertex selection issue where the occluded vertices that should not have been selected were selected using the rectangle selection
 
 Version 2.10.0 | Jan.25.2023
 ==================================
