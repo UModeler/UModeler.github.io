@@ -2,6 +2,11 @@
 UModeler 2023
 ############################
 
+Version 2.10.3 | Feb.23.2023
+==================================
+- Fixed a flickering issue caused in a UModeler mesh to which the smoothing group and lightmaps are applied.
+- Fixed an issue where some vertices of Capsule and Cylinder shapes are detached when they are moved.
+
 Version 2.10.2 | Feb.2.2023
 ==================================
 - Fixed a bug where UV settings like Shift, Scale, Rotate etc in the UV tool are reset when a polygon is split using Loop Slice tool.
