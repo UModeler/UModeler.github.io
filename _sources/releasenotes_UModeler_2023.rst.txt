@@ -4,7 +4,7 @@ UModeler 2023
 
 Version 2.10.4 | Feb.27.2023
 ==================================
-- Fixed an issue where polygons to whitch smoothing groups are assigned are invisible.
+- Fixed an issue where polygons to which smoothing groups are assigned are invisible.
 
 Version 2.10.3 | Feb.23.2023
 ==================================
