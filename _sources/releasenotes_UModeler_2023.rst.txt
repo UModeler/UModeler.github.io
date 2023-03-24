@@ -2,6 +2,10 @@
 UModeler 2023
 ############################
 
+Version 2.10.4 | Mar.24.2023
+==================================
+- Fixed an issue where polygon counts got doubled when UModelerizing with "Create Smoothing Groups as UModelerize"
+
 Version 2.10.4 | Feb.27.2023
 ==================================
 - Fixed an issue where polygons to which smoothing groups are assigned are invisible.
