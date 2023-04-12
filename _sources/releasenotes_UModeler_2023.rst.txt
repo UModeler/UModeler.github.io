@@ -2,6 +2,10 @@
 UModeler 2023
 ############################
 
+Version 2.10.6 | Apr.10.2023
+==================================
+- Fixed a NullReferenceException issue that occurred while setting a prefab instance during the loading process.
+
 Version 2.10.5 | Mar.24.2023
 ==================================
 - Fixed an issue where polygon counts got doubled when UModelerizing with "Create Smoothing Groups as UModelerize"
