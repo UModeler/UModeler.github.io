@@ -2,6 +2,10 @@
 UModeler 2023
 ############################
 
+Version 2.10.7 | Apr.18.2023
+==================================
+- Fixed another NullReferenceException issue in the CheckAllUModelerPrefabInstance() method. This issue occurred in a level containing many prefab UModeler instances created with an older version of UModeler.
+
 Version 2.10.6 | Apr.10.2023
 ==================================
 - Fixed a NullReferenceException issue that occurred while setting a prefab instance during the loading process.
