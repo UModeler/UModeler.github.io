@@ -2,6 +2,14 @@
 UModeler 2023
 ############################
 
+Version 2.10.9 | Apr.28.2023
+==================================
+- Fixed an issue where editing a mesh with very small and invalid polygons caused exception errors and performance issues.
+
+Version 2.10.8 | Apr.21.2023
+==================================
+- Fixed NullReferenceException error occurred where Select by Selected Polygons button is clicked.
+
 Version 2.10.7 | Apr.18.2023
 ==================================
 - Fixed another NullReferenceException issue in the CheckAllUModelerPrefabInstance() method. This issue occurred in a level containing many prefab UModeler instances created with an older version of UModeler.
