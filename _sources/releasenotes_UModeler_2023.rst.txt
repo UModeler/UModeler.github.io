@@ -2,6 +2,15 @@
 UModeler 2023
 ############################
 
+Version 2.10.11 | June.29.2023
+=================================
+- Fixed a bug related to the rect selection where vertices behind the camera were selected.
+- Fixed the issue where there was a problem with UV movement in the UV Editor when the texture size was different horizontally and vertically.
+
+Version 2.10.10 | June.02.2023
+=================================
+- Added a new feature called [Snap Angle] in the Cut tool.
+
 Version 2.10.9 | Apr.28.2023
 ==================================
 - Fixed an issue where editing a mesh with very small and invalid polygons caused exception errors and performance issues.
