@@ -2,6 +2,11 @@
 UModeler Lite
 ############################
 
+.. note::
+
+ As of ``September 19th 2023`` ``UModeler lite`` is deprecated. For those who have already downloaded the Lite version, you can continue to use it, but there will be no further updates.
+ 
+
 1.0.7 - July.13.2022
 ========================
 - Fixed some buggy behaviours related to vertex/edge/polygon movement which were caused when vertices are located at an edge of anoter polygon.
