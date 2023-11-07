@@ -2,6 +2,17 @@
 UModeler 2023
 ############################
 
+Version 2.10.13 | Nov.07.2023
+=================================
+- Added a feature to align multiple polygons and islands when using tools from the alignment group in the UV Editor.
+
+Version 2.10.12 | Oct.06.2023
+=================================
+- Fixed a bug in the Pivot To Center Tool where errors occurred when executing Top Center and Bottom Center.
+- Fixed an issue where the save indicator did not appear when modified in the Local Settings Tool.
+- Fixed a bug where the Export Tool in UVEditor did not work properly in HDRP mode.
+- Fixed a problem that arose when some objects were not deleted during script reloading.
+
 Version 2.10.11 | June.29.2023
 =================================
 - Fixed a bug related to the rect selection where vertices behind the camera were selected.
