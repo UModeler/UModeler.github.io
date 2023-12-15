@@ -2,6 +2,11 @@
 UModeler 2023
 ############################
 
+Version 2.10.14 | Dec. 07, 2023
+=================================
+- Fixed an issue where null reference exception occurs when a line or a curve is drawn in the Prefab mode.
+- Added "Disable Mesh Read/Write" property in the Local Settings tool.
+
 Version 2.10.13 | Nov.07.2023
 =================================
 - Added a feature to align multiple polygons and islands when using tools from the alignment group in the UV Editor.
