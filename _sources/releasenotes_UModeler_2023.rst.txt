@@ -2,6 +2,11 @@
 UModeler 2023
 ############################
 
+Version 2.10.15 | Dec. 21, 2023
+=================================
+- Fixed an issue where selected faces would disappear in the UV tool upon saving a scene.
+- Added a static delegate named 'BridgeTool.CallbackAfterBridgeToolExecuted' that is triggered after the execution of the bridge tool.
+
 Version 2.10.14 | Dec. 07, 2023
 =================================
 - Fixed an issue where null reference exception occurs when a line or a curve is drawn in the Prefab mode.
