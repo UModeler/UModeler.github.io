@@ -2,12 +2,22 @@
 UModeler 2024
 ############################
 
-Version 2.11.1 | Jan.30.2023
+UModeler 2.11.3 | Feb. 5, 2024
+================================
+- Fixed an issue where the 'Refresh All' function didn't update all intended components.
+- Fixed an issue causing a slight upward shift in UModeler objects when moved with the world gizmo enabled
+- Added a property called `Display the Refresh All Console Message` in Preferences, disabling the 'Refresh All' message display by default.
+
+UModeler 2.11.2 | Jan. 31, 2024
+================================
+- Feature Update: Horizontal flip functionality has been added to the Y Lock of the hotspot texture.
+
+Version 2.11.1 | Jan.30.2024
 =================================
 - Added a configurable option called "User Experience Analytics" in the Preferences window, allowing users to manage their preferences for analytics data collection.
 - Fixed the null exception error related to sending analytics data.
 
-Version 2.11.0 | Jan.25, 2023
+Version 2.11.0 | Jan.25, 2024
 =================================
 - Introduced the 'Y-Axis Layout Lock' feature to enhance hotspot texturing workflow.
 
