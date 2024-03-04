@@ -2,6 +2,14 @@
 UModeler 2024
 ############################
 
+UModeler 2.11.5 | Feb.29.2024
+=================================
+- Fixed an issue where the UV layout was exporting incorrectly in UVEditor on Silicon Mac.
+
+UModeler 2.11.4 | Feb.22.2024
+=================================
+- Resolved an issue where UModeler objects were not snapping correctly in Object Mode when snapping was activated.
+
 UModeler 2.11.3 | Feb. 5, 2024
 ================================
 - Fixed an issue where the 'Refresh All' function didn't update all intended components.
