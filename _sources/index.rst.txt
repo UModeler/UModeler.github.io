@@ -11,8 +11,7 @@
 
  <a href="https://assetstore.unity.com/packages/tools/modeling/umodeler-model-your-world-80868?utm_source=manual&utm_medium=link&utm_campaign=umodeler" target="_blank">UModeler</a> | 
  <a href="https://assetstore.unity.com/packages/tools/modeling/umodeler-x-with-ai-texturing-254983"target="_blank">UModeler X</a> |
- <a href="https://classic.umodeler.com/" target="_blank">Website</a> | 
- <a href="https://cafe.naver.com/tripolygon/31" target="_blank">한글 메뉴얼</a>
+ <a href="https://classic.umodeler.com/" target="_blank">Website</a>
  
 .. only:: latex or epub or singlehtml
 
